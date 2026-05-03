@@ -25,10 +25,28 @@
     <description>场景白盒化推理 § 场景白盒化推理 是指将 AI 的生成过程从不可见的“黑盒”转变为可见、可追踪、可干预的“白盒”。这是 下一代内容OS 的核心特性，旨在解决传统 AI 生成工具“抽卡”式不可控的问题。 核心定义 § 在白盒化推理系统中，AI 不再是单向输出结果的工具，而是与用户处于同一个协作流程中。用户可以理解 AI 的生成逻辑，并在任意环节接管或修改内容。 与黑盒模式的对比 § 特性黑盒模式白盒化推理过程可见性不可见，仅输出结果可追踪，步骤可解释用户介入仅能通过 Prompt 调整可直接编辑任意中间产物试错成本高（反复生成消耗 Tokens）低（直接修改迭代）控制权AI 主导人机协同，人拥有最终控制权 实现机制 § 根据 pi-presentation-intelligence 的架构，白盒化推理通过 runtime-agent-os 的 交互层 实现，包含以下六个环节： 理解 调度 操作 轮询 反馈 冲突处理 这套机制将设计产出拆解为细颗粒度的步骤，使得数据拉取、图表生成、版式调整等过程均可被干预。 行业意义 § 白盒化推理代表了 AI 应用从“生成范式”向“任务执行范式”的转移。它强调系统能力（可控性、可复用性、可编辑性）优于单纯的生成速度。.</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
+    <title>FlexKV</title>
+    <link>https://quartz.jzhao.xyz/concepts/flexkv</link>
+    <guid>https://quartz.jzhao.xyz/concepts/flexkv</guid>
+    <description>FlexKV § FlexKV 是一种分布式 KV 缓存技术，旨在解决大模型推理中的显存容量限制和资源调度灵活性问题。它被集成在 vLLM v0.20 及以后的版本中。 核心功能 § FlexKV 允许将 KV Cache 从 GPU 显存中卸载 (Offload) 到其他存储介质，包括： CPU 内存 本地 SSD 远程网络存储 应用场景：Disaggregated Serving (分离式服务) § FlexKV 支持将推理的不同阶段部署在不同的硬件资源上： Prefill 阶段（计算密集）：可以部署在拥有强大算力的 GPU 集群上。 Decode 阶段（内存密集）：可以利用 FlexKV 将庞大的 KV Cache 存储在廉价的 CPU 内存或 SSD 中，仅将当前计算所需的数据加载回 GPU。 这种架构使得大规模推理服务不再受限于单张显卡的显存大小，实现了计算资源与存储资源的解耦和独立扩展。.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>KV Cache</title>
+    <link>https://quartz.jzhao.xyz/concepts/kv-cache</link>
+    <guid>https://quartz.jzhao.xyz/concepts/kv-cache</guid>
+    <description>KV Cache § KV Cache（键值缓存）是大模型推理过程中用于存储中间状态的显存区域。每当模型生成一个新的 Token，它都需要回顾之前所有 Token 的 Key 和 Value 向量来计算注意力分数。将这些向量缓存起来可以避免重复计算，是自回归模型推理的基础。 核心瓶颈 § 随着上下文长度的增加，KV Cache 的大小会线性增长。对于 128k 长度的上下文，KV Cache 可能占用几十 GB 的显存。这使得显存容量和带宽，而非 GPU 的算力，成为了大模型推理的主要瓶颈。 优化技术 § 为了解决 KV Cache 带来的显存压力，工程界发展出了多种优化技术： PagedAttention： 由 vLLM 引入，借鉴操作系统的分页内存管理，解决了 KV Cache 的碎片化问题，提高了显存利用率。 量化： 通过降低数值精度来压缩 KV Cache 的大小。例如，TurboQuant 技术可以将 KV Cache 从 16-bit 压缩至 2-bit，在几乎不损失精度的情况下将显存占用减少 4-8 倍。 架构压缩： 如 DeepSeek V4 使用的 MLA (Multi-Head Latent Attention)，通过数学变换在模型架构层面压缩 KV 的维度。 卸载： 利用 FlexKV 等技术，将 KV Cache 从 GPU 显存卸载到 CPU 内存、SSD 甚至远程存储，以突破单卡显存的物理限制。 .</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
     <title>Mixture-of-Transformer</title>
     <link>https://quartz.jzhao.xyz/concepts/mixture-of-transformer</link>
     <guid>https://quartz.jzhao.xyz/concepts/mixture-of-transformer</guid>
     <description>Mixture-of-Transformer (MoT) § Mixture-of-Transformer (MoT) 是 商汤科技 在 sensenova-u1 模型中采用的主干网络架构。它不同于传统的 Mixture-of-Experts (MoE)，旨在通过混合不同的 Transformer 处理路径来统一处理多模态任务。 在 SenseNova-U1 中的作用 § 在 neo-unify-架构 中，MoT 扮演了核心底层的角色： 共享表征：作为理解和生成任务的共享主干，确保图像理解和图像生成在同一套参数体系下运行。 模态融合：消除了传统架构中视觉编码器（VE）和语言模型（LLM）之间的界限，使得模型能够直接处理像素和文本。 与 MoE 的区别 § 虽然 SenseNova-U1 也有 38B 参数的 MoE 版本，但“Mixture-of-Transformer”更多指代其处理多模态信息的机制设计，而不仅仅是稀疏激活的专家路由。它强调的是不同模态（文本、图像）在 Transformer 层级内的深度融合与统一处理。 相关技术 § 像素流匹配：在 MoT 架构中与文本的自回归学习并行的视觉目标函数。 .</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>MLA (Multi-Head Latent Attention)</title>
+    <link>https://quartz.jzhao.xyz/concepts/mla-多头潜在注意力</link>
+    <guid>https://quartz.jzhao.xyz/concepts/mla-多头潜在注意力</guid>
+    <description>MLA (Multi-Head Latent Attention) § MLA (Multi-Head Latent Attention，多头潜在注意力) 是 DeepSeek V4 系列模型采用的一种新型注意力机制。其核心设计目标是通过“矩阵吸收”技术，大幅压缩推理过程中 KV Cache 的维度，从而降低显存占用。 技术原理 § 传统的 Multi-Head Attention (MHA) 为每个注意力头维护独立的 Key 和 Value 矩阵，导致 KV Cache 的大小随头数线性增长。MLA 引入了低秩的“潜在向量”，将原本庞大的 KV 矩阵压缩到一个极小的潜在空间进行存储和计算。 工程挑战与优化 § 虽然 MLA 在理论上极大地节省了显存，但其非标准的计算图给工程实现带来了挑战： 早期实现：许多推理框架（包括早期的 vLLM）无法直接处理压缩的 KV，不得不将其“反压缩”或展开成标准的 MQA 形式。这不仅浪费了计算资源，也抵消了 MLA 的显存优势。 正确实现：在 vLLM v0.</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
     <title>NEO-Unify 架构</title>
@@ -127,6 +145,12 @@
     <description>DeepSeek V4 § DeepSeek V4 是 DeepSeek 公司发布的最新一代大语言模型。除了在算法层面的创新外，该模型在工程实现上以追求极致的 批次不变性 而著称。 核心工程特性 § 批次不变性 § DeepSeek V4 的核心设计原则是保证“批次不变性”，即对于同一个 token，无论其在批次中的位置、批次大小或批次组合如何变化，模型的输出都能保持逐比特完全一致。这一特性贯穿了预训练、后训练和推理的全流程。 自研算子栈 § 为了支持批次不变性，DeepSeek V4 放弃了部分通用的 GPU 优化库（如 cuBLAS 中的 split-K 功能），转而开发了自研的 DeepGEMM 矩阵乘法库和特定的注意力计算 Kernel。 Dual-Kernel 机制 § 在注意力计算部分，V4 采用了 Dual-Kernel 方案，为同一个任务准备两套计算程序以适应不同的负载情况，同时严格保证两套程序的计算结果完全一致。 技术权衡 § 为了实现上述工程确定性，DeepSeek V4 在以下方面做出了牺牲： GPU 利用率：放弃了 Split-KV 和 Split-K 等能显著提高并行度的优化手段。 推理速度：在小批量或短序列场景下速度可能受到影响。 工程复杂度：需要维护自研的高性能 Kernel 栈，而非直接依赖通用库。 应用价值 § 这种“不计代价”追求确定性的做法，使得 DeepSeek V4 在以下场景中具有独特优势： 强化学习（RL）与蒸馏：减少数值扰动对训练信号的影响。 长上下文与 Agent 应用：保证复杂推理链路的稳定性。 多机多卡训练：确保分布式训练结果的对齐和可复现。 .</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
+    <title>FlashAttention</title>
+    <link>https://quartz.jzhao.xyz/entities/flashattention</link>
+    <guid>https://quartz.jzhao.xyz/entities/flashattention</guid>
+    <description>FlashAttention § FlashAttention 是一种针对 Transformer 模型注意力机制的 IO 感知精确算法，通过优化内存访问模式来显著提升计算速度并减少显存占用。随着版本迭代，它已成为现代推理框架（如 vLLM）的核心后端。 版本演进 § FlashAttention 2/3：早期版本主要针对标准的 Multi-Head Attention (MHA) 进行优化，通过平铺和重计算减少 HBM 访问次数。 FlashAttention 4 (FA4)：在 vLLM v0.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
     <title>GM-100</title>
     <link>https://quartz.jzhao.xyz/entities/gm-100</link>
     <guid>https://quartz.jzhao.xyz/entities/gm-100</guid>
@@ -181,10 +205,22 @@
     <description>SenseNova U1 § SenseNova U1 是商汤科技（SenseTime）推出的“日日新”系列多模态大模型，主打原生理解生成统一。该模型系列于2026年4月开源，旨在通过创新的架构设计，用较小的参数量实现与大型商业闭源模型相当的多模态能力。 版本与参数 § 商汤开源了 SenseNova U1 的轻量版系列 SenseNova U1 Lite，包含以下版本： SenseNova-U1-8B-MoT：80亿参数版本。 SenseNova-U1-A3B-MoT：更轻量的版本。 核心特性 § 原生统一：基于 neo-unify-架构，在同一套思维链路中同时处理图像理解和生成，避免了传统“缝合怪”架构的信息损耗。 连续性图文创作：业内首个实现连续性图文创作输出的模式，能够在生成文本（如故事、教程）的同时实时生成对应的插图，保持角色和场景的高度一致性。 高效率：生成延迟低（约 15秒/2K图），在保持高质量输出的同时具备极高的响应速度。 性能表现 § 根据报道，SenseNova-U1-8B-MoT 在多项基准测试中表现优异： 图像理解：在通用理解和空间理解上超越了 Qwen3VL-30B-A3B 等大参数模型。 图像生成：在信息图生成（39.</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
+    <title>TurboQuant</title>
+    <link>https://quartz.jzhao.xyz/entities/turboquant</link>
+    <guid>https://quartz.jzhao.xyz/entities/turboquant</guid>
+    <description>TurboQuant § TurboQuant 是一种用于大模型推理的高效量化算法，最初由谷歌 DeepMind 在 ICLR 2026 论文中提出。它主要用于压缩推理过程中的 KV Cache，从而在几乎不损失精度的情况下大幅降低显存占用。 核心原理 § 传统的量化方法（如直接将 FP16 舍入为 INT2）会导致误差累积，使模型输出质量崩塌。TurboQuant 通过以下三步解决了这一问题： 随机正交旋转： 在量化之前，对 KV 向量施加一个预先固定的随机正交矩阵。这一步将向量映射到一个新的坐标系，使其数值分布更加均匀（接近正态分布），从而减少了量化过程中的误差敏感度。 标量量化： 使用预计算的固定码本将旋转后的坐标映射到低精度整数（如 2-bit, 3-bit, 4-bit）。此过程不需要额外的校准数据集。 QJL 变换： 对残差误差进行 Quantized Johnson-Lindenstrauss 变换，确保内积计算（Attention Score 的核心）的几何精度。 性能表现 § 显存节省：2-bit 模式下，KV Cache 占用减少 8 倍；4-bit 模式下减少 4 倍。 精度保持：在 3-bit 模式下，LongBench 和长文本检索任务的表现与 FP16 几乎持平（“绝对质量中立”）。 计算加速：在 H100 上使用 4-bit 模式时，attention logit 计算速度实测达到 8× 加速。 应用价值 § TurboQuant 直接解决了大模型推理的核心瓶颈——显存带宽和容量。通过压缩 KV Cache，它允许在同样的硬件上服务更多的并发用户，或者处理更长的上下文，从而显著降低推理成本。.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
     <title>uAI-NEXUS-MedVLM</title>
     <link>https://quartz.jzhao.xyz/entities/uai-nexus-medvlm</link>
     <guid>https://quartz.jzhao.xyz/entities/uai-nexus-medvlm</guid>
     <description>uAI-NEXUS-MedVLM § uAI-NEXUS-MedVLM（元智医疗视频理解大模型）是由 联影智能 发布的全球首个开源的大规模医疗视频理解大模型。该模型是“元智”大模型家族中视觉部分的核心能力延展。 性能表现 § 与通用大模型相比，uAI-NEXUS-MedVLM 在医疗视频理解任务上展现了显著优势： 关键安全视野评估 (CVS)：7B 参数版本准确率达到 89.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>vLLM</title>
+    <link>https://quartz.jzhao.xyz/entities/vllm</link>
+    <guid>https://quartz.jzhao.xyz/entities/vllm</guid>
+    <description>vLLM § vLLM 是一个开源的大语言模型（LLM）推理框架，旨在通过系统级优化提升推理吞吐量和显存利用率。目前由 PyTorch Foundation 托管，是 AI 领域最主流的推理基础设施之一。 核心技术演进 § vLLM 的发展历程反映了推理层工程矛盾的解决路径： PagedAttention (2023)：借鉴操作系统内存分页思路，解决了 KV Cache 的内存碎片化问题，大幅提升显存利用率。 Continuous Batching：提升了连续请求的处理吞吐率。 投机解码：降低生成延迟。 TurboQuant (v0.</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
     <title>商汤科技</title>
@@ -209,6 +245,12 @@
     <link>https://quartz.jzhao.xyz/sources/deepseek不惜代价保住它-v4关键特性被挖出来了-20260503</link>
     <guid>https://quartz.jzhao.xyz/sources/deepseek不惜代价保住它-v4关键特性被挖出来了-20260503</guid>
     <description>DeepSeek不惜代价保住它！V4关键特性被挖出来了 § 本文深入分析了 DeepSeek V4 技术报告中的一个核心工程哲学：为了保留 批次不变性 而不惜牺牲 GPU 利用率和推理速度。 核心发现 § 文章指出，DeepSeek V4 为了实现工程上的极致确定性和可复现性，坚持保留“批次不变性”设计。这意味着对于同一个 token，无论其在批次中的位置、批次大小或批次组合如何变化，模型的输出都能保持逐比特完全一致。 技术代价 § 为了实现这一特性，DeepSeek V4 放弃了常见的 GPU 性能优化手段： 放弃 Split-KV：在注意力计算中，不再将计算分摊到多个流多处理器（SM）上，以避免改变并行归约路径。 限制 Split-K：在矩阵乘法中，避免切开归约维度并行计算，以防止浮点加法归约顺序变化导致结果不一致。 自研 DeepGEMM：在大多数场景中替代通用的 cuBLAS，以支持更受约束的批次不变矩阵乘法。 Dual-Kernel 方案：为同一个注意力解码任务准备两套计算程序（分别处理高负载和低负载情况），同时保证结果逐比特一致。 工程价值 § 这种设计虽然增加了工程复杂度并降低了硬件利用率，但带来了关键优势： 全流程可复现：确保预训练、后训练（SFT、RL）和推理全流程的数值对齐。 调试便利性：消除了因 batch 组织方式或 kernel 路径变化导致的数值扰动，使异常更容易复现和定位。 复杂系统稳定性：作为长上下文、MoE、量化等复杂组件的底座，锁定了底层执行系统的稳定性。 训练信号稳定：在 RL 和蒸馏过程中，减少随机数值扰动，保证训练信号的稳定。 社区评价 § Hugging Face Transformers 负责人 Arthur Zucker 对此评价极高，认为 DeepSeek 将数月乃至数年的努力全部免费公开是真正的“GOAT”行为。.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>vLLM v0.20 发布：2-bit 压缩默认开启，你的推理成本要打折了</title>
+    <link>https://quartz.jzhao.xyz/sources/vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503</link>
+    <guid>https://quartz.jzhao.xyz/sources/vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503</guid>
+    <description>vLLM v0.20 发布：2-bit 压缩默认开启，你的推理成本要打折了 § 本文详细解读了 vLLM v0.20.0 版本的重大更新，重点分析了默认开启的 turboquant 量化技术和针对 deepseek-v4 优化的 flashattention 4 (FA4)。 核心更新 § TurboQuant：极致的 KV Cache 压缩 § 技术来源：源自谷歌 DeepMind 的 ICLR 2026 论文。 核心原理：通过随机正交旋转（Random Orthogonal Rotation）将 KV 向量映射到分布更均匀的坐标系，随后进行标量量化和 QJL 变换。 效果： 显存节省：KV Cache 占用减少 4-8 倍（2-bit 模式）。 精度保持：3-bit 模式在 LongBench 上几乎无损（FP16 质量）。 加速：H100 上 4-bit 模式下 attention logit 计算加速达 8×。 意义：将推理瓶颈从算力转移至显存带宽后，通过压缩直接提升了并发处理能力（同样的显存可服务更多用户）。 FlashAttention 4 与 MLA 优化 § 背景：deepseek-v4 使用的 mla-多头潜在注意力 (Multi-Head Latent Attention) 机制在早期 vLLM 中被当作 MQA 处理，导致效率低下。 改进：v0.</description>
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
   </items><items>
     <title>不卷参数卷架构：商汤开源 SenseNova-U1 实现图像理解与生成统一</title>

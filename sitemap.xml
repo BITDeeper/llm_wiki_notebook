@@ -8,7 +8,16 @@
     <loc>https://quartz.jzhao.xyz/concepts/chang-jing-bai-he-hua-tui-li</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/flexkv</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/kv-cache</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/mixture-of-transformer</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/mla-多头潜在注意力</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/neo-unify-架构</loc>
@@ -59,6 +68,9 @@
     <loc>https://quartz.jzhao.xyz/entities/deepseek-v4</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/flashattention</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/entities/gm-100</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
@@ -86,7 +98,13 @@
     <loc>https://quartz.jzhao.xyz/entities/sensenova-u1</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/turboquant</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/entities/uai-nexus-medvlm</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/vllm</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/entities/商汤科技</loc>
@@ -99,6 +117,9 @@
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/deepseek不惜代价保住它-v4关键特性被挖出来了-20260503</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/不卷参数卷架构-这个开源模型把图像理解和生成统一了-20260503</loc>
