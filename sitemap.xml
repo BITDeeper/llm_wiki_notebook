@@ -1,136 +1,373 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/overview</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/an-quan-qiang-hua-xue-xi</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/anthropic格式兼容</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/awq</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/base-llm-few-shot-续写</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/byop</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/cli封装模式</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/content-list-json</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/continuous-batching</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/cope</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/dataflex</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/dynamic-data-mixing</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/dynamic-data-selection</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/dynamic-policy</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/frame调度策略</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/grpo</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/grpo与gspo</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/instruction-hierarchy</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/k-quant</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/kv-cache-量化</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/chang-jing-bai-he-hua-tui-li</loc>
+    <loc>https://quartz.jzhao.xyz/concepts/liu-shi-an-quan-jian-ce</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/llm训练构建流程</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/lora-适配器</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/mcp协议</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/middle-json</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/mla-attention</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/flexkv</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/moe-架构</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/kv-cache</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/openai兼容api</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/mixture-of-transformer</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/pagedattention</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/mla-多头潜在注意力</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/pdf字节流</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/neo-unify-架构</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/policy-as-prompt</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/ren-wu-zhi-xing-fan-shi</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/q4_k_m</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/runtime-agent-os</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/q6_k</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/split-k优化</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/qlora</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/vla-视觉-语言-动作</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/r-sft</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/像素流匹配</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/radixattention</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/具身智能数据困境</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/rass</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/医疗-LLM-评审</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/reasoning-centric-guardrails</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/医疗视频理解</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/rlvr</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/原生理解生成统一</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/sample-reweighting</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/图文交错的思维链</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/san-dang-yan-zhong-xing-fen-lei</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/批次不变性</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/self-instruct</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/跨数据集奖励归一化</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/tiered-inference</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/连续性图文创作</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/token优化策略</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/deepgemm</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/tpt</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/unsloth-dynamic-2.0</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/中向训练</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/二级块</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/偏见与歧视-评估难点</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/分层推理</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/动态策略</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/双模型标注校准</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/合成数据</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/坐标系统</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/处理后端</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/多模态蒸馏</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/工具调用强化学习</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/思维链审核</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/推理为中心</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/模型蒸馏</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/模型量化</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/真实世界合规案例</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/知识蒸馏</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/缺口检测与补偿</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/视觉微调</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/越权漏洞</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/通用-agent与业务-skill分离</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/claude-4.6-opus</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/dataflex</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/entities/deepseek-v4</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/flashattention</loc>
+    <loc>https://quartz.jzhao.xyz/entities/doremi</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/flashattention-4</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/gm-100</loc>
+    <loc>https://quartz.jzhao.xyz/entities/flexkv</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/lightllm</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/gguf</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/lightx2v</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/grok-4.1</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/lingbot-vla</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/hongkong-eldercare-safeguard</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/medgrpo</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/less</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/medvidbench</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/llama-factory</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/pi-presentation-intelligence</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/llama-guard-3-8b</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/sensenova-skills</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/llama.cpp</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/sensenova-u1</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/mcp2cli</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/mineru</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/odm</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/omnicompliance-100k</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/openrlhf</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/qwen</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/qwen3.6-35b-a3b</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/qwen3guard</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/qwopus3.5</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/s-eval</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/seniorclic-hk</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/sglang</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/transformers</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/entities/turboquant</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/uai-nexus-medvlm</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/unsloth-studio</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/entities/verl</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/entities/vllm</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/商汤科技</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/wildguard-7b</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/entities/联影智能</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/yufeng-xguard</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/3个月手搓gamma架构-这个团队打造出了场景白盒化推理的-下一代内容os-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/entities/得物技术</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/deepseek不惜代价保住它-v4关键特性被挖出来了-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/queries/基于提供的-wiki-内容qwen3guard-与-yufeng-xguard-在数据集构建上的主要-2026-04-30-062536</loc>
+    <lastmod>2026-05-05T00:56:43.836Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/queries/根据提供的-wiki-内容qwen3guard-与-yufeng-xguard-均是由阿里巴巴团队推-2026-04-30-062532</loc>
+    <lastmod>2026-05-05T00:56:43.840Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/queries/根据提供的-wiki-内容文档中没有提供完整的代码对比示例但详细解释了两者在处理逻辑上的核心差异-2026-04-30-053343</loc>
+    <lastmod>2026-05-05T00:56:43.845Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/byop-future</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/DataConstruction</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/dataflex-a-unified-framework-for-data-centric-dyna-20260502</loc>
+    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/LLM-Construction</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/mineru.tutorial</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/omnicompliance-100k-a-multi-domain-rule-grounded-r-20260430</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/Qwen3.5-3.6-视觉微调完全指南</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/qwen3guard-technical-report-20260430</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/unsloth-模型量化完全指南</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/unsloth.stido</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/V3-Qwopus3.5-从会思考到会干活</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/V4-Qwen3.6-35B-A3B-蒸馏Claude-Opus教程</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/不卷参数卷架构-这个开源模型把图像理解和生成统一了-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/sources/vllm_sglang_unsloth_llama.cpp</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/原生理解生成统一-商汤开源sensenova-u1-用统一架构终结-缝合怪-多模态-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/sources/yufeng-xguard-a-reasoning-centric-interpretable-an-20260430</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/当200位具身从业者被拉进同一个屋子-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/sources/yufeng-xguard-reason-8b-模型库-20260430</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/sources/让大模型理解真实医疗视频-全球首个开源技术方案来了-20260503</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/sources/基于提供的-wiki-内容qwen3guard-与-yufeng-xguard-在数据集构建上的主要-2026-04-30-062536</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/根据提供的-wiki-内容qwen3guard-与-yufeng-xguard-均是由阿里巴巴团队推-2026-04-30-062532</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/根据提供的-wiki-内容文档中没有提供完整的代码对比示例但详细解释了两者在处理逻辑上的核心差异-2026-04-30-053343</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/sources/通用-ai-agent-驱动网关路由安全审计实践-得物技术-20260430</loc>
+    <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url></urlset>
