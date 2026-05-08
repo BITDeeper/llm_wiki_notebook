@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><head><title>结构主义 AI</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="结构主义 AI"/><meta property="og:description" content="结构主义 AI § 结构主义 AI 是一种人工智能研究范式，主张通过引入显式或隐式的数学结构来压缩信息，而非单纯依赖参数规模的扩大。这一概念由 KAN 网络第一作者 刘子鸣 在批判 scaling-law 时明确提出。 核心思想 § 结构主义 AI 认为，真正的智能（AGI）应当像物理学定律一样简洁。其核心论点包括： 压缩即智能：智能的本质在于发现数据中的潜在结构并进行压缩（例如牛顿定律用极少的参数解释了行星运动）。 资源受限：现实世界的能源、算力和数据是有限的，这决定了单纯依靠规模扩大的路径终将撞墙。 结构涌现：正确的物理结构（如牛顿定律）不会因为模型规模扩大就自动涌现，必须通过架构设计来实现。 任务分类法 § 结构主义 AI 根据任务的可压缩性将问题分为三类，并主张针对不同类型设计不同结构： 类物理任务：高度可压缩，符号公式可从连续数据中涌现。 类化学任务：可压缩性强但符号不完整，是结构主义的主要切入点。 类生物任务：弱压缩，更多依赖经验规律与统计归纳。 内在 vs 外在结构主义 § 外在结构主义：当前主流做法，通过思维链等外部监督将结构“贴”在模型外面。系统高度依赖 CoT 数据。 内在结构主义：未来方向，将通用结构注入模型，或让结构在模型内部自行涌现，减少对外部监督的依赖。 与其他范式的区别 § 区别于符号主义：符号主义过于严格和离散，难以处理复杂现实任务。 区别于联结主义：联结主义（如 Transformer）缺乏结构，在处理高度可压缩的任务时极其低效。 统一路径：结构主义试图介于两者之间，既允许符号从结构中涌现，也允许经验规律通过松弛结构习得。 ."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="结构主义 AI § 结构主义 AI 是一种人工智能研究范式，主张通过引入显式或隐式的数学结构来压缩信息，而非单纯依赖参数规模的扩大。这一概念由 KAN 网络第一作者 刘子鸣 在批判 scaling-law 时明确提出。 核心思想 § 结构主义 AI 认为，真正的智能（AGI）应当像物理学定律一样简洁。其核心论点包括： 压缩即智能：智能的本质在于发现数据中的潜在结构并进行压缩（例如牛顿定律用极少的参数解释了行星运动）。 资源受限：现实世界的能源、算力和数据是有限的，这决定了单纯依靠规模扩大的路径终将撞墙。 结构涌现：正确的物理结构（如牛顿定律）不会因为模型规模扩大就自动涌现，必须通过架构设计来实现。 任务分类法 § 结构主义 AI 根据任务的可压缩性将问题分为三类，并主张针对不同类型设计不同结构： 类物理任务：高度可压缩，符号公式可从连续数据中涌现。 类化学任务：可压缩性强但符号不完整，是结构主义的主要切入点。 类生物任务：弱压缩，更多依赖经验规律与统计归纳。 内在 vs 外在结构主义 § 外在结构主义：当前主流做法，通过思维链等外部监督将结构“贴”在模型外面。系统高度依赖 CoT 数据。 内在结构主义：未来方向，将通用结构注入模型，或让结构在模型内部自行涌现，减少对外部监督的依赖。 与其他范式的区别 § 区别于符号主义：符号主义过于严格和离散，难以处理复杂现实任务。 区别于联结主义：联结主义（如 Transformer）缺乏结构，在处理高度可压缩的任务时极其低效。 统一路径：结构主义试图介于两者之间，既允许符号从结构中涌现，也允许经验规律通过松弛结构习得。 ."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/structuralism-ai"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#结构主义-ai" data-for="结构主义-ai">结构主义 AI</a></li><li class="depth-1"><a href="#核心思想" data-for="核心思想">核心思想</a></li><li class="depth-1"><a href="#任务分类法" data-for="任务分类法">任务分类法</a></li><li class="depth-1"><a href="#内在-vs-外在结构主义" data-for="内在-vs-外在结构主义">内在 vs 外在结构主义</a></li><li class="depth-1"><a href="#与其他范式的区别" data-for="与其他范式的区别">与其他范式的区别</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">结构主义 AI</h1><p class="content-meta">Jan 02, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/ai-paradigm" class="internal tag-link">#ai-paradigm</a></li><li><a href="../tags/scaling-law-critique" class="internal tag-link">#scaling-law-critique</a></li><li><a href="../tags/agi" class="internal tag-link">#agi</a></li><li><a href="../tags/philosophy-of-ai" class="internal tag-link">#philosophy-of-ai</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="结构主义-ai">结构主义 AI<a aria-hidden="true" tabindex="-1" href="#结构主义-ai" class="internal"> §</a></h1>
+<p>结构主义 AI 是一种人工智能研究范式，主张通过引入显式或隐式的数学结构来压缩信息，而非单纯依赖参数规模的扩大。这一概念由 <a href="../KAN" class="internal">KAN</a> 网络第一作者 <a href="../刘子鸣" class="internal">刘子鸣</a> 在批判 <a href="../concepts/scaling-law" class="internal">scaling-law</a> 时明确提出。</p>
+<h2 id="核心思想">核心思想<a aria-hidden="true" tabindex="-1" href="#核心思想" class="internal"> §</a></h2>
+<p>结构主义 AI 认为，真正的智能（AGI）应当像物理学定律一样简洁。其核心论点包括：</p>
+<ol>
+<li><strong>压缩即智能</strong>：智能的本质在于发现数据中的潜在结构并进行压缩（例如牛顿定律用极少的参数解释了行星运动）。</li>
+<li><strong>资源受限</strong>：现实世界的能源、算力和数据是有限的，这决定了单纯依靠规模扩大的路径终将撞墙。</li>
+<li><strong>结构涌现</strong>：正确的物理结构（如牛顿定律）不会因为模型规模扩大就自动涌现，必须通过架构设计来实现。</li>
+</ol>
+<h2 id="任务分类法">任务分类法<a aria-hidden="true" tabindex="-1" href="#任务分类法" class="internal"> §</a></h2>
+<p>结构主义 AI 根据任务的可压缩性将问题分为三类，并主张针对不同类型设计不同结构：</p>
+<ul>
+<li><strong>类物理任务</strong>：高度可压缩，符号公式可从连续数据中涌现。</li>
+<li><strong>类化学任务</strong>：可压缩性强但符号不完整，是结构主义的主要切入点。</li>
+<li><strong>类生物任务</strong>：弱压缩，更多依赖经验规律与统计归纳。</li>
+</ul>
+<h2 id="内在-vs-外在结构主义">内在 vs 外在结构主义<a aria-hidden="true" tabindex="-1" href="#内在-vs-外在结构主义" class="internal"> §</a></h2>
+<ul>
+<li><strong>外在结构主义</strong>：当前主流做法，通过思维链等外部监督将结构“贴”在模型外面。系统高度依赖 CoT 数据。</li>
+<li><strong>内在结构主义</strong>：未来方向，将通用结构注入模型，或让结构在模型内部自行涌现，减少对外部监督的依赖。</li>
+</ul>
+<h2 id="与其他范式的区别">与其他范式的区别<a aria-hidden="true" tabindex="-1" href="#与其他范式的区别" class="internal"> §</a></h2>
+<ul>
+<li><strong>区别于符号主义</strong>：符号主义过于严格和离散，难以处理复杂现实任务。</li>
+<li><strong>区别于联结主义</strong>：联结主义（如 Transformer）缺乏结构，在处理高度可压缩的任务时极其低效。</li>
+<li><strong>统一路径</strong>：结构主义试图介于两者之间，既允许符号从结构中涌现，也允许经验规律通过松弛结构习得。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

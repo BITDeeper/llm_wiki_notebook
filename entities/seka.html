@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html><head><title>SEKA</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="SEKA"/><meta property="og:description" content="SEKA § SEKA (Spectral Editing Key Amplification，频谱编辑键放大) 是一种用于大语言模型注意力引导的算法，由爱丁堡大学团队提出并被 ICLR 2026 接收。 核心原理 § SEKA 旨在解决现有注意力引导方法（如 PASTA）因需要存储和修改完整注意力矩阵而无法兼容 flashattention 的高效实现问题。 其核心思想是在注意力计算之前直接编辑 Key 向量，而非在计算后修改注意力矩阵。通过 频谱分解（SVD）提取 Key 嵌入中的 相关性子空间，SEKA 能够识别并放大与任务相关的信号。 数学表达 § 在线推理阶段，对于需要高亮的 token，其 Key 向量 k 被修改为： k′=k+g⋅P⋅k P：通过离线阶段学习到的投影矩阵（捕捉相关性子空间）。 g：增益系数。 这一操作在数学上等价于添加低秩偏置，但完全在嵌入层面完成，因此不会破坏 FlashAttention 的连续内存访问模式。 机制细节 § 离线学习 § 通过构造对比提示对（正向/负向/中性），提取不同条件下的 Key 嵌入，并利用奇异值分解（SVD）学习“相关性子空间”。 选择性引导 § SEKA 并非对所有层进行干预。研究发现，只有中后层的特定“检索头”对相关性敏感。SEKA 仅对这些头施加引导，避免干扰其他功能头。 性能表现 § 准确率：在 CounterFact 基准上，将准确率从 30-50% 提升至接近 99%。 效率：每个样本仅增加 0."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="SEKA § SEKA (Spectral Editing Key Amplification，频谱编辑键放大) 是一种用于大语言模型注意力引导的算法，由爱丁堡大学团队提出并被 ICLR 2026 接收。 核心原理 § SEKA 旨在解决现有注意力引导方法（如 PASTA）因需要存储和修改完整注意力矩阵而无法兼容 flashattention 的高效实现问题。 其核心思想是在注意力计算之前直接编辑 Key 向量，而非在计算后修改注意力矩阵。通过 频谱分解（SVD）提取 Key 嵌入中的 相关性子空间，SEKA 能够识别并放大与任务相关的信号。 数学表达 § 在线推理阶段，对于需要高亮的 token，其 Key 向量 k 被修改为： k′=k+g⋅P⋅k P：通过离线阶段学习到的投影矩阵（捕捉相关性子空间）。 g：增益系数。 这一操作在数学上等价于添加低秩偏置，但完全在嵌入层面完成，因此不会破坏 FlashAttention 的连续内存访问模式。 机制细节 § 离线学习 § 通过构造对比提示对（正向/负向/中性），提取不同条件下的 Key 嵌入，并利用奇异值分解（SVD）学习“相关性子空间”。 选择性引导 § SEKA 并非对所有层进行干预。研究发现，只有中后层的特定“检索头”对相关性敏感。SEKA 仅对这些头施加引导，避免干扰其他功能头。 性能表现 § 准确率：在 CounterFact 基准上，将准确率从 30-50% 提升至接近 99%。 效率：每个样本仅增加 0."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/seka"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#seka" data-for="seka">SEKA</a></li><li class="depth-1"><a href="#核心原理" data-for="核心原理">核心原理</a></li><li class="depth-2"><a href="#数学表达" data-for="数学表达">数学表达</a></li><li class="depth-1"><a href="#机制细节" data-for="机制细节">机制细节</a></li><li class="depth-2"><a href="#离线学习" data-for="离线学习">离线学习</a></li><li class="depth-2"><a href="#选择性引导" data-for="选择性引导">选择性引导</a></li><li class="depth-1"><a href="#性能表现" data-for="性能表现">性能表现</a></li><li class="depth-1"><a href="#变体" data-for="变体">变体</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">SEKA</h1><p class="content-meta">Mar 31, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/algorithm" class="internal tag-link">#algorithm</a></li><li><a href="../tags/attention-steering" class="internal tag-link">#attention-steering</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/iclr-2026" class="internal tag-link">#iclr-2026</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="seka">SEKA<a aria-hidden="true" tabindex="-1" href="#seka" class="internal"> §</a></h1>
+<p><strong>SEKA</strong> (Spectral Editing Key Amplification，频谱编辑键放大) 是一种用于大语言模型注意力引导的算法，由爱丁堡大学团队提出并被 ICLR 2026 接收。</p>
+<h2 id="核心原理">核心原理<a aria-hidden="true" tabindex="-1" href="#核心原理" class="internal"> §</a></h2>
+<p>SEKA 旨在解决现有注意力引导方法（如 PASTA）因需要存储和修改完整注意力矩阵而无法兼容 <a href="../entities/flashattention" class="internal">flashattention</a> 的高效实现问题。</p>
+<p>其核心思想是在注意力计算<strong>之前</strong>直接编辑 Key 向量，而非在计算后修改注意力矩阵。通过 <a href="../频谱分解" class="internal">频谱分解</a>（SVD）提取 Key 嵌入中的 <a href="../concepts/相关性子空间" class="internal">相关性子空间</a>，SEKA 能够识别并放大与任务相关的信号。</p>
+<h3 id="数学表达">数学表达<a aria-hidden="true" tabindex="-1" href="#数学表达" class="internal"> §</a></h3>
+<p>在线推理阶段，对于需要高亮的 token，其 Key 向量 <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span></span> 被修改为：
+<span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7519em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6389em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span></span></p>
+<ul>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span></span>：通过离线阶段学习到的投影矩阵（捕捉相关性子空间）。</li>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></span>：增益系数。</li>
+</ul>
+<p>这一操作在数学上等价于添加低秩偏置，但完全在嵌入层面完成，因此不会破坏 FlashAttention 的连续内存访问模式。</p>
+<h2 id="机制细节">机制细节<a aria-hidden="true" tabindex="-1" href="#机制细节" class="internal"> §</a></h2>
+<h3 id="离线学习">离线学习<a aria-hidden="true" tabindex="-1" href="#离线学习" class="internal"> §</a></h3>
+<p>通过构造对比提示对（正向/负向/中性），提取不同条件下的 Key 嵌入，并利用奇异值分解（SVD）学习“相关性子空间”。</p>
+<h3 id="选择性引导">选择性引导<a aria-hidden="true" tabindex="-1" href="#选择性引导" class="internal"> §</a></h3>
+<p>SEKA 并非对所有层进行干预。研究发现，只有中后层的特定“<a href="../concepts/检索头" class="internal">检索头</a>”对相关性敏感。SEKA 仅对这些头施加引导，避免干扰其他功能头。</p>
+<h2 id="性能表现">性能表现<a aria-hidden="true" tabindex="-1" href="#性能表现" class="internal"> §</a></h2>
+<ul>
+<li><strong>准确率</strong>：在 CounterFact 基准上，将准确率从 30-50% 提升至接近 99%。</li>
+<li><strong>效率</strong>：每个样本仅增加 0.03 秒延迟和 0.03 GB 显存。</li>
+<li><strong>兼容性</strong>：天然兼容 FlashAttention，无额外工程开销。</li>
+</ul>
+<h2 id="变体">变体<a aria-hidden="true" tabindex="-1" href="#变体" class="internal"> §</a></h2>
+<p>其自适应变体 <a href="../entities/adaseka" class="internal">adaseka</a> 引入了多专家路由机制，进一步提升了在不同任务上的泛化能力。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../sources/让大模型看懂「高亮标注」：在注意力计算前编辑key向量，用频谱分解让模型「听你指挥」丨iclr'26" class="internal">让大模型看懂「高亮标注」：在注意力计算前编辑Key向量，用频谱分解让模型「听你指挥」丨ICLR'26</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

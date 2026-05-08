@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html><head><title>Claude Opus 4.5</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Claude Opus 4.5"/><meta property="og:description" content="Claude Opus 4.5 § Claude Opus 4.5 是 Anthropic 开发的 Claude 系列大语言模型中的最新一代旗舰版本。该模型不仅被广泛认为是当前的“编程之王”，同时也作为 Claude for Healthcare 的技术底座，在处理复杂医疗任务和科学分析方面展现了显著的能力提升。此外，它也是 Claude Code 工具背后的核心技术支撑。 Claude Opus 4."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Claude Opus 4.5 § Claude Opus 4.5 是 Anthropic 开发的 Claude 系列大语言模型中的最新一代旗舰版本。该模型不仅被广泛认为是当前的“编程之王”，同时也作为 Claude for Healthcare 的技术底座，在处理复杂医疗任务和科学分析方面展现了显著的能力提升。此外，它也是 Claude Code 工具背后的核心技术支撑。 Claude Opus 4."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/claude-opus-4-5"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#claude-opus-45" data-for="claude-opus-45">Claude Opus 4.5</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-1"><a href="#性能表现" data-for="性能表现">性能表现</a></li><li class="depth-2"><a href="#编程能力与长程稳定性" data-for="编程能力与长程稳定性">编程能力与长程稳定性</a></li><li class="depth-2"><a href="#综合基准测试对比" data-for="综合基准测试对比">综合基准测试对比</a></li><li class="depth-2"><a href="#医疗基准测试" data-for="医疗基准测试">医疗基准测试</a></li><li class="depth-2"><a href="#生命科学任务" data-for="生命科学任务">生命科学任务</a></li><li class="depth-1"><a href="#实际案例与评价" data-for="实际案例与评价">实际案例与评价</a></li><li class="depth-2"><a href="#专家评价" data-for="专家评价">专家评价</a></li><li class="depth-2"><a href="#开发者社区反馈" data-for="开发者社区反馈">开发者社区反馈</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-1"><a href="#战略意义" data-for="战略意义">战略意义</a></li><li class="depth-1"><a href="#竞争格局" data-for="竞争格局">竞争格局</a></li><li class="depth-1"><a href="#相关条目" data-for="相关条目">相关条目</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Claude Opus 4.5</h1><p class="content-meta">May 07, 2026, 10 min read</p><ul class="tags"><li><a href="../tags/anthropic" class="internal tag-link">#anthropic</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/code-model" class="internal tag-link">#code-model</a></li><li><a href="../tags/closed-source" class="internal tag-link">#closed-source</a></li><li><a href="../tags/model" class="internal tag-link">#model</a></li><li><a href="../tags/healthcare" class="internal tag-link">#healthcare</a></li><li><a href="../tags/大语言模型" class="internal tag-link">#大语言模型</a></li><li><a href="../tags/编程模型" class="internal tag-link">#编程模型</a></li><li><a href="../tags/基准测试" class="internal tag-link">#基准测试</a></li><li><a href="../tags/coding" class="internal tag-link">#coding</a></li><li><a href="../tags/efficiency" class="internal tag-link">#efficiency</a></li><li><a href="../tags/agi" class="internal tag-link">#agi</a></li><li><a href="../tags/code-generation" class="internal tag-link">#code-generation</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="claude-opus-45">Claude Opus 4.5<a aria-hidden="true" tabindex="-1" href="#claude-opus-45" class="internal"> §</a></h1>
+<p><a href="../Claude-Opus-4.5" class="internal">Claude Opus 4.5</a> 是 <a href="../Anthropic" class="internal">Anthropic</a> 开发的 Claude 系列大语言模型中的最新一代旗舰版本。该模型不仅被广泛认为是当前的“编程之王”，同时也作为 <a href="../Claude-for-Healthcare" class="internal">Claude for Healthcare</a> 的技术底座，在处理复杂医疗任务和科学分析方面展现了显著的能力提升。此外，它也是 <a href="../Claude-Code" class="internal">Claude Code</a> 工具背后的核心技术支撑。</p>
+<p>Claude Opus 4.5 被视为 Anthropic “<a href="../concepts/少即是多" class="internal">少即是多</a>”战略的旗舰产品，证明了在特定领域，高质量的模型效率可以碾压单纯的算力堆叠。业界普遍将其视为编程能力接近 AGI 水平的转折点，标志着软件工程从“辅助编程”向“完全自主编程”的新时期过渡。</p>
+<h2 id="核心特性">核心特性<a aria-hidden="true" tabindex="-1" href="#核心特性" class="internal"> §</a></h2>
+<ul>
+<li><strong>专注编码</strong>：虽然不具备图像/音频处理能力，但在代码生成、系统重构和逻辑推理方面表现出色。<a href="../Dario-Amodei" class="internal">Dario Amodei</a> 称其已能承担大部分代码编写工作，工程师主要负责审核和修改。</li>
+<li><strong>办公文档处理</strong>：在处理办公文档方面技能点“拉满”。</li>
+<li><strong>完全自动化</strong>：结合 <a href="../Claude-Code" class="internal">Claude Code</a> 工具，该模型已实现 100% 的代码自动生成与维护，无需人类干预修复 Bug。</li>
+<li><strong>高效率</strong>：能够通过自我验证路径和系统设计指导，快速完成复杂的开发任务。</li>
+<li><strong>长程任务稳定性</strong>：根据 <a href="../METR" class="internal">METR</a> 报告，它是公开的 AI 中完成长程任务时间最长的模型（连续 5 小时不崩）。</li>
+<li><strong>持续运行能力</strong>：能够持续运行几分钟、几小时甚至数天而不崩溃，通过“停止钩子”机制可在中断后继续运行。</li>
+<li><strong>战略定位</strong>：该模型是 <a href="../Anthropic" class="internal">Anthropic</a> 攻坚 To B（企业级）市场的关键产品，旨在满足企业对高强度智力活动和科研能力的需求，而非追求 C 端的用户参与度。</li>
+</ul>
+<h2 id="性能表现">性能表现<a aria-hidden="true" tabindex="-1" href="#性能表现" class="internal"> §</a></h2>
+<h3 id="编程能力与长程稳定性">编程能力与长程稳定性<a aria-hidden="true" tabindex="-1" href="#编程能力与长程稳定性" class="internal"> §</a></h3>
+<p>Opus 4.5 在编程领域确立了统治地位，被官方称为“全球最顶尖的编码模型”。其性能提升速度呈加速趋势，任务时长翻倍周期已从 2024 年前的 7 个月缩短至 4 个月。</p>
+<ul>
+<li><strong>SWE-bench Verified</strong>：得分 <strong>80.9%</strong>，是目前公认的编程能力标杆。</li>
+<li><strong>LiveBench 榜单</strong>：登顶榜首，表现优于 <a href="../GPT-5.1-Codex-Max" class="internal">GPT-5.1-Codex-Max</a> 和 <a href="../Gemini" class="internal">Gemini</a> 3 Pro。</li>
+<li><strong>持续运行时长</strong>：根据 METR 测试，Claude Opus 4.5 能够持续自主编码长达 <strong>4 小时 49 分钟</strong>（50% 任务完成率），显著优于 OpenAI 的 GPT-5.1-Codex-Max（2 小时 53 分钟）。</li>
+<li><strong>效率提升</strong>：与 Claude Code 联动使用时，平均效率暴增 220%。</li>
+<li><strong>地位</strong>：在代码生成、调试和重构方面几乎没有对手，是 <a href="../DeepSeek-V4" class="internal">DeepSeek V4</a> 试图超越的主要目标。</li>
+</ul>
+<h3 id="综合基准测试对比">综合基准测试对比<a aria-hidden="true" tabindex="-1" href="#综合基准测试对比" class="internal"> §</a></h3>
+<p>在 2025 年底的评测周期中，Claude Opus 4.5 在多项基准测试中表现优于 <a href="../GPT-5.2" class="internal">GPT-5.2</a>：</p>
+<ul>
+<li><strong>SimpleQA Verified</strong>：排名高于 GPT-5.2。</li>
+<li><strong>风险指数</strong>：表现优于 GPT-5.2。</li>
+<li><strong>OCR 与 Live-Bench</strong>：在部分测试中排名高于 GPT-5.2。</li>
+<li><strong>长程任务</strong>：在长程任务性能测试中表现稳定（约 2.6 小时），虽不及 <a href="../entities/Gemini-3-Pro" class="internal">Gemini 3 Pro</a>，但显示出强大的综合能力。</li>
+</ul>
+<h3 id="医疗基准测试">医疗基准测试<a aria-hidden="true" tabindex="-1" href="#医疗基准测试" class="internal"> §</a></h3>
+<p>在针对医疗场景的严格测试中，Claude Opus 4.5 的表现优于早期版本（如 Sonnet 3.5）及竞品：</p>
+<ul>
+<li><strong>MedCalcBench</strong>：准确率达到 <strong>61.3%</strong>，专注于医疗计算能力。</li>
+<li><strong>MedAgentBench</strong>：准确率达到 <strong>92.3%</strong>，专注于医疗智能体任务。</li>
+</ul>
+<h3 id="生命科学任务">生命科学任务<a aria-hidden="true" tabindex="-1" href="#生命科学任务" class="internal"> §</a></h3>
+<p>在更专业的生命科学领域，Opus 4.5 同样表现出色：</p>
+<ul>
+<li><strong>LatchBio SpatialBench</strong>：在空间生物学分析基准测试中，Opus 4.5 以 <strong>38.4%</strong> 的准确率位居第一，比第二名 <a href="../GPT-5.2" class="internal">GPT-5.2</a>（34.0%）高出 <strong>4.4 个百分点</strong>。这表明该模型在处理复杂的空间生物学数据方面具有领先优势。</li>
+</ul>
+<h2 id="实际案例与评价">实际案例与评价<a aria-hidden="true" tabindex="-1" href="#实际案例与评价" class="internal"> §</a></h2>
+<p>Claude Opus 4.5 的发布在工程界引发了巨大反响，多位资深工程师对其效率表示惊叹。Anthropic 员工私下认为其已接近 AGI 水平，而 AI 大佬 Simon Willison 认为，Opus 4.5 标志着模型跨越了隐形的“能力界限”，大量编码难题被瞬间解决。</p>
+<h3 id="专家评价">专家评价<a aria-hidden="true" tabindex="-1" href="#专家评价" class="internal"> §</a></h3>
+<ul>
+<li><strong>Jaana Dogan（谷歌首席工程师）</strong>：仅用 1 小时便复现了一个曾让谷歌工程师钻研整年的 AI 系统。</li>
+<li><strong>Rohan Anil（前谷歌/Meta 科学家）</strong>：借助 Opus 的智能编码能力，早期长达 6 年的探索工作可被浓缩至几个月内完成。</li>
+<li><strong>Helius CEO</strong>：称其“疯狂到离谱”，能在不写一行代码的情况下，根据设计指导完成任何任务。</li>
+<li><strong>Boris Cherry</strong>：验证了其 100% 自动化能力的工程师。</li>
+</ul>
+<h3 id="开发者社区反馈">开发者社区反馈<a aria-hidden="true" tabindex="-1" href="#开发者社区反馈" class="internal"> §</a></h3>
+<ul>
+<li>半小时内构建 iOS 应用。</li>
+<li>20 分钟内打造 ESPN 风格应用。</li>
+<li>编写程序控制摄像头记录花开时刻。</li>
+<li>分析原始 DNA 数据并找出与健康相关的基因。</li>
+<li>即便是编程零经验的人，也能在十分钟内构建出功能齐全的网页应用。</li>
+</ul>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<p>Opus 4.5 的强大能力使其能够胜任高风险的医疗与科研工作流，同时也极大降低了编程门槛：</p>
+<ul>
+<li><strong>临床辅助</strong>：辅助医生解读复杂的检查结果和病历。</li>
+<li><strong>制药研发</strong>：加速临床试验方案的起草与数据处理。</li>
+<li><strong>空间分析</strong>：处理高维度的生物学空间数据。</li>
+<li><strong>零基础开发</strong>：即便是编程零经验的人，也能在十分钟内构建出功能齐全的网页应用。</li>
+</ul>
+<h2 id="战略意义">战略意义<a aria-hidden="true" tabindex="-1" href="#战略意义" class="internal"> §</a></h2>
+<p>Claude Opus 4.5 的成功验证了 Anthropic 的差异化竞争路线：</p>
+<ol>
+<li><strong>效率优于规模</strong>：在算力投入远少于竞争对手的情况下，通过数据质量和后训练技术实现性能领先。</li>
+<li><strong>企业级实用性</strong>：其强大的编程能力直接服务于企业工作流和生产力提升，契合 Anthropic “企业优先”的商业模式。</li>
+<li><strong>技术护城河</strong>：在编程这一垂直领域建立了极高的用户粘性和口碑，成为对抗 OpenAI “暴力规模”路线的有力武器。</li>
+</ol>
+<p>Anthropic 强调，在医疗这种高风险领域，模型能力的稳定性与正确性至关重要。Opus 4.5 的推出旨在解决“看起来很聪明，但在关键时刻胡说”的 AI 幻觉问题，为医疗 AI 的落地提供更可靠的技术保障。</p>
+<h2 id="竞争格局">竞争格局<a aria-hidden="true" tabindex="-1" href="#竞争格局" class="internal"> §</a></h2>
+<p>随着 <a href="../DeepSeek-V4" class="internal">DeepSeek V4</a> 的传闻和泄露数据出现，Claude Opus 4.5 的领先地位面临挑战。如果 DeepSeek V4 的 SWE-bench 得分 (83.7%) 属实，开源模型将首次在编程能力上全面超越闭源模型。</p>
+<h2 id="相关条目">相关条目<a aria-hidden="true" tabindex="-1" href="#相关条目" class="internal"> §</a></h2>
+<ul>
+<li><a href="../DeepSeek-V4" class="internal">DeepSeek V4</a>：试图超越 Claude Opus 4.5 的开源模型。</li>
+<li><a href="../GPT-5.2" class="internal">GPT-5.2</a>：OpenAI 的前沿模型，编程与生命科学领域的竞争者。</li>
+<li><a href="../GPT-5.1-Codex-Max" class="internal">GPT-5.1-Codex-Max</a>：OpenAI 的编程模型，在持续运行时长上落后于 Opus 4.5。</li>
+<li><a href="../entities/Gemini-3-Pro" class="internal">Gemini 3 Pro</a>：在长程任务测试中表现优于 Opus 4.5 的竞争对手。</li>
+<li><a href="../SWE-bench" class="internal">SWE-bench</a>：用于评估软件工程能力的基准测试。</li>
+<li><a href="../LatchBio-SpatialBench" class="internal">LatchBio SpatialBench</a>：用于评估空间生物学分析能力的基准测试。</li>
+<li><a href="../Claude-Code" class="internal">Claude Code</a>：基于 Opus 4.5 的编程工具。</li>
+<li><a href="../Boris-Cherry" class="internal">Boris Cherry</a>：验证其 100% 自动化能力的工程师。</li>
+<li><a href="../concepts/ai-takeoff" class="internal">ai-takeoff</a>：其性能加速曲线被视为技术起飞的信号。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/技术奇点" class="internal">技术奇点</a></li><li><a href="../sources/5年博士1年读完，20分钟干完48小时教授工作！这个工具在硅谷火了" class="internal">5年博士1年读完，20分钟干完48小时教授工作！这个工具在硅谷火了</a></li><li><a href="../sources/gpt-5.2降智遭全网差评！奥特曼慌了" class="internal">GPT-5.2降智遭全网差评！奥特曼慌了</a></li><li><a href="../sources/再见，程序员！马斯克宣判：奇点就在2026" class="internal">再见，程序员！马斯克宣判：奇点就在2026</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head><title>Art3D</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Art3D"/><meta property="og:description" content="Art3D § Art3D 是一个发表于 CVPR 2026 的 AI 框架，全称为“Artistic Disparity Synthesis for Immersive 2D-to-3D”。它是首个引入“艺术意图”的自动化 3D 生成框架，旨在解决传统 AI 2D 转 3D 技术中“重物理、轻艺术”导致的晕眩感和缺乏沉浸感的问题。 核心架构：双路径解耦机制 § Art3D 摒弃了传统单线机械生成逻辑，首创 双路径解耦机制，以兼顾艺术表达与物理严谨性： 全局风格路径： 功能：复刻导演的全局叙事思维。 作用：把控整体深度克制感，稳定 零视差面，筑牢观影舒适度底线，适配全片统一的情绪基调。 局部笔触路径： 功能：赋予网络进行局部雕刻的能力。 作用：利用语言视觉大模型识别区域，在需要引导观众视线或制造震撼时，充当导演的“视觉画笔”。 关键技术：DDC-IoU § 为了解决训练数据中存在大量劣质“废片”的问题，Art3D 团队提出了 DDC-IoU（深度-视差一致性交并比）指标。该指标像“滤网”一样精准剔除了原片中缺乏艺术和几何价值的劣质帧，从源头保障了模型学习到的是兼具几何严谨性与院线级艺术质感的高质量数据。 评估与表现 § 通过统计学评估（均值 μ 与标准差 σ），Art3D 展现了优异的性能： 均值 (μ)：贴近真实院线大片的深度缩放和屏幕参考面分布。 标准差 (σ)：远低于纯几何 Baseline，证明了其全局立体一致性极高，避免了画面闪烁和跳动。 行业意义 § Art3D 并非推翻现有技术，而是作为“艺术大脑”完美互补现有几何重建技术。它标志着 AI 3D 生成从单纯的“物理测绘”转向了“懂叙事、懂情绪”的 艺术视差合成 新范式。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Art3D § Art3D 是一个发表于 CVPR 2026 的 AI 框架，全称为“Artistic Disparity Synthesis for Immersive 2D-to-3D”。它是首个引入“艺术意图”的自动化 3D 生成框架，旨在解决传统 AI 2D 转 3D 技术中“重物理、轻艺术”导致的晕眩感和缺乏沉浸感的问题。 核心架构：双路径解耦机制 § Art3D 摒弃了传统单线机械生成逻辑，首创 双路径解耦机制，以兼顾艺术表达与物理严谨性： 全局风格路径： 功能：复刻导演的全局叙事思维。 作用：把控整体深度克制感，稳定 零视差面，筑牢观影舒适度底线，适配全片统一的情绪基调。 局部笔触路径： 功能：赋予网络进行局部雕刻的能力。 作用：利用语言视觉大模型识别区域，在需要引导观众视线或制造震撼时，充当导演的“视觉画笔”。 关键技术：DDC-IoU § 为了解决训练数据中存在大量劣质“废片”的问题，Art3D 团队提出了 DDC-IoU（深度-视差一致性交并比）指标。该指标像“滤网”一样精准剔除了原片中缺乏艺术和几何价值的劣质帧，从源头保障了模型学习到的是兼具几何严谨性与院线级艺术质感的高质量数据。 评估与表现 § 通过统计学评估（均值 μ 与标准差 σ），Art3D 展现了优异的性能： 均值 (μ)：贴近真实院线大片的深度缩放和屏幕参考面分布。 标准差 (σ)：远低于纯几何 Baseline，证明了其全局立体一致性极高，避免了画面闪烁和跳动。 行业意义 § Art3D 并非推翻现有技术，而是作为“艺术大脑”完美互补现有几何重建技术。它标志着 AI 3D 生成从单纯的“物理测绘”转向了“懂叙事、懂情绪”的 艺术视差合成 新范式。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/art3d"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#art3d" data-for="art3d">Art3D</a></li><li class="depth-1"><a href="#核心架构双路径解耦机制" data-for="核心架构双路径解耦机制">核心架构：双路径解耦机制</a></li><li class="depth-1"><a href="#关键技术ddc-iou" data-for="关键技术ddc-iou">关键技术：DDC-IoU</a></li><li class="depth-1"><a href="#评估与表现" data-for="评估与表现">评估与表现</a></li><li class="depth-1"><a href="#行业意义" data-for="行业意义">行业意义</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Art3D</h1><p class="content-meta">Apr 03, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/ai-model" class="internal tag-link">#ai-model</a></li><li><a href="../tags/3d-generation" class="internal tag-link">#3d-generation</a></li><li><a href="../tags/cvpr-2026" class="internal tag-link">#cvpr-2026</a></li><li><a href="../tags/artistic-disparity" class="internal tag-link">#artistic-disparity</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="art3d">Art3D<a aria-hidden="true" tabindex="-1" href="#art3d" class="internal"> §</a></h1>
+<p><a href="../Art3D" class="internal">Art3D</a> 是一个发表于 <a href="../CVPR-2026" class="internal">CVPR 2026</a> 的 AI 框架，全称为“Artistic Disparity Synthesis for Immersive 2D-to-3D”。它是首个引入“艺术意图”的自动化 3D 生成框架，旨在解决传统 AI 2D 转 3D 技术中“重物理、轻艺术”导致的晕眩感和缺乏沉浸感的问题。</p>
+<h2 id="核心架构双路径解耦机制">核心架构：双路径解耦机制<a aria-hidden="true" tabindex="-1" href="#核心架构双路径解耦机制" class="internal"> §</a></h2>
+<p>Art3D 摒弃了传统单线机械生成逻辑，首创 <a href="../concepts/双路径解耦机制" class="internal">双路径解耦机制</a>，以兼顾艺术表达与物理严谨性：</p>
+<ol>
+<li><strong>全局风格路径</strong>：
+<ul>
+<li><strong>功能</strong>：复刻导演的全局叙事思维。</li>
+<li><strong>作用</strong>：把控整体深度克制感，稳定 <a href="../concepts/零视差面" class="internal">零视差面</a>，筑牢观影舒适度底线，适配全片统一的情绪基调。</li>
+</ul>
+</li>
+<li><strong>局部笔触路径</strong>：
+<ul>
+<li><strong>功能</strong>：赋予网络进行局部雕刻的能力。</li>
+<li><strong>作用</strong>：利用语言视觉大模型识别区域，在需要引导观众视线或制造震撼时，充当导演的“视觉画笔”。</li>
+</ul>
+</li>
+</ol>
+<h2 id="关键技术ddc-iou">关键技术：DDC-IoU<a aria-hidden="true" tabindex="-1" href="#关键技术ddc-iou" class="internal"> §</a></h2>
+<p>为了解决训练数据中存在大量劣质“废片”的问题，Art3D 团队提出了 <a href="../DDC-IoU" class="internal">DDC-IoU</a>（深度-视差一致性交并比）指标。该指标像“滤网”一样精准剔除了原片中缺乏艺术和几何价值的劣质帧，从源头保障了模型学习到的是兼具几何严谨性与院线级艺术质感的高质量数据。</p>
+<h2 id="评估与表现">评估与表现<a aria-hidden="true" tabindex="-1" href="#评估与表现" class="internal"> §</a></h2>
+<p>通过统计学评估（均值 <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span></span> 与标准差 <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span></span></span></span></span>），Art3D 展现了优异的性能：</p>
+<ul>
+<li><strong>均值 (<span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span></span>)</strong>：贴近真实院线大片的深度缩放和屏幕参考面分布。</li>
+<li><strong>标准差 (<span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span></span></span></span></span>)</strong>：远低于纯几何 Baseline，证明了其全局立体一致性极高，避免了画面闪烁和跳动。</li>
+</ul>
+<h2 id="行业意义">行业意义<a aria-hidden="true" tabindex="-1" href="#行业意义" class="internal"> §</a></h2>
+<p>Art3D 并非推翻现有技术，而是作为“艺术大脑”完美互补现有几何重建技术。它标志着 AI 3D 生成从单纯的“物理测绘”转向了“懂叙事、懂情绪”的 <a href="../concepts/艺术视差合成" class="internal">艺术视差合成</a> 新范式。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

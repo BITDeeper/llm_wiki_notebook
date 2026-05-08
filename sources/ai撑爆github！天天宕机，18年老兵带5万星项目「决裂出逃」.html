@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head><title>AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」"/><meta property="og:description" content="AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」 § 摘要 § 本文报道了 GitHub 第 1299 号用户、Vagrant 之父 Mitchell Hashimoto 因不堪忍受平台频繁宕机，决定将其拥有 5 万星的项目 Ghostty 迁离 GitHub 的事件。文章分析了 GitHub 在微软收购后，由于过度倾斜资源至 AI 战略（如 Copilot），导致传统代码托管和 CI/CD 基础设施维护不足，进而引发服务不稳定的结构性问题。 核心观点 § 1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」 § 摘要 § 本文报道了 GitHub 第 1299 号用户、Vagrant 之父 Mitchell Hashimoto 因不堪忍受平台频繁宕机，决定将其拥有 5 万星的项目 Ghostty 迁离 GitHub 的事件。文章分析了 GitHub 在微软收购后，由于过度倾斜资源至 AI 战略（如 Copilot），导致传统代码托管和 CI/CD 基础设施维护不足，进而引发服务不稳定的结构性问题。 核心观点 § 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/ai撑爆github！天天宕机，18年老兵带5万星项目「决裂出逃」"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#ai撑爆github天天宕机18年老兵带5万星项目决裂出逃" data-for="ai撑爆github天天宕机18年老兵带5万星项目决裂出逃">AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」</a></li><li class="depth-1"><a href="#摘要" data-for="摘要">摘要</a></li><li class="depth-1"><a href="#核心观点" data-for="核心观点">核心观点</a></li><li class="depth-2"><a href="#1-标志性人物出走" data-for="1-标志性人物出走">1. 标志性人物出走</a></li><li class="depth-2"><a href="#2-ai-战略的反噬" data-for="2-ai-战略的反噬">2. AI 战略的反噬</a></li><li class="depth-2"><a href="#3-官方确认与扩容困境" data-for="3-官方确认与扩容困境">3. 官方确认与扩容困境</a></li><li class="depth-2"><a href="#4-社区趋势去-github-化" data-for="4-社区趋势去-github-化">4. 社区趋势：去 GitHub 化</a></li><li class="depth-1"><a href="#关键引述" data-for="关键引述">关键引述</a></li><li class="depth-1"><a href="#相关背景" data-for="相关背景">相关背景</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」</h1><p class="content-meta">Apr 29, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/github" class="internal tag-link">#github</a></li><li><a href="../tags/ai" class="internal tag-link">#ai</a></li><li><a href="../tags/infrastructure" class="internal tag-link">#infrastructure</a></li><li><a href="../tags/mitchell-hashimoto" class="internal tag-link">#mitchell-hashimoto</a></li><li><a href="../tags/ghostty" class="internal tag-link">#ghostty</a></li><li><a href="../tags/outage" class="internal tag-link">#outage</a></li><li><a href="../tags/open-source" class="internal tag-link">#open-source</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="ai撑爆github天天宕机18年老兵带5万星项目决裂出逃">AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」<a aria-hidden="true" tabindex="-1" href="#ai撑爆github天天宕机18年老兵带5万星项目决裂出逃" class="internal"> §</a></h1>
+<h2 id="摘要">摘要<a aria-hidden="true" tabindex="-1" href="#摘要" class="internal"> §</a></h2>
+<p>本文报道了 GitHub 第 1299 号用户、Vagrant 之父 <a href="../Mitchell-Hashimoto" class="internal">Mitchell Hashimoto</a> 因不堪忍受平台频繁宕机，决定将其拥有 5 万星的项目 <a href="../Ghostty" class="internal">Ghostty</a> 迁离 GitHub 的事件。文章分析了 GitHub 在微软收购后，由于过度倾斜资源至 AI 战略（如 Copilot），导致传统代码托管和 CI/CD 基础设施维护不足，进而引发服务不稳定的结构性问题。</p>
+<h2 id="核心观点">核心观点<a aria-hidden="true" tabindex="-1" href="#核心观点" class="internal"> §</a></h2>
+<h3 id="1-标志性人物出走">1. 标志性人物出走<a aria-hidden="true" tabindex="-1" href="#1-标志性人物出走" class="internal"> §</a></h3>
+<p><a href="../Mitchell-Hashimoto" class="internal">Mitchell Hashimoto</a> 作为 GitHub 早期用户（18年老兵）及多项基础设施工具的创造者，其对平台的“决裂”具有极强的象征意义。他通过日记记录了过去一个月几乎每天都有宕机的情况，并指出这种不稳定性已严重影响了开发工作。</p>
+<h3 id="2-ai-战略的反噬">2. AI 战略的反噬<a aria-hidden="true" tabindex="-1" href="#2-ai-战略的反噬" class="internal"> §</a></h3>
+<p>文章指出，GitHub 的困境源于其 AI 战略导致的 <a href="../concepts/ai-反噬" class="internal">ai-反噬</a>：</p>
+<ul>
+<li><strong>资源倾斜</strong>：大量工程资源被投入到 Copilot 等 AI 产品（利润中心），而 Actions 等基础服务（成本中心）的维护被忽视。</li>
+<li><strong>负载激增</strong>：AI 编程工具（如 Copilot Agent）极大地提高了代码产出量，导致提交、PR 和 CI/CD 构建数量呈几何级增长。</li>
+<li><strong>基础设施过载</strong>：现有的 GitHub 基础设施是为“人类手速”设计的，无法承受 AI 带来的高频自动化操作。</li>
+</ul>
+<h3 id="3-官方确认与扩容困境">3. 官方确认与扩容困境<a aria-hidden="true" tabindex="-1" href="#3-官方确认与扩容困境" class="internal"> §</a></h3>
+<p>GitHub 新任 CTO Vlad Fedorov 承认，原定的 10 倍容量扩容计划已失效，必须进行 30 倍规模的重新设计。4 月 27 日的全球性大宕机（持续近 18 小时）被证实是由 botnet 攻击叠加流量超载（主要是 Agentic 工作流）引起的。</p>
+<h3 id="4-社区趋势去-github-化">4. 社区趋势：去 GitHub 化<a aria-hidden="true" tabindex="-1" href="#4-社区趋势去-github-化" class="internal"> §</a></h3>
+<p><a href="../Ghostty" class="internal">Ghostty</a> 的出走并非孤例。<a href="../Zig" class="internal">Zig</a> 编程语言和 <a href="../Gentoo-Linux" class="internal">Gentoo Linux</a> 等重量级开源项目此前也已迁移至 <a href="../Codeberg" class="internal">Codeberg</a> 等替代平台，理由包括对微软垄断的不满及反对利用仓库训练 AI 的政策。</p>
+<h2 id="关键引述">关键引述<a aria-hidden="true" tabindex="-1" href="#关键引述" class="internal"> §</a></h2>
+<blockquote>
+<p>“GitHub 曾是我的梦想工作… 但最近，我开始在公开场合频繁批评 GitHub… 这种愤怒其实源于一种极度私人的情感：我比任何人都爱 GitHub，但它现在每天都在辜负我。” — Mitchell Hashimoto</p>
+</blockquote>
+<blockquote>
+<p>“AI 是利润中心，基础设施是成本中心。在一个所有人都在追逐 AI 叙事的市场里，没有 CEO 会站出来说：‘这个季度，我们把 Copilot 的研发预算砍一半，去修 Actions。’”</p>
+</blockquote>
+<h2 id="相关背景">相关背景<a aria-hidden="true" tabindex="-1" href="#相关背景" class="internal"> §</a></h2>
+<ul>
+<li><strong>事件背景</strong>：2026 年 4 月，GitHub 频繁出现服务中断，尤其是 GitHub Actions 和代码搜索服务。</li>
+<li><strong>技术背景</strong>：AI 编程助手（Copilot, Cursor, Claude Code）的普及改变了开发者的工作流，使得代码提交和构建的频率远超平台设计预期。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

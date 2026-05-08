@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head><title>caveman</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="caveman"/><meta property="og:description" content="caveman § caveman 是一个开源的 AI 插件/技能，旨在通过强制 AI 模型使用极简语言（“穴居人”模式）来压缩输出 Token，从而解决 ai-yap-废话连篇 问题。 核心功能 § 该插件基于 简洁性约束 和 caveman-speak 概念，利用 Claude Code 的 skills-机制（或兼容环境）注入系统提示词。其核心逻辑是 超压缩通信模式：在不牺牲技术准确性的前提下，删除冠词、客套话和填充词。 主要特性包括： Token 压缩：平均可节省 65% 的输出 Token（区间 22%-87%）。 无损保留：完全保留代码块、URL、文件路径、命令等结构化数据，仅压缩自然语言文本。 兼容性：支持 Claude Code、Cursor、Copilot、Windsurf 等主流 AI 编程环境。 模式分级 § 插件提供三档强度设置，以适应不同的场景需求： Lite：去除填充词和客套话，保留完整句子和基本语法。 Full（默认）：省略虚词（如冠词），允许碎片句，仅保留关键词。 Ultra：极致压缩。大量使用缩写（如 DB, auth），使用箭头（→）表达因果，模仿原始人类语言风格。 安装方式 § 在支持 skills 的环境中，可通过以下命令安装： npx skills add JuliusBrussee/caveman 针对特定 Agent（如 Cursor）： npx skills add JuliusBrussee/caveman -a cursor 效果评估与局限 § Token 节省：实测数据显示输出 Token 减少 22%–87%。 局限性： 仅影响输出：仅压缩可见输出，不压缩后台的 Hidden Reasoning Tokens（思考过程）或输入 Token（上下文）。 上下文开销：加载插件本身会消耗少量上下文 Token。 可读性代价：极简风格可能增加用户的解码负担。 性能影响：在数学等特定任务上，强制简洁可能导致性能下降。 非万能药：不能解决 AI 使用的总成本问题（尤其是长上下文场景）。 开发者与影响 § 开发者：由 19 岁的 Julius Brussee 开发。 社会反响：在 Hacker News 上迅速爆火（Star 数破 2 万，3 天狂揽 4."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="caveman § caveman 是一个开源的 AI 插件/技能，旨在通过强制 AI 模型使用极简语言（“穴居人”模式）来压缩输出 Token，从而解决 ai-yap-废话连篇 问题。 核心功能 § 该插件基于 简洁性约束 和 caveman-speak 概念，利用 Claude Code 的 skills-机制（或兼容环境）注入系统提示词。其核心逻辑是 超压缩通信模式：在不牺牲技术准确性的前提下，删除冠词、客套话和填充词。 主要特性包括： Token 压缩：平均可节省 65% 的输出 Token（区间 22%-87%）。 无损保留：完全保留代码块、URL、文件路径、命令等结构化数据，仅压缩自然语言文本。 兼容性：支持 Claude Code、Cursor、Copilot、Windsurf 等主流 AI 编程环境。 模式分级 § 插件提供三档强度设置，以适应不同的场景需求： Lite：去除填充词和客套话，保留完整句子和基本语法。 Full（默认）：省略虚词（如冠词），允许碎片句，仅保留关键词。 Ultra：极致压缩。大量使用缩写（如 DB, auth），使用箭头（→）表达因果，模仿原始人类语言风格。 安装方式 § 在支持 skills 的环境中，可通过以下命令安装： npx skills add JuliusBrussee/caveman 针对特定 Agent（如 Cursor）： npx skills add JuliusBrussee/caveman -a cursor 效果评估与局限 § Token 节省：实测数据显示输出 Token 减少 22%–87%。 局限性： 仅影响输出：仅压缩可见输出，不压缩后台的 Hidden Reasoning Tokens（思考过程）或输入 Token（上下文）。 上下文开销：加载插件本身会消耗少量上下文 Token。 可读性代价：极简风格可能增加用户的解码负担。 性能影响：在数学等特定任务上，强制简洁可能导致性能下降。 非万能药：不能解决 AI 使用的总成本问题（尤其是长上下文场景）。 开发者与影响 § 开发者：由 19 岁的 Julius Brussee 开发。 社会反响：在 Hacker News 上迅速爆火（Star 数破 2 万，3 天狂揽 4."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/caveman"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#caveman" data-for="caveman">caveman</a></li><li class="depth-1"><a href="#核心功能" data-for="核心功能">核心功能</a></li><li class="depth-1"><a href="#模式分级" data-for="模式分级">模式分级</a></li><li class="depth-1"><a href="#安装方式" data-for="安装方式">安装方式</a></li><li class="depth-1"><a href="#效果评估与局限" data-for="效果评估与局限">效果评估与局限</a></li><li class="depth-1"><a href="#开发者与影响" data-for="开发者与影响">开发者与影响</a></li><li class="depth-1"><a href="#外部链接" data-for="外部链接">外部链接</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">caveman</h1><p class="content-meta">May 08, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/plugin" class="internal tag-link">#plugin</a></li><li><a href="../tags/open-source" class="internal tag-link">#open-source</a></li><li><a href="../tags/prompt-engineering" class="internal tag-link">#prompt-engineering</a></li><li><a href="../tags/token-optimization" class="internal tag-link">#token-optimization</a></li><li><a href="../tags/ai-tool" class="internal tag-link">#ai-tool</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="caveman">caveman<a aria-hidden="true" tabindex="-1" href="#caveman" class="internal"> §</a></h1>
+<p><a href="../entities/caveman" class="internal">caveman</a> 是一个开源的 AI 插件/技能，旨在通过强制 AI 模型使用极简语言（“穴居人”模式）来压缩输出 Token，从而解决 <a href="../concepts/ai-yap-废话连篇" class="internal">ai-yap-废话连篇</a> 问题。</p>
+<h2 id="核心功能">核心功能<a aria-hidden="true" tabindex="-1" href="#核心功能" class="internal"> §</a></h2>
+<p>该插件基于 <a href="../concepts/简洁性约束" class="internal">简洁性约束</a> 和 <a href="../concepts/caveman-speak" class="internal">caveman-speak</a> 概念，利用 <a href="../Claude-Code" class="internal">Claude Code</a> 的 <a href="../concepts/skills-机制" class="internal">skills-机制</a>（或兼容环境）注入系统提示词。其核心逻辑是 <a href="../concepts/超压缩通信模式" class="internal">超压缩通信模式</a>：在不牺牲技术准确性的前提下，删除冠词、客套话和填充词。</p>
+<p>主要特性包括：</p>
+<ul>
+<li><strong>Token 压缩</strong>：平均可节省 65% 的输出 Token（区间 22%-87%）。</li>
+<li><strong>无损保留</strong>：完全保留代码块、URL、文件路径、命令等结构化数据，仅压缩自然语言文本。</li>
+<li><strong>兼容性</strong>：支持 <a href="../Claude-Code" class="internal">Claude Code</a>、Cursor、Copilot、Windsurf 等主流 AI 编程环境。</li>
+</ul>
+<h2 id="模式分级">模式分级<a aria-hidden="true" tabindex="-1" href="#模式分级" class="internal"> §</a></h2>
+<p>插件提供三档强度设置，以适应不同的场景需求：</p>
+<ol>
+<li><strong>Lite</strong>：去除填充词和客套话，保留完整句子和基本语法。</li>
+<li><strong>Full</strong>（默认）：省略虚词（如冠词），允许碎片句，仅保留关键词。</li>
+<li><strong>Ultra</strong>：极致压缩。大量使用缩写（如 <code>DB</code>, <code>auth</code>），使用箭头（<code>→</code>）表达因果，模仿原始人类语言风格。</li>
+</ol>
+<h2 id="安装方式">安装方式<a aria-hidden="true" tabindex="-1" href="#安装方式" class="internal"> §</a></h2>
+<p>在支持 skills 的环境中，可通过以下命令安装：</p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">npx</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">skills</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">add</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">JuliusBrussee/caveman</span></span></code></pre></div>
+<p>针对特定 Agent（如 Cursor）：</p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">npx</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">skills</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">add</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">JuliusBrussee/caveman</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-a</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">cursor</span></span></code></pre></div>
+<h2 id="效果评估与局限">效果评估与局限<a aria-hidden="true" tabindex="-1" href="#效果评估与局限" class="internal"> §</a></h2>
+<ul>
+<li><strong>Token 节省</strong>：实测数据显示输出 Token 减少 22%–87%。</li>
+<li><strong>局限性</strong>：
+<ul>
+<li><strong>仅影响输出</strong>：仅压缩可见输出，不压缩后台的 Hidden Reasoning Tokens（思考过程）或输入 Token（上下文）。</li>
+<li><strong>上下文开销</strong>：加载插件本身会消耗少量上下文 Token。</li>
+<li><strong>可读性代价</strong>：极简风格可能增加用户的解码负担。</li>
+<li><strong>性能影响</strong>：在数学等特定任务上，强制简洁可能导致性能下降。</li>
+<li><strong>非万能药</strong>：不能解决 AI 使用的总成本问题（尤其是长上下文场景）。</li>
+</ul>
+</li>
+</ul>
+<h2 id="开发者与影响">开发者与影响<a aria-hidden="true" tabindex="-1" href="#开发者与影响" class="internal"> §</a></h2>
+<ul>
+<li><strong>开发者</strong>：由 19 岁的 <a href="../Julius-Brussee" class="internal">Julius Brussee</a> 开发。</li>
+<li><strong>社会反响</strong>：在 Hacker News 上迅速爆火（Star 数破 2 万，3 天狂揽 4.1k 星），被视为开发者对抗 AI 冗余输出和 <a href="../concepts/ai-subscription-crisis" class="internal">ai-subscription-crisis</a> 的标志性工具。它反映了用户对 AI “废话”导致成本增加和阅读疲劳的强烈不满。</li>
+</ul>
+<h2 id="外部链接">外部链接<a aria-hidden="true" tabindex="-1" href="#外部链接" class="internal"> §</a></h2>
+<ul>
+<li>GitHub: <a href="https://github.com/JuliusBrussee/caveman" class="external">caveman</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/ai-yap-废话连篇" class="internal">AI Yap (废话连篇)</a></li><li><a href="../concepts/skills-机制" class="internal">Skills 机制</a></li><li><a href="../concepts/超压缩通信模式" class="internal">超压缩通信模式</a></li><li><a href="../entities/caveman" class="internal">caveman</a></li><li><a href="../entities/julius-brussee" class="internal">Julius Brussee</a></li><li><a href="../sources/省token神器3天狂揽4.1k星！19岁小哥开发，信息无损最高省87%" class="internal">省token神器3天狂揽4.1k星！19岁小哥开发，信息无损最高省87%</a></li><li><a href="../sources/逼ai当山顶洞人！claude防话痨插件爆火，网友：受够了ai废话" class="internal">逼AI当山顶洞人！Claude防话痨插件爆火，网友：受够了AI废话</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

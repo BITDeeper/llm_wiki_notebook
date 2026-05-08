@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head><title>程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行"/><meta property="og:description" content="程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行 § 概述 § 本文详细报道了 OpenAI 的一项内部实验，即 驾驭工程。在该实验中，一个最初仅 3 人的团队在 5 个月内利用 Codex 智能体从零构建了一个包含百万行代码的产品。实验的核心铁律是“人类不许写代码”，所有代码实现、测试、文档和 CI 配置均由 AI 完成。这标志着软件工程从“手工编码”向“规则定义与系统驾驭”的范式转移。 核心发现 § 效率与规模 § 团队规模：初期 3 人，后期扩展至 7 人。 产出规模：5 个月内生成百万行代码。 工作效率：每人每天平均推进 3."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行 § 概述 § 本文详细报道了 OpenAI 的一项内部实验，即 驾驭工程。在该实验中，一个最初仅 3 人的团队在 5 个月内利用 Codex 智能体从零构建了一个包含百万行代码的产品。实验的核心铁律是“人类不许写代码”，所有代码实现、测试、文档和 CI 配置均由 AI 完成。这标志着软件工程从“手工编码”向“规则定义与系统驾驭”的范式转移。 核心发现 § 效率与规模 § 团队规模：初期 3 人，后期扩展至 7 人。 产出规模：5 个月内生成百万行代码。 工作效率：每人每天平均推进 3."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/程序员不许写代码！openai硬核实验：3人指挥ai，5个月造出百万行"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#程序员不许写代码openai硬核实验3人指挥ai5个月造出百万行" data-for="程序员不许写代码openai硬核实验3人指挥ai5个月造出百万行">程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#核心发现" data-for="核心发现">核心发现</a></li><li class="depth-2"><a href="#效率与规模" data-for="效率与规模">效率与规模</a></li><li class="depth-2"><a href="#方法论变革" data-for="方法论变革">方法论变革</a></li><li class="depth-1"><a href="#关键技术突破" data-for="关键技术突破">关键技术突破</a></li><li class="depth-2"><a href="#1-上下文管理渐进式披露" data-for="1-上下文管理渐进式披露">1. 上下文管理：[[渐进式披露]]</a></li><li class="depth-2"><a href="#2-质量保证可观测性驱动开发" data-for="2-质量保证可观测性驱动开发">2. 质量保证：[[可观测性驱动开发]]</a></li><li class="depth-2"><a href="#3-架构约束自动化围栏" data-for="3-架构约束自动化围栏">3. 架构约束：[[自动化围栏]]</a></li><li class="depth-1"><a href="#对工程师角色的重塑" data-for="对工程师角色的重塑">对工程师角色的重塑</a></li><li class="depth-1"><a href="#相关概念" data-for="相关概念">相关概念</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行</h1><p class="content-meta">May 04, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/openai" class="internal tag-link">#openai</a></li><li><a href="../tags/驾驭工程" class="internal tag-link">#驾驭工程</a></li><li><a href="../tags/ai编程" class="internal tag-link">#ai编程</a></li><li><a href="../tags/软件工程" class="internal tag-link">#软件工程</a></li><li><a href="../tags/智能体" class="internal tag-link">#智能体</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="程序员不许写代码openai硬核实验3人指挥ai5个月造出百万行">程序员不许写代码！OpenAI硬核实验：3人指挥AI，5个月造出百万行<a aria-hidden="true" tabindex="-1" href="#程序员不许写代码openai硬核实验3人指挥ai5个月造出百万行" class="internal"> §</a></h1>
+<h2 id="概述">概述<a aria-hidden="true" tabindex="-1" href="#概述" class="internal"> §</a></h2>
+<p>本文详细报道了 OpenAI 的一项内部实验，即 <a href="../concepts/驾驭工程" class="internal">驾驭工程</a>。在该实验中，一个最初仅 3 人的团队在 5 个月内利用 <a href="../Codex" class="internal">Codex</a> 智能体从零构建了一个包含百万行代码的产品。实验的核心铁律是“人类不许写代码”，所有代码实现、测试、文档和 CI 配置均由 AI 完成。这标志着软件工程从“手工编码”向“规则定义与系统驾驭”的范式转移。</p>
+<h2 id="核心发现">核心发现<a aria-hidden="true" tabindex="-1" href="#核心发现" class="internal"> §</a></h2>
+<h3 id="效率与规模">效率与规模<a aria-hidden="true" tabindex="-1" href="#效率与规模" class="internal"> §</a></h3>
+<ul>
+<li><strong>团队规模</strong>：初期 3 人，后期扩展至 7 人。</li>
+<li><strong>产出规模</strong>：5 个月内生成百万行代码。</li>
+<li><strong>工作效率</strong>：每人每天平均推进 3.5 个 PR。</li>
+<li><strong>AI 工作时长</strong>：通过接入 DevTools 和可观测性工具，Codex 可连续工作 6 小时以上进行自审和迭代。</li>
+</ul>
+<h3 id="方法论变革">方法论变革<a aria-hidden="true" tabindex="-1" href="#方法论变革" class="internal"> §</a></h3>
+<p>实验展示了 <a href="../任务执行范式" class="internal">任务执行范式</a> 的终极形态。人类工程师的角色从“执行者”转变为“驾驭者”：</p>
+<ol>
+<li><strong>定义规则</strong>：人类负责想清楚需求、建立架构约束和“品味不变量”。</li>
+<li><strong>AI 执行</strong>：<a href="../Codex" class="internal">Codex</a> 负责具体的编码、测试、评审和修复。</li>
+<li><strong>智能体对智能体</strong>：随着系统成熟，几乎所有评审工作都移交给了 AI 智能体之间的交互。</li>
+</ol>
+<h2 id="关键技术突破">关键技术突破<a aria-hidden="true" tabindex="-1" href="#关键技术突破" class="internal"> §</a></h2>
+<h3 id="1-上下文管理渐进式披露">1. 上下文管理：<a href="../concepts/渐进式披露" class="internal">渐进式披露</a><a aria-hidden="true" tabindex="-1" href="#1-上下文管理渐进式披露" class="internal"> §</a></h3>
+<p>为了解决 AI 上下文瓶颈，团队放弃了“1000 页说明书”式的文档，转而采用“地图”策略。</p>
+<ul>
+<li><strong>AGENTS.md</strong>：从超大的规则文件精简为约 100 行的导航索引，仅指向更深层的知识源。</li>
+<li><strong>结构化知识库</strong>：将设计文档、架构图、产品规格等结构化存储，作为系统的唯一事实来源。</li>
+<li><strong>文档园丁</strong>：专门的智能体负责扫描文档与代码的不一致，并自动发起修复 PR。</li>
+</ul>
+<h3 id="2-质量保证可观测性驱动开发">2. 质量保证：<a href="../concepts/可观测性驱动开发" class="internal">可观测性驱动开发</a><a aria-hidden="true" tabindex="-1" href="#2-质量保证可观测性驱动开发" class="internal"> §</a></h3>
+<p>为了突破人工 QA 的瓶颈，团队让 AI 具备了自我调试能力：</p>
+<ul>
+<li><strong>DevTools 集成</strong>：接入 Chrome DevTools 协议，Codex 可处理 DOM 快照、截图和导航，自主复现 Bug。</li>
+<li><strong>日志与指标</strong>：通过本地可观测性栈暴露日志、指标和追踪，Codex 可使用 LogQ 和 PromQL 查询系统状态。</li>
+<li><strong>自我验证</strong>：AI 可根据提示（如“确保服务启动在 800ms 内”）自主验证修复效果。</li>
+</ul>
+<h3 id="3-架构约束自动化围栏">3. 架构约束：<a href="../concepts/自动化围栏" class="internal">自动化围栏</a><a aria-hidden="true" tabindex="-1" href="#3-架构约束自动化围栏" class="internal"> §</a></h3>
+<p>为了防止 AI 的概率性幻觉导致系统崩塌，团队实施了极其严格的架构约束：</p>
+<ul>
+<li><strong>固定依赖层级</strong>：代码只能沿 <code>Types→Config→Repo→Service→Runtime→UI</code> 方向依赖。</li>
+<li><strong>显式接口</strong>：横切关注点（如认证、遥测）必须通过 Providers 接口。</li>
+<li><strong>强制 Lint</strong>：通过自定义 Lint 规则（由 Codex 生成）强制执行架构和风格规范。</li>
+</ul>
+<h2 id="对工程师角色的重塑">对工程师角色的重塑<a aria-hidden="true" tabindex="-1" href="#对工程师角色的重塑" class="internal"> §</a></h2>
+<p>文章指出，在 <a href="../concepts/驾驭工程" class="internal">驾驭工程</a> 时代，工程师的核心竞争力发生了根本性转移：</p>
+<ul>
+<li><strong>从语法到架构</strong>：不再需要记忆语法细节，而是需要强大的 <a href="../架构能力优先" class="internal">架构能力</a>，设计系统边界和模块约束。</li>
+<li><strong>从编码到表达</strong>：需要精准的自然语言表达能力，以清晰地向 AI 描述意图。</li>
+<li><strong><a href="../concepts/审美法官" class="internal">审美法官</a></strong>：人类的角色转变为定义“品味不变量”和系统边界的法官，而非底层的砌砖工人。</li>
+</ul>
+<h2 id="相关概念">相关概念<a aria-hidden="true" tabindex="-1" href="#相关概念" class="internal"> §</a></h2>
+<ul>
+<li><a href="../任务执行范式" class="internal">任务执行范式</a>：本实验是该范式的实证案例。</li>
+<li><a href="../concepts/ai-subscription-crisis" class="internal">ai-subscription-crisis</a>：AI 连续工作带来的算力消耗暗示了订阅制危机的必然性。</li>
+<li><a href="../entities/claude-code" class="internal">claude-code</a>：对比单兵作战的编程工具，OpenAI 展示了组织级的工业化流水线。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

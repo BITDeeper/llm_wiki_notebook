@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html><head><title>挖漏洞何必Mythos，国产智能体早跑通了</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="挖漏洞何必Mythos，国产智能体早跑通了"/><meta property="og:description" content="挖漏洞何必Mythos，国产智能体早跑通了 § 概述 § 本文报道了 360集团 自主研发的 360漏洞挖掘智能体 在实战中取得的重大突破，并将其与 Anthropic 未公开的 Mythos 模型进行了技术路线对比。文章指出，AI 规模化漏洞挖掘已从实验室走向实战，标志着网络安全从“人与人对抗”向“机器与机器对抗”的范式转移。 核心发现 § 实战战绩 § 360 智能体公开披露了两项重大漏洞发现： CVE-2026-24293：潜伏近 5 年的 Windows 内核提权漏洞。 Office RCE 漏洞：潜伏整整 8 年的远程代码执行漏洞。 这两项漏洞合计影响全球超 10 亿用户，均已上报国家漏洞库完成修复，并获得了 微软安全响应中心（MSRC）的官方致谢。这是我国首次公开披露智能体已具备规模化发现基础软件核心漏洞的能力。 技术路线对比：360 vs Mythos § 维度Mythos (Anthropic)360漏洞挖掘智能体核心驱动超大参数通用模型 + 长上下文推理攻防经验蒸馏 + 智能体蜂群协同方法论“读代码猜漏洞” (实验室阶段)多智能体协同实战闭环 (工程化)能力本质代码理解能力攻防实战专家系统效率未披露将传统数月/数年的审计压缩至 分钟级成本高算力成本边际成本趋近于零场景适配西方主流系统原生适配中国数字生态 (国产 OS/DB 等) 关键技术：攻防经验蒸馏 § 360 并未让模型从零自学，而是将 20 年积累的 300 亿+ 攻击样本、国家级攻防演练数据以及顶级红蓝队专家的 攻防经验蒸馏 进模型。这使得智能体具备了“顶级安全专家大脑”，能够进行状态推理、路径规划和因果链分析。 关键架构：智能体蜂群协同 § 不同于单一模型，360 采用了多智能体协同架构： 攻击面分析智能体：锁定入口。 AI 代码审计智能体：跨文件推理穿透数据流。 漏洞验证智能体：生成利用代码并在隔离沙箱复现。 报告生成智能体：输出完整审计报告。 这套体系实现了从代码接入到报告交付的标准化、自动化全闭环。 地缘政治与战略意义 § Project Glasswing 排他性 § Anthropic 联合 AWS、Microsoft、Google 等约 40 家西方厂商发起了 Project Glasswing 安全合作计划，旨在优先修复关键基础设施漏洞。然而，中国企业未被包含在内。 数字地缘安全 § 周鸿祎 提出“漏洞是国家战略资产”，强调“漏洞不出国”。在智能体时代，御敌于国门之外 的含义发生了质变：不再是被动的防御，而是通过己方 AI 自动化扫描和修补的速度碾压对方攻击速度，使对方手中的“未知漏洞武器”失效。 行业影响 § 文章认为，AI 挖漏洞让成本下降了三个数量级，将“偶发性发现”变成了“批量化持续产出”。网络安全行业正迎来范式迁移，智能体蜂群协同 成为新的基础能力形态。360 的实践证明，中国已具备独立于 Glasswing 联盟之外的自主漏洞发现体系。 相关条目 § openclaw：360 智能体还发现了 OpenClaw 的高危漏洞，展示了其对 AI 原生基础设施的防御能力。 任务执行范式：360 的全闭环流程是任务执行范式在安全领域的典型应用。 ."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="挖漏洞何必Mythos，国产智能体早跑通了 § 概述 § 本文报道了 360集团 自主研发的 360漏洞挖掘智能体 在实战中取得的重大突破，并将其与 Anthropic 未公开的 Mythos 模型进行了技术路线对比。文章指出，AI 规模化漏洞挖掘已从实验室走向实战，标志着网络安全从“人与人对抗”向“机器与机器对抗”的范式转移。 核心发现 § 实战战绩 § 360 智能体公开披露了两项重大漏洞发现： CVE-2026-24293：潜伏近 5 年的 Windows 内核提权漏洞。 Office RCE 漏洞：潜伏整整 8 年的远程代码执行漏洞。 这两项漏洞合计影响全球超 10 亿用户，均已上报国家漏洞库完成修复，并获得了 微软安全响应中心（MSRC）的官方致谢。这是我国首次公开披露智能体已具备规模化发现基础软件核心漏洞的能力。 技术路线对比：360 vs Mythos § 维度Mythos (Anthropic)360漏洞挖掘智能体核心驱动超大参数通用模型 + 长上下文推理攻防经验蒸馏 + 智能体蜂群协同方法论“读代码猜漏洞” (实验室阶段)多智能体协同实战闭环 (工程化)能力本质代码理解能力攻防实战专家系统效率未披露将传统数月/数年的审计压缩至 分钟级成本高算力成本边际成本趋近于零场景适配西方主流系统原生适配中国数字生态 (国产 OS/DB 等) 关键技术：攻防经验蒸馏 § 360 并未让模型从零自学，而是将 20 年积累的 300 亿+ 攻击样本、国家级攻防演练数据以及顶级红蓝队专家的 攻防经验蒸馏 进模型。这使得智能体具备了“顶级安全专家大脑”，能够进行状态推理、路径规划和因果链分析。 关键架构：智能体蜂群协同 § 不同于单一模型，360 采用了多智能体协同架构： 攻击面分析智能体：锁定入口。 AI 代码审计智能体：跨文件推理穿透数据流。 漏洞验证智能体：生成利用代码并在隔离沙箱复现。 报告生成智能体：输出完整审计报告。 这套体系实现了从代码接入到报告交付的标准化、自动化全闭环。 地缘政治与战略意义 § Project Glasswing 排他性 § Anthropic 联合 AWS、Microsoft、Google 等约 40 家西方厂商发起了 Project Glasswing 安全合作计划，旨在优先修复关键基础设施漏洞。然而，中国企业未被包含在内。 数字地缘安全 § 周鸿祎 提出“漏洞是国家战略资产”，强调“漏洞不出国”。在智能体时代，御敌于国门之外 的含义发生了质变：不再是被动的防御，而是通过己方 AI 自动化扫描和修补的速度碾压对方攻击速度，使对方手中的“未知漏洞武器”失效。 行业影响 § 文章认为，AI 挖漏洞让成本下降了三个数量级，将“偶发性发现”变成了“批量化持续产出”。网络安全行业正迎来范式迁移，智能体蜂群协同 成为新的基础能力形态。360 的实践证明，中国已具备独立于 Glasswing 联盟之外的自主漏洞发现体系。 相关条目 § openclaw：360 智能体还发现了 OpenClaw 的高危漏洞，展示了其对 AI 原生基础设施的防御能力。 任务执行范式：360 的全闭环流程是任务执行范式在安全领域的典型应用。 ."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/挖漏洞何必mythos，国产智能体早跑通了"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#挖漏洞何必mythos国产智能体早跑通了" data-for="挖漏洞何必mythos国产智能体早跑通了">挖漏洞何必Mythos，国产智能体早跑通了</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#核心发现" data-for="核心发现">核心发现</a></li><li class="depth-2"><a href="#实战战绩" data-for="实战战绩">实战战绩</a></li><li class="depth-2"><a href="#技术路线对比360-vs-mythos" data-for="技术路线对比360-vs-mythos">技术路线对比：360 vs Mythos</a></li><li class="depth-2"><a href="#关键技术攻防经验蒸馏" data-for="关键技术攻防经验蒸馏">关键技术：攻防经验蒸馏</a></li><li class="depth-2"><a href="#关键架构智能体蜂群协同" data-for="关键架构智能体蜂群协同">关键架构：智能体蜂群协同</a></li><li class="depth-1"><a href="#地缘政治与战略意义" data-for="地缘政治与战略意义">地缘政治与战略意义</a></li><li class="depth-2"><a href="#project-glasswing-排他性" data-for="project-glasswing-排他性">Project Glasswing 排他性</a></li><li class="depth-2"><a href="#数字地缘安全" data-for="数字地缘安全">数字地缘安全</a></li><li class="depth-1"><a href="#行业影响" data-for="行业影响">行业影响</a></li><li class="depth-1"><a href="#相关条目" data-for="相关条目">相关条目</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">挖漏洞何必Mythos，国产智能体早跑通了</h1><p class="content-meta">Apr 22, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/ai-security" class="internal tag-link">#ai-security</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/360" class="internal tag-link">#360</a></li><li><a href="../tags/mythos" class="internal tag-link">#mythos</a></li><li><a href="../tags/vulnerability-research" class="internal tag-link">#vulnerability-research</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="挖漏洞何必mythos国产智能体早跑通了">挖漏洞何必Mythos，国产智能体早跑通了<a aria-hidden="true" tabindex="-1" href="#挖漏洞何必mythos国产智能体早跑通了" class="internal"> §</a></h1>
+<h2 id="概述">概述<a aria-hidden="true" tabindex="-1" href="#概述" class="internal"> §</a></h2>
+<p>本文报道了 <a href="../entities/360集团" class="internal">360集团</a> 自主研发的 <a href="../entities/360漏洞挖掘智能体" class="internal">360漏洞挖掘智能体</a> 在实战中取得的重大突破，并将其与 <a href="../Anthropic" class="internal">Anthropic</a> 未公开的 <a href="../Mythos" class="internal">Mythos</a> 模型进行了技术路线对比。文章指出，AI 规模化漏洞挖掘已从实验室走向实战，标志着网络安全从“人与人对抗”向“机器与机器对抗”的范式转移。</p>
+<h2 id="核心发现">核心发现<a aria-hidden="true" tabindex="-1" href="#核心发现" class="internal"> §</a></h2>
+<h3 id="实战战绩">实战战绩<a aria-hidden="true" tabindex="-1" href="#实战战绩" class="internal"> §</a></h3>
+<p>360 智能体公开披露了两项重大漏洞发现：</p>
+<ol>
+<li><strong>CVE-2026-24293</strong>：潜伏近 5 年的 Windows 内核提权漏洞。</li>
+<li><strong>Office RCE 漏洞</strong>：潜伏整整 8 年的远程代码执行漏洞。</li>
+</ol>
+<p>这两项漏洞合计影响全球超 10 亿用户，均已上报国家漏洞库完成修复，并获得了 <a href="../微软安全响应中心" class="internal">微软安全响应中心</a>（MSRC）的官方致谢。这是我国首次公开披露智能体已具备规模化发现基础软件核心漏洞的能力。</p>
+<h3 id="技术路线对比360-vs-mythos">技术路线对比：360 vs Mythos<a aria-hidden="true" tabindex="-1" href="#技术路线对比360-vs-mythos" class="internal"> §</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">维度</th><th align="left"><a href="../Mythos" class="internal">Mythos</a> (Anthropic)</th><th align="left"><a href="../entities/360漏洞挖掘智能体" class="internal">360漏洞挖掘智能体</a></th></tr></thead><tbody><tr><td align="left"><strong>核心驱动</strong></td><td align="left">超大参数通用模型 + 长上下文推理</td><td align="left"><a href="../concepts/攻防经验蒸馏" class="internal">攻防经验蒸馏</a> + <a href="../concepts/智能体蜂群协同" class="internal">智能体蜂群协同</a></td></tr><tr><td align="left"><strong>方法论</strong></td><td align="left">“读代码猜漏洞” (实验室阶段)</td><td align="left">多智能体协同实战闭环 (工程化)</td></tr><tr><td align="left"><strong>能力本质</strong></td><td align="left">代码理解能力</td><td align="left">攻防实战专家系统</td></tr><tr><td align="left"><strong>效率</strong></td><td align="left">未披露</td><td align="left">将传统数月/数年的审计压缩至 <strong>分钟级</strong></td></tr><tr><td align="left"><strong>成本</strong></td><td align="left">高算力成本</td><td align="left">边际成本趋近于零</td></tr><tr><td align="left"><strong>场景适配</strong></td><td align="left">西方主流系统</td><td align="left">原生适配中国数字生态 (国产 OS/DB 等)</td></tr></tbody></table>
+<h3 id="关键技术攻防经验蒸馏">关键技术：攻防经验蒸馏<a aria-hidden="true" tabindex="-1" href="#关键技术攻防经验蒸馏" class="internal"> §</a></h3>
+<p>360 并未让模型从零自学，而是将 20 年积累的 300 亿+ 攻击样本、国家级攻防演练数据以及顶级红蓝队专家的 <a href="../concepts/攻防经验蒸馏" class="internal">攻防经验蒸馏</a> 进模型。这使得智能体具备了“顶级安全专家大脑”，能够进行状态推理、路径规划和因果链分析。</p>
+<h3 id="关键架构智能体蜂群协同">关键架构：智能体蜂群协同<a aria-hidden="true" tabindex="-1" href="#关键架构智能体蜂群协同" class="internal"> §</a></h3>
+<p>不同于单一模型，360 采用了多智能体协同架构：</p>
+<ul>
+<li><strong>攻击面分析智能体</strong>：锁定入口。</li>
+<li><strong>AI 代码审计智能体</strong>：跨文件推理穿透数据流。</li>
+<li><strong>漏洞验证智能体</strong>：生成利用代码并在隔离沙箱复现。</li>
+<li><strong>报告生成智能体</strong>：输出完整审计报告。</li>
+</ul>
+<p>这套体系实现了从代码接入到报告交付的标准化、自动化全闭环。</p>
+<h2 id="地缘政治与战略意义">地缘政治与战略意义<a aria-hidden="true" tabindex="-1" href="#地缘政治与战略意义" class="internal"> §</a></h2>
+<h3 id="project-glasswing-排他性">Project Glasswing 排他性<a aria-hidden="true" tabindex="-1" href="#project-glasswing-排他性" class="internal"> §</a></h3>
+<p>Anthropic 联合 AWS、Microsoft、Google 等约 40 家西方厂商发起了 <a href="../Project-Glasswing" class="internal">Project Glasswing</a> 安全合作计划，旨在优先修复关键基础设施漏洞。然而，<strong>中国企业未被包含在内</strong>。</p>
+<h3 id="数字地缘安全">数字地缘安全<a aria-hidden="true" tabindex="-1" href="#数字地缘安全" class="internal"> §</a></h3>
+<p><a href="../entities/周鸿祎" class="internal">周鸿祎</a> 提出“漏洞是国家战略资产”，强调“漏洞不出国”。在智能体时代，<a href="../御敌于国门之外" class="internal">御敌于国门之外</a> 的含义发生了质变：不再是被动的防御，而是通过己方 AI 自动化扫描和修补的速度碾压对方攻击速度，使对方手中的“未知漏洞武器”失效。</p>
+<h2 id="行业影响">行业影响<a aria-hidden="true" tabindex="-1" href="#行业影响" class="internal"> §</a></h2>
+<p>文章认为，AI 挖漏洞让成本下降了三个数量级，将“偶发性发现”变成了“批量化持续产出”。网络安全行业正迎来范式迁移，<a href="../concepts/智能体蜂群协同" class="internal">智能体蜂群协同</a> 成为新的基础能力形态。360 的实践证明，中国已具备独立于 Glasswing 联盟之外的自主漏洞发现体系。</p>
+<h2 id="相关条目">相关条目<a aria-hidden="true" tabindex="-1" href="#相关条目" class="internal"> §</a></h2>
+<ul>
+<li><a href="../entities/openclaw" class="internal">openclaw</a>：360 智能体还发现了 OpenClaw 的高危漏洞，展示了其对 AI 原生基础设施的防御能力。</li>
+<li><a href="../任务执行范式" class="internal">任务执行范式</a>：360 的全闭环流程是任务执行范式在安全领域的典型应用。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

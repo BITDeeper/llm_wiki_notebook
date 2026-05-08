@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html><head><title>Harness (智能体运行框架)</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Harness (智能体运行框架)"/><meta property="og:description" content="Harness (智能体运行框架) § Harness（智能体运行框架/脚手架/托管框架）是指支撑 AI 模型运行并使其能够完成复杂任务的一整套基础设施和工程逻辑。它标志着 AI 从“单次问答”玩具阶段迈向“生产级系统”的关键范式转移。 在 AI 智能体的构建范式中，业界普遍遵循 Agent = Model + Harness 的公式： 模型是“大脑”/引擎：提供基础的智能、推理和知识能力。 Harness 是“身体”/机甲：决定智能如何被应用，如何与环境交互，以及如何处理不确定性。 再强的引擎，如果没有外骨骼框架来传递动力和执行动作，也无法造出强大的 Agent。 起源与发展 § 2026 年 2 月：HashiCorp 联创 Mitchell Hashimoto 在博客中率先命名了这一概念。 OpenAI 实验：发布报告称 3 名工程师利用 Codex Agent 在 5 个月内生成了 100 万行生产级代码，展示了 Harness 的潜力。 行业共识：Martin Fowler 撰写深度长文，Anthropic 发布相关设计指南，确立了 Harness 在 AI 工程化中的核心地位。 核心定义与工程难题 § 随着智能体系统的演进，Harness 的定义也从单纯的“工程脚手架”扩展到了“托管与控制层”，强调为智能体提供稳定、可控、可观测的运行环境。其架构主要解决以下四个工程化难题： 长时程：支持以月、年为周期的持续服务，而非单次会话。 可追溯：记录建议来源、工具调用链路和知识库版本，确保每一步都有据可查。 可执行：不仅生成文本，还能连接外部设备、系统和业务流程。 可治理：内置权限管理、数据脱敏、审批流程和审计机制，确保系统在合规边界内运行。 比喻：F1 赛车与驾驭者 § MiniMax 首席架构师 阿岛 曾用“F1 赛车”生动比喻 Agent 与 Harness 的关系： Agent：马力全开的 F1 赛车（模型能力）。 Harness：专业的车身结构与赛道系统（工程架构）。 企业环境：应为 Agent 打造适配的车身与专业赛道。 现状误区：很多企业把 F1 赛车开在乡镇公路上，还要求它遵守家用车的规则。这反映了思维模式的滞后——在 Agent Native 时代，人类和企业的角色必须从“操作者”转变为“驾驭者（Harness）”，负责设定目标、提供资源、监督结果，而非束缚 Agent 的手脚。 核心组件 § 一个典型的 Harness 包含以下要素： 1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Harness (智能体运行框架) § Harness（智能体运行框架/脚手架/托管框架）是指支撑 AI 模型运行并使其能够完成复杂任务的一整套基础设施和工程逻辑。它标志着 AI 从“单次问答”玩具阶段迈向“生产级系统”的关键范式转移。 在 AI 智能体的构建范式中，业界普遍遵循 Agent = Model + Harness 的公式： 模型是“大脑”/引擎：提供基础的智能、推理和知识能力。 Harness 是“身体”/机甲：决定智能如何被应用，如何与环境交互，以及如何处理不确定性。 再强的引擎，如果没有外骨骼框架来传递动力和执行动作，也无法造出强大的 Agent。 起源与发展 § 2026 年 2 月：HashiCorp 联创 Mitchell Hashimoto 在博客中率先命名了这一概念。 OpenAI 实验：发布报告称 3 名工程师利用 Codex Agent 在 5 个月内生成了 100 万行生产级代码，展示了 Harness 的潜力。 行业共识：Martin Fowler 撰写深度长文，Anthropic 发布相关设计指南，确立了 Harness 在 AI 工程化中的核心地位。 核心定义与工程难题 § 随着智能体系统的演进，Harness 的定义也从单纯的“工程脚手架”扩展到了“托管与控制层”，强调为智能体提供稳定、可控、可观测的运行环境。其架构主要解决以下四个工程化难题： 长时程：支持以月、年为周期的持续服务，而非单次会话。 可追溯：记录建议来源、工具调用链路和知识库版本，确保每一步都有据可查。 可执行：不仅生成文本，还能连接外部设备、系统和业务流程。 可治理：内置权限管理、数据脱敏、审批流程和审计机制，确保系统在合规边界内运行。 比喻：F1 赛车与驾驭者 § MiniMax 首席架构师 阿岛 曾用“F1 赛车”生动比喻 Agent 与 Harness 的关系： Agent：马力全开的 F1 赛车（模型能力）。 Harness：专业的车身结构与赛道系统（工程架构）。 企业环境：应为 Agent 打造适配的车身与专业赛道。 现状误区：很多企业把 F1 赛车开在乡镇公路上，还要求它遵守家用车的规则。这反映了思维模式的滞后——在 Agent Native 时代，人类和企业的角色必须从“操作者”转变为“驾驭者（Harness）”，负责设定目标、提供资源、监督结果，而非束缚 Agent 的手脚。 核心组件 § 一个典型的 Harness 包含以下要素： 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/harness"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#harness-智能体运行框架" data-for="harness-智能体运行框架">Harness (智能体运行框架)</a></li><li class="depth-1"><a href="#起源与发展" data-for="起源与发展">起源与发展</a></li><li class="depth-1"><a href="#核心定义与工程难题" data-for="核心定义与工程难题">核心定义与工程难题</a></li><li class="depth-1"><a href="#比喻f1-赛车与驾驭者" data-for="比喻f1-赛车与驾驭者">比喻：F1 赛车与驾驭者</a></li><li class="depth-1"><a href="#核心组件" data-for="核心组件">核心组件</a></li><li class="depth-2"><a href="#1-基础编排与逻辑" data-for="1-基础编排与逻辑">1. 基础编排与逻辑</a></li><li class="depth-2"><a href="#2-记忆与上下文" data-for="2-记忆与上下文">2. 记忆与上下文</a></li><li class="depth-2"><a href="#3-执行环境与托管" data-for="3-执行环境与托管">3. 执行环境与托管</a></li><li class="depth-1"><a href="#架构演进从裸奔到托管" data-for="架构演进从裸奔到托管">架构演进：从“裸奔”到“托管”</a></li><li class="depth-2"><a href="#1-逻辑链增强如-hermes-agent" data-for="1-逻辑链增强如-hermes-agent">1. 逻辑链增强（如 [[hermes-agent]]）</a></li><li class="depth-2"><a href="#2-托管框架如-claude-managed-agents" data-for="2-托管框架如-claude-managed-agents">2. 托管框架（如 [[claude-managed-agents]]）</a></li><li class="depth-2"><a href="#3-透明化托管如-scienceclaw" data-for="3-透明化托管如-scienceclaw">3. 透明化托管（如 [[scienceclaw]]）</a></li><li class="depth-2"><a href="#4-协同架构如-wiseclaw-20" data-for="4-协同架构如-wiseclaw-20">4. 协同架构（如 [[wiseclaw-2.0]]）</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-1"><a href="#战略意义" data-for="战略意义">战略意义</a></li><li class="depth-2"><a href="#1-性能影响巨大" data-for="1-性能影响巨大">1. 性能影响巨大</a></li><li class="depth-2"><a href="#2-人类成为瓶颈" data-for="2-人类成为瓶颈">2. 人类成为瓶颈</a></li><li class="depth-2"><a href="#3-双向飞轮效应" data-for="3-双向飞轮效应">3. 双向飞轮效应</a></li><li class="depth-1"><a href="#技术挑战与优化" data-for="技术挑战与优化">技术挑战与优化</a></li><li class="depth-2"><a href="#1-云端沙箱难题" data-for="1-云端沙箱难题">1. 云端沙箱难题</a></li><li class="depth-2"><a href="#2-自动化优化" data-for="2-自动化优化">2. 自动化优化</a></li><li class="depth-1"><a href="#相关案例" data-for="相关案例">相关案例</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Harness (智能体运行框架)</h1><p class="content-meta">May 08, 2026, 11 min read</p><ul class="tags"><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/architecture" class="internal tag-link">#architecture</a></li><li><a href="../tags/engineering" class="internal tag-link">#engineering</a></li><li><a href="../tags/framework" class="internal tag-link">#framework</a></li><li><a href="../tags/ai-agent" class="internal tag-link">#ai-agent</a></li><li><a href="../tags/system-design" class="internal tag-link">#system-design</a></li><li><a href="../tags/optimization" class="internal tag-link">#optimization</a></li><li><a href="../tags/架构" class="internal tag-link">#架构</a></li><li><a href="../tags/系统设计" class="internal tag-link">#系统设计</a></li><li><a href="../tags/ai4s" class="internal tag-link">#ai4s</a></li><li><a href="../tags/metaphor" class="internal tag-link">#metaphor</a></li><li><a href="../tags/human-ai-interaction" class="internal tag-link">#human-ai-interaction</a></li><li><a href="../tags/ai-engineering" class="internal tag-link">#ai-engineering</a></li><li><a href="../tags/governance" class="internal tag-link">#governance</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="harness-智能体运行框架">Harness (智能体运行框架)<a aria-hidden="true" tabindex="-1" href="#harness-智能体运行框架" class="internal"> §</a></h1>
+<p><strong>Harness</strong>（智能体运行框架/脚手架/托管框架）是指支撑 AI 模型运行并使其能够完成复杂任务的一整套基础设施和工程逻辑。它标志着 AI 从“单次问答”玩具阶段迈向“生产级系统”的关键范式转移。</p>
+<p>在 AI 智能体的构建范式中，业界普遍遵循 <strong>Agent = Model + Harness</strong> 的公式：</p>
+<ul>
+<li><strong>模型是“大脑”/引擎</strong>：提供基础的智能、推理和知识能力。</li>
+<li><strong><a href="../Harness" class="internal">Harness</a> 是“身体”/机甲</strong>：决定智能如何被应用，如何与环境交互，以及如何处理不确定性。</li>
+</ul>
+<p>再强的引擎，如果没有外骨骼框架来传递动力和执行动作，也无法造出强大的 Agent。</p>
+<h2 id="起源与发展">起源与发展<a aria-hidden="true" tabindex="-1" href="#起源与发展" class="internal"> §</a></h2>
+<ul>
+<li><strong>2026 年 2 月</strong>：HashiCorp 联创 <a href="../Mitchell-Hashimoto" class="internal">Mitchell Hashimoto</a> 在博客中率先命名了这一概念。</li>
+<li><strong>OpenAI 实验</strong>：发布报告称 3 名工程师利用 Codex Agent 在 5 个月内生成了 100 万行生产级代码，展示了 Harness 的潜力。</li>
+<li><strong>行业共识</strong>：<a href="../Martin-Fowler" class="internal">Martin Fowler</a> 撰写深度长文，Anthropic 发布相关设计指南，确立了 Harness 在 AI 工程化中的核心地位。</li>
+</ul>
+<h2 id="核心定义与工程难题">核心定义与工程难题<a aria-hidden="true" tabindex="-1" href="#核心定义与工程难题" class="internal"> §</a></h2>
+<p>随着智能体系统的演进，Harness 的定义也从单纯的“工程脚手架”扩展到了“托管与控制层”，强调为智能体提供稳定、可控、可观测的运行环境。其架构主要解决以下四个工程化难题：</p>
+<ol>
+<li><strong>长时程</strong>：支持以月、年为周期的持续服务，而非单次会话。</li>
+<li><strong>可追溯</strong>：记录建议来源、工具调用链路和知识库版本，确保每一步都有据可查。</li>
+<li><strong>可执行</strong>：不仅生成文本，还能连接外部设备、系统和业务流程。</li>
+<li><strong>可治理</strong>：内置权限管理、数据脱敏、审批流程和审计机制，确保系统在合规边界内运行。</li>
+</ol>
+<h2 id="比喻f1-赛车与驾驭者">比喻：F1 赛车与驾驭者<a aria-hidden="true" tabindex="-1" href="#比喻f1-赛车与驾驭者" class="internal"> §</a></h2>
+<p><a href="../MiniMax" class="internal">MiniMax</a> 首席架构师 <a href="../entities/阿岛" class="internal">阿岛</a> 曾用“F1 赛车”生动比喻 Agent 与 Harness 的关系：</p>
+<ul>
+<li><strong>Agent</strong>：马力全开的 F1 赛车（模型能力）。</li>
+<li><strong><a href="../Harness" class="internal">Harness</a></strong>：专业的车身结构与赛道系统（工程架构）。</li>
+<li><strong>企业环境</strong>：应为 Agent 打造适配的车身与专业赛道。</li>
+</ul>
+<p><strong>现状误区</strong>：很多企业把 F1 赛车开在乡镇公路上，还要求它遵守家用车的规则。这反映了思维模式的滞后——在 <a href="../Agent-Native" class="internal">Agent Native</a> 时代，人类和企业的角色必须从“操作者”转变为“驾驭者（<a href="../Harness" class="internal">Harness</a>）”，负责设定目标、提供资源、监督结果，而非束缚 Agent 的手脚。</p>
+<h2 id="核心组件">核心组件<a aria-hidden="true" tabindex="-1" href="#核心组件" class="internal"> §</a></h2>
+<p>一个典型的 <a href="../Harness" class="internal">Harness</a> 包含以下要素：</p>
+<h3 id="1-基础编排与逻辑">1. 基础编排与逻辑<a aria-hidden="true" tabindex="-1" href="#1-基础编排与逻辑" class="internal"> §</a></h3>
+<ul>
+<li><strong>系统提示词</strong>：定义模型的角色和行为准则。</li>
+<li><strong>工具定义与调用</strong>：管理和调度模型与外部工具（API、数据库、文件系统）的交互。</li>
+<li><strong>重试逻辑</strong>：处理失败和错误的策略。</li>
+<li><strong>子代理协调</strong>：多个子任务之间的调度与通信（参见 <a href="../concepts/多agent分层编排" class="internal">多agent分层编排</a>）。</li>
+<li><strong>生命周期钩子</strong>：任务开始、结束、中断时的触发器。</li>
+</ul>
+<h3 id="2-记忆与上下文">2. 记忆与上下文<a aria-hidden="true" tabindex="-1" href="#2-记忆与上下文" class="internal"> §</a></h3>
+<ul>
+<li><strong>上下文管理</strong>：如何截断、保留和检索历史信息。</li>
+<li><strong>记忆管理</strong>：处理短期记忆（上下文窗口）和长期记忆（向量数据库、RAG）的存储与检索。</li>
+</ul>
+<h3 id="3-执行环境与托管">3. 执行环境与托管<a aria-hidden="true" tabindex="-1" href="#3-执行环境与托管" class="internal"> §</a></h3>
+<ul>
+<li><strong>Skills 系统</strong>：定义、存储和执行复杂任务流程的“技能包”。</li>
+<li><strong>沙箱环境</strong>：提供安全、隔离、可弹性伸缩的代码执行环境。</li>
+<li><strong>托管控制层</strong>：在高级架构中，Agent 不再拥有直接执行权，而是由 Harness 层进行路由、策略校验和沙盒托管。</li>
+</ul>
+<h2 id="架构演进从裸奔到托管">架构演进：从“裸奔”到“托管”<a aria-hidden="true" tabindex="-1" href="#架构演进从裸奔到托管" class="internal"> §</a></h2>
+<p>随着 AI 智能体从简单的工具调用发展为复杂的自主系统，Harness 的架构也在不断进化：</p>
+<h3 id="1-逻辑链增强如-hermes-agent">1. 逻辑链增强（如 <a href="../entities/hermes-agent" class="internal">hermes-agent</a>）<a aria-hidden="true" tabindex="-1" href="#1-逻辑链增强如-hermes-agent" class="internal"> §</a></h3>
+<p>侧重于让 Agent 的“大脑”更聪明、逻辑更严谨，通过自进化和架构设计提升性能，但 Agent 本身仍拥有较大的执行权。</p>
+<h3 id="2-托管框架如-claude-managed-agents">2. 托管框架（如 <a href="../entities/claude-managed-agents" class="internal">claude-managed-agents</a>）<a aria-hidden="true" tabindex="-1" href="#2-托管框架如-claude-managed-agents" class="internal"> §</a></h3>
+<p>Anthropic 提出的企业级智能体托管框架，强调通过标准化 Harness 为通用智能体提供企业级运行底座。其核心思想是**“管束”**：</p>
+<ul>
+<li><strong>路由</strong>：确定任务流向。</li>
+<li><strong>策略校验</strong>：检查权限和安全合规性。</li>
+<li><strong>沙盒托管</strong>：在隔离的环境中执行实际操作。
+这种模式通过牺牲部分自主性，换取了系统的可控性、安全性和可维护性。</li>
+</ul>
+<h3 id="3-透明化托管如-scienceclaw">3. 透明化托管（如 <a href="../entities/scienceclaw" class="internal">scienceclaw</a>）<a aria-hidden="true" tabindex="-1" href="#3-透明化托管如-scienceclaw" class="internal"> §</a></h3>
+<p><a href="../entities/紫东太初" class="internal">紫东太初</a> 推出的 AI4S 平台采用了类似的 Harness 架构，并进一步实现了 <strong><a href="../concepts/执行透明度" class="internal">执行透明度</a></strong>。其特点在于使得托管过程不再是黑盒，而是全链路实时可观测的，解决了传统“裸奔”模式（如 <a href="../entities/openclaw" class="internal">openclaw</a>）面临的部署难、不可控等问题。</p>
+<h3 id="4-协同架构如-wiseclaw-20">4. 协同架构（如 <a href="../entities/wiseclaw-2.0" class="internal">wiseclaw-2.0</a>）<a aria-hidden="true" tabindex="-1" href="#4-协同架构如-wiseclaw-20" class="internal"> §</a></h3>
+<p>在复杂的系统中，Harness 通常与 <a href="../entities/openclaw" class="internal">openclaw</a> 协同工作：</p>
+<ul>
+<li><strong>OpenClaw</strong>：负责“连接与调度”，解决“能不能做”的问题。</li>
+<li><strong>Harness</strong>：负责“治理与控制”，解决“稳不稳、能不能管”的问题。</li>
+</ul>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<p>虽然早期的 Harness 讨论多集中在代码生成领域，但其在医疗、金融等高风险行业的价值尤为显著。例如，在医疗场景中，Harness 通过 <a href="../concepts/三层流水线" class="internal">三层流水线</a> 和 <a href="../concepts/心跳引擎" class="internal">心跳引擎</a>，将不可控的模型输出转化为可审计、可干预的业务流程。</p>
+<h2 id="战略意义">战略意义<a aria-hidden="true" tabindex="-1" href="#战略意义" class="internal"> §</a></h2>
+<p>随着模型能力的趋同，AI 行业的竞争维度正从“模型智商”转向“工程落地”，即 <a href="../Harness" class="internal">Harness</a> 的能力。</p>
+<h3 id="1-性能影响巨大">1. 性能影响巨大<a aria-hidden="true" tabindex="-1" href="#1-性能影响巨大" class="internal"> §</a></h3>
+<p><a href="../Harness" class="internal">Harness</a> 的质量对最终性能的影响甚至超过了模型本身的参数量。</p>
+<ul>
+<li><strong>案例</strong>：工程师 Can Bölük 仅通过改变编辑格式（不动模型），就让 GPT-4 Turbo 的准确率从 26% 飙升到 59%。</li>
+<li><strong>结论</strong>：同一个模型，配上不同的 <a href="../Harness" class="internal">Harness</a>，性能差距可以高达一倍以上。</li>
+</ul>
+<h3 id="2-人类成为瓶颈">2. 人类成为瓶颈<a aria-hidden="true" tabindex="-1" href="#2-人类成为瓶颈" class="internal"> §</a></h3>
+<p>工程师构建 <a href="../Harness" class="internal">Harness</a> 的过程，本质上是将人类的工作方式蒸馏成 Skills 和代码，让 AI 接管执行。如果人类思维仍停留在“手把手教”而非“设计赛道”，就会成为 Agent 发挥效能的瓶颈。</p>
+<h3 id="3-双向飞轮效应">3. 双向飞轮效应<a aria-hidden="true" tabindex="-1" href="#3-双向飞轮效应" class="internal"> §</a></h3>
+<p><a href="../entities/minimax" class="internal">minimax</a> 提出了“Model + Harness”的双向飞轮模式：</p>
+<ul>
+<li><strong>正向</strong>：模型为 <a href="../Harness" class="internal">Harness</a> 优化底层能力（如工具调用准确性、长上下文一致性）。</li>
+<li><strong>反向</strong>：<a href="../Harness" class="internal">Harness</a> 产品在真实场景中验证需求，产生数据反馈给模型，指导模型迭代。</li>
+</ul>
+<h2 id="技术挑战与优化">技术挑战与优化<a aria-hidden="true" tabindex="-1" href="#技术挑战与优化" class="internal"> §</a></h2>
+<h3 id="1-云端沙箱难题">1. 云端沙箱难题<a aria-hidden="true" tabindex="-1" href="#1-云端沙箱难题" class="internal"> §</a></h3>
+<p>构建高性能 <a href="../Harness" class="internal">Harness</a> 的最大难点在于<strong>云端沙箱</strong>：</p>
+<ul>
+<li>需要支持高并发（每分钟数万实例）。</li>
+<li>需要极低延迟（20-80ms 启动）。</li>
+<li>需要严格的安全隔离。
+这通常需要与云厂商（如腾讯云、阿里云）深度合作，利用其底层基础设施（如容器服务、无服务器架构）来实现。</li>
+</ul>
+<h3 id="2-自动化优化">2. 自动化优化<a aria-hidden="true" tabindex="-1" href="#2-自动化优化" class="internal"> §</a></h3>
+<p>传统的 <a href="../Harness" class="internal">Harness</a> 工程高度依赖人工经验（手动写提示词、调接口、看日志猜问题）。<a href="../Meta-Harness" class="internal">Meta-Harness</a> 等新框架正在尝试将这一过程自动化，通过分析 <strong><a href="../完整执行轨迹" class="internal">完整执行轨迹</a></strong> 来自动诊断和修复 <a href="../Harness" class="internal">Harness</a> 中的缺陷。</p>
+<h2 id="相关案例">相关案例<a aria-hidden="true" tabindex="-1" href="#相关案例" class="internal"> §</a></h2>
+<ul>
+<li><strong><a href="../entities/hermes-agent" class="internal">hermes-agent</a></strong>：强调自进化和架构设计的开源 <a href="../Harness" class="internal">Harness</a>。</li>
+<li><strong><a href="../entities/openclaw" class="internal">openclaw</a></strong>：强调本地执行和工具集成的开源 <a href="../Harness" class="internal">Harness</a>（“裸奔”模式）。</li>
+<li><strong><a href="../entities/maxhermes" class="internal">maxhermes</a> / <a href="../entities/maxclaw" class="internal">maxclaw</a></strong>：MiniMax 基于上述开源理念构建的商业化云端 <a href="../Harness" class="internal">Harness</a> 产品。</li>
+<li><strong><a href="../entities/claude-managed-agents" class="internal">claude-managed-agents</a></strong>：Anthropic 的企业级托管框架。</li>
+<li><strong><a href="../entities/scienceclaw" class="internal">scienceclaw</a></strong>：紫东太初推出的具备全链路可观测性的 AI4S 托管平台。</li>
+<li><strong><a href="../entities/wiseclaw-2.0" class="internal">wiseclaw-2.0</a></strong>：结合了 OpenClaw 连接能力与 Harness 治理能力的协同架构。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

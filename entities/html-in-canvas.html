@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><head><title>HTML-in-Canvas</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="HTML-in-Canvas"/><meta property="og:description" content="HTML-in-Canvas § 概述 § html-in-canvas 是一项处于实验阶段的 Web API 提案，旨在将 HTML 元素渲染到 Canvas 画布中。它由 WICG（Web Platform Incubator Community Group）孵化，被视为可能颠覆传统前端开发模式的“下一代网页交互雏形”。 核心原理 § 传统网页开发依赖浏览器的 DOM-渲染 机制，开发者只能控制结构，最终布局由浏览器决定。HTML-in-Canvas 通过将 HTML 元素“拍平”为图像数据，使其能够像游戏纹理一样在 Canvas 中被操作。 API 用法 § 在 Chrome 浏览器中开启实验性 Flag：chrome://flags/#canvas-draw-element。 在 &amp;lt;canvas&amp;gt; 标签上显式添加 layoutsubtree 属性。 使用 getContext(&amp;#039;2d&amp;#039;) 获取上下文，调用 drawElementImage 方法将子元素绘制到画布上。 技术特性 § 像素级控制 § 不同于操作 DOM 节点，开发者现在可以直接操作像素。这意味着： 可以对 UI 应用着色器特效。 可以集成物理引擎。 可以实现逐帧的精细动画控制。 非线性布局 § 打破了传统网页“方方正正”的矩形布局限制，支持： 鱼眼效果。 透视滚动。 任意几何形状的界面设计。 游戏化渲染逻辑 § 网页渲染过程从“静态结构+动态补间”转变为类似游戏引擎的“逐帧计算”模式。 应用场景 § 创意交互：实现极具视觉冲击力的非线性 UI 设计。 安全防护：构建难以被爬虫识别的动态验证码或登录界面（如文中提到的防垃圾邮件登录框）。 混合渲染：在游戏或 3D 场景中嵌入动态 Web 内容（如 Doom 墙面显示网页）。 与 AI 的关联 § html-in-canvas 被认为是实现 生成式ai-ui 的重要基础设施。它提供了极高的渲染自由度，使得 AI 能够实时生成千人千面的动态界面，而不仅限于修改预设的 DOM 结构。 行业评价 § 开发者社区对其评价极高，认为这是“改变游戏规则”的技术，甚至有“Flash 回归”的感叹。相比 pretext 仅接管排版，HTML-in-Canvas 接管了整个界面的渲染权。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="HTML-in-Canvas § 概述 § html-in-canvas 是一项处于实验阶段的 Web API 提案，旨在将 HTML 元素渲染到 Canvas 画布中。它由 WICG（Web Platform Incubator Community Group）孵化，被视为可能颠覆传统前端开发模式的“下一代网页交互雏形”。 核心原理 § 传统网页开发依赖浏览器的 DOM-渲染 机制，开发者只能控制结构，最终布局由浏览器决定。HTML-in-Canvas 通过将 HTML 元素“拍平”为图像数据，使其能够像游戏纹理一样在 Canvas 中被操作。 API 用法 § 在 Chrome 浏览器中开启实验性 Flag：chrome://flags/#canvas-draw-element。 在 &amp;lt;canvas&amp;gt; 标签上显式添加 layoutsubtree 属性。 使用 getContext(&amp;#039;2d&amp;#039;) 获取上下文，调用 drawElementImage 方法将子元素绘制到画布上。 技术特性 § 像素级控制 § 不同于操作 DOM 节点，开发者现在可以直接操作像素。这意味着： 可以对 UI 应用着色器特效。 可以集成物理引擎。 可以实现逐帧的精细动画控制。 非线性布局 § 打破了传统网页“方方正正”的矩形布局限制，支持： 鱼眼效果。 透视滚动。 任意几何形状的界面设计。 游戏化渲染逻辑 § 网页渲染过程从“静态结构+动态补间”转变为类似游戏引擎的“逐帧计算”模式。 应用场景 § 创意交互：实现极具视觉冲击力的非线性 UI 设计。 安全防护：构建难以被爬虫识别的动态验证码或登录界面（如文中提到的防垃圾邮件登录框）。 混合渲染：在游戏或 3D 场景中嵌入动态 Web 内容（如 Doom 墙面显示网页）。 与 AI 的关联 § html-in-canvas 被认为是实现 生成式ai-ui 的重要基础设施。它提供了极高的渲染自由度，使得 AI 能够实时生成千人千面的动态界面，而不仅限于修改预设的 DOM 结构。 行业评价 § 开发者社区对其评价极高，认为这是“改变游戏规则”的技术，甚至有“Flash 回归”的感叹。相比 pretext 仅接管排版，HTML-in-Canvas 接管了整个界面的渲染权。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/html-in-canvas"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#html-in-canvas" data-for="html-in-canvas">HTML-in-Canvas</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#核心原理" data-for="核心原理">核心原理</a></li><li class="depth-2"><a href="#api-用法" data-for="api-用法">API 用法</a></li><li class="depth-1"><a href="#技术特性" data-for="技术特性">技术特性</a></li><li class="depth-2"><a href="#像素级控制" data-for="像素级控制">像素级控制</a></li><li class="depth-2"><a href="#非线性布局" data-for="非线性布局">非线性布局</a></li><li class="depth-2"><a href="#游戏化渲染逻辑" data-for="游戏化渲染逻辑">游戏化渲染逻辑</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-1"><a href="#与-ai-的关联" data-for="与-ai-的关联">与 AI 的关联</a></li><li class="depth-1"><a href="#行业评价" data-for="行业评价">行业评价</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">HTML-in-Canvas</h1><p class="content-meta">Apr 12, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/web-api" class="internal tag-link">#web-api</a></li><li><a href="../tags/前端技术" class="internal tag-link">#前端技术</a></li><li><a href="../tags/canvas" class="internal tag-link">#canvas</a></li><li><a href="../tags/w3c" class="internal tag-link">#w3c</a></li><li><a href="../tags/渲染" class="internal tag-link">#渲染</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="html-in-canvas">HTML-in-Canvas<a aria-hidden="true" tabindex="-1" href="#html-in-canvas" class="internal"> §</a></h1>
+<h2 id="概述">概述<a aria-hidden="true" tabindex="-1" href="#概述" class="internal"> §</a></h2>
+<p><a href="../entities/html-in-canvas" class="internal">html-in-canvas</a> 是一项处于实验阶段的 Web API 提案，旨在将 HTML 元素渲染到 Canvas 画布中。它由 <a href="../WICG" class="internal">WICG</a>（Web Platform Incubator Community Group）孵化，被视为可能颠覆传统前端开发模式的“下一代网页交互雏形”。</p>
+<h2 id="核心原理">核心原理<a aria-hidden="true" tabindex="-1" href="#核心原理" class="internal"> §</a></h2>
+<p>传统网页开发依赖浏览器的 <a href="../DOM-渲染" class="internal">DOM-渲染</a> 机制，开发者只能控制结构，最终布局由浏览器决定。HTML-in-Canvas 通过将 HTML 元素“拍平”为图像数据，使其能够像游戏纹理一样在 Canvas 中被操作。</p>
+<h3 id="api-用法">API 用法<a aria-hidden="true" tabindex="-1" href="#api-用法" class="internal"> §</a></h3>
+<ol>
+<li>在 Chrome 浏览器中开启实验性 Flag：<code>chrome://flags/#canvas-draw-element</code>。</li>
+<li>在 <code>&lt;canvas></code> 标签上显式添加 <code>layoutsubtree</code> 属性。</li>
+<li>使用 <code>getContext('2d')</code> 获取上下文，调用 <code>drawElementImage</code> 方法将子元素绘制到画布上。</li>
+</ol>
+<h2 id="技术特性">技术特性<a aria-hidden="true" tabindex="-1" href="#技术特性" class="internal"> §</a></h2>
+<h3 id="像素级控制">像素级控制<a aria-hidden="true" tabindex="-1" href="#像素级控制" class="internal"> §</a></h3>
+<p>不同于操作 DOM 节点，开发者现在可以直接操作像素。这意味着：</p>
+<ul>
+<li>可以对 UI 应用着色器特效。</li>
+<li>可以集成物理引擎。</li>
+<li>可以实现逐帧的精细动画控制。</li>
+</ul>
+<h3 id="非线性布局">非线性布局<a aria-hidden="true" tabindex="-1" href="#非线性布局" class="internal"> §</a></h3>
+<p>打破了传统网页“方方正正”的矩形布局限制，支持：</p>
+<ul>
+<li>鱼眼效果。</li>
+<li>透视滚动。</li>
+<li>任意几何形状的界面设计。</li>
+</ul>
+<h3 id="游戏化渲染逻辑">游戏化渲染逻辑<a aria-hidden="true" tabindex="-1" href="#游戏化渲染逻辑" class="internal"> §</a></h3>
+<p>网页渲染过程从“静态结构+动态补间”转变为类似游戏引擎的“逐帧计算”模式。</p>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<ul>
+<li><strong>创意交互</strong>：实现极具视觉冲击力的非线性 UI 设计。</li>
+<li><strong>安全防护</strong>：构建难以被爬虫识别的动态验证码或登录界面（如文中提到的防垃圾邮件登录框）。</li>
+<li><strong>混合渲染</strong>：在游戏或 3D 场景中嵌入动态 Web 内容（如 Doom 墙面显示网页）。</li>
+</ul>
+<h2 id="与-ai-的关联">与 AI 的关联<a aria-hidden="true" tabindex="-1" href="#与-ai-的关联" class="internal"> §</a></h2>
+<p><a href="../entities/html-in-canvas" class="internal">html-in-canvas</a> 被认为是实现 <a href="../生成式ai-ui" class="internal">生成式ai-ui</a> 的重要基础设施。它提供了极高的渲染自由度，使得 AI 能够实时生成千人千面的动态界面，而不仅限于修改预设的 DOM 结构。</p>
+<h2 id="行业评价">行业评价<a aria-hidden="true" tabindex="-1" href="#行业评价" class="internal"> §</a></h2>
+<p>开发者社区对其评价极高，认为这是“改变游戏规则”的技术，甚至有“Flash 回归”的感叹。相比 <a href="../entities/pretext" class="internal">pretext</a> 仅接管排版，HTML-in-Canvas 接管了整个界面的渲染权。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/dom-渲染" class="internal">DOM 渲染</a></li><li><a href="../concepts/generative-ui" class="internal">生成式 AI UI</a></li><li><a href="../concepts/webgpu" class="internal">WebGPU</a></li><li><a href="../entities/html-in-canvas" class="internal">HTML-in-Canvas</a></li><li><a href="../entities/pretext" class="internal">Pretext</a></li><li><a href="../entities/vercel" class="internal">Vercel</a></li><li><a href="../entities/wicg" class="internal">WICG</a></li><li><a href="../sources/html-in-canvas引爆前端！ai时代互联网视觉效果完全不一样了" class="internal">HTML-in-Canvas引爆前端！AI时代互联网视觉效果完全不一样了</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

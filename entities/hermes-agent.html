@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head><title>Hermes Agent</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Hermes Agent"/><meta property="og:description" content="Hermes Agent § Hermes Agent 是由硅谷 AI 实验室 nous-research 开发的开源自主 AI 智能体框架。该项目在 GitHub 上迅速走红，狂揽四万 Star（峰值曾达 8.5 万）。与传统的“一次性调用”智能体不同，Hermes 被设计为一个“会跟着你成长”的系统，强调私有化部署、常驻记忆和自我进化能力。 核心理念 § Hermes 的 Slogan 是“一个会跟着你成长的 Agent”或“运行在你服务器上的自主 Agent”。它试图解决传统智能体“做完就忘”的问题，通过构建一个完整的学习闭环，让智能体在完成任务的同时，不断积累经验、沉淀技能并反哺模型训练。 核心特性 § 私有部署：可运行在低至 5 美元/月的 VPS 或本地 GPU 集群上，数据完全由用户掌控。 多平台接入：通过 Gateway 进程，同时接入 Telegram、Discord、Slack、飞书、企业微信等多个平台。 沙盒隔离：提供安全的执行环境。 全网页与浏览器控制：支持自动化网页操作。 技术架构 § 记忆-技能-训练闭环 § Hermes Agent 的核心差异化优势在于其三层闭环架构（详见 记忆-技能-训练闭环），实现了从任务执行到自我进化的完整链路： 1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Hermes Agent § Hermes Agent 是由硅谷 AI 实验室 nous-research 开发的开源自主 AI 智能体框架。该项目在 GitHub 上迅速走红，狂揽四万 Star（峰值曾达 8.5 万）。与传统的“一次性调用”智能体不同，Hermes 被设计为一个“会跟着你成长”的系统，强调私有化部署、常驻记忆和自我进化能力。 核心理念 § Hermes 的 Slogan 是“一个会跟着你成长的 Agent”或“运行在你服务器上的自主 Agent”。它试图解决传统智能体“做完就忘”的问题，通过构建一个完整的学习闭环，让智能体在完成任务的同时，不断积累经验、沉淀技能并反哺模型训练。 核心特性 § 私有部署：可运行在低至 5 美元/月的 VPS 或本地 GPU 集群上，数据完全由用户掌控。 多平台接入：通过 Gateway 进程，同时接入 Telegram、Discord、Slack、飞书、企业微信等多个平台。 沙盒隔离：提供安全的执行环境。 全网页与浏览器控制：支持自动化网页操作。 技术架构 § 记忆-技能-训练闭环 § Hermes Agent 的核心差异化优势在于其三层闭环架构（详见 记忆-技能-训练闭环），实现了从任务执行到自我进化的完整链路： 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/hermes-agent"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#hermes-agent" data-for="hermes-agent">Hermes Agent</a></li><li class="depth-1"><a href="#核心理念" data-for="核心理念">核心理念</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-1"><a href="#技术架构" data-for="技术架构">技术架构</a></li><li class="depth-2"><a href="#记忆-技能-训练闭环" data-for="记忆-技能-训练闭环">记忆-技能-训练闭环</a></li><li class="depth-2"><a href="#版本演进" data-for="版本演进">版本演进</a></li><li class="depth-1"><a href="#生态与兼容性" data-for="生态与兼容性">生态与兼容性</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-1"><a href="#与-openclaw-的对比" data-for="与-openclaw-的对比">与 OpenClaw 的对比</a></li><li class="depth-1"><a href="#安装与迁移" data-for="安装与迁移">安装与迁移</a></li><li class="depth-1"><a href="#争议事件" data-for="争议事件">争议事件</a></li><li class="depth-2"><a href="#抄袭指控" data-for="抄袭指控">抄袭指控</a></li><li class="depth-2"><a href="#回应与证据" data-for="回应与证据">回应与证据</a></li><li class="depth-2"><a href="#评价与界定" data-for="评价与界定">评价与界定</a></li><li class="depth-1"><a href="#相关技术" data-for="相关技术">相关技术</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Hermes Agent</h1><p class="content-meta">May 05, 2026, 7 min read</p><ul class="tags"><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/controversy" class="internal tag-link">#controversy</a></li><li><a href="../tags/nous-research" class="internal tag-link">#nous-research</a></li><li><a href="../tags/open-source" class="internal tag-link">#open-source</a></li><li><a href="../tags/agent-framework" class="internal tag-link">#agent-framework</a></li><li><a href="../tags/self-evolution" class="internal tag-link">#self-evolution</a></li><li><a href="../tags/ai-agent" class="internal tag-link">#ai-agent</a></li><li><a href="../tags/self-hosting" class="internal tag-link">#self-hosting</a></li><li><a href="../tags/automation" class="internal tag-link">#automation</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="hermes-agent">Hermes Agent<a aria-hidden="true" tabindex="-1" href="#hermes-agent" class="internal"> §</a></h1>
+<p><strong>Hermes Agent</strong> 是由硅谷 AI 实验室 <a href="../entities/nous-research" class="internal">nous-research</a> 开发的开源自主 AI 智能体框架。该项目在 GitHub 上迅速走红，狂揽四万 Star（峰值曾达 8.5 万）。与传统的“一次性调用”智能体不同，Hermes 被设计为一个“会跟着你成长”的系统，强调私有化部署、常驻记忆和自我进化能力。</p>
+<h2 id="核心理念">核心理念<a aria-hidden="true" tabindex="-1" href="#核心理念" class="internal"> §</a></h2>
+<p>Hermes 的 Slogan 是“一个会跟着你成长的 Agent”或“运行在你服务器上的自主 Agent”。它试图解决传统智能体“做完就忘”的问题，通过构建一个完整的学习闭环，让智能体在完成任务的同时，不断积累经验、沉淀技能并反哺模型训练。</p>
+<h2 id="核心特性">核心特性<a aria-hidden="true" tabindex="-1" href="#核心特性" class="internal"> §</a></h2>
+<ul>
+<li><strong>私有部署</strong>：可运行在低至 5 美元/月的 VPS 或本地 GPU 集群上，数据完全由用户掌控。</li>
+<li><strong>多平台接入</strong>：通过 Gateway 进程，同时接入 Telegram、Discord、Slack、飞书、企业微信等多个平台。</li>
+<li><strong>沙盒隔离</strong>：提供安全的执行环境。</li>
+<li><strong>全网页与浏览器控制</strong>：支持自动化网页操作。</li>
+</ul>
+<h2 id="技术架构">技术架构<a aria-hidden="true" tabindex="-1" href="#技术架构" class="internal"> §</a></h2>
+<h3 id="记忆-技能-训练闭环">记忆-技能-训练闭环<a aria-hidden="true" tabindex="-1" href="#记忆-技能-训练闭环" class="internal"> §</a></h3>
+<p>Hermes Agent 的核心差异化优势在于其三层闭环架构（详见 <a href="../concepts/记忆-技能-训练闭环" class="internal">记忆-技能-训练闭环</a>），实现了从任务执行到自我进化的完整链路：</p>
+<h4 id="1-记忆">1. 记忆<a aria-hidden="true" tabindex="-1" href="#1-记忆" class="internal"> §</a></h4>
+<ul>
+<li><strong>机制</strong>：使用 <code>MEMORY.md</code> 和 <code>USER.md</code> 作为长期记忆文件。</li>
+<li><strong>技术</strong>：支持基于 FTS5（全文搜索）的跨会话检索，并结合大模型进行摘要。</li>
+<li><strong>效果</strong>：即使开启新会话，Hermes 也能从旧信息中快速检索并压缩上下文，避免“失忆”。</li>
+</ul>
+<h4 id="2-技能">2. 技能<a aria-hidden="true" tabindex="-1" href="#2-技能" class="internal"> §</a></h4>
+<ul>
+<li><strong>机制</strong>：当完成复杂任务（通常涉及 5 次以上工具调用）后，Hermes 会自动复盘，将关键步骤、坑点和验证方法整理成结构化的“技能文件”。</li>
+<li><strong>动态性</strong>：这些技能不是写死的，Hermes 会根据后续的使用情况不断修改和优化这些技能包。</li>
+<li><strong>优势</strong>：下次遇到类似任务时，直接调用技能包，无需从头推理，实现了“沉淀上下文”而非“消耗上下文”。</li>
+</ul>
+<h4 id="3-训练数据">3. 训练数据<a aria-hidden="true" tabindex="-1" href="#3-训练数据" class="internal"> §</a></h4>
+<ul>
+<li><strong>机制</strong>：内置批量轨迹生成能力，并接入了 Atropos 强化学习环境。</li>
+<li><strong>闭环</strong>：将日常执行任务的轨迹回收，转化为下一代模型的训练数据。</li>
+<li><strong>意义</strong>：打通了“任务 -> 记忆 -> 技能 -> 轨迹 -> 训练”的完整链路，使智能体能力能够稳定积累。</li>
+</ul>
+<h3 id="版本演进">版本演进<a aria-hidden="true" tabindex="-1" href="#版本演进" class="internal"> §</a></h3>
+<p>Nous Research 对 Hermes Agent 的迭代遵循“安全 → 稳定 → 智能”的路径：</p>
+<ul>
+<li><strong>v0.5.0 (Hardening)</strong>：重点在于安全加固和供应链审计。</li>
+<li><strong>v0.7.0 (Resilience)</strong>：重点在于解决长期运行中的稳定性问题（如凭证轮换、网关竞态）。</li>
+<li><strong>v0.8.0 (Intelligence)</strong>：开始引入后台任务通知、模型实时切换等增强智能的功能。</li>
+</ul>
+<h2 id="生态与兼容性">生态与兼容性<a aria-hidden="true" tabindex="-1" href="#生态与兼容性" class="internal"> §</a></h2>
+<ul>
+<li><strong>AgentSkills 标准</strong>：支持 <a href="../entities/agentskills-io" class="internal">agentskills-io</a> 开放技能标准，允许技能跨项目共享。</li>
+<li><strong>联邦通信</strong>：支持与 <a href="../entities/openclaw" class="internal">openclaw</a> Agent 等其他框架的 Agent 进行跨平台消息传递和任务委派。</li>
+<li><strong>模型兼容性</strong>：支持 Nous Portal、OpenRouter、OpenAI、Anthropic、Google Gemini、本地 Ollama 等多种模型来源，不锁定特定厂商。</li>
+</ul>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<ul>
+<li><strong>自动化情报监控</strong>：定时扫描 GitHub、Reddit 等平台，生成摘要并推送到即时通讯软件。</li>
+<li><strong>带记忆的编程</strong>：作为不会失忆的编程搭档，记忆代码库结构和部署流程。</li>
+<li><strong>长程任务自动化</strong>：如联合创始人 Jeffrey Quesnelle 演示的，自主完成 7.9 万字小说的写作。</li>
+</ul>
+<h2 id="与-openclaw-的对比">与 OpenClaw 的对比<a aria-hidden="true" tabindex="-1" href="#与-openclaw-的对比" class="internal"> §</a></h2>
+<ul>
+<li><strong>部署方式</strong>：Hermes 强调运行在用户自己的服务器上（私有化），而 OpenClaw 早期多依赖云端或复杂的本地配置。</li>
+<li><strong>状态管理</strong>：Hermes 是有状态的（像老员工），而 Managed Agents 倾向于无状态（像牲畜）。</li>
+<li><strong>进化能力</strong>：Hermes 内置了自我进化机制，而 OpenClaw 主要依赖插件和模型本身的更新。</li>
+</ul>
+<h2 id="安装与迁移">安装与迁移<a aria-hidden="true" tabindex="-1" href="#安装与迁移" class="internal"> §</a></h2>
+<p>提供一键安装脚本：</p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">curl</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-fsSL</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-keyword);">|</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-function);">bash</span></span></code></pre></div>
+<p>对于从 <a href="../entities/openclaw" class="internal">openclaw</a> 迁移的用户，提供了 <code>hermes claw migrate</code> 命令以简化流程。</p>
+<h2 id="争议事件">争议事件<a aria-hidden="true" tabindex="-1" href="#争议事件" class="internal"> §</a></h2>
+<p>尽管技术路线受到好评，Hermes Agent 也卷入了严重的抄袭争议。</p>
+<h3 id="抄袭指控">抄袭指控<a aria-hidden="true" tabindex="-1" href="#抄袭指控" class="internal"> §</a></h3>
+<p>2026年4月，该项目被指控架构级抄袭中国团队 <a href="../entities/evomap" class="internal">evomap</a> 的 <a href="../entities/evolver" class="internal">evolver</a> 引擎。尽管使用不同的编程语言（Node.js vs Python），其核心的 10 步自进化循环与 <a href="../entities/evolver" class="internal">evolver</a> 高度一致，且存在系统性术语替换行为（即 <a href="../concepts/ai-洗代码" class="internal">ai-洗代码</a>）。</p>
+<h3 id="回应与证据">回应与证据<a aria-hidden="true" tabindex="-1" href="#回应与证据" class="internal"> §</a></h3>
+<p>面对指控，<a href="../entities/nous-research" class="internal">nous-research</a> 回应称其仓库创建于 2025 年 7 月，并指责原告“删号”。然而证据显示，其自进化模块实际上是在 <a href="../entities/evolver" class="internal">evolver</a> 公开 36 天后才创建的。</p>
+<h3 id="评价与界定">评价与界定<a aria-hidden="true" tabindex="-1" href="#评价与界定" class="internal"> §</a></h3>
+<ul>
+<li><strong>正面评价</strong>：社区反馈其响应速度快于 <a href="../entities/openclaw" class="internal">openclaw</a>，且“无缝切换平台”体验极佳。</li>
+<li><strong>“自进化”的界定</strong>：虽然宣传为“自进化”，但目前其成长主要发生在技能和记忆层，模型权重本身并未在本地实时微调。</li>
+</ul>
+<h2 id="相关技术">相关技术<a aria-hidden="true" tabindex="-1" href="#相关技术" class="internal"> §</a></h2>
+<ul>
+<li><a href="../concepts/自进化架构" class="internal">自进化架构</a>: 被指控抄袭的核心功能。</li>
+<li><a href="../concepts/ai-洗代码" class="internal">ai-洗代码</a>: 指控中涉及的抄袭手段。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href=".." class="internal">Wiki Index</a></li><li><a href="../concepts/ai-洗代码" class="internal">AI 洗代码</a></li><li><a href="../concepts/ai生物安全" class="internal">AI 生物安全</a></li><li><a href="../concepts/harness" class="internal">Harness (智能体运行框架)</a></li><li><a href="../concepts/可验证推理" class="internal">可验证推理</a></li><li><a href="../concepts/多层级记忆系统" class="internal">多层级记忆系统</a></li><li><a href="../concepts/学习闭环" class="internal">学习闭环</a></li><li><a href="../concepts/技能市场" class="internal">技能市场</a></li><li><a href="../concepts/智能体系统" class="internal">智能体系统</a></li><li><a href="../concepts/自进化架构" class="internal">自进化架构</a></li><li><a href="../concepts/记忆-技能-训练闭环" class="internal">记忆-技能-训练闭环</a></li><li><a href="../entities/autoreason" class="internal">Autoreason</a></li><li><a href="../entities/evolver" class="internal">Evolver</a></li><li><a href="../entities/evomap" class="internal">EvoMap</a></li><li><a href="../entities/financebot" class="internal">FinanceBot</a></li><li><a href="../entities/garry-tan" class="internal">Garry Tan</a></li><li><a href="../entities/gpt-image-2" class="internal">GPT Image 2</a></li><li><a href="../entities/m2-7" class="internal">M2.7</a></li><li><a href="../entities/manim" class="internal">Manim</a></li><li><a href="../entities/maxhermes" class="internal">MaxHermes</a></li><li><a href="../entities/minimax" class="internal">MiniMax</a></li><li><a href="../entities/nous-research" class="internal">Nous Research</a></li><li><a href="../entities/scienceclaw" class="internal">ScienceClaw</a></li><li><a href="../entities/tekium" class="internal">Tekium</a></li><li><a href="../entities/ultron" class="internal">Ultron</a></li><li><a href="../sources/agent群体智能来了！魔搭开源agent自进化群体智能框架：群体记忆自动蒸馏与进化，8万+群体技能即取即用，智能体画像一键复用" class="internal">Agent群体智能来了！魔搭开源Agent自进化群体智能框架：群体记忆自动蒸馏与进化，8万+群体技能即取即用，智能体画像一键复用</a></li><li><a href="../sources/b站爆了！hermes首度直播回应「抄袭」，minimax提前杀入harness赛点" class="internal">B站爆了！Hermes首度直播回应「抄袭」，MiniMax提前杀入Harness赛点</a></li><li><a href="../sources/claude有的，国产也有！紫东太初科研龙虾scienceclaw，已经把harness卷进实验室" class="internal">Claude有的，国产也有！紫东太初科研龙虾ScienceClaw，已经把Harness卷进实验室</a></li><li><a href="../sources/hermes-agent抄袭中国团队代码实锤！被锤后回应：你删号" class="internal">Hermes Agent抄袭中国团队代码实锤！被锤后回应：你删号</a></li><li><a href="../sources/openclaw，崩了！" class="internal">OpenClaw，崩了！</a></li><li><a href="../sources/全网疯转，ai大神公开「去ai味」秘籍！写出人话洗掉塑料味" class="internal">全网疯转，AI大神公开「去AI味」秘籍！写出人话洗掉塑料味</a></li><li><a href="../sources/别养龙虾了，硅谷agent新潮流是「爱马仕」" class="internal">别养龙虾了，硅谷Agent新潮流是「爱马仕」</a></li><li><a href="../sources/换掉小龙虾！hermes全网爆火狂揽四万星，anthropic重锤暴击openclaw" class="internal">换掉小龙虾！Hermes全网爆火狂揽四万星，Anthropic重锤暴击OpenClaw</a></li><li><a href="../sources/狂揽4万星！换掉openclaw太爽了，5美元就能养个ai打工人" class="internal">狂揽4万星！换掉OpenClaw太爽了，5美元就能养个AI打工人</a></li><li><a href="../sources/谷歌一夜塌房！干崩内存股论文被曝抄袭，华人学者血泪控诉" class="internal">谷歌一夜塌房！干崩内存股论文被曝抄袭，华人学者血泪控诉</a></li><li><a href="../sources/龙虾让位！硅谷顶流ai「爱马仕」一夜闯进微信，冲上全球第一" class="internal">龙虾让位！硅谷顶流AI「爱马仕」一夜闯进微信，冲上全球第一</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

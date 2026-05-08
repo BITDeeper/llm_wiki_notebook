@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head><title>中国具身模型狂揽全球第一！机器人的人类数据时代来了</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="中国具身模型狂揽全球第一！机器人的人类数据时代来了"/><meta property="og:description" content="中国具身模型狂揽全球第一！机器人的人类数据时代来了 § 概述 § 本文报道了 灵初智能 发布的具身智能最新进展，重点介绍了其构建的 10 万+ 小时人类操作数据集以及 Psi-R2 和 Psi-W0 双系统架构。该架构在 MolmoSpace 全球具身智能评测中登顶，成功率比同类 VLA 模型高出近 10 倍。 核心内容 § 数据规模与采集 § 规模：构建了总计 10 万+ 小时 的数据集（包含 5417 小时真机数据和 95472 小时人类数据），其中 1000 小时 已开源。 对比：远超行业常见的几千到几万小时量级，也超过了英伟达 EgoScale 的 2 万小时。 采集方式：使用自研外骨骼手套采集亚毫米级精度的动作数据，以及裸手操作数据。 覆盖范围：294 种场景、4821 种任务、1382 种物体。 技术路径：Raw Data In, Raw Data Out § 理念：舍弃人工设计的复杂数据处理，直接进行人类关节与机器人本体的运动学对齐。 关键发现：数据信噪比 是决定预训练效果的核心。低信噪比数据有反作用。 优先级：操作任务多样性 &amp;gt; 物体多样性 &amp;gt;&amp;gt; 场景多样性。 模态价值：精准 3D 位姿 &amp;gt;&amp;gt; 触觉模态 &amp;gt; 2D 图像特征。触觉数据被用于弥补 本体差异。 Psi 双系统架构 § Psi-R2 (世界行动模型 WAM) § 功能：学习“怎么做”。输入图像和语言指令，输出未来操作视频和可执行动作。 性能：在 MolmoSpace 榜单超越 PI、DreamZero 等模型获得第一。 优化：通过 DiT 缓存、Torch 编译、模型量化等技术，将单次推理延迟从 2."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="中国具身模型狂揽全球第一！机器人的人类数据时代来了 § 概述 § 本文报道了 灵初智能 发布的具身智能最新进展，重点介绍了其构建的 10 万+ 小时人类操作数据集以及 Psi-R2 和 Psi-W0 双系统架构。该架构在 MolmoSpace 全球具身智能评测中登顶，成功率比同类 VLA 模型高出近 10 倍。 核心内容 § 数据规模与采集 § 规模：构建了总计 10 万+ 小时 的数据集（包含 5417 小时真机数据和 95472 小时人类数据），其中 1000 小时 已开源。 对比：远超行业常见的几千到几万小时量级，也超过了英伟达 EgoScale 的 2 万小时。 采集方式：使用自研外骨骼手套采集亚毫米级精度的动作数据，以及裸手操作数据。 覆盖范围：294 种场景、4821 种任务、1382 种物体。 技术路径：Raw Data In, Raw Data Out § 理念：舍弃人工设计的复杂数据处理，直接进行人类关节与机器人本体的运动学对齐。 关键发现：数据信噪比 是决定预训练效果的核心。低信噪比数据有反作用。 优先级：操作任务多样性 &amp;gt; 物体多样性 &amp;gt;&amp;gt; 场景多样性。 模态价值：精准 3D 位姿 &amp;gt;&amp;gt; 触觉模态 &amp;gt; 2D 图像特征。触觉数据被用于弥补 本体差异。 Psi 双系统架构 § Psi-R2 (世界行动模型 WAM) § 功能：学习“怎么做”。输入图像和语言指令，输出未来操作视频和可执行动作。 性能：在 MolmoSpace 榜单超越 PI、DreamZero 等模型获得第一。 优化：通过 DiT 缓存、Torch 编译、模型量化等技术，将单次推理延迟从 2."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/中国具身模型狂揽全球第一！机器人的人类数据时代来了"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#中国具身模型狂揽全球第一机器人的人类数据时代来了" data-for="中国具身模型狂揽全球第一机器人的人类数据时代来了">中国具身模型狂揽全球第一！机器人的人类数据时代来了</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#核心内容" data-for="核心内容">核心内容</a></li><li class="depth-2"><a href="#数据规模与采集" data-for="数据规模与采集">数据规模与采集</a></li><li class="depth-2"><a href="#技术路径raw-data-in-raw-data-out" data-for="技术路径raw-data-in-raw-data-out">技术路径：Raw Data In, Raw Data Out</a></li><li class="depth-2"><a href="#psi-双系统架构" data-for="psi-双系统架构">Psi 双系统架构</a></li><li class="depth-2"><a href="#行业观点" data-for="行业观点">行业观点</a></li><li class="depth-1"><a href="#关键引述" data-for="关键引述">关键引述</a></li><li class="depth-1"><a href="#相关条目" data-for="相关条目">相关条目</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">中国具身模型狂揽全球第一！机器人的人类数据时代来了</h1><p class="content-meta">Apr 11, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/具身智能" class="internal tag-link">#具身智能</a></li><li><a href="../tags/机器人" class="internal tag-link">#机器人</a></li><li><a href="../tags/数据集" class="internal tag-link">#数据集</a></li><li><a href="../tags/开源" class="internal tag-link">#开源</a></li><li><a href="../tags/评测" class="internal tag-link">#评测</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="中国具身模型狂揽全球第一机器人的人类数据时代来了">中国具身模型狂揽全球第一！机器人的人类数据时代来了<a aria-hidden="true" tabindex="-1" href="#中国具身模型狂揽全球第一机器人的人类数据时代来了" class="internal"> §</a></h1>
+<h2 id="概述">概述<a aria-hidden="true" tabindex="-1" href="#概述" class="internal"> §</a></h2>
+<p>本文报道了 <a href="../entities/灵初智能" class="internal">灵初智能</a> 发布的具身智能最新进展，重点介绍了其构建的 <strong>10 万+ 小时人类操作数据集</strong>以及 <strong>Psi-R2</strong> 和 <strong>Psi-W0</strong> 双系统架构。该架构在 <a href="../MolmoSpace" class="internal">MolmoSpace</a> 全球具身智能评测中登顶，成功率比同类 VLA 模型高出近 10 倍。</p>
+<h2 id="核心内容">核心内容<a aria-hidden="true" tabindex="-1" href="#核心内容" class="internal"> §</a></h2>
+<h3 id="数据规模与采集">数据规模与采集<a aria-hidden="true" tabindex="-1" href="#数据规模与采集" class="internal"> §</a></h3>
+<ul>
+<li><strong>规模</strong>：构建了总计 <strong>10 万+ 小时</strong> 的数据集（包含 5417 小时真机数据和 95472 小时人类数据），其中 <strong>1000 小时</strong> 已开源。</li>
+<li><strong>对比</strong>：远超行业常见的几千到几万小时量级，也超过了英伟达 <a href="../EgoScale" class="internal">EgoScale</a> 的 2 万小时。</li>
+<li><strong>采集方式</strong>：使用自研外骨骼手套采集亚毫米级精度的动作数据，以及裸手操作数据。</li>
+<li><strong>覆盖范围</strong>：294 种场景、4821 种任务、1382 种物体。</li>
+</ul>
+<h3 id="技术路径raw-data-in-raw-data-out">技术路径：Raw Data In, Raw Data Out<a aria-hidden="true" tabindex="-1" href="#技术路径raw-data-in-raw-data-out" class="internal"> §</a></h3>
+<ul>
+<li><strong>理念</strong>：舍弃人工设计的复杂数据处理，直接进行人类关节与机器人本体的运动学对齐。</li>
+<li><strong>关键发现</strong>：<a href="../数据信噪比" class="internal">数据信噪比</a> 是决定预训练效果的核心。低信噪比数据有反作用。</li>
+<li><strong>优先级</strong>：操作任务多样性 > 物体多样性 >> 场景多样性。</li>
+<li><strong>模态价值</strong>：精准 3D 位姿 >> 触觉模态 > 2D 图像特征。触觉数据被用于弥补 <a href="../本体差异" class="internal">本体差异</a>。</li>
+</ul>
+<h3 id="psi-双系统架构">Psi 双系统架构<a aria-hidden="true" tabindex="-1" href="#psi-双系统架构" class="internal"> §</a></h3>
+<h4 id="psi-r2-世界行动模型-wam"><a href="../Psi-R2" class="internal">Psi-R2</a> (世界行动模型 WAM)<a aria-hidden="true" tabindex="-1" href="#psi-r2-世界行动模型-wam" class="internal"> §</a></h4>
+<ul>
+<li><strong>功能</strong>：学习“怎么做”。输入图像和语言指令，输出未来操作视频和可执行动作。</li>
+<li><strong>性能</strong>：在 MolmoSpace 榜单超越 PI、DreamZero 等模型获得第一。</li>
+<li><strong>优化</strong>：通过 DiT 缓存、Torch 编译、模型量化等技术，将单次推理延迟从 2.2 秒压缩至 <strong>100 毫秒</strong>以内。</li>
+</ul>
+<h4 id="psi-w0-动作条件型世界模型-ac-wm"><a href="../Psi-W0" class="internal">Psi-W0</a> (动作条件型世界模型 AC-WM)<a aria-hidden="true" tabindex="-1" href="#psi-w0-动作条件型世界模型-ac-wm" class="internal"> §</a></h4>
+<ul>
+<li><strong>功能</strong>：协助“做得更好”。输入机器人动作，输出对未来场景视频的预测。</li>
+<li><strong>核心能力</strong>：<a href="../反事实推理" class="internal">反事实推理</a>。通过模拟失败情况（训练数据中加入 30% 失败样本），帮助机器人避开错误。</li>
+<li><strong>数据转化</strong>：利用强化学习将人类数据转化为机器人可执行的数据，构建 <a href="../闭环数据飞轮" class="internal">闭环数据飞轮</a>。</li>
+</ul>
+<h3 id="行业观点">行业观点<a aria-hidden="true" tabindex="-1" href="#行业观点" class="internal"> §</a></h3>
+<ul>
+<li><strong>落地导向</strong>：强调 <a href="../人类数据" class="internal">人类数据</a> 是解决具身智能数据荒、实现商业化落地的关键。</li>
+<li><strong>开源策略</strong>：认为开源是打破数据孤岛、建立开发者生态的最高效杠杆。</li>
+<li><strong>真机微调</strong>：基于大规模人类数据预训练后，仅需不到 100 条轨迹即可完成真机微调。</li>
+</ul>
+<h2 id="关键引述">关键引述<a aria-hidden="true" tabindex="-1" href="#关键引述" class="internal"> §</a></h2>
+<blockquote>
+<p>“具身智能要想面向真实商业化场景落地，纯人类数据训练是必要的。” —— 陈源培（灵初智能联合创始人）</p>
+</blockquote>
+<h2 id="相关条目">相关条目<a aria-hidden="true" tabindex="-1" href="#相关条目" class="internal"> §</a></h2>
+<ul>
+<li><a href="../concepts/具身智能数据困境" class="internal">具身智能数据困境</a></li>
+<li><a href="../concepts/vla-视觉-语言-动作" class="internal">vla-视觉-语言-动作</a></li>
+<li><a href="../concepts/sim2real" class="internal">sim2real</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

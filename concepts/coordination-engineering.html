@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html><head><title>协同工程</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="协同工程"/><meta property="og:description" content="协同工程 § 协同工程（Coordination Engineering）是指针对多智能体（Multi-Agent）系统进行编排、调度和管理的工程范式。它被视为继 harness-engineering（驾驭工程）之后的下一代 AI 工程范式，标志着 AI 工程焦点从单智能体的“驾驭与治理”向多智能体的“协同与进化”演进。 这一概念由 openjiuwen 社区及 JiuwenClaw 团队率先提出，旨在解决复杂任务中多个 AI 智能体如何高效配合、经验如何沉淀与复用的系统性问题。其核心理念是让 AI 从“单兵作战”升级为一支能打硬仗的“精锐团队”，通过体系化协作解决复杂业务场景（如科研、大规模生产）中的难题。 背景与定义 § 随着 AI 应用从单智能体向多智能体团队演进，传统的针对单个 Agent 的优化手段（如提示词工程、工具编排）已不足以支撑复杂的团队协作需求。行业焦点正从“驯服单个智能体”转向“管理智能体团队”。 在协同工程体系下，每个团队成员（Teammate）内部仍然是一个完整的 Harness SDK Agent，拥有全部的单智能体工程能力；而 TeamAgent 在此之上增加了协调层，使得多个优秀的个体能组成一个高效的团队。 核心要素 § 协同工程主要关注以下六个方面的系统化构建： 团队编排：如何根据任务目标动态组建和调整团队结构。 任务调度：任务的拆解、分配、依赖管理及优先级协商。 通信协议：Agent 之间的信息交换机制，包括结构化任务流转和非结构化消息沟通。 隔离机制：确保各 Agent 在独立工作空间运行，同时通过 team-workspace 共享产出。 故障恢复：处理单点故障、任务超时及隐性停滞，保证系统韧性。 可观测性：对团队状态、任务进度和事件流的实时监控与审计。 核心组件与演进 § 协同工程构建了一个从协作到进化的完整闭环，主要包含两个层级和四个关键部分： 1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="协同工程 § 协同工程（Coordination Engineering）是指针对多智能体（Multi-Agent）系统进行编排、调度和管理的工程范式。它被视为继 harness-engineering（驾驭工程）之后的下一代 AI 工程范式，标志着 AI 工程焦点从单智能体的“驾驭与治理”向多智能体的“协同与进化”演进。 这一概念由 openjiuwen 社区及 JiuwenClaw 团队率先提出，旨在解决复杂任务中多个 AI 智能体如何高效配合、经验如何沉淀与复用的系统性问题。其核心理念是让 AI 从“单兵作战”升级为一支能打硬仗的“精锐团队”，通过体系化协作解决复杂业务场景（如科研、大规模生产）中的难题。 背景与定义 § 随着 AI 应用从单智能体向多智能体团队演进，传统的针对单个 Agent 的优化手段（如提示词工程、工具编排）已不足以支撑复杂的团队协作需求。行业焦点正从“驯服单个智能体”转向“管理智能体团队”。 在协同工程体系下，每个团队成员（Teammate）内部仍然是一个完整的 Harness SDK Agent，拥有全部的单智能体工程能力；而 TeamAgent 在此之上增加了协调层，使得多个优秀的个体能组成一个高效的团队。 核心要素 § 协同工程主要关注以下六个方面的系统化构建： 团队编排：如何根据任务目标动态组建和调整团队结构。 任务调度：任务的拆解、分配、依赖管理及优先级协商。 通信协议：Agent 之间的信息交换机制，包括结构化任务流转和非结构化消息沟通。 隔离机制：确保各 Agent 在独立工作空间运行，同时通过 team-workspace 共享产出。 故障恢复：处理单点故障、任务超时及隐性停滞，保证系统韧性。 可观测性：对团队状态、任务进度和事件流的实时监控与审计。 核心组件与演进 § 协同工程构建了一个从协作到进化的完整闭环，主要包含两个层级和四个关键部分： 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/coordination-engineering"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#协同工程" data-for="协同工程">协同工程</a></li><li class="depth-1"><a href="#背景与定义" data-for="背景与定义">背景与定义</a></li><li class="depth-1"><a href="#核心要素" data-for="核心要素">核心要素</a></li><li class="depth-1"><a href="#核心组件与演进" data-for="核心组件与演进">核心组件与演进</a></li><li class="depth-2"><a href="#1-运行时协同" data-for="1-运行时协同">1. 运行时协同</a></li><li class="depth-2"><a href="#2-知识资产化" data-for="2-知识资产化">2. 知识资产化</a></li><li class="depth-1"><a href="#关键特征" data-for="关键特征">关键特征</a></li><li class="depth-1"><a href="#实践案例" data-for="实践案例">实践案例</a></li><li class="depth-1"><a href="#范式意义" data-for="范式意义">范式意义</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">协同工程</h1><p class="content-meta">May 07, 2026, 6 min read</p><ul class="tags"><li><a href="../tags/multi-agent" class="internal tag-link">#multi-agent</a></li><li><a href="../tags/framework" class="internal tag-link">#framework</a></li><li><a href="../tags/system-design" class="internal tag-link">#system-design</a></li><li><a href="../tags/paradigm" class="internal tag-link">#paradigm</a></li><li><a href="../tags/system-architecture" class="internal tag-link">#system-architecture</a></li><li><a href="../tags/ai-engineering" class="internal tag-link">#ai-engineering</a></li><li><a href="../tags/paradigm-shift" class="internal tag-link">#paradigm-shift</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="协同工程">协同工程<a aria-hidden="true" tabindex="-1" href="#协同工程" class="internal"> §</a></h1>
+<p><strong>协同工程</strong>（Coordination Engineering）是指针对多智能体（Multi-Agent）系统进行编排、调度和管理的工程范式。它被视为继 <a href="../concepts/harness-engineering" class="internal">harness-engineering</a>（驾驭工程）之后的下一代 AI 工程范式，标志着 AI 工程焦点从单智能体的“驾驭与治理”向多智能体的“协同与进化”演进。</p>
+<p>这一概念由 <a href="../entities/openjiuwen" class="internal">openjiuwen</a> 社区及 <a href="../JiuwenClaw" class="internal">JiuwenClaw</a> 团队率先提出，旨在解决复杂任务中多个 AI 智能体如何高效配合、经验如何沉淀与复用的系统性问题。其核心理念是让 AI 从“单兵作战”升级为一支能打硬仗的“精锐团队”，通过体系化协作解决复杂业务场景（如科研、大规模生产）中的难题。</p>
+<h2 id="背景与定义">背景与定义<a aria-hidden="true" tabindex="-1" href="#背景与定义" class="internal"> §</a></h2>
+<p>随着 AI 应用从单智能体向多智能体团队演进，传统的针对单个 Agent 的优化手段（如提示词工程、工具编排）已不足以支撑复杂的团队协作需求。行业焦点正从“驯服单个智能体”转向“管理智能体团队”。</p>
+<p>在协同工程体系下，每个团队成员（Teammate）内部仍然是一个完整的 Harness SDK Agent，拥有全部的单智能体工程能力；而 TeamAgent 在此之上增加了协调层，使得多个优秀的个体能组成一个高效的团队。</p>
+<h2 id="核心要素">核心要素<a aria-hidden="true" tabindex="-1" href="#核心要素" class="internal"> §</a></h2>
+<p>协同工程主要关注以下六个方面的系统化构建：</p>
+<ol>
+<li><strong>团队编排</strong>：如何根据任务目标动态组建和调整团队结构。</li>
+<li><strong>任务调度</strong>：任务的拆解、分配、依赖管理及优先级协商。</li>
+<li><strong>通信协议</strong>：Agent 之间的信息交换机制，包括结构化任务流转和非结构化消息沟通。</li>
+<li><strong>隔离机制</strong>：确保各 Agent 在独立工作空间运行，同时通过 <a href="../concepts/team-workspace" class="internal">team-workspace</a> 共享产出。</li>
+<li><strong>故障恢复</strong>：处理单点故障、任务超时及隐性停滞，保证系统韧性。</li>
+<li><strong>可观测性</strong>：对团队状态、任务进度和事件流的实时监控与审计。</li>
+</ol>
+<h2 id="核心组件与演进">核心组件与演进<a aria-hidden="true" tabindex="-1" href="#核心组件与演进" class="internal"> §</a></h2>
+<p>协同工程构建了一个从协作到进化的完整闭环，主要包含两个层级和四个关键部分：</p>
+<h3 id="1-运行时协同">1. 运行时协同<a aria-hidden="true" tabindex="-1" href="#1-运行时协同" class="internal"> §</a></h3>
+<p>解决“当下怎么协作”的问题，模拟真实团队实现多智能体的自主分工与高效协同。</p>
+<ul>
+<li><strong><a href="../concepts/agent-team-engine" class="internal">agent-team-engine</a></strong>：解决“如何组队”的问题。通过 Leader 统筹和 Teammate 执行，实现多智能体的即时协作。</li>
+<li><strong>机制</strong>：包含 Leader 智能编排、成员自主执行、共享工作区协同等。</li>
+<li><strong>局限</strong>：单纯的运行时协作经验往往随会话结束而消失，难以复用。</li>
+</ul>
+<h3 id="2-知识资产化">2. 知识资产化<a aria-hidden="true" tabindex="-1" href="#2-知识资产化" class="internal"> §</a></h3>
+<p>解决“协作能力如何沉淀与复用”的问题，将成功的协作模式转化为可复制的资产。</p>
+<ul>
+<li><strong><a href="../team-skills" class="internal">team-skills</a></strong>：解决“经验沉淀”的问题。将成功的协作全链路（需求拆解、团队组建、任务分配、通信机制、冲突处理等）封装为标准化的 SOP，使团队能力可复制。</li>
+<li><strong><a href="../Team-Skills-Hub" class="internal">Team-Skills-Hub</a></strong>：解决“经验共享”的问题。建立社区平台，让团队技能在生态中流通。</li>
+<li><strong><a href="../team-skills-自演进" class="internal">team-skills-自演进</a></strong>：解决“持续优化”的问题。在实战中自动捕捉经验并迭代技能，让团队越用越强。</li>
+</ul>
+<h2 id="关键特征">关键特征<a aria-hidden="true" tabindex="-1" href="#关键特征" class="internal"> §</a></h2>
+<ul>
+<li><strong>标准化</strong>：通过统一的文件结构规范（如 SKILL.md, workflow.md），将隐性的协作逻辑显性化。</li>
+<li><strong>可复用性</strong>：优秀的协作模式可以被保存、分发并在不同任务中重复调用，实现从“一次性组队”到“团队化作战”的跨越。</li>
+<li><strong>跨平台兼容</strong>：基于开放标准（如 Agent Skills 的扩展），支持在不同 Agent 框架间无缝迁移。</li>
+</ul>
+<h2 id="实践案例">实践案例<a aria-hidden="true" tabindex="-1" href="#实践案例" class="internal"> §</a></h2>
+<p><a href="../JiuwenClaw" class="internal">JiuwenClaw</a> 的 <a href="../entities/agentteam" class="internal">agentteam</a> 是协同工程的典型落地实践，通过 <a href="../concepts/分级自主协同" class="internal">分级自主协同</a> 和事件驱动机制，实现了无需人工干预的自动化团队协作。</p>
+<h2 id="范式意义">范式意义<a aria-hidden="true" tabindex="-1" href="#范式意义" class="internal"> §</a></h2>
+<p>协同工程标志着 AI 应用开发从关注“单点优化”（如 Prompt Engineering 或单点模型能力）转向关注“系统工程”和系统级协作效率。</p>
+<p>它不仅提升了单次任务的执行效率，更重要的是实现了协作经验的资产化和系统化，为构建长期演进的 AI 组织和大规模、高复杂度的 AI 系统提供了工程化方法论。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/agent-team-engine" class="internal">Agent-Team-Engine</a></li><li><a href="../concepts/harness-engineering" class="internal">Harness Engineering</a></li><li><a href="../concepts/team-skills" class="internal">Team-Skills</a></li><li><a href="../entities/agentteam" class="internal">AgentTeam</a></li><li><a href="../entities/openjiuwen" class="internal">openJiuwen</a></li><li><a href="../entities/灵境造物" class="internal">灵境造物</a></li><li><a href="../sources/华为携手中科大发布灵境造物，openjiuwen首发coordination-engineering全栈支撑" class="internal">华为携手中科大发布灵境造物，openJiuwen首发Coordination Engineering全栈支撑</a></li><li><a href="../sources/继harness之后，“龙虾”jiuwenclaw率先开启“coordination-engineering”时代" class="internal">继Harness之后，“龙虾”JiuwenClaw率先开启“Coordination Engineering”时代</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head><title>AI 漏洞挖掘</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="AI 漏洞挖掘"/><meta property="og:description" content="AI 漏洞挖掘 § 定义 § AI 漏洞挖掘是指利用人工智能技术，特别是具备代码推理能力的大语言模型（LLM），自动发现软件系统中安全缺陷的过程。这一技术正在将漏洞发现从一项高度依赖专家经验和时间的稀缺技能，转变为一种低成本、高效率的自动化服务。 核心特征 § 1. 成本与效率的剧变 § 传统的漏洞挖掘通常需要资深安全研究员花费数周甚至数月进行高强度审计。而在 AI 时代，这一过程被压缩至： 时间：90 分钟（如 Nicholas Carlini 扫描 Ghost 项目）。 成本：仅需一个简单的 Bash 脚本和 API 调用费用。 门槛：无需深厚的系统底层知识，模型能自动推理多线程并发等复杂逻辑。 2."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="AI 漏洞挖掘 § 定义 § AI 漏洞挖掘是指利用人工智能技术，特别是具备代码推理能力的大语言模型（LLM），自动发现软件系统中安全缺陷的过程。这一技术正在将漏洞发现从一项高度依赖专家经验和时间的稀缺技能，转变为一种低成本、高效率的自动化服务。 核心特征 § 1. 成本与效率的剧变 § 传统的漏洞挖掘通常需要资深安全研究员花费数周甚至数月进行高强度审计。而在 AI 时代，这一过程被压缩至： 时间：90 分钟（如 Nicholas Carlini 扫描 Ghost 项目）。 成本：仅需一个简单的 Bash 脚本和 API 调用费用。 门槛：无需深厚的系统底层知识，模型能自动推理多线程并发等复杂逻辑。 2."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/ai-漏洞挖掘"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#ai-漏洞挖掘" data-for="ai-漏洞挖掘">AI 漏洞挖掘</a></li><li class="depth-1"><a href="#定义" data-for="定义">定义</a></li><li class="depth-1"><a href="#核心特征" data-for="核心特征">核心特征</a></li><li class="depth-2"><a href="#1-成本与效率的剧变" data-for="1-成本与效率的剧变">1. 成本与效率的剧变</a></li><li class="depth-2"><a href="#2-历史积压清理" data-for="2-历史积压清理">2. 历史积压清理</a></li><li class="depth-2"><a href="#3-全链路推理能力" data-for="3-全链路推理能力">3. 全链路推理能力</a></li><li class="depth-1"><a href="#关键工具与模型" data-for="关键工具与模型">关键工具与模型</a></li><li class="depth-1"><a href="#影响与后果" data-for="影响与后果">影响与后果</a></li><li class="depth-2"><a href="#对安全研究的影响" data-for="对安全研究的影响">对安全研究的影响</a></li><li class="depth-2"><a href="#对开源生态的冲击" data-for="对开源生态的冲击">对开源生态的冲击</a></li><li class="depth-2"><a href="#防御与攻击的非对称性" data-for="防御与攻击的非对称性">防御与攻击的非对称性</a></li><li class="depth-1"><a href="#参见" data-for="参见">参见</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">AI 漏洞挖掘</h1><p class="content-meta">Apr 05, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/security" class="internal tag-link">#security</a></li><li><a href="../tags/ai" class="internal tag-link">#ai</a></li><li><a href="../tags/automation" class="internal tag-link">#automation</a></li><li><a href="../tags/offensive-security" class="internal tag-link">#offensive-security</a></li><li><a href="../tags/defensive-security" class="internal tag-link">#defensive-security</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="ai-漏洞挖掘">AI 漏洞挖掘<a aria-hidden="true" tabindex="-1" href="#ai-漏洞挖掘" class="internal"> §</a></h1>
+<h2 id="定义">定义<a aria-hidden="true" tabindex="-1" href="#定义" class="internal"> §</a></h2>
+<p><a href="../AI-漏洞挖掘" class="internal">AI 漏洞挖掘</a>是指利用人工智能技术，特别是具备代码推理能力的大语言模型（LLM），自动发现软件系统中安全缺陷的过程。这一技术正在将漏洞发现从一项高度依赖专家经验和时间的稀缺技能，转变为一种低成本、高效率的自动化服务。</p>
+<h2 id="核心特征">核心特征<a aria-hidden="true" tabindex="-1" href="#核心特征" class="internal"> §</a></h2>
+<h3 id="1-成本与效率的剧变">1. 成本与效率的剧变<a aria-hidden="true" tabindex="-1" href="#1-成本与效率的剧变" class="internal"> §</a></h3>
+<p>传统的漏洞挖掘通常需要资深安全研究员花费数周甚至数月进行高强度审计。而在 AI 时代，这一过程被压缩至：</p>
+<ul>
+<li><strong>时间</strong>：90 分钟（如 Nicholas Carlini 扫描 Ghost 项目）。</li>
+<li><strong>成本</strong>：仅需一个简单的 Bash 脚本和 API 调用费用。</li>
+<li><strong>门槛</strong>：无需深厚的系统底层知识，模型能自动推理多线程并发等复杂逻辑。</li>
+</ul>
+<h3 id="2-历史积压清理">2. 历史积压清理<a aria-hidden="true" tabindex="-1" href="#2-历史积压清理" class="internal"> §</a></h3>
+<p>AI 不仅发现新引入的漏洞，更擅长挖掘代码库中潜伏多年的“沉睡炸弹”。</p>
+<ul>
+<li>根据 Jenny Guanni Qu 的分析，Linux 内核中 Bug 的平均存活期为 2.1 年，最长达 20.7 年。</li>
+<li>AI 正在以前所未有的速度清理这些历史积压，导致短期内漏洞报告量激增。</li>
+</ul>
+<h3 id="3-全链路推理能力">3. 全链路推理能力<a aria-hidden="true" tabindex="-1" href="#3-全链路推理能力" class="internal"> §</a></h3>
+<p>现代 AI 模型（如 Opus 4.6）不仅能发现单点漏洞，还能理解复杂的系统交互。</p>
+<ul>
+<li><strong>案例</strong>：o3 模型发现了 ksmbd 中涉及多线程并发对象共享与释放的 use-after-free 漏洞（CVE-2025-37899）。</li>
+<li><strong>未来</strong>：专家预测 AI 可能具备生成穿透沙盒、内核、虚拟机管理器等多层防御的全链路利用能力。</li>
+</ul>
+<h2 id="关键工具与模型">关键工具与模型<a aria-hidden="true" tabindex="-1" href="#关键工具与模型" class="internal"> §</a></h2>
+<ul>
+<li><a href="../entities/claude-code" class="internal">claude-code</a>：Anthropic 推出的编程代理，被验证在漏洞扫描中具有接近 100% 的验证成功率。</li>
+<li>Opus 4.6：Anthropic 的前沿模型，在实验中发现了超过 500 个高危漏洞。</li>
+<li>o3：早期探索模型，成功挖掘出 Linux 内核零日漏洞。</li>
+</ul>
+<h2 id="影响与后果">影响与后果<a aria-hidden="true" tabindex="-1" href="#影响与后果" class="internal"> §</a></h2>
+<h3 id="对安全研究的影响">对安全研究的影响<a aria-hidden="true" tabindex="-1" href="#对安全研究的影响" class="internal"> §</a></h3>
+<ul>
+<li><strong>研究范式转移</strong>：从“人工挖掘”转向“人机协作”或“全自动挖掘”。</li>
+<li><strong>禁运制度失效</strong>：由于多方同时发现同一漏洞成为常态，传统的私下通知和修复窗口期（30-90天）机制正在瓦解。</li>
+</ul>
+<h3 id="对开源生态的冲击">对开源生态的冲击<a aria-hidden="true" tabindex="-1" href="#对开源生态的冲击" class="internal"> §</a></h3>
+<ul>
+<li><strong>维护者倦怠</strong>：志愿者维护的项目无法应对每天数个真实漏洞的修复压力。</li>
+<li><strong>项目死亡风险</strong>：缺乏维护资源的开源项目可能因无法及时修补漏洞而被迫停止使用。</li>
+</ul>
+<h3 id="防御与攻击的非对称性">防御与攻击的非对称性<a aria-hidden="true" tabindex="-1" href="#防御与攻击的非对称性" class="internal"> §</a></h3>
+<p>虽然 AI 工具同时武装了防御者（红队测试）和攻击者，但防御者需要修补所有漏洞，而攻击者只需利用一个。这种不对称性在 AI 时代可能被进一步放大。</p>
+<h2 id="参见">参见<a aria-hidden="true" tabindex="-1" href="#参见" class="internal"> §</a></h2>
+<ul>
+<li><a href="../concepts/开源安全危机" class="internal">开源安全危机</a></li>
+<li><a href="../concepts/漏洞禁运制度" class="internal">漏洞禁运制度</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

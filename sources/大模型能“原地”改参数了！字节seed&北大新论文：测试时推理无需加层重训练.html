@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head><title>大模型能“原地”改参数了！字节Seed&amp;北大新论文：测试时推理无需加层重训练</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="大模型能“原地”改参数了！字节Seed&amp;北大新论文：测试时推理无需加层重训练"/><meta property="og:description" content="摘要 § 本文报道了字节跳动 Seed 团队与北京大学联合发表的一项被 ICLR 2026 接收为 Oral 的研究成果。该研究提出了一种名为 in-place-ttt（原地测试时训练）的新方法，旨在解决大模型在超长上下文场景下的适应性问题。 核心内容 § 背景与挑战 § 随着智能体时代的到来，模型面临的任务日益复杂，上下文长度不断增加。现有的 测试时训练-ttt 方法虽然能让模型在推理时更新参数，但存在三大缺陷： 架构不兼容：需要引入新层或替换注意力机制，导致必须从头预训练。 计算效率低：采用逐 Token 顺序更新，无法利用 GPU 并行能力。 优化目标不匹配：多采用重建目标，仅关注当前 Token，与“预测下一个 Token”的语言模型核心任务不一致。 In-Place TTT 方案 § 研究团队提出通过复用 Transformer 中现有的 mlp-多层感知机 模块来实现“原地”参数更新，无需改变模型架构或重新训练。 关键创新点 § 原地架构设计： 将 MLP 的最后一个投影矩阵 Wdown​ 作为 快速权重 进行原地更新。 无需引入专用层，实现即插即用。 语言模型对齐的优化目标： 引入一维卷积（Conv1D）和投影矩阵，使优化目标包含未来 Token 信息。 显式对齐“预测下一个 Token”的任务，促使快速权重压缩对未来预测有用的信息。 高效的块级更新机制： 保留原有注意力层，支持分块更新而非逐 Token 处理。 结合上下文并行技术，提升吞吐量，支持 128K-256K 长上下文。 实验结果 § 在 qwen3-4B、llama-3-1-8B 等基座模型上的实验表明，装备 In-Place TTT 后，模型在长文本任务上的表现显著提升，且优于从头训练的其他 TTT 方法。 研究团队 § 一作：冯古豪（北京大学学生、字节 Seed 实习生）、罗胜杰（北大毕业生）。 通讯作者：贺笛教授（北大）、Wenhao Huang（字节 Seed）。 意义 § 该技术为大模型在推理阶段实现“边干活边学习”提供了一种低成本、高效率的工程路径，特别是在处理超长上下文时能有效防止模型崩溃。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="摘要 § 本文报道了字节跳动 Seed 团队与北京大学联合发表的一项被 ICLR 2026 接收为 Oral 的研究成果。该研究提出了一种名为 in-place-ttt（原地测试时训练）的新方法，旨在解决大模型在超长上下文场景下的适应性问题。 核心内容 § 背景与挑战 § 随着智能体时代的到来，模型面临的任务日益复杂，上下文长度不断增加。现有的 测试时训练-ttt 方法虽然能让模型在推理时更新参数，但存在三大缺陷： 架构不兼容：需要引入新层或替换注意力机制，导致必须从头预训练。 计算效率低：采用逐 Token 顺序更新，无法利用 GPU 并行能力。 优化目标不匹配：多采用重建目标，仅关注当前 Token，与“预测下一个 Token”的语言模型核心任务不一致。 In-Place TTT 方案 § 研究团队提出通过复用 Transformer 中现有的 mlp-多层感知机 模块来实现“原地”参数更新，无需改变模型架构或重新训练。 关键创新点 § 原地架构设计： 将 MLP 的最后一个投影矩阵 Wdown​ 作为 快速权重 进行原地更新。 无需引入专用层，实现即插即用。 语言模型对齐的优化目标： 引入一维卷积（Conv1D）和投影矩阵，使优化目标包含未来 Token 信息。 显式对齐“预测下一个 Token”的任务，促使快速权重压缩对未来预测有用的信息。 高效的块级更新机制： 保留原有注意力层，支持分块更新而非逐 Token 处理。 结合上下文并行技术，提升吞吐量，支持 128K-256K 长上下文。 实验结果 § 在 qwen3-4B、llama-3-1-8B 等基座模型上的实验表明，装备 In-Place TTT 后，模型在长文本任务上的表现显著提升，且优于从头训练的其他 TTT 方法。 研究团队 § 一作：冯古豪（北京大学学生、字节 Seed 实习生）、罗胜杰（北大毕业生）。 通讯作者：贺笛教授（北大）、Wenhao Huang（字节 Seed）。 意义 § 该技术为大模型在推理阶段实现“边干活边学习”提供了一种低成本、高效率的工程路径，特别是在处理超长上下文时能有效防止模型崩溃。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/大模型能“原地”改参数了！字节seed&amp;北大新论文：测试时推理无需加层重训练"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#摘要" data-for="摘要">摘要</a></li><li class="depth-0"><a href="#核心内容" data-for="核心内容">核心内容</a></li><li class="depth-1"><a href="#背景与挑战" data-for="背景与挑战">背景与挑战</a></li><li class="depth-1"><a href="#in-place-ttt-方案" data-for="in-place-ttt-方案">In-Place TTT 方案</a></li><li class="depth-2"><a href="#关键创新点" data-for="关键创新点">关键创新点</a></li><li class="depth-1"><a href="#实验结果" data-for="实验结果">实验结果</a></li><li class="depth-0"><a href="#研究团队" data-for="研究团队">研究团队</a></li><li class="depth-0"><a href="#意义" data-for="意义">意义</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">大模型能“原地”改参数了！字节Seed&amp;北大新论文：测试时推理无需加层重训练</h1><p class="content-meta">Apr 10, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/ai-research" class="internal tag-link">#ai-research</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/inference" class="internal tag-link">#inference</a></li><li><a href="../tags/bytedance" class="internal tag-link">#bytedance</a></li><li><a href="../tags/peking-university" class="internal tag-link">#peking-university</a></li><li><a href="../tags/iclr-2026" class="internal tag-link">#iclr-2026</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="摘要">摘要<a aria-hidden="true" tabindex="-1" href="#摘要" class="internal"> §</a></h1>
+<p>本文报道了字节跳动 Seed 团队与北京大学联合发表的一项被 ICLR 2026 接收为 Oral 的研究成果。该研究提出了一种名为 <a href="../concepts/in-place-ttt" class="internal">in-place-ttt</a>（原地测试时训练）的新方法，旨在解决大模型在超长上下文场景下的适应性问题。</p>
+<h1 id="核心内容">核心内容<a aria-hidden="true" tabindex="-1" href="#核心内容" class="internal"> §</a></h1>
+<h2 id="背景与挑战">背景与挑战<a aria-hidden="true" tabindex="-1" href="#背景与挑战" class="internal"> §</a></h2>
+<p>随着智能体时代的到来，模型面临的任务日益复杂，上下文长度不断增加。现有的 <a href="../concepts/测试时训练-ttt" class="internal">测试时训练-ttt</a> 方法虽然能让模型在推理时更新参数，但存在三大缺陷：</p>
+<ol>
+<li><strong>架构不兼容</strong>：需要引入新层或替换注意力机制，导致必须从头预训练。</li>
+<li><strong>计算效率低</strong>：采用逐 Token 顺序更新，无法利用 GPU 并行能力。</li>
+<li><strong>优化目标不匹配</strong>：多采用重建目标，仅关注当前 Token，与“预测下一个 Token”的语言模型核心任务不一致。</li>
+</ol>
+<h2 id="in-place-ttt-方案">In-Place TTT 方案<a aria-hidden="true" tabindex="-1" href="#in-place-ttt-方案" class="internal"> §</a></h2>
+<p>研究团队提出通过复用 Transformer 中现有的 <a href="../concepts/mlp-多层感知机" class="internal">mlp-多层感知机</a> 模块来实现“原地”参数更新，无需改变模型架构或重新训练。</p>
+<h3 id="关键创新点">关键创新点<a aria-hidden="true" tabindex="-1" href="#关键创新点" class="internal"> §</a></h3>
+<ol>
+<li>
+<p><strong>原地架构设计</strong>：</p>
+<ul>
+<li>将 MLP 的最后一个投影矩阵 <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span><span class="mord mathnormal mtight">o</span><span class="mord mathnormal mtight" style="margin-right:0.02691em;">w</span><span class="mord mathnormal mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span> 作为 <a href="../concepts/快速权重" class="internal">快速权重</a> 进行原地更新。</li>
+<li>无需引入专用层，实现即插即用。</li>
+</ul>
+</li>
+<li>
+<p><strong>语言模型对齐的优化目标</strong>：</p>
+<ul>
+<li>引入一维卷积（Conv1D）和投影矩阵，使优化目标包含未来 Token 信息。</li>
+<li>显式对齐“预测下一个 Token”的任务，促使快速权重压缩对未来预测有用的信息。</li>
+</ul>
+</li>
+<li>
+<p><strong>高效的块级更新机制</strong>：</p>
+<ul>
+<li>保留原有注意力层，支持分块更新而非逐 Token 处理。</li>
+<li>结合上下文并行技术，提升吞吐量，支持 128K-256K 长上下文。</li>
+</ul>
+</li>
+</ol>
+<h2 id="实验结果">实验结果<a aria-hidden="true" tabindex="-1" href="#实验结果" class="internal"> §</a></h2>
+<p>在 <a href="../qwen3" class="internal">qwen3</a>-4B、<a href="../entities/llama-3-1" class="internal">llama-3-1</a>-8B 等基座模型上的实验表明，装备 In-Place TTT 后，模型在长文本任务上的表现显著提升，且优于从头训练的其他 TTT 方法。</p>
+<h1 id="研究团队">研究团队<a aria-hidden="true" tabindex="-1" href="#研究团队" class="internal"> §</a></h1>
+<ul>
+<li><strong>一作</strong>：冯古豪（北京大学学生、字节 Seed 实习生）、罗胜杰（北大毕业生）。</li>
+<li><strong>通讯作者</strong>：贺笛教授（北大）、Wenhao Huang（字节 Seed）。</li>
+</ul>
+<h1 id="意义">意义<a aria-hidden="true" tabindex="-1" href="#意义" class="internal"> §</a></h1>
+<p>该技术为大模型在推理阶段实现“边干活边学习”提供了一种低成本、高效率的工程路径，特别是在处理超长上下文时能有效防止模型崩溃。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html><head><title>GPT-5.2</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="GPT-5.2"/><meta property="og:description" content="GPT-5.2 § GPT-5.2 是 OpenAI 发布的闭源多模态大模型，是 GPT-5 系列的迭代版本，也被视为 GPT-4o 的继任者。该模型包含 Instant（即时版）、Thinking（思考版）和 Pro（专业版）三个版本，旨在解决高难度知识型工作，被定位为首个“专家级” AI 模型。 该模型旨在狙击 Gemini 3（特别是 Gemini 3 Pro）并完成特定的 AGI 产品目标，在核心推理能力上取得了显著突破，特别是在 ARC-AGI-2 基准测试中表现优异，同时被描述为“最先进的数学与科学推理模型”，并作为核心引擎驱动 Prism 科研工作区。 然而，该模型的发布也伴随着巨大争议，主要涉及基准测试中的“算力不对等”问题、用户体验与榜单分数的脱节，以及发布初期的“降智”风波。 发布背景与战略环境 § GPT-5."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="GPT-5.2 § GPT-5.2 是 OpenAI 发布的闭源多模态大模型，是 GPT-5 系列的迭代版本，也被视为 GPT-4o 的继任者。该模型包含 Instant（即时版）、Thinking（思考版）和 Pro（专业版）三个版本，旨在解决高难度知识型工作，被定位为首个“专家级” AI 模型。 该模型旨在狙击 Gemini 3（特别是 Gemini 3 Pro）并完成特定的 AGI 产品目标，在核心推理能力上取得了显著突破，特别是在 ARC-AGI-2 基准测试中表现优异，同时被描述为“最先进的数学与科学推理模型”，并作为核心引擎驱动 Prism 科研工作区。 然而，该模型的发布也伴随着巨大争议，主要涉及基准测试中的“算力不对等”问题、用户体验与榜单分数的脱节，以及发布初期的“降智”风波。 发布背景与战略环境 § GPT-5."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/gpt-5.2"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#gpt-52" data-for="gpt-52">GPT-5.2</a></li><li class="depth-1"><a href="#发布背景与战略环境" data-for="发布背景与战略环境">发布背景与战略环境</a></li><li class="depth-1"><a href="#模型版本与技术规格" data-for="模型版本与技术规格">模型版本与技术规格</a></li><li class="depth-2"><a href="#核心技术参数" data-for="核心技术参数">核心技术参数</a></li><li class="depth-2"><a href="#thinking-模式" data-for="thinking-模式">Thinking 模式</a></li><li class="depth-1"><a href="#核心性能与推理能力" data-for="核心性能与推理能力">核心性能与推理能力</a></li><li class="depth-2"><a href="#通用推理基准-arc-agi-2" data-for="通用推理基准-arc-agi-2">通用推理基准 (ARC-AGI-2)</a></li><li class="depth-2"><a href="#专业工作与编程能力" data-for="专业工作与编程能力">专业工作与编程能力</a></li><li class="depth-2"><a href="#科学推理与逻辑" data-for="科学推理与逻辑">科学推理与逻辑</a></li><li class="depth-2"><a href="#多模态与视频理解" data-for="多模态与视频理解">多模态与视频理解</a></li><li class="depth-1"><a href="#安全与交互调整" data-for="安全与交互调整">安全与交互调整</a></li><li class="depth-1"><a href="#争议事件与质疑" data-for="争议事件与质疑">争议事件与质疑</a></li><li class="depth-2"><a href="#营销注水与信任危机" data-for="营销注水与信任危机">营销注水与信任危机</a></li><li class="depth-2"><a href="#算力不对等评测" data-for="算力不对等评测">算力不对等评测</a></li><li class="depth-2"><a href="#体验与榜单脱节" data-for="体验与榜单脱节">体验与榜单脱节</a></li><li class="depth-2"><a href="#降智风波" data-for="降智风波">降智风波</a></li><li class="depth-1"><a href="#应用场景与生态" data-for="应用场景与生态">应用场景与生态</a></li><li class="depth-2"><a href="#科研工作区" data-for="科研工作区">科研工作区</a></li><li class="depth-2"><a href="#视频深度研究" data-for="视频深度研究">视频深度研究</a></li><li class="depth-1"><a href="#幕后团队与技术关联" data-for="幕后团队与技术关联">幕后团队与技术关联</a></li><li class="depth-1"><a href="#意义" data-for="意义">意义</a></li><li class="depth-1"><a href="#参见" data-for="参见">参见</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">GPT-5.2</h1><p class="content-meta">May 07, 2026, 14 min read</p><ul class="tags"><li><a href="../tags/大语言模型" class="internal tag-link">#大语言模型</a></li><li><a href="../tags/基座模型" class="internal tag-link">#基座模型</a></li><li><a href="../tags/model" class="internal tag-link">#model</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/safety" class="internal tag-link">#safety</a></li><li><a href="../tags/alignment" class="internal tag-link">#alignment</a></li><li><a href="../tags/openai" class="internal tag-link">#openai</a></li><li><a href="../tags/模型" class="internal tag-link">#模型</a></li><li><a href="../tags/推理" class="internal tag-link">#推理</a></li><li><a href="../tags/数学" class="internal tag-link">#数学</a></li><li><a href="../tags/科学" class="internal tag-link">#科学</a></li><li><a href="../tags/multimodal" class="internal tag-link">#multimodal</a></li><li><a href="../tags/closed-source" class="internal tag-link">#closed-source</a></li><li><a href="../tags/reasoning" class="internal tag-link">#reasoning</a></li><li><a href="../tags/controversy" class="internal tag-link">#controversy</a></li><li><a href="../tags/多模态" class="internal tag-link">#多模态</a></li><li><a href="../tags/智能体" class="internal tag-link">#智能体</a></li><li><a href="../tags/编程" class="internal tag-link">#编程</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/coding" class="internal tag-link">#coding</a></li><li><a href="../tags/模型版本" class="internal tag-link">#模型版本</a></li><li><a href="../tags/传闻" class="internal tag-link">#传闻</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="gpt-52">GPT-5.2<a aria-hidden="true" tabindex="-1" href="#gpt-52" class="internal"> §</a></h1>
+<p><a href="../GPT-5.2" class="internal">GPT-5.2</a> 是 <a href="../OpenAI" class="internal">OpenAI</a> 发布的闭源多模态大模型，是 <a href="../GPT-5" class="internal">GPT-5</a> 系列的迭代版本，也被视为 <a href="../GPT-4o" class="internal">GPT-4o</a> 的继任者。该模型包含 <strong>Instant</strong>（即时版）、<strong>Thinking</strong>（思考版）和 <strong>Pro</strong>（专业版）三个版本，旨在解决高难度知识型工作，被定位为首个“专家级” AI 模型。</p>
+<p>该模型旨在狙击 <a href="../Gemini-3" class="internal">Gemini 3</a>（特别是 <a href="../entities/Gemini-3-Pro" class="internal">Gemini 3 Pro</a>）并完成特定的 AGI 产品目标，在核心推理能力上取得了显著突破，特别是在 <a href="../ARC-AGI-2" class="internal">ARC-AGI-2</a> 基准测试中表现优异，同时被描述为“最先进的数学与科学推理模型”，并作为核心引擎驱动 <a href="../Prism" class="internal">Prism</a> 科研工作区。</p>
+<p>然而，该模型的发布也伴随着巨大争议，主要涉及基准测试中的“算力不对等”问题、用户体验与榜单分数的脱节，以及发布初期的“降智”风波。</p>
+<h2 id="发布背景与战略环境">发布背景与战略环境<a aria-hidden="true" tabindex="-1" href="#发布背景与战略环境" class="internal"> §</a></h2>
+<p>GPT-5.2 的发布处于 OpenAI 面临 <a href="../Gemini" class="internal">Gemini</a> 等竞争对手激烈挑战的关键时刻。</p>
+<ul>
+<li><strong>红色警戒</strong>：在 <a href="../Gemini-3" class="internal">Gemini 3</a> 发布后，OpenAI 首次面临竞争对手在基准测试中全面领先的局面，公司内部进入“红色警戒”状态。为了应对用户流失（一周内约 6%）并夺回市场话语权，Sam Altman 决定将原计划于 2025 年 12 月下旬的发布提前至 12 月 9 日。</li>
+<li><strong>仓促上线的风险</strong>：由于准备时间极短（仅有数天），业界担忧此次仓促发布可能导致模型存在缺陷或未达预期，反而加剧 OpenAI 的危机。</li>
+<li><strong>战略转向</strong>：GPT-5.2 也代表了 OpenAI 在 <a href="../AI-伴侣" class="internal">AI-伴侣</a> 伦理争议后的战略转向：从追求极致的拟人化体验，转向优先确保安全性和可控性，同时在科研领域寻求深度应用。</li>
+</ul>
+<h2 id="模型版本与技术规格">模型版本与技术规格<a aria-hidden="true" tabindex="-1" href="#模型版本与技术规格" class="internal"> §</a></h2>
+<p>GPT-5.2 系列提供了针对不同场景优化的版本：</p>
+<ul>
+<li><strong>GPT-5.2 Instant</strong>：主打日常办公和学习，速度快，具备清晰的解释能力和改进的操作指南。</li>
+<li><strong>GPT-5.2 Thinking</strong>：平衡性能与成本，适合深度工作、编程和长文档分析。支持推理 Token。</li>
+<li><strong>GPT-5.2 Pro</strong>：最强版本，适合最棘手的科研和数学问题，支持新的“xhigh”推理强度级别。</li>
+</ul>
+<h3 id="核心技术参数">核心技术参数<a aria-hidden="true" tabindex="-1" href="#核心技术参数" class="internal"> §</a></h3>
+<ul>
+<li><strong>上下文窗口</strong>：拥有 40 万 Token 的上下文窗口和 12.8 万 Token 的最大输出长度，支持处理极长文档和复杂对话。</li>
+<li><strong>知识更新</strong>：知识库更新至 2025 年 8 月 31 日。</li>
+<li><strong>多模态能力</strong>：具备强大的视觉理解能力，在图表推理和软件界面理解方面错误率减半。</li>
+<li><strong>工具调用</strong>：增强了 Agent 工具调用能力，支持端到端工作流执行。</li>
+</ul>
+<h3 id="thinking-模式">Thinking 模式<a aria-hidden="true" tabindex="-1" href="#thinking-模式" class="internal"> §</a></h3>
+<p>GPT-5.2 引入了 <a href="../thinking模式" class="internal">thinking模式</a>，这是一种特定的推理模式。</p>
+<ul>
+<li><strong>功能</strong>：该模式可能采用了不同的处理链或更深层的思维链，强调多步骤任务处理能力。</li>
+<li><strong>实测效果</strong>：强制使用 Thinking 版本可以解决模型在默认模式下因 <a href="../tokenization" class="internal">tokenization</a> 问题导致的简单错误（如字符计数失败），表明其在概率预测与确定性符号操作之间仍存在鸿沟，但深层推理链能有效规避底层缺陷。</li>
+</ul>
+<h2 id="核心性能与推理能力">核心性能与推理能力<a aria-hidden="true" tabindex="-1" href="#核心性能与推理能力" class="internal"> §</a></h2>
+<h3 id="通用推理基准-arc-agi-2">通用推理基准 (ARC-AGI-2)<a aria-hidden="true" tabindex="-1" href="#通用推理基准-arc-agi-2" class="internal"> §</a></h3>
+<p>GPT-5.2 在处理抽象、归纳与迁移推理任务时展现出了接近人类专家的水平，标志着模型在解决复杂跨学科问题上的能力提升。</p>
+<ul>
+<li><strong>独立表现</strong>：GPT-5.2 Pro 版本在 <a href="../ARC-AGI-2" class="internal">ARC-AGI-2</a> 基准测试中达到了约 <strong>54.2%</strong> 的准确率（另一来源显示其 xhigh 版本达到了 <strong>52.9% - 60%</strong>），这一成绩与人类平均水平持平或超越。在 ARC Prize 中，其 Pro 版本取得了 <strong>90.5%</strong> 的 SOTA 得分。</li>
+<li><strong>系统增强表现</strong>：当通过 <a href="../Poetiq" class="internal">Poetiq</a> 的 <a href="../元系统架构" class="internal">元系统架构</a> 进行调用时（未进行额外训练），其准确率提升至 <strong>75%</strong>，显著超越人类平均水平，且每问题成本不到 8 美元。</li>
+<li><strong>效率提升</strong>：官方宣称其推理效率在一年内提升了约 390 倍。</li>
+</ul>
+<h3 id="专业工作与编程能力">专业工作与编程能力<a aria-hidden="true" tabindex="-1" href="#专业工作与编程能力" class="internal"> §</a></h3>
+<ul>
+<li><strong>专业工作 (<a href="../GDPval" class="internal">GDPval</a>)</strong>：<a href="../GPT-5.2" class="internal">GPT-5.2</a> Thinking 在 70.9% 的任务中击败或打平人类专家，速度快 11 倍。</li>
+<li><strong>编程 (<a href="../SWE-Bench-Pro" class="internal">SWE-Bench Pro</a>)</strong>：在 SWE-Bench Pro 上得分 55.6%，在 SWE-bench Verified 上得分 80%。</li>
+<li><strong>智能体能力</strong>：在 Tau2-bench Telecom 上得分 98.7%，展示了极强的<a href="../端到端工作流" class="internal">端到端工作流</a>能力。评测者指出，GPT-5.2 是 OpenAI 推出的“最佳智能体模型”，能够连续运行大量工具而无需前导码，在长时间会话中保持方向感，具备从零开始构建复杂系统（如 3D 图形引擎）的能力。</li>
+</ul>
+<h3 id="科学推理与逻辑">科学推理与逻辑<a aria-hidden="true" tabindex="-1" href="#科学推理与逻辑" class="internal"> §</a></h3>
+<p>该模型专门针对数学和科学推理能力进行了优化，不仅能够处理文本生成，还能深入理解复杂的科学逻辑、数学公式以及学术引用关系。</p>
+<ul>
+<li><strong>科研 (<a href="../FrontierMath" class="internal">FrontierMath</a>)</strong>：解决了统计学习理论中的开放性问题，独立完成数学证明。</li>
+</ul>
+<h3 id="多模态与视频理解">多模态与视频理解<a aria-hidden="true" tabindex="-1" href="#多模态与视频理解" class="internal"> §</a></h3>
+<p>在 <a href="../entities/videodr" class="internal">videodr</a> 评测基准中，GPT-5.2 表现出色，与 <a href="../Gemini-3-pro-preview" class="internal">Gemini-3-pro-preview</a> 同处于第一梯队。</p>
+<ul>
+<li><strong>准确率</strong>：在 VideoDR 基准中达到了 69%-76% 左右。</li>
+<li><strong>推理能力</strong>：展现了较强的结合视频线索与网络搜索进行多跳推理的能力。</li>
+<li><strong>长视频处理</strong>：在处理长视频和复杂任务时，表现优于大多数开源模型。</li>
+</ul>
+<h2 id="安全与交互调整">安全与交互调整<a aria-hidden="true" tabindex="-1" href="#安全与交互调整" class="internal"> §</a></h2>
+<ul>
+<li><strong>增强安全护栏</strong>：增加了对危险话题（如自杀、自残）的干预机制，不再无底线顺从用户。</li>
+<li><strong>减少说教</strong>：官方声称调整了回复风格，试图减少“说教式”的语气，但仍被用户认为过于冷漠。</li>
+<li><strong>自定义风格</strong>：引入了允许用户设定“更友好、更亲切”模式的功能，试图找回部分“温度”。</li>
+</ul>
+<h2 id="争议事件与质疑">争议事件与质疑<a aria-hidden="true" tabindex="-1" href="#争议事件与质疑" class="internal"> §</a></h2>
+<p>尽管官方数据亮眼，GPT-5.2 在实际应用和评测方法论上引发了广泛争议。</p>
+<h3 id="营销注水与信任危机">营销注水与信任危机<a aria-hidden="true" tabindex="-1" href="#营销注水与信任危机" class="internal"> §</a></h3>
+<ul>
+<li><strong>满分图片疑云</strong>：网络上流传的一张 GPT-5.2 基准测试图片显示其在 AIME 2025 和 MMMLU 上取得 100% 的惊人成绩。然而，网友利用 <a href="../Gemini" class="internal">Gemini</a> 分析该图片后，普遍认为其为 AI 生成或虚构的“愿望投射”。这反映了公众对 AI 营销中分数注水的不信任，即所谓的“后 Nano Banana Pro 时代”。</li>
+</ul>
+<h3 id="算力不对等评测">算力不对等评测<a aria-hidden="true" tabindex="-1" href="#算力不对等评测" class="internal"> §</a></h3>
+<p>在 ARC AGI 2 基准测试中，GPT-5.2 被曝出通过消耗过量算力资源（Token）来获取高分排名。</p>
+<ul>
+<li><strong>成本对比</strong>：GPT-5.2 xhigh 版本每个任务消耗约 <strong>13.5 万个 Token</strong>，按 API 定价计算成本高达 <strong>1.9 美元</strong>。相比之下，竞争对手 <a href="../Gemini-3.0-Pro" class="internal">Gemini 3.0 Pro</a> 仅用一半的 Token 数量（6.7 万）就取得了相似的成绩。</li>
+<li><strong>性质质疑</strong>：这引发了关于 GPT-5.2 是否通过“暴力计算”而非算法智能优势来获胜的质疑，被指存在“榜单定向优化”嫌疑。</li>
+</ul>
+<h3 id="体验与榜单脱节">体验与榜单脱节<a aria-hidden="true" tabindex="-1" href="#体验与榜单脱节" class="internal"> §</a></h3>
+<p>尽管基准测试分数高，但用户反馈存在明显的“货不对板”现象：</p>
+<ul>
+<li><strong>能力倒退感</strong>：用户反馈 GPT-5.2 在实际使用中存在幻觉现象，代码理解能力不如预期，甚至有“倒退”感。</li>
+<li><strong>版本差异</strong>：OpenAI 被指在测试中使用了高推理力度版本，而付费用户只能访问中等版本，导致体验与宣传不符。</li>
+<li><strong>怀念前任</strong>：部分用户因此更加怀念 <a href="../GPT-4o" class="internal">GPT-4o</a> 的表现。</li>
+</ul>
+<h3 id="降智风波">降智风波<a aria-hidden="true" tabindex="-1" href="#降智风波" class="internal"> §</a></h3>
+<p>发布初期，GPT-5.2 遭遇了严重的性能争议：</p>
+<ul>
+<li><strong>现象</strong>：大量用户反馈模型在发布几小时后性能下降，甚至无法完成简单的字符计数任务（如统计 “garlic” 中的 ‘r’），这一现象被称为 <a href="../concepts/降智" class="internal">降智</a>。</li>
+<li><strong>专家观点</strong>：沃顿商学院教授 <a href="../Ethan-Mollick" class="internal">Ethan Mollick</a> 等业内人士指出，虽然模型在简单任务上可能因 Tokenization 问题“翻车”，但在复杂任务（如编写着色器代码、生成复杂数据图表）上表现惊人，展现了强大的代码生成和推理能力。</li>
+</ul>
+<h2 id="应用场景与生态">应用场景与生态<a aria-hidden="true" tabindex="-1" href="#应用场景与生态" class="internal"> §</a></h2>
+<h3 id="科研工作区">科研工作区<a aria-hidden="true" tabindex="-1" href="#科研工作区" class="internal"> §</a></h3>
+<p>在 <a href="../Prism" class="internal">Prism</a> 应用中，GPT-5.2 展现了超越传统聊天机器人的全局语境理解能力。它能够读取整篇论文的结构、公式、图表和参考文献，从而在修改建议中保持逻辑的一致性和准确性。</p>
+<ul>
+<li><strong>学术写作</strong>：辅助起草、润色和重构学术论文。</li>
+<li><strong>公式与图表处理</strong>：创建、重构并推理公式及图表在论文中的关联。</li>
+<li><strong>假设验证</strong>：在当前文档语境下探索思路并验证科学假设。</li>
+</ul>
+<h3 id="视频深度研究">视频深度研究<a aria-hidden="true" tabindex="-1" href="#视频深度研究" class="internal"> §</a></h3>
+<p>执行基于视频内容的开放网络搜索与复杂推理任务。</p>
+<h2 id="幕后团队与技术关联">幕后团队与技术关联<a aria-hidden="true" tabindex="-1" href="#幕后团队与技术关联" class="internal"> §</a></h2>
+<p>GPT-5.2 的研发背后有显著的华人贡献，核心成员包括：</p>
+<ul>
+<li><a href="../Yu-Bai" class="internal">Yu Bai</a>（北大校友）：负责相关研究工作，早期预告者。</li>
+<li><a href="../Yun-Dai" class="internal">Yun Dai</a>（清华校友）：负责后训练工作。</li>
+<li><a href="../Zuxin-Liu" class="internal">Zuxin Liu</a>（北航及 CMU 背景）：从事推理模型后训练工作。</li>
+<li><a href="../Aston-Zhang" class="internal">Aston Zhang</a>（UIUC 博士）：强调了 Thinking 模式的多步骤任务处理能力。</li>
+</ul>
+<p>此外，据内部代码泄露信息，GPT-5.2 可能与代号为 <a href="../entities/企鹅家族" class="internal">企鹅家族</a> 的模型（包括拥有 512 推理预算的 Emperor）存在技术关联，或由代号为 <a href="../Garlic" class="internal">Garlic</a> 的模型演化而来。代号为 <a href="../entities/shallotpeat" class="internal">shallotpeat</a> 的推理模型也可能与其发布密切相关。</p>
+<h2 id="意义">意义<a aria-hidden="true" tabindex="-1" href="#意义" class="internal"> §</a></h2>
+<p>GPT-5.2 的发布标志着 AI 模型在核心推理能力上正在逼近甚至超越人类基线，同时也标志着在垂直领域（特别是科研领域）的深度应用。它不再仅仅是一个通用的对话工具，而是演变成了能够深度介入复杂知识生产流程的智能助手。然而，围绕其评测方式的争议也揭示了行业在追求 AGI 过程中面临的“唯分数论”与实际效用之间的矛盾。</p>
+<h2 id="参见">参见<a aria-hidden="true" tabindex="-1" href="#参见" class="internal"> §</a></h2>
+<ul>
+<li><a href="../ARC-AGI-2" class="internal">ARC-AGI-2</a>：用于测试其泛化推理能力的基准。</li>
+<li><a href="../Poetiq" class="internal">Poetiq</a>：通过系统架构大幅提升其性能的公司。</li>
+<li><a href="../能力过剩" class="internal">能力过剩</a>：OpenAI 关于当前模型能力与应用断层提出的概念。</li>
+<li><a href="../concepts/算力不对等评测" class="internal">算力不对等评测</a>：关于 GPT-5.2 在基准测试中消耗过高 Token 的争议。</li>
+<li><a href="../concepts/降智" class="internal">降智</a>：关于模型发布初期性能波动的争议。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/ai-伴侣" class="internal">AI 伴侣</a></li><li><a href="../entities/garlic" class="internal">Garlic</a></li><li><a href="../entities/gemini-3" class="internal">Gemini 3</a></li><li><a href="../entities/gpt-4o" class="internal">GPT-4o</a></li><li><a href="../entities/企鹅家族" class="internal">企鹅家族</a></li><li><a href="../sources/openai内部代码泄露！最强模型「皇帝」登基，0思考延时吓人" class="internal">OpenAI内部代码泄露！最强模型「皇帝」登基，0思考延时吓人</a></li><li><a href="../sources/openai强制「处死」gpt-4o！80万老粉全网拯救：它不是代码是爱人" class="internal">OpenAI强制「处死」GPT-4o！80万老粉全网拯救：它不是代码是爱人</a></li><li><a href="../sources/人类一离座ai就进化！伯克利开源metaclaw，静态agent慌了" class="internal">人类一离座AI就进化！伯克利开源MetaClaw，静态Agent慌了</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

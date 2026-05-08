@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head><title>OpenReview</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="OpenReview"/><meta property="og:description" content="OpenReview § OpenReview 是一个旨在提升学术评审透明度和公开性的在线平台，承载着 ICLR、NeurIPS、ICML 等全球绝大多数 AI 顶会的论文评审工作。其核心理念是让评审过程从「黑箱」转变为社区讨论的一部分。 数据价值与科研演化建模 § OpenReview 也是 ResearchArcade 的关键数据源。它提供了 ArXiv 所缺乏的动态交互数据，包括审稿意见、作者 Rebuttal 以及多轮修订记录。ResearchArcade 利用这些数据对科研的动态演化过程进行建模，并尝试将 OpenReview 投稿与 ArXiv 预印本进行对齐（目前对齐率约 45%）。 透明度悖论 § 尽管平台旨在公开透明，但在 ICLR 2026 争议中，OpenReview 暴露了“透明但无效”的问题： 记录可见：平台完整记录了作者与审稿人的交互（如 Theron Tau 案例中的近三十条互动）。 决策无视：尽管记录公开，AC（领域主席）在撰写 Meta-Review 时，仍可以声称“未提交反驳”或无视这些记录，导致公开的透明度未能转化为决策的公正性。 2025 年安全漏洞 § 在 2025 年 11 月 27 日的 ICLR 2026泄露门 事件中，OpenReview 因一个极低级的 API 漏洞（BOLA漏洞）导致大规模数据泄露。 技术细节 § 漏洞出在 profiles/search API 接口。系统未能正确验证用户是否有权访问特定对象（如某篇论文的审稿人信息）。攻击者仅需构造特定的 URL 请求（修改 group 参数），即可无需任何黑客工具获取以下敏感信息： 论文作者身份 审稿人身份 领域主席（AC）身份 评审意见和分数 后果 § 这一漏洞直接导致了 双盲评审 制度的失效，引发了学术圈的「黑暗森林」状态，包括人肉搜索、金钱贿赂和恶意报复。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="OpenReview § OpenReview 是一个旨在提升学术评审透明度和公开性的在线平台，承载着 ICLR、NeurIPS、ICML 等全球绝大多数 AI 顶会的论文评审工作。其核心理念是让评审过程从「黑箱」转变为社区讨论的一部分。 数据价值与科研演化建模 § OpenReview 也是 ResearchArcade 的关键数据源。它提供了 ArXiv 所缺乏的动态交互数据，包括审稿意见、作者 Rebuttal 以及多轮修订记录。ResearchArcade 利用这些数据对科研的动态演化过程进行建模，并尝试将 OpenReview 投稿与 ArXiv 预印本进行对齐（目前对齐率约 45%）。 透明度悖论 § 尽管平台旨在公开透明，但在 ICLR 2026 争议中，OpenReview 暴露了“透明但无效”的问题： 记录可见：平台完整记录了作者与审稿人的交互（如 Theron Tau 案例中的近三十条互动）。 决策无视：尽管记录公开，AC（领域主席）在撰写 Meta-Review 时，仍可以声称“未提交反驳”或无视这些记录，导致公开的透明度未能转化为决策的公正性。 2025 年安全漏洞 § 在 2025 年 11 月 27 日的 ICLR 2026泄露门 事件中，OpenReview 因一个极低级的 API 漏洞（BOLA漏洞）导致大规模数据泄露。 技术细节 § 漏洞出在 profiles/search API 接口。系统未能正确验证用户是否有权访问特定对象（如某篇论文的审稿人信息）。攻击者仅需构造特定的 URL 请求（修改 group 参数），即可无需任何黑客工具获取以下敏感信息： 论文作者身份 审稿人身份 领域主席（AC）身份 评审意见和分数 后果 § 这一漏洞直接导致了 双盲评审 制度的失效，引发了学术圈的「黑暗森林」状态，包括人肉搜索、金钱贿赂和恶意报复。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/openreview"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#openreview" data-for="openreview">OpenReview</a></li><li class="depth-1"><a href="#数据价值与科研演化建模" data-for="数据价值与科研演化建模">数据价值与科研演化建模</a></li><li class="depth-1"><a href="#透明度悖论" data-for="透明度悖论">透明度悖论</a></li><li class="depth-1"><a href="#2025-年安全漏洞" data-for="2025-年安全漏洞">2025 年安全漏洞</a></li><li class="depth-2"><a href="#技术细节" data-for="技术细节">技术细节</a></li><li class="depth-2"><a href="#后果" data-for="后果">后果</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">OpenReview</h1><p class="content-meta">May 07, 2026, 3 min read</p><ul class="tags"><li><a href="../tags/platform" class="internal tag-link">#platform</a></li><li><a href="../tags/peer-review" class="internal tag-link">#peer-review</a></li><li><a href="../tags/dataset-source" class="internal tag-link">#dataset-source</a></li><li><a href="../tags/平台" class="internal tag-link">#平台</a></li><li><a href="../tags/同行评议" class="internal tag-link">#同行评议</a></li><li><a href="../tags/学术评审" class="internal tag-link">#学术评审</a></li><li><a href="../tags/软件平台" class="internal tag-link">#软件平台</a></li><li><a href="../tags/安全漏洞" class="internal tag-link">#安全漏洞</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="openreview">OpenReview<a aria-hidden="true" tabindex="-1" href="#openreview" class="internal"> §</a></h1>
+<p><a href="../OpenReview" class="internal">OpenReview</a> 是一个旨在提升学术评审透明度和公开性的在线平台，承载着 <a href="../ICLR" class="internal">ICLR</a>、NeurIPS、ICML 等全球绝大多数 AI 顶会的论文评审工作。其核心理念是让评审过程从「黑箱」转变为社区讨论的一部分。</p>
+<h2 id="数据价值与科研演化建模">数据价值与科研演化建模<a aria-hidden="true" tabindex="-1" href="#数据价值与科研演化建模" class="internal"> §</a></h2>
+<p>OpenReview 也是 <a href="../ResearchArcade" class="internal">ResearchArcade</a> 的关键数据源。它提供了 <a href="../ArXiv" class="internal">ArXiv</a> 所缺乏的动态交互数据，包括审稿意见、作者 Rebuttal 以及多轮修订记录。<a href="../ResearchArcade" class="internal">ResearchArcade</a> 利用这些数据对科研的动态演化过程进行建模，并尝试将 OpenReview 投稿与 ArXiv 预印本进行对齐（目前对齐率约 45%）。</p>
+<h2 id="透明度悖论">透明度悖论<a aria-hidden="true" tabindex="-1" href="#透明度悖论" class="internal"> §</a></h2>
+<p>尽管平台旨在公开透明，但在 ICLR 2026 争议中，OpenReview 暴露了“透明但无效”的问题：</p>
+<ul>
+<li><strong>记录可见</strong>：平台完整记录了作者与审稿人的交互（如 Theron Tau 案例中的近三十条互动）。</li>
+<li><strong>决策无视</strong>：尽管记录公开，<a href="../AC" class="internal">AC</a>（领域主席）在撰写 Meta-Review 时，仍可以声称“未提交反驳”或无视这些记录，导致公开的透明度未能转化为决策的公正性。</li>
+</ul>
+<h2 id="2025-年安全漏洞">2025 年安全漏洞<a aria-hidden="true" tabindex="-1" href="#2025-年安全漏洞" class="internal"> §</a></h2>
+<p>在 2025 年 11 月 27 日的 <a href="../ICLR-2026泄露门" class="internal">ICLR 2026泄露门</a> 事件中，OpenReview 因一个极低级的 API 漏洞（<a href="../BOLA漏洞" class="internal">BOLA漏洞</a>）导致大规模数据泄露。</p>
+<h3 id="技术细节">技术细节<a aria-hidden="true" tabindex="-1" href="#技术细节" class="internal"> §</a></h3>
+<p>漏洞出在 <code>profiles/search</code> API 接口。系统未能正确验证用户是否有权访问特定对象（如某篇论文的审稿人信息）。攻击者仅需构造特定的 URL 请求（修改 <code>group</code> 参数），即可无需任何黑客工具获取以下敏感信息：</p>
+<ul>
+<li>论文作者身份</li>
+<li>审稿人身份</li>
+<li>领域主席（AC）身份</li>
+<li>评审意见和分数</li>
+</ul>
+<h3 id="后果">后果<a aria-hidden="true" tabindex="-1" href="#后果" class="internal"> §</a></h3>
+<p>这一漏洞直接导致了 <a href="../concepts/双盲评审" class="internal">双盲评审</a> 制度的失效，引发了学术圈的「黑暗森林」状态，包括人肉搜索、金钱贿赂和恶意报复。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

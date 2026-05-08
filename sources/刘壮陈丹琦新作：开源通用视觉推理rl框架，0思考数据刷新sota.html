@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head><title>刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA"/><meta property="og:description" content="刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA § 本文报道了普林斯顿大学刘壮团队与陈丹琦合作发布的 vero 框架。这是一个开源的通用视觉推理强化学习（RL）框架，旨在解决开源模型在视觉推理任务上通常只能覆盖特定领域的问题。 核心成果 § Vero 框架：首个适用于通用视觉推理的开源 RL 方案。 性能表现：基于 Vero 训练的模型在 30 多项测试中达到了 8B 视觉语言模型的 SOTA，其中 23 项超越了 qwen3-vl-8b-thinking。 零思考数据：证明了在不依赖私有“思考”数据的情况下，通过高质量数据过滤和均衡任务混合，利用单阶段 RL 即可激发强大的推理能力。 技术细节 § Vero-600K 数据集 § 研究团队从 59 个数据集中构建了包含 60 万高质量样本的多样化训练集，涵盖六大类任务： 图表与 OCR STEM 空间与动作 知识与识别 定位、计数与搜索 描述与指令遵循 研究发现，广泛且均衡的数据覆盖是视觉推理强化学习 Scaling 的主要驱动力，能有效避免多任务训练中的能力退化。 任务路由奖励机制 § 针对不同视觉任务答案格式差异大的问题，Vero 设计了多路奖励系统。系统会根据任务类型自动将输出路由给相应的验证器（如规则校验、数学校验、LLM 裁判）来计算奖励。 单阶段强化学习 § Vero 提出了不依赖私有“Thinking”数据的训练范式。通过精确的路由奖励和均衡的数据混合，单阶段 RL 足以激发基础模型的通用视觉推理能力。 研究团队 § 项目负责人：liu-zhuang（普林斯顿大学计算机科学助理教授，清华姚班本科，伯克利博士，前 Meta FAIR 高级研究科学家）。 作者：chen-danqi（普林斯顿大学 PLI 副主任）。 通讯作者：Gabriel Sarch（CMU 博士，普林斯顿 PLI 博士后）和 Linrong Cai（威斯康星大学麦迪逊分校本科，普林斯顿硕士）。 意义 § Vero 的出现证明了学术界在合适的人才和投入下，能够追平顶尖工业界团队在通用视觉推理领域的成就，打破了闭源模型在该领域的垄断。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA § 本文报道了普林斯顿大学刘壮团队与陈丹琦合作发布的 vero 框架。这是一个开源的通用视觉推理强化学习（RL）框架，旨在解决开源模型在视觉推理任务上通常只能覆盖特定领域的问题。 核心成果 § Vero 框架：首个适用于通用视觉推理的开源 RL 方案。 性能表现：基于 Vero 训练的模型在 30 多项测试中达到了 8B 视觉语言模型的 SOTA，其中 23 项超越了 qwen3-vl-8b-thinking。 零思考数据：证明了在不依赖私有“思考”数据的情况下，通过高质量数据过滤和均衡任务混合，利用单阶段 RL 即可激发强大的推理能力。 技术细节 § Vero-600K 数据集 § 研究团队从 59 个数据集中构建了包含 60 万高质量样本的多样化训练集，涵盖六大类任务： 图表与 OCR STEM 空间与动作 知识与识别 定位、计数与搜索 描述与指令遵循 研究发现，广泛且均衡的数据覆盖是视觉推理强化学习 Scaling 的主要驱动力，能有效避免多任务训练中的能力退化。 任务路由奖励机制 § 针对不同视觉任务答案格式差异大的问题，Vero 设计了多路奖励系统。系统会根据任务类型自动将输出路由给相应的验证器（如规则校验、数学校验、LLM 裁判）来计算奖励。 单阶段强化学习 § Vero 提出了不依赖私有“Thinking”数据的训练范式。通过精确的路由奖励和均衡的数据混合，单阶段 RL 足以激发基础模型的通用视觉推理能力。 研究团队 § 项目负责人：liu-zhuang（普林斯顿大学计算机科学助理教授，清华姚班本科，伯克利博士，前 Meta FAIR 高级研究科学家）。 作者：chen-danqi（普林斯顿大学 PLI 副主任）。 通讯作者：Gabriel Sarch（CMU 博士，普林斯顿 PLI 博士后）和 Linrong Cai（威斯康星大学麦迪逊分校本科，普林斯顿硕士）。 意义 § Vero 的出现证明了学术界在合适的人才和投入下，能够追平顶尖工业界团队在通用视觉推理领域的成就，打破了闭源模型在该领域的垄断。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/刘壮陈丹琦新作：开源通用视觉推理rl框架，0思考数据刷新sota"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#刘壮陈丹琦新作开源通用视觉推理rl框架0思考数据刷新sota" data-for="刘壮陈丹琦新作开源通用视觉推理rl框架0思考数据刷新sota">刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA</a></li><li class="depth-1"><a href="#核心成果" data-for="核心成果">核心成果</a></li><li class="depth-1"><a href="#技术细节" data-for="技术细节">技术细节</a></li><li class="depth-2"><a href="#vero-600k-数据集" data-for="vero-600k-数据集">Vero-600K 数据集</a></li><li class="depth-2"><a href="#任务路由奖励机制" data-for="任务路由奖励机制">任务路由奖励机制</a></li><li class="depth-2"><a href="#单阶段强化学习" data-for="单阶段强化学习">单阶段强化学习</a></li><li class="depth-1"><a href="#研究团队" data-for="研究团队">研究团队</a></li><li class="depth-1"><a href="#意义" data-for="意义">意义</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA</h1><p class="content-meta">Apr 11, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/视觉推理" class="internal tag-link">#视觉推理</a></li><li><a href="../tags/强化学习" class="internal tag-link">#强化学习</a></li><li><a href="../tags/开源" class="internal tag-link">#开源</a></li><li><a href="../tags/多模态" class="internal tag-link">#多模态</a></li><li><a href="../tags/普林斯顿" class="internal tag-link">#普林斯顿</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="刘壮陈丹琦新作开源通用视觉推理rl框架0思考数据刷新sota">刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA<a aria-hidden="true" tabindex="-1" href="#刘壮陈丹琦新作开源通用视觉推理rl框架0思考数据刷新sota" class="internal"> §</a></h1>
+<p>本文报道了普林斯顿大学刘壮团队与陈丹琦合作发布的 <a href="../entities/vero" class="internal">vero</a> 框架。这是一个开源的通用视觉推理强化学习（RL）框架，旨在解决开源模型在视觉推理任务上通常只能覆盖特定领域的问题。</p>
+<h2 id="核心成果">核心成果<a aria-hidden="true" tabindex="-1" href="#核心成果" class="internal"> §</a></h2>
+<ul>
+<li><strong>Vero 框架</strong>：首个适用于通用视觉推理的开源 RL 方案。</li>
+<li><strong>性能表现</strong>：基于 Vero 训练的模型在 30 多项测试中达到了 8B 视觉语言模型的 SOTA，其中 23 项超越了 <a href="../qwen3-vl-8b-thinking" class="internal">qwen3-vl-8b-thinking</a>。</li>
+<li><strong>零思考数据</strong>：证明了在不依赖私有“思考”数据的情况下，通过高质量数据过滤和均衡任务混合，利用单阶段 RL 即可激发强大的推理能力。</li>
+</ul>
+<h2 id="技术细节">技术细节<a aria-hidden="true" tabindex="-1" href="#技术细节" class="internal"> §</a></h2>
+<h3 id="vero-600k-数据集">Vero-600K 数据集<a aria-hidden="true" tabindex="-1" href="#vero-600k-数据集" class="internal"> §</a></h3>
+<p>研究团队从 59 个数据集中构建了包含 60 万高质量样本的多样化训练集，涵盖六大类任务：</p>
+<ul>
+<li>图表与 OCR</li>
+<li>STEM</li>
+<li>空间与动作</li>
+<li>知识与识别</li>
+<li>定位、计数与搜索</li>
+<li>描述与指令遵循</li>
+</ul>
+<p>研究发现，广泛且均衡的数据覆盖是视觉推理强化学习 Scaling 的主要驱动力，能有效避免多任务训练中的能力退化。</p>
+<h3 id="任务路由奖励机制">任务路由奖励机制<a aria-hidden="true" tabindex="-1" href="#任务路由奖励机制" class="internal"> §</a></h3>
+<p>针对不同视觉任务答案格式差异大的问题，Vero 设计了多路奖励系统。系统会根据任务类型自动将输出路由给相应的验证器（如规则校验、数学校验、LLM 裁判）来计算奖励。</p>
+<h3 id="单阶段强化学习">单阶段强化学习<a aria-hidden="true" tabindex="-1" href="#单阶段强化学习" class="internal"> §</a></h3>
+<p>Vero 提出了不依赖私有“Thinking”数据的训练范式。通过精确的路由奖励和均衡的数据混合，单阶段 RL 足以激发基础模型的通用视觉推理能力。</p>
+<h2 id="研究团队">研究团队<a aria-hidden="true" tabindex="-1" href="#研究团队" class="internal"> §</a></h2>
+<ul>
+<li><strong>项目负责人</strong>：<a href="../entities/liu-zhuang" class="internal">liu-zhuang</a>（普林斯顿大学计算机科学助理教授，清华姚班本科，伯克利博士，前 Meta FAIR 高级研究科学家）。</li>
+<li><strong>作者</strong>：<a href="../entities/chen-danqi" class="internal">chen-danqi</a>（普林斯顿大学 PLI 副主任）。</li>
+<li><strong>通讯作者</strong>：Gabriel Sarch（CMU 博士，普林斯顿 PLI 博士后）和 Linrong Cai（威斯康星大学麦迪逊分校本科，普林斯顿硕士）。</li>
+</ul>
+<h2 id="意义">意义<a aria-hidden="true" tabindex="-1" href="#意义" class="internal"> §</a></h2>
+<p>Vero 的出现证明了学术界在合适的人才和投入下，能够追平顶尖工业界团队在通用视觉推理领域的成就，打破了闭源模型在该领域的垄断。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

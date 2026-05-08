@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html><head><title>Nano Banana Pro</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Nano Banana Pro"/><meta property="og:description" content="Nano Banana Pro § Nano Banana Pro 是由 Google 旗下 Google DeepMind 开发的旗舰级文生图基础模型。它隶属于 Gemini-3 系列（也被称为 Gemini 3 Pro Image），是通用视觉模型 Vision Banana 的母体模型和底座架构，同时也是 PaperBanana 系统中负责具体渲染任务的核心模型组件。 该模型以其极高的算力需求著称，直接导致了谷歌对开发者 API 免费额度的断崖式削减，这一事件被称为“配额休克”，是 算力零和博弈 的典型案例。 核心能力与物理特性 § Nano Banana Pro 在图像生成的物理真实感和逻辑准确性上表现突出，具备以下核心特性： 物理色彩理论：能够准确理解并生成符合物理光学规律的图像。例如在测试中，它能准确呈现黄红混合产生的多孔、橙色表皮等细节，体现了对物理世界的深刻理解。 高真实度与编辑能力：在人物面部生成和场景渲染上，真实度极高。其图像编辑能力尤为强大，能够通过自然语言指令将游戏画面转化为电影质感，或将物体（如柠檬）转化为其他物体（如猕猴桃）。 通用求解能力：在 华中科技大学 发布的 LowLevelEval 报告中，该模型被作为核心评测对象，在无需针对特定任务微调的情况下处理了 14 种不同的 低层视觉 任务（如去雾、超分辨率、去噪等）。 深层视觉表征：在预训练过程中，模型学会了物体边界、深度关系和几何结构等深层视觉表征，这些表征为 Vision Banana 的感知任务提供了基础。 模型架构与生态角色 § Nano Banana Pro 在谷歌的 AI 生态系统中扮演着多重关键角色，其架构设计对算力的需求达到了前所未有的高度： Vision Banana 母体：Vision Banana 正是基于 Nano Banana Pro，通过混入极小比例的可逆格式任务数据进行 指令微调 而来。这种训练策略使得 Vision Banana 继承了 Nano Banana Pro 的强大生成能力，并转化为能够处理分割、深度估计等判别式任务的通用模型，且不损失原有的生成能力。 PaperBanana 渲染引擎：在 PaperBanana 系统中，Nano Banana Pro 由 Visualizer 智能体调用，负责根据规划蓝图和风格指南生成最终的图像像素，主要用于生成逻辑架构图等非统计类图表。 Project Genie 世界草图：在 Project Genie 架构中，它主要负责“世界草图绘制”环节。它根据用户的文本或视觉提示词生成可调整的图像预览，允许用户在进入由 Genie 3 生成的交互世界之前，预先定义世界和角色的外观、视角（如第一人称或第三人称）。 视频生成素材源：作为谷歌生态下的图像生成工具，Nano Banana Pro 也被用于为 veo-3."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Nano Banana Pro § Nano Banana Pro 是由 Google 旗下 Google DeepMind 开发的旗舰级文生图基础模型。它隶属于 Gemini-3 系列（也被称为 Gemini 3 Pro Image），是通用视觉模型 Vision Banana 的母体模型和底座架构，同时也是 PaperBanana 系统中负责具体渲染任务的核心模型组件。 该模型以其极高的算力需求著称，直接导致了谷歌对开发者 API 免费额度的断崖式削减，这一事件被称为“配额休克”，是 算力零和博弈 的典型案例。 核心能力与物理特性 § Nano Banana Pro 在图像生成的物理真实感和逻辑准确性上表现突出，具备以下核心特性： 物理色彩理论：能够准确理解并生成符合物理光学规律的图像。例如在测试中，它能准确呈现黄红混合产生的多孔、橙色表皮等细节，体现了对物理世界的深刻理解。 高真实度与编辑能力：在人物面部生成和场景渲染上，真实度极高。其图像编辑能力尤为强大，能够通过自然语言指令将游戏画面转化为电影质感，或将物体（如柠檬）转化为其他物体（如猕猴桃）。 通用求解能力：在 华中科技大学 发布的 LowLevelEval 报告中，该模型被作为核心评测对象，在无需针对特定任务微调的情况下处理了 14 种不同的 低层视觉 任务（如去雾、超分辨率、去噪等）。 深层视觉表征：在预训练过程中，模型学会了物体边界、深度关系和几何结构等深层视觉表征，这些表征为 Vision Banana 的感知任务提供了基础。 模型架构与生态角色 § Nano Banana Pro 在谷歌的 AI 生态系统中扮演着多重关键角色，其架构设计对算力的需求达到了前所未有的高度： Vision Banana 母体：Vision Banana 正是基于 Nano Banana Pro，通过混入极小比例的可逆格式任务数据进行 指令微调 而来。这种训练策略使得 Vision Banana 继承了 Nano Banana Pro 的强大生成能力，并转化为能够处理分割、深度估计等判别式任务的通用模型，且不损失原有的生成能力。 PaperBanana 渲染引擎：在 PaperBanana 系统中，Nano Banana Pro 由 Visualizer 智能体调用，负责根据规划蓝图和风格指南生成最终的图像像素，主要用于生成逻辑架构图等非统计类图表。 Project Genie 世界草图：在 Project Genie 架构中，它主要负责“世界草图绘制”环节。它根据用户的文本或视觉提示词生成可调整的图像预览，允许用户在进入由 Genie 3 生成的交互世界之前，预先定义世界和角色的外观、视角（如第一人称或第三人称）。 视频生成素材源：作为谷歌生态下的图像生成工具，Nano Banana Pro 也被用于为 veo-3."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/nano-banana-pro"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#nano-banana-pro" data-for="nano-banana-pro">Nano Banana Pro</a></li><li class="depth-1"><a href="#核心能力与物理特性" data-for="核心能力与物理特性">核心能力与物理特性</a></li><li class="depth-1"><a href="#模型架构与生态角色" data-for="模型架构与生态角色">模型架构与生态角色</a></li><li class="depth-1"><a href="#性能评估生成式特性" data-for="性能评估生成式特性">性能评估：生成式特性</a></li><li class="depth-1"><a href="#行业地位与竞争对比" data-for="行业地位与竞争对比">行业地位与竞争对比</a></li><li class="depth-2"><a href="#与-openai-的对比" data-for="与-openai-的对比">与 OpenAI 的对比</a></li><li class="depth-2"><a href="#与-nano-banana-2-的对比" data-for="与-nano-banana-2-的对比">与 Nano Banana 2 的对比</a></li><li class="depth-1"><a href="#行业影响配额休克" data-for="行业影响配额休克">行业影响：配额休克</a></li><li class="depth-1"><a href="#当前用途与未来" data-for="当前用途与未来">当前用途与未来</a></li><li class="depth-1"><a href="#参见" data-for="参见">参见</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Nano Banana Pro</h1><p class="content-meta">May 07, 2026, 10 min read</p><ul class="tags"><li><a href="../tags/google-deepmind" class="internal tag-link">#google-deepmind</a></li><li><a href="../tags/generative-model" class="internal tag-link">#generative-model</a></li><li><a href="../tags/foundation-model" class="internal tag-link">#foundation-model</a></li><li><a href="../tags/google" class="internal tag-link">#google</a></li><li><a href="../tags/image-generation" class="internal tag-link">#image-generation</a></li><li><a href="../tags/competitor" class="internal tag-link">#competitor</a></li><li><a href="../tags/legacy-model" class="internal tag-link">#legacy-model</a></li><li><a href="../tags/ai-model" class="internal tag-link">#ai-model</a></li><li><a href="../tags/rendering" class="internal tag-link">#rendering</a></li><li><a href="../tags/paperbanana" class="internal tag-link">#paperbanana</a></li><li><a href="../tags/multimodal" class="internal tag-link">#multimodal</a></li><li><a href="../tags/tool" class="internal tag-link">#tool</a></li><li><a href="../tags/flow" class="internal tag-link">#flow</a></li><li><a href="../tags/multimodal-model" class="internal tag-link">#multimodal-model</a></li><li><a href="../tags/generative-ai" class="internal tag-link">#generative-ai</a></li><li><a href="../tags/low-level-vision" class="internal tag-link">#low-level-vision</a></li><li><a href="../tags/model" class="internal tag-link">#model</a></li><li><a href="../tags/tpu" class="internal tag-link">#tpu</a></li><li><a href="../tags/图像生成" class="internal tag-link">#图像生成</a></li><li><a href="../tags/多模态模型" class="internal tag-link">#多模态模型</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="nano-banana-pro">Nano Banana Pro<a aria-hidden="true" tabindex="-1" href="#nano-banana-pro" class="internal"> §</a></h1>
+<p><a href="../Nano-Banana-Pro" class="internal">Nano Banana Pro</a> 是由 <a href="../Google" class="internal">Google</a> 旗下 <a href="../Google-DeepMind" class="internal">Google DeepMind</a> 开发的旗舰级文生图基础模型。它隶属于 <a href="../Gemini-3" class="internal">Gemini-3</a> 系列（也被称为 Gemini 3 Pro Image），是通用视觉模型 <a href="../Vision-Banana" class="internal">Vision Banana</a> 的母体模型和底座架构，同时也是 <a href="../PaperBanana" class="internal">PaperBanana</a> 系统中负责具体渲染任务的核心模型组件。</p>
+<p>该模型以其极高的算力需求著称，直接导致了谷歌对开发者 API 免费额度的断崖式削减，这一事件被称为“配额休克”，是 <a href="../concepts/算力零和博弈" class="internal">算力零和博弈</a> 的典型案例。</p>
+<h2 id="核心能力与物理特性">核心能力与物理特性<a aria-hidden="true" tabindex="-1" href="#核心能力与物理特性" class="internal"> §</a></h2>
+<p>Nano Banana Pro 在图像生成的物理真实感和逻辑准确性上表现突出，具备以下核心特性：</p>
+<ul>
+<li><strong>物理色彩理论</strong>：能够准确理解并生成符合物理光学规律的图像。例如在测试中，它能准确呈现黄红混合产生的多孔、橙色表皮等细节，体现了对物理世界的深刻理解。</li>
+<li><strong>高真实度与编辑能力</strong>：在人物面部生成和场景渲染上，真实度极高。其图像编辑能力尤为强大，能够通过自然语言指令将游戏画面转化为电影质感，或将物体（如柠檬）转化为其他物体（如猕猴桃）。</li>
+<li><strong>通用求解能力</strong>：在 <a href="../华中科技大学" class="internal">华中科技大学</a> 发布的 <a href="../LowLevelEval" class="internal">LowLevelEval</a> 报告中，该模型被作为核心评测对象，在无需针对特定任务微调的情况下处理了 14 种不同的 <a href="../concepts/低层视觉" class="internal">低层视觉</a> 任务（如去雾、超分辨率、去噪等）。</li>
+<li><strong>深层视觉表征</strong>：在预训练过程中，模型学会了物体边界、深度关系和几何结构等深层视觉表征，这些表征为 <a href="../Vision-Banana" class="internal">Vision Banana</a> 的感知任务提供了基础。</li>
+</ul>
+<h2 id="模型架构与生态角色">模型架构与生态角色<a aria-hidden="true" tabindex="-1" href="#模型架构与生态角色" class="internal"> §</a></h2>
+<p>Nano Banana Pro 在谷歌的 AI 生态系统中扮演着多重关键角色，其架构设计对算力的需求达到了前所未有的高度：</p>
+<ul>
+<li><strong>Vision Banana 母体</strong>：<a href="../Vision-Banana" class="internal">Vision Banana</a> 正是基于 Nano Banana Pro，通过混入极小比例的可逆格式任务数据进行 <a href="../指令微调" class="internal">指令微调</a> 而来。这种训练策略使得 Vision Banana 继承了 Nano Banana Pro 的强大生成能力，并转化为能够处理分割、深度估计等判别式任务的通用模型，且不损失原有的生成能力。</li>
+<li><strong>PaperBanana 渲染引擎</strong>：在 <a href="../PaperBanana" class="internal">PaperBanana</a> 系统中，Nano Banana Pro 由 Visualizer 智能体调用，负责根据规划蓝图和风格指南生成最终的图像像素，主要用于生成逻辑架构图等非统计类图表。</li>
+<li><strong>Project Genie 世界草图</strong>：在 <a href="../Project-Genie" class="internal">Project Genie</a> 架构中，它主要负责“世界草图绘制”环节。它根据用户的文本或视觉提示词生成可调整的图像预览，允许用户在进入由 <a href="../Genie-3" class="internal">Genie 3</a> 生成的交互世界之前，预先定义世界和角色的外观、视角（如第一人称或第三人称）。</li>
+<li><strong>视频生成素材源</strong>：作为谷歌生态下的图像生成工具，Nano Banana Pro 也被用于为 <a href="../entities/veo-3.1" class="internal">veo-3.1</a> 的 <a href="../concepts/素材生视频" class="internal">素材生视频</a> 功能生成“素材图片”。用户可以在 <a href="../Gemini" class="internal">Gemini</a> 应用或 <a href="../flow" class="internal">flow</a> 中使用 Nano Banana Pro 生成特定的图像素材，随后将这些素材输入 Veo 3.1 以生成高质量的视频。这种工作流（图生视频）极大地提升了视频生成的可控性和创意表现力。</li>
+<li><strong>多模态协同</strong>：通常与 <a href="../entities/Gemini-3-Pro" class="internal">Gemini 3 Pro</a> 配合提及，作为谷歌多模态能力的一部分。</li>
+</ul>
+<h2 id="性能评估生成式特性">性能评估：生成式特性<a aria-hidden="true" tabindex="-1" href="#性能评估生成式特性" class="internal"> §</a></h2>
+<p>作为一个通用求解器，Nano Banana Pro 在低层视觉任务中表现出独特的“生成式”特性，其评价呈现两极分化：</p>
+<ul>
+<li><strong>主观视觉质量（惊艳）</strong>：该模型倾向于追求“语义合理”而非“像素对齐”。它会根据先验知识重建图像细节，使其在视觉上看起来更真实、更自然。在去光晕、低光增强等任务中，生成的图像往往比专用模型的输出更清晰、更舒适。</li>
+<li><strong>客观指标（拉垮）</strong>：由于不追求像素级的一致性，且存在 <a href="../concepts/语义漂移" class="internal">语义漂移</a> 现象，其在 PSNR/SSIM 等传统量化指标上表现落后。</li>
+<li><strong>局限性</strong>：
+<ul>
+<li><strong>随机性</strong>：输出具有随机性，导致稳定性与可复现性成为部署障碍。</li>
+<li><strong>语义幻觉</strong>：有时会编造原图不存在的高频细节，导致语义偏差。</li>
+<li><strong>工业级鸿沟</strong>：目前难以达到专用模型在高保真、高可控性场景下的要求。</li>
+</ul>
+</li>
+</ul>
+<h2 id="行业地位与竞争对比">行业地位与竞争对比<a aria-hidden="true" tabindex="-1" href="#行业地位与竞争对比" class="internal"> §</a></h2>
+<p>作为谷歌在基础生成模型上的重要进展，Nano Banana Pro 在与竞争对手的较量中展现出复杂的优劣势格局。</p>
+<h3 id="与-openai-的对比">与 OpenAI 的对比<a aria-hidden="true" tabindex="-1" href="#与-openai-的对比" class="internal"> §</a></h3>
+<p>在与 <a href="../OpenAI" class="internal">OpenAI</a> 竞品（如 <a href="../GPT-Image-2" class="internal">GPT-Image-2</a>，代号 <a href="../Chestnut" class="internal">Chestnut</a>/<a href="../Hazelnut" class="internal">Hazelnut</a>）的对比中：</p>
+<ul>
+<li><strong>优势领域</strong>：在开发者实测中，Nano Banana Pro 在图像生成的逻辑性、物理色彩准确性、一致性及世界知识方面优于 OpenAI 的图像模型。虽然 OpenAI 的模型在代码嵌入方面有独特表现，但整体生成质量被认为不及 Nano Banana Pro。</li>
+<li><strong>劣势领域</strong>：随着 2026 年 4 月初 GPT-Image-2 的泄露与对比测试，格局发生了变化。Nano Banana Pro 在空间理解力、真实质感以及文本渲染能力上被认为遭到了 GPT-Image-2 的“降维打击”。</li>
+</ul>
+<h3 id="与-nano-banana-2-的对比">与 Nano Banana 2 的对比<a aria-hidden="true" tabindex="-1" href="#与-nano-banana-2-的对比" class="internal"> §</a></h3>
+<p>随着 2026 年 2 月 <a href="../entities/nano-banana-2" class="internal">nano-banana-2</a> 的发布，Nano Banana Pro 在大多数应用场景中被取代。</p>
+<ul>
+<li><strong>性能对比</strong>：在文生图质量上，<a href="../entities/nano-banana-2" class="internal">nano-banana-2</a> 已超越 Nano Banana Pro。</li>
+<li><strong>编辑能力</strong>：尽管如此，Nano Banana Pro 在图像编辑能力上仍保持优势，排名仅次于 <a href="../entities/gpt-image-1.5" class="internal">gpt-image-1.5</a>。</li>
+<li><strong>成本</strong>：Nano Banana Pro 的生成成本是 <a href="../entities/nano-banana-2" class="internal">nano-banana-2</a> 的两倍。</li>
+</ul>
+<h2 id="行业影响配额休克">行业影响：配额休克<a aria-hidden="true" tabindex="-1" href="#行业影响配额休克" class="internal"> §</a></h2>
+<p>2025年12月，为了支持 Nano Banana Pro 和 Gemini 3 Pro 的规模化部署，Google AI Studio 进行了激进的资源调整：</p>
+<ul>
+<li><strong>Gemini 2.5 Flash</strong> 免费配额从每天上千次削减至 <strong>20次/天</strong>。</li>
+<li><strong>Gemini 2.5 Pro</strong> 免费配额直接 <strong>归零</strong>。</li>
+<li>大量开发者收到 <code>429: Resource Exhausted</code> 错误。</li>
+</ul>
+<p>Google AI Studio 产品负责人 Logan Kilpatrick 证实，削减免费层是为了释放算力以应对 Nano Banana Pro 的巨大增长需求。</p>
+<h2 id="当前用途与未来">当前用途与未来<a aria-hidden="true" tabindex="-1" href="#当前用途与未来" class="internal"> §</a></h2>
+<p>谷歌目前的策略是将 Nano Banana Pro 留给那些对<strong>事实准确性</strong>和<strong>物理逻辑</strong>有极高要求的专业场景，而让 <a href="../entities/nano-banana-2" class="internal">nano-banana-2</a> 覆盖绝大多数追求速度与性价比的日常需求。用户仍可在 <a href="../Gemini" class="internal">Gemini</a> App 的三点菜单中手动选择使用 Pro 版进行重新生成。</p>
+<p>此外，谷歌预计将在近期推出 <a href="../Nano-Banana-Flash" class="internal">Nano Banana Flash</a>，与 <a href="../Gemini-3-Flash" class="internal">Gemini 3 Flash</a> 一同登场，进一步丰富其产品线。</p>
+<p>作为多模态管线的一部分，<a href="../Nano-Banana-Pro" class="internal">Nano Banana Pro</a> 降低了创作门槛，提供了“二创”的灵活性，使用户能够直观地设计世界的初始状态。</p>
+<h2 id="参见">参见<a aria-hidden="true" tabindex="-1" href="#参见" class="internal"> §</a></h2>
+<ul>
+<li><a href="../entities/Gemini-3-Pro" class="internal">Gemini 3 Pro</a> — 谷歌的旗舰文本模型。</li>
+<li><a href="../Vision-Banana" class="internal">Vision Banana</a> — 基于 Nano Banana Pro 的视觉世界模型。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/素材生视频" class="internal">素材生视频</a></li><li><a href="../entities/gpt-image-1.5" class="internal">gpt-image-1.5</a></li><li><a href="../entities/songyou-peng" class="internal">Songyou Peng</a></li><li><a href="../entities/vision-banana" class="internal">Vision Banana</a></li><li><a href="../sources/gpt-5.2提前泄露？今夜，openai要拿gemini-3祭天！" class="internal">GPT-5.2提前泄露？今夜，OpenAI要拿Gemini 3祭天！</a></li><li><a href="../sources/hinton最新预言刷屏：谷歌必赢，而且「早该赢了」！" class="internal">Hinton最新预言刷屏：谷歌必赢，而且「早该赢了」！</a></li><li><a href="../sources/谷歌再发香蕉！通用视觉模型vision-banana刷新2d3d多项sota，何恺明谢赛宁参与" class="internal">谷歌再发香蕉！通用视觉模型Vision Banana刷新2D/3D多项SOTA，何恺明谢赛宁参与</a></li><li><a href="../sources/谷歌深夜突发nano-banana-2，生图圈天塌了！pro级4k大片，价格砍半" class="internal">谷歌深夜突发Nano Banana 2，生图圈天塌了！Pro级4K大片，价格砍半</a></li><li><a href="../sources/谷歌这把「香蕉」太狠了！何恺明等引爆视觉transformer时刻" class="internal">谷歌这把「香蕉」太狠了！何恺明等引爆视觉Transformer时刻</a></li><li><a href="../sources/这一次，谷歌veo-3.1教sora做视频！角色0变形，4k竖屏直接满分" class="internal">这一次，谷歌Veo 3.1教Sora做视频！角色0变形，4K竖屏直接满分</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

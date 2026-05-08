@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html><head><title>MLA (Multi-head Latent Attention)</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="MLA (Multi-head Latent Attention)"/><meta property="og:description" content="MLA (Multi-head Latent Attention) § MLA (Multi-head Latent Attention)（Multi-head Latent Attention，多头潜在注意力）是一种由 DeepSeek 首创的 Transformer 注意力机制变体，旨在解决长上下文推理中的内存瓶颈问题。该架构最早在 DeepSeek-V2 中引入，并延续至 DeepSeek V3 和 DeepSeek V4。 核心机制 § MLA 的核心思想是将原本巨大的 Key (K) 和 Value (V) 矩阵通过低秩投影压缩到一个极低维度的“潜在向量”（Latent Vector）中，以替代传统多头注意力（MHA）中为每个头单独存储 KV 的方式。 压缩： 在推理时，模型不再缓存所有注意力头的完整 Key 和 Value，而是仅缓存压缩后的潜在向量。这解决了随着上下文长度增加，KV 缓存呈线性增长导致的巨大内存开销问题。 解压： 在计算注意力时，通过上投影矩阵（Up-projection Matrix）将潜在向量还原为所需的 Key 和 Value。 吸收优化： 为了进一步减少计算量，MLA 将 Key 的上投影矩阵“吸收”到 Query (Q) 的计算中，从而避免了显式生成完整的 Keys。 优势 § MLA 在保持模型性能的同时，显著优化了推理效率： 极致的显存节省： 相比标准的多头注意力（MHA），MLA 能将 KV Cache 的显存占用降低一个数量级，大幅缩减了推理时的 KV 缓存量，使得在有限显存下处理超长上下文成为可能。 保持模型质量： 相比 MQA（多查询注意力）等激进压缩方法，MLA 通过低秩分解较好地保留了模型的表达能力。研究表明，MLA 在建模性能上优于传统的分组查询注意力（GQA）。 硬件受限突破： 这是 DeepSeek 能够在受限硬件条件下（如芯片出口限制背景）实现高性能的关键技术之一。 局限性与工程瓶颈 § 尽管 MLA 在显存优化上取得了成功，但其架构设计也带来了明显的工程瓶颈，这也是 MLRA 等后续技术试图解决的主要问题： 张量并行（TP）受阻： 由于 MLA 仅使用单一的潜在向量来表示所有头的信息，这个向量无法被切分到多个 GPU 上。 这导致推理框架（如 SGLang）只能使用数据并行（DP），即模型权重在每张卡上冗余存储，无法利用 TP 来提升单次推理的计算效率。 扩展性与硬件适配受限： 在矩阵吸收后，MLA 的解码过程在算子层面等效于一个超大维度（如 576 维）的 MQA。 这种超大维度的单头计算对 GPU 的片上存储（SRAM）提出了极高要求，导致高性能内核（如 FlashMLA）难以在旧架构或资源受限的设备上部署。 应用与影响 § DeepSeek 系列：作为该技术的发明者，DeepSeek 在其后续模型中持续应用并改进 MLA。它是 DeepSeek V3 高性价比特性的核心支撑，也是 DeepSeek V4 保持高效推理能力的重要组成部分。 Kimi K2."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="MLA (Multi-head Latent Attention) § MLA (Multi-head Latent Attention)（Multi-head Latent Attention，多头潜在注意力）是一种由 DeepSeek 首创的 Transformer 注意力机制变体，旨在解决长上下文推理中的内存瓶颈问题。该架构最早在 DeepSeek-V2 中引入，并延续至 DeepSeek V3 和 DeepSeek V4。 核心机制 § MLA 的核心思想是将原本巨大的 Key (K) 和 Value (V) 矩阵通过低秩投影压缩到一个极低维度的“潜在向量”（Latent Vector）中，以替代传统多头注意力（MHA）中为每个头单独存储 KV 的方式。 压缩： 在推理时，模型不再缓存所有注意力头的完整 Key 和 Value，而是仅缓存压缩后的潜在向量。这解决了随着上下文长度增加，KV 缓存呈线性增长导致的巨大内存开销问题。 解压： 在计算注意力时，通过上投影矩阵（Up-projection Matrix）将潜在向量还原为所需的 Key 和 Value。 吸收优化： 为了进一步减少计算量，MLA 将 Key 的上投影矩阵“吸收”到 Query (Q) 的计算中，从而避免了显式生成完整的 Keys。 优势 § MLA 在保持模型性能的同时，显著优化了推理效率： 极致的显存节省： 相比标准的多头注意力（MHA），MLA 能将 KV Cache 的显存占用降低一个数量级，大幅缩减了推理时的 KV 缓存量，使得在有限显存下处理超长上下文成为可能。 保持模型质量： 相比 MQA（多查询注意力）等激进压缩方法，MLA 通过低秩分解较好地保留了模型的表达能力。研究表明，MLA 在建模性能上优于传统的分组查询注意力（GQA）。 硬件受限突破： 这是 DeepSeek 能够在受限硬件条件下（如芯片出口限制背景）实现高性能的关键技术之一。 局限性与工程瓶颈 § 尽管 MLA 在显存优化上取得了成功，但其架构设计也带来了明显的工程瓶颈，这也是 MLRA 等后续技术试图解决的主要问题： 张量并行（TP）受阻： 由于 MLA 仅使用单一的潜在向量来表示所有头的信息，这个向量无法被切分到多个 GPU 上。 这导致推理框架（如 SGLang）只能使用数据并行（DP），即模型权重在每张卡上冗余存储，无法利用 TP 来提升单次推理的计算效率。 扩展性与硬件适配受限： 在矩阵吸收后，MLA 的解码过程在算子层面等效于一个超大维度（如 576 维）的 MQA。 这种超大维度的单头计算对 GPU 的片上存储（SRAM）提出了极高要求，导致高性能内核（如 FlashMLA）难以在旧架构或资源受限的设备上部署。 应用与影响 § DeepSeek 系列：作为该技术的发明者，DeepSeek 在其后续模型中持续应用并改进 MLA。它是 DeepSeek V3 高性价比特性的核心支撑，也是 DeepSeek V4 保持高效推理能力的重要组成部分。 Kimi K2."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/mla"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#mla-multi-head-latent-attention" data-for="mla-multi-head-latent-attention">MLA (Multi-head Latent Attention)</a></li><li class="depth-1"><a href="#核心机制" data-for="核心机制">核心机制</a></li><li class="depth-1"><a href="#优势" data-for="优势">优势</a></li><li class="depth-1"><a href="#局限性与工程瓶颈" data-for="局限性与工程瓶颈">局限性与工程瓶颈</a></li><li class="depth-1"><a href="#应用与影响" data-for="应用与影响">应用与影响</a></li><li class="depth-1"><a href="#演进" data-for="演进">演进</a></li><li class="depth-1"><a href="#参见" data-for="参见">参见</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">MLA (Multi-head Latent Attention)</h1><p class="content-meta">May 07, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/架构" class="internal tag-link">#架构</a></li><li><a href="../tags/注意力机制" class="internal tag-link">#注意力机制</a></li><li><a href="../tags/推理优化" class="internal tag-link">#推理优化</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/architecture" class="internal tag-link">#architecture</a></li><li><a href="../tags/attention-mechanism" class="internal tag-link">#attention-mechanism</a></li><li><a href="../tags/deepseek" class="internal tag-link">#deepseek</a></li><li><a href="../tags/ai-architecture" class="internal tag-link">#ai-architecture</a></li><li><a href="../tags/optimization" class="internal tag-link">#optimization</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="mla-multi-head-latent-attention">MLA (Multi-head Latent Attention)<a aria-hidden="true" tabindex="-1" href="#mla-multi-head-latent-attention" class="internal"> §</a></h1>
+<p><a href="../MLA-(Multi-head-Latent-Attention)" class="internal">MLA (Multi-head Latent Attention)</a>（Multi-head Latent Attention，多头潜在注意力）是一种由 <a href="../DeepSeek" class="internal">DeepSeek</a> 首创的 Transformer 注意力机制变体，旨在解决长上下文推理中的内存瓶颈问题。该架构最早在 <a href="../DeepSeek-V2" class="internal">DeepSeek-V2</a> 中引入，并延续至 <a href="../DeepSeek-V3" class="internal">DeepSeek V3</a> 和 <a href="../DeepSeek-V4" class="internal">DeepSeek V4</a>。</p>
+<h2 id="核心机制">核心机制<a aria-hidden="true" tabindex="-1" href="#核心机制" class="internal"> §</a></h2>
+<p>MLA 的核心思想是将原本巨大的 Key (K) 和 Value (V) 矩阵通过低秩投影压缩到一个极低维度的“潜在向量”（Latent Vector）中，以替代传统多头注意力（MHA）中为每个头单独存储 KV 的方式。</p>
+<ol>
+<li><strong>压缩</strong>：
+在推理时，模型不再缓存所有注意力头的完整 Key 和 Value，而是仅缓存压缩后的潜在向量。这解决了随着上下文长度增加，KV 缓存呈线性增长导致的巨大内存开销问题。</li>
+<li><strong>解压</strong>：
+在计算注意力时，通过上投影矩阵（Up-projection Matrix）将潜在向量还原为所需的 Key 和 Value。</li>
+<li><strong>吸收优化</strong>：
+为了进一步减少计算量，MLA 将 Key 的上投影矩阵“吸收”到 Query (Q) 的计算中，从而避免了显式生成完整的 Keys。</li>
+</ol>
+<h2 id="优势">优势<a aria-hidden="true" tabindex="-1" href="#优势" class="internal"> §</a></h2>
+<p>MLA 在保持模型性能的同时，显著优化了推理效率：</p>
+<ul>
+<li><strong>极致的显存节省</strong>：
+相比标准的多头注意力（MHA），MLA 能将 KV Cache 的显存占用降低一个数量级，大幅缩减了推理时的 KV 缓存量，使得在有限显存下处理超长上下文成为可能。</li>
+<li><strong>保持模型质量</strong>：
+相比 <a href="../MQA" class="internal">MQA</a>（多查询注意力）等激进压缩方法，MLA 通过低秩分解较好地保留了模型的表达能力。研究表明，MLA 在建模性能上优于传统的分组查询注意力（GQA）。</li>
+<li><strong>硬件受限突破</strong>：
+这是 <a href="../DeepSeek" class="internal">DeepSeek</a> 能够在受限硬件条件下（如芯片出口限制背景）实现高性能的关键技术之一。</li>
+</ul>
+<h2 id="局限性与工程瓶颈">局限性与工程瓶颈<a aria-hidden="true" tabindex="-1" href="#局限性与工程瓶颈" class="internal"> §</a></h2>
+<p>尽管 MLA 在显存优化上取得了成功，但其架构设计也带来了明显的工程瓶颈，这也是 <a href="../MLRA" class="internal">MLRA</a> 等后续技术试图解决的主要问题：</p>
+<ol>
+<li><strong>张量并行（TP）受阻</strong>：
+<ul>
+<li>由于 MLA 仅使用单一的潜在向量来表示所有头的信息，这个向量无法被切分到多个 GPU 上。</li>
+<li>这导致推理框架（如 <a href="../SGLang" class="internal">SGLang</a>）只能使用数据并行（DP），即模型权重在每张卡上冗余存储，无法利用 TP 来提升单次推理的计算效率。</li>
+</ul>
+</li>
+<li><strong>扩展性与硬件适配受限</strong>：
+<ul>
+<li>在矩阵吸收后，MLA 的解码过程在算子层面等效于一个超大维度（如 576 维）的 <a href="../MQA" class="internal">MQA</a>。</li>
+<li>这种超大维度的单头计算对 GPU 的片上存储（SRAM）提出了极高要求，导致高性能内核（如 FlashMLA）难以在旧架构或资源受限的设备上部署。</li>
+</ul>
+</li>
+</ol>
+<h2 id="应用与影响">应用与影响<a aria-hidden="true" tabindex="-1" href="#应用与影响" class="internal"> §</a></h2>
+<ul>
+<li><strong>DeepSeek 系列</strong>：作为该技术的发明者，DeepSeek 在其后续模型中持续应用并改进 MLA。它是 <a href="../DeepSeek-V3" class="internal">DeepSeek V3</a> 高性价比特性的核心支撑，也是 <a href="../DeepSeek-V4" class="internal">DeepSeek V4</a> 保持高效推理能力的重要组成部分。</li>
+<li><strong>Kimi K2.6</strong>：<a href="../Moonshot-AI" class="internal">Moonshot AI</a> 开发的 <a href="../Kimi-K2.6" class="internal">Kimi K2.6</a> 采用了 DeepSeek 的 MLA 机制，并将其扩展到万亿参数的 MoE 模型规模。这是 <a href="../concepts/技术互鉴" class="internal">技术互鉴</a> 的典型案例之一。</li>
+</ul>
+<h2 id="演进">演进<a aria-hidden="true" tabindex="-1" href="#演进" class="internal"> §</a></h2>
+<p>MLA 的设计理念在学术界得到了进一步的发展。例如，<a href="../MLRA" class="internal">MLRA</a> 通过“块分解”和“求和顺序外移”技术，在保持低秩压缩优势的同时，恢复了模型对张量并行的支持能力。</p>
+<h2 id="参见">参见<a aria-hidden="true" tabindex="-1" href="#参见" class="internal"> §</a></h2>
+<ul>
+<li><a href="../KV-缓存压缩" class="internal">KV 缓存压缩</a>：MLA 所致力解决的核心问题。</li>
+<li><a href="../MoE-架构" class="internal">MoE-架构</a>：常与 MLA 配合使用的高效架构技术。</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

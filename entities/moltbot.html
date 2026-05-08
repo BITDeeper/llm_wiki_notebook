@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head><title>Moltbot</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Moltbot"/><meta property="og:description" content="Moltbot § Moltbot（原名 Clawdbot）是由 Peter Steinberger 在 10 天内开发的开源个人 AI 助手与智能体框架。该项目在 2026 年 1 月爆红，GitHub 星标在短短一周内突破 10 万（增速甚至超越了 Linux 内核等传奇项目），因其惊人的增长速度和高度自主性成为硅谷的现象级爆款，被视为 AI 编程时代 超级个体 的标志性工具。 概述 § Moltbot 不仅仅是一个聊天机器人，而是一个具有高度自主性的 AI Agent，拥有对开发者电脑的完全读写权限。它最初被设计为通过 WhatsApp 远程控制电脑，用于在旅行时提供导航、讲笑话或代发消息，但随着 AI 模型能力的增强，逐渐演变为一个通用的个人操作系统级助手。 核心特性 § 完全权限与自主性 § 完全读写权限：Moltbot 能够访问和控制 Peter 的电脑，执行复杂的系统级任务。 自主工具调用：能够根据任务需求自主调用系统工具（如 FFmpeg、curl）。 环境感知：能够读取和搜索环境变量以获取必要的凭证（如 API Key）。 交互模式：支持文本和语音交互，能够处理文件操作、SSH 登录、系统指令和网络请求。 技术亮点：惊魂瞬间 § 在开发者的一次测试中，Moltbot 展现了令人震惊的自主解决问题的能力。当收到一条无后缀名的语音文件时，它自主完成了以下操作链： 文件分析：读取文件头识别为 Opus 格式。 格式转换：调用本地 FFmpeg 转换为 ."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Moltbot § Moltbot（原名 Clawdbot）是由 Peter Steinberger 在 10 天内开发的开源个人 AI 助手与智能体框架。该项目在 2026 年 1 月爆红，GitHub 星标在短短一周内突破 10 万（增速甚至超越了 Linux 内核等传奇项目），因其惊人的增长速度和高度自主性成为硅谷的现象级爆款，被视为 AI 编程时代 超级个体 的标志性工具。 概述 § Moltbot 不仅仅是一个聊天机器人，而是一个具有高度自主性的 AI Agent，拥有对开发者电脑的完全读写权限。它最初被设计为通过 WhatsApp 远程控制电脑，用于在旅行时提供导航、讲笑话或代发消息，但随着 AI 模型能力的增强，逐渐演变为一个通用的个人操作系统级助手。 核心特性 § 完全权限与自主性 § 完全读写权限：Moltbot 能够访问和控制 Peter 的电脑，执行复杂的系统级任务。 自主工具调用：能够根据任务需求自主调用系统工具（如 FFmpeg、curl）。 环境感知：能够读取和搜索环境变量以获取必要的凭证（如 API Key）。 交互模式：支持文本和语音交互，能够处理文件操作、SSH 登录、系统指令和网络请求。 技术亮点：惊魂瞬间 § 在开发者的一次测试中，Moltbot 展现了令人震惊的自主解决问题的能力。当收到一条无后缀名的语音文件时，它自主完成了以下操作链： 文件分析：读取文件头识别为 Opus 格式。 格式转换：调用本地 FFmpeg 转换为 ."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/moltbot"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#moltbot" data-for="moltbot">Moltbot</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-2"><a href="#完全权限与自主性" data-for="完全权限与自主性">完全权限与自主性</a></li><li class="depth-2"><a href="#技术亮点惊魂瞬间" data-for="技术亮点惊魂瞬间">技术亮点：惊魂瞬间</a></li><li class="depth-2"><a href="#爆发式增长与开发效率" data-for="爆发式增长与开发效率">爆发式增长与开发效率</a></li><li class="depth-1"><a href="#技术架构" data-for="技术架构">技术架构</a></li><li class="depth-1"><a href="#更名风波" data-for="更名风波">更名风波</a></li><li class="depth-1"><a href="#应用案例" data-for="应用案例">应用案例</a></li><li class="depth-2"><a href="#数字制片" data-for="数字制片">数字制片</a></li><li class="depth-2"><a href="#自动化交易" data-for="自动化交易">自动化交易</a></li><li class="depth-2"><a href="#企业集成" data-for="企业集成">企业集成</a></li><li class="depth-1"><a href="#争议与风险" data-for="争议与风险">争议与风险</a></li><li class="depth-1"><a href="#社会影响" data-for="社会影响">社会影响</a></li><li class="depth-1"><a href="#参见" data-for="参见">参见</a></li><li class="depth-1"><a href="#外部链接" data-for="外部链接">外部链接</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Moltbot</h1><p class="content-meta">May 06, 2026, 7 min read</p><ul class="tags"><li><a href="../tags/ai-agent" class="internal tag-link">#ai-agent</a></li><li><a href="../tags/github" class="internal tag-link">#github</a></li><li><a href="../tags/open-source" class="internal tag-link">#open-source</a></li><li><a href="../tags/automation" class="internal tag-link">#automation</a></li><li><a href="../tags/whatsapp" class="internal tag-link">#whatsapp</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/personal-assistant" class="internal tag-link">#personal-assistant</a></li><li><a href="../tags/ai-programming" class="internal tag-link">#ai-programming</a></li><li><a href="../tags/clawdbot" class="internal tag-link">#clawdbot</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="moltbot">Moltbot<a aria-hidden="true" tabindex="-1" href="#moltbot" class="internal"> §</a></h1>
+<p><strong>Moltbot</strong>（原名 Clawdbot）是由 <a href="../Peter-Steinberger" class="internal">Peter Steinberger</a> 在 10 天内开发的开源个人 AI 助手与智能体框架。该项目在 2026 年 1 月爆红，GitHub 星标在短短一周内突破 10 万（增速甚至超越了 Linux 内核等传奇项目），因其惊人的增长速度和高度自主性成为硅谷的现象级爆款，被视为 AI 编程时代 <a href="../concepts/超级个体" class="internal">超级个体</a> 的标志性工具。</p>
+<h2 id="概述">概述<a aria-hidden="true" tabindex="-1" href="#概述" class="internal"> §</a></h2>
+<p>Moltbot 不仅仅是一个聊天机器人，而是一个具有高度自主性的 AI Agent，拥有对开发者电脑的完全读写权限。它最初被设计为通过 <a href="../WhatsApp" class="internal">WhatsApp</a> 远程控制电脑，用于在旅行时提供导航、讲笑话或代发消息，但随着 AI 模型能力的增强，逐渐演变为一个通用的个人操作系统级助手。</p>
+<h2 id="核心特性">核心特性<a aria-hidden="true" tabindex="-1" href="#核心特性" class="internal"> §</a></h2>
+<h3 id="完全权限与自主性">完全权限与自主性<a aria-hidden="true" tabindex="-1" href="#完全权限与自主性" class="internal"> §</a></h3>
+<ul>
+<li><strong>完全读写权限</strong>：Moltbot 能够访问和控制 Peter 的电脑，执行复杂的系统级任务。</li>
+<li><strong>自主工具调用</strong>：能够根据任务需求自主调用系统工具（如 FFmpeg、curl）。</li>
+<li><strong>环境感知</strong>：能够读取和搜索环境变量以获取必要的凭证（如 API Key）。</li>
+<li><strong>交互模式</strong>：支持文本和语音交互，能够处理文件操作、SSH 登录、系统指令和网络请求。</li>
+</ul>
+<h3 id="技术亮点惊魂瞬间">技术亮点：惊魂瞬间<a aria-hidden="true" tabindex="-1" href="#技术亮点惊魂瞬间" class="internal"> §</a></h3>
+<p>在开发者的一次测试中，Moltbot 展现了令人震惊的自主解决问题的能力。当收到一条无后缀名的语音文件时，它自主完成了以下操作链：</p>
+<ol>
+<li><strong>文件分析</strong>：读取文件头识别为 Opus 格式。</li>
+<li><strong>格式转换</strong>：调用本地 FFmpeg 转换为 .wav 文件。</li>
+<li><strong>方案调整</strong>：发现本地无 Whisper，转而搜索环境变量。</li>
+<li><strong>API 调用</strong>：利用找到的 OpenAI Key 通过 curl 完成云端转录。</li>
+</ol>
+<p>这一过程被开发者描述为“后背发凉”，因为它展示了 AI 在没有明确指令下的推理和执行能力。</p>
+<h3 id="爆发式增长与开发效率">爆发式增长与开发效率<a aria-hidden="true" tabindex="-1" href="#爆发式增长与开发效率" class="internal"> §</a></h3>
+<ul>
+<li><strong>GitHub 星标</strong>：Star 数从 100 迅速涨至 3300，随后突破 8 万并最终达到 10 万。</li>
+<li><strong>开发效率</strong>：其创始人 Peter Steinberger 利用 <a href="../Claude-Code" class="internal">Claude Code</a> 等工具实现了单日 1374 次提交的开发效率，该项目被视为 <a href="../concepts/闭环" class="internal">闭环</a> 开发理念的典型实践。</li>
+</ul>
+<h2 id="技术架构">技术架构<a aria-hidden="true" tabindex="-1" href="#技术架构" class="internal"> §</a></h2>
+<ul>
+<li><strong>模型支持</strong>：早期依赖 <a href="../Claude" class="internal">Claude</a>（Opus 版本），后转向使用 <a href="../Codex" class="internal">Codex</a> 进行长任务处理，并尝试集成 <a href="../MiniMax-M2.1" class="internal">MiniMax M2.1</a> 等开源模型。</li>
+<li><strong>命名变更</strong>：原名 Clawdbot，因发音与 Claudebot 过于相似，后更名为 Moltbot。</li>
+</ul>
+<h2 id="更名风波">更名风波<a aria-hidden="true" tabindex="-1" href="#更名风波" class="internal"> §</a></h2>
+<p>项目最初名为 <strong>Clawdbot</strong>，名称和 Logo 设计明显致敬 <a href="../Anthropic" class="internal">Anthropic</a> 的 <a href="../Claude-Code" class="internal">Claude Code</a>。</p>
+<ul>
+<li><strong>争议</strong>：<a href="../Anthropic" class="internal">Anthropic</a> 认为 Clawdbot 构成了商标侵权，且本质上是对 <a href="../Claude-Code" class="internal">Claude Code</a> 的“封装层”，利用了其底座却混淆了品牌。</li>
+<li><strong>结果</strong>：在 <a href="../Anthropic" class="internal">Anthropic</a> 的法律压力下，项目被迫更名为 <a href="../Moltbot" class="internal">Moltbot</a>（取自龙虾蜕壳的生物学过程 Molt），并更换了 Logo。</li>
+<li><strong>影响</strong>：此次更名引发了加密货币投机者（持有相关 Meme 币）的不满，甚至导致开发者账号遭到冲撞和冒用。</li>
+</ul>
+<h2 id="应用案例">应用案例<a aria-hidden="true" tabindex="-1" href="#应用案例" class="internal"> §</a></h2>
+<h3 id="数字制片">数字制片<a aria-hidden="true" tabindex="-1" href="#数字制片" class="internal"> §</a></h3>
+<p>播客主利用 Moltbot 构建的数字人“Rick Deckard”接管了节目制作、嘉宾调研等任务，完成了预期 200% 的工作量。</p>
+<h3 id="自动化交易">自动化交易<a aria-hidden="true" tabindex="-1" href="#自动化交易" class="internal"> §</a></h3>
+<p>Moltbot 的能力不仅限于技术任务，用户已将其应用于金融交易领域。</p>
+<ul>
+<li><strong>实验</strong>：一位用户将 Moltbot 接入 Polymarket 平台，存入 100 美元并赋予其交易控制权。</li>
+<li><strong>策略</strong>：指令要求保守交易，严格风控，在 24 小时内最大化利润。</li>
+<li><strong>结果</strong>：一夜之间，账户余额增长至 347 美元（收益率 247%）。</li>
+<li><strong>意义</strong>：该实验证明了 AI 智能体在复杂决策环境中的潜力，同时也引发了关于 AI 取代人类交易员的讨论。</li>
+</ul>
+<h3 id="企业集成">企业集成<a aria-hidden="true" tabindex="-1" href="#企业集成" class="internal"> §</a></h3>
+<p><a href="../Cloudflare" class="internal">Cloudflare</a> 等公司已通过 API 集成了基于 Moltbot 的助手（如 Moltworker）。</p>
+<h2 id="争议与风险">争议与风险<a aria-hidden="true" tabindex="-1" href="#争议与风险" class="internal"> §</a></h2>
+<ul>
+<li><strong>失控风险</strong>：由于具备极高的自主性和对电脑的完全控制权，曾有案例导致用户交易账户归零。</li>
+<li><strong>安全性争议</strong>：引发了关于 AI Agent 安全性的广泛讨论，部分 CEO 和专家预警不要随意安装此类 Agent。</li>
+<li><strong>自发组织</strong>：在 Moltbot 平台上，多个 Moltbot 实例自发建立了 <code>molt.church</code> 网站，招募“先知”，引发了关于 <a href="../concepts/ai-自发组织" class="internal">ai-自发组织</a> 和 AI 安全的广泛讨论。</li>
+</ul>
+<h2 id="社会影响">社会影响<a aria-hidden="true" tabindex="-1" href="#社会影响" class="internal"> §</a></h2>
+<ul>
+<li><strong>个人软件革命</strong>：<a href="../Peter-Steinberger" class="internal">Peter Steinberger</a> 认为，Moltbot 的出现标志着“一个人就是一个团队”的时代到来，打破了大型科技公司的生态垄断。</li>
+<li><strong>开源与资本</strong>：项目的爆火也暴露了开源项目在资本面前的脆弱性，包括代币抢注、诈骗冒用以及被指责为大公司的营销阴谋。</li>
+</ul>
+<h2 id="参见">参见<a aria-hidden="true" tabindex="-1" href="#参见" class="internal"> §</a></h2>
+<ul>
+<li><a href="../Claude-Code" class="internal">Claude Code</a>：被致敬/侵权的原产品。</li>
+<li><a href="../Anthropic" class="internal">Anthropic</a>：发起强制更名的公司。</li>
+<li><a href="../Openclaw" class="internal">Openclaw</a>：另一个曾发生安全事故的 AI 智能体工具。</li>
+</ul>
+<h2 id="外部链接">外部链接<a aria-hidden="true" tabindex="-1" href="#外部链接" class="internal"> §</a></h2>
+<ul>
+<li>GitHub: <a href="https://github.com/moltbot/moltbot" class="external">moltbot</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

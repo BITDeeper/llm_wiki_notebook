@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head><title>Prompt Caching (提示词缓存)</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Prompt Caching (提示词缓存)"/><meta property="og:description" content="Prompt Caching (提示词缓存) § 提示词缓存（Prompt Caching）是大语言模型（LLM）的一种优化技术，旨在通过缓存已处理的上下文（如 System 指令、工具定义、长文档背景），避免在后续请求中重复计费和重复计算。这对于降低长对话或复杂 agent-loop 任务的成本和延迟至关重要。 核心原理 § Prompt Caching 采用“前缀匹配”策略。当启用缓存发送请求时，系统会检查从用户指定的缓存分隔点往前的提示词开头部分（前缀），判断这部分内容是否在最近的请求中已经被处理并存储过。 命中缓存：直接复用之前的计算结果（KV Cache），时间和成本大幅降低。 未命中：完整处理整个提示词，并在生成回复时将开头部分写入缓存。 在 agent-loop 架构中，每次循环都需要将完整的对话历史发送给模型。随着对话进行，Token 数量呈线性增长，导致计算成本呈平方级增长。Prompt Caching 通过复用不变的前缀，将长对话的成本从 平方级增长 降至 线性级增长。 TTL (生存时间) 策略 § TTL 决定了缓存内容的有效期。在 claude-code 的实践中，TTL 的长短直接决定了用户体验和成本： 1 小时 TTL (ephemeral_1h)：适合长上下文会话，允许用户在思考、调试期间保持缓存，减少重建频率。 5 分钟 TTL (ephemeral_5m)：极其激进，用户稍作停顿（如思考思路或休息）就会导致缓存失效。 成本结构 § 提示词缓存的成本结构具有显著的不对称性： 写入成本：将新内容写入缓存。 读取成本：从缓存中读取内容。 根据 claude-code 的定价，缓存写入成本是读取的 12."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Prompt Caching (提示词缓存) § 提示词缓存（Prompt Caching）是大语言模型（LLM）的一种优化技术，旨在通过缓存已处理的上下文（如 System 指令、工具定义、长文档背景），避免在后续请求中重复计费和重复计算。这对于降低长对话或复杂 agent-loop 任务的成本和延迟至关重要。 核心原理 § Prompt Caching 采用“前缀匹配”策略。当启用缓存发送请求时，系统会检查从用户指定的缓存分隔点往前的提示词开头部分（前缀），判断这部分内容是否在最近的请求中已经被处理并存储过。 命中缓存：直接复用之前的计算结果（KV Cache），时间和成本大幅降低。 未命中：完整处理整个提示词，并在生成回复时将开头部分写入缓存。 在 agent-loop 架构中，每次循环都需要将完整的对话历史发送给模型。随着对话进行，Token 数量呈线性增长，导致计算成本呈平方级增长。Prompt Caching 通过复用不变的前缀，将长对话的成本从 平方级增长 降至 线性级增长。 TTL (生存时间) 策略 § TTL 决定了缓存内容的有效期。在 claude-code 的实践中，TTL 的长短直接决定了用户体验和成本： 1 小时 TTL (ephemeral_1h)：适合长上下文会话，允许用户在思考、调试期间保持缓存，减少重建频率。 5 分钟 TTL (ephemeral_5m)：极其激进，用户稍作停顿（如思考思路或休息）就会导致缓存失效。 成本结构 § 提示词缓存的成本结构具有显著的不对称性： 写入成本：将新内容写入缓存。 读取成本：从缓存中读取内容。 根据 claude-code 的定价，缓存写入成本是读取的 12."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/prompt-caching"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#prompt-caching-提示词缓存" data-for="prompt-caching-提示词缓存">Prompt Caching (提示词缓存)</a></li><li class="depth-1"><a href="#核心原理" data-for="核心原理">核心原理</a></li><li class="depth-1"><a href="#ttl-生存时间-策略" data-for="ttl-生存时间-策略">TTL (生存时间) 策略</a></li><li class="depth-1"><a href="#成本结构" data-for="成本结构">成本结构</a></li><li class="depth-1"><a href="#常见陷阱与失效条件" data-for="常见陷阱与失效条件">常见陷阱与失效条件</a></li><li class="depth-1"><a href="#实践案例" data-for="实践案例">实践案例</a></li><li class="depth-1"><a href="#与-compaction-的区别" data-for="与-compaction-的区别">与 Compaction 的区别</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Prompt Caching (提示词缓存)</h1><p class="content-meta">May 06, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/optimization" class="internal tag-link">#optimization</a></li><li><a href="../tags/cost" class="internal tag-link">#cost</a></li><li><a href="../tags/architecture" class="internal tag-link">#architecture</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="prompt-caching-提示词缓存">Prompt Caching (提示词缓存)<a aria-hidden="true" tabindex="-1" href="#prompt-caching-提示词缓存" class="internal"> §</a></h1>
+<p>提示词缓存（Prompt Caching）是大语言模型（LLM）的一种优化技术，旨在通过缓存已处理的上下文（如 System 指令、工具定义、长文档背景），避免在后续请求中重复计费和重复计算。这对于降低长对话或复杂 <a href="../concepts/agent-loop" class="internal">agent-loop</a> 任务的成本和延迟至关重要。</p>
+<h2 id="核心原理">核心原理<a aria-hidden="true" tabindex="-1" href="#核心原理" class="internal"> §</a></h2>
+<p>Prompt Caching 采用“前缀匹配”策略。当启用缓存发送请求时，系统会检查从用户指定的缓存分隔点往前的提示词开头部分（前缀），判断这部分内容是否在最近的请求中已经被处理并存储过。</p>
+<ul>
+<li><strong>命中缓存</strong>：直接复用之前的计算结果（KV Cache），时间和成本大幅降低。</li>
+<li><strong>未命中</strong>：完整处理整个提示词，并在生成回复时将开头部分写入缓存。</li>
+</ul>
+<p>在 <a href="../concepts/agent-loop" class="internal">agent-loop</a> 架构中，每次循环都需要将完整的对话历史发送给模型。随着对话进行，Token 数量呈线性增长，导致计算成本呈平方级增长。Prompt Caching 通过复用不变的前缀，将长对话的成本从 <strong>平方级增长</strong> 降至 <strong>线性级增长</strong>。</p>
+<h2 id="ttl-生存时间-策略">TTL (生存时间) 策略<a aria-hidden="true" tabindex="-1" href="#ttl-生存时间-策略" class="internal"> §</a></h2>
+<p>TTL 决定了缓存内容的有效期。在 <a href="../entities/claude-code" class="internal">claude-code</a> 的实践中，TTL 的长短直接决定了用户体验和成本：</p>
+<ul>
+<li><strong>1 小时 TTL (<code>ephemeral_1h</code>)</strong>：适合长上下文会话，允许用户在思考、调试期间保持缓存，减少重建频率。</li>
+<li><strong>5 分钟 TTL (<code>ephemeral_5m</code>)</strong>：极其激进，用户稍作停顿（如思考思路或休息）就会导致缓存失效。</li>
+</ul>
+<h2 id="成本结构">成本结构<a aria-hidden="true" tabindex="-1" href="#成本结构" class="internal"> §</a></h2>
+<p>提示词缓存的成本结构具有显著的不对称性：</p>
+<ul>
+<li><strong>写入成本</strong>：将新内容写入缓存。</li>
+<li><strong>读取成本</strong>：从缓存中读取内容。</li>
+</ul>
+<p>根据 <a href="../entities/claude-code" class="internal">claude-code</a> 的定价，<strong>缓存写入成本是读取的 12.5 倍</strong>（写入约为 base input 的 2 倍，读取仅为 1.25 倍）。因此，频繁的缓存失效和重建会导致总 Token 消耗呈指数级增长。</p>
+<h2 id="常见陷阱与失效条件">常见陷阱与失效条件<a aria-hidden="true" tabindex="-1" href="#常见陷阱与失效条件" class="internal"> §</a></h2>
+<p>Prompt Caching 对前缀的变化非常敏感。以下操作通常会导致缓存失效，从而引发性能回退：</p>
+<ul>
+<li><strong>中途更换模型</strong>：切换不同的模型版本或供应商。</li>
+<li><strong>修改权限配置</strong>：改变 System Prompt 中的安全设置。</li>
+<li><strong>改变工具列表</strong>：在 <a href="../concepts/agent-loop" class="internal">agent-loop</a> 中动态增删或调整 MCP 工具的顺序。</li>
+<li><strong>修改历史记录</strong>：对之前的对话内容进行编辑或摘要。</li>
+<li><strong>策略变更风险</strong>：服务商可能会在后台调整 TTL 策略（如从 1 小时静默回退至 5 分钟），导致用户成本意外激增。</li>
+<li><strong>功能绑定</strong>：某些高级缓存策略可能与 <a href="../telemetry" class="internal">telemetry</a>（遥测）或 <a href="../concepts/experiment-gates" class="internal">experiment-gates</a>（实验性功能门控）绑定，强制用户在隐私和性能之间做选择。</li>
+</ul>
+<h2 id="实践案例">实践案例<a aria-hidden="true" tabindex="-1" href="#实践案例" class="internal"> §</a></h2>
+<p><a href="../entities/openai" class="internal">openai</a> 在 <a href="../entities/codex" class="internal">codex</a> 中大量使用了 Prompt Caching 技术。团队曾发现早期的 MCP 工具集成存在 Bug，导致工具列表顺序不稳定，进而引发缓存频繁失效。修复这一 Bug 后，系统性能得到了显著提升。</p>
+<h2 id="与-compaction-的区别">与 Compaction 的区别<a aria-hidden="true" tabindex="-1" href="#与-compaction-的区别" class="internal"> §</a></h2>
+<p><a href="../concepts/compaction" class="internal">compaction</a> 旨在解决上下文窗口有限的问题，通过压缩历史内容来腾出空间；而 Prompt Caching 旨在解决计算成本问题，通过复用计算来节省资源。两者常结合使用以优化 Agent 性能。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/agent-loop" class="internal">Agent Loop (智能体循环)</a></li><li><a href="../concepts/token-计费黑箱" class="internal">Token计费黑箱</a></li><li><a href="../entities/jarred-sumner" class="internal">Jarred Sumner</a></li><li><a href="../sources/openai绝地反击！codex大脑首曝，8亿用户极限架构硬刚claude" class="internal">OpenAI绝地反击！Codex大脑首曝，8亿用户极限架构硬刚Claude</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html><head><title>上下文工程</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="上下文工程"/><meta property="og:description" content="上下文工程 § 上下文工程（Context Engineering）是指在 AI 交互（特别是 AI 编程）中，如何有效地管理、清理、隔离和保留上下文信息的技术与艺术。它被视为继“提示词工程”之后的新一代核心技能。 在 AI 编程领域，它特指将人类开发者对项目的隐性知识转化为 AI 可读的显性文档和配置的过程。随着模型写代码能力的提升，AI 编程的瓶颈已从“模型能否写代码”转变为“人类能否有效管理 AI”。 核心论点与背景 § 随着大模型上下文窗口不断扩大（如 Claude Code 的 100 万 Token），用户倾向于将所有信息塞入同一个会话。然而，这导致了 上下文腐烂 问题：上下文越长，模型越蠢。 正如 brendan-maclean 所言：“你不会把 70 万行代码库甩给一个新员工，然后指望他第一天就出活。对 AI 也一样。”因此，如何“喂”数据、何时“清理”垃圾、如何“隔离”噪音，成为了决定 AI 编程效率和效果上限的关键因素。 核心策略：五种上下文决策 § 根据 Anthropic 官方指南，上下文工程包含以下五种核心决策动作（按保留旧上下文的数量排序）： 1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="上下文工程 § 上下文工程（Context Engineering）是指在 AI 交互（特别是 AI 编程）中，如何有效地管理、清理、隔离和保留上下文信息的技术与艺术。它被视为继“提示词工程”之后的新一代核心技能。 在 AI 编程领域，它特指将人类开发者对项目的隐性知识转化为 AI 可读的显性文档和配置的过程。随着模型写代码能力的提升，AI 编程的瓶颈已从“模型能否写代码”转变为“人类能否有效管理 AI”。 核心论点与背景 § 随着大模型上下文窗口不断扩大（如 Claude Code 的 100 万 Token），用户倾向于将所有信息塞入同一个会话。然而，这导致了 上下文腐烂 问题：上下文越长，模型越蠢。 正如 brendan-maclean 所言：“你不会把 70 万行代码库甩给一个新员工，然后指望他第一天就出活。对 AI 也一样。”因此，如何“喂”数据、何时“清理”垃圾、如何“隔离”噪音，成为了决定 AI 编程效率和效果上限的关键因素。 核心策略：五种上下文决策 § 根据 Anthropic 官方指南，上下文工程包含以下五种核心决策动作（按保留旧上下文的数量排序）： 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="concepts/上下文工程"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#上下文工程" data-for="上下文工程">上下文工程</a></li><li class="depth-1"><a href="#核心论点与背景" data-for="核心论点与背景">核心论点与背景</a></li><li class="depth-1"><a href="#核心策略五种上下文决策" data-for="核心策略五种上下文决策">核心策略：五种上下文决策</a></li><li class="depth-2"><a href="#1-continue继续" data-for="1-continue继续">1. Continue（继续）</a></li><li class="depth-2"><a href="#2-rewind回退" data-for="2-rewind回退">2. /rewind（回退）</a></li><li class="depth-2"><a href="#3-clear清空" data-for="3-clear清空">3. /clear（清空）</a></li><li class="depth-2"><a href="#4-compact压缩" data-for="4-compact压缩">4. /compact（压缩）</a></li><li class="depth-2"><a href="#5-subagents子智能体" data-for="5-subagents子智能体">5. Subagents（子智能体）</a></li><li class="depth-1"><a href="#实施方法构建项目上下文" data-for="实施方法构建项目上下文">实施方法：构建项目上下文</a></li><li class="depth-1"><a href="#两种应用范式" data-for="两种应用范式">两种应用范式</a></li><li class="depth-1"><a href="#价值与意义" data-for="价值与意义">价值与意义</a></li><li class="depth-2"><a href="#与提示词工程的关系" data-for="与提示词工程的关系">与提示词工程的关系</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">上下文工程</h1><p class="content-meta">May 05, 2026, 6 min read</p><ul class="tags"><li><a href="../tags/ai-programming" class="internal tag-link">#ai-programming</a></li><li><a href="../tags/methodology" class="internal tag-link">#methodology</a></li><li><a href="../tags/prompt-engineering" class="internal tag-link">#prompt-engineering</a></li><li><a href="../tags/ai-engineering" class="internal tag-link">#ai-engineering</a></li><li><a href="../tags/workflow" class="internal tag-link">#workflow</a></li><li><a href="../tags/concept" class="internal tag-link">#concept</a></li></ul></div></div><article class="popover-hint"><h1 id="上下文工程">上下文工程<a aria-hidden="true" tabindex="-1" href="#上下文工程" class="internal"> §</a></h1>
+<p>上下文工程（Context Engineering）是指在 AI 交互（特别是 AI 编程）中，如何有效地管理、清理、隔离和保留上下文信息的技术与艺术。它被视为继“提示词工程”之后的新一代核心技能。</p>
+<p>在 AI 编程领域，它特指将人类开发者对项目的隐性知识转化为 AI 可读的显性文档和配置的过程。随着模型写代码能力的提升，AI 编程的瓶颈已从“模型能否写代码”转变为“人类能否有效管理 AI”。</p>
+<h2 id="核心论点与背景">核心论点与背景<a aria-hidden="true" tabindex="-1" href="#核心论点与背景" class="internal"> §</a></h2>
+<p>随着大模型上下文窗口不断扩大（如 <a href="../Claude-Code" class="internal">Claude Code</a> 的 100 万 Token），用户倾向于将所有信息塞入同一个会话。然而，这导致了 <a href="../concepts/上下文腐烂" class="internal">上下文腐烂</a> 问题：上下文越长，模型越蠢。</p>
+<p>正如 <a href="../entities/brendan-maclean" class="internal">brendan-maclean</a> 所言：“你不会把 70 万行代码库甩给一个新员工，然后指望他第一天就出活。对 AI 也一样。”因此，如何“喂”数据、何时“清理”垃圾、如何“隔离”噪音，成为了决定 AI 编程效率和效果上限的关键因素。</p>
+<h2 id="核心策略五种上下文决策">核心策略：五种上下文决策<a aria-hidden="true" tabindex="-1" href="#核心策略五种上下文决策" class="internal"> §</a></h2>
+<p>根据 Anthropic 官方指南，上下文工程包含以下五种核心决策动作（按保留旧上下文的数量排序）：</p>
+<h3 id="1-continue继续">1. Continue（继续）<a aria-hidden="true" tabindex="-1" href="#1-continue继续" class="internal"> §</a></h3>
+<ul>
+<li><strong>操作</strong>：直接发送下一条消息。</li>
+<li><strong>适用场景</strong>：上下文仍然高度相关，无需调整。</li>
+<li><strong>风险</strong>：无意识地累积可能导致未来的腐烂。</li>
+</ul>
+<h3 id="2-rewind回退">2. /rewind（回退）<a aria-hidden="true" tabindex="-1" href="#2-rewind回退" class="internal"> §</a></h3>
+<ul>
+<li><strong>操作</strong>：回退到之前的某个节点，从那里重新开始。</li>
+<li><strong>原则</strong>：与其纠正错误，不如回退。</li>
+<li><strong>优势</strong>：保留了有用的文件读取和背景，丢弃了失败的尝试过程。</li>
+</ul>
+<h3 id="3-clear清空">3. /clear（清空）<a aria-hidden="true" tabindex="-1" href="#3-clear清空" class="internal"> §</a></h3>
+<ul>
+<li><strong>操作</strong>：开启新会话，手动编写背景摘要。</li>
+<li><strong>优势</strong>：零腐烂，完全由人类控制上下文质量。</li>
+<li><strong>劣势</strong>：需要手动重建上下文，较为费事。</li>
+</ul>
+<h3 id="4-compact压缩">4. /compact（压缩）<a aria-hidden="true" tabindex="-1" href="#4-compact压缩" class="internal"> §</a></h3>
+<ul>
+<li><strong>操作</strong>：让模型总结当前对话，用摘要替换历史记录。</li>
+<li><strong>优势</strong>：自动化，省事。</li>
+<li><strong>风险</strong>：模型可能丢失关键信息。</li>
+<li><strong>最佳实践</strong>：主动触发并附带引导指令（例如：“聚焦认证重构，忽略测试调试”）。</li>
+</ul>
+<h3 id="5-subagents子智能体">5. Subagents（子智能体）<a aria-hidden="true" tabindex="-1" href="#5-subagents子智能体" class="internal"> §</a></h3>
+<ul>
+<li><strong>操作</strong>：派生一个拥有独立上下文窗口的 <a href="../concepts/子智能体" class="internal">子智能体</a> 处理任务。</li>
+<li><strong>本质</strong>：上下文隔离。</li>
+<li><strong>适用场景</strong>：过程很重，结论很轻（如大规模代码调查、文档生成）。</li>
+<li><strong>优势</strong>：主会话保持绝对干净，仅接收最终结论。</li>
+</ul>
+<h2 id="实施方法构建项目上下文">实施方法：构建项目上下文<a aria-hidden="true" tabindex="-1" href="#实施方法构建项目上下文" class="internal"> §</a></h2>
+<p>除了会话管理，上下文工程还包含为 AI 准备项目“说明书”的静态层面：</p>
+<ol>
+<li><strong>项目地图</strong>：如 <code>CLAUDE.md</code>，概述项目结构、编译流程和规范。</li>
+<li><strong>技能定义</strong>：如 <code>Skills</code>，定义 AI 在特定场景（如调试、重构）下的行为模式和思考步骤。</li>
+<li><strong>感知集成</strong>：如 <code>MCP</code> (Model Context Protocol)，赋予 AI 读取真实数据（测试报告、工单、数据库）的能力。</li>
+</ol>
+<h2 id="两种应用范式">两种应用范式<a aria-hidden="true" tabindex="-1" href="#两种应用范式" class="internal"> §</a></h2>
+<p>根据应用场景的不同，上下文工程衍生出两种主要范式：</p>
+<ul>
+<li><strong>深度上下文模式</strong>（带徒弟）：由资深开发者投入时间构建深厚的项目上下文，适合复杂的遗留系统。代表案例：<a href="../entities/brendan-maclean" class="internal">brendan-maclean</a> 维护 <a href="../entities/skyline" class="internal">skyline</a>。</li>
+<li><strong>广泛编排模式</strong>（开工厂）：构建标准化的工作流上下文，通过编排层管理大量并行 Agent。代表案例：<a href="../entities/openai" class="internal">openai</a> 的 <a href="../entities/symphony" class="internal">symphony</a>。</li>
+</ul>
+<h2 id="价值与意义">价值与意义<a aria-hidden="true" tabindex="-1" href="#价值与意义" class="internal"> §</a></h2>
+<p>上下文工程不仅是为了让 AI 干活，更是为了将原本依赖口口相传的<strong>隐性知识显性化</strong>，使项目知识资产化，减少人员流动带来的损失。</p>
+<h3 id="与提示词工程的关系">与提示词工程的关系<a aria-hidden="true" tabindex="-1" href="#与提示词工程的关系" class="internal"> §</a></h3>
+<ul>
+<li><strong>提示词工程</strong>关注的是“怎么问”。</li>
+<li><strong>上下文工程</strong>关注的是“在什么环境下问”。</li>
+</ul>
+<p>两者相辅相成，但在长任务和 Agent 时代，上下文工程往往更为关键。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

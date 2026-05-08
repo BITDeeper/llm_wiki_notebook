@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html><head><title>Cowork</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Cowork"/><meta property="og:description" content="Cowork § Cowork 是 Anthropic 推出的企业级 AI 智能体工作平台，于 2026 年 1 月正式发布。作为 anthropic-labs 的产物，它代表了 Anthropic 在 Agent 领域的最新落地尝试，旨在通过预配置的插件和连接器生态，将 AI 的能力从编程扩展到更广泛的知识工作领域，深度集成到企业日常业务流程中。 产品定位与目标用户 § Cowork 将 AI 的能力直接延伸到了用户的操作系统层面，使其能够操作和协调本地应用，而不仅仅是局限于聊天窗口。这一产品形态与 runtime-agent-os 的概念高度契合，即 AI 不再是一个被动的工具，而是能够主动介入并管理用户工作流的“操作系统”级存在。 根据 Anthropic 首席商务官 Paul Smith 的描述，其目标用户定位如下： 目标群体：虽然 claude-code 震撼了工程师群体（占员工总数的 2%-5%），但剩下的 95%——那些在 Excel、邮件、PPT 和浏览器标签页中「搬运数据」的白领、财务、HR 和运营——才是职场的「沉默的大多数」。Cowork 正是为这部分人群而生。 角色类比： Claude Code：被比作给「特种兵」配发的精密狙击镜。 Cowork：被比作为每一个人安装的「动力装甲」。 它不要求用户理解代码或掌握精妙的提示词技巧，而是直接控制电脑，看用户所看，做用户所做。它不是在「回答问题」，而是在「完成任务」。 核心功能与特性 § 底层架构与自主性 § 底层架构：完全复用了 Claude Code 的底层逻辑和能力，证明了 Anthropic 智能体架构的通用性。 主动推理：不同于传统的聊天机器人，Cowork 能够自主制定计划，并在执行过程中实时同步进度，展现出高自主性。 深度集成：拥有本地文件系统的读写权限，可以直接读取、编辑或创建文件，支持一键整理桌面、批量重命名等操作。 低门槛：移除了编程门槛，普通用户通过简单的自然语言描述即可指挥 AI 完成复杂任务。 行业定制插件 § Cowork 提供覆盖十大行业的预配置插件模板（自带 11 个开源插件），这些模板与资深从业者共同打磨，内置了专业的工作流和术语。主要行业包括： 金融：财务分析、投资银行、券商研究、私募股权、财富管理。 职能：人力资源（HR）、设计、工程、运营、品牌基调。 其他角色：允许用户将 Claude 定制为销售、法务等专属角色助手。 连接器生态 § 通过连接器（如 MCP），Cowork 能够接入企业现有的 SaaS 平台和数据源，包括 Google Workspace、Microsoft Office、FactSet、MSCI、S&amp;amp;P Global 等，实现端到端的自动化。 实际应用场景 § 自动化处理周报生成。 根据销售反馈自动修正项目排期。 整理本地 PDF 附件并生成研究简报。 金融领域的 Excel 到 PPT 一键通杀与数据迁移。 开发背景 § Anthropic 团队发现，大量用户使用 Claude Code 并非为了写代码，而是用于制定度假计划、整理邮件、复原照片等非编程任务。基于这一洞察，团队仅用一周半时间便开发出了 Cowork 的原型。有趣的是，Cowork 自身 100% 的代码也是由 Claude Code 编写的。 安全与控制 § 为了应对高权限带来的风险，Cowork 强调“人类控制权”： 执行关键操作（如删除文件）前必须询问确认。 用户可随时叫停、修改计划或撤回权限。 警惕 提示词注入 风险，即攻击者可能通过诱导 AI 读取恶意内容来篡改指令。 战略定位与背景 § 调度而非取代 § Anthropic 将 Cowork 及其连接器定位为现有软件栈之间的“粘合剂”。其策略是调度软件而非取代软件。这与竞争对手 OpenAI 试图直接取代传统 SaaS 厂商的策略形成鲜明对比。 市场竞争策略 § 作为 Labs “从 0 到 1”探索的产物，Cowork 的发布旨在抢占消费者市场，应对 openai 和 Google 的生态挤压，是 Anthropic 在 2026 年 产品巷战期 推出的重要“新物种”。 市场影响 § Cowork 的发布一度引发了全球股市关于“SaaS-末日”的讨论。市场担心，像 Cowork 这样的 AI 智能体能够自动化执行传统 SaaS 软件的功能，从而颠覆现有的软件订阅模式。这标志着 AI 竞争从模型性能转向了具体工作流的替代与重构。 对初创公司：被视为“初创公司埋葬者”，因为通用大模型正在迅速覆盖许多单点功能的办公自动化工具。 对职场：引发了关于“白领末日”的讨论，预示着大量重复性脑力劳动面临被替代的风险。 行业趋势：被视作 2026 年“氛围办公”趋势的开端，即 AI 在后台静默处理繁琐任务，用户仅需低监督。 在实际资本市场表现中，金融数据巨头因接入 Claude 生态而股价回升，表明市场认可这种“增强型”的 AI 落地路径。然而，它也加剧了对初级白领岗位（如金融分析师）被自动化替代的担忧。 平台可用性 § 目前 Cowork 处于研究预览版阶段，仅限 Claude Max 订阅用户在 macOS 应用上体验。Anthropic 计划在未来推出 Windows 版本并加强跨设备同步功能。 局限性与进化 § 尽管 Cowork 功能强大，但它最初仍存在一个致命弱点：依然在等待人类的指令。只要它还需要人类坐在电脑前发号施令，它就依然只是一个高级工具。 Conway 的出现解决了这一问题。如果说 Cowork 赋予了 AI 「手脚」，那么 Conway 则赋予了 AI 「心脏」和「呼吸」，使其能够自主决定何时做事。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Cowork § Cowork 是 Anthropic 推出的企业级 AI 智能体工作平台，于 2026 年 1 月正式发布。作为 anthropic-labs 的产物，它代表了 Anthropic 在 Agent 领域的最新落地尝试，旨在通过预配置的插件和连接器生态，将 AI 的能力从编程扩展到更广泛的知识工作领域，深度集成到企业日常业务流程中。 产品定位与目标用户 § Cowork 将 AI 的能力直接延伸到了用户的操作系统层面，使其能够操作和协调本地应用，而不仅仅是局限于聊天窗口。这一产品形态与 runtime-agent-os 的概念高度契合，即 AI 不再是一个被动的工具，而是能够主动介入并管理用户工作流的“操作系统”级存在。 根据 Anthropic 首席商务官 Paul Smith 的描述，其目标用户定位如下： 目标群体：虽然 claude-code 震撼了工程师群体（占员工总数的 2%-5%），但剩下的 95%——那些在 Excel、邮件、PPT 和浏览器标签页中「搬运数据」的白领、财务、HR 和运营——才是职场的「沉默的大多数」。Cowork 正是为这部分人群而生。 角色类比： Claude Code：被比作给「特种兵」配发的精密狙击镜。 Cowork：被比作为每一个人安装的「动力装甲」。 它不要求用户理解代码或掌握精妙的提示词技巧，而是直接控制电脑，看用户所看，做用户所做。它不是在「回答问题」，而是在「完成任务」。 核心功能与特性 § 底层架构与自主性 § 底层架构：完全复用了 Claude Code 的底层逻辑和能力，证明了 Anthropic 智能体架构的通用性。 主动推理：不同于传统的聊天机器人，Cowork 能够自主制定计划，并在执行过程中实时同步进度，展现出高自主性。 深度集成：拥有本地文件系统的读写权限，可以直接读取、编辑或创建文件，支持一键整理桌面、批量重命名等操作。 低门槛：移除了编程门槛，普通用户通过简单的自然语言描述即可指挥 AI 完成复杂任务。 行业定制插件 § Cowork 提供覆盖十大行业的预配置插件模板（自带 11 个开源插件），这些模板与资深从业者共同打磨，内置了专业的工作流和术语。主要行业包括： 金融：财务分析、投资银行、券商研究、私募股权、财富管理。 职能：人力资源（HR）、设计、工程、运营、品牌基调。 其他角色：允许用户将 Claude 定制为销售、法务等专属角色助手。 连接器生态 § 通过连接器（如 MCP），Cowork 能够接入企业现有的 SaaS 平台和数据源，包括 Google Workspace、Microsoft Office、FactSet、MSCI、S&amp;amp;P Global 等，实现端到端的自动化。 实际应用场景 § 自动化处理周报生成。 根据销售反馈自动修正项目排期。 整理本地 PDF 附件并生成研究简报。 金融领域的 Excel 到 PPT 一键通杀与数据迁移。 开发背景 § Anthropic 团队发现，大量用户使用 Claude Code 并非为了写代码，而是用于制定度假计划、整理邮件、复原照片等非编程任务。基于这一洞察，团队仅用一周半时间便开发出了 Cowork 的原型。有趣的是，Cowork 自身 100% 的代码也是由 Claude Code 编写的。 安全与控制 § 为了应对高权限带来的风险，Cowork 强调“人类控制权”： 执行关键操作（如删除文件）前必须询问确认。 用户可随时叫停、修改计划或撤回权限。 警惕 提示词注入 风险，即攻击者可能通过诱导 AI 读取恶意内容来篡改指令。 战略定位与背景 § 调度而非取代 § Anthropic 将 Cowork 及其连接器定位为现有软件栈之间的“粘合剂”。其策略是调度软件而非取代软件。这与竞争对手 OpenAI 试图直接取代传统 SaaS 厂商的策略形成鲜明对比。 市场竞争策略 § 作为 Labs “从 0 到 1”探索的产物，Cowork 的发布旨在抢占消费者市场，应对 openai 和 Google 的生态挤压，是 Anthropic 在 2026 年 产品巷战期 推出的重要“新物种”。 市场影响 § Cowork 的发布一度引发了全球股市关于“SaaS-末日”的讨论。市场担心，像 Cowork 这样的 AI 智能体能够自动化执行传统 SaaS 软件的功能，从而颠覆现有的软件订阅模式。这标志着 AI 竞争从模型性能转向了具体工作流的替代与重构。 对初创公司：被视为“初创公司埋葬者”，因为通用大模型正在迅速覆盖许多单点功能的办公自动化工具。 对职场：引发了关于“白领末日”的讨论，预示着大量重复性脑力劳动面临被替代的风险。 行业趋势：被视作 2026 年“氛围办公”趋势的开端，即 AI 在后台静默处理繁琐任务，用户仅需低监督。 在实际资本市场表现中，金融数据巨头因接入 Claude 生态而股价回升，表明市场认可这种“增强型”的 AI 落地路径。然而，它也加剧了对初级白领岗位（如金融分析师）被自动化替代的担忧。 平台可用性 § 目前 Cowork 处于研究预览版阶段，仅限 Claude Max 订阅用户在 macOS 应用上体验。Anthropic 计划在未来推出 Windows 版本并加强跨设备同步功能。 局限性与进化 § 尽管 Cowork 功能强大，但它最初仍存在一个致命弱点：依然在等待人类的指令。只要它还需要人类坐在电脑前发号施令，它就依然只是一个高级工具。 Conway 的出现解决了这一问题。如果说 Cowork 赋予了 AI 「手脚」，那么 Conway 则赋予了 AI 「心脏」和「呼吸」，使其能够自主决定何时做事。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/cowork"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#cowork" data-for="cowork">Cowork</a></li><li class="depth-1"><a href="#产品定位与目标用户" data-for="产品定位与目标用户">产品定位与目标用户</a></li><li class="depth-1"><a href="#核心功能与特性" data-for="核心功能与特性">核心功能与特性</a></li><li class="depth-2"><a href="#底层架构与自主性" data-for="底层架构与自主性">底层架构与自主性</a></li><li class="depth-2"><a href="#行业定制插件" data-for="行业定制插件">行业定制插件</a></li><li class="depth-2"><a href="#连接器生态" data-for="连接器生态">连接器生态</a></li><li class="depth-2"><a href="#实际应用场景" data-for="实际应用场景">实际应用场景</a></li><li class="depth-1"><a href="#开发背景" data-for="开发背景">开发背景</a></li><li class="depth-1"><a href="#安全与控制" data-for="安全与控制">安全与控制</a></li><li class="depth-1"><a href="#战略定位与背景" data-for="战略定位与背景">战略定位与背景</a></li><li class="depth-2"><a href="#调度而非取代" data-for="调度而非取代">调度而非取代</a></li><li class="depth-2"><a href="#市场竞争策略" data-for="市场竞争策略">市场竞争策略</a></li><li class="depth-1"><a href="#市场影响" data-for="市场影响">市场影响</a></li><li class="depth-1"><a href="#平台可用性" data-for="平台可用性">平台可用性</a></li><li class="depth-1"><a href="#局限性与进化" data-for="局限性与进化">局限性与进化</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Cowork</h1><p class="content-meta">May 07, 2026, 8 min read</p><ul class="tags"><li><a href="../tags/anthropic" class="internal tag-link">#anthropic</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/productivity" class="internal tag-link">#productivity</a></li><li><a href="../tags/automation" class="internal tag-link">#automation</a></li><li><a href="../tags/enterprise" class="internal tag-link">#enterprise</a></li><li><a href="../tags/platform" class="internal tag-link">#platform</a></li><li><a href="../tags/plugin" class="internal tag-link">#plugin</a></li><li><a href="../tags/workflow" class="internal tag-link">#workflow</a></li><li><a href="../tags/ai-agent" class="internal tag-link">#ai-agent</a></li><li><a href="../tags/saas" class="internal tag-link">#saas</a></li><li><a href="../tags/产品" class="internal tag-link">#产品</a></li><li><a href="../tags/桌面端" class="internal tag-link">#桌面端</a></li><li><a href="../tags/智能体" class="internal tag-link">#智能体</a></li><li><a href="../tags/办公自动化" class="internal tag-link">#办公自动化</a></li><li><a href="../tags/macos" class="internal tag-link">#macos</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="cowork">Cowork<a aria-hidden="true" tabindex="-1" href="#cowork" class="internal"> §</a></h1>
+<p><a href="../Cowork" class="internal">Cowork</a> 是 <a href="../Anthropic" class="internal">Anthropic</a> 推出的企业级 AI 智能体工作平台，于 2026 年 1 月正式发布。作为 <a href="../entities/anthropic-labs" class="internal">anthropic-labs</a> 的产物，它代表了 Anthropic 在 Agent 领域的最新落地尝试，旨在通过预配置的插件和连接器生态，将 AI 的能力从编程扩展到更广泛的知识工作领域，深度集成到企业日常业务流程中。</p>
+<h2 id="产品定位与目标用户">产品定位与目标用户<a aria-hidden="true" tabindex="-1" href="#产品定位与目标用户" class="internal"> §</a></h2>
+<p>Cowork 将 AI 的能力直接延伸到了用户的操作系统层面，使其能够操作和协调本地应用，而不仅仅是局限于聊天窗口。这一产品形态与 <a href="../concepts/runtime-agent-os" class="internal">runtime-agent-os</a> 的概念高度契合，即 AI 不再是一个被动的工具，而是能够主动介入并管理用户工作流的“操作系统”级存在。</p>
+<p>根据 <a href="../Anthropic" class="internal">Anthropic</a> 首席商务官 <a href="../Paul-Smith" class="internal">Paul Smith</a> 的描述，其目标用户定位如下：</p>
+<ul>
+<li><strong>目标群体</strong>：虽然 <a href="../entities/claude-code" class="internal">claude-code</a> 震撼了工程师群体（占员工总数的 2%-5%），但剩下的 95%——那些在 Excel、邮件、PPT 和浏览器标签页中「搬运数据」的白领、财务、HR 和运营——才是职场的「沉默的大多数」。Cowork 正是为这部分人群而生。</li>
+<li><strong>角色类比</strong>：
+<ul>
+<li><strong>Claude Code</strong>：被比作给「特种兵」配发的精密狙击镜。</li>
+<li><strong>Cowork</strong>：被比作为每一个人安装的「动力装甲」。</li>
+</ul>
+</li>
+</ul>
+<p>它不要求用户理解代码或掌握精妙的提示词技巧，而是直接控制电脑，看用户所看，做用户所做。它不是在「回答问题」，而是在「完成任务」。</p>
+<h2 id="核心功能与特性">核心功能与特性<a aria-hidden="true" tabindex="-1" href="#核心功能与特性" class="internal"> §</a></h2>
+<h3 id="底层架构与自主性">底层架构与自主性<a aria-hidden="true" tabindex="-1" href="#底层架构与自主性" class="internal"> §</a></h3>
+<ul>
+<li><strong>底层架构</strong>：完全复用了 <a href="../Claude-Code" class="internal">Claude Code</a> 的底层逻辑和能力，证明了 Anthropic 智能体架构的通用性。</li>
+<li><strong>主动推理</strong>：不同于传统的聊天机器人，<a href="../Cowork" class="internal">Cowork</a> 能够自主制定计划，并在执行过程中实时同步进度，展现出高自主性。</li>
+<li><strong>深度集成</strong>：拥有本地文件系统的读写权限，可以直接读取、编辑或创建文件，支持一键整理桌面、批量重命名等操作。</li>
+<li><strong>低门槛</strong>：移除了编程门槛，普通用户通过简单的自然语言描述即可指挥 AI 完成复杂任务。</li>
+</ul>
+<h3 id="行业定制插件">行业定制插件<a aria-hidden="true" tabindex="-1" href="#行业定制插件" class="internal"> §</a></h3>
+<p>Cowork 提供覆盖十大行业的预配置插件模板（自带 11 个开源插件），这些模板与资深从业者共同打磨，内置了专业的工作流和术语。主要行业包括：</p>
+<ul>
+<li><strong>金融</strong>：财务分析、投资银行、券商研究、私募股权、财富管理。</li>
+<li><strong>职能</strong>：人力资源（HR）、设计、工程、运营、品牌基调。</li>
+<li><strong>其他角色</strong>：允许用户将 Claude 定制为销售、法务等专属角色助手。</li>
+</ul>
+<h3 id="连接器生态">连接器生态<a aria-hidden="true" tabindex="-1" href="#连接器生态" class="internal"> §</a></h3>
+<p>通过连接器（如 MCP），Cowork 能够接入企业现有的 SaaS 平台和数据源，包括 Google Workspace、Microsoft Office、FactSet、MSCI、S&amp;P Global 等，实现端到端的自动化。</p>
+<h3 id="实际应用场景">实际应用场景<a aria-hidden="true" tabindex="-1" href="#实际应用场景" class="internal"> §</a></h3>
+<ul>
+<li>自动化处理周报生成。</li>
+<li>根据销售反馈自动修正项目排期。</li>
+<li>整理本地 PDF 附件并生成研究简报。</li>
+<li>金融领域的 Excel 到 PPT 一键通杀与数据迁移。</li>
+</ul>
+<h2 id="开发背景">开发背景<a aria-hidden="true" tabindex="-1" href="#开发背景" class="internal"> §</a></h2>
+<p>Anthropic 团队发现，大量用户使用 <a href="../Claude-Code" class="internal">Claude Code</a> 并非为了写代码，而是用于制定度假计划、整理邮件、复原照片等非编程任务。基于这一洞察，团队仅用<strong>一周半</strong>时间便开发出了 <a href="../Cowork" class="internal">Cowork</a> 的原型。有趣的是，<a href="../Cowork" class="internal">Cowork</a> 自身 100% 的代码也是由 <a href="../Claude-Code" class="internal">Claude Code</a> 编写的。</p>
+<h2 id="安全与控制">安全与控制<a aria-hidden="true" tabindex="-1" href="#安全与控制" class="internal"> §</a></h2>
+<p>为了应对高权限带来的风险，<a href="../Cowork" class="internal">Cowork</a> 强调“人类控制权”：</p>
+<ul>
+<li>执行关键操作（如删除文件）前必须询问确认。</li>
+<li>用户可随时叫停、修改计划或撤回权限。</li>
+<li>警惕 <a href="../concepts/提示词注入" class="internal">提示词注入</a> 风险，即攻击者可能通过诱导 AI 读取恶意内容来篡改指令。</li>
+</ul>
+<h2 id="战略定位与背景">战略定位与背景<a aria-hidden="true" tabindex="-1" href="#战略定位与背景" class="internal"> §</a></h2>
+<h3 id="调度而非取代">调度而非取代<a aria-hidden="true" tabindex="-1" href="#调度而非取代" class="internal"> §</a></h3>
+<p>Anthropic 将 Cowork 及其连接器定位为现有软件栈之间的“粘合剂”。其策略是<strong>调度软件</strong>而非<strong>取代软件</strong>。这与竞争对手 OpenAI 试图直接取代传统 SaaS 厂商的策略形成鲜明对比。</p>
+<h3 id="市场竞争策略">市场竞争策略<a aria-hidden="true" tabindex="-1" href="#市场竞争策略" class="internal"> §</a></h3>
+<p>作为 Labs “从 0 到 1”探索的产物，Cowork 的发布旨在抢占消费者市场，应对 <a href="../entities/openai" class="internal">openai</a> 和 Google 的生态挤压，是 Anthropic 在 2026 年 <a href="../concepts/产品巷战期" class="internal">产品巷战期</a> 推出的重要“新物种”。</p>
+<h2 id="市场影响">市场影响<a aria-hidden="true" tabindex="-1" href="#市场影响" class="internal"> §</a></h2>
+<p>Cowork 的发布一度引发了全球股市关于“<a href="../SaaS-末日" class="internal">SaaS-末日</a>”的讨论。市场担心，像 Cowork 这样的 AI 智能体能够自动化执行传统 SaaS 软件的功能，从而颠覆现有的软件订阅模式。这标志着 AI 竞争从模型性能转向了具体工作流的替代与重构。</p>
+<ul>
+<li><strong>对初创公司</strong>：被视为“初创公司埋葬者”，因为通用大模型正在迅速覆盖许多单点功能的办公自动化工具。</li>
+<li><strong>对职场</strong>：引发了关于“白领末日”的讨论，预示着大量重复性脑力劳动面临被替代的风险。</li>
+<li><strong>行业趋势</strong>：被视作 2026 年“<a href="../concepts/氛围办公" class="internal">氛围办公</a>”趋势的开端，即 AI 在后台静默处理繁琐任务，用户仅需低监督。</li>
+</ul>
+<p>在实际资本市场表现中，金融数据巨头因接入 Claude 生态而股价回升，表明市场认可这种“增强型”的 AI 落地路径。然而，它也加剧了对初级白领岗位（如金融分析师）被自动化替代的担忧。</p>
+<h2 id="平台可用性">平台可用性<a aria-hidden="true" tabindex="-1" href="#平台可用性" class="internal"> §</a></h2>
+<p>目前 <a href="../Cowork" class="internal">Cowork</a> 处于研究预览版阶段，仅限 <a href="../Claude" class="internal">Claude</a> Max 订阅用户在 macOS 应用上体验。Anthropic 计划在未来推出 Windows 版本并加强跨设备同步功能。</p>
+<h2 id="局限性与进化">局限性与进化<a aria-hidden="true" tabindex="-1" href="#局限性与进化" class="internal"> §</a></h2>
+<p>尽管 Cowork 功能强大，但它最初仍存在一个致命弱点：依然在等待人类的指令。只要它还需要人类坐在电脑前发号施令，它就依然只是一个高级工具。</p>
+<p><a href="../Conway" class="internal">Conway</a> 的出现解决了这一问题。如果说 Cowork 赋予了 AI 「手脚」，那么 Conway 则赋予了 AI 「心脏」和「呼吸」，使其能够自主决定何时做事。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
