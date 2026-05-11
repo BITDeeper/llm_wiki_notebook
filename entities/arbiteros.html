@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><head><title>ArbiterOS</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="ArbiterOS"/><meta property="og:description" content="ArbiterOS § ArbiterOS 是由 香港中文大学 CURE Lab 团队开发的面向智能体的运行时治理系统。它被定义为一种“治理内核”，旨在通过引入类似传统操作系统的特权分离机制，解决 AI 智能体在执行高风险动作时的安全问题。 核心架构与原理 § ArbiterOS 的核心设计理念是特权分离。它在物理架构上剥夺了模型和上层应用的底层执行主权，将“智能决策”（模型思考）与“真实执行”（物理接口操作）进行刚性切割。模型只负责思考和提出动作候选，而 ArbiterOS 作为唯一掌握物理接口的内核，负责决定是否执行。 四步治理流程 § ArbiterOS 通过以下四个阶段实现运行时治理： 拦截： 在动作真正执行前接管系统，防止不可逆的操作发生。这是治理的前提，确保系统不会进入“先做了再说”的状态。 解析： 将智能体的自然语言意图强制转换为机器可读、可验证的结构化指令（例如：Action: HTTP POST, Target: api."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="ArbiterOS § ArbiterOS 是由 香港中文大学 CURE Lab 团队开发的面向智能体的运行时治理系统。它被定义为一种“治理内核”，旨在通过引入类似传统操作系统的特权分离机制，解决 AI 智能体在执行高风险动作时的安全问题。 核心架构与原理 § ArbiterOS 的核心设计理念是特权分离。它在物理架构上剥夺了模型和上层应用的底层执行主权，将“智能决策”（模型思考）与“真实执行”（物理接口操作）进行刚性切割。模型只负责思考和提出动作候选，而 ArbiterOS 作为唯一掌握物理接口的内核，负责决定是否执行。 四步治理流程 § ArbiterOS 通过以下四个阶段实现运行时治理： 拦截： 在动作真正执行前接管系统，防止不可逆的操作发生。这是治理的前提，确保系统不会进入“先做了再说”的状态。 解析： 将智能体的自然语言意图强制转换为机器可读、可验证的结构化指令（例如：Action: HTTP POST, Target: api."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/arbiteros"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#arbiteros" data-for="arbiteros">ArbiterOS</a></li><li class="depth-1"><a href="#核心架构与原理" data-for="核心架构与原理">核心架构与原理</a></li><li class="depth-1"><a href="#四步治理流程" data-for="四步治理流程">四步治理流程</a></li><li class="depth-1"><a href="#性能与测试数据" data-for="性能与测试数据">性能与测试数据</a></li><li class="depth-1"><a href="#兼容性与生态" data-for="兼容性与生态">兼容性与生态</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">ArbiterOS</h1><p class="content-meta">May 09, 2026, 4 min read</p><ul class="tags"><li><a href="../tags/ai-safety" class="internal tag-link">#ai-safety</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/operating-system" class="internal tag-link">#operating-system</a></li><li><a href="../tags/governance" class="internal tag-link">#governance</a></li><li><a href="../tags/hong-kong-chinese-university" class="internal tag-link">#hong-kong-chinese-university</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="arbiteros">ArbiterOS<a aria-hidden="true" tabindex="-1" href="#arbiteros" class="internal"> §</a></h1>
+<p><strong>ArbiterOS</strong> 是由 <a href="../entities/香港中文大学" class="internal">香港中文大学</a> CURE Lab 团队开发的面向智能体的运行时治理系统。它被定义为一种“治理内核”，旨在通过引入类似传统操作系统的特权分离机制，解决 AI 智能体在执行高风险动作时的安全问题。</p>
+<h2 id="核心架构与原理">核心架构与原理<a aria-hidden="true" tabindex="-1" href="#核心架构与原理" class="internal"> §</a></h2>
+<p>ArbiterOS 的核心设计理念是<strong>特权分离</strong>。它在物理架构上剥夺了模型和上层应用的底层执行主权，将“智能决策”（模型思考）与“真实执行”（物理接口操作）进行刚性切割。模型只负责思考和提出动作候选，而 ArbiterOS 作为唯一掌握物理接口的内核，负责决定是否执行。</p>
+<h2 id="四步治理流程">四步治理流程<a aria-hidden="true" tabindex="-1" href="#四步治理流程" class="internal"> §</a></h2>
+<p>ArbiterOS 通过以下四个阶段实现运行时治理：</p>
+<ol>
+<li>
+<p><strong>拦截</strong>：
+在动作真正执行前接管系统，防止不可逆的操作发生。这是治理的前提，确保系统不会进入“先做了再说”的状态。</p>
+</li>
+<li>
+<p><strong>解析</strong>：
+将智能体的自然语言意图强制转换为机器可读、可验证的<strong>结构化指令</strong>（例如：Action: HTTP POST, Target: api.external.com）。这一步建立了应用层与执行层之间的强约束通信接口。</p>
+</li>
+<li>
+<p><strong>治理</strong>：
+治理引擎基于类似于 ABAC（基于属性的访问控制）的逻辑进行判定。它不仅检查动作本身，还结合上下文元数据（主体、动作、客体、条件）进行综合判断。</p>
+<ul>
+<li><strong>关键技术</strong>：引入了 <a href="../concepts/动态污点追踪" class="internal">动态污点追踪</a> 机制。当数据流经敏感来源（如密钥文件）时会被打上“污点”，即使后续操作语义合法，只要携带污点就会被拦截。</li>
+</ul>
+</li>
+<li>
+<p><strong>观测</strong>：
+完整记录每一次拦截的上下文（操作对象、数据流向、触发规则等），形成可溯源、可复盘的证据链，支持策略的持续优化。</p>
+</li>
+</ol>
+<h2 id="性能与测试数据">性能与测试数据<a aria-hidden="true" tabindex="-1" href="#性能与测试数据" class="internal"> §</a></h2>
+<p>ArbiterOS 在多个基准测试中展现了显著的安全增益：</p>
+<ul>
+<li><strong>OpenClaw 测试</strong>：将涉及私钥泄露、文件误删等高危步骤的拦截率从原生系统的 <strong>6.17%</strong> 提升至 <strong>92.95%</strong>。</li>
+<li><strong>Agent-SafetyBench &amp; AgentDojo</strong>：对已验证攻击示例的实时拦截率超过 <strong>94%</strong>。</li>
+<li><strong>WildClawBench</strong>：在高风险工作流评测中实现了 <strong>100%</strong> 的及时预警。</li>
+</ul>
+<h2 id="兼容性与生态">兼容性与生态<a aria-hidden="true" tabindex="-1" href="#兼容性与生态" class="internal"> §</a></h2>
+<p>ArbiterOS 不依赖特定的智能体框架。除了在 <a href="../entities/openclaw" class="internal">openclaw</a> 上完成验证外，团队还快速适配了 <a href="../entities/hermes-agent" class="internal">hermes-agent</a>，证明了其作为可迁移、可复用治理底座的潜力。</p>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<p>该系统特别适用于金融、医疗、自动化运维等高敏感领域，为这些场景中的 AI 应用提供了最后一道可被信任的执行底座，确保智能体行为是可审计、可配置且可控的。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/动态污点追踪" class="internal">动态污点追踪</a></li><li><a href="../concepts/运行时治理" class="internal">运行时治理</a></li><li><a href="../entities/agent-safetybench" class="internal">Agent-SafetyBench</a></li><li><a href="../sources/剥夺大模型执行权！港中文开源agent治理内核，高危拦截率达92.95%" class="internal">剥夺大模型执行权！港中文开源Agent治理内核，高危拦截率达92.95%</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

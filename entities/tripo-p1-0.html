@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html><head><title>Tripo P1.0</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Tripo P1.0"/><meta property="og:description" content="Tripo P1.0 § Tripo P1.0 是 VAST 发布的新一代 3D 生成模型，以其 2秒极速生成 的能力和底层算法范式的重构而闻名。它是 VAST 迈向 AI 3D 2.0 时代的标志性产品，主打极速生成与工程可用性。 核心特性 § 极速生成：在 2 秒内生成专业级 3D 网格，速度较传统方法提升百倍以上。 原生网格 / 工程可用：直接输出拓扑干净、布线稳定的三角网格（即 Smart Mesh），无需重拓扑即可用于游戏引擎或实时渲染，解决了 AI 生成模型难以进入工业管线的痛点。 高质量：内部评估显示，其生成质量已达到 3-5 年经验设计师的 90% 水平，与资深建模师作品无明显区别。 复杂拓扑支持：通过 隐式潜在拓扑映射机制，解决了孔洞、嵌套等复杂几何结构的生成难题。 高可编辑性：生成的模型具备极高的可编辑性和精度可拓展性。 技术原理：范式重构 § Tripo P1."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Tripo P1.0 § Tripo P1.0 是 VAST 发布的新一代 3D 生成模型，以其 2秒极速生成 的能力和底层算法范式的重构而闻名。它是 VAST 迈向 AI 3D 2.0 时代的标志性产品，主打极速生成与工程可用性。 核心特性 § 极速生成：在 2 秒内生成专业级 3D 网格，速度较传统方法提升百倍以上。 原生网格 / 工程可用：直接输出拓扑干净、布线稳定的三角网格（即 Smart Mesh），无需重拓扑即可用于游戏引擎或实时渲染，解决了 AI 生成模型难以进入工业管线的痛点。 高质量：内部评估显示，其生成质量已达到 3-5 年经验设计师的 90% 水平，与资深建模师作品无明显区别。 复杂拓扑支持：通过 隐式潜在拓扑映射机制，解决了孔洞、嵌套等复杂几何结构的生成难题。 高可编辑性：生成的模型具备极高的可编辑性和精度可拓展性。 技术原理：范式重构 § Tripo P1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/tripo-p1-0"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#tripo-p10" data-for="tripo-p10">Tripo P1.0</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-1"><a href="#技术原理范式重构" data-for="技术原理范式重构">技术原理：范式重构</a></li><li class="depth-2"><a href="#1-摒弃自回归序列化" data-for="1-摒弃自回归序列化">1. 摒弃自回归序列化</a></li><li class="depth-2"><a href="#2-原生三维空间概率生成" data-for="2-原生三维空间概率生成">2. 原生三维空间概率生成</a></li><li class="depth-2"><a href="#3-整体生成" data-for="3-整体生成">3. 整体生成</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-1"><a href="#与-h-系列的对比" data-for="与-h-系列的对比">与 H 系列的对比</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Tripo P1.0</h1><p class="content-meta">May 08, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/model" class="internal tag-link">#model</a></li><li><a href="../tags/3d-generation" class="internal tag-link">#3d-generation</a></li><li><a href="../tags/vast" class="internal tag-link">#vast</a></li><li><a href="../tags/speed" class="internal tag-link">#speed</a></li><li><a href="../tags/topology" class="internal tag-link">#topology</a></li><li><a href="../tags/3d-model" class="internal tag-link">#3d-model</a></li><li><a href="../tags/generative-ai" class="internal tag-link">#generative-ai</a></li><li><a href="../tags/smart-mesh" class="internal tag-link">#smart-mesh</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="tripo-p10">Tripo P1.0<a aria-hidden="true" tabindex="-1" href="#tripo-p10" class="internal"> §</a></h1>
+<p><strong>Tripo P1.0</strong> 是 <a href="../VAST" class="internal">VAST</a> 发布的新一代 3D 生成模型，以其 <strong>2秒极速生成</strong> 的能力和底层算法范式的重构而闻名。它是 VAST 迈向 <a href="../AI-3D-2.0" class="internal">AI 3D 2.0</a> 时代的标志性产品，主打极速生成与工程可用性。</p>
+<h2 id="核心特性">核心特性<a aria-hidden="true" tabindex="-1" href="#核心特性" class="internal"> §</a></h2>
+<ul>
+<li><strong>极速生成</strong>：在 2 秒内生成专业级 3D 网格，速度较传统方法提升百倍以上。</li>
+<li><strong>原生网格 / 工程可用</strong>：直接输出拓扑干净、布线稳定的三角网格（即 <a href="../Smart-Mesh" class="internal">Smart Mesh</a>），无需重拓扑即可用于游戏引擎或实时渲染，解决了 AI 生成模型难以进入工业管线的痛点。</li>
+<li><strong>高质量</strong>：内部评估显示，其生成质量已达到 3-5 年经验设计师的 90% 水平，与资深建模师作品无明显区别。</li>
+<li><strong>复杂拓扑支持</strong>：通过 <a href="../隐式潜在拓扑映射机制" class="internal">隐式潜在拓扑映射机制</a>，解决了孔洞、嵌套等复杂几何结构的生成难题。</li>
+<li><strong>高可编辑性</strong>：生成的模型具备极高的可编辑性和精度可拓展性。</li>
+</ul>
+<h2 id="技术原理范式重构">技术原理：范式重构<a aria-hidden="true" tabindex="-1" href="#技术原理范式重构" class="internal"> §</a></h2>
+<p>Tripo P1.0 的突破源于对 3D 生成底层范式的修正，放弃了传统的序列化生成和局部计算，转而构建统一的 <a href="../concepts/原生概率空间" class="internal">原生概率空间</a>。</p>
+<h3 id="1-摒弃自回归序列化">1. 摒弃自回归序列化<a aria-hidden="true" tabindex="-1" href="#1-摒弃自回归序列化" class="internal"> §</a></h3>
+<p>传统方法受 LLM 影响，强行将 3D 空间数据序列化为有序 Token（预测下一个点）。这违背了 3D 空间各向同性的物理本质（无绝对前后之分），导致生成效率低且易崩坏。P1.0 认为这是 <a href="../自回归序列化误区" class="internal">自回归序列化误区</a>。</p>
+<h3 id="2-原生三维空间概率生成">2. 原生三维空间概率生成<a aria-hidden="true" tabindex="-1" href="#2-原生三维空间概率生成" class="internal"> §</a></h3>
+<p>P1.0 采用 <a href="../原生三维空间概率生成" class="internal">原生三维空间概率生成</a> 技术，直接在三维空间中对点、线、面进行统一的概率建模。其过程包含：</p>
+<ul>
+<li><strong>基底析出</strong>：模型在噪声空间中析出构筑形体的“基底”。</li>
+<li><strong>概率演化</strong>：复杂的拓扑关系依托基底，在统一的概率空间中进行演化。</li>
+<li><strong>全局涌现</strong>：实现从局部拼接向全局涌现的跨越，瞬间完成高维信息对齐。</li>
+</ul>
+<p>这种方法不依赖人为排序，避免了序列生成的因果依赖。</p>
+<h3 id="3-整体生成">3. 整体生成<a aria-hidden="true" tabindex="-1" href="#3-整体生成" class="internal"> §</a></h3>
+<p>通过 <a href="../整体生成" class="internal">整体生成</a> 策略，模型同时生成几何和拓扑结构。例如，在生成一张桌子时，四条腿和桌面是相互关联、自然生长出来的，而非按顺序逐个生成，从而保证了结构的稳定性和逻辑的自洽。</p>
+<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
+<ul>
+<li><strong>游戏开发</strong>：为 <a href="../网易" class="internal">网易</a> 等游戏公司提供快速资产生成，用于《燕云十六声》、《蛋仔派对》等项目。</li>
+<li><strong>UGC 内容创作</strong>：作为 VAST 即将推出的 UGC 平台的核心引擎，降低 3D 创作门槛，使 AI 3D 生成从 PGC 行业应用走向规模化 UGC 互动内容。</li>
+<li><strong>实时交互</strong>：生成的模型轻量且拓扑规范，非常适合 VR/AR 及 Robotics 仿真。</li>
+</ul>
+<h2 id="与-h-系列的对比">与 H 系列的对比<a aria-hidden="true" tabindex="-1" href="#与-h-系列的对比" class="internal"> §</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">特性</th><th align="left">Tripo P1.0</th><th align="left">Tripo H3.1</th></tr></thead><tbody><tr><td align="left"><strong>定位</strong></td><td align="left">极速、原生、实时可用</td><td align="left">高精、高保真、雕塑级</td></tr><tr><td align="left"><strong>速度</strong></td><td align="left">2秒</td><td align="left">较慢</td></tr><tr><td align="left"><strong>面数</strong></td><td align="left">支持低面数到中高面数</td><td align="left">极高面数（细节丰富）</td></tr><tr><td align="left"><strong>适用场景</strong></td><td align="left">游戏、交互、UGC</td><td align="left">3D 打印、影视参考</td></tr></tbody></table></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

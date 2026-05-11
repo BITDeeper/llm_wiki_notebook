@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><head><title>机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注"/><meta property="og:description" content="机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注 § 摘要 § 本文报道了 Figure 公司发布的最新进展，其 Figure 02 机器人在 Helix 02 系统的驱动下，实现了完全自主、端到端的客厅整理任务。文章详细解析了 Helix 02 的三层架构（System 0/1/2），强调了其“数据驱动”而非“算法重写”的泛化能力，并披露了 Figure 与 OpenAI 分道扬镳的细节及英伟达持续加注的融资背景。 核心内容 § 技术演示：自主整理客厅 § Figure 02 机器人在家庭环境中完成了一系列复杂任务，包括： 清洁表面：喷洒消毒液并用毛巾擦拭茶几。 物品收纳：将杂物拾起并归置到收纳桶中。 整理环境：摆正抱枕，精准使用遥控器关机并摆放好遥控器。 全身协作：将毛巾搭在肩上腾出双手，侧身穿过狭窄空间。 整个演示过程持续近 4 分钟，全程无人为干预、无遥操作、无重置，展示了高度的自主性和鲁棒性。 Helix 02 系统：统一的全身 VLA § Helix 02 被定义为一个统一的全身行走-操作 vla-视觉-语言-动作 模型。它将机载的全部传感器（视觉、触觉、本体感知）直接连接到所有执行器，实现了“感觉、思考、行动”的一体化。 其核心创新在于引入了 2 三层架构： System 2（慢系统）：负责高层语义推理，理解场景和语言，将任务拆解为行为目标。 System 1（快系统）：以 200Hz 运行，将感知转化为全身关节目标，实现 pixels-to-whole-body（像素到全身）的控制。 System 0（极快系统）：以 1kHz 运行，负责平衡、接触处理和全身协调。 System 0：数据驱动的运动先验 § System 0 是基于 1000 多小时人类运动数据训练得到的全身控制器，结合了 sim2real 技术。 替代手工代码：用一个神经网络先验替代了 109,504 行手工编写的 C++ 控制代码。 通用性：它不针对特定动作（如走路或伸手），而是学习人类在保持平衡与稳定前提下的底层运动先验。 作用：当上层规划“做什么”时，System 0 保证身体能“稳定地做出来”。 泛化能力：数据即技能 § 团队强调，此次解锁客厅整理任务，并未新增算法，也未进行特殊场景的工程适配，仅通过补充最新场景数据，便让系统掌握了新技能。这证明了其架构在处理融合移动、操作与环境感知任务时的强大泛化能力。 公司背景与融资 § 创始人：Brett Adcock，连续创业者。 合作破裂：2025 年 2 月，Figure 宣布与 OpenAI 解约。据 TechCrunch 报道，原因在于 AI 模型与机器人硬件的集成环节出现分歧。 融资情况：2025 年 9 月，Figure 完成 C 轮融资，斩获超 10 亿美元，投后估值达 390 亿美元，创下具身智能赛道最高估值纪录。英伟达（NVIDIA）在此轮融资中持续加注。 结论 § Figure 的 Helix 02 系统通过端到端的神经网络架构和数据驱动的学习方式，展示了人形机器人在非结构化环境中的巨大潜力。其自研路径（特别是 System 0 的引入）与依赖外部通用大模型的路径形成了鲜明对比，为具身智能的落地提供了重要的技术参考。."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注 § 摘要 § 本文报道了 Figure 公司发布的最新进展，其 Figure 02 机器人在 Helix 02 系统的驱动下，实现了完全自主、端到端的客厅整理任务。文章详细解析了 Helix 02 的三层架构（System 0/1/2），强调了其“数据驱动”而非“算法重写”的泛化能力，并披露了 Figure 与 OpenAI 分道扬镳的细节及英伟达持续加注的融资背景。 核心内容 § 技术演示：自主整理客厅 § Figure 02 机器人在家庭环境中完成了一系列复杂任务，包括： 清洁表面：喷洒消毒液并用毛巾擦拭茶几。 物品收纳：将杂物拾起并归置到收纳桶中。 整理环境：摆正抱枕，精准使用遥控器关机并摆放好遥控器。 全身协作：将毛巾搭在肩上腾出双手，侧身穿过狭窄空间。 整个演示过程持续近 4 分钟，全程无人为干预、无遥操作、无重置，展示了高度的自主性和鲁棒性。 Helix 02 系统：统一的全身 VLA § Helix 02 被定义为一个统一的全身行走-操作 vla-视觉-语言-动作 模型。它将机载的全部传感器（视觉、触觉、本体感知）直接连接到所有执行器，实现了“感觉、思考、行动”的一体化。 其核心创新在于引入了 2 三层架构： System 2（慢系统）：负责高层语义推理，理解场景和语言，将任务拆解为行为目标。 System 1（快系统）：以 200Hz 运行，将感知转化为全身关节目标，实现 pixels-to-whole-body（像素到全身）的控制。 System 0（极快系统）：以 1kHz 运行，负责平衡、接触处理和全身协调。 System 0：数据驱动的运动先验 § System 0 是基于 1000 多小时人类运动数据训练得到的全身控制器，结合了 sim2real 技术。 替代手工代码：用一个神经网络先验替代了 109,504 行手工编写的 C++ 控制代码。 通用性：它不针对特定动作（如走路或伸手），而是学习人类在保持平衡与稳定前提下的底层运动先验。 作用：当上层规划“做什么”时，System 0 保证身体能“稳定地做出来”。 泛化能力：数据即技能 § 团队强调，此次解锁客厅整理任务，并未新增算法，也未进行特殊场景的工程适配，仅通过补充最新场景数据，便让系统掌握了新技能。这证明了其架构在处理融合移动、操作与环境感知任务时的强大泛化能力。 公司背景与融资 § 创始人：Brett Adcock，连续创业者。 合作破裂：2025 年 2 月，Figure 宣布与 OpenAI 解约。据 TechCrunch 报道，原因在于 AI 模型与机器人硬件的集成环节出现分歧。 融资情况：2025 年 9 月，Figure 完成 C 轮融资，斩获超 10 亿美元，投后估值达 390 亿美元，创下具身智能赛道最高估值纪录。英伟达（NVIDIA）在此轮融资中持续加注。 结论 § Figure 的 Helix 02 系统通过端到端的神经网络架构和数据驱动的学习方式，展示了人形机器人在非结构化环境中的巨大潜力。其自研路径（特别是 System 0 的引入）与依赖外部通用大模型的路径形成了鲜明对比，为具身智能的落地提供了重要的技术参考。."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="sources/机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#机器人全程自主收拾客厅390亿美元估值机器人端到端新技能英伟达持续加注" data-for="机器人全程自主收拾客厅390亿美元估值机器人端到端新技能英伟达持续加注">机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注</a></li><li class="depth-1"><a href="#摘要" data-for="摘要">摘要</a></li><li class="depth-1"><a href="#核心内容" data-for="核心内容">核心内容</a></li><li class="depth-2"><a href="#技术演示自主整理客厅" data-for="技术演示自主整理客厅">技术演示：自主整理客厅</a></li><li class="depth-2"><a href="#helix-02-系统统一的全身-vla" data-for="helix-02-系统统一的全身-vla">Helix 02 系统：统一的全身 VLA</a></li><li class="depth-2"><a href="#system-0数据驱动的运动先验" data-for="system-0数据驱动的运动先验">System 0：数据驱动的运动先验</a></li><li class="depth-2"><a href="#泛化能力数据即技能" data-for="泛化能力数据即技能">泛化能力：数据即技能</a></li><li class="depth-2"><a href="#公司背景与融资" data-for="公司背景与融资">公司背景与融资</a></li><li class="depth-1"><a href="#结论" data-for="结论">结论</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注</h1><p class="content-meta">Mar 10, 2026, 5 min read</p><ul class="tags"><li><a href="../tags/embodied-ai" class="internal tag-link">#embodied-ai</a></li><li><a href="../tags/robotics" class="internal tag-link">#robotics</a></li><li><a href="../tags/figure" class="internal tag-link">#figure</a></li><li><a href="../tags/nvidia" class="internal tag-link">#nvidia</a></li><li><a href="../tags/vla" class="internal tag-link">#vla</a></li><li><a href="../tags/helix-02" class="internal tag-link">#helix-02</a></li><li><a href="../tags/source" class="internal tag-link">#source</a></li></ul></div></div><article class="popover-hint"><h1 id="机器人全程自主收拾客厅390亿美元估值机器人端到端新技能英伟达持续加注">机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注<a aria-hidden="true" tabindex="-1" href="#机器人全程自主收拾客厅390亿美元估值机器人端到端新技能英伟达持续加注" class="internal"> §</a></h1>
+<h2 id="摘要">摘要<a aria-hidden="true" tabindex="-1" href="#摘要" class="internal"> §</a></h2>
+<p>本文报道了 <a href="../Figure" class="internal">Figure</a> 公司发布的最新进展，其 <a href="../Figure-02" class="internal">Figure 02</a> 机器人在 <a href="../Helix-02" class="internal">Helix 02</a> 系统的驱动下，实现了完全自主、端到端的客厅整理任务。文章详细解析了 Helix 02 的三层架构（System 0/1/2），强调了其“数据驱动”而非“算法重写”的泛化能力，并披露了 Figure 与 OpenAI 分道扬镳的细节及英伟达持续加注的融资背景。</p>
+<h2 id="核心内容">核心内容<a aria-hidden="true" tabindex="-1" href="#核心内容" class="internal"> §</a></h2>
+<h3 id="技术演示自主整理客厅">技术演示：自主整理客厅<a aria-hidden="true" tabindex="-1" href="#技术演示自主整理客厅" class="internal"> §</a></h3>
+<p>Figure 02 机器人在家庭环境中完成了一系列复杂任务，包括：</p>
+<ul>
+<li><strong>清洁表面</strong>：喷洒消毒液并用毛巾擦拭茶几。</li>
+<li><strong>物品收纳</strong>：将杂物拾起并归置到收纳桶中。</li>
+<li><strong>整理环境</strong>：摆正抱枕，精准使用遥控器关机并摆放好遥控器。</li>
+<li><strong>全身协作</strong>：将毛巾搭在肩上腾出双手，侧身穿过狭窄空间。</li>
+</ul>
+<p>整个演示过程持续近 4 分钟，全程无人为干预、无遥操作、无重置，展示了高度的自主性和鲁棒性。</p>
+<h3 id="helix-02-系统统一的全身-vla">Helix 02 系统：统一的全身 VLA<a aria-hidden="true" tabindex="-1" href="#helix-02-系统统一的全身-vla" class="internal"> §</a></h3>
+<p><a href="../Helix-02" class="internal">Helix 02</a> 被定义为一个统一的全身行走-操作 <a href="../concepts/vla-视觉-语言-动作" class="internal">vla-视觉-语言-动作</a> 模型。它将机载的全部传感器（视觉、触觉、本体感知）直接连接到所有执行器，实现了“感觉、思考、行动”的一体化。</p>
+<p>其核心创新在于引入了 <a href="../System-0/1/2" class="internal">2</a> 三层架构：</p>
+<ol>
+<li><strong>System 2（慢系统）</strong>：负责高层语义推理，理解场景和语言，将任务拆解为行为目标。</li>
+<li><strong>System 1（快系统）</strong>：以 200Hz 运行，将感知转化为全身关节目标，实现 <a href="../concepts/pixels-to-whole-body" class="internal">pixels-to-whole-body</a>（像素到全身）的控制。</li>
+<li><strong>System 0（极快系统）</strong>：以 1kHz 运行，负责平衡、接触处理和全身协调。</li>
+</ol>
+<h3 id="system-0数据驱动的运动先验">System 0：数据驱动的运动先验<a aria-hidden="true" tabindex="-1" href="#system-0数据驱动的运动先验" class="internal"> §</a></h3>
+<p>System 0 是基于 1000 多小时人类运动数据训练得到的全身控制器，结合了 <a href="../concepts/sim2real" class="internal">sim2real</a> 技术。</p>
+<ul>
+<li><strong>替代手工代码</strong>：用一个神经网络先验替代了 109,504 行手工编写的 C++ 控制代码。</li>
+<li><strong>通用性</strong>：它不针对特定动作（如走路或伸手），而是学习人类在保持平衡与稳定前提下的底层运动先验。</li>
+<li><strong>作用</strong>：当上层规划“做什么”时，System 0 保证身体能“稳定地做出来”。</li>
+</ul>
+<h3 id="泛化能力数据即技能">泛化能力：数据即技能<a aria-hidden="true" tabindex="-1" href="#泛化能力数据即技能" class="internal"> §</a></h3>
+<p>团队强调，此次解锁客厅整理任务，<strong>并未新增算法</strong>，也未进行特殊场景的工程适配，仅通过补充最新场景数据，便让系统掌握了新技能。这证明了其架构在处理融合移动、操作与环境感知任务时的强大泛化能力。</p>
+<h3 id="公司背景与融资">公司背景与融资<a aria-hidden="true" tabindex="-1" href="#公司背景与融资" class="internal"> §</a></h3>
+<ul>
+<li><strong>创始人</strong>：<a href="../Brett-Adcock" class="internal">Brett Adcock</a>，连续创业者。</li>
+<li><strong>合作破裂</strong>：2025 年 2 月，Figure 宣布与 <a href="../OpenAI" class="internal">OpenAI</a> 解约。据 TechCrunch 报道，原因在于 AI 模型与机器人硬件的集成环节出现分歧。</li>
+<li><strong>融资情况</strong>：2025 年 9 月，Figure 完成 C 轮融资，斩获超 10 亿美元，投后估值达 <strong>390 亿美元</strong>，创下具身智能赛道最高估值纪录。<a href="../entities/英伟达" class="internal">英伟达</a>（NVIDIA）在此轮融资中持续加注。</li>
+</ul>
+<h2 id="结论">结论<a aria-hidden="true" tabindex="-1" href="#结论" class="internal"> §</a></h2>
+<p>Figure 的 Helix 02 系统通过端到端的神经网络架构和数据驱动的学习方式，展示了人形机器人在非结构化环境中的巨大潜力。其自研路径（特别是 System 0 的引入）与依赖外部通用大模型的路径形成了鲜明对比，为具身智能的落地提供了重要的技术参考。</p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
