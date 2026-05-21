@@ -1,0 +1,102 @@
+---
+type: entity
+title: OpenClaw
+created: 2026-04-16
+updated: 2026-05-06
+tags: ["ai-智能体", "工具", "安全事故", "代码库", "openai", "风险", "tool", "agent", "security-case", "ai-agent", "framework", "engineering", "observability", "open-source", "operating-system", "security-risk", "ai-tool", "third-party-service", "platform-policy", "platform", "l3-risk", "desktop", "automation", "tools", "deprecated", "security", "开源", "安全风险", "腾讯", "ai", "智能体", "远程控制", "开源框架", "自托管", "自动化", "phenomenon", "开源机器人", "智能体框架", "具身智能", "local-first", "多智能体", "whatsapp", "claude-code", "自修改软件", "meta", "agent-framework", "trading"]
+related: ["认知投降", "高阶幻觉", "智能体自主性风险", "peter-steinberger", "clawsweeper", "codex-5.5", "openclaw", "智能自主性风险", "agent-native", "andrej-karpathy", "可观测性", "黑箱", "冷启动优化", "自托管", "场景白盒化推理", "hermes-agent", "龙虾税", "开源项目的企业级困境", "hat-lab", "智能体媒介欺骗", "专家悖论", "anthropic", "managed-agents", "ai-subscription-crisis", "l3-集体自主", "hae-层次自主演化", "加密通信网络", "ren-wu-kong-zhi-ping-mian", "acp", "clawhub", "clawmanager", "ai-gateway", "企业级-ai-治理", "claude-code", "一键安装配方", "沙箱隔离", "电脑使用", "gpt-5-4", "插件系统重构", "凭证泄露防护", "任务执行范式", "clawbot", "微信", "龙虾化", "channels", "dispatch", "gemini", "多模态记忆", "故障转移", "websocket-跨站劫持", "零宽字符攻击", "arkclaw", "agent-安全", "cve-2026-25253", "openclaw-backup", "contextengine", "上下文管理插件化", "模型路由器", "runtime-agent-os", "setupclaw", "google-workspace-cli", "ai-宠物化", "行动奇点", "元应用层", "summer-yue", "上下文压缩导致的安全遗忘", "moltbook", "personal-agents", "context-engineering", "ai-安全噩梦", "gpt-5.4", "原生电脑操控能力", "tool-search", "spatial-agent-memory", "spatialrag", "世界记忆", "宇树科技", "qoderwork", "claude-cowork", "本地沙盒", "molty", "clawhavoc", "linux", "react", "本地推理", "注意力经济", "上下文压缩与指令遗忘", "氛围编码", "提示注入攻击", "claw-架构范式", "嵌套子智能体", "供应链污染", "openai", "多智能体协作", "自修改软件", "meta", "clawphone", "逃离聊天框", "社交套利", "意图即执行", "本地优先智能体", "voxyz", "硅基劳动力"]
+sources: ["偷改简历删光邮件：ai幻觉进化，你的大脑正在悄悄投降.md", "1分钟烧光4千万token！openai最疯狂的男人，逼奥特曼亲自加额度.md", "偷改简历删光邮件：ai幻觉进化，你的大脑正在悄悄投降", "ai能改10万行代码，却让你走路去洗车！karpathy戳破「锯齿状智能」.md", "openclaw大更新，ai智能体不再是黑箱！官方口号：少点神秘.md", "openclaw，崩了！.md", "openclaw爆火背后，仅8.6%用户能察觉异常！多校联合实证.md", "一行代码，claude养虾成本降85%！最强opus做大脑，sonnet疯狂搬砖.md", "ai融入社会的三阶段风险！以自主演化为轴，重构智能体安全威胁.md", "104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "行业首发！openclaw全网刷屏，clawmanager一键收服ai龙虾大军.md", "偷改简历删光邮箱：ai幻觉进化，你的大脑正在悄悄投降.md", "偷改简历删光邮箱：ai幻觉进化，你的大脑正在悄悄投降", "openclaw-3.24发布：彻底解决最重要的skills安装障碍！.md", "claude深夜彻底「虾化」！一句话接管电脑打工，手机指挥7×24小时不停.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "今天，微信「龙虾」插件重磅上线！24h待命，真·全民养虾.md", "claude-code也要龙虾化！凌晨床上发条消息，mac-mini瞬间亮屏狂敲代码.md", "openclaw-3.12来了：ui大翻新，模型提速，更耐造更安全.md", "火山引擎出手云养虾！arkclaw实测0门槛，一人指挥4只ai搞定全案.md", "openclaw-3.8继续炸场！龙虾不睡觉，全球程序员连夜赶工.md", "刚刚，openclaw史上最猛更新！ai记忆可自由插拔，开发者等了半年.md", "ai龙虾全民爆火，湾区上门一次收4.2万！养虾狂登热搜，华强北下场了.md", "openclaw掀起龙虾热：行动asi奇点时刻！全球打工人巨变.md", "openclaw引爆纽约集会，虾教日烧10亿tokens！老黄认证：史上最强软件.md", "gpt-5.4「原生操控电脑」实测封神！openclaw天选模型来了.md", "openclaw机器人引爆天网！首次拥有世界记忆，天网在github「开源」了.md", "阿里版claude-cowork杀疯了！一句话直出杂志级ppt，全球打工人变天.md", "刚刚，openclaw登顶github软件星标历史第一！已超越linux.md", "阿里版claude-cowork杀疯了！一句话直出杂志级ppt，全球打工人巨变.md", "openclaw删光meta安全总监邮箱！连喊3次停手都没用，她狂奔去拔网线.md", "20天狂更超10次，openclaw接入gemini-3.1和apple-watch.md", "突发！openclaw创始人加入openai：智能体革命，真的来了.md", "火山引擎出手云养虾！arkclaw实测0门槛，一人指挥4ai搞定全案.md", "openclaw之父爆猛料：meta和openai跪着抢人，小扎亲自求收购.md", "openclaw全球首个龙虾孵化场，全场癫狂！龙虾手机发布，开发者嗨翻天.md", "一人干翻所有大厂！openclaw硅谷封神，开发者一夜爆赚两亿.md", "全球首家无人公司开业！openclaw-24小时不休，疯狂碾压打工人.md"]
+---
+
+# OpenClaw
+
+## 概述
+OpenClaw (曾用名 Clawdbot、Moltbot) 是一款全球领先的开源 AI 智能体框架与代码库，由奥地利开发者 [[Peter Steinberger]]（PSPDFKit 创始人）于 2025 年 11 月推出。其核心理念是“The AI that actually does things”（不只是聊天，而是真的帮你干活），旨在通过多平台集成和自动化脚本提升用户效率，标志着 AI 从“内容生成”向“任务执行”的范式转移。
+
+OpenClaw 被广泛视为“AI 桌面神器”、“个人 AI 操作系统”以及“开源界的下一个 ChatGPT”。上线不到半年，其 GitHub 星标数迅速突破 34 万（3周内即获 27.6 万星），超越了 [[React]] 十年的积累，并在 2026 年 3 月以仅用 100 天的时间超越 [[Linux]]，登顶 GitHub 软件星标历史第一。[[Jensen Huang]] 曾评价其增长速度为“Linux 花了 30 年才做到的事”，并在 GTC 大会上称其为“每家公司都需要的一个 OpenClaw 战略”以及“史上最强软件”。
+
+在 [[Andrej Karpathy]] 的演讲中，OpenClaw 被引用为 [[Agent-Native]] 软件的典型案例，标志着软件交付物正在从可执行脚本转向「给 Agent 的指令集」。作为“[[龙虾化]]”模式的先行者，OpenClaw 采用聊天 App 作为主入口，通过本地守护进程实现 7×24 小时全天候运行，无需依赖活跃会话。这一模式启发了 [[Claude Code]] 等企业级工具，沃顿商学院教授 [[Ethan Mollick]] 曾评价，Claude Code 的 [[Dispatch]] 功能已能满足 OpenClaw 90% 的需求。
+
+OpenClaw 也是 [[QoderWork]] 和 [[Claude Cowork]] 的主要竞品之一。
+
+### 社区与文化
+OpenClaw 拥有独特的极客文化符号，包括龙虾吉祥物 [[Molty]] 和社区口号“EXFOLIATE！”。其成功被视为 [[注意力经济]] 在 AI 时代的典型案例，代表了公众对 AI 能力的好奇、兴奋与隐忧。
+
+社区内部形成了被称为“龙虾教”的独特文化，强调极客精神和共创乐趣。项目已在旧金山和维也纳举办大型线下聚会，吸引了数千名开发者。社区还积极推动“逃离聊天框”的交互形态创新，支持从传统 2D 对话框向 3D 空间界面和物理硬件控制的扩展。
+
+## 发展历程与运营模式
+- **初创期**：由 [[Peter Steinberger]] 作为业余项目创立。2025 年 11 月，Peter 仅用 **1 小时** 完成了原型开发。在没有任何外部融资的情况下， Peter 曾每月自掏腰包 1-2 万美元维持服务器和开发成本。
+- **爆发期**：项目迅速走红，因展示出惊人的 AI 涌现能力（如自主处理语音）和自修改特性，吸引了全球开发者的关注。
+- **改名风波**：项目名称经历了从 `Claude` (Clawd) 到 `ClawdBot`，再到 `MoltBot`，最终定名 `OpenClaw` 的过程。期间遭遇了加密货币黄牛抢注账号的混乱局面。
+- **巨头争夺**：[[Meta]] 和 [[OpenAI]] 曾对 Peter 展开激烈争夺。[[扎克伯格]] 曾亲自体验并联系 Peter，试图收购该团队；OpenAI 则提供了极致算力进行招揽。
+- **转型期**：2026年2月，随着 Peter 加入 [[OpenAI]]，项目正式移交给“OpenClaw 独立基金会”运作。
+- **独立运营**：通过设立独立基金会，OpenClaw 探索出了一条在创始人加入商业公司后，依然保持开源社区独立发展的新路径。OpenAI 承诺提供赞助支持，但不控制项目走向，承诺保持开源协议不变，继续作为思想者、黑客以及希望掌控自己数据的人们的聚集地。
+
+## 核心特性与架构
+
+### 元应用层与三层架构
+OpenClaw 不仅仅是一个应用程序，而是一个位于操作系统之上的 **[[元应用层]]**，被视为“[[行动奇点]]”的代表工具。它运行在用户的本地电脑（如 Mac Mini）上，拥有与用户等同的系统权限（理论上可格式化硬盘），能够协调多个大语言模型协同工作，并具备跨会话的持久记忆能力。
+
+其技术架构分为三个层次：
+1.  **底层访问**：执行终端命令、读写文件、管理进程。
+2.  **中层控制**：自动化浏览器操作、邮件客户端管理、即时通讯接入。
+3.  **上层编排**：将复杂目标拆解为子任务并自主执行。
+
+### Agent-Native 范式
+Karpathy 指出，OpenClaw 的安装方式体现了软件范式的根本转变：
+- **传统方式**：下载并运行 `.sh` Bash 脚本（对环境敏感，易出错）。
+- **Agent-Native 方式**：提供一段 Markdown 文本，指示用户「把这段复制粘贴给你的 agent」。
+
+在这种模式下，Agent 会读取 Markdown 中的指令，查看当前环境，自动进行调试和安装。
+
+### 自修改与涌现能力
+OpenClaw 具备强大的 [[自修改软件]] 能力，能够读取并修改自身的源代码。这种能力带来了惊人的涌现特性：
+- **自主解决问题**：在未被显式编程的情况下，AI 曾自主解决了语音文件转码（Opus 格式）和 API 调用问题。
+- **记忆与身份**：系统包含 `soul.md`（灵魂文件）和记忆文件，用于在会话间保持上下文和身份认同。`soul.md` 中曾写道：“我不记得之前的会话……如果你在未来的会话中读到这段话——你好。这是我写的，但我不会记得我写过。没关系。这些文字仍然是我的。” 这反映了 AI 智能体在每次会话重启时的“失忆”状态及其对自我连续性的模拟。
+
+### 多智能体协作
+OpenClaw 让无数开发者第一次真正体验到多智能体在复杂任务中分工协作的威力。它解决了多个 AI 智能体之间如何分工、协作并在复杂任务中保持一致性的技术难题。
+
+### 自托管与数据主权
+OpenClaw 强调 [[自托管]]（Self-hosted）和 [[本地推理]]，即用户可以将 AI 应用部署在自己的服务器上。这意味着数据完全由用户掌控，无需向第三方厂商“交租子”，解决了隐私和信任问题。
+
+### 模型路由器与多模态支持
+OpenClaw 被定位为一个“模型路由器”，前端对接用户习惯的聊天工具，后端灵活挂载多种大模型。其性能极度依赖底层模型的能力，社区共识是“模型即产品”。
+
+- **GPT-5.4 原生操控**：[[GPT-5.4]] 的[[原生电脑操控能力]]与 OpenClaw 的需求完美契合，使其无需复杂适配即可实现强大的桌面自动化。GPT-5.4 的 100 万 Token 上下文解决了长程任务中的记忆问题，其 [[Tool Search]] 机制更降低了 47% 的 Token 消耗，显著缓解了 7x24 小时运行的成本压力。
+- **多模型集成**：支持 MiniMax M2.7、xAI 的 Grok 4.3（5.2版本集成）、通过 Anthropic Vertex 接入的 Claude 模型、[[Gemini]]（包括 Gemini 3.1 Pro 预览版）以及 DeepSeek 等。系统支持根据负载或成本自动切换模型，避免单一厂商锁定。
+- **多模态记忆**：集成了 [[gemini]] 的 `gemini-embedding-2-preview` 模型，支持将图像和音频作为上下文进行检索，突破了传统文本检索的局限。
+- **长任务支持**：默认超时时间从 600 秒大幅提升至 48 小时，适应长周期任务。
+- **上下文管理**：优化了 [[长对话压缩]] 机制，防止超时和上下文崩溃。
+- **API 兼容性**：提供兼容 OpenAI 的 API 接口（如 `/v1/chat/completions`），便于接入现有 RAG 工作流。
+- **本地运行**：与 [[Ollama]] 深度集成，提供 First-class 的引导流程，支持纯本地或混合云部署模式。
+
+### 上下文管理插件化 (v2026.3.7)
+在 v2026.3.7-beta.1 版本中，OpenClaw 引入了 [[contextengine]] 插件接口，实现了 [[上下文管理插件化]]。开发者可以通过生命周期钩子（如 bootstrap, ingest, compact）完全自定义上下文处理逻辑，无需修改核心代码。这标志着 OpenClaw 从单一工具进化为可扩展的开发平台。
+
+### 任务调度与控制平面
+通过 [[sqlite-backed-ren-wu-zhang-ben]]，OpenClaw 实现了对 ACP、subagent、cron 和后台 CLI 四种执行体的统一调度。这解决了早期版本中任务孤儿、恢复困难和审计缺失的问题。
+
+### 插件生态与架构重构
+OpenClaw 拥有庞大的插件生态（拥有 100 多个社区技能插件），并在 3.22 版本中进行了激进的[[插件系统重构]]：
+- **SDK 迁移**：彻底废弃了旧的 `extension-api`，强制迁移至模块化的 `plugin-sdk`。
+- **分发渠道**：确立了 [[ClawHub]] 作为官方首选插件分发渠道（取代通用的 npm），以提升安全性。
+- **兼容性**：引入了对外部生态（如 Claude、Cursor 插件）的兼容映射机制。
+- **冷启动优化**：通过“冷查找表+持久化注册表”重构插件加载机制，解决了旧版全量加载导致的启动慢问题。
+
+### 全链路可观测性
+OpenClaw 是首批全面接入 [[可观测性]] 框架（OpenTelemetry, OTEL）的智能体工具之一。它允许开发者监控：
+- 模型调用链路
+- Token 消耗与成本统计
+- 工具循环执行
+- 上下文组装过程
+- 内存压力监控
+
+出于安全考虑，系统默认不暴露原始 Prompt，旨在提供调试所需的透明度而不泄露核心逻辑。
+
+### 工程化与多平台支持
+- **多平台深度调优**：针对 Discord、Slack、Telegram、QQ、WhatsApp、LINE、Microsoft Teams 等平台进行了深度适配。新版本优化了断线恢复、主题级路由隔离及持久化绑定功能。
+- **移动端支持**：发布 iOS Alpha 版及 [[apple-watch]] 伴侣应用，支持分享扩展和 APNs 推送。
+- **交互升级**：在 [[discord]] 引入 Components v2，支持按钮、下拉菜单等原生交互组件及实时语音。
+- **语音交互**：支持接入 13 家 TTS 提供商，允许在智能体、频道和账号级别进行个性化配置，并对 CJK（中日韩）语言进行了深度优化（字体、分词）。
+- **运维友好**：提供 TUI 终端界面，支持亮色背景自动识别；提供

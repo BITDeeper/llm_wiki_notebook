@@ -1,0 +1,54 @@
+---
+type: concept
+title: KV Cache
+tags: [推理, 显存, 瓶颈, 优化, llm, 内存, 架构, inference, memory, optimization]
+related: [turboquant, pagedattention, flexkv, 量化, 推理优化, Split-K 优化, polarquant, qjl, ai-subscription-crisis]
+created: 2026-05-03
+updated: 2026-05-08
+sources: ["vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503.md", "谷歌一篇论文引爆存储芯片崩盘！ai内存需求暴降6倍，推理狂飙8倍.md", "谷歌新论文把内存股价干崩了！kv-cache压缩6倍，“谷歌的deepseek时刻”.md"]
+---
+
+# KV Cache
+
+**KV Cache**（Key-Value Cache，键值缓存）是大语言模型（LLM）在推理阶段用于存储中间状态的显存区域。它相当于模型的“运行记忆”，用于加速计算并避免重复处理。
+
+## 工作原理
+
+在 Transformer 架构的自回归生成过程中，模型需要关注（Attention）之前生成的所有 Token 来计算注意力分数。为了避免每次都从头计算所有历史 Token，系统会将每一层注意力机制产出的 Key (K) 和 Value (V) 向量缓存起来。当生成新 Token 时，模型只需计算新 Token 的 K 和 V，并与缓存中的历史 K、V 进行交互。
+
+## 核心瓶颈：内存墙
+
+KV Cache 是推理阶段最大的内存瓶颈之一，其挑战主要体现在：
+
+*   **线性膨胀**：随着上下文长度（对话轮次）的增加，KV Cache 的大小呈线性甚至超线性增长。
+*   **显存占用**：对于长上下文（如 128k 或 1M Token），KV Cache 的显存占用往往会反超模型参数本身，可能达到几十 GB。
+*   **吞吐量限制**：巨大的内存需求限制了单卡能处理的并发请求数量，使得显存容量和带宽，而非 GPU 的算力，成为了大模型推理的主要制约因素。
+*   **部署成本**：高昂的内存需求限制了长上下文模型在低成本设备上的部署，也推高了 API 服务的成本。
+
+## 优化技术
+
+为了解决 KV Cache 带来的显存压力，工程界发展出了多种优化技术：
+
+1.  **量化**：
+    通过降低数值精度来压缩 KV Cache 的大小。例如，将 K 和 V 向量的精度从 FP16/BF16 降低到 INT8、INT4 甚至更低。[[TurboQuant]] 是其中的最新代表，它通过极坐标量化（PolarQuant）等技术将精度压至 2-bit/3-bit，在几乎不损失精度的情况下将显存占用减少数倍。
+
+2.  **PagedAttention**：
+    由 [[vLLM]] 引入，借鉴操作系统的分页内存管理，将 KV Cache 分页存储。这不仅解决了 KV Cache 的碎片化问题，还显著提高了显存利用率。
+
+3.  **架构压缩**：
+    从模型架构层面进行优化。例如 [[DeepSeek V4]] 使用的 [[MLA]] (Multi-Head Latent Attention)，通过数学变换在架构层面压缩 KV 的维度。
+
+4.  **卸载**：
+    利用 [[FlexKV]] 等技术，将 KV Cache 从 GPU 显存卸载到 CPU 内存、SSD 甚至远程存储，以突破单卡显存的物理限制。
+
+5.  **共享缓存**：
+    在多轮对话或批量推理中，通过共享部分 KV Cache（如相同前缀）来减少冗余存储。
+
+## 经济影响
+
+KV Cache 的效率直接影响 AI 推理的成本。高效的压缩技术（如 [[TurboQuant]]）可以显著降低内存需求，从而缓解 [[ai-subscription-crisis]]，使长上下文应用更具商业可行性。
+
+## 参见
+
+*   [[TurboQuant]] — 谷歌提出的极致 KV 缓存压缩算法。
+*   [[Split-K 优化]] — 一种常见的 GPU 矩阵乘法优化技术，常与内存优化配合使用。

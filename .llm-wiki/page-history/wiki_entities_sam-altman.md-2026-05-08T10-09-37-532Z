@@ -1,0 +1,95 @@
+---
+type: entity
+title: Sam Altman
+tags: ["openai", "人物", "ceo", "愿景家", "person", "ai", "vision", "apology", "leadership", "商业", "ai-safety", "controversy", "figure", "ai-ethics", "agi", "争议", "social-policy", "people", "ai-leaders", "预言", "yc", "strategy", "商业化", "战略家", "加速主义", "ai-leadership", "企业家", "投资人", "investor", "executive", "ai-strategy", "融资", "战略", "奇点", "递归自我改进", "ai-memory", "创业者", "创始人", "诉讼", "scaling-law", "entrepreneur"]
+related: ["greg-brockman", "openai", "stargate-openai", "chatgpt", "星际之门项目", "elon-musk", "sarah-friar", "dario-amodei", "tumbler-ridge-shooting", "law-enforcement-referral", "fidji-simo", "anthropic", "helion-energy", "stoke-space", "微软", "chatgpt-images-2-0", "gabriel-goh", "chronicle", "agi", "ai-takeoff", "ai-末日论", "ilya-sutskever", "信任塌陷", "魔戒效应", "叙事与现实的断裂", "ai-民主化", "openai-governance-crisis", "paul-graham", "jan-leike", "superalignment", "ronan-farrow", "demis-hassabis", "社会韧性", "智能时代的产业政策", "新社会契约", "超级智能", "奥本海默死局", "ai-military-complex", "medvi", "matthew-gallagher", "超级个体", "一人公司", "sora", "spud", "chatgpt-images-2.0", "mark-chen", "stargate", "战略大收缩", "红色警报", "后-transformer-架构", "ai-ceo", "gpt-series", "jakub-pachocki", "openai-宫斗事件", "jony-ive", "循环融资", "ai-advertising", "时间折叠术", "星门计划", "施乐悖论", "asi", "scaling-law", "microsoft", "first-proof", "retro-bio", "gpt-4o", "gpt-4b-micro", "ai-伴侣", "gpt-5-3-codex", "claude-opus-4-6", "ai-普惠", "ai-广告模式", "杰文斯悖论", "流动的软件", "ai-subscription-crisis", "注意力稀缺", "高主观能动性", "现金流枯竭", "重资产游戏", "数字伴侣", "温和的奇点", "递归式自我改进", "codex", "michael-burry", "ai-memory", "digital-self", "jerry-tworek", "openai-人才流失", "gpt-5-1", "红色代码", "gpt-4", "google-deepmind", "审美法官", "head-of-preparedness", "ai-safety-hollowing-out", "apple", "焊死在系统里", "gpt-5-2", "gemini", "google-gemini", "gpt-5", "预训练瓶颈", "gpt-image-2", "chen-boyuan", "bret-taylor", "利益冲突", "helion", "merge-labs", "agi-魔戒-effect", "ai-焦虑", "非营利宗旨背离", "the-blip", "aaron-swartz", "ai-capex-lock-in", "tbpn", "john-coogan"]
+created: 2025-12-14
+updated: 2026-05-08
+sources: ["奥特曼9年后再发声：没有他就没有openai！.md", "今天起，chatgpt合体openclaw！codex上线「养宠」，码农觉都不睡了.md", "chatgpt卸载暴涨413%，claude下载激增100%！奥特曼帝国开始漏水了.md", "马斯克庭审手撕openai！3800万捐款变「笑话」，11年理想碎了.md", "刚刚，美国ai霸主换了！anthropic年收300亿，碾压openai.md", "奥特曼，正式向公众道歉.md", "openai，危机四伏.md", "马斯克vs奥特曼终极审判！不要1870亿，把openai还给我.md", "奥特曼亲自上阵，images-2.0登顶王座！大米刻字，生图跨入gpt-5时代.md", "比openclaw还狠！奥特曼押注「心灵感应」，codex直接读取你的屏幕.md", "马斯克庭审手撕openai！.md", "谷歌deepmind设立首个ai哲学家岗位，解决agi伦理困境.md", "突发！奥特曼豪宅遭二次袭击，燃烧弹之后又是深夜枪响.md", "奥特曼被投掷燃烧瓶，点燃了ai圈最深层的恐惧.md", "刚刚，奥特曼家被炸了！.md", "普利策得主万字起底奥特曼，anthropic-ceo：openai问题就在他身上.md", "刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "机器人交税养打工人！奥特曼ai新政曝光，上4休3要成真？.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "一人干翻2000人大厂！41岁程序员靠ai年入4亿美元，奥特曼：我想见他.md", "永别了，sora！奥特曼all-in超级app.md", "openai帝国濒临崩盘，奥特曼急招3500人反击！claude抢走70%新单.md", "anthropic逼急奥特曼：自砍副业，死磕claude主场.md", "奥特曼宣判transformer死刑！-agi两年内降临，下一代架构已在路上.md", "硅谷最危险战争！anthropic死扛封杀，营收狂飙190亿.md", "ai海啸将至，全人类还没准备好！anthropic-ceo警告.md", "神反转！特朗普刚封杀claude，转头就合作openai？上亿政治献金被扒出.md", "忍无可忍，ilya宫斗奥特曼！微软cto爆内幕：全因嫉妒下属太优秀？.md", "硅谷最危险战争！anthropic死扛封封杀，营收狂飙190亿.md", "烧6000亿算力，冲2800亿营收！openai豪赌2030.md", "办公桌放铀棒、0股份掌权7500亿：福布斯万字还原真实奥特曼.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "普利策得主万字还原真实奥特曼，anthropic-ceo：openai问题就在他身上.md", "1000亿美金！openai估值飙到8500亿，anthropic：我今年就超你.md", "震撼！openai神秘模型连破6道前沿难题，奥特曼：ai在造「新知识」.md", "今夜，openai杀死了gpt-4o.md", "忍无可忍，ilya宫斗奥特曼！微软cto爆内幕：全为嫉妒下属太优秀？.md", "openai强制「处死」gpt-4o！80万老粉全网拯救：它不是代码是爱人.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4.6", "-奥特曼真急了.md", "豪掷上亿只为说我不恰饭？claude这波骑脸，奥特曼彻底急了.md", "只会写代码没戏了！奥特曼最新面试题曝光：1人要干1个团队的活.md", "纽约时报：openai或将在18个月内现金流枯竭.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4-6", "chatgpt确认卖广告！奥特曼：挣钱嘛不寒碜.md", "硅谷大空头杀回来了！做空甲骨文，英伟达万亿ai泡沫要崩？.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "推理之父走了！openai七年元老离职：有些研究这里没法做.md", "openai的2026：要么封神，要么破产.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远？.md", "sam-altman：我嫉妒死现在的年轻人了！.md", "ilya闹翻，奥特曼400万年薪急招「末日主管」！上岗即「地狱模式」.md", "奥特曼摊牌：别再比模型跑分了，苹果才是真宿敌.md", "gpt-5.2降智遭全网差评！奥特曼慌了.md", "openai的「梦醒时分」.md", "拉响紧急警报后，奥特曼再遭暗讽：孤注一掷，或将死无全尸！.md", "1000亿美金！openai估值估值飙到8500亿，anthropic：我今年就超你.md", "一夜变天！谷歌一刀砍向两巨头：奥特曼急了，黄仁勋慌了.md", "太抓马了！马斯克openai开庭，硅谷巨富互揭老底像极了村口吵架.md", "gpt-image-2研究科学家陈博远：我在openai修中文.md", "堪比纪录片！openai总裁讲述72小时内讧始末.md", "sora之父跑路！openai一日流失三高管，资本还密谋换掉奥特曼.md", "奥特曼遭遇死亡威胁：凌晨家中被投燃烧瓶.md", "马斯克死磕奥特曼：赔款我不要，但他必须离开openai董事会.md", "ilya曝光70页openai绝密文件.md", "openai又曝出内讧了！ipo前夜高层大换血.md", "普利策奖得主万字还原真实奥特曼，anthropic-ceo：openai问题就在他身上.md", "openai收购了一家脱口秀公司.md"]
+---
+
+# Sam Altman
+
+Sam Altman（萨姆·奥特曼）是 [[OpenAI]] 的首席执行官（CEO）兼联合创始人，也是硅谷知名创业孵化器 Y Combinator 的前总裁。他被视为 AI 时代最具影响力的领导者之一，以对 [[scaling-law]] 的激进信仰、宏大的投资愿景以及推动通用人工智能（AGI）发展的决心著称。然而，随着公司陷入财务与竞争危机，以及个人遭遇安全威胁，其公众形象正经历从“手握普罗米修斯之火的先知”到为生存焦虑的普通 CEO 的剧烈跌落。
+
+## 核心信念与愿景
+
+### 共享繁荣与技术普惠
+Altman 坚信 AI 应当赋能每个人，其利益应由全社会共享，而非由少数实验室独占。他反对任何单一实体对 AGI 的绝对控制，主张通过广泛共享技术（如提供免费版 ChatGPT）来避免权力集中。
+
+### 算力经济与 Scaling Law
+他预判未来的经济形态将由算力驱动，强调算力分配将是社会未来的核心议题。他对 [[scaling-law]] 抱有激进信仰，坚信算力 scaling 带来智能爆发。
+
+### 迭代部署与适应性
+Altman 支持 [[迭代部署]] 的策略，即逐步发布 AI 模型的中间版本，以便在真实世界中收集反馈并修复安全漏洞。他强调在超级智能时代，迅速改变想法和策略的能力至关重要。
+
+## 在 OpenAI 的历程
+
+### 创立初期与使命
+Altman 与 [[Greg Brockman]] 和 [[Ilya Sutskever]] 共同创立了 OpenAI。在 2015 年纳帕谷的会议中，他发挥了关键作用，促成了核心团队的组建，并确立了构建通用人工智能（AGI）以造福全人类的使命。
+
+### 战略转型
+Altman 主导了 OpenAI 从非营利组织向设有营利性实体的混合结构的转型。这一决定主要基于对算力需求的现实考量——为了实现 AGI，需要筹集数十亿美元来建设超大规模数据中心和购买专用硬件（如 Cerebras）。这一转型虽然使 OpenAI 估值飙升至 8520 亿美元，但也引发了关于其是否背离非营利宗旨的巨大争议。
+
+### 2023 年宫斗事件
+Altman 是 2023 年 11 月“[[openai-宫斗事件]]”的中心人物：
+- **被解雇**：OpenAI 董事会突然宣布解除其职务，理由据称涉及沟通不畅。
+- **回归**：在 [[Greg Brockman]] 和全体员工的支持下，以及 [[Microsoft]] 等合作伙伴的压力下，他在被解雇约 5 天后重新担任 CEO。
+- **团队支持**：事件期间，他几乎获得了所有员工的公开支持，这被视为其领导力和个人魅力的体现。
+
+## 领导风格与战略危机
+
+### 激进的扩张与豪赌
+Altman 的领导风格以激进和冒险著称。
+- **6000 亿美元豪赌**：他公开承诺在未来五年投入 6000 亿美元用于算力建设，并签署了总额约 6650 亿美元的刚性租赁协议（即 [[ai-capex-lock-in]]）。这一决策基于他对算力 scaling 的坚定信念，但也引发了公司内部的巨大财务担忧。
+- **求“快”的 IPO 策略**：为了抢在竞争对手 [[Anthropic]] 之前上市，Altman 推动公司在 2026 年 Q4 完成 IPO，尽管内部认为准备工作极其仓促。
+
+### 红色警报与技术瓶颈
+面对 [[Google]] 发布 [[Gemini]] 3 及 [[GPT-5.2]] 发布后的市场失利，Altman 宣布公司进入“红色代码”或“红色警报”状态。
+- **预训练瓶颈**：[[OpenAI]] 在突破 GPT-4 级别的模型规模与复杂度上遭遇了 [[预训练瓶颈]]。
+- **紧急战略调整**：为应对危机，Altman 进行了紧急战略收缩，内部暂停了 AGI 研发和视频生成模型 [[Sora]] 的开发，将改进 ChatGPT 提至最高优先级。
+
+### 内部关系与冲突
+在 2026 年的内部权力斗争中，Altman 与多名高管关系紧张：
+- **与 CFO [[Sarah Friar]] 的决裂**：两人在 IPO 时间表和资本支出上存在根本性分歧。Altman 通过调整 Friar 的汇报线（不再向自己汇报）和在关键财务会议中排除她，实际上削弱了 CFO 的权力。
+- **对 COO [[Brad Lightcap]] 的调整**：将长期担任 COO 的 Lightcap 调离核心管理岗位，转任“特别项目”负责人，被外界解读为清洗异己或巩固权力。
+
+## 争议与评价
+
+### 诚信问题与内部指控
+尽管拥有愿景家的光环，Altman 的诚信问题也长期受到关注。
+- **内部备忘录**：根据 [[ilya-sutskever]] 曝光的机密文件（包括 70 页备忘录及 [[dario-amodei]] 的 200 页笔记），Altman 被指控为“撒谎成性”，被描述为“不受事实约束”且对欺骗后果缺乏顾虑。
+- **历史评价**：这种评价跨越了 20 年的时间跨度。早在 2013 年，[[aaron-swartz]] 就曾评价他具有“反社会人格”。
+
+### 领导风格与安全承诺
+Altman 被指在 2023 年 11 月的“[[the-blip]]”事件后，加速了 OpenAI 安全承诺的瓦解：
+- **资源削减**：包括削减 [[superalignment]] 团队的算力资源，从承诺的 20% 降至 1%-2%。
+- **流程绕过**：被指绕过安全审核流程发布产品，以追求速度和商业利益。
+
+### 行业评价与竞争视角
+竞争对手 [[Anthropic]] 的 CEO [[Dario Amodei]] 曾暗讽 Altman 的策略，指出如果技术收入增长不及预期，提前锁定巨额数据中心投资将是“灾难性的”。Amodei 嘲讽 OpenAI 的“红色代码”行为是“YOLO”（You Only Live Once，即孤注一掷），认为这是一种不顾后果的赌博心态。相较于 Anthropic 强调的“稳健”和 To B 策略，Altman 被认为在算力投入和 C 端市场竞争上采取了更为激进的姿态。
+
+## 商业模式与公众形象
+
+### 商业模式争议
+科技分析师 [[Ben Thompson]] 批评 Sam Altman 领导下的 [[OpenAI]] 拒绝采用广告模式，认为这放弃了将用户规模转化为更深护城河的机会。
+
+### 防御性姿态
+在播客节目《Bg2 Pod》中，当被问及如何填补巨额资金缺口时，Altman 表现出罕见的失态：“如果你想卖掉手里的股票，我会给你找个买家——真的，够了。”这种反应被外界解读为面对市场信心动摇时的极度焦虑。
+
+## 法律纠纷与诉讼
+
+### 与埃隆·马斯克的诉讼
+在 2026 年与 [[埃隆·马斯克]] 的诉讼中，奥特曼是主要被告。马斯克曾是共同创立 OpenAI 的战友，但在离开后，他指控奥特曼主导成立营利性子公司并引入微软巨额投资的行为背叛了“非营利、造福全人类”的初衷。
+
+#### 指控内容
+马斯克指控奥特曼利用非营利使命作为“诱饵”，在获得成功后将 OpenAI 转变为营利帝国，即 [[诱饵调包]]。马斯克提起诉讼，要求将奥特曼驱逐出董事会，并声称其行为欺骗了捐赠人。
+
+#### 证据与辩护
+- **短信记录**：2022 年，奥特曼曾回复马斯克关于 OpenAI 营利化的短信称“感觉确实不好”，被马斯克方用作承认不当行为的证据。
+- **募款邮件**：2015 年主动向马斯克募捐 3000 万美元，马斯克方主张这构成了法律上的 [[慈善信托]] 关系。
+- **私下沟通**：2023 年公开决裂后，奥特曼私下发短信称马斯克是“英雄”，试图维持关系。
+
+#### 应对策略
+由首席律师 [[威廉·萨维特]] 代表，通过展示马斯克早期的营利化意图邮件，试图证明马斯克起诉的真实动机是因未获得控制权而恼羞成怒。OpenAI 方面反击称这是马斯克出于“自负和嫉妒”的骚扰行为。
+

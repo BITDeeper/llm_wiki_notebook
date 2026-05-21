@@ -1,0 +1,26 @@
+---
+type: entity
+title: Composer 2
+created: 2026-04-22
+updated: 2026-04-22
+tags: [model, ai-programming, cursor, controversy]
+related: [cursor, kimi, ai-洗代码, 套壳争议]
+sources: ["追不上就直接买，马斯克600亿美元收购cursor.md"]
+---
+
+# Composer 2
+
+Composer 2 是 AI 编程工具 [[Cursor]] 推出的旗舰模型。它因在 2026 年 3 月引发的“套壳”争议而广受关注。
+
+## 争议事件
+
+### “套壳”风波
+2026 年 3 月，开发者逆向发现 Composer 2 的底层调用实际上是国产模型 [[Kimi]] K2.5，但 Cursor 在发布时并未明确说明这一点，宣称其为自研模型。这一行为被社区指责为“套壳”。
+
+### 后续发酵
+- [[elon-musk]] 在 X 平台上评论“就是 Kimi 2.5”，推高了舆论热度。
+- Cursor 随后承认疏忽，[[Kimi]] 官方也确认了授权合作，风波才逐渐平息。
+- 尽管存在技术独立性争议，但这并未影响 [[Cursor]] 的商业价值，它随后仍以 600 亿美元的高价被 [[SpaceX]] 收购。
+
+## 行业意义
+Composer 2 事件反映了 AI 创业公司在模型研发成本高企的背景下，通过 API 调用第三方模型快速构建产品的普遍现象。这也引发了行业对于“自研”定义和 [[ai-洗代码]] 边界的讨论。

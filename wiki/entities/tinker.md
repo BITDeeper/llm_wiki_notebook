@@ -1,0 +1,31 @@
+---
+type: entity
+title: Tinker
+tags: [产品, api, 微调, SDK, 训练框架, 原语, product, llm, customization]
+related: [thinking-machines-lab, mira-murati, 潞晨云, 函数原语, 算法与基础设施解耦, lora]
+sources: ["硅谷真实「无间道」！openai前cto怒斩泄密联创，奥特曼打包收了.md", "1人顶1个infra团队！openai前cto新招，让大模型训练跌成白菜价.md", "mira翁荔陈丹琦公司，让老黄掏出了600亿美金.md"]
+created: 2026-01-16
+updated: 2026-05-08
+---
+
+# Tinker
+
+[[Tinker]] 是 [[Thinking Machines Lab]] (TML) 于 2025 年 10 月发布的旗舰产品。它既是一个面向企业的模型定制平台，也是一个用于语言模型微调的 API、SDK 和技术范式。其核心目标是封装分布式训练与工程复杂度，使用户能够以更低的门槛和更短的路径进行定制化模型迭代，这符合 [[Mira Murati]] 创立 TML 时提出的降低先进 AI 使用门槛的愿景。
+
+## 核心功能与机制
+
+[[Tinker]] 通过将复杂的大模型训练流程拆解为一系列 [[函数原语]]（如 [[forward]]、[[backward]]、[[optimizer step]]），实现了算法设计与底层基础设施的彻底解耦。
+
+- **原语化接口**：将训练过程抽象为标准函数，支持像搭积木一样自由组合训练逻辑。
+- **屏蔽 Infra 复杂度**：开发者无需关心异构集群调度、并行策略优化和容错运维。
+- **低成本微调**：允许企业利用 LoRA（Low-Rank Adaptation）技术，在无需采购自有服务器的情况下，对基础大模型进行定制化微调。
+
+## 市场定位与生态
+
+作为 [[Thinking Machines Lab]] 的首个公开产品，[[Tinker]] 旨在通过 B2B 服务验证其商业模式，并为后续更强大的 AGI 系统积累数据和用户反馈。
+
+在生态兼容性方面，国内厂商 [[潞晨云]] 的微调 SDK 已宣布兼容 [[Tinker]] 接口。
+
+## 行业意义
+
+[[Tinker]] 的出现标志着大模型开发从“作坊炼丹”向“工业微调”的转变，使得算法工程师能够独立完成以往需要庞大 Infra 团队支持的工作。

@@ -1,0 +1,36 @@
+---
+type: concept
+title: Harness Engineering (挽具工程)
+tags: [ai-paradigm, system-design, infrastructure]
+related: [claude-code, 确定性工程基础设施, martin-fowler]
+created: 2026-05-01
+updated: 2026-05-01
+sources: ["撕开claude-code真相：让它好用的98.4%，是工程不是ai.md"]
+---
+
+# Harness Engineering (挽具工程)
+
+**Harness Engineering**（挽具工程）是一种将 AI 模型嵌入到确定性工程系统中的范式。该术语源自马术，指控制马匹方向的缰绳和马鞍。
+
+## 定义
+[[Martin Fowler]] 将其凝练为一个著名公式：**Agent = Model + Harness**。
+
+在这个公式中，“Model” 代表 AI 模型的原始能力（如 GPT-4 或 Claude），而 “Harness” 则是由上下文、工具、权限、评估和反馈循环组成的工程约束系统。就像一匹跑得很快但不知道方向的马，AI 模型需要 Harness 来决定它在特定任务中“往哪儿走”。
+
+## 核心逻辑
+这一范式挑战了“唯模型论”，指出在生产环境中，AI 系统的效能主要取决于 **Harness** 的质量，而非 Model 的智商。[[VILA-Lab]] 对 [[Claude Code]] 的分析提供了数据支撑：**98.4% 的代码是 Harness（确定性工程），仅 1.6% 是 Model 调用**。
+
+## 关键组件
+1.  **上下文管理**：如 [[CLAUDE.md]]，提供项目级长期记忆。
+2.  **工具路由**：决定模型何时调用何种工具（API、文件系统）。
+3.  **权限网关**：限制模型的操作边界，防止灾难性操作。
+4.  **错误恢复**：当模型输出错误时，由确定性代码进行拦截和修正。
+
+## 应用案例
+- [[OpenAI Frontier]]：通过 Linter 强制层级架构，实现 100 万行代码自动化。
+- [[Stripe Minions]]：利用 Harness 约束实现每周 1300+ PR 的自动化流程。
+- [[Claude Code]]：通过 `skills/` 和 `hooks/` 将通用模型转化为专业的编程助手。
+
+## 相关概念
+- [[确定性工程基础设施]]
+- [[Linter-as-Instruction]]

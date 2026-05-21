@@ -1,0 +1,36 @@
+---
+type: entity
+title: GPT-5.5
+tags: [ai-models, openai, benchmarks, model, llm, api]
+related: [grok-4-3, claude-opus-4-7, intelligence-index, openai, anthropic, codex-openai-enterprise]
+created: 2026-05-02
+updated: 2026-05-05
+sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "openai，危机四伏.md"]
+---
+
+# GPT-5.5
+
+## 概述
+[[GPT-5.5]] 是 [[OpenAI]] 发布的最新一代大语言模型，内部代号为“Spud”（土豆）。该模型于 2026 年 4 月 23 日上线，主打高效率与低幻觉，是 OpenAI 应对 [[Anthropic]] 竞争的核心产品。在 [[Intelligence Index]] 评测中，GPT-5.5 得分 60，被用作衡量其他模型性能的标杆。
+
+## 性能表现
+### 综合智力与基准测试
+- **Intelligence Index**：得分为 60，显著高于 [[Grok 4.3]] (53) 和 [[Claude Opus 4.7]] (57)。
+- **Terminal-Bench 2.0**：获得 82.7% 的分数。
+- **长上下文推理**：从上一代的 36.6% 提升至 74%。
+- **幻觉率**：较上一代下降 60%。
+
+### 代理任务与稳定性
+- **代理任务**：在 GDPval-AA 评测中，其 xhigh 版本领先 Grok 4.3 约 276 Elo。按标准 Elo 公式计算，Grok 4.3 面对它的预期胜率仅约 17%。
+- **稳定性**：在复杂推理、代码调试、长文核查和多步骤任务中表现出更高的稳定性。
+
+## 效率提升
+GPT-5.5 的核心卖点是效率的显著提升。早期测试者数据显示，达到 GPT-5.4 同等智能水平，GPT-5.5 消耗的 Token 显著更少：
+- **Thinking Heavy 模式**：2 分钟输出的质量优于 GPT-5.4 10 分钟的结果。
+- **Pro 版**：8 分钟的输出质量超过上一代 30 分钟的结果。
+
+## 商业策略
+尽管效率提升，但 GPT-5.5 的 API 定价翻了一倍（输入 5 美元，输出 30 美元每百万 token）。[[OpenAI]] 解释称由于 Token 效率提高，实际成本仅上涨 20% 左右。这一策略能否成功取决于其 Agent 能否真正跑通企业工作流。
+
+## 应用定位
+由于其强大的推理能力和较低的错误率，GPT-5.5 更适合承担高价值、高风险的任务，如深度推理、严谨事实核查、复杂代码编写和专业咨询。在需要“真正聪明和可靠”的场景下，它仍是优于 Grok 4.3 的选择。

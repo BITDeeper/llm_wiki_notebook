@@ -1,0 +1,20 @@
+---
+type: entity
+title: titanwings
+tags: [developer, open-source, github-user]
+related: [同事.skill, 前任.skill]
+created: 2026-04-04
+updated: 2026-04-04
+sources: ["「同事.skill」冲上热搜，离职同事已被炼化！.md"]
+---
+
+# titanwings
+
+**titanwings** 是 GitHub 用户，开源项目 [[同事.skill]] (Colleague-Skill) 的原作者。
+
+## 主要贡献
+- 开发了 [[同事.skill]]，提出并实现了 [[五层人格结构]] 的 [[人格封装]] 方法论。
+- 随后推出了衍生项目 [[前任.skill]] (ex-skill)，将技术复用至情感代偿领域。
+
+## 技术理念
+主张“极简主义”的 AI 应用路线，不追求训练底座大模型，而是通过精细的 Prompt 工程和数据清洗，将个人历史数据转化为可交互的 [[数字分身]]。

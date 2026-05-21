@@ -1,0 +1,37 @@
+---
+type: entity
+title: Epoch AI
+created: 2026-04-26
+updated: 2026-05-05
+tags: ["research-institute", "ai-trends", "data-analysis", "research-organization", "benchmarking", "metrics"]
+related: [ipsos, institutional-endorsement, workplace-ai-penetration, claude-mythos, ramez-naam, epoch-能力指数]
+sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anthropic版「狼来了」引华尔街恐慌！27年漏洞，mythos被8个ai秒杀.md"]
+---
+
+# Epoch AI
+
+[[Epoch AI]] 是一家专注于 AI 趋势研究、数据分析与基准测试的机构。其研究涵盖大规模社会调研以及针对 AI 模型能力的量化评估，旨在揭示人工智能技术在社会、职场及模型性能层面的实际发展状况。
+
+## 核心研究项目
+
+### Epoch 能力指数 (ECI)
+该机构维护 [[Epoch 能力指数]]（ECI），这是一个综合多项 AI 基准测试的指标体系，旨在提供一个单一指标以实现跨长时间跨度的模型能力对比。
+
+### 职场 AI 渗透率调研
+与 [[Ipsos]] 合作发布了关于美国成年人 AI 使用习惯的全国性报告。该调研重点揭示了付费模式（特别是公司付费）对 AI 工具在生产环境中应用的决定性影响，并支持了 [[制度性许可]] 和 [[生态位优势]] 等概念在 AI 企业级落地中的重要性。
+
+## 在 Mythos 争议中的角色
+
+在 [[Claude Mythos]] 发布后，投资人 [[Ramez Naam]] 引用 [[Epoch AI]] 的公开数据对模型能力提出了质疑：
+
+- **缺乏加速趋势**：数据显示 Mythos 在 ECI 上并未显示出加速趋势，其表现仅比 GPT 5.4 强一点。
+- **反驳突破性说法**：这一数据被用来反驳 [[Anthropic]] 关于 Mythos 代表了 AI 能力突破性进展的说法。
+
+### 数据差异分析
+[[Anthropic]] 在其系统卡中承认，报告的 Mythos 等模型的 ECI 得点不确定性更大。对比 [[Anthropic]] 内部的 ECI 报告与 [[Epoch AI]] 公开的官方报告，可以发现 Mythos 似乎并未带来预期的能力飞跃。
+
+## 相关研究应用
+
+该机构的报告常被用于分析以下宏观趋势：
+- [[任务替代 vs 任务增强]] 的宏观趋势
+- [[AI Agent]] 等新技术的早期普及曲线
