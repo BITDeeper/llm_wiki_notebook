@@ -1,0 +1,17 @@
+{
+  "siteTitle": "AI-Info-Management",
+  "locale": "zh-CN",
+  "enableMobileChat": false,
+  "enableGraph": true,
+  "enableSearch": true,
+  "enableBacklinks": true,
+  "enableRSS": true,
+  "enableSPA": true,
+  "ignorePatterns": [
+    "log.md",
+    ".obsidian/**"
+  ],
+  "baseUrl": "",
+  "cloudflareWorkerUrl": "https://twilight-violet-b5af.zhangpybit.workers.dev",
+  "githubRepo": "BITDeeper/llm_wiki_notebook"
+}
