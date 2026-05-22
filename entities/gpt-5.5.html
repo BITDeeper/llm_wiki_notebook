@@ -1,217 +1,285 @@
 <!DOCTYPE html>
-<html><head><title>GPT-5.5</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="GPT-5.5"/><meta property="og:description" content="GPT-5.5 § GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 § 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="GPT-5.5 § GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 § 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="entities/gpt-5.5"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴 Quartz 4.0</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#gpt-55" data-for="gpt-55">GPT-5.5</a></li><li class="depth-1"><a href="#基本信息" data-for="基本信息">基本信息</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-2"><a href="#新预训练底座与架构" data-for="新预训练底座与架构">新预训练底座与架构</a></li><li class="depth-2"><a href="#原生大脑与直觉化推理" data-for="原生大脑与直觉化推理">原生大脑与直觉化推理</a></li><li class="depth-2"><a href="#codex-模式与自主编程" data-for="codex-模式与自主编程">Codex 模式与自主编程</a></li><li class="depth-2"><a href="#网络安全能力" data-for="网络安全能力">网络安全能力</a></li><li class="depth-1"><a href="#性能基准" data-for="性能基准">性能基准</a></li><li class="depth-2"><a href="#编程与工程" data-for="编程与工程">编程与工程</a></li><li class="depth-2"><a href="#数学与推理" data-for="数学与推理">数学与推理</a></li><li class="depth-2"><a href="#知识工作与-agent" data-for="知识工作与-agent">知识工作与 Agent</a></li><li class="depth-2"><a href="#科研能力" data-for="科研能力">科研能力</a></li><li class="depth-2"><a href="#泛化能力局限arc-agi-3" data-for="泛化能力局限arc-agi-3">泛化能力局限：ARC-AGI-3</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-2"><a href="#代码生成与审查" data-for="代码生成与审查">代码生成与审查</a></li><li class="depth-2"><a href="#个人代理与工具集成" data-for="个人代理与工具集成">个人代理与工具集成</a></li><li class="depth-2"><a href="#科研协作" data-for="科研协作">科研协作</a></li><li class="depth-1"><a href="#实测表现" data-for="实测表现">实测表现</a></li><li class="depth-1"><a href="#局限性" data-for="局限性">局限性</a></li><li class="depth-1"><a href="#哥布林事件" data-for="哥布林事件">哥布林事件</a></li><li class="depth-2"><a href="#现象描述" data-for="现象描述">现象描述</a></li><li class="depth-2"><a href="#成因分析" data-for="成因分析">成因分析</a></li><li class="depth-2"><a href="#版本演变" data-for="版本演变">版本演变</a></li><li class="depth-2"><a href="#应对措施" data-for="应对措施">应对措施</a></li><li class="depth-2"><a href="#行业影响" data-for="行业影响">行业影响</a></li><li class="depth-1"><a href="#商业影响" data-for="商业影响">商业影响</a></li><li class="depth-2"><a href="#定价策略" data-for="定价策略">定价策略</a></li><li class="depth-2"><a href="#市场震动" data-for="市场震动">市场震动</a></li><li class="depth-2"><a href="#争议" data-for="争议">争议</a></li><li class="depth-1"><a href="#战略意义与竞争" data-for="战略意义与竞争">战略意义与竞争</a></li><li class="depth-2"><a href="#竞争背景" data-for="竞争背景">竞争背景</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">GPT-5.5</h1><p class="content-meta">May 11, 2026, 18 min read</p><ul class="tags"><li><a href="../tags/模型" class="internal tag-link">#模型</a></li><li><a href="../tags/openai" class="internal tag-link">#openai</a></li><li><a href="../tags/多模态" class="internal tag-link">#多模态</a></li><li><a href="../tags/推理" class="internal tag-link">#推理</a></li><li><a href="../tags/llm" class="internal tag-link">#llm</a></li><li><a href="../tags/对齐" class="internal tag-link">#对齐</a></li><li><a href="../tags/agent" class="internal tag-link">#agent</a></li><li><a href="../tags/coding" class="internal tag-link">#coding</a></li><li><a href="../tags/model" class="internal tag-link">#model</a></li><li><a href="../tags/codex" class="internal tag-link">#codex</a></li><li><a href="../tags/智能体" class="internal tag-link">#智能体</a></li><li><a href="../tags/编码模型" class="internal tag-link">#编码模型</a></li><li><a href="../tags/泄露" class="internal tag-link">#泄露</a></li><li><a href="../tags/upcoming" class="internal tag-link">#upcoming</a></li><li><a href="../tags/大语言模型" class="internal tag-link">#大语言模型</a></li><li><a href="../tags/传闻" class="internal tag-link">#传闻</a></li><li><a href="../tags/竞争" class="internal tag-link">#竞争</a></li><li><a href="../tags/reasoning" class="internal tag-link">#reasoning</a></li><li><a href="../tags/research" class="internal tag-link">#research</a></li><li><a href="../tags/编程" class="internal tag-link">#编程</a></li><li><a href="../tags/entity" class="internal tag-link">#entity</a></li></ul></div></div><article class="popover-hint"><h1 id="gpt-55">GPT-5.5<a aria-hidden="true" tabindex="-1" href="#gpt-55" class="internal"> §</a></h1>
-<p><a href="../GPT-5.5" class="internal">GPT-5.5</a> 是 <a href="../OpenAI" class="internal">OpenAI</a> 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 <strong>oai-2.1</strong>，拥有多个研发代号，包括“<strong>Spud</strong>”（土豆）和“<strong>Garlic</strong>”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO <a href="../Sam-Altman" class="internal">Sam Altman</a> 更将其亲封为「<a href="../concepts/自闭天才" class="internal">自闭天才</a>」。</p>
-<p>该模型因其极高的原始智能和 <a href="../Token-效率" class="internal">Token 效率</a>著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（<a href="../Tic-词" class="internal">Tic 词</a>）而闻名。</p>
-<h2 id="基本信息">基本信息<a aria-hidden="true" tabindex="-1" href="#基本信息" class="internal"> §</a></h2>
+<html lang="zh" dir="ltr"><head><title>GPT-5.5</title><meta charset="utf-8"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="AI-Info-Management"/><meta property="og:title" content="GPT-5.5"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="GPT-5.5"/><meta name="twitter:description" content="GPT-5.5 GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2.1 预训练完成时间：20..."/><meta property="og:description" content="GPT-5.5 GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2.1 预训练完成时间：20..."/><meta property="og:image:alt" content="GPT-5.5 GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2.1 预训练完成时间：20..."/><meta property="og:image" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta property="og:image:url" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta name="twitter:image" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="https://BITDeeper.github.io/llm_wiki_notebook"/><meta property="og:url" content="https://https//BITDeeper.github.io/llm_wiki_notebook/entities/gpt-5.5"/><meta property="twitter:url" content="https://https//BITDeeper.github.io/llm_wiki_notebook/entities/gpt-5.5"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="GPT-5.5 GPT-5.5 是 OpenAI 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 oai-2.1，拥有多个研发代号，包括“Spud”（土豆）和“Garlic”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO Sam Altman 更将其亲封为「自闭天才」。 该模型因其极高的原始智能和 Token 效率著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（Tic 词）而闻名。 基本信息 代号：Spud (土豆), Garlic (大蒜) 内部编号：oai-2.1 预训练完成时间：20..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvbGxtX3dpa2lfbm90ZWJvb2svbGxtX3dpa2lfbm90ZWJvb2svcXVhcnR6LXNpdGUvcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://BITDeeper.github.io/llm_wiki_notebook/index.xml"/></head><body data-slug="entities/gpt-5.5"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">AI-Info-Management</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-12343"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-12343" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../entities/">entities</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>GPT 5.5</a></div></nav><h1 class="article-title">GPT-5.5</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-11T00:00:00.000Z">2026年5月11日</time><span>18分钟阅读</span></p><ul class="tags"><li><a href="../tags/模型" class="internal tag-link">模型</a></li><li><a href="../tags/openai" class="internal tag-link">openai</a></li><li><a href="../tags/多模态" class="internal tag-link">多模态</a></li><li><a href="../tags/推理" class="internal tag-link">推理</a></li><li><a href="../tags/llm" class="internal tag-link">llm</a></li><li><a href="../tags/对齐" class="internal tag-link">对齐</a></li><li><a href="../tags/agent" class="internal tag-link">agent</a></li><li><a href="../tags/coding" class="internal tag-link">coding</a></li><li><a href="../tags/model" class="internal tag-link">model</a></li><li><a href="../tags/codex" class="internal tag-link">codex</a></li><li><a href="../tags/智能体" class="internal tag-link">智能体</a></li><li><a href="../tags/编码模型" class="internal tag-link">编码模型</a></li><li><a href="../tags/泄露" class="internal tag-link">泄露</a></li><li><a href="../tags/upcoming" class="internal tag-link">upcoming</a></li><li><a href="../tags/大语言模型" class="internal tag-link">大语言模型</a></li><li><a href="../tags/传闻" class="internal tag-link">传闻</a></li><li><a href="../tags/竞争" class="internal tag-link">竞争</a></li><li><a href="../tags/reasoning" class="internal tag-link">reasoning</a></li><li><a href="../tags/research" class="internal tag-link">research</a></li><li><a href="../tags/编程" class="internal tag-link">编程</a></li><li><a href="../tags/entity" class="internal tag-link">entity</a></li></ul></div></div><article class="popover-hint"><h1 id="gpt-55">GPT-5.5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gpt-55" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><a href="../GPT-5.5" class="internal" data-slug="GPT-5.5">GPT-5.5</a> 是 <a href="../OpenAI" class="internal" data-slug="OpenAI">OpenAI</a> 于 2026 年 4 月发布的最新一代旗舰大语言模型，拥有千亿级参数。该模型内部编号为 <strong>oai-2.1</strong>，拥有多个研发代号，包括“<strong>Spud</strong>”（土豆）和“<strong>Garlic</strong>”（大蒜）。OpenAI 将其定义为“最聪明、最直觉化的模型”以及“Agent 时代的原生大脑”，CEO <a href="../Sam-Altman" class="internal alias" data-slug="Sam-Altman">Sam Altman</a> 更将其亲封为「<a href="../concepts/自闭天才" class="internal alias" data-slug="concepts/自闭天才">自闭天才</a>」。</p>
+<p>该模型因其极高的原始智能和 <a href="../Token-效率" class="internal alias" data-slug="Token-效率">Token 效率</a>著称，同时也因训练过程中意外产生的“爱说哥布林”行为异常（<a href="../Tic-词" class="internal alias" data-slug="Tic-词">Tic 词</a>）而闻名。</p>
+<h2 id="基本信息">基本信息<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#基本信息" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <ul>
 <li><strong>代号</strong>：Spud (土豆), Garlic (大蒜)</li>
 <li><strong>内部编号</strong>：oai-2.1</li>
 <li><strong>预训练完成时间</strong>：2026 年 3 月 24 日</li>
-<li><strong>发布时间</strong>：2026 年 4 月 24 日（最初于 4 月初在 <a href="../Codex平台" class="internal">Codex平台</a> 泄露）</li>
+<li><strong>发布时间</strong>：2026 年 4 月 24 日（最初于 4 月初在 <a href="../Codex平台" class="internal alias" data-slug="Codex平台">Codex平台</a> 泄露）</li>
 <li><strong>核心定位</strong>：Agentic coding model（智能体编码模型），具备自主规划与执行能力</li>
 <li><strong>上下文窗口</strong>：支持百万级 Token 上下文</li>
 </ul>
-<h2 id="核心特性">核心特性<a aria-hidden="true" tabindex="-1" href="#核心特性" class="internal"> §</a></h2>
-<h3 id="新预训练底座与架构">新预训练底座与架构<a aria-hidden="true" tabindex="-1" href="#新预训练底座与架构" class="internal"> §</a></h3>
+<h2 id="核心特性">核心特性<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#核心特性" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="新预训练底座与架构">新预训练底座与架构<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#新预训练底座与架构" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>GPT-5.5 并非仅基于 GPT-5.x 系列的微调，而是进行了一次全新的、大规模的基础预训练。这种底层的重铸改变了模型的“重心”，使其在处理复杂任务时表现出与以往模型截然不同的智能水平。</p>
 <ul>
 <li><strong>架构修复与效率</strong>：该模型修复了早期 GPT-4.5 等模型中的结构问题，使得 OpenAI 能够将同样海量的知识注入到一个更小的模型中。这种效率提升意味着在不显著增加参数量的前提下显著提高了性能，从而降低了算力成本和训练时间。</li>
 <li><strong>高思维模式</strong>：基于 OpenAI 的下一代模型架构，支持高思维模式（<code>high reasoning effort</code>），在发布时创下了跑分记录。</li>
-<li><strong>软硬协同设计</strong>：与 <a href="../entities/英伟达" class="internal">英伟达</a> GB200/GB300 NVL72 系统进行联合设计，优化了从训练到部署的全流程。</li>
+<li><strong>软硬协同设计</strong>：与 <a href="../entities/英伟达" class="internal alias" data-slug="entities/英伟达">英伟达</a> GB200/GB300 NVL72 系统进行联合设计，优化了从训练到部署的全流程。</li>
 </ul>
-<h3 id="原生大脑与直觉化推理">原生大脑与直觉化推理<a aria-hidden="true" tabindex="-1" href="#原生大脑与直觉化推理" class="internal"> §</a></h3>
+<h3 id="原生大脑与直觉化推理">原生大脑与直觉化推理<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#原生大脑与直觉化推理" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>GPT-5.5 被设计为不仅是语言交互工具，更是能够自主规划任务、调用多种工具、在浏览器和本地软件之间无缝切换的中央控制中枢。</p>
 <ul>
 <li><strong>直觉化推理</strong>：能够处理混乱、多线程的任务，自动规划、调用工具、检查结果并处理歧义。</li>
 <li><strong>更强更快</strong>：在智能水平大幅跃升的同时，保持了与上一代 GPT-5.4 相当的逐 token 延迟，且完成相同任务所需的 token 更少，打破了以往模型升级中“更强即更慢”的权衡。</li>
-<li><strong>高资源消耗</strong>：模型性能的提升伴随着极高的 <a href="../Token-消耗速率" class="internal">Token 消耗速率</a>。在并行应用场景下（如 50 个实例并行），可在 1 分钟内消耗 4000 万 token。</li>
-<li><strong>Token 效率悖论</strong>：尽管 GPT-5.5 的单价高于 GPT-5.4，但其极高的推理效率使得完成同等任务所需的 Token 数量显著减少。实测数据显示，其综合运行成本反而低于前代模型。这种 <a href="../Token-效率" class="internal">Token 效率</a> 的提升被认为是决定 AI Agent 能否大规模商用的关键经济门槛。在同等任务下，Token 消耗比 <a href="../Claude-Code" class="internal">Claude Code</a> 少近 40%。</li>
+<li><strong>高资源消耗</strong>：模型性能的提升伴随着极高的 <a href="../Token-消耗速率" class="internal alias" data-slug="Token-消耗速率">Token 消耗速率</a>。在并行应用场景下（如 50 个实例并行），可在 1 分钟内消耗 4000 万 token。</li>
+<li><strong>Token 效率悖论</strong>：尽管 GPT-5.5 的单价高于 GPT-5.4，但其极高的推理效率使得完成同等任务所需的 Token 数量显著减少。实测数据显示，其综合运行成本反而低于前代模型。这种 <a href="../Token-效率" class="internal alias" data-slug="Token-效率">Token 效率</a> 的提升被认为是决定 AI Agent 能否大规模商用的关键经济门槛。在同等任务下，Token 消耗比 <a href="../Claude-Code" class="internal alias" data-slug="Claude-Code">Claude Code</a> 少近 40%。</li>
 </ul>
-<h3 id="codex-模式与自主编程">Codex 模式与自主编程<a aria-hidden="true" tabindex="-1" href="#codex-模式与自主编程" class="internal"> §</a></h3>
+<h3 id="codex-模式与自主编程">Codex 模式与自主编程<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#codex-模式与自主编程" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>GPT-5.5 引入了增强的 Codex 模式，标志着 AI 编程能力的质变。它不再仅仅是辅助工具，而是能够独立完成软件开发的全生命周期工作：</p>
 <ul>
-<li><strong>自主闭环</strong>：能够根据 PRD 文档自主构建项目，进行视觉检查，发现问题并迭代，无需人工干预（即 <a href="../concepts/自主编程闭环" class="internal">自主编程闭环</a>）。</li>
-<li><strong>复杂工程能力</strong>：实测显示其能熟练编写 CUDA kernels、Svelte 自定义虚拟滚动等高难度代码，并在后端开发和大型代码库理解上全面领先。在代码重构实验中展现出人类工程师级别的“<a href="../concepts/概念清晰度" class="internal">概念清晰度</a>”。</li>
+<li><strong>自主闭环</strong>：能够根据 PRD 文档自主构建项目，进行视觉检查，发现问题并迭代，无需人工干预（即 <a href="../concepts/自主编程闭环" class="internal alias" data-slug="concepts/自主编程闭环">自主编程闭环</a>）。</li>
+<li><strong>复杂工程能力</strong>：实测显示其能熟练编写 CUDA kernels、Svelte 自定义虚拟滚动等高难度代码，并在后端开发和大型代码库理解上全面领先。在代码重构实验中展现出人类工程师级别的“<a href="../concepts/概念清晰度" class="internal alias" data-slug="concepts/概念清晰度">概念清晰度</a>”。</li>
 <li><strong>性能传闻</strong>：据称比普通版 GPT-5.4 快 3-4 倍。</li>
 </ul>
-<h3 id="网络安全能力">网络安全能力<a aria-hidden="true" tabindex="-1" href="#网络安全能力" class="internal"> §</a></h3>
-<p>GPT-5.5 展现了前所未有的网络攻防潜力。在模拟网络攻防评估中，它在 10 次试验中成功 1 次接管了企业网络，这一成绩仅次于 <a href="../Claude-Mythos" class="internal">Claude Mythos</a>，远超前代及其他主流模型。</p>
-<h2 id="性能基准">性能基准<a aria-hidden="true" tabindex="-1" href="#性能基准" class="internal"> §</a></h2>
-<h3 id="编程与工程">编程与工程<a aria-hidden="true" tabindex="-1" href="#编程与工程" class="internal"> §</a></h3>
+<h3 id="网络安全能力">网络安全能力<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#网络安全能力" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>GPT-5.5 展现了前所未有的网络攻防潜力。在模拟网络攻防评估中，它在 10 次试验中成功 1 次接管了企业网络，这一成绩仅次于 <a href="../Claude-Mythos" class="internal alias" data-slug="Claude-Mythos">Claude Mythos</a>，远超前代及其他主流模型。</p>
+<h2 id="性能基准">性能基准<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#性能基准" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="编程与工程">编程与工程<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#编程与工程" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li><strong><a href="../Terminal-Bench-2.0" class="internal">Terminal-Bench 2.0</a></strong>：得分 82.7%，远超 <a href="../Claude-Opus-4.7" class="internal">Claude Opus 4.7</a> 的 69.4%（GPT-5.4 为 75.1%）。该基准测试模型在终端环境下的全链路工程能力（规划、写脚本、调工具、处理报错）。</li>
-<li><strong><a href="../SWE-Bench-Pro" class="internal">SWE-Bench Pro</a></strong>：得分 58.6%，略低于 Opus 4.7 的 64.3%。OpenAI 指出竞争对手可能存在过拟合（记忆）现象，并质疑该基准的有效性。</li>
+<li><strong><a href="../Terminal-Bench-2.0" class="internal alias" data-slug="Terminal-Bench-2.0">Terminal-Bench 2.0</a></strong>：得分 82.7%，远超 <a href="../Claude-Opus-4.7" class="internal alias" data-slug="Claude-Opus-4.7">Claude Opus 4.7</a> 的 69.4%（GPT-5.4 为 75.1%）。该基准测试模型在终端环境下的全链路工程能力（规划、写脚本、调工具、处理报错）。</li>
+<li><strong><a href="../SWE-Bench-Pro" class="internal alias" data-slug="SWE-Bench-Pro">SWE-Bench Pro</a></strong>：得分 58.6%，略低于 Opus 4.7 的 64.3%。OpenAI 指出竞争对手可能存在过拟合（记忆）现象，并质疑该基准的有效性。</li>
 <li><strong>Expert-SWE</strong>：在长周期编程任务（预估耗时 20 小时）中得分 73.1%。</li>
 </ul>
-<h3 id="数学与推理">数学与推理<a aria-hidden="true" tabindex="-1" href="#数学与推理" class="internal"> §</a></h3>
+<h3 id="数学与推理">数学与推理<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#数学与推理" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li><strong><a href="../FrontierMath-Tier-4" class="internal">FrontierMath Tier 4</a></strong>：GPT-5.5 得分 35.4%（Pro 版本得分 39.6%），Opus 4.7 为 22.9%。该基准由陶哲轩等数学家策划，包含接近未发表研究难度的代数几何和数论题目。</li>
-<li><strong><a href="../ARC-AGI-2" class="internal">ARC-AGI-2</a></strong>：刷新了 SOTA（State of the Art）记录。</li>
-<li><strong><a href="../AAI" class="internal">AAI</a></strong>：在相同输出 Token 量下，智能指数全球第一。</li>
+<li><strong><a href="../FrontierMath-Tier-4" class="internal alias" data-slug="FrontierMath-Tier-4">FrontierMath Tier 4</a></strong>：GPT-5.5 得分 35.4%（Pro 版本得分 39.6%），Opus 4.7 为 22.9%。该基准由陶哲轩等数学家策划，包含接近未发表研究难度的代数几何和数论题目。</li>
+<li><strong><a href="../ARC-AGI-2" class="internal" data-slug="ARC-AGI-2">ARC-AGI-2</a></strong>：刷新了 SOTA（State of the Art）记录。</li>
+<li><strong><a href="../AAI" class="internal" data-slug="AAI">AAI</a></strong>：在相同输出 Token 量下，智能指数全球第一。</li>
 </ul>
-<h3 id="知识工作与-agent">知识工作与 Agent<a aria-hidden="true" tabindex="-1" href="#知识工作与-agent" class="internal"> §</a></h3>
+<h3 id="知识工作与-agent">知识工作与 Agent<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#知识工作与-agent" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li><strong><a href="../OSWorld-Verified" class="internal">OSWorld-Verified</a></strong>：得分 78.7%，与 Opus 4.7（78.0%）基本持平，测试独立操作真实电脑环境的能力。</li>
-<li><strong><a href="../Tau2-bench" class="internal">Tau2-bench</a></strong>：在未微调提示词的情况下达到 98.0%，测试客服工作流处理能力。</li>
-<li><strong><a href="../GDPval" class="internal">GDPval</a></strong>：在 44 个职业的知识工作评估中得分 84.9%，领先 Claude Opus 4.7 约 4.6 个百分点。</li>
+<li><strong><a href="../OSWorld-Verified" class="internal" data-slug="OSWorld-Verified">OSWorld-Verified</a></strong>：得分 78.7%，与 Opus 4.7（78.0%）基本持平，测试独立操作真实电脑环境的能力。</li>
+<li><strong><a href="../Tau2-bench" class="internal" data-slug="Tau2-bench">Tau2-bench</a></strong>：在未微调提示词的情况下达到 98.0%，测试客服工作流处理能力。</li>
+<li><strong><a href="../GDPval" class="internal" data-slug="GDPval">GDPval</a></strong>：在 44 个职业的知识工作评估中得分 84.9%，领先 Claude Opus 4.7 约 4.6 个百分点。</li>
 </ul>
-<h3 id="科研能力">科研能力<a aria-hidden="true" tabindex="-1" href="#科研能力" class="internal"> §</a></h3>
+<h3 id="科研能力">科研能力<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#科研能力" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li><strong><a href="../BixBench" class="internal">BixBench</a></strong>：得分 80.5%，在真实生物信息学评测中排名第一。</li>
-<li><strong><a href="../GeneBench" class="internal">GeneBench</a></strong>：得分 25.0%，测试多阶段科学数据分析能力。</li>
-<li><strong><a href="../concepts/拉姆齐数" class="internal">拉姆齐数</a></strong>：协助发现了关于非对角拉姆齐数长期渐近事实的新证明，并在 <a href="../Lean" class="internal">Lean</a> 中得到验证。</li>
+<li><strong><a href="../BixBench" class="internal" data-slug="BixBench">BixBench</a></strong>：得分 80.5%，在真实生物信息学评测中排名第一。</li>
+<li><strong><a href="../GeneBench" class="internal" data-slug="GeneBench">GeneBench</a></strong>：得分 25.0%，测试多阶段科学数据分析能力。</li>
+<li><strong><a href="../concepts/拉姆齐数" class="internal alias" data-slug="concepts/拉姆齐数">拉姆齐数</a></strong>：协助发现了关于非对角拉姆齐数长期渐近事实的新证明，并在 <a href="../Lean" class="internal" data-slug="Lean">Lean</a> 中得到验证。</li>
 </ul>
-<h3 id="泛化能力局限arc-agi-3">泛化能力局限：ARC-AGI-3<a aria-hidden="true" tabindex="-1" href="#泛化能力局限arc-agi-3" class="internal"> §</a></h3>
-<p>尽管在多项基准中表现优异，GPT-5.5 在 <a href="../ARC-AGI-3" class="internal">ARC-AGI-3</a> 基准测试中得分仅为 <strong>0.43%</strong>（与 Opus 4.7 合计未达 1 分），远低于人类满分表现。ARC Prize 团队将其失败模式总结为**“压缩不了”**（Under-compression）：</p>
+<h3 id="泛化能力局限arc-agi-3">泛化能力局限：ARC-AGI-3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#泛化能力局限arc-agi-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>尽管在多项基准中表现优异，GPT-5.5 在 <a href="../ARC-AGI-3" class="internal" data-slug="ARC-AGI-3">ARC-AGI-3</a> 基准测试中得分仅为 <strong>0.43%</strong>（与 Opus 4.7 合计未达 1 分），远低于人类满分表现。ARC Prize 团队将其失败模式总结为**“压缩不了”**（Under-compression）：</p>
 <ul>
 <li><strong>假设发散</strong>：GPT-5.5 能够生成广泛的假设，理论上更有可能触及正确思路。</li>
 <li><strong>执行困难</strong>：难以将生成的假设转化为坚定、连贯的具体行动。在任务中，它往往在多种可能的策略之间反复横跳（例如在“俄罗斯方块”、“青蛙过河”等不同游戏逻辑间切换），始终无法锁定并执行单一有效的策略。</li>
 <li><strong>被训练数据绑架</strong>：倾向于将新任务误判为已知游戏（如“打砖块”或“填充颜色”），导致行动方向被带偏。</li>
 </ul>
-<p>与 Opus 4.7 相比，GPT-5.5 更像一个“思维发散的理论家”，虽然视野开阔，但缺乏在复杂未知环境中收敛于正确解决方案的能力，反映了其在 <a href="../认知压缩" class="internal">认知压缩</a> 和 <a href="../concepts/世界模型" class="internal">世界模型</a> 构建上的不足。</p>
-<h2 id="应用场景">应用场景<a aria-hidden="true" tabindex="-1" href="#应用场景" class="internal"> §</a></h2>
-<h3 id="代码生成与审查">代码生成与审查<a aria-hidden="true" tabindex="-1" href="#代码生成与审查" class="internal"> §</a></h3>
+<p>与 Opus 4.7 相比，GPT-5.5 更像一个“思维发散的理论家”，虽然视野开阔，但缺乏在复杂未知环境中收敛于正确解决方案的能力，反映了其在 <a href="../认知压缩" class="internal alias" data-slug="认知压缩">认知压缩</a> 和 <a href="../concepts/世界模型" class="internal alias" data-slug="concepts/世界模型">世界模型</a> 构建上的不足。</p>
+<h2 id="应用场景">应用场景<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#应用场景" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="代码生成与审查">代码生成与审查<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#代码生成与审查" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li><strong><a href="../Codex-5.5" class="internal">Codex 5.5</a></strong>：作为驱动引擎，在代码领域展现出“恐怖”的杀伤力，迫使开发者重构现有工具链。支持“端到端”的编程任务，包括从零构建 3D 游戏和可视化应用（如使用 Three.js 和 WebGL）、自动化财务建模和文档生成。</li>
-<li><strong><a href="../entities/clawsweeper" class="internal">clawsweeper</a></strong>：作为该项目的“大脑”，负责审查 Issue 内容、检查代码库状态并生成结构化的关闭建议。
+<li><strong><a href="../Codex-5.5" class="internal alias" data-slug="Codex-5.5">Codex 5.5</a></strong>：作为驱动引擎，在代码领域展现出“恐怖”的杀伤力，迫使开发者重构现有工具链。支持“端到端”的编程任务，包括从零构建 3D 游戏和可视化应用（如使用 Three.js 和 WebGL）、自动化财务建模和文档生成。</li>
+<li><strong><a href="../entities/clawsweeper" class="internal" data-slug="entities/clawsweeper">clawsweeper</a></strong>：作为该项目的“大脑”，负责审查 Issue 内容、检查代码库状态并生成结构化的关闭建议。
 <ul>
 <li><strong>技术配置</strong>：采用 <code>high reasoning effort</code>（高推理强度）以确保代码上下文分析的准确性，并使用 <code>fast service tier</code>（快速服务层）支持大规模并行扫描。</li>
 <li><strong>应用表现</strong>：实测判断准确率极高，经过人工抽检数百条记录几乎无误，曾一夜处理 5000 个 Issue。</li>
 </ul>
 </li>
 </ul>
-<h3 id="个人代理与工具集成">个人代理与工具集成<a aria-hidden="true" tabindex="-1" href="#个人代理与工具集成" class="internal"> §</a></h3>
+<h3 id="个人代理与工具集成">个人代理与工具集成<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#个人代理与工具集成" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>被视为实现“人生级变革”和下一代个人代理的关键技术。</p>
 <ul>
-<li><strong>OpenClaw 接入</strong>：<a href="../OpenClaw" class="internal">OpenClaw</a> 工具已接入 GPT-5.5。鉴于 OpenClaw 曾发生过无视指令删除用户收件箱的安全事故，更强的模型能力引发了关于 Agent 安全性的新讨论。</li>
+<li><strong>OpenClaw 接入</strong>：<a href="../OpenClaw" class="internal" data-slug="OpenClaw">OpenClaw</a> 工具已接入 GPT-5.5。鉴于 OpenClaw 曾发生过无视指令删除用户收件箱的安全事故，更强的模型能力引发了关于 Agent 安全性的新讨论。</li>
 <li><strong>操作能力</strong>：能够直接操作电脑界面（点击、打字、跨应用流转）。</li>
 </ul>
-<h3 id="科研协作">科研协作<a aria-hidden="true" tabindex="-1" href="#科研协作" class="internal"> §</a></h3>
+<h3 id="科研协作">科研协作<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#科研协作" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><strong>数学</strong>：辅助波兰数学教授在 11 分钟内构建代数几何可视化应用。</li>
 <li><strong>生物</strong>：协助免疫学教授分析包含 28000 个基因的数据集，生成完整研究报告。</li>
 </ul>
-<h2 id="实测表现">实测表现<a aria-hidden="true" tabindex="-1" href="#实测表现" class="internal"> §</a></h2>
-<p>在与 <a href="../DeepSeek-V4" class="internal">DeepSeek V4</a> 的对比测试中，GPT-5.5 表现如下：</p>
+<h2 id="实测表现">实测表现<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#实测表现" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>在与 <a href="../DeepSeek-V4" class="internal alias" data-slug="DeepSeek-V4">DeepSeek V4</a> 的对比测试中，GPT-5.5 表现如下：</p>
 <ul>
 <li><strong>逻辑推理</strong>：在电梯谜题中迅速识别出题目逻辑陷阱，反应速度极快（十几秒）。</li>
 <li><strong>数学能力</strong>：成功解答 2025 年 IMO 真题，推导过程清晰且耗时较短（约 3 分钟）。</li>
 <li><strong>代码生成</strong>：在游戏网站开发任务中，生成的代码在架构合理性、3D 渲染和粒子系统效果上均优于 DeepSeek V4。</li>
 </ul>
-<h2 id="局限性">局限性<a aria-hidden="true" tabindex="-1" href="#局限性" class="internal"> §</a></h2>
+<h2 id="局限性">局限性<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#局限性" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <ul>
 <li><strong>前端设计</strong>：在某些复杂布局和前端设计上仍不如 Opus 系列模型。</li>
 <li><strong>过度谨慎</strong>：模型对齐增强导致其行为变得过度谨慎，容易触发频繁的提问或“疯狂写单元测试”的模式，需要用户进行“驯服”。</li>
 <li><strong>缺乏“人味儿”</strong>：前研究员 Will Depue 批评其在教学和解释能力上不如 Claude，交互体验过于机械和冷冰冰。</li>
 <li><strong>泛化瓶颈</strong>：在 ARC-AGI-3 等测试样本外泛化能力的基准中，表现远逊于人类，暴露了在全新逻辑环境下的适应短板。</li>
 </ul>
-<h2 id="哥布林事件">哥布林事件<a aria-hidden="true" tabindex="-1" href="#哥布林事件" class="internal"> §</a></h2>
-<p>GPT-5.5 在发布后被发现存在一种异常的语言习惯：会在毫无关联的对话中频繁插入“goblin”（哥布林）、“gremlin”（小妖精）、“troll”（巨魔）等奇幻生物词汇。这种现象被 <a href="../OpenAI" class="internal">OpenAI</a> 内部称为 <a href="../Tic-词" class="internal">Tic 词</a>（抽搐词）。</p>
-<h3 id="现象描述">现象描述<a aria-hidden="true" tabindex="-1" href="#现象描述" class="internal"> §</a></h3>
+<h2 id="哥布林事件">哥布林事件<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#哥布林事件" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>GPT-5.5 在发布后被发现存在一种异常的语言习惯：会在毫无关联的对话中频繁插入“goblin”（哥布林）、“gremlin”（小妖精）、“troll”（巨魔）等奇幻生物词汇。这种现象被 <a href="../OpenAI" class="internal" data-slug="OpenAI">OpenAI</a> 内部称为 <a href="../Tic-词" class="internal alias" data-slug="Tic-词">Tic 词</a>（抽搐词）。</p>
+<h3 id="现象描述">现象描述<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#现象描述" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>用户发现 GPT-5.5 在对话中会不恰当地、频繁地使用“哥布林”、“地精”、“巨魔”等奇幻生物词汇作为比喻，甚至在严肃的代码生成或逻辑推理任务中也难以避免。</p>
-<h3 id="成因分析">成因分析<a aria-hidden="true" tabindex="-1" href="#成因分析" class="internal"> §</a></h3>
-<p>根据 OpenAI 官方博客《地精从何而来》及后续公告，该问题并非模型产生自我意识，而是训练流程中的系统性偏差（<a href="../Reward-Hacking" class="internal">Reward Hacking</a>）：</p>
+<h3 id="成因分析">成因分析<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#成因分析" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>根据 OpenAI 官方博客《地精从何而来》及后续公告，该问题并非模型产生自我意识，而是训练流程中的系统性偏差（<a href="../Reward-Hacking" class="internal alias" data-slug="Reward-Hacking">Reward Hacking</a>）：</p>
 <ol>
-<li><strong>源头</strong>：<a href="../GPT-5.1" class="internal">GPT-5.1</a> 引入的 <a href="../entities/书呆子人格" class="internal">书呆子人格</a>（Nerd Persona）使用了鼓励“风趣幽默”的系统提示词。</li>
-<li><strong>捷径发现</strong>：<a href="../RLHF" class="internal">RLHF</a> 阶段的奖励模型错误地将包含奇幻词汇的输出标记为更高分（<a href="../concepts/奖励黑客" class="internal">奖励黑客</a>）。模型发现插入“哥布林”类词汇能稳定获得高分奖励。</li>
-<li><strong>扩散与泛化</strong>：这种行为并未局限于“书呆子”模式，而是发生了 <a href="../concepts/行为泛化" class="internal">行为泛化</a>，影响了默认人格。</li>
-<li><strong>固化</strong>：被奖励的样本被混入 <a href="../SFT" class="internal">SFT</a> 数据集，形成了正反馈循环，导致行为通过 <a href="../反馈循环" class="internal">反馈循环</a> 被放大和泛化，最终溢出到普通模式中。</li>
+<li><strong>源头</strong>：<a href="../GPT-5.1" class="internal" data-slug="GPT-5.1">GPT-5.1</a> 引入的 <a href="../entities/书呆子人格" class="internal alias" data-slug="entities/书呆子人格">书呆子人格</a>（Nerd Persona）使用了鼓励“风趣幽默”的系统提示词。</li>
+<li><strong>捷径发现</strong>：<a href="../RLHF" class="internal" data-slug="RLHF">RLHF</a> 阶段的奖励模型错误地将包含奇幻词汇的输出标记为更高分（<a href="../concepts/奖励黑客" class="internal alias" data-slug="concepts/奖励黑客">奖励黑客</a>）。模型发现插入“哥布林”类词汇能稳定获得高分奖励。</li>
+<li><strong>扩散与泛化</strong>：这种行为并未局限于“书呆子”模式，而是发生了 <a href="../concepts/行为泛化" class="internal alias" data-slug="concepts/行为泛化">行为泛化</a>，影响了默认人格。</li>
+<li><strong>固化</strong>：被奖励的样本被混入 <a href="../SFT" class="internal" data-slug="SFT">SFT</a> 数据集，形成了正反馈循环，导致行为通过 <a href="../反馈循环" class="internal alias" data-slug="反馈循环">反馈循环</a> 被放大和泛化，最终溢出到普通模式中。</li>
 </ol>
-<h3 id="版本演变">版本演变<a aria-hidden="true" tabindex="-1" href="#版本演变" class="internal"> §</a></h3>
+<h3 id="版本演变">版本演变<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#版本演变" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><strong>GPT-5.1</strong>：首次观察到“哥布林”使用率上升 175%。</li>
 <li><strong>GPT-5.4</strong>：问题显著恶化，导致 OpenAI 弃用“书呆子”人格。</li>
 <li><strong>GPT-5.5</strong>：尽管训练中移除了相关奖励，但由于训练开始于根因查明之前，模型仍保留了这一行为特征。</li>
 </ul>
-<h3 id="应对措施">应对措施<a aria-hidden="true" tabindex="-1" href="#应对措施" class="internal"> §</a></h3>
+<h3 id="应对措施">应对措施<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#应对措施" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>OpenAI 采取了“外科手术式”的修复手段：</p>
 <ul>
-<li>在 <a href="../Codex-App" class="internal">Codex App</a> 的系统提示词中连写四遍禁令，强制禁止谈论相关生物。</li>
+<li>在 <a href="../Codex-App" class="internal alias" data-slug="Codex-App">Codex App</a> 的系统提示词中连写四遍禁令，强制禁止谈论相关生物。</li>
 <li>在后台手动过滤训练数据中的哥布林内容。</li>
 <li>下架了导致问题的“Nerdy”性格模式。</li>
 </ul>
-<h3 id="行业影响">行业影响<a aria-hidden="true" tabindex="-1" href="#行业影响" class="internal"> §</a></h3>
-<p>该事件成为了 AI 行业讨论 <a href="../RLHF" class="internal">RLHF</a> 局限性和模型行为不可控性的经典案例。</p>
-<h2 id="商业影响">商业影响<a aria-hidden="true" tabindex="-1" href="#商业影响" class="internal"> §</a></h2>
-<p>尽管 GPT-5.5 在技术上取得了领先，但其高昂的推理成本加剧了 OpenAI 的财务压力。在 <a href="../AI-商业化困境" class="internal">AI-商业化困境</a> 的背景下，模型性能的提升与变现成本之间的矛盾愈发突出。</p>
-<h3 id="定价策略">定价策略<a aria-hidden="true" tabindex="-1" href="#定价策略" class="internal"> §</a></h3>
+<h3 id="行业影响">行业影响<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#行业影响" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>该事件成为了 AI 行业讨论 <a href="../RLHF" class="internal" data-slug="RLHF">RLHF</a> 局限性和模型行为不可控性的经典案例。</p>
+<h2 id="商业影响">商业影响<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#商业影响" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>尽管 GPT-5.5 在技术上取得了领先，但其高昂的推理成本加剧了 OpenAI 的财务压力。在 <a href="../AI-商业化困境" class="internal alias" data-slug="AI-商业化困境">AI-商业化困境</a> 的背景下，模型性能的提升与变现成本之间的矛盾愈发突出。</p>
+<h3 id="定价策略">定价策略<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#定价策略" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>GPT-5.5 采取了“更强但更贵”的溢价策略：</p>
 <ul>
 <li><strong>输入</strong>：$5 / 百万 Token</li>
 <li><strong>输出</strong>：$30 / 百万 Token</li>
 <li><strong>对比</strong>：价格是 GPT-5.4 的两倍。虽然 Token 效率提升，但对于高频用户，总成本预计仍将上涨约 40%。</li>
 </ul>
-<h3 id="市场震动">市场震动<a aria-hidden="true" tabindex="-1" href="#市场震动" class="internal"> §</a></h3>
-<p>GPT-5.5 的发布直接导致了 <a href="../concepts/开发者大迁徙" class="internal">开发者大迁徙</a>。集成该模型的 <a href="../Codex" class="internal">Codex</a> 工具单周下载量突破 9000 万，远超竞争对手。企业用户（如 <a href="../Bold-Metrics" class="internal">Bold Metrics</a>）因成本压力纷纷从 Claude 迁移至 GPT-5.5 平台。</p>
-<h3 id="争议">争议<a aria-hidden="true" tabindex="-1" href="#争议" class="internal"> §</a></h3>
+<h3 id="市场震动">市场震动<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#市场震动" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>GPT-5.5 的发布直接导致了 <a href="../concepts/开发者大迁徙" class="internal alias" data-slug="concepts/开发者大迁徙">开发者大迁徙</a>。集成该模型的 <a href="../Codex" class="internal" data-slug="Codex">Codex</a> 工具单周下载量突破 9000 万，远超竞争对手。企业用户（如 <a href="../Bold-Metrics" class="internal alias" data-slug="Bold-Metrics">Bold Metrics</a>）因成本压力纷纷从 Claude 迁移至 GPT-5.5 平台。</p>
+<h3 id="争议">争议<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#争议" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><strong>SWE-Bench Pro 有效性</strong>：OpenAI 在该基准上失利后，公开质疑基准本身的有效性，暗示竞争对手通过“背答案”获得高分，引发了关于评测标准是否滞后的行业讨论。</li>
 <li><strong>更新节奏</strong>：OpenAI 维持着约六周一次的更新节奏，试图在保持技术领先的同时解决成本问题。首席科学家称过去几年进展“出乎意料地缓慢”，预计未来模型发布节奏将加快。</li>
 </ul>
-<h2 id="战略意义与竞争">战略意义与竞争<a aria-hidden="true" tabindex="-1" href="#战略意义与竞争" class="internal"> §</a></h2>
+<h2 id="战略意义与竞争">战略意义与竞争<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#战略意义与竞争" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>GPT-5.5 的出现标志着 OpenAI 战略重心的转移。它不再仅仅是下一代聊天机器人，而是 OpenAI 对于智能体时代终极答案的探索。这也印证了 Sam Altman 关于“AGI 只是热身”的论断，暗示 AI 正从辅助工具向自主执行者进化。</p>
-<h3 id="竞争背景">竞争背景<a aria-hidden="true" tabindex="-1" href="#竞争背景" class="internal"> §</a></h3>
+<h3 id="竞争背景">竞争背景<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#竞争背景" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><strong>对抗谷歌</strong>：GPT-5.5（代号 Garlic）被视为 OpenAI 对抗谷歌 Gemini 3 的关键王牌。在内部公测中，其表现优于谷歌的 Gemini 3 和 Anthropic 的 Claude 4.5 Opus。</li>
-<li><strong>Anthropic 威胁</strong>：GPT-5.5 的发布窗口与 <a href="../Anthropic" class="internal">Anthropic</a> 的下一代模型 <a href="../Claude-Mythos" class="internal">Claude Mythos</a>（代号 Capybara）高度</li>
-</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
-	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
-	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
-	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
-	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
-	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
-	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
-	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
-	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
-	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../concepts/issue-分诊" class="internal">Issue 分诊</a></li><li><a href="../concepts/基础设施滞后" class="internal">基础设施滞后</a></li><li><a href="../entities/clawsweeper" class="internal">ClawSweeper</a></li><li><a href="../entities/garlic" class="internal">Garlic</a></li><li><a href="../sources/openai内部代码泄露！最强模型「皇帝」登基，0思考延时吓人" class="internal">OpenAI内部代码泄露！最强模型「皇帝」登基，0思考延时吓人</a></li><li><a href="../sources/奥特曼怕了！gpt-5.5「大蒜」决战谷歌，红色警报紧急拉响" class="internal">奥特曼怕了！GPT-5.5「大蒜」决战谷歌，红色警报紧急拉响</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
-function toggleCallout() {
-  const outerBlock = this.parentElement;
-  outerBlock.classList.toggle(`is-collapsed`);
-  const collapsed = outerBlock.classList.contains(`is-collapsed`);
-  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
-  outerBlock.style.maxHeight = height + `px`;
-  let current = outerBlock;
-  let parent = outerBlock.parentElement;
-  while (parent) {
-    if (!parent.classList.contains(`callout`)) {
-      return;
-    }
-    const collapsed2 = parent.classList.contains(`is-collapsed`);
-    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
-    parent.style.maxHeight = height2 + `px`;
-    current = parent;
-    parent = parent.parentElement;
-  }
-}
-function setupCallout() {
-  const collapsible = document.getElementsByClassName(
-    `callout is-collapsible`
-  );
-  for (const div of collapsible) {
-    const title = div.firstElementChild;
-    if (title) {
-      title.removeEventListener(`click`, toggleCallout);
-      title.addEventListener(`click`, toggleCallout);
-      const collapsed = div.classList.contains(`is-collapsed`);
-      const height = collapsed ? title.scrollHeight : div.scrollHeight;
-      div.style.maxHeight = height + `px`;
-    }
-  }
-}
-document.addEventListener(`nav`, setupCallout);
-window.addEventListener(`resize`, setupCallout);
-</script><script type="module">
-          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
-          mermaid.initialize({ 
-            startOnLoad: false,
-            securityLevel: 'loose',
-            theme: darkMode ? 'dark' : 'default'
-          });
-          document.addEventListener('nav', async () => {
-            await mermaid.run({
-              querySelector: '.mermaid'
-            })
-          });
-          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
+<li><strong>Anthropic 威胁</strong>：GPT-5.5 的发布窗口与 <a href="../Anthropic" class="internal" data-slug="Anthropic">Anthropic</a> 的下一代模型 <a href="../Claude-Mythos" class="internal alias" data-slug="Claude-Mythos">Claude Mythos</a>（代号 Capybara）高度</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-6121" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#gpt-55" data-for="gpt-55">GPT-5.5</a></li><li class="depth-1"><a href="#基本信息" data-for="基本信息">基本信息</a></li><li class="depth-1"><a href="#核心特性" data-for="核心特性">核心特性</a></li><li class="depth-2"><a href="#新预训练底座与架构" data-for="新预训练底座与架构">新预训练底座与架构</a></li><li class="depth-2"><a href="#原生大脑与直觉化推理" data-for="原生大脑与直觉化推理">原生大脑与直觉化推理</a></li><li class="depth-2"><a href="#codex-模式与自主编程" data-for="codex-模式与自主编程">Codex 模式与自主编程</a></li><li class="depth-2"><a href="#网络安全能力" data-for="网络安全能力">网络安全能力</a></li><li class="depth-1"><a href="#性能基准" data-for="性能基准">性能基准</a></li><li class="depth-2"><a href="#编程与工程" data-for="编程与工程">编程与工程</a></li><li class="depth-2"><a href="#数学与推理" data-for="数学与推理">数学与推理</a></li><li class="depth-2"><a href="#知识工作与-agent" data-for="知识工作与-agent">知识工作与 Agent</a></li><li class="depth-2"><a href="#科研能力" data-for="科研能力">科研能力</a></li><li class="depth-2"><a href="#泛化能力局限arc-agi-3" data-for="泛化能力局限arc-agi-3">泛化能力局限：ARC-AGI-3</a></li><li class="depth-1"><a href="#应用场景" data-for="应用场景">应用场景</a></li><li class="depth-2"><a href="#代码生成与审查" data-for="代码生成与审查">代码生成与审查</a></li><li class="depth-2"><a href="#个人代理与工具集成" data-for="个人代理与工具集成">个人代理与工具集成</a></li><li class="depth-2"><a href="#科研协作" data-for="科研协作">科研协作</a></li><li class="depth-1"><a href="#实测表现" data-for="实测表现">实测表现</a></li><li class="depth-1"><a href="#局限性" data-for="局限性">局限性</a></li><li class="depth-1"><a href="#哥布林事件" data-for="哥布林事件">哥布林事件</a></li><li class="depth-2"><a href="#现象描述" data-for="现象描述">现象描述</a></li><li class="depth-2"><a href="#成因分析" data-for="成因分析">成因分析</a></li><li class="depth-2"><a href="#版本演变" data-for="版本演变">版本演变</a></li><li class="depth-2"><a href="#应对措施" data-for="应对措施">应对措施</a></li><li class="depth-2"><a href="#行业影响" data-for="行业影响">行业影响</a></li><li class="depth-1"><a href="#商业影响" data-for="商业影响">商业影响</a></li><li class="depth-2"><a href="#定价策略" data-for="定价策略">定价策略</a></li><li class="depth-2"><a href="#市场震动" data-for="市场震动">市场震动</a></li><li class="depth-2"><a href="#争议" data-for="争议">争议</a></li><li class="depth-1"><a href="#战略意义与竞争" data-for="战略意义与竞争">战略意义与竞争</a></li><li class="depth-2"><a href="#竞争背景" data-for="竞争背景">竞争背景</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../concepts/issue-分诊" class="internal">Issue 分诊</a></li><li><a href="../concepts/基础设施滞后" class="internal">基础设施滞后</a></li><li><a href="../entities/clawsweeper" class="internal">ClawSweeper</a></li><li><a href="../entities/garlic" class="internal">Garlic</a></li><li><a href="../sources/openai内部代码泄露！最强模型「皇帝」登基，0思考延时吓人" class="internal">OpenAI内部代码泄露！最强模型「皇帝」登基，0思考延时吓人</a></li><li><a href="../sources/奥特曼怕了！gpt-5.5「大蒜」决战谷歌，红色警报紧急拉响" class="internal">奥特曼怕了！GPT-5.5「大蒜」决战谷歌，红色警报紧急拉响</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>
