@@ -275,14 +275,27 @@ function generateTimeline(contentDir) {
   if (entries.length === 0) return 0
 
   entries.sort((a, b) => a.date.localeCompare(b.date))
-  const html = buildTimelineHtml(entries, relations, slugToLabel)
-  writeFileSync(join(contentDir, 'timeline.md'), html)
-  return entries.length
+
+  const eventEntries = entries.filter((e) => e.type === 'event')
+  const conceptEntries = entries.filter((e) => e.type === 'concept' || e.type === 'entity')
+
+  const totalCount = entries.length
+  const eventCount = eventEntries.length
+  const conceptCount = conceptEntries.length
+
+  writeFileSync(join(contentDir, 'timeline.md'),
+    buildTimelineHtml('Timeline', 'timeline', entries, totalCount, eventCount, conceptCount, relations, slugToLabel))
+  writeFileSync(join(contentDir, 'timeline-events.md'),
+    buildTimelineHtml('Timeline — Events', 'timeline-events', eventEntries, totalCount, eventCount, conceptCount, relations, slugToLabel))
+  writeFileSync(join(contentDir, 'timeline-concepts.md'),
+    buildTimelineHtml('Timeline — Concepts & Entities', 'timeline-concepts', conceptEntries, totalCount, eventCount, conceptCount, relations, slugToLabel))
+
+  return totalCount
 }
 
-function buildTimelineHtml(entries, relations, slugToLabel) {
+function buildTimelineHtml(title, pageSlug, entries, totalCount, eventCount, conceptCount, relations, slugToLabel) {
   let currentYear = ''
-  const entriesHtml = entries.map((e) => {
+  const entriesHtml = entries.map((e, i) => {
     const year = e.date.slice(0, 4)
     const showYear = year !== currentYear
     currentYear = year
@@ -290,8 +303,9 @@ function buildTimelineHtml(entries, relations, slugToLabel) {
     const dateHtml = showYear
       ? `<span class="tl-date-year">${escapeHtml(e.date)}</span>`
       : `<span>${escapeHtml(e.date.slice(5))}</span>`
-    return `<div class="tl-entry">
+    return `<div class="tl-entry" data-idx="${i}">
   <div class="tl-date">${dateHtml}</div>
+  <div class="tl-mobile-date">${escapeHtml(e.date)}</div>
   <div class="tl-dot" style="background:${color}"></div>
   <div class="tl-card">
     <a href="/${e.slug}">
@@ -319,17 +333,28 @@ ${items}
 </div>`
   }
 
+  const tabHtml = `<div class="tl-tabs">
+<a class="tl-tab${pageSlug === 'timeline' ? ' active' : ''}" href="/timeline">All (${totalCount})</a>
+<a class="tl-tab${pageSlug === 'timeline-events' ? ' active' : ''}" href="/timeline-events">Events (${eventCount})</a>
+<a class="tl-tab${pageSlug === 'timeline-concepts' ? ' active' : ''}" href="/timeline-concepts">Concepts &amp; Entities (${conceptCount})</a>
+</div>`
+
   return `---
-title: Timeline
+title: ${title}
 date: ${new Date().toISOString().split('T')[0]}
 ---
 
 <style>
+.tl-tabs { display: flex; gap: 8px; max-width: 720px; margin: 0 auto 1.5rem; flex-wrap: wrap; }
+.tl-tab { padding: 6px 14px; border: 1px solid #e5e5e5; border-radius: 20px; font-size: 0.8rem; text-decoration: none; color: #555; transition: all 0.15s; }
+.tl-tab:hover { border-color: #999; color: #222; }
+.tl-tab.active { background: #284b63; color: #fff; border-color: #284b63; }
 .tl-container { max-width: 720px; margin: 2rem auto; position: relative; padding-left: 140px; }
 .tl-line { position: absolute; left: 126px; top: 0; bottom: 0; width: 2px; background: #e5e5e5; }
 .tl-entry { position: relative; display: flex; align-items: flex-start; gap: 12px; padding-bottom: 1.5rem; }
 .tl-date { position: absolute; left: -140px; width: 120px; text-align: right; padding-right: 16px; padding-top: 4px; font-size: 0.8rem; color: #888; }
 .tl-date-year { font-weight: 600; color: #333; font-size: 0.85rem; }
+.tl-mobile-date { display: none; font-size: 0.7rem; color: #888; margin-bottom: 2px; }
 .tl-dot { position: absolute; left: -8px; top: 6px; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.08); flex-shrink: 0; }
 .tl-card { flex: 1; border: 1px solid #e5e5e5; border-radius: 8px; padding: 0.75rem 1rem; transition: background-color 0.15s; }
 .tl-card:hover { background-color: rgba(0,0,0,0.02); }
@@ -337,12 +362,29 @@ date: ${new Date().toISOString().split('T')[0]}
 .tl-card-type { display: inline-flex; align-items: center; gap: 4px; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.03em; color: #888; margin-bottom: 2px; }
 .tl-card-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; }
 .tl-card-title { font-size: 0.9rem; font-weight: 500; color: #222; }
+.tl-pager { display: flex; justify-content: center; align-items: center; gap: 6px; margin: 1.5rem 0; flex-wrap: wrap; }
+.tl-pager button { padding: 6px 12px; border: 1px solid #e5e5e5; border-radius: 6px; background: #fff; cursor: pointer; font-size: 0.8rem; color: #333; transition: all 0.15s; }
+.tl-pager button:hover { border-color: #999; }
+.tl-pager button.active { background: #284b63; color: #fff; border-color: #284b63; }
+.tl-pager button:disabled { opacity: 0.4; cursor: default; }
 .tl-relations { margin-top: 2rem; border-top: 1px solid #e5e5e5; padding-top: 1.5rem; }
 .tl-relations h3 { font-size: 0.85rem; font-weight: 600; margin-bottom: 0.75rem; color: #555; }
 .tl-rel { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; padding: 0.4rem 0.6rem; border: 1px solid #e5e5e5; border-radius: 6px; margin-bottom: 0.4rem; }
 .tl-rel-name { font-weight: 500; color: #333; }
 .tl-rel-type { font-size: 0.65rem; background: #f3f3f3; padding: 2px 6px; border-radius: 4px; color: #777; white-space: nowrap; }
+@media (max-width: 640px) {
+  .tl-container { padding-left: 0; }
+  .tl-line { left: 14px; }
+  .tl-date { display: none; }
+  .tl-mobile-date { display: block; }
+  .tl-dot { left: 8px; }
+  .tl-entry { padding-left: 36px; }
+  .tl-tab { padding: 5px 10px; font-size: 0.75rem; }
+}
 @media (prefers-color-scheme: dark) {
+  .tl-tab { border-color: #333; color: #aaa; }
+  .tl-tab:hover { border-color: #666; color: #ddd; }
+  .tl-tab.active { background: #284b63; color: #fff; border-color: #284b63; }
   .tl-line { background: #333; }
   .tl-date { color: #888; }
   .tl-date-year { color: #ddd; }
@@ -350,6 +392,9 @@ date: ${new Date().toISOString().split('T')[0]}
   .tl-card { border-color: #333; }
   .tl-card:hover { background-color: rgba(255,255,255,0.04); }
   .tl-card-title { color: #eee; }
+  .tl-pager button { background: #1e1e21; border-color: #333; color: #ccc; }
+  .tl-pager button:hover { border-color: #666; }
+  .tl-pager button.active { background: #284b63; color: #fff; border-color: #284b63; }
   .tl-rel { border-color: #333; }
   .tl-rel-name { color: #ddd; }
   .tl-rel-type { background: #2a2a2a; color: #aaa; }
@@ -357,11 +402,43 @@ date: ${new Date().toISOString().split('T')[0]}
 }
 </style>
 
+${tabHtml}
+
 <div class="tl-container">
 <div class="tl-line"></div>
 ${entriesHtml}
 </div>
+<div class="tl-pager" id="tl-pager"></div>
 ${relationsHtml}
+
+<script>
+;(function(){
+  var PER=30,entries=document.querySelectorAll('.tl-entry'),total=entries.length,pager=document.getElementById('tl-pager');
+  if(!pager||total<=PER)return;
+  var pages=Math.ceil(total/PER);
+  function show(p){
+    p=Math.max(1,Math.min(pages,p));
+    for(var i=0;i<total;i++)entries[i].style.display=(i>=(p-1)*PER&&i<p*PER)?'':'none';
+    location.hash='page-'+p;
+    render(p);
+  }
+  function render(p){
+    var h='<button'+(p<=1?' disabled':'')+' onclick="window._tlGo('+(p-1)+')">&laquo;</button>';
+    var start=Math.max(1,p-2),end=Math.min(pages,p+2);
+    if(start>1)h+='<button onclick="window._tlGo(1)">1</button>';
+    if(start>2)h+='<span style="padding:0 4px;color:#888">...</span>';
+    for(var i=start;i<=end;i++)h+='<button class="'+(i===p?'active':'')+'" onclick="window._tlGo('+i+')">'+i+'</button>';
+    if(end<pages-1)h+='<span style="padding:0 4px;color:#888">...</span>';
+    if(end<pages)h+='<button onclick="window._tlGo('+pages+')">'+pages+'</button>';
+    h+='<button'+(p>=pages?' disabled':'')+' onclick="window._tlGo('+(p+1)+')">&raquo;</button>';
+    pager.innerHTML=h;
+  }
+  window._tlGo=show;
+  var m=(location.hash||'').match(/page-(\d+)/);
+  show(m?parseInt(m[1]):1);
+  window.addEventListener('hashchange',function(){var m=(location.hash||'').match(/page-(\d+)/);if(m)show(parseInt(m[1]));});
+})();
+</script>
 `
 }
 
