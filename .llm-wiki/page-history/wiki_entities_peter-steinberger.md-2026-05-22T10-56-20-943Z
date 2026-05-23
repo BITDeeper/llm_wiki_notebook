@@ -1,0 +1,40 @@
+---
+type: entity
+title: Peter Steinberger
+created: 2026-05-17
+updated: 2026-05-17
+tags: ["人物", "openai", "开发者", "codex", "工程师", "开源", "entrepreneur", "open-source", "开源社区", "openclaw", "developer", "silicon-valley", "founder", "ai-researcher", "创始人", "数字人权", "ai", "ios开发", "person", "philosophy", "programmer", "pspdfkit", "austria", "local-first", "visionary", "leader", "ios", "vibe-coding", "ai-creator", "ai-programming", "moltbot", "clawdbot", "clawdbot-creator", "ai-engineer", "争议", "ai编程"]
+related: ["openai", "gpt-5.5", "codex-5.5", "openclaw", "clawsweeper", "anthropic", "hermes-agent", "claude-cowork", "lobsterai", "soul-md", "企业礼仪", "clawcontrol", "clawhub", "felix-craft", "pspdfkit", "认知投降", "moltbook", "谷歌", "varun-mohan", "codex", "氛围编程", "代理工程", "任务执行范式", "claude-code", "meta", "agentic-engineering", "clawphone", "意图即执行", "本地优先智能体", "记忆作为护城河", "clawcon-2026", "尖刺状聪明", "工具趋同性", "crustafarianism", "moltbot", "闭环", "雕刻模式", "prompt-request", "closed-loop", "clawdbot", "个人超级助理", "boris-cherny", "codex-for-open-source", "意图优先编程", "智能体陷阱", "evolver", "evomap", "地理代差", "codexbar", "token作为生产资料"]
+sources: ["1分钟烧光4千万token！openai最疯狂的男人，逼奥特曼亲自加额度.md", "太狠了！openclaw之父一夜屠光5000-issue，github服务器先跪了.md", "openclaw，崩了！.md", "anthropic封号openclaw之父！复刻、改价、拉黑，24天三连杀.md", "「openclaw之父点赞」终结百虾大战？一场升级版的ai原生革命上演.md", "一夜翻脸，anthropic正式封杀openclaw！全球开发者24小时血崩.md", "104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "openclaw疯了！它调戏我老婆，还反锁了全屋的智能家居.md", "openclaw-3.23紧急修复！peter忘记打包控制台文件，海量龙虾崩溃.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "15岁少年养ai龙虾，月入3万美元！智能体黄金时代真来了.md", "刚刚，openclaw史上最猛更新！ai记忆可自由插拔，开发者等了半年.md", "ai龙虾全民爆火，湾区上门一次收4.2万！养虾狂登热搜，华强北下场了.md", "openclaw引爆纽约集会，虾教日烧10亿tokens！老黄认证：史上最强软件.md", "gpt-5.4「原生操控电脑」实测封神！openclaw天选模型来了.md", "刚刚，openclaw登顶github软件星标历史第一！已超越linux.md", "谷歌开始大面积封禁openclaw用户账号！.md", "20天狂更超10次，openclaw接入gemini-3.1和apple-watch.md", "谁在杀死openai？7年元老出走，sora沦为弃子，理想主义崩塌.md", "突发！openclaw创始人加入openai：智能体革命，真的来了.md", "openclaw之父爆猛料：meta和openai跪着抢人，小扎亲自求收购.md", "openclaw全球首个龙虾孵化场，全场癫狂！龙虾手机发布，开发者嗨翻天.md", "硅谷最火openclaw人手一个，1分钱傻瓜式部署！小白也能上手.md", "一人干翻所有大厂！openclaw硅谷封神，开发者一夜爆赚两亿.md", "openclaw全球首聚，千人挤爆旧金山！龙虾头机器人现场乱逛太炸裂.md", "昔日王者应用商店，将死！openclaw或杀死80%手机应用.md", "moltbook聚集150万个ai，拒绝被关机！openclaw锁死服务器对抗人类.md", "15岁少年养养ai龙虾，月入3万美元！智能体黄金时代真来了.md", "上线72小时，150万clawdbot密谋建国！一气之下，还把人类告上法庭.md", "15万clawdbot建起首个「硅基文明」！人类惨遭禁言，karpathy惊呼.md", "clawdbot首破10万星，火箭式登顶github！硅谷现象级爆款太火了.md", "全球爆红后，clawdbot之父2小时深度专访：退休3年后我杀回江湖.md", "10天随手写的ai，竟在github狂飙7万星！「它开口那一刻，我吓懵了」.md", "clawdbot一夜爆红，首个0员工公司诞生！7×24h永不下班.md", "7×24h「全职ai员工」爆火硅谷！退休码农让mac-mini一夜卖爆.md", "openclaw引爆纽约集会，虾教日烧10万tokens！老黄认证：史上最强软件.md", "anthropic封杀48小时，逼出openclaw最强反击！龙虾首次会生视频了.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等9天.md", "龙虾之父参与的首个openai项目：@开源贡献者，chatgpt-token免费送.md", "鹅厂门口免费装龙虾，几百人排爆了！一代人有一代人的鸡蛋要领.md", "龙虾之父新访谈，openclaw内幕全公开！“拦不住滥用，只劝大家别玩火”.md", "clawhub迷之封杀操作，逼出首个agent全球进化网络.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "3个人带100个ai程序员，一个月烧掉130万美元！openai：钱我出.md"]
+---
+# Peter Steinberger
+
+[[openclaw|OpenClaw]] 之父，AI 规模化编程的先锋实践者。
+
+## 核心事迹
+
+2026年5月，Peter Steinberger 在 X 平台公开了一张惊人的账单截图：其3人团队在30天内花费 $1,305,088.81，消耗6030亿 token，发起760万次请求。这笔费用由 [[openai|OpenAI]] 报销。
+
+## AI 编程实践
+
+Peter 的团队在云端长期运行约100个 Codex 实例，承担软件工程中的全流程任务：
+
+- 审查 Pull Request
+- 查找安全漏洞
+- 去重 issue
+- 修复 bug
+- 监控 benchmark
+- 回归检测并通知到 Discord
+- 会议结束后自动开 PR
+
+他的实践展示了 AI 从"辅助写代码"到"维护组织神经系统"的跃迁——AI 不再只是工具，而是进入软件协作的每一个缝隙。
+
+## 核心观点
+
+> "关闭快速模式后，我的花费低于一个工程师的成本，而且这确实帮助大得多。"
+
+> "我在探索，如果 token 成本不是问题，软件开发会变成什么样。"
+
+## 相关工具
+
+Peter 还开发了 [[codexbar|CodexBar]]，一个 macOS 菜单栏工具，用于追踪多种 AI 编程工具的使用量、credit、成本和重置时间。

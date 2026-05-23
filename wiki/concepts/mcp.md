@@ -1,53 +1,26 @@
 ---
 type: concept
-title: MCP (模型上下文协议)
-tags: [协议, 基础设施, claude, protocol, integration, context, 标准, agent, 集成]
-related: [claude-code, channels, anthropic, boris-cherny, skill-能力单元, app-解构, 任务执行范式, deepseek]
-created: 2026-03-20
-updated: 2026-05-11
-sources: ["claude-code也要龙虾化！凌晨床上发条消息，mac-mini瞬间亮屏狂敲代码.md", "claude-code之父首曝：「养蛊式」开发，质量碾压老架构师.md", "skill会吃掉app吗？龙虾时代，这个问题值得认真聊聊｜沙龙报名.md", "梁文锋自掏200亿？deepseek被曝500亿天价融资.md"]
+title: MCP（Model Context Protocol）
+created: 2026-05-12
+updated: 2026-05-12
+tags: ["协议", "基础设施", "claude", "protocol", "integration", "context", "标准", "agent", "集成", "tool-integration", "interoperability"]
+related: ["claude-code", "channels", "anthropic", "boris-cherny", "skill-能力单元", "app-解构", "任务执行范式", "deepseek", "peekaboo-v3", "openclaw", "cursor"]
+sources: ["claude-code也要龙虾化！凌晨床上发条消息，mac-mini瞬间亮屏狂敲代码.md", "claude-code之父首曝：「养蛊式」开发，质量碾压老架构师.md", "skill会吃掉app吗？龙虾时代，这个问题值得认真聊聊｜沙龙报名.md", "梁文锋自掏200亿？deepseek被曝500亿天价融资.md", "openclaw低调更新重磅版本，龙虾长手长脚了.md"]
 ---
+# MCP（Model Context Protocol）
 
-# MCP (模型上下文协议)
+MCP（Model Context Protocol）是一种将工具能力打包为标准协议供 AI 工具调用的机制。它允许外部工具将其能力（如屏幕截图、文件操作、API 调用等）以标准化接口暴露给 AI 编程工具和智能体框架。
 
-**MCP (Model Context Protocol)** 是 [[Anthropic]] 提出的模型上下文协议，是 Claude 生态的连接标准，支持插件化扩展。作为一种用于连接 AI 模型/Agent 与外部数据或工具的通用协议标准，它旨在解决大语言模型（LLM）如何高效、安全地连接外部数据源和软件工具的问题。
+## 核心特征
 
-在“[[Skill]] 吃掉 [[APP]]”的讨论中，MCP 被视为实现这一解构过程的关键技术手段，也是 AI 行业从单纯的“模型能力竞争”转向“生态集成竞争”的重要标志。
+- **标准化接口**：工具开发者只需实现一次 MCP Server，即可被多种 AI 工具调用。
+- **解耦设计**：工具能力与 AI 模型分离，任何支持 MCP 的 AI 工具都能接入。
+- **即插即用**：用户通过简单命令（如 `npx -y @steipete/peekaboo mcp`）即可将工具接入工作流。
 
-## 核心价值与功能
+## 典型应用场景
 
-MCP 的核心在于实现**上下文直连**与**动作执行**：
+以 [[peekaboo-v3]] 为例，其将 Mac 桌面操控能力打包为 MCP Server 后，[[cursor]] 可以自主截图、查看 UI 问题、修改代码、重新运行验证——全程无需人类介入。这展示了 MCP 在 AI 工具互操作中的关键作用。
 
-- **上下文直连**：允许 [[claude-code]] 等 AI 工具直接访问外部数据源（如 Slack、CI 系统、企业内部数据库），从而消除人工搬运信息的内耗。它打破了信息孤岛，让 AI 能够直接读取相关上下文、调用对应工具进行问题复盘，而不需要用户进行复制粘贴或截图解释。
-- **动作执行**：不仅限于生成文本，还能通过协议触发外部系统的操作（如查询库存、发送邮件、调用 API），从单纯的对话交互转变为能够执行具体任务的生产力工具。
-- **标准化连接**：提供统一的接口规范，允许 Agent 通过统一的接口调用不同的 Skill 或数据源，减少模型针对不同软件进行单独适配的成本。
+## 行业影响
 
-## 技术作用
-
-- **解耦界面**：使得功能调用可以绕过传统的 GUI（图形用户界面），直接进行程序间通信。
-- **事件推送**：将外部事件主动推送到 Claude 或 Claude Code 会话中。
-- **插件化**：支持通过 MCP server 扩展 Claude 的功能，如 [[Channels]] 本质上就是一个 MCP server。
-- **促进生态**：降低开发者将产品转化为 Skill 的门槛，只需适配 MCP 协议即可接入 Agent 网络。
-
-## 应用场景
-
-### 开发与运维
-- **Bug 修复**：直接从 CI 系统读取日志，从 Slack 读取 Bug 报告，然后在 IDE 中生成修复代码。
-- **信息整合**：自动关联分散在不同平台的项目信息。
-- **消息集成**：通过 [[Channels]] 将 Telegram/Discord 的消息推送到 Claude Code 会话中。
-
-### 企业级应用
-在 [[DeepSeek]] V4.1 的规划中，MCP 被视为关键升级点。通过支持 MCP，模型能够：
-1. **接入企业工作流**：直接嵌入企业的 ERP、CRM 或办公软件中。
-2. **从“聊天”到“干活”**：从单纯的对话交互转变为能够执行具体任务的生产力工具。
-3. **增强企业级价值**：满足 B 端客户对于 AI 落地实际业务流程的强需求。
-
-## 行业意义
-
-MCP 协议体现了 AI 时代工具集成的趋势：将开发者从“人肉搬运工”解放出来，专注于更高层次的决策和验收。
-
-同时，MCP 的存在使得“一段 MCP 调用”就能替代“打开一个 APP 并进行一系列点击操作”，从而加速了软件形态从 APP 向 Skill 的演进。对于模型厂商而言，支持 MCP 等标准是构建企业级护城河的重要手段。
-
-## 参见
-- [[Channels]]
-- [[Claude Code]]
+MCP 正在成为 AI 工具生态中能力分发的标准化机制。如果广泛采用，将显著降低工具集成成本，加速 Agent 生态的工具丰富度。

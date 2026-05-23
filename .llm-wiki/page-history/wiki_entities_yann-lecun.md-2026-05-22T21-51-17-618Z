@@ -1,0 +1,61 @@
+---
+type: entity
+title: Yann LeCun
+created: 2026-05-21
+updated: 2026-05-22
+tags: ["人物", "meta", "ai-critic", "理性派", "图灵奖", "ai-researchers", "deep-learning", "world-model", "turing-award", "ai", "llm-critic", "person", "ai-chief", "critic", "ai教父", "离职", "ai-research", "world-models", "ai-researcher", "figurehead", "科学家", "ami", "谢赛宁", "john-nguyen", "researcher", "ai-pioneer", "深度学习", "世界模型", "jepa", "fair", "ai先驱", "AI科学家", "AMI-Labs"]
+related: ["dario-amodei", "ai-末日恐慌", "meta", "neurips", "氛围引用", "meta-ai", "ami-labs", "jepa", "v-jepa", "alexandr-wang", "llama-4", "jea-world-model", "agi", "scaling-law", "zuckerberg", "llama", "fair", "meta-ai内部冲突-2025", "tbd-lab", "world-models", "moravec-paradox", "三系统认知框架", "qwen", "ami", "谢赛宁", "john-nguyen", "世界模型", "saining-xie", "pytorch", "sai-超人类适应性智能", "自监督学习", "莫拉维克悖论", "judah-goldfeder", "hod-lipson", "jepa-联合嵌入预测架构", "ami-advanced-machine-intelligence", "objective-driven-ai", "tapestry-全球开放模型", "图灵奖三巨头路线分裂", "i-jepa", "v-jepa-2", "leworldmodel"]
+sources: ["刚刚，claude被扒底裤！mythos算力带不动，万亿估值全靠末日恐慌.md", "华裔00后戳破顶会泡沫！neurips-53篇论文曝ai造假，lecun躺枪.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远？.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "meta版「甄嬛传」！28岁天才上位，掌管6千亿命脉，ai教父愤然出走.md", "65岁lecun被卷回巴黎老家！与小扎一刀两断，曝光神秘ai初创.md", "lecun点赞：国产开源模型占领硅谷，性价比超10倍.md", "meta又一ai大将跟lecun跑了.md", "lecun三顾茅庐，谢赛宁终于入伙！新公司获投10亿美元.md", "lecun团队新论文：模仿人类智能搞ai，照猫画虎死胡同.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "160行代码读懂lecun的jepa世界模型.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md"]
+origin_date: 1960-07-08
+---
+# Yann LeCun（杨立昆）
+
+Yann LeCun（杨立昆）是人工智能领域的先驱人物，深度学习的奠基人之一，图灵奖得主、卷积神经网络之父，前 Meta FAIR 创始人及首席 AI 科学家，2025年底离开 Meta 创办 [[ami-advanced-machine-intelligence|AMI]]（即 [[ami-labs]]），获10.3亿美元种子轮融资。他也是 [[jepa-联合嵌入预测架构|JEPA]] 联合嵌入预测架构的提出者，同时任纽约大学教授。
+
+## 主要贡献
+
+- **卷积神经网络（CNN）：** 发明卷积网络，获 2018 年图灵奖。
+- **JEPA 世界模型：** 提出 [[jepa-联合嵌入预测架构|JEPA]] 联合嵌入预测架构及其系列变体（[[i-jepa]]、[[v-jepa]]、[[v-jepa-2]] 等）。
+- **自监督学习：** 推动自监督学习在视觉领域的应用。
+
+## 职业轨迹
+
+- **2013年底-2014年初**：加入 Facebook/Meta，筹建 FAIR（Fundamental AI Research）。
+- **2014-2018**：担任 FAIR director，建立组织架构和文化，招募核心团队。
+- **2016年**：在 NeurIPS 发表 keynote，提出 AI 应走向世界模型方向。
+- **2018年**：从 FAIR director 退任，转为 Chief AI Scientist，开始推进世界模型研究。
+- **约2020年**：[[jepa-联合嵌入预测架构|JEPA]] 核心想法成形。
+- **2022年**：发表长篇 vision paper，完整阐述世界模型愿景，持续推广"在 embedding 空间做预测，不碰像素"的核心理念。
+- **2025年底**：离开 Meta，创办 [[ami-advanced-machine-intelligence|AMI]]（[[ami-labs]]），押注 [[jepa]] 架构。
+
+## 核心技术观点
+
+- **反对LLM作为AGI路径**：LLM擅长语言操作，但无法处理高维、连续、有噪声的真实世界，没有预测行为后果的能力，本质上不可靠。他认为自回归方法存在根本局限。
+- **JEPA/世界模型是未来**：智能行为需要预测行为后果的能力、通过优化和搜索规划的能力、在抽象表征层面预测的能力。JEPA 代表了通向更高效、更泛化的人工智能的路径。
+- **预测像素是浪费**：LeCun 认为预测像素在根本上是一种浪费——大多数像素级细节与理解动力学无关。他主张在抽象表示空间中预测未来，完全回避像素重建。
+- **[[objective-driven-ai|Objective-driven AI]]**：给系统目标和 cost function，通过世界模型预测行动后果并优化行动序列，可从构造上添加安全约束。
+- **模仿学习不可行**：需要海量任务特定数据，成本高且脆弱，"连自动驾驶这一个任务都搞不定"。
+
+## JEPA 的理想与现实
+
+LeCun 多年来持续推广 JEPA，但 Meta 官方实现工程复杂度过高，导致 JEPA 长期处于"只闻其名"的状态，直到 [[keon-jepa]] 极简教学版的出现。
+
+### V-JEPA 2 的验证
+
+V-JEPA 2 在 LeCun 离职前于 Meta 开发，在超过一百万小时互联网视频上预训练，仅在62小时机器人数据上微调，对抓放任务实现80%零样本成功率——这为"在抽象表示空间预测"的理念提供了工程层面的实证支持。
+
+## 与其他图灵奖得主的分歧
+
+LeCun 声称不是他与 [[geoffrey-hinton|Hinton]] 和 [[yoshua-bengio|Bengio]] 分道扬镳，而是两位同事在 GPT-4 后突然改变立场。他认为 Hinton 的"顿悟"基于皮层神经元数量的粗糙类比，本质是"想退休宣布胜利"。详见 [[图灵奖三巨头路线分裂]]。
+
+## 对行业的批评
+
+- **Anthropic**：试图用恐惧推动 AI 监管，有商业动机夸大风险。
+- **OpenAI**：类比为"下一个 Sun Microsystems"，注定被开源替代。
+- **硅谷羊群效应**：所有公司都在挖同一条战壕，没人承受得起落后于对手的代价。
+
+## 名言
+
+> "雇最好的人，给他们成功所需的资源，然后……滚开，别挡路。"
+
+> "如果你在读 PhD，别做 LLM。没意义，你做不了贡献。"

@@ -1,18 +1,26 @@
 ---
 type: entity
 title: Claude Managed Agents
-tags: [anthropic, agent, infrastructure, production, cloud, saas, platform]
-related: [anthropic, claude-code, 大脑与手的解耦, aaas-agent-as-a-service, multica, 智能体托管服务, 多智能体协同编排, ai-subscription-crisis, dreaming-ai-function, outcomes-grading, multi-agent-orchestration, dario-amodei]
+tags: [anthropic, agent, infrastructure, production, cloud, saas, platform, 企业级, 托管]
+related: [anthropic, claude-code, 大脑与手的解耦, aaas-agent-as-a-service, multica, 智能体托管服务, 多智能体协同编排, ai-subscription-crisis, dreaming-ai-function, outcomes-grading, multi-agent-orchestration, dario-amodei, 手脑分离架构, jvs-crew]
 created: 2026-04-10
-updated: 2026-05-08
-sources: ["anthropic出手，一批agent创业公司死去.md", "claude封杀龙虾后推自家agent服务，又被开源平替了.md", "claude会「做梦」了，梦里还在卷.md"]
+updated: 2026-05-23
+sources: ["anthropic出手，一批agent创业公司死去.md", "claude封杀龙虾后推自家agent服务，又被开源平替了.md", "claude会「做梦」了，梦里还在卷.md", "企业养虾时代开启？anthropic连夜更新架构，中国大厂已经跑通.md"]
 ---
 
 # Claude Managed Agents
 
-**Claude Managed Agents** 是 [[Anthropic]] 推出的全托管 AI 智能体基础设施服务。它标志着 Anthropic 从单纯的模型 API 提供商向“模型+基础设施”平台公司的战略转型，旨在解决企业将 AI Agent 从 Demo 部署到生产环境时面临的工程复杂性难题，提供“生产级、全托管、开箱即用”的解决方案。
+**Claude Managed Agents**（简称 CMA）是 [[Anthropic]] 推出的企业级全托管 AI 智能体基础设施服务。它标志着 Anthropic 从单纯的模型 API 提供商向"模型+基础设施"平台公司的战略转型，旨在解决企业将 AI Agent 从 Demo 部署到生产环境时面临的工程复杂性难题，提供"生产级、全托管、开箱即用"的解决方案。
 
-该系统通过引入类似人类的“睡眠”机制和质检流程，解决了长期运行中的记忆退化与输出不稳定问题，致力于实现 [[dario-amodei]] 预测的“一人+AI”独角兽公司愿景。
+该系统通过引入类似人类的"睡眠"机制和质检流程，解决了长期运行中的记忆退化与输出不稳定问题，致力于实现 [[dario-amodei]] 预测的"一人+AI"独角兽公司愿景。
+
+## 发展历程
+
+### 2026年4月：首次推出
+CMA 首次发布，将 Agent 逻辑和执行环境全部托管在 Anthropic 自有云上。用户无需自行搭建底层设施（如沙盒环境、向量数据库、状态管理系统），只需定义任务，Agent 即可在 Anthropic 云端运行。这极大地降低了部署门槛，将上线时间从数月缩短至几天。
+
+### 2026年5月19日：Self-Hosted Sandboxes 架构升级
+Anthropic 为 CMA 增加 self-hosted sandboxes 功能，将执行层拆分到企业自有基础设施上，而编排层保留在云端。这一架构演进与 [[jvs-crew|JVS Crew]] 从第一天就采用的 [[手脑分离架构]] 几乎殊途同归，标志着 Agent 架构从全托管向推理-执行解耦的行业趋势。
 
 ## 核心特性
 
@@ -20,7 +28,7 @@ sources: ["anthropic出手，一批agent创业公司死去.md", "claude封杀龙
 用户无需自行搭建底层设施（如沙盒环境、向量数据库、状态管理系统），只需定义任务，Agent 即可在 Anthropic 云端运行。这极大地降低了部署门槛，将上线时间从数月缩短至几天。
 
 ### 2. 长时间自主运行
-与本地运行的 [[claude-code]] 不同，Managed Agents 是云端的“数字员工”，支持 24 小时自主运行。
+与本地运行的 [[claude-code]] 不同，Managed Agents 是云端的"数字员工"，支持 24 小时自主运行。
 - **断点续传**：具备断网续传能力，即使网络中断或任务出错，也能在恢复后自动重试并继续执行。
 - **状态保持**：确保运行进度和生成结果在长时间任务中不丢失。
 
@@ -38,7 +46,7 @@ sources: ["anthropic出手，一批agent创业公司死去.md", "claude封杀龙
 
 ### Dreaming (做梦)
 系统的核心创新，通过异步反思机制整理记忆库。详见 [[dreaming-ai-function]]。
-- **机制**：Agent 在“睡眠”状态下异步处理和压缩长期记忆，解决记忆退化问题。
+- **机制**：Agent 在"睡眠"状态下异步处理和压缩长期记忆，解决记忆退化问题。
 - **效果**：法律科技公司 Harvey 利用该功能将长文起草完成率提升约 6 倍；写作工具 Spiral 利用其记住用户风格偏好。
 
 ### Outcomes (自我质检)
@@ -77,7 +85,7 @@ Claude Managed Agents 引入了混合计费模式，反映了 [[ai-subscription-
 
 ## 商业影响与竞争格局
 ### 商业影响
-- **对初创公司**：消灭了专注于构建“轮子”（如 Agent 编排框架、记忆系统）的初创公司的护城河，因为这些功能被 Anthropic 原生集成。
+- **对初创公司**：消灭了专注于构建"轮子"（如 Agent 编排框架、记忆系统）的初创公司的护城河，因为这些功能被 Anthropic 原生集成。
 - **对 SaaS 行业**：推动了 [[AaaS (Agent as a Service)]] 模式的兴起，挑战传统依赖 GUI 的 SaaS 商业模式。
 
 ### 竞争格局

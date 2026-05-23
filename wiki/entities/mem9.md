@@ -1,16 +1,26 @@
 ---
 type: entity
 title: mem9
-tags: [ai-agent, memory, database, tidb]
-related: [openclaw, tidb, huang-dongxu, contextengine, agent-永续记忆]
+tags: [ai-agent, memory, database, tidb, agent-infrastructure, persistence]
+related: [openclaw, tidb, huang-dongxu, contextengine, agent-永续记忆, drive9, agent原生基础设施, runtime-agent-os]
 created: 2026-03-15
-updated: 2026-03-15
-sources: ["全网爆火的龙虾总失忆？大佬亲自下场手搓解药，终结致命痛点.md"]
+updated: 2026-05-22
+sources: ["全网爆火的龙虾总失忆？大佬亲自下场手搓解药，终结致命痛点.md", "人手一个数据库，kimi背后这套ai基建到底有多能扛？.md"]
 ---
 
 # mem9
 
-**mem9** 是由 [[tidb]] 团队（具体由联合创始人 [[黄东旭]] 发起）开发的免注册、开箱即用的 [[openclaw]] 永续记忆服务。它旨在解决 AI Agent 在长期运行中面临的“失忆”问题，通过云端数据库提供持久化、可跨设备同步的记忆能力。
+**mem9** 是由 [[tidb]] 团队（具体由联合创始人 [[黄东旭]] 发起）开发的免注册、开箱即用的 [[openclaw]] 永续记忆服务，也是 TiDB Agent-native 产品线的首发组件，定位为 Agent 的持久化记忆层。它旨在解决 AI Agent 在长期运行中面临的"失忆"问题，通过云端数据库提供持久化、可跨设备同步的记忆能力。
+
+## 行业定位
+
+mem9 是 TiDB 为 Agent 原生应用落地的第一个基础设施组件，与 [[drive9]]（持久化工作空间）共同构成 Agent 运行时基础设施的基础层。其设计理念呼应了 [[runtime-agent-os]] 架构中的"记忆"层——Agent 不仅需要执行任务，还需要在多次交互间保持状态和知识的连续性。
+
+## 核心功能
+
+- 为 Agent 提供**持久、跨 session 可检索的 memory 层**
+- 解决 Agent 每次重启从零开始的问题
+- 使 Agent 能够维持跨对话的上下文和知识积累
 
 ## 核心特性
 
@@ -27,7 +37,7 @@ mem9 采用了独特的架构设计理念，即为每个 [[openclaw]] 实例分�
 ### 记忆可视化
 mem9 提供了 **Memory Space**（个人记忆空间）Dashboard，允许用户：
 - 查看所有被持久化的记忆条目。
-- 审计 Agent 到底记住了什么（将“黑盒”变为“白盒”）。
+- 审计 Agent 到底记住了什么（将"黑盒"变为"白盒"）。
 - 主动指定需要记住的内容。
 
 ### 混合检索能力
@@ -57,7 +67,7 @@ mem9 的运行依赖于 [[tidb]] Cloud 的以下能力：
 - **多 Agent 协作**：通过 ContextEngine 接口，实现了多个 Agent 之间的记忆共享与隔离逻辑。
 
 ## 开发背景
-该项目由 TiDB 联合创始人 [[黄东旭]] 在一个周末内快速构建（大部分代码由 AI 生成，即 "vibe coded"），并迅速上线。其诞生源于 TiDB 团队发现大量客户在使用 OpenClaw 时深受“失忆”困扰，而市面上的解决方案均不够“开箱即用”。
+该项目由 TiDB 联合创始人 [[黄东旭]] 在一个周末内快速构建（大部分代码由 AI 生成，即 "vibe coded"），并迅速上线。其诞生源于 TiDB 团队发现大量客户在使用 OpenClaw 时深受"失忆"困扰，而市面上的解决方案均不够"开箱即用"。
 
 ## 参考链接
 - 官网: https://mem9.ai

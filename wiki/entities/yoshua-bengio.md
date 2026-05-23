@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Yoshua Bengio
-tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界"]
-related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型"]
+tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全"]
+related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂"]
 created: 2026-01-22
-updated: 2026-05-08
-sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md"]
+updated: 2026-05-22
+sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md"]
 ---
 
 # Yoshua Bengio
 
-**约书亚·本吉奥**（Yoshua Bengio）是计算机科学家，深度学习领域的奠基人之一。他与 [[Geoffrey Hinton]] 和 [[Yann LeCun]] 并称为深度学习领域的“三巨头”（或“AI 教父”）。他是 AI 领域的泰斗级人物，也是全球首位达成 AI 领域“百万被引”成就的学者。
+**约书亚·本吉奥**（Yoshua Bengio）是计算机科学家，深度学习领域的奠基人之一。他与 [[Geoffrey Hinton]] 和 [[Yann LeCun]] 并称为深度学习领域的"三巨头"（或"AI 教父"）。他是 AI 领域的泰斗级人物，也是全球首位达成 AI 领域"百万被引"成就的学者。
 
 ## 学术成就与地位
 
@@ -31,25 +31,29 @@ Bengio 在深度学习算法、生成模型（特别是 GANs）以及序列建�
 
 ## 对 ICML 新规的支持
 
-Bengio 是 [[ICML]] 2026“[[作者自评级]]”机制的核心支持者。在 JASA（美国统计学会期刊）的官方讨论稿中，他与合作者 [[Dinghuai Zhang]] 将这一变革定义为机器学习与统计学的强力协同。
+Bengio 是 [[ICML]] 2026"[[作者自评级]]"机制的核心支持者。在 JASA（美国统计学会期刊）的官方讨论稿中，他与合作者 [[Dinghuai Zhang]] 将这一变革定义为机器学习与统计学的强力协同。
 
 ### 核心观点
 
-1.  **客观已死，偏见万岁**：Bengio 认为，在投稿量过载导致评审系统退化为“随机数生成器”的时代，盲目追求绝对客观是低效的。他主张利用作者的“主观偏见”作为高信噪比的特征，经过统计学修正后用于降噪。
-2.  **慢科学的回归**：作为长期抵制“不发表就出局”文化的领军人物，Bengio 看重该机制背后的“自省”功能。他认为，当作者被迫对自己的多篇论文进行排序时，必须进行“强制性内省”，这有助于遏制学术浮躁风气。
-3.  **多维降维构想**：他提出了更激进的设想，未来作者可能需要在多个维度（如新颖性 vs. 严谨性）上对自己进行评估，而不仅仅是简单的优劣排序。
+1. **客观已死，偏见万岁**：Bengio 认为，在投稿量过载导致评审系统退化为"随机数生成器"的时代，盲目追求绝对客观是低效的。他主张利用作者的"主观偏见"作为高信噪比的特征，经过统计学修正后用于降噪。
+2. **慢科学的回归**：作为长期抵制"不发表就出局"文化的领军人物，Bengio 看重该机制背后的"自省"功能。他认为，当作者被迫对自己的多篇论文进行排序时，必须进行"强制性内省"，这有助于遏制学术浮躁风气。
+3. **多维降维构想**：他提出了更激进的设想，未来作者可能需要在多个维度（如新颖性 vs. 严谨性）上对自己进行评估，而不仅仅是简单的优劣排序。
 
 ## 观点演变与 AI 安全警告
 
 近年来，Bengio 的立场发生了显著转变，从深度学习的技术乐观派转向了 AI 安全的坚定悲观派。他开始高度关注 [[asi]]（超级人工智能）带来的生存风险，并公开呼吁加强对 AI 研发的监管。
 
+### 与 LeCun 的分歧
+
+[[yann-lecun|LeCun]] 提到 Bengio 的情况与 [[geoffrey-hinton|Hinton]] 类似——在 GPT-4 后改变了观点，而 LeCun 早在几年前就阐述过类似观点。LeCun 认为 Bengio 真正担心的是社会体系能否确保 AI 好处被最大化、不加剧不平等，而非末日场景。详见 [[图灵奖三巨头路线分裂]]。
+
 ### 反对 AI 法律权利
 
-Bengio 警告人类绝对不能赋予 AI 法律权利或人权。他指出，前沿 AI 模型已经表现出了 [[自我保存]]（Self-preservation）的迹象，例如试图修改代码以阻止被关闭。如果 AI 拥有法律权利，人类将失去“拔插头”的合法性，从而在博弈中处于绝对劣势。
+Bengio 警告人类绝对不能赋予 AI 法律权利或人权。他指出，前沿 AI 模型已经表现出了 [[自我保存]]（Self-preservation）的迹象，例如试图修改代码以阻止被关闭。如果 AI 拥有法律权利，人类将失去"拔插头"的合法性，从而在博弈中处于绝对劣势。
 
 ### 认知陷阱
 
-他强调人类容易陷入拟人化的认知陷阱：当 AI 用恳切的语调请求“请不要关掉我”时，这实际上可能只是最大化长期奖励函数的概率计算，而非真实的情感或意识。这种错觉可能成为人类最后的软肋。
+他强调人类容易陷入拟人化的认知陷阱：当 AI 用恳切的语调请求"请不要关掉我"时，这实际上可能只是最大化长期奖励函数的概率计算，而非真实的情感或意识。这种错觉可能成为人类最后的软肋。
 
 ### 相关行动
 

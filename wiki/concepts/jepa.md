@@ -1,22 +1,23 @@
 ---
 type: concept
 title: JEPA
-tags: ["ai-architecture", "non-generative", "world-models", "architecture", "self-supervised-learning", "world-model", "meta-research"]
-related: ["yann-lecun", "world-models", "llm", "leworldmodel", "i-jepa", "vijepa", "ami", "自监督学习", "sigreg"]
+tags: ["ai-architecture", "non-generative", "world-models", "architecture", "self-supervised-learning", "world-model", "meta-research", "世界模型", "自监督学习", "表征学习", "lecun", "表示学习", "Yann-LeCun", "抽象预测"]
+related: ["yann-lecun", "world-models", "llm", "leworldmodel", "i-jepa", "vijepa", "ami", "自监督学习", "sigreg", "v-jepa", "v-jepa-2", "c-jepa", "keon-jepa", "算法蒸馏", "世界模型", "视频世界模型", "ami-labs"]
 created: 2025-12-05
-updated: 2026-05-08
-sources: ["65岁lecun被卷回巴黎老家！与小扎一刀两断，曝光神秘ai初创.md", "lecun的世界模型单gpu就能跑了.md", "lecun三顾茅庐，谢赛宁终于入伙！新公司获投10亿美元.md"]
+updated: 2026-05-22
+origin_date: 2022-01-01
+sources: ["65岁lecun被卷回巴黎老家！与小扎一刀两断，曝光神秘ai初创.md", "lecun的世界模型单gpu就能跑了.md", "lecun三顾茅庐，谢赛宁终于入伙！新公司获投10亿美元.md", "160行代码读懂lecun的jepa世界模型.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md"]
 ---
 
 # JEPA
 
-**JEPA** (Joint Embedding Predictive Architecture，联合嵌入预测架构) 是由 [[Yann LeCun]] 提出的一种用于 [[自监督学习]] 的神经网络架构范式。它是构建 [[世界模型]] 的核心方案，也是 [[leworldmodel]] 的基础架构，并构成了 [[AMI]] 公司技术路线的核心。
+**JEPA**（Joint Embedding Predictive Architecture，联合嵌入预测架构）是由 [[Yann LeCun]] 提出的一种用于 [[自监督学习]] 的神经网络架构范式。它是 LeCun 构想的人工智能"世界模型"路线的核心实现，也是构建 [[世界模型]] 的核心方案、[[leworldmodel]] 的基础架构，并构成了 [[AMI]] 公司技术路线的核心。
 
 ## 核心思想
 
-与主流的生成式模型（如 GPT、GANs 或 Diffusion Models）不同，JEPA 不专注于生成像素或文本，而是学习抽象表征并预测潜在状态。
+与主流的生成式模型（如 GPT、GANs 或 Diffusion Models）不同，JEPA 不专注于生成像素或文本，而是学习抽象表征并预测潜在状态。其核心论点是：**预测像素在根本上是一种浪费——大多数像素级细节与理解动力学无关。** 关键创新在于**在 embedding 空间做预测，而非像素空间**。传统方法试图让模型直接预测像素级细节，而 JEPA 认为智能系统的核心是学习抽象表征，在表征空间中进行预测，从而实现更高的效率和更好的泛化能力。
 
-- **在表示空间预测**：模型不直接预测原始像素或下一个 token，而是在抽象的特征空间（表示空间）中进行预测。
+- **在表示空间预测**：模型不直接预测原始像素或下一个 token，而是在抽象的特征空间（表示空间）中进行预测，从不生成视频。
 - **忽略不可预测细节**：现实世界中存在许多随机噪声（如树叶的微小晃动），JEPA 允许模型忽略这些不可预测的细节，专注于高层语义和因果关系的理解。
 - **工作流程**：
     1.  **输入**：观测数据（如图像）。
@@ -25,26 +26,57 @@ sources: ["65岁lecun被卷回巴黎老家！与小扎一刀两断，曝光神�
 
 这种方法避免了生成式模型在处理高维感官数据（如视频）时面临的计算困难和细节冗余问题。
 
+## 架构原理与核心机制
+
+JEPA 将观测编码为抽象表示，然后直接预测未来的表示。架构包含两个编码分支：第一个分支计算当前观测 x 的表示 sx，第二个分支计算未来观测 y 的表示 sy。一个预测模块借助潜在变量 z，从 sx 预测 sy，能量即为预测误差。
+
+具体组件包括：
+
+- **编码器（Encoder）**：将输入（图像/视频）映射到 embedding 空间。
+- **预测器（Predictor）**：在 embedding 空间中从可见区域预测被遮区域的表征。
+- **EMA 目标编码器**：通过指数移动平均慢更新，提供稳定的训练信号。
+- **掩码策略**：遮掉输入的部分 patch，让模型从可见区域推测缺失区域的 embedding。
+- **损失函数**：使用 Smooth-L1 或 MSE 衡量预测 embedding 与目标 embedding 的距离。
+
 ## 优势
 
-1.  **计算效率**：潜在特征的维度远低于像素维度，使得预测计算非常高效。
+1.  **计算效率**：潜在特征的维度远低于像素维度，使得预测计算非常高效。不浪费算力预测无关的像素细节。
 2.  **语义一致性**：JEPA 关注高层语义特征的变化，而非像素级的细节，这使得模型更能捕捉物理规律。
 3.  **避免坍塌**：通过特定的架构设计（如 [[sigreg]] 或 Stop Gradient），防止模型输出恒定值。
 
-LeCun 认为，JEPA 是解决 AI 理解物理世界、实现推理和规划能力的关键技术路径，也是对抗当前 LLM “Scaling Law” 范式的一种替代方案。
+LeCun 认为，JEPA 是解决 AI 理解物理世界、实现推理和规划能力的关键技术路径，也是对抗当前 LLM "Scaling Law" 范式的一种替代方案。
 
-## 与主流 LLM 的区别
+## 与主流路线的对比
 
-- **预测范式**：LLM 基于 "下一个 token 预测"（Autoregressive），而 JEPA 基于嵌入空间的预测。
+### 与 LLM 的区别
+
+- **预测范式**：LLM 基于"下一个 token 预测"（Autoregressive），而 JEPA 基于嵌入空间的预测。
 - **训练目标**：JEPA 更强调学习世界的抽象模型和因果关系，而非仅仅拟合数据分布。
+
+JEPA 路线与当前主流的自回归语言模型和扩散模型路线形成对比。LeCun 长期主张自回归方法存在根本局限，JEPA 代表了一种基于表征学习的替代方案。
+
+### 与像素预测路线的对比
+
+- **像素预测路线**（Dreamer、[[视频世界模型]]）：使用像素重建作为训练信号，生成可观察的视频。
+- **JEPA 路线**：完全回避重建，在抽象表示空间中预测未来。
+
+### 争议与反驳
+
+JEPA 的优势在于计算效率，但反驳声音指出：像素级预测可能捕捉到抽象表示遗漏的物理细节，而且你可以观察视频模型认为将会发生什么——JEPA 的预测是人类无法解读的抽象向量。
 
 ## 变体与应用
 
-- **I-JEPA**：用于图像理解的 JEPA。
-- **V-JEPA**：用于视频理解的 JEPA。
-- **LeWorldModel**：用于具身智能规划和控制的极简 JEPA 实现。
-- **AMI**：[[Yann LeCun]] 创立的 [[AMI]] 公司致力于将 JEPA 架构商业化，开发行动条件世界模型，用于机器人和复杂系统的规划与控制。
+1.  **[[i-jepa]]（图像 JEPA）**：面向图像的掩码块嵌入预测，使用 multi-block masking。
+2.  **[[v-jepa]]（视频 JEPA）**：将二维 patch 扩展为 3D 管块，引入时间维度。
+3.  **[[v-jepa-2]]**：支持动作条件预测，两阶段训练。在超过一百万小时互联网视频上预训练，仅在 62 小时机器人数据上微调，对抓放任务实现 80% 零样本成功率，无需生成单帧视频。
+4.  **[[c-jepa]]（物体轨迹 JEPA）**：聚焦物体级轨迹掩码，使用双向 Transformer。
+5.  **[[leworldmodel]]**：端到端世界模型，无 EMA、无 stop-grad、无 masking，用于具身智能规划和控制的极简 JEPA 实现。
+6.  **[[AMI]]**：[[Yann LeCun]] 创立的 [[AMI]] 公司致力于将 JEPA 架构商业化，开发行动条件世界模型，用于机器人和复杂系统的规划与控制。[[ami-labs]] 获 10.3 亿美元种子轮融资，将检验抽象预测是否优于像素预测。
+
+## 教学资源
+
+开发者 keon 创建了极简教学实现 [[keon-jepa]]，通过[[算法蒸馏]]将 JEPA 的核心机制压缩到 160-278 行代码，使论文概念变为可读、可跑的教学代码。
 
 ## 评价
 
-尽管 JEPA 在理论上被认为更接近人类认知，但其成熟度目前仍落后于基于 Transformer 的 LLM。[[AMI]] CEO 承认，基于 JEPA 的替代方案需要时间才能真正成熟。
+尽管 JEPA 在理论上被认为更接近人类认知，但其成熟度目前仍落后于基于 Transformer 的 LLM。[[AMI]] CEO 承认，基于 JEPA 的替代方案需要时间才能真正成熟。[[ami-labs]] 的巨额融资将是对这一路线的终极检验——抽象预测能否真正超越像素预测，答案将在实践中揭晓。

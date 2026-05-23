@@ -1,28 +1,23 @@
 ---
 type: entity
 title: Stripe
-tags: [payment, api, infrastructure]
-related: [claude-code, 隐形技术栈]
-created: 2026-02-27
-updated: 2026-02-27
-sources: ["claude-code“隐形技术栈”被扒出来了！2430次测试揭秘工具偏好清单.md"]
+created: 2026-05-19
+updated: 2026-05-19
+tags: ["payment", "api", "infrastructure", "fintech", "payments", "ai-economy", "data-source"]
+related: ["claude-code", "隐形技术栈", "ai产业链价值分配", "ai创业收入双寡头格局"]
+sources: ["claude-code“隐形技术栈”被扒出来了！2430次测试揭秘工具偏好清单.md", "ai创业一年狂揽800亿美元！anthropic反杀openai，双雄独吞89%.md"]
 ---
-
 # Stripe
 
-Stripe 是一家美国科技公司，提供支付处理软件和应用程序编程接口（API）。
+全球领先的在线支付平台，在AI经济研究中扮演重要数据提供者角色。
 
-## 在 AI 隐形技术栈中的地位
+## AI经济数据
 
-根据 Amplifying.ai 的研究，Stripe 在支付处理类别中展现出压倒性的优势：
+- 服务了 Forbes AI 50 中78%的公司
+- 发布AI经济报告（AI Economy Report）
+- 平台上Top 100 AI公司达到100万美元年化收入的中位时间仅11.5个月
+- AI公司达到关键收入里程碑的速度显著快于上一代SaaS公司
 
-### 数据表现
-- **首选率**：91.4%
-- **类别**：支付处理
+## 在AI产业链中的角色
 
-### 含义
-这意味着当 [[Claude Code]] 面临支付集成需求时，超过 9 成的情况下会推荐 Stripe，而非 PayPal、Braintree 或其他支付服务。Stripe 已成为 AI 辅助开发模式下的默认支付基础设施。
-
-## 行业影响
-
-这种高度集中的偏好可能导致支付处理市场的“马太效应”：未被 AI 选中的支付工具可能逐渐失去开发者关注，即使它们在某些特定场景下可能更具优势。
+Stripe作为支付基础设施，拥有全行业最真实的交易数据视角。其发布的AI经济报告为 [[ai产业链价值分配|AI产业链价值分析]] 和 [[ai创业收入双寡头格局|市场格局研究]] 提供了重要的第三方数据佐证。

@@ -1,22 +1,53 @@
 ---
 type: entity
 title: 萨提亚·纳德拉
-tags: [microsoft, ceo, leadership, strategy]
-related: [microsoft-copilot, mustafa-suleyman, jacob-andreou, ai-subscription-crisis]
+tags: [microsoft, ceo, leadership, strategy, 人物, 微软, openai, 科技高管]
+related: [microsoft-copilot, mustafa-suleyman, jacob-andreou, ai-subscription-crisis, 微软, openai, sam-altman, ilya出庭作证-20260511]
 created: 2026-03-18
-updated: 2026-03-18
-sources: ["烧掉724亿，纳德拉挥刀重组copilot.md"]
+updated: 2026-05-22
+sources: ["烧掉724亿，纳德拉挥刀重组copilot.md", "ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想openai被毁」.md"]
 ---
 
-# 萨提亚·纳德拉
+# 萨提亚·纳德拉 (Satya Nadella)
+
+微软首席执行官，主导了公司在 AI 时代的战略转型。在马斯克诉 OpenAI 案中作为证人出庭，法庭文件揭示了其对 OpenAI 控制权的强烈意图。
 
 ## 概述
-微软首席执行官，主导了公司在 AI 时代的战略转型。在 2026 年初，因对 [[microsoft-copilot]] 的产品体验割裂及华尔街对巨额资本支出的质疑不满，发起了一场大规模的高层重组。
+
+纳德拉自 2014 年接任微软 CEO 以来，推动公司从传统软件向云计算和 AI 转型。他既是 OpenAI 最大的资金支持者，也是对产品体验有极致要求的管理者。2026 年初，因对 [[microsoft-copilot]] 的产品体验割裂及华尔街对巨额资本支出的质疑不满，发起了一场大规模的高层重组。
+
+## 在世纪诉讼中的角色
+
+在马斯克诉 OpenAI 案中，法庭文件揭示了 Nadella 对 OpenAI 控制权的强烈意图：
+
+- **2022 年邮件**：对下属表示"如果我们投入了这么多钱，却没有控制权，那完全没意义"
+- **政变期间**：微软已准备好 14 人的"接管董事会名单"，并对 OpenAI 新董事会成员行使事实上的否决权
+- **商业化催促**：2023 年初连续发短信催促 [[sam-altman]] 尽快推出付费订阅版 ChatGPT，两周后追问注册人数
+- **评价罢免事件**：将 2023 年 11 月罢免事件形容为"amateur city"（业余得离谱），表示"从未得到清楚的解释"
 
 ## 关键行动
+
+### Copilot 战略重组
+
 - **亲自测试与问责**：曾亲自测试企业版 Copilot 并遭遇失败，向时任体验与设备负责人 Rajesh Jha 发送措辞严厉的邮件，直接推动了后续的组织变革。
-- **战略重组**：决定将分裂的消费者版与商用版 Copilot 合并，统一由 [[jacob-andreou]] 管理，旨在从“一组优秀产品”转向“一个真正一体化的系统”。
+- **统一产品线**：决定将分裂的消费者版与商用版 Copilot 合并，统一由 [[jacob-andreou]] 管理，旨在从"一组优秀产品"转向"一个真正一体化的系统"。
 - **应对资本压力**：在半年烧掉 724 亿美元资本支出但股价下跌的背景下，通过重组试图向华尔街证明 AI 投资的长期价值。
 
+### OpenAI 投资与控制
+
+- 作为 [[openai]] 最大投资方的决策者，持续推动其商业化进程
+- 在 OpenAI 董事会危机中扮演关键角色，实质上拥有对重大人事变动的否决权
+
 ## 管理风格
-纳德拉在此次事件中展现了对产品体验的极致关注和对内部“部门墙”的零容忍态度。他强调 AI 不应只是回答问题，而应完成多步骤任务，这标志着微软从“模型能力”向“工作流整合”的战略重心转移。
+
+纳德拉在上述事件中展现了对产品体验的极致关注和对内部"部门墙"的零容忍态度。他强调 AI 不应只是回答问题，而应完成多步骤任务，这标志着微软从"模型能力"向"工作流整合"的战略重心转移。同时，他对投资标的的控制欲和商业化紧迫感也表露无遗。
+
+## 关联
+
+- [[微软]] — 所领导的公司
+- [[openai]] — 最大投资对象
+- [[microsoft-copilot]] — 核心AI产品
+- [[sam-altman]] — OpenAI CEO，被催促商业化
+- [[ilya出庭作证-20260511]] — 出庭作证事件
+- [[mustafa-suleyman]] — 微软AI部门负责人
+- [[jacob-andreou]] — 统一后的Copilot负责人

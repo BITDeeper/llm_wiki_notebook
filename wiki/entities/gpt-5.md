@@ -1,16 +1,16 @@
 ---
 type: entity
 title: GPT-5
-tags: [llm, closed-source, frontier-model, gpt-5, openai, 大语言模型, multimodal]
-related: [gpt-4, gemini-3-pro, o1, zhong-mei-ai-chai-ju, rlm-递归语言模型, 上下文腐化, qwen3-max, superchem, gemini-2.5-pro, gpt-4o, scaling-law]
+tags: [llm, closed-source, frontier-model, gpt-5, openai, 大语言模型, multimodal, ai-for-science]
+related: ["gpt-4", "gemini-3-pro", "o1", "zhong-mei-ai-chai-ju", "rlm-递归语言模型", "上下文腐化", "qwen3-max", "superchem", "gemini-2.5-pro", "gpt-4o", "scaling-law", "openai", "ai-for-science", "gilbert-pollak-conjecture", "structured-mathematical-reasoning"]
 created: 2026-01-08
-updated: 2026-05-07
-sources: ["美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "mit发现让ai变聪明的秘密，竟然和人类一模一样.md", "gpt-5准确率不足40%！北大发布多模态、高难度化学基准superchem.md"]
+updated: 2026-05-22
+sources: ["美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "mit发现让ai变聪明的秘密，竟然和人类一模一样.md", "gpt-5准确率不足40%！北大发布多模态、高难度化学基准superchem.md", "llm助力突破尘封60年数学猜想！北大王立威团队大幅刷新斯坦纳比下界.md"]
 ---
 
 # GPT-5
 
-GPT-5 是 OpenAI 继 GPT-4 之后发布的下一代前沿大语言模型。根据 [[Epoch AI]] 的报告，该模型被列为美国 AI 领先地位的代表性产品。同时，在 MIT 关于 [[rlm-递归语言模型]] 的研究中，GPT-5 也被用作基线模型进行对比。
+GPT-5 是 [[openai|OpenAI]] 继 GPT-4 之后发布的下一代前沿大语言模型。根据 [[Epoch AI]] 的报告，该模型被列为美国 AI 领先地位的代表性产品。同时，在 MIT 关于 [[rlm-递归语言模型]] 的研究中，GPT-5 也被用作基线模型进行对比。
 
 ## 特点
 
@@ -35,6 +35,13 @@ GPT-5 是 OpenAI 继 GPT-4 之后发布的下一代前沿大语言模型。根�
 - **推理质量**：其推理逻辑与专家路径的一致性（RPF）较高，表明其具备一定的多步推理能力，而非单纯依赖启发式猜测。
 - **短板**：尽管在通用领域表现强劲，但在涉及产物结构预测、反应机理识别等高阶化学推理环节仍存在明显短板，尚未超越人类的基础专业认知水平。
 
+### 专业领域推理 (数学)
+在 [[wang-liwei-team-pku|王立威团队]] 推进 [[gilbert-pollak-conjecture|Gilbert-Pollak猜想]] 的研究中，GPT-5 被用作主要 LLM 基座模型，负责大规模参数空间搜索和验证函数生成。该研究表明 GPT-5 在高级数学推理中具有实际应用能力，但研究团队也指出 LLM 的自然语言推理不可靠，必须依赖外部符号系统（如 Mathematica）保证正确性。
+
+- **定位**：启发式搜索器，而非严谨证明者。
+- **任务**：在 [[structured-mathematical-reasoning|结构化推理框架]] 内生成验证函数和引理。
+- **局限**：不能直接生成长篇严谨证明，需要框架约束。
+
 ## 行业意义
 
-GPT-5 的存在被视为维持美国在 AI 领域“一骑绝尘”地位的关键因素之一，展示了闭源模型在集中算力资源进行激进工程优化方面的优势。
+GPT-5 的存在被视为维持美国在 AI 领域"一骑绝尘"地位的关键因素之一，展示了闭源模型在集中算力资源进行激进工程优化方面的优势。

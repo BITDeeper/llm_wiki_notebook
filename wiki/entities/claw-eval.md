@@ -2,19 +2,23 @@
 type: entity
 title: Claw-Eval
 created: 2026-05-11
-updated: 2026-05-11
-tags: [benchmark, agent, 评测方法论, 审计]
-related: [claw-eval-live, 执行轨迹审计, can-say-vs-can-do]
-sources: ["agent评测的下半场：为什么需要一个「活的」benchmark？.md"]
+updated: 2026-05-22
+tags: ["benchmark", "agent", "评测方法论", "审计", "评测榜单", "ai基准测试", "第三方评测"]
+related: ["claw-eval-live", "执行轨迹审计", "can-say-vs-can-do", "sensenova-6-7-flash-lite"]
+sources: ["agent评测的下半场：为什么需要一个「活的」benchmark？.md", "只需一套神奇的skills，彻底跑通四个办公场景！.md"]
 ---
 
 # Claw-Eval
 
-[[claw-eval-live]] 的前身，专注于解决「如何确认 Agent 真的做成了任务」这一核心问题。
+第三方 AI 模型评测榜单，也是 [[claw-eval-live]] 的前身。它专注于解决「如何确认 Agent 真的做成了任务」这一核心问题，将 Agent 评测从「只看答案」推进到「看行动」。
+
+## 榜单动态
+
+2026 年 5 月，[[sensenova-6-7-flash-lite]] 冲入该榜单前十，紧随 DeepSeek V4 Pro 和 GPT-5.4 之后，压过 Gemini 3.1 Pro 和 DeepSeek V4 Flash。
 
 ## 核心贡献：执行轨迹审计
 
-Claw-Eval 将 Agent 评测从「只看答案」推进到「看行动」。其核心机制是让 Agent 的执行过程变成可审计的证据。
+Claw-Eval 的核心机制是让 Agent 的执行过程变成可审计的证据。
 
 ### 证据链
 评测不再仅依赖最终输出，而是基于三条独立证据链：
@@ -36,3 +40,8 @@ Claw-Eval 将 Agent 评测从「只看答案」推进到「看行动」。其核
 ## 局限性与演进
 
 虽然解决了评分可信度问题，但 Claw-Eval 的任务集合是固定的，无法跟随现实工作流需求的变化。这一局限直接催生了 [[claw-eval-live]] 的诞生。
+
+## 开放问题
+
+- 榜单的权威性和方法论尚不明确
+- 评测维度和评分标准需进一步查证

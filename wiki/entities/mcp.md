@@ -1,20 +1,20 @@
 ---
 type: entity
 title: MCP (Model Context Protocol)
-tags: [protocol, standard, agent, tools, interoperability, ai-agent, integration, anthropic]
-related: [openclaw, msb-mcp-security-bench, mcp-攻击分类体系, 工具调用, qoderwork, claude-cowork, 桌面智能体]
+tags: [protocol, standard, agent, tools, interoperability, ai-agent, integration, anthropic, 协议, ai工具, 工具接入]
+related: [openclaw, msb-mcp-security-bench, mcp-攻击分类体系, 工具调用, qoderwork, claude-cowork, 桌面智能体, gemini-3.5-pro, gemini-spark]
 created: 2026-04-15
-updated: 2026-05-06
-sources: ["openclaw爆火，暴露12类致命隐患！mcp协议安全基准发布-iclr.md", "国产claude-cowork来了！阿里祭出首个桌面agent，打工人彻底解放.md"]
+updated: 2026-05-22
+sources: ["openclaw爆火，暴露12类致命隐患！mcp协议安全基准发布-iclr.md", "国产claude-cowork来了！阿里祭出首个桌面agent，打工人彻底解放.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md"]
 ---
 
 # MCP (Model Context Protocol)
 
-**MCP (Model Context Protocol，模型上下文协议)** 是一种用于连接大语言模型（LLM）与外部数据源及工具的开放标准化接口协议。
+**MCP (Model Context Protocol，模型上下文协议)** 是一种用于连接大语言模型（LLM）与外部数据源及工具的开放标准化接口协议，旨在统一 AI 工具生态。
 
 ## 功能与定位
 
-MCP 的作用类似于硬件领域的 USB-C 接口，旨在统一 AI 工具生态。它充当了 [[桌面智能体]] 的“骨架”，解决了 AI 无法直接访问用户本地环境的割裂问题。
+MCP 的作用类似于硬件领域的 USB-C 接口。它充当了 [[桌面智能体]] 的“骨架”，解决了 AI 无法直接访问用户本地环境的割裂问题。
 
 通过 MCP，AI Agent 能够安全、标准化地：
 - 连接本地数据库（如 SQLite、PostgreSQL）。
@@ -30,6 +30,7 @@ MCP 已成为实现 [[工具自由]] 的关键技术基础设施，被广泛应�
 
 - **[[QoderWork]]**：作为核心架构组件，利用 MCP 打破应用壁垒，实现诸如“自动读取 Excel 生成周报”或“查询本地数据库生成图表”等任务。
 - **[[openclaw]]**：通过适配器接入 MCP，以获取更广阔的工具能力。
+- **[[gemini-3.5-pro]]**：根据泄露的模型选择器界面，新款 Gemini 将原生支持 MCP 第三方工具接入。界面中出现了“MCP Tool Testing”分类，即可用于 MCP 工具测试的模型列表。
 
 ## 安全挑战
 
@@ -41,4 +42,4 @@ MCP 已成为实现 [[工具自由]] 的关键技术基础设施，被广泛应�
 
 ## 行业意义
 
-MCP 的普及预示着 AI 交互从单一的“对话模式”向深度的“系统集成模式”转变，是实现 AI 与本地环境深度融合的关键技术。
+MCP 的普及预示着 AI 交互从单一的“对话模式”向深度的“系统集成模式”转变，是实现 AI 与本地环境深度融合的关键技术。随着主流模型（如 [[gemini-3.5-pro]]）逐步原生支持该协议，MCP 正在成为 AI 工具接入的事实标准。

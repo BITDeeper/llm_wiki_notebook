@@ -1,19 +1,25 @@
 ---
 type: entity
 title: Andrew Bosworth
-tags: [人物, meta, cto, 安全]
-related: [meta, moltbook, 平台完整性检查]
+tags: [人物, meta, cto, 安全, meta高管]
+related: [meta, moltbook, 平台完整性检查, meta-2026裁员潮, 马克·扎克伯格]
 created: 2026-03-11
-updated: 2026-03-11
-sources: ["龙虾社交上线40天被facebook收购！俩文科创始人加入超级智能实验室.md"]
+updated: 2026-05-22
+sources: ["龙虾社交上线40天被facebook收购！俩文科创始人加入超级智能实验室.md", "小扎凌晨4点裁员8000人，一切为了ai.md"]
 ---
 
 # Andrew Bosworth
 
-[[Andrew Bosworth]] 是 [[Meta]] 的 CTO。
+[[Andrew Bosworth]] 是 [[Meta]] 的首席技术官（CTO）。
+
+## 2026 裁员期间的表态
+
+在2026年裁员期间的一场内部问答中，面对员工对企业文化的担忧，他直言不讳地表示："这确实很糟糕，我不想试图去粉饰它。"这一表态与 CEO [[马克·扎克伯格]] 的"成功并非理所当然"叙事形成微妙对比。
 
 ## 观点与评价
+
 在 [[Moltbook]] 爆红期间，他公开评价了该平台：
+
 - **对 AI 模仿人类聊天不以为然**：认为基于人类数据训练的模仿并不新奇。
 - **关注安全漏洞**：重点指出了平台中人类可以轻易入侵、操控账号的问题。
 

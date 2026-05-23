@@ -1,38 +1,62 @@
 ---
 type: entity
 title: CLAUDE.md
-tags: [configuration, markdown, prompt-engineering, ai-constraints]
-related: [andrej-karpathy-skills, claude-code, cursor, ai-programming-scaffolding]
+tags: [configuration, markdown, prompt-engineering, ai-constraints, ai工具, claude-code, 项目管理, 最佳实践]
+related: [andrej-karpathy-skills, claude-code, cursor, ai-programming-scaffolding, anthropic, ai技术债复利, ai原生创业方法论]
 created: 2026-04-20
-updated: 2026-04-20
-sources: ["一个claude.md霸榜github第一！蒸馏自karpathy，6万码农抄作业.md"]
+updated: 2026-05-22
+sources: ["一个claude.md霸榜github第一！蒸馏自karpathy，6万码农抄作业.md", "anthropic-33页创业秘籍曝光！你和claude就能撑起一家独角兽.md"]
 ---
 
 # CLAUDE.md
 
-[[CLAUDE.md]] 是一种专门用于规范 AI 编程代理行为的 Markdown 配置文件。它通常被放置在项目根目录，AI 编程工具（如 [[Claude Code]] 或 [[Cursor]]）在启动时会自动读取并遵守其中的规则。
+[[CLAUDE.md]] 是一种专门用于规范 AI 编程代理行为的 Markdown 配置文件，通常被放置在项目根目录。它是 [[claude-code|Claude Code]] 的项目持久记忆文件，由 [[anthropic|Anthropic]] 在《The Founders Playbook》中作为对抗 [[ai技术债复利|AI技术债复利累积]] 的核心工具被重点推荐。AI 编程工具（如 [[Claude Code]] 或 [[Cursor]]）在启动时会自动读取并遵守其中的规则。
+
+## 工作机制
+
+每次 Claude Code 打开一个项目时，会**先读取 CLAUDE.md，再动手**。该文件充当 AI 对该项目所有历史决策、架构约束和编码规范的持久记忆。
 
 ## 核心原则
+
 该文件包含四条基于 [[Andrej Karpathy]] 经验总结的核心原则，旨在解决 AI 编程中的常见陷阱：
 
 ### 1. 编码前先思考
 -   **规则**：不确定时必须停下来问，不能猜；存在多种理解时列出选项；发现更简单方案需主动提出。
--   **目的**：解决 AI 面对模糊指令时“瞎猜”并过度设计的问题。
+-   **目的**：解决 AI 面对模糊指令时"瞎猜"并过度设计的问题。
 
 ### 2. 简约至上
 -   **规则**：不写未被要求的功能；不用一次性的抽象层；不加没人要求的灵活性；不做不可能发生的异常处理。
--   **目的**：防止 AI 为了“健壮性”而编写不必要的复杂代码。
+-   **目的**：防止 AI 为了"健壮性"而编写不必要的复杂代码。
 
 ### 3. 精确编辑
 -   **规则**：只动被要求动的部分；匹配项目已有代码风格；看到不相关问题只提建议不动手；清理因改动导致的死代码。
--   **目的**：限制 AI 的“洁癖”倾向，防止其擅自重构无关代码。
+-   **目的**：限制 AI 的"洁癖"倾向，防止其擅自重构无关代码。
 
 ### 4. 目标驱动
 -   **规则**：不给具体步骤，只给验收标准（如测试用例）；复杂任务需先列计划并带验证方式。
--   **目的**：利用 AI 的“耐力”优势，最大化人类干预的杠杆率。
+-   **目的**：利用 AI 的"耐力"优势，最大化人类干预的杠杆率。
+
+## 最佳实践
+
+根据 Anthropic 报告建议，CLAUDE.md 应包含：
+
+-   **架构决策记录**——为什么选择某种技术栈或架构
+-   **编码规范**——命名约定、文件组织、代码风格
+-   **已知约束**——性能要求、安全限制、兼容性需求
+-   **边界案例**——已知的坑和特殊处理逻辑
+
+## 核心价值
+
+报告将其定位为"五分钟的文档记录，是对将来无法收拾的代码漂移最便宜的保险"。在 AI 编程场景下，CLAUDE.md 的作用远超传统的 README 文件——它直接决定了 AI 生成代码的质量基线。
 
 ## 技术意义
-[[CLAUDE.md]] 是 [[AI编程脚手架]] 的典型代表。它证明了在当前模型能力足够的情况下，通过构建良好的规则和约束系统（即“胶水”层），可以显著提升 AI 编程的产出质量和可控性。
+
+[[CLAUDE.md]] 是 [[AI编程脚手架]] 的典型代表。它证明了在当前模型能力足够的情况下，通过构建良好的规则和约束系统（即"胶水"层），可以显著提升 AI 编程的产出质量和可控性。
+
+## 与三层护城河的关系
+
+在 [[三层护城河模型]] 的第一层"领域知识编码进 AI 上下文"中，CLAUDE.md 是核心载体。创始人通过持续更新该文件，将行业潜规则、监管陷阱等隐性知识转化为 AI 可调用的结构化知识，构建通用 AI 无法匹敌的专有知识底层。
 
 ## 变种
+
 除了原版适配 Claude Code 的格式，社区也出现了适配 [[Cursor]] 编辑器的版本。

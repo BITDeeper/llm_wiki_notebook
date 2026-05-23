@@ -1,24 +1,46 @@
 ---
 type: entity
 title: CoreWeave
-tags: [neocloud, cloud-computing, ai-infrastructure, nvidia]
-related: [英伟达, vera-cpu, rubin-platform, neocloud]
+tags: [neocloud, cloud-computing, ai-infrastructure, nvidia, 企业, 云算力, 英伟达投资, 循环交易, 云计算, gpu, 新型算力云, ai基础设施]
+related: [英伟达, vera-cpu, rubin-platform, neocloud, openai, 厂商融资, 循环交易, 新型算力云, 2026算力危机, 垂直整合图谱]
 created: 2026-04-29
-updated: 2026-04-29
-sources: ["昔日gpu霸主，今日cpu屠夫？黄仁勋亮大招.md"]
+updated: 2026-05-22
+sources: ["昔日gpu霸主，今日cpu屠夫？黄仁勋亮大招.md", "ai第一金主黄仁勋：日均花掉20亿.md", "h100去哪儿了？.md"]
 ---
 
 # CoreWeave
 
-CoreWeave 是一家专注于 AI 工作负载的云服务提供商，也是 [[neocloud]]（新型云服务商）的代表企业。它与英伟达有着深度的商业绑定关系。
+CoreWeave 是一家专注于 AI 工作负载的云算力公司，也是 [[neocloud]]（[[新型算力云|新型云服务商]]）的代表企业。它专注 GPU 供应，因没有内部 AI 业务与用户竞争产能，在 2026 年 [[2026算力危机|算力危机]] 中具有结构性优势。同时，它与英伟达有着深度的商业绑定关系，是英伟达 [[厂商融资]] 模式和 [[循环交易]] 质疑的核心案例。
+
+## 在算力危机中的角色
+
+当 AWS、Google Cloud、Azure 等通用云平台在算力紧张时优先保障自身 AI 业务和头部企业客户时，CoreWeave 等 [[新型算力云|Neo-cloud]] 正在填补中小用户的算力空缺。
 
 ## 与英伟达的关系
-CoreWeave 是英伟达最重要的盟友之一。2026 年 1 月，英伟达宣布以每股 87.20 美元的价格购入 CoreWeave 价值 20 亿美元的 A 类普通股，使其持股比例超过 11%。这笔交易不仅是财务投资，更是一份长期的战略协议。
+
+CoreWeave 同时扮演英伟达"客户"和"被投企业"的双重角色。2026 年 1 月，英伟达宣布以每股 87.20 美元的价格购入 CoreWeave 价值 20 亿美元的 A 类普通股，使其持股比例超过 11%。这笔交易不仅是财务投资，更是一份长期的战略协议。
+
+### 资金循环与质疑
+
+CoreWeave 与英伟达之间的资金往来形成了一个被市场质疑的闭环：
+
+1. 接受英伟达股权投资（20 亿美元）
+2. 与英伟达签下高达 63 亿美元的算力采购协议
+3. 将租来的 GPU 转租给 [[openai]]
+4. 而 [[openai]] 又拿了英伟达 300 亿投资
+
+这一资金循环被市场质疑为"循环交易"——除了推高 AI 泡沫，真实意义几何？
 
 ## 战略协议内容
+
 - **AI 工厂计划**：加速 CoreWeave 在 2030 年前建成超过 5 吉瓦（1 吉瓦 = 10 亿瓦）的 AI 工厂。
 - **硬件采购**：CoreWeave 承诺购买高达 60 亿美元的英伟达硬件，包括 [[vera-cpu]]。
 - **优先供应权**：CoreWeave 将获得英伟达新一代计算架构（如 [[rubin-platform]]）的优先部署权，成为首家部署独立 Vera CPU 的客户。
 
+## 在产业链中的位置
+
+CoreWeave 位于英伟达 [[垂直整合图谱]] 的中间层（算力云层），与 IREN、Nebius、Nscale 等同属这一层级。这一层的特殊性在于，这些公司既是英伟达的客户，也是英伟达的被投企业，形成了资金回流闭环。
+
 ## 市场地位
+
 CoreWeave 的股价被视为公开市场投资者对 AI 热情的风向标。通过与英伟达的深度绑定，CoreWeave 能够为客户提供基于英伟达最新技术的算力服务，区别于传统的通用云厂商。

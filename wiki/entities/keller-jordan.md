@@ -1,16 +1,16 @@
 ---
 type: entity
-title: "Keller Jordan"
-tags: [人物, 研究员, 优化器, nanogpt]
-related: [nanogpt, muon, noam-brown, andrej-karpathy, openai]
+title: Keller Jordan
+tags: [人物, 研究员, 优化器, nanogpt, 研究者, 基准测试]
+related: [nanogpt, muon, noam-brown, andrej-karpathy, openai, nanogpt速通基准, 开源影响力, 测试时计算]
 created: 2026-02-23
-updated: 2026-02-23
-sources: ["openai大佬爆料：本科生靠一篇博客杀进openai！没博士，0篇论文.md"]
+updated: 2026-05-22
+sources: ["openai大佬爆料：本科生靠一篇博客杀进openai！没博士，0篇论文.md", "ai第一次科研竞赛中击败人类！opus-4.7狂飙2930步创世界纪录.md"]
 ---
 
 # Keller Jordan
 
-Keller Jordan 是一名机器学习研究员，以通过开源项目和博客成功入职 OpenAI 而闻名。他的案例打破了顶级 AI 实验室“非博士不用”的刻板印象，展示了 [[开源影响力]] 在职业发展中的巨大潜力。
+Keller Jordan 是一名机器学习研究员，以通过开源项目和博客成功入职 OpenAI 而闻名。他的案例打破了顶级 AI 实验室"非博士不用"的刻板印象，展示了 [[开源影响力]] 在职业发展中的巨大潜力。他同时也是 [[nanogpt速通基准]] 的发起者，将该基准打造为 AI 自主科研能力的首个公开竞技场。
 
 ## 职业路径
 
@@ -22,8 +22,8 @@ Keller Jordan 是一名机器学习研究员，以通过开源项目和博客成
 ### 转折点：NanoGPT Speedrun
 Keller 通过对 [[nanogpt]] 进行极限优化而进入业界视野。
 - **成果**：将训练 Transformer 模型的 token 效率提升了 3.8 倍（从 10B tokens 降至 2.7B tokens）。
-- **原则**：坚持“低成本实验”，将单次尝试成本降至 8 美元，代码仅 537 行，确保完全可复现。
-- **影响**：该工作获得了 [[andrej-karpathy]] 的公开称赞，被称为“干得漂亮”。
+- **原则**：坚持"低成本实验"，将单次尝试成本降至 8 美元，代码仅 537 行，确保完全可复现。
+- **影响**：该工作获得了 [[andrej-karpathy]] 的公开称赞，被称为"干得漂亮"。
 
 ### 入职 OpenAI
 2024 年 12 月，Keller Jordan 正式加入 OpenAI。他的入职并非依靠传统学术论文，而是凭借：
@@ -38,9 +38,14 @@ Keller 通过对 [[nanogpt]] 进行极限优化而进入业界视野。
 - 核心技术：使用 Newton-Schulz 迭代对 SGD-动量更新矩阵进行正交化处理。
 - 性能：在 bf16 精度下稳定运行，在特定任务上表现优于 AdamW。
 
+### nanoGPT 速通基准
+Keller 创建的 [[nanogpt速通基准]] 成为 AI 自主科研能力的首个公开竞技场。在该赛道上，人类顶尖开发者曾保持 2990 步的世界纪录，后被 [[opus-4-7]] 以 2930 步打破，标志着 AI 首次在科研竞赛中击败人类。
+
 ### 研究哲学
-Keller 拒绝为 Muon 撰写传统论文，认为大多数优化器论文是“水文”。他更倾向于通过博客和代码直接传播知识，强调可复现性和实战价值。
+Keller 拒绝为 Muon 撰写传统论文，认为大多数优化器论文是"水文"。他更倾向于通过博客和代码直接传播知识，强调可复现性和实战价值。
 
 ## 相关链接
 - [[开源影响力]]
 - [[测试时计算]]
+- [[nanogpt速通基准]]
+- [[opus-4-7]]

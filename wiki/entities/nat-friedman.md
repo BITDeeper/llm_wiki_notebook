@@ -1,33 +1,22 @@
 ---
 type: entity
 title: Nat Friedman
-tags: [investor, github, executive, prediction]
-related: [github, thomas-dohmke, ai原生操作系统]
-created: 2026-04-05
-updated: 2026-04-05
-sources: ["「ai杀死git」？前github掌门人开启ai原生操作系统.md"]
+created: 2026-05-14
+updated: 2026-05-14
+tags: ["investor", "github", "executive", "prediction", "人物", "meta", "天使投资人"]
+related: ["github", "thomas-dohmke", "ai原生操作系统", "亚历山大王", "meta超级智能实验室-msl"]
+sources: ["「ai杀死git」？前github掌门人开启ai原生操作系统.md", "亚历山大王回应一切：lecun、manus，“我的父母都是中国人”.md"]
 ---
-
 # Nat Friedman
 
-Nat Friedman 是前 GitHub CEO，知名的行业领袖和投资人。
+前GitHub CEO，现任Meta超级智能实验室（MSL）产品与应用研究（PAR）部门负责人。
 
-## 核心预测
-Nat Friedman 对 AI 时代的软件开发做出了激进的预测，这些预测常被用来论证 [[entire]] 等 [[ai原生操作系统]] 存在的必要性：
+## 与亚历山大王的关系
 
-### 1. AI 代码占比
-- **预测**：到 2028 年，人工智能将生成 **90%** 的代码。
-- **含义**：人类开发者每天编写的代码中，只有十分之一出自人类之手，其余都将由 AI 完成。
+- Scale AI最早的天使投资人之一，在亚历山大王完成YC之前就投资了Scale。
+- 多年来一直为亚历山大王提供创业建议。
+- 与亚历山大王和Daniel Gross一起被描述为MSL的核心领导 trio。
 
-### 2. 开发者群体扩张
-- **预测**：到 2030 年，全球软件创造者群体将从目前的数千万人扩大到 **十亿级别**。
-- **含义**：编程作为专业技能的门槛将被打破，更多领域专家能直接将想法转化为软件。
+## 当前角色
 
-### 3. 转型路径
-向“无需阅读代码”未来的转变将分阶段渐进发生：
-- **第一阶段**：AI 处理重复性高的样板代码。
-- **第二阶段**：AI 承担更复杂的重构和优化任务。
-- **最终阶段**：AI 能够自主进行系统维护。
-
-## 观点影响
-他的观点强调了在 AI 生成代码占主导的未来，建立代码的 [[数字谱系]] 和追溯机制（如 [[checkpoints]]）的重要性，以确保代码的安全性、可靠性和合规性。
+领导MSL的PAR部门，负责所有产品的构建和模型的实际部署。

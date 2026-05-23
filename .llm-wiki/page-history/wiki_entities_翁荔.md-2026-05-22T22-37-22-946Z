@@ -1,0 +1,24 @@
+---
+type: entity
+title: 翁荔 (Lilian Weng)
+created: 2026-05-12
+updated: 2026-05-12
+tags: [人物, ai研究者, openai, thinking-machines]
+related: [thinking-machines-lab, tml-interaction-small, openai]
+sources: ["刚刚，thinking-machines出手！首款交互模型来了，翁荔出镜实测.md"]
+---
+# 翁荔 (Lilian Weng)
+
+翁荔（Lilian Weng）是 [[thinking-machines-lab|Thinking Machines Lab]] 联合创始人，前 OpenAI 应用研究 VP。
+
+## 职业经历
+- **OpenAI**：曾任应用研究 VP（Vice President of Applied Research），是 OpenAI 核心研究领导层成员
+- **Thinking Machines Lab**：2025年作为联合创始人加入，参与公司创建
+
+## 在 Thinking Machines 的角色
+- 亲自出镜演示 [[tml-interaction-small]] 的核心能力
+- 在社交平台上分享了开发过程：团队经历了 12 个版本（外加大量子版本）和 137 页训练日志的迭代
+- 她写道："事实证明，要让人和 AI 协作得更好，先要靠人和人之间的协作。"
+
+## 演示亮点
+在官方演示中，翁荔用一段连贯的故事展示了交互模型的核心能力：模型可以追踪她到底是在思考、在让出话语权、在自我纠正，还是在邀请回应；整个过程中没有任何专门的对话管理系统在工作。
