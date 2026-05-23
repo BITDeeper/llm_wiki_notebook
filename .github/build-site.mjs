@@ -47,6 +47,10 @@ execSync('git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz-sit
 console.log('Installing dependencies...')
 execSync('npm ci', { stdio: 'pipe', cwd: quartzDir })
 
+// ── Step 1b: Patch Quartz for fault tolerance ────────────────────────────
+console.log('Patching Quartz for fault tolerance...')
+patchQuartzFaultTolerance(quartzDir)
+
 // ── Step 2: Generate quartz.config.ts ───────────────────────────────────
 console.log('\n[2/7] Generating quartz.config.ts...')
 writeFileSync(join(quartzDir, 'quartz.config.ts'), generateQuartzConfig(config))
@@ -496,4 +500,38 @@ function injectChatWidget(cfg, quartzDir, repoRoot) {
     )
   }
   writeFileSync(layoutPath, layout)
+}
+
+// ── Patch Quartz source for fault tolerance ──────────────────────────────
+
+function patchQuartzFaultTolerance(quartzDir) {
+  const parsePath = join(quartzDir, 'quartz', 'processors', 'parse.ts')
+  let src = readFileSync(parsePath, 'utf8')
+
+  // 1) Per-file catch: replace trace() (which re-throws/exits) with console.warn
+  //    Original: trace(`\nFailed to process \`${fp}\``, err as Error)
+  const traceMarker = 'Failed to process'
+  const traceIdx = src.indexOf(traceMarker)
+  if (traceIdx !== -1) {
+    // Find the full statement: trace(`...`, err as Error)
+    const lineStart = src.lastIndexOf('trace(', traceIdx)
+    const lineEnd = src.indexOf(')', traceIdx + traceMarker.length) + 1
+    if (lineStart !== -1 && lineEnd > lineStart) {
+      const oldLine = src.slice(lineStart, lineEnd)
+      const newLine = 'console.warn(`[WARN] Skipping ${fp}: ${(err instanceof Error ? err.message : String(err)).split("\\n")[0]}`)'
+      src = src.slice(0, lineStart) + newLine + src.slice(lineEnd)
+    }
+  }
+
+  // 2) Multi-threaded WorkerPromise.catch: replace process.exit(1) with warning
+  src = src.replace(
+    /const results: ProcessedContent\[\]\[\] = await WorkerPromise\.all\(childPromises\)\.catch\(\(err\) => \{\s*\n\s*const errString = err\.toString\(\)\.slice\("Error:"\.length\)\s*\n\s*console\.error\(errString\)\s*\n\s*process\.exit\(1\)\s*\n\s*\}\)/,
+    `const results: ProcessedContent[][] = await WorkerPromise.all(childPromises).catch((err) => {
+      console.warn('[WARN] Some worker threads failed (skipping problematic files):', err?.message || err)
+      return []
+    })`,
+  )
+
+  writeFileSync(parsePath, src)
+  console.log('  Patched quartz/processors/parse.ts for fault tolerance')
 }
