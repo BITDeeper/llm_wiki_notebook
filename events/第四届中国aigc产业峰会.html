@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>第四届中国AIGC产业峰会</title><meta charset="utf-8"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="AI-Info-Management"/><meta property="og:title" content="第四届中国AIGC产业峰会"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="第四届中国AIGC产业峰会"/><meta name="twitter:description" content="第四届中国AIGC产业峰会 概述 第四届中国AIGC产业峰会由 量子位（QbitAI）主办，于2026年5月20日在北京金茂万丽酒店举行。峰会以”谁在造浪，谁在落地”为年度主题，宣传口号为「@所有人，马上AI起来」，定位为”AI赛道实战派”——不再只讨论AI的未来，而是现在就用起来。峰会以”系统智能”和”产业深水区”为核心议题，汇聚约20位来自AI一线的实战派从业者，覆盖底层架构、爆款应用、软件与硬件、Agent Infra、AI漫剧、AI音乐、AI浏览器、世界模型、AI硬件等赛道，形成从底层架构到爆款应用、从软件到硬件、从创作到投资的全链条覆盖。峰会聚焦 AIGC 产业从技术验证进入业务流程..."/><meta property="og:description" content="第四届中国AIGC产业峰会 概述 第四届中国AIGC产业峰会由 量子位（QbitAI）主办，于2026年5月20日在北京金茂万丽酒店举行。峰会以”谁在造浪，谁在落地”为年度主题，宣传口号为「@所有人，马上AI起来」，定位为”AI赛道实战派”——不再只讨论AI的未来，而是现在就用起来。峰会以”系统智能”和”产业深水区”为核心议题，汇聚约20位来自AI一线的实战派从业者，覆盖底层架构、爆款应用、软件与硬件、Agent Infra、AI漫剧、AI音乐、AI浏览器、世界模型、AI硬件等赛道，形成从底层架构到爆款应用、从软件到硬件、从创作到投资的全链条覆盖。峰会聚焦 AIGC 产业从技术验证进入业务流程..."/><meta property="og:image:alt" content="第四届中国AIGC产业峰会 概述 第四届中国AIGC产业峰会由 量子位（QbitAI）主办，于2026年5月20日在北京金茂万丽酒店举行。峰会以”谁在造浪，谁在落地”为年度主题，宣传口号为「@所有人，马上AI起来」，定位为”AI赛道实战派”——不再只讨论AI的未来，而是现在就用起来。峰会以”系统智能”和”产业深水区”为核心议题，汇聚约20位来自AI一线的实战派从业者，覆盖底层架构、爆款应用、软件与硬件、Agent Infra、AI漫剧、AI音乐、AI浏览器、世界模型、AI硬件等赛道，形成从底层架构到爆款应用、从软件到硬件、从创作到投资的全链条覆盖。峰会聚焦 AIGC 产业从技术验证进入业务流程..."/><meta property="og:image" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta property="og:image:url" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta name="twitter:image" content="https://https://BITDeeper.github.io/llm_wiki_notebook/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="https://BITDeeper.github.io/llm_wiki_notebook"/><meta property="og:url" content="https://https//BITDeeper.github.io/llm_wiki_notebook/events/第四届中国aigc产业峰会"/><meta property="twitter:url" content="https://https//BITDeeper.github.io/llm_wiki_notebook/events/第四届中国aigc产业峰会"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="第四届中国AIGC产业峰会 概述 第四届中国AIGC产业峰会由 量子位（QbitAI）主办，于2026年5月20日在北京金茂万丽酒店举行。峰会以”谁在造浪，谁在落地”为年度主题，宣传口号为「@所有人，马上AI起来」，定位为”AI赛道实战派”——不再只讨论AI的未来，而是现在就用起来。峰会以”系统智能”和”产业深水区”为核心议题，汇聚约20位来自AI一线的实战派从业者，覆盖底层架构、爆款应用、软件与硬件、Agent Infra、AI漫剧、AI音乐、AI浏览器、世界模型、AI硬件等赛道，形成从底层架构到爆款应用、从软件到硬件、从创作到投资的全链条覆盖。峰会聚焦 AIGC 产业从技术验证进入业务流程..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvbGxtX3dpa2lfbm90ZWJvb2svbGxtX3dpa2lfbm90ZWJvb2svcXVhcnR6LXNpdGUvcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://BITDeeper.github.io/llm_wiki_notebook/index.xml"/></head><body data-slug="events/第四届中国aigc产业峰会"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">AI-Info-Management</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-21259"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-21259" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../events/">events</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>第四届中国AIGC产业峰会</a></div></nav><h1 class="article-title">第四届中国AIGC产业峰会</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-22T00:00:00.000Z">2026年5月22日</time><span>11分钟阅读</span></p><ul class="tags"><li><a href="../tags/aigc" class="internal tag-link">aigc</a></li><li><a href="../tags/产业峰会" class="internal tag-link">产业峰会</a></li><li><a href="../tags/量子位" class="internal tag-link">量子位</a></li><li><a href="../tags/榜单评选" class="internal tag-link">榜单评选</a></li><li><a href="../tags/2026" class="internal tag-link">2026</a></li><li><a href="../tags/峰会" class="internal tag-link">峰会</a></li><li><a href="../tags/Agent" class="internal tag-link">Agent</a></li><li><a href="../tags/多模态" class="internal tag-link">多模态</a></li><li><a href="../tags/算力" class="internal tag-link">算力</a></li><li><a href="../tags/产业深水区" class="internal tag-link">产业深水区</a></li><li><a href="../tags/产业" class="internal tag-link">产业</a></li><li><a href="../tags/产业落地" class="internal tag-link">产业落地</a></li><li><a href="../tags/event" class="internal tag-link">event</a></li></ul></div></div><article class="popover-hint"><h1 id="第四届中国aigc产业峰会">第四届中国AIGC产业峰会<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#第四届中国aigc产业峰会" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="概述">概述<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#概述" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>第四届中国AIGC产业峰会由 <a href="../entities/量子位" class="internal alias" data-slug="entities/量子位">量子位</a>（QbitAI）主办，于2026年5月20日在北京金茂万丽酒店举行。峰会以”谁在造浪，谁在落地”为年度主题，宣传口号为「@所有人，马上AI起来」，定位为”<a href="../concepts/ai赛道实战派" class="internal alias" data-slug="concepts/ai赛道实战派">AI赛道实战派</a>”——不再只讨论AI的未来，而是现在就用起来。峰会以”<a href="../concepts/系统智能" class="internal alias" data-slug="concepts/系统智能">系统智能</a>”和”<a href="../concepts/产业深水区" class="internal alias" data-slug="concepts/产业深水区">产业深水区</a>”为核心议题，汇聚约20位来自AI一线的实战派从业者，覆盖底层架构、爆款应用、软件与硬件、Agent Infra、AI漫剧、AI音乐、AI浏览器、世界模型、AI硬件等赛道，形成从底层架构到爆款应用、从软件到硬件、从创作到投资的全链条覆盖。峰会聚焦 AIGC 产业从技术验证进入业务流程深度融合的 <a href="../concepts/产业深水区" class="internal alias" data-slug="concepts/产业深水区">产业深水区</a> 阶段，发布年度企业与产品评选及全景图谱，标志着行业对AIGC发展阶段的共识从技术竞赛转向应用落地。</p>
+<h2 id="基本信息">基本信息<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#基本信息" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>日期</strong>：2026年5月20日</li>
+<li><strong>时间</strong>：08:30 签到，09:30 正式开场</li>
+<li><strong>地点</strong>：北京·金茂万丽酒店</li>
+<li><strong>主办方</strong>：<a href="../entities/量子位" class="internal alias" data-slug="entities/量子位">量子位</a>（QbitAI）</li>
+<li><strong>主题</strong>：谁在造浪，谁在落地 / @所有人，马上AI起来 / AI实战派 — 聚焦一线落地经验</li>
+<li><strong>形式</strong>：线下参会 + 线上直播</li>
+<li><strong>规模</strong>：约20位演讲嘉宾</li>
+</ul>
+<h2 id="峰会规模与亮点">峰会规模与亮点<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#峰会规模与亮点" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>约20位重磅嘉宾</strong>：AI一线实战派</li>
+<li><strong>1场 Agent 主题圆桌</strong>：聚焦智能体从概念到落地的核心挑战</li>
+<li><strong>1份年度榜单</strong>：2026中国AIGC最值得关注的企业与产品</li>
+<li><strong>1张全景图谱</strong>：覆盖 Agent、多模态、应用、算力四大领域</li>
+</ul>
+<h2 id="确认嘉宾阵容">确认嘉宾阵容<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#确认嘉宾阵容" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>嘉宾</th><th>机构</th><th>职务 / 角色</th><th>主题方向</th><th>产业链位置</th></tr></thead><tbody><tr><td><a href="../entities/林达华" class="internal alias" data-slug="entities/林达华">林达华</a></td><td><a href="../entities/商汤科技" class="internal alias" data-slug="entities/商汤科技">商汤科技</a></td><td>执行副总裁、首席科学家</td><td>空间智能</td><td>—</td></tr><tr><td>马孝武</td><td><a href="../entities/轻松健康集团" class="internal alias" data-slug="entities/轻松健康集团">轻松健康集团</a></td><td>执行副总裁</td><td>医疗AI增长飞轮</td><td>—</td></tr><tr><td>戴文军</td><td><a href="../entities/京东joyinside" class="internal alias" data-slug="entities/京东joyinside">京东joyinside</a></td><td>JoyInside业务负责人</td><td>附身智能</td><td>—</td></tr><tr><td>胡维琦</td><td><a href="../entities/minimax" class="internal" data-slug="entities/minimax">minimax</a></td><td>ToB中国区商业化负责人</td><td>ToB打法</td><td>—</td></tr><tr><td>王晓野</td><td><a href="../entities/亚马逊云科技" class="internal alias" data-slug="entities/亚马逊云科技">亚马逊云科技</a></td><td>产品技术部技术总监</td><td>Agent落地鸿沟</td><td>—</td></tr><tr><td>吴玮杰</td><td>智谱</td><td>高级副总裁</td><td>Agent商业化落地</td><td>模型层</td></tr><tr><td><a href="../entities/黄超" class="internal alias" data-slug="entities/黄超">黄超</a></td><td>香港大学</td><td>助理教授</td><td>Agent学术前沿</td><td>开源/学术</td></tr><tr><td><a href="../entities/邓亚峰" class="internal alias" data-slug="entities/邓亚峰">邓亚峰</a></td><td>盛大</td><td>集团副总裁、EverMind CEO</td><td>长期记忆驱动自进化</td><td>AI应用</td></tr><tr><td><a href="../entities/沈宇军" class="internal alias" data-slug="entities/沈宇军">沈宇军</a></td><td><a href="../entities/蚂蚁灵波" class="internal alias" data-slug="entities/蚂蚁灵波">蚂蚁灵波</a></td><td>首席科学家</td><td>AIGC到AIGA</td><td>具身智能</td></tr><tr><td><a href="../entities/邱锡鹏" class="internal alias" data-slug="entities/邱锡鹏">邱锡鹏</a></td><td>复旦大学 / 模思智能</td><td>特聘教授 / 创始人</td><td>MOSS多模态模型</td><td>模型层</td></tr><tr><td>方汉</td><td>昆仑万维</td><td>董事长兼CEO</td><td>AIGC应用实战</td><td>互联网平台</td></tr><tr><td>易正朝</td><td>风行在线</td><td>CEO</td><td>AI众创</td><td>AI文娱</td></tr><tr><td>朱广翔</td><td><a href="../entities/百度秒哒" class="internal alias" data-slug="entities/百度秒哒">百度秒哒</a></td><td>产品总经理</td><td>AI创造工具</td><td>AI应用</td></tr><tr><td><a href="../entities/张璐" class="internal alias" data-slug="entities/张璐">张璐</a></td><td>Fusion Fund</td><td>创始合伙人</td><td>算力叙事重构</td><td>投资</td></tr><tr><td><a href="../entities/洪源" class="internal alias" data-slug="entities/洪源">洪源</a></td><td><a href="../entities/太初元碁" class="internal alias" data-slug="entities/太初元碁">太初元碁</a></td><td>首席产品官/高级副总裁</td><td>国产算力与Token智能</td><td>算力层</td></tr><tr><td><a href="../entities/庄明浩" class="internal alias" data-slug="entities/庄明浩">庄明浩</a></td><td>趣丸科技</td><td>副总裁兼首席战略官</td><td>Agent圆桌嘉宾</td><td>企业战略</td></tr><tr><td><a href="../entities/冯雷" class="internal alias" data-slug="entities/冯雷">冯雷</a></td><td><a href="../entities/colaos" class="internal alias" data-slug="entities/colaos">ColaOS</a> &amp; MarsWave</td><td>CEO</td><td>Agent圆桌嘉宾</td><td>AI应用</td></tr><tr><td><a href="../entities/张昊阳" class="internal alias" data-slug="entities/张昊阳">张昊阳</a></td><td><a href="../entities/evomap" class="internal" data-slug="entities/evomap">evomap</a></td><td>创始人、<a href="../entities/evolver" class="internal" data-slug="entities/evolver">evolver</a>作者</td><td>Agent圆桌嘉宾</td><td>自进化引擎</td></tr></tbody></table></div>
+<p>其他确认参会机构包括：百度、智谱、昆仑万维、模思智能、<a href="../entities/蚂蚁灵波" class="internal alias" data-slug="entities/蚂蚁灵波">蚂蚁灵波</a>、evomap。</p>
+<h2 id="议程结构">议程结构<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#议程结构" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="上午场agent-与系统智能">上午场：Agent 与系统智能<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#上午场agent-与系统智能" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Agent 如何从概念走向落地</li>
+<li>AI 如何从单点工具演化为可记忆、可行动的 <a href="../concepts/系统智能" class="internal alias" data-slug="concepts/系统智能">系统智能</a></li>
+<li>AI 产业趋势展望</li>
+</ul>
+<h3 id="下午场产业落地与生态">下午场：产业落地与生态<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#下午场产业落地与生态" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>模型开源</li>
+<li>场景落地</li>
+<li>国产算力</li>
+<li>全球投资</li>
+<li>Agent 产品的非共识答案</li>
+</ul>
+<h2 id="五大核心议题">五大核心议题<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#五大核心议题" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>峰会围绕 <a href="../concepts/产业深水区" class="internal alias" data-slug="concepts/产业深水区">产业深水区</a> 阶段的五大核心议题展开：</p>
+<h3 id="亮点1agent-落地实战">亮点1：Agent 落地实战<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#亮点1agent-落地实战" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>智谱吴玮杰：“Agent不是未来，是现在”</li>
+<li>亚马逊云科技王晓野：跨越Agent落地鸿沟</li>
+<li>港大<a href="../entities/黄超" class="internal alias" data-slug="entities/黄超">黄超</a>：AI Agent范式变革的挑战与机遇</li>
+<li>盛大<a href="../entities/邓亚峰" class="internal alias" data-slug="entities/邓亚峰">邓亚峰</a>：长期记忆驱动的自进化</li>
+<li>Agent圆桌：<a href="../entities/庄明浩" class="internal alias" data-slug="entities/庄明浩">庄明浩</a>、<a href="../entities/冯雷" class="internal alias" data-slug="entities/冯雷">冯雷</a>、<a href="../entities/张昊阳" class="internal alias" data-slug="entities/张昊阳">张昊阳</a></li>
+</ul>
+<h3 id="亮点2模型能力边界扩张">亮点2：模型能力边界扩张<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#亮点2模型能力边界扩张" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../entities/商汤科技" class="internal alias" data-slug="entities/商汤科技">商汤科技</a><a href="../entities/林达华" class="internal alias" data-slug="entities/林达华">林达华</a>：多模态到<a href="../concepts/空间智能" class="internal alias" data-slug="concepts/空间智能">空间智能</a>新阶段</li>
+<li><a href="../entities/蚂蚁灵波" class="internal alias" data-slug="entities/蚂蚁灵波">蚂蚁灵波</a><a href="../entities/沈宇军" class="internal alias" data-slug="entities/沈宇军">沈宇军</a>：从AIGC到<a href="../concepts/aiga-ai-generated-action" class="internal alias" data-slug="concepts/aiga-ai-generated-action">AIGA</a></li>
+<li>京东戴文军：AI从屏幕走向物理世界/物理终端</li>
+<li>复旦<a href="../entities/邱锡鹏" class="internal alias" data-slug="entities/邱锡鹏">邱锡鹏</a>：<a href="../entities/moss" class="internal alias" data-slug="entities/moss">MOSS</a>多模态模型及推理优化</li>
+</ul>
+<h3 id="亮点3应用赛道实战案例">亮点3：应用赛道实战案例<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#亮点3应用赛道实战案例" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>昆仑万维方汉：AI音乐/社交/短剧多赛道实战</li>
+<li>风行在线易正朝：<a href="../concepts/ai赋能众创" class="internal alias" data-slug="concepts/ai赋能众创">AI赋能众创</a>/AI众创</li>
+<li><a href="../entities/百度秒哒" class="internal alias" data-slug="entities/百度秒哒">百度秒哒</a>朱广翔：人人都是创造者</li>
+<li>MiniMax胡维琦：ToB商业化打法</li>
+<li>轻松健康马孝武：循证智能体与AI健康服务/医疗AI增长飞轮</li>
+</ul>
+<h3 id="亮点4算力叙事重构">亮点4：算力叙事重构<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#亮点4算力叙事重构" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Fusion Fund<a href="../entities/张璐" class="internal alias" data-slug="entities/张璐">张璐</a>：全球资本视角的<a href="../concepts/推理驱动算力范式" class="internal alias" data-slug="concepts/推理驱动算力范式">推理驱动算力范式</a>/<a href="../concepts/算力叙事重构" class="internal alias" data-slug="concepts/算力叙事重构">算力叙事重构</a></li>
+<li><a href="../entities/太初元碁" class="internal alias" data-slug="entities/太初元碁">太初元碁</a><a href="../entities/洪源" class="internal alias" data-slug="entities/洪源">洪源</a>：国产算力路径与Token智能</li>
+</ul>
+<h3 id="亮点5全景生态发布">亮点5：全景生态发布<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#亮点5全景生态发布" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>2026年值得关注的AIGC企业榜单</li>
+<li>2026年值得关注的AIGC产品榜单</li>
+<li>中国AIGC应用全景图谱</li>
+</ul>
+<h3 id="综合议题">综合议题<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#综合议题" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>AI到底怎么落地、怎么赚钱、怎么改变工作</li>
+<li>从底层架构到爆款应用的全链条实践</li>
+<li>从软件到硬件的跨领域融合</li>
+<li>从创作到投资的生态构建</li>
+</ul>
+<h2 id="agent主题圆桌">Agent主题圆桌<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#agent主题圆桌" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>主题</strong>：2026，Agent产品的不确定性与非共识机遇</p>
+<p><strong>嘉宾</strong>：</p>
+<ul>
+<li><a href="../entities/庄明浩" class="internal alias" data-slug="entities/庄明浩">庄明浩</a>（趣丸科技副总裁兼首席战略官）</li>
+<li><a href="../entities/冯雷" class="internal alias" data-slug="entities/冯雷">冯雷</a>（<a href="../entities/colaos" class="internal alias" data-slug="entities/colaos">ColaOS</a> &amp; MarsWave CEO）</li>
+<li><a href="../entities/张昊阳" class="internal alias" data-slug="entities/张昊阳">张昊阳</a>（<a href="../entities/evomap" class="internal" data-slug="entities/evomap">evomap</a>创始人，<a href="../entities/evolver" class="internal" data-slug="entities/evolver">evolver</a>作者）</li>
+</ul>
+<h2 id="发布内容">发布内容<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#发布内容" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>峰会上发布了以下内容：</p>
+<ol>
+<li><strong>2026年度值得关注的AIGC企业</strong> — 覆盖从底层算力、基础模型到行业应用的全产业链环节，基于过去一年生成式AI企业的表现，评选真正跑通场景、被用户验证的优秀企业。</li>
+<li><strong>2026年度值得关注的AIGC产品</strong> — 横跨AI内容创作、智能客服、代码辅助、视频生成、企业知识管理、工业设计等多个赛道。</li>
+<li><strong><a href="../concepts/2026年中国ai应用全景图谱报告" class="internal alias" data-slug="concepts/2026年中国ai应用全景图谱报告">2026年中国ai应用全景图谱报告</a></strong> — <a href="../entities/量子位" class="internal alias" data-slug="entities/量子位">量子位</a>智库连续第三年发布的 <a href="../concepts/ai应用全景图谱" class="internal alias" data-slug="concepts/ai应用全景图谱">年度全景图谱</a> 及配套报告，对国内AI产品做全景式数据解读、趋势提炼和案例分析。</li>
+</ol>
+<h2 id="行业背景">行业背景<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#行业背景" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>峰会召开时，AIGC行业正处于关键转折点：</p>
+<ul>
+<li>行业从2023年技术爆发→2024年模型竞赛→2025-2026年应用落地与产业融合</li>
+<li>焦点从参数规模、模型排名转向AI是否真正进入业务流程、创造生产力</li>
+<li>行业进入新一轮分化，<a href="../concepts/应用闭环" class="internal alias" data-slug="concepts/应用闭环">应用闭环</a>成为核心评价标准</li>
+</ul>
+<p>峰会正式提出 AIGC 行业进入 <a href="../concepts/产业深水区" class="internal alias" data-slug="concepts/产业深水区">产业深水区</a> 的判断，标志着行业焦点从参数竞赛转向应用闭环与生产力创造。本届峰会”实战派”定位与 <a href="../concepts/应用闭环" class="internal alias" data-slug="concepts/应用闭环">应用闭环</a> 和 <a href="../concepts/系统智能" class="internal alias" data-slug="concepts/系统智能">系统智能</a> 等核心概念高度呼应。</p>
+<h2 id="传播序列">传播序列<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#传播序列" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>峰会的前期宣传与后续发布遵循以下传播序列：</p>
+<p>评选公告 → 嘉宾阵容发布 → 参会指南 → 峰会举办 → 榜单/报告发布</p>
+<h2 id="关联概念">关联概念<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#关联概念" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../任务执行范式" class="internal alias" data-slug="任务执行范式">任务执行范式</a>：峰会议程中”Agent从概念走向落地”的核心背景</li>
+<li><a href="../concepts/agentic-engineering" class="internal" data-slug="concepts/agentic-engineering">agentic-engineering</a>：智能体工程作为峰会的关键技术方向</li>
+<li><a href="../concepts/产业深水区" class="internal alias" data-slug="concepts/产业深水区">产业深水区</a>：峰会的核心判断框架</li>
+<li><a href="../concepts/应用闭环" class="internal alias" data-slug="concepts/应用闭环">应用闭环</a>：产业深水区阶段的核心评价标准</li>
+<li><a href="../concepts/系统智能" class="internal alias" data-slug="concepts/系统智能">系统智能</a>：AI从单点工具演化为可记忆、可行动系统的方向</li>
+<li><a href="../concepts/aiga-ai-generated-action" class="internal alias" data-slug="concepts/aiga-ai-generated-action">AIGA</a>：从内容生成到行动生成的范式跃迁</li>
+<li><a href="../concepts/空间智能" class="internal alias" data-slug="concepts/空间智能">空间智能</a>：多模态能力边界的下一步扩张方向</li>
+<li><a href="../concepts/推理驱动算力范式" class="internal alias" data-slug="concepts/推理驱动算力范式">推理驱动算力范式</a>：全球资本视角下算力需求的结构性转变</li>
+<li><a href="../concepts/算力叙事重构" class="internal alias" data-slug="concepts/算力叙事重构">算力叙事重构</a>：算力基础设施范式重构的新叙事框架</li>
+</ul>
+<h2 id="时间线位置">时间线位置<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#时间线位置" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>该峰会与Wiki中记录的2026年5月密集事件窗口高度重合：</p>
+<ul>
+<li>5月17日：<a href="../events/openclaw-130万月度账单事件-202605" class="internal alias" data-slug="events/openclaw-130万月度账单事件-202605">openclaw-130万月度账单事件-202605</a></li>
+<li>5月18日：<a href="../events/openai世纪诉讼判决-20260518" class="internal alias" data-slug="events/openai世纪诉讼判决-20260518">openai世纪诉讼判决-20260518</a></li>
+<li>5月20日：<a href="../events/驭势科技上市-20260520" class="internal alias" data-slug="events/驭势科技上市-20260520">驭势科技上市-20260520</a>（同日）</li>
+<li>5月20日：<a href="../events/karpathy加入anthropic-20260520" class="internal alias" data-slug="events/karpathy加入anthropic-20260520">Andrej Karpathy宣布加入Anthropic</a>（同日），标志着AI行业在技术竞赛与产业落地两个维度同时迎来重要节点</li>
+</ul>
+<h2 id="信息局限">信息局限<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#信息局限" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>具体入选企业和产品名单未在公开文本中完整呈现，可能以图片或现场发布形式公布。后续获取完整名单后应更新相关企业/产品页面。</p></article><hr/><div class="page-footer"><div id="chat-widget-container"><button id="chat-widget-fab" aria-label="Open chat"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></button><div id="chat-widget-panel" class="hidden"><div id="chat-widget-header"><span>Wiki Q&amp;A</span><div id="chat-widget-header-actions"><button id="chat-widget-settings-btn" aria-label="Settings"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg></button><button id="chat-widget-close-btn" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div></div><div id="chat-widget-messages"></div><div id="chat-widget-input-area"><textarea id="chat-widget-input" placeholder="Ask about your wiki..." rows="1"></textarea><button id="chat-widget-send" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></button></div></div><div id="chat-widget-settings-modal" class="hidden"><div id="chat-widget-settings-content"><h3>Settings</h3><p style="font-size:0.75rem;color:#888;margin:0 0 8px">Defaults are pre-configured. Override only if needed.</p><label>API Key (optional override)<input type="password" id="chat-settings-api-key" placeholder="Leave empty to use default"/></label><label>API Base URL (optional override)<input type="text" id="chat-settings-api-base-url" placeholder="Leave empty to use default"/></label><label>GitHub PAT (optional override)<input type="password" id="chat-settings-github-pat" placeholder="Leave empty to use default"/></label><label>GitHub Repo (owner/repo)<input type="text" id="chat-settings-github-repo" placeholder="Auto-detected from publish config"/></label><label>Branch<input type="text" id="chat-settings-github-branch" placeholder="main"/></label><div id="chat-widget-settings-actions"><button id="chat-settings-save">Save</button><button id="chat-settings-cancel">Cancel</button></div></div></div></div></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-10586" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#第四届中国aigc产业峰会" data-for="第四届中国aigc产业峰会">第四届中国AIGC产业峰会</a></li><li class="depth-1"><a href="#概述" data-for="概述">概述</a></li><li class="depth-1"><a href="#基本信息" data-for="基本信息">基本信息</a></li><li class="depth-1"><a href="#峰会规模与亮点" data-for="峰会规模与亮点">峰会规模与亮点</a></li><li class="depth-1"><a href="#确认嘉宾阵容" data-for="确认嘉宾阵容">确认嘉宾阵容</a></li><li class="depth-1"><a href="#议程结构" data-for="议程结构">议程结构</a></li><li class="depth-2"><a href="#上午场agent-与系统智能" data-for="上午场agent-与系统智能">上午场：Agent 与系统智能</a></li><li class="depth-2"><a href="#下午场产业落地与生态" data-for="下午场产业落地与生态">下午场：产业落地与生态</a></li><li class="depth-1"><a href="#五大核心议题" data-for="五大核心议题">五大核心议题</a></li><li class="depth-2"><a href="#亮点1agent-落地实战" data-for="亮点1agent-落地实战">亮点1：Agent 落地实战</a></li><li class="depth-2"><a href="#亮点2模型能力边界扩张" data-for="亮点2模型能力边界扩张">亮点2：模型能力边界扩张</a></li><li class="depth-2"><a href="#亮点3应用赛道实战案例" data-for="亮点3应用赛道实战案例">亮点3：应用赛道实战案例</a></li><li class="depth-2"><a href="#亮点4算力叙事重构" data-for="亮点4算力叙事重构">亮点4：算力叙事重构</a></li><li class="depth-2"><a href="#亮点5全景生态发布" data-for="亮点5全景生态发布">亮点5：全景生态发布</a></li><li class="depth-2"><a href="#综合议题" data-for="综合议题">综合议题</a></li><li class="depth-1"><a href="#agent主题圆桌" data-for="agent主题圆桌">Agent主题圆桌</a></li><li class="depth-1"><a href="#发布内容" data-for="发布内容">发布内容</a></li><li class="depth-1"><a href="#行业背景" data-for="行业背景">行业背景</a></li><li class="depth-1"><a href="#传播序列" data-for="传播序列">传播序列</a></li><li class="depth-1"><a href="#关联概念" data-for="关联概念">关联概念</a></li><li class="depth-1"><a href="#时间线位置" data-for="时间线位置">时间线位置</a></li><li class="depth-1"><a href="#信息局限" data-for="信息局限">信息局限</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../concepts/2026年中国ai应用全景图谱报告" class="internal">2026年中国AI应用全景图谱报告</a></li><li><a href="../concepts/aiga-ai-generated-action" class="internal">AIGA（AI Generated Action）</a></li><li><a href="../concepts/ai应用全景图谱" class="internal">AI应用全景图谱</a></li><li><a href="../concepts/ai赋能众创" class="internal">AI赋能众创</a></li><li><a href="../concepts/推理驱动算力范式" class="internal">推理驱动算力范式</a></li><li><a href="../concepts/空间智能" class="internal">空间智能</a></li><li><a href="../concepts/系统智能" class="internal">系统智能</a></li><li><a href="../concepts/附身智能" class="internal">附身智能</a></li><li><a href="../entities/colaos" class="internal">ColaOS</a></li><li><a href="../entities/joyinside" class="internal">JoyInside</a></li><li><a href="../entities/marswave" class="internal">MarsWave</a></li><li><a href="../entities/minimax" class="internal">MiniMax</a></li><li><a href="../entities/moss" class="internal">MOSS</a></li><li><a href="../entities/亚马逊云科技" class="internal">亚马逊云科技</a></li><li><a href="../entities/京东joyinside" class="internal">京东JoyInside</a></li><li><a href="../entities/冯雷" class="internal">冯雷</a></li><li><a href="../entities/太初元碁" class="internal">太初元碁</a></li><li><a href="../entities/庄明浩" class="internal">庄明浩</a></li><li><a href="../entities/张昊阳" class="internal">张昊阳</a></li><li><a href="../entities/林达华" class="internal">林达华</a></li><li><a href="../entities/模思智能" class="internal">模思智能</a></li><li><a href="../entities/沈宇军" class="internal">沈宇军</a></li><li><a href="../entities/洪源" class="internal">洪源</a></li><li><a href="../entities/百度秒哒" class="internal">百度秒哒</a></li><li><a href="../entities/秒哒" class="internal">秒哒</a></li><li><a href="../entities/轻松健康集团" class="internal">轻松健康集团</a></li><li><a href="../entities/邱锡鹏" class="internal">邱锡鹏</a></li><li><a href="../entities/量子位" class="internal">量子位</a></li><li><a href="../entities/黄超" class="internal">黄超</a></li><li><a href="../events/cmu-2026毕业演讲" class="internal">CMU 2026届毕业演讲</a></li><li><a href="../events/hypereyes发布-20260519" class="internal">HyperEyes 并行多模态搜索模型发布</a></li><li><a href="../events/马赫智造空心杯电机产线投产-20260522" class="internal">马赫智造空心杯电机产线投产</a></li><li><a href="../" class="internal">Wiki Index</a></li><li><a href="../sources/5.20-明天见！拿好这份参会指南｜aigc2026峰会" class="internal">5.20 明天见！拿好这份参会指南｜AIGC2026峰会</a></li><li><a href="../sources/520，一个会跟进最新aigc进展" class="internal">520，一个会跟进最新AIGC进展</a></li><li><a href="../sources/5大看点拿走不谢！离中国aigc产业峰会只有5天啦" class="internal">5大看点拿走不谢！离中国AIGC产业峰会只有5天啦</a></li><li><a href="../sources/5月20日议程发布！ai实战派到底要聊什么｜中国aigc产业峰会" class="internal">5月20日议程发布！AI实战派到底要聊什么｜中国AIGC产业峰会</a></li><li><a href="../sources/agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起ai" class="internal">Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI</a></li><li><a href="../sources/qwen最新3.7-max预览版空降！两代超大杯并行迭代，林俊旸走了但还在加速" class="internal">Qwen最新3.7 Max预览版空降！两代超大杯并行迭代，林俊旸走了但还在加速</a></li><li><a href="../sources/何恺明首个语言模型：105m参数，不走gpt自回归老路" class="internal">Source: 何恺明首个语言模型：105m参数，不走gpt自回归老路.md</a></li><li><a href="../sources/倒计时一周，aigc峰会嘉宾又上新了！一起来看第三波嘉宾" class="internal">倒计时一周，AIGC峰会嘉宾又上新了！一起来看第三波嘉宾</a></li><li><a href="../sources/华为“养”出半个具身智能创业圈" class="internal">Source: 华为“养”出半个具身智能创业圈.md</a></li><li><a href="../sources/坐到马斯克和库克中间的湖南女人" class="internal">Source: 坐到马斯克和库克中间的湖南女人.md</a></li><li><a href="../sources/机器人搬冰箱成了！洗碗之后又一痛点，网友：解放我的髋关节" class="internal">机器人搬冰箱成了！洗碗之后又一痛点，网友：解放我的髋关节</a></li><li><a href="../sources/林俊旸果然创业了！一个“qwen负责人”头衔值135亿" class="internal">林俊旸果然创业了！一个&quot;qwen负责人&quot;头衔值135亿</a></li><li><a href="../sources/硅谷刷屏的ai护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走" class="internal">硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走</a></li><li><a href="../sources/腾讯版claude-design来了：多人实时同屏审设计稿，一键转代码直通ide" class="internal">腾讯版Claude Design来了：多人实时同屏审设计稿，一键转代码直通IDE</a></li><li><a href="../sources/量子位招小红书ai冲浪选手" class="internal">量子位招小红书AI冲浪选手</a></li><li><a href="../sources/黄仁勋喊话毕业生：ai不会取代你，但善用ai的人会" class="internal">黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会</a></li><li><a href="../timeline" class="internal">Timeline</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>
