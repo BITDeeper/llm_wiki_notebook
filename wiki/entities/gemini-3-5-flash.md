@@ -2,15 +2,15 @@
 type: entity
 title: Gemini 3.5 Flash
 created: 2026-05-20
-updated: 2026-05-22
-tags: ["谷歌", "gemini", "大语言模型", "旗舰模型", "大模型", "编程", "智能体"]
-related: ["gemini", "gemini-omni", "antigravity-2", "google-io-2026", "谷歌", "google-antigravity", "sergey-brin"]
-sources: ["gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "io大会开完，谷歌连搜索框都变智能体了.md"]
+updated: 2026-05-25
+tags: ["谷歌", "gemini", "大语言模型", "旗舰模型", "大模型", "编程", "智能体", "ai"]
+related: ["gemini", "gemini-omni", "antigravity-2", "google-io-2026", "谷歌", "google-antigravity", "sergey-brin", "桑达尔-皮查伊"]
+sources: ["gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "io大会开完，谷歌连搜索框都变智能体了.md", "谷歌ceo承认coding落后了.md"]
 origin_date: 2026-05-20
 ---
 # Gemini 3.5 Flash
 
-谷歌于 2026 年 5 月 20 日在 [[google-io-2026]] 大会上首发的最新轻量级前沿模型，被定义为"迄今最强的编码、智能体模型"。即日起面向全球所有用户开放。
+谷歌于 2026 年 5 月 20 日在 [[google-io-2026]] 大会上首发的最新轻量级前沿模型，被定义为"迄今最强的编码、智能体模型"。即日起面向全球所有用户开放。[[桑达尔-皮查伊]] 称其为"往前迈出的一大步"。
 
 ## 核心特性
 
@@ -49,6 +49,16 @@ origin_date: 2026-05-20
 ## 背景
 
 [[sergey-brin]] 亲自挂帅组建攻坚队以应对 [[anthropic]] [[claude-code]] 在编程领域的挑战。此前 [[sergey-brin]] 亲自督战追赶 Claude Code，此次 3.5 Flash 在编程基准上的表现被视为谷歌的全面反击成果，但旗舰版本 3.5 Pro 仍未就绪。
+
+## 皮查伊评价
+
+发布仅一天后，[[桑达尔-皮查伊]] 接受采访时承认 Coding 能力仍有短板，特别是资深开发者处理复杂代码库的长期任务。早期版本存在一些瑕疵和使用限制，皮查伊称"比较容易修"。
+
+> "这是一个新模型，也是在一个新方向上的推进，它确实带来了一些进展，但也可能出现一些回退，不过这些问题，我们可以通过后训练很快处理掉。"
+
+## 与 Antigravity 2.0 的协同
+
+[[antigravity-2]] 内部的高频使用正在为 Gemini 系列模型提供真实 Coding 数据反馈，Gemini 3.5 Flash 的后续迭代将直接受益。
 
 ## 后续计划
 

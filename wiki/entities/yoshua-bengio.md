@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Yoshua Bengio
-tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全"]
-related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂"]
+tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全", "图灵奖得主", "ai研究者"]
+related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂", "gram", "ai-takeoff"]
 created: 2026-01-22
-updated: 2026-05-22
-sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md"]
+updated: 2026-05-25
+sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "bengio新论文刷新递归推理上限，并行轨迹碾压串行推理.md"]
 ---
 
 # Yoshua Bengio
 
-**约书亚·本吉奥**（Yoshua Bengio）是计算机科学家，深度学习领域的奠基人之一。他与 [[Geoffrey Hinton]] 和 [[Yann LeCun]] 并称为深度学习领域的"三巨头"（或"AI 教父"）。他是 AI 领域的泰斗级人物，也是全球首位达成 AI 领域"百万被引"成就的学者。
+**约书亚·本吉奥**（Yoshua Bengio）是计算机科学家，深度学习领域的奠基人之一。他与 [[Geoffrey Hinton]] 和 [[Yann LeCun]] 并称为深度学习领域的"三巨头"（或"AI 教父"）。他是 AI 领域的泰斗级人物，也是全球首位达成 AI 领域"百万被引"成就的学者。蒙特利尔大学计算机科学与运筹学系教授，Mila（魁北克人工智能研究所）创始人兼科学主任。
 
 ## 学术成就与地位
 
@@ -19,11 +19,23 @@ Bengio 在深度学习算法、生成模型（特别是 GANs）以及序列建�
 - **引用里程碑**：截至 2026 年初，其谷歌学术引用量已达到 103.6 万次。这一成就与 Hinton 的引用量破百万，共同反映了深度学习理论在现代科学研究中的巨大影响力和渗透力。
 - **奖项**：2018 年与 Hinton、LeCun 共同获得图灵奖。
 
+## 研究方向
+
+- 深度学习理论基础
+- 注意力机制与序列建模
+- 递归推理与潜在空间推理
+- 生成模型
+- AI 安全与负责任 AI 发展
+
 ## AAAI 2026 获奖工作
 
 在 AAAI 2026 上，Bengio 凭借 2011 年关于 [[知识嵌入]] 的论文获得了经典论文奖。其获奖论文《Learning Structured Embeddings of Knowledge Bases》首次将符号事实表示为连续向量，戏剧性地改变了 AI 系统使用知识的方式。
 
 这一工作确立了通往现代大语言模型（LLM）的直系脉络，并为 [[RAG]]（检索增强生成）技术提供了动力。通过在连接主义（神经网络）与符号主义（知识图谱）之间架起桥梁，他的工作对于当前解决 AI 幻觉问题、构建可靠的 AI 系统具有重要的现实意义。
+
+## GRAM：生成式递归推理模型
+
+Bengio 于 2026 年 5 月发表 [[gram|GRAM（生成式递归推理模型）]] 论文，提出 [[概率多轨迹递归]] 范式，在递归推理领域取得突破性进展。该工作将确定性递归推理转变为概率性多轨迹计算，在等计算预算下以"深度+宽度"策略碾压纯串行深度递归。
 
 ## AGI 评估与认知理论
 
@@ -46,6 +58,8 @@ Bengio 是 [[ICML]] 2026"[[作者自评级]]"机制的核心支持者。在 JASA
 ### 与 LeCun 的分歧
 
 [[yann-lecun|LeCun]] 提到 Bengio 的情况与 [[geoffrey-hinton|Hinton]] 类似——在 GPT-4 后改变了观点，而 LeCun 早在几年前就阐述过类似观点。LeCun 认为 Bengio 真正担心的是社会体系能否确保 AI 好处被最大化、不加剧不平等，而非末日场景。详见 [[图灵奖三巨头路线分裂]]。
+
+在潜在空间推理优于自回归生成这一方向上，Bengio 与 LeCun 观点一致，但在具体方法上存在差异——LeCun 倾向于确定性规划，而 GRAM 采用了概率采样策略。
 
 ### 反对 AI 法律权利
 

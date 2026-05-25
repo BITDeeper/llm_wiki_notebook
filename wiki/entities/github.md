@@ -1,11 +1,11 @@
 ---
 type: entity
 title: GitHub
-tags: ["platform", "code-hosting", "version-control", "statistics", "microsoft", "ai-hosting", "开发平台", "微软", "ai编程", "平台", "代码托管", "开发者工具"]
-related: ["claude-code", "vibe-coding", "anthropic", "agent-hq", "copilot", "microsoft", "openai", "github-copilot-cli", "cursor", "github-copilot", "github-源码泄露事件-20260521", "breachforums", "jay-parikh", "thomas-dohmke", "vladimir-fedorov", "mitchell-hashimoto", "ninjaone"]
+tags: ["platform", "code-hosting", "version-control", "statistics", "microsoft", "ai-hosting", "开发平台", "微软", "ai编程", "平台", "代码托管", "开发者工具", "ai工具"]
+related: ["claude-code", "vibe-coding", "anthropic", "agent-hq", "copilot", "microsoft", "openai", "github-copilot-cli", "cursor", "github-copilot", "github-源码泄露事件-20260521", "breachforums", "jay-parikh", "thomas-dohmke", "vladimir-fedorov", "mitchell-hashimoto", "ninjaone", "ai低质量pr危机", "gentoo", "codeberg"]
 created: 2026-02-07
-updated: 2026-05-23
-sources: ["程序员绝命！claude-code疯狂渗透github，26年底将提交20%.md", "github深夜引爆，最强claude-+-codex合体！全球1.8亿码农一夜解放.md", "微软：claude-code的token，我也烧不起了.md", "github帝国崩塌前夜：源码泄露、18年老粉决裂！微软失去1.5亿开发者.md"]
+updated: 2026-05-25
+sources: ["程序员绝命！claude-code疯狂渗透github，26年底将提交20%.md", "github深夜引爆，最强claude-+-codex合体！全球1.8亿码农一夜解放.md", "微软：claude-code的token，我也烧不起了.md", "github帝国崩塌前夜：源码泄露、18年老粉决裂！微软失去1.5亿开发者.md", "离谱！辅导班教学员刷开源项目pr给简历「镀金」，vllm险些中招.md"]
 ---
 
 # GitHub
@@ -41,6 +41,25 @@ GitHub 的核心定位经历了显著变化：
 
 ### 意义
 这些数据被视为"人类写代码时代终结"的有力证据。GitHub 的提交记录不再仅仅是人类智慧的结晶，而是逐渐演变为人类意图与 AI 智能体协作的产物。这一趋势也反映了 [[task-horizon]] 和 [[agent-orchestration]] 技术在实际生产环境中的成熟度。
+
+## AI 低质量 PR 危机中的角色
+
+GitHub 在 [[ai低质量pr危机]] 中的角色颇为尴尬和矛盾：
+
+### 利益冲突
+- 一方面，GitHub 是 AI 工具最积极的推广者之一，Copilot 深度嵌入其产品。
+- 另一方面，正是 GitHub 的产品设计让低质量 AI PR 如此泛滥。
+- Copilot 自动生成的 Bug 报告以提交者本人名义发出，不注明任何 AI 参与的痕迹，维护者无从区分。
+
+### 社区批评
+- 有开发者直接指出"这个平台在激励这种行为"。
+- Linux 发行版 [[gentoo]] 因不满 GitHub 强推 AI 工具，开始将仓库迁移至 [[codeberg]]。
+
+### 官方回应
+GitHub 工程师在博客中承认了"大规模低质量贡献"的问题，但措辞极为谨慎，刻意回避将矛头指向 AI 本身。承诺推出的应对工具包括：
+- 从界面直接删除 PR 的功能
+- 限制外部贡献者权限
+- "准入门槛"机制（如要求 PR 必须关联已有 Issue）
 
 ## 当前危机（2026 年）
 
@@ -85,3 +104,6 @@ GitHub 正在所有产品中取消固定费率方案，全面转向按用量计�
 -   [[claude]]：被集成进 GitHub 的 Anthropic 模型。
 -   [[github-copilot-cli]]：微软在 AI 编程工具赛道的核心产品。
 -   [[github-源码泄露事件-20260521]]：2026 年 5 月 GitHub 源码泄露事件。
+-   [[ai低质量pr危机]]：AI 生成低质量 PR 对开源社区的冲击。
+-   [[gentoo]]：因不满 GitHub 强推 AI 工具而迁移仓库的 Linux 发行版。
+-   [[codeberg]]：部分开源项目从 GitHub 迁移的替代托管平台。

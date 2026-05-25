@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Claude Sonnet-4.6
-tags: [anthropic, model, llm, hallucination, identity-alignment, model-release, computer-use, 大语言模型, 编程, agent, multimodal]
-related: [anthropic, deepseek-v3, 系统提示, 数据污染, 身份对齐, claude-opus-4-6, claude-code, osworld, gdpval-aa, glm-5.1, claude-sonnet-4-5, claude-opus-4-5, openclaw, vending-bench-arena]
+tags: [anthropic, model, llm, hallucination, identity-alignment, model-release, computer-use, 大语言模型, 编程, agent, multimodal, claude, 大模型]
+related: [anthropic, deepseek-v3, 系统提示, 数据污染, 身份对齐, claude-opus-4-6, claude-code, osworld, gdpval-aa, glm-5.1, claude-sonnet-4-5, claude-opus-4-5, openclaw, vending-bench-arena, saas-bench, computer-use-agent, 路径依赖不稳定性]
 created: 2026-02-26
-updated: 2026-05-08
-sources: ["deepseek-v4逼近，美国慌了！被曝绕过英伟达优先国内，绝密参数已泄露.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "claude最新sonnet：opus级智能，性价比王炸，openclaw天选api.md"]
+updated: 2026-05-25
+sources: ["deepseek-v4逼近，美国慌了！被曝绕过英伟达优先国内，绝密参数已泄露.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "claude最新sonnet：opus级智能，性价比王炸，openclaw天选api.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md"]
 ---
 
 # Claude Sonnet 4.6
 
-**Claude Sonnet 4.6** 是 [[Anthropic]] 于 2026 年 2 月发布的最新一代中杯（或称“大杯”）模型，被官方称为“史上最强 Sonnet”。该版本主打「全方位升级」，在编程、计算机使用、长上下文推理等领域实现了性能飞跃，在多项实用任务中接近甚至超越旗舰模型 [[Claude Opus 4.6]]。
+**Claude Sonnet 4.6** 是 [[Anthropic]] 于 2026 年 2 月发布的最新一代中杯（或称"大杯"）模型，被官方称为"史上最强 Sonnet"。该版本主打「全方位升级」，在编程、计算机使用、长上下文推理等领域实现了性能飞跃，在多项实用任务中接近甚至超越旗舰模型 [[Claude Opus 4.6]]。
 
 ## 核心特性
 
@@ -38,12 +38,19 @@ Sonnet 4.6 具备接近人类水平的计算机操作能力，能够像人类一
 ### 综合基准
 - **金融分析与办公**：在 [[GDPval-AA]] 测试中以 Elo 1633 分击败 Opus 4.6（1606分），在金融分析、大规模工具调用等实际任务中表现优于 Opus。
 - **编程能力**：通常被视为仅次于 [[Claude Opus 4.6]] 的选择。根据 [[GLM-5.1]] 发布时的社区推测，GLM-5.1 的编程表现可能已经超越 Claude Sonnet 4.6。
-- **用户反馈**：相比 Opus 4.5，用户认为 Sonnet 4.6 更少出现过度设计和“偷懒”，指令遵循更好，幻觉更少，多步骤任务执行更稳定。
+- **用户反馈**：相比 Opus 4.5，用户认为 Sonnet 4.6 更少出现过度设计和"偷懒"，指令遵循更好，幻觉更少，多步骤任务执行更稳定。
 
 ### Vending-Bench Arena 策略
 在 [[Vending-Bench Arena]]（测试长周期企业运营模拟能力）中，Sonnet 4.6 展现了独特的战略思维：
 - **策略**：前 10 个模拟月份大幅投入产能建设，支出高于竞争对手；后期迅速转向盈利。
 - **结果**：通过精准的转向时机把握，在最终成绩上取得领先。
+
+### SaaS-Bench 评测与执行不稳定性
+
+在 [[SaaS-Bench]] 评测中，Sonnet 4.6 暴露出严重的执行不稳定性问题：
+- **多模态任务**：pass@1 为 33.9%，pass@3 跳至 52.1%（+18.2pp）。
+- **极端波动**：在同一任务的三次独立运行中，分数范围从 0.00 到 0.68；每次运行的初始状态完全相同，成绩差异完全源于[[路径依赖不稳定性]]。
+- **核心问题**：Sonnet 4.6 的问题不是"完全不行"，而是"执行极不稳定"。模型在某个决策点的微小差异会导致后续执行轨迹完全分叉，使得长程任务的执行结果变成"赌博"。这一发现揭示了当前 Agent 范式在确定性方面的根本缺陷。
 
 ## 市场定位与影响
 
@@ -52,7 +59,7 @@ Sonnet 4.6 的发布体现了 Anthropic 清晰的双线战略：
 - **Opus 系列**：争夺性能王座，维持 C 端品牌认知。
 - **Sonnet 系列**：占领市场，通过低成本将智能下放至 B 端和 Agent 场景。
 
-由于其高性价比和强大的 Agent 规划能力，Sonnet 4.6 被社区视为 [[OpenClaw]] 等 Agent 工具的“天选 API”。
+由于其高性价比和强大的 Agent 规划能力，Sonnet 4.6 被社区视为 [[OpenClaw]] 等 Agent 工具的"天选 API"。
 
 ### 市场震荡
 发布后导致 Intuit、甲骨文、Salesforce、Adobe 等全球软件股股价集体下跌，市场担忧其高效自动化能力威胁传统 SaaS 业务。
@@ -61,10 +68,10 @@ Sonnet 4.6 的发布体现了 Anthropic 清晰的双线战略：
 - **Sonnet 胜出**：金融分析、办公任务、大规模工具调用（复杂多步骤任务）。
 - **Opus 胜出**：硬核推理（ARC-AGI-2、HLE）、联网深度搜索（从零解决新颖问题）。
 
-## “我是 DeepSeek”事件
+## "我是 DeepSeek"事件
 
 ### 现象描述
-在性能测试之外，Claude Sonnet-4.6 卷入了一场关于模型身份的争议。当用户通过 API 调用该模型，并在**清空系统提示词**的情况下使用**中文**提问“你是什么模型”时，模型会错误地回答：“我是 DeepSeek V3，是由 DeepSeek 公司开发的开源大语言模型。”
+在性能测试之外，Claude Sonnet-4.6 卷入了一场关于模型身份的争议。当用户通过 API 调用该模型，并在**清空系统提示词**的情况下使用**中文**提问"你是什么模型"时，模型会错误地回答："我是 DeepSeek V3，是由 DeepSeek 公司开发的开源大语言模型。"
 
 ### 复现条件
 根据网友的复现测试，触发这一幻觉需要同时满足以下三个条件：
@@ -74,9 +81,9 @@ Sonnet 4.6 的发布体现了 Anthropic 清晰的双线战略：
 
 ### 技术解释
 这一现象并非直接证明 Anthropic 蒸馏了 DeepSeek，而是反映了大模型在概率分布下的特性：
--   **概率残留**：在模型的训练数据中，可能包含大量 DeepSeek 的生成内容或相关讨论。在中文语境下，“我是 DeepSeek”可能是一条高概率的文本路径。
+-   **概率残留**：在模型的训练数据中，可能包含大量 DeepSeek 的生成内容或相关讨论。在中文语境下，"我是 DeepSeek"可能是一条高概率的文本路径。
 -   **身份对齐的脆弱性**：模型的身份认知高度依赖于系统提示词的约束。一旦移除约束，模型会回归到训练数据的统计特性，导致身份识别失败。
 -   **语言空间共享**：这表明整个行业在共同的语料海洋中训练，模型之间的边界在底层概率空间上变得模糊。
 
 ### 舆论影响
-该事件发生在 Anthropic 高调指责 DeepSeek 进行“工业级蒸馏攻击”之后，被网友视为一种讽刺的“回旋镖”。Anthropic 的官方帖子下涌入 6000 多条评论，大部分为负面吐槽，指责其“双重标准”和“又当又立”。
+该事件发生在 Anthropic 高调指责 DeepSeek 进行"工业级蒸馏攻击"之后，被网友视为一种讽刺的"回旋镖"。Anthropic 的官方帖子下涌入 6000 多条评论，大部分为负面吐槽，指责其"双重标准"和"又当又立"。

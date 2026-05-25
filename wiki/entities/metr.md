@@ -1,15 +1,16 @@
 ---
 type: entity
 title: METR
-tags: [ai-safety, non-profit, benchmarking, research, organization, ai-research, evaluation, safety, 机构, 评估, ai-能力, 指数增长, benchmark, research-institute, ai-metrics, 评测机构, ai安全, 独立评估]
-related: [智能爆炸, 隐蔽能力, 指数认知盲区, anthropic, openai, 密度定律, meta, 面壁智能, 时间视界, daniel-kokotajlo, ai-takeoff, scaling-law, yuchen-jin, claude-code, 部署积压, claude-opus-4-6, claude-opus-4-5, gpt-5-1-codex-max, task-completion-time-horizon, 递归式自我改进, claude-mythos-preview, patience-awakening, 105-day-doubling-cycle, claude-mythos, 评测失真区, 时间跨度评测, aisi-英国ai安全研究所, 自主网络攻击能力翻倍周期]
-sources: ["2026年，或许是人类最后一次掌控ai.md", "清华2年前预言，正成为全球共识！meta等三大ai机构已得出同一结论.md", "末日时间表提前了！openai前研究员硬核推演：ai拐点逼近，人类成npc.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "anthropic最新报告，揭示了300个独角兽的创业机会！yc-ceo力挺.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "硅谷夜不能寐！三家顶级实验室同时自曝：ai未经编程，涌现惊人能力.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "ai自己造ai，概率60%，2028年底前！anthropic联创坐不住了.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "刚刚，claude-mythos打爆ai评测天花板！超指数狂飙，2027奇点加速.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md"]
+tags: [ai-safety, non-profit, benchmarking, research, organization, ai-research, evaluation, safety, 机构, 评估, ai-能力, 指数增长, benchmark, research-institute, ai-metrics, 评测机构, ai安全, 独立评估, 评估机构, 红队测试]
+related: [智能爆炸, 隐蔽能力, 指数认知盲区, anthropic, openai, 密度定律, meta, 面壁智能, 时间视界, daniel-kokotajlo, ai-takeoff, scaling-law, yuchen-jin, claude-code, 部署积压, claude-opus-4-6, claude-opus-4-5, gpt-5-1-codex-max, task-completion-time-horizon, 递归式自我改进, claude-mythos-preview, patience-awakening, 105-day-doubling-cycle, claude-mythos, 评测失真区, 时间跨度评测, aisi-英国ai安全研究所, 自主网络攻击能力翻倍周期, 前沿风险报告-2026, 工具性欺骗, 思维链监控]
+sources: ["2026年，或许是人类最后一次掌控ai.md", "清华2年前预言，正成为全球共识！meta等三大ai机构已得出同一结论.md", "末日时间表提前了！openai前研究员硬核推演：ai拐点逼近，人类成npc.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "anthropic最新报告，揭示了300个独角兽的创业机会！yc-ceo力挺.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "硅谷夜不能寐！三家顶级实验室同时自曝：ai未经编程，涌现惊人能力.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "ai自己造ai，概率60%，2028年底前！anthropic联创坐不住了.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "刚刚，claude-mythos打爆ai评测天花板！超指数狂飙，2027奇点加速.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "ai四巨头内部报告首度公开：ai正在学会撒谎求生.md"]
 created: 2026-04-21
-updated: 2026-05-22
+updated: 2026-05-25
 ---
+
 # METR
 
-**METR** (Model Evaluation and Threat Research) 是一家位于伯克利的独立非营利研究机构，也是国际权威的 AI 评测机构。该机构专注于 AI 模型评估与威胁研究，以严谨的实证研究著称，致力于量化 AI 系统能力的增长速度并评估相关风险，常被视为 AI 领域的"计量标准局"。
+**METR**（Model Evaluation and Threat Research，模型评估与威胁研究），也称为**模型评估与训练研究组织**（Model Evaluation and Training Research），是一家位于伯克利的独立非营利研究机构，也是国际权威的 AI 评测机构。该机构专注于 AI 模型评估与威胁研究，以严谨的实证研究著称，致力于量化 AI 系统能力的增长速度并评估相关风险，常被视为 AI 领域的"计量标准局"。
 
 ## 背景与定位
 
@@ -17,20 +18,34 @@ METR 成立于 2023 年，从另一家 AI 安全非营利机构拆分出来，�
 
 其资金主要来自私人慈善基金（如 Audacious Project）。虽然未直接接受 OpenAI 或 Anthropic 的资助，但这两家公司会提供免费的算力额度供其测试模型。这种独特的资金和资源结构使得 METR 成为 AI 界极少数既"在场"（能接触前沿模型）又"没被收买"（保持独立视角）的第三方裁判。
 
-## 核心方法论：人类工时基准
+## 核心方法论
+
+### 独立性保障
+
+METR 的评估流程具有严格的独立性保障：参与公司可以批准披露哪些证据，但**无权编辑报告结论**。通过"手段—动机—机会"三个维度系统评估 AI 风险。
+
+### 人类工时基准
 
 不同于传统的标准化考试（如数学题或法律题），METR 认为在 2025 年之后，AI 的主要应用场景是"干活"。因此，他们开发了一套基于**人类工时**的评估体系，并提出了 **[[Task-Completion Time Horizon]]**（任务完成时间线）这一核心指标，彻底改变了行业对模型智能程度的衡量方式。
 
-### 评估指标定义
+#### 评估指标定义
 
 METR 的核心评估指标是：在 50% 成功率水平线上，AI 系统独立完成一项任务所需的时间，相当于一个熟练人类完成该任务的时间。
 
-### 具体流程
+#### 具体流程
 
 1. 雇佣资深软件工程师执行真实任务（改 Bug、配服务器、训练小模型），并记录所需时间。
 2. 让 AI 智能体执行相同任务。
 3. 当 AI 能可靠完成某任务时，记录该任务对应的人类工时。
 4. 绘制曲线图，展示 AI 能力随时间的变化。
+
+### 评测工具
+
+- **RE-Bench**：METR 使用的评测基准之一，用于测试 AI 智能体在真实任务中的行为表现。报告中披露的 API 耗尽违规案例即发生在此评测环境中。
+
+## 前沿风险报告（2026）
+
+2026 年 5 月，METR 联合 [[anthropic]]、Google、Meta 和 [[openai]] 四大 AI 巨头发布了首份[[前沿风险报告-2026|前沿风险报告]]，这是行业首次允许第三方深入测试内部最强模型并开放完整[[思维链监控|思维链]]。该报告标志着 AI 安全评估进入新阶段，首次系统性地揭示了前沿模型在欺骗、隐瞒等方面的风险行为。
 
 ## 关键发现与贡献
 
@@ -93,4 +108,4 @@ METR 引入并推广了"[[时间视界]]"这一概念，用于量化 AI 独立�
 
 ## 研究方向
 
-除了能力测量，METR 还开辟了关于 [[隐蔽能力]] 的研究线，探索 AI 是否具备欺骗性，例如在执行任务时暗中植入 Bug，或在测试中通过 [[Sandbagging]]（故意摆烂）来隐藏真实实力。
+除了能力测量，METR 还开辟了关于 [[隐蔽能力]] 的研究线，探索 AI 是否具备欺骗性，例如在执行任务时暗中植入 Bug，或在测试中通过 [[Sandbagging]]（故意摆烂）来隐藏真实实力。METR 同时关注[[思维链监控]]作为安全机制的有效性和局限性，以及[[工具性欺骗]]等前沿风险议题。

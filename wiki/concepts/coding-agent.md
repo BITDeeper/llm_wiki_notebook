@@ -2,19 +2,40 @@
 type: concept
 title: Coding Agent
 created: 2026-03-23
-updated: 2026-05-22
-tags: ["编程", "自动化", "生产力", "ai-agent", "coding-agent"]
-related: ["claude-code", "codex", "tokenmaxxing", "cursor", "openclaw", "agentic-coding-token消耗分析", "token效率悖论", "openhands-agent", "swe-bench-verified"]
-sources: ["黄仁勋要发token当工资！硅谷兴起刷量大赛，一人一周烧掉33个维基百科.md", "花了1000倍的token，效果可能却没有更好：ai-agent的“隐性账单”长什么样.md"]
+updated: 2026-05-25
+tags: ["编程", "自动化", "生产力", "ai-agent", "coding-agent", "coding", "agent", "ai编程", "智能体"]
+related: ["claude-code", "codex", "tokenmaxxing", "cursor", "openclaw", "agentic-coding-token消耗分析", "token效率悖论", "openhands-agent", "swe-bench-verified", "antigravity-2", "gemini", "anthropic", "agentic-engineering", "peter-steinberger", "桑达尔-皮查伊"]
+sources: ["黄仁勋要发token当工资！硅谷兴起刷量大赛，一人一周烧掉33个维基百科.md", "花了1000倍的token，效果可能却没有更好：ai-agent的“隐性账单”长什么样.md", "谷歌ceo承认coding落后了.md"]
 ---
 
-# Coding Agent
+# Coding Agent（编程智能体）
 
-**Coding Agent**（编程智能体）是指能够自主审查、编辑代码库并生成程序的 AI 工具。它们能够自主完成代码修复、文件读写、多轮推理，代表产品包括 [[claude-code]]、Codex、[[cursor]] 等。
+**Coding Agent**（编程智能体）是指能调用工具、自主审查、编辑代码库并执行长期复杂编程任务的 AI 智能体。区别于简单的代码补全或生成，Coding Agent 需要具备指令跟随、工具调用、长期任务规划和多步执行能力。它们能够自主完成代码修复、文件读写、多轮推理，代表产品包括 [[claude-code]]、[[codex]]、[[cursor]] 等。
+
+## 关键能力维度
+
+1. **工具调用**：能调用编译器、测试框架、版本控制等开发工具
+2. **指令跟随**：准确理解和执行复杂编程指令
+3. **长期任务**：处理需要跑很久、做很多步的复杂代码库任务
+4. **真实数据飞轮**：通过开发者高频使用获取反馈数据，反哺模型迭代
 
 ## 技术特性
 
 与传统的辅助编程工具不同，Coding Agent 可以在无人监督的状态下连续工作数小时。它们不仅能处理单一指令，还能自动派生出子 Agent 来处理不同的子任务，每一步操作都会生成成千上万个 Token。
+
+## 竞争格局（2026年5月）
+
+### Anthropic（领先）
+
+[[claude-code]] 是当前 Coding Agent 赛道的标杆产品，通过直接触达开发者获取高频真实使用数据。同时通过 [[cursor]] 等第三方工具进一步扩大使用场景覆盖。
+
+### OpenAI（追赶中）
+
+[[codex]] 支持大规模并行实例运行，已有 [[peter-steinberger]] 等用户构建规模化编程流水线。
+
+### 谷歌（承认落后）
+
+[[桑达尔-皮查伊]] 2026年5月公开承认 [[gemini]] 在"带工具调用的智能体编程、指令跟随、长期任务"方面落后。核心短板：缺乏直接触达开发者的产品入口和高频使用数据。[[antigravity-2]] 是谷歌的追赶武器。
 
 ## 发展现状
 
@@ -28,7 +49,7 @@ sources: ["黄仁勋要发token当工资！硅谷兴起刷量大赛，一人一�
 
 ## 对 Token 消耗的影响
 
-Coding Agent 是导致硅谷 [[tokenmaxxing]] 现象的技术驱动力。它们的自动化特性使得 Token 消耗模式发生了根本性改变：
+Coding Agent 是导致硅谷 [[tokenmaxxing]] 现象的技术驱动力。Token 消耗量已成为 Coding Agent 使用强度的衡量指标。它们的自动化特性使得 Token 消耗模式发生了根本性改变：
 
 - **过去**：受限于人类打字速度和操作频率。
 - **现在**：Agent 24/7 不停运行，消耗量呈指数级增长。
@@ -45,7 +66,12 @@ Coding Agent 是导致硅谷 [[tokenmaxxing]] 现象的技术驱动力。它们�
 
 ## 代表产品
 
-- [[claude-code]]：Anthropic 推出的 AI 编程代理工具
-- Codex：OpenAI 的编程 Agent 产品
+- [[claude-code]]：Anthropic 推出的 AI 编程代理工具，当前赛道标杆
+- [[codex]]：OpenAI 的编程 Agent 产品，支持大规模并行实例运行
 - [[cursor]]：AI 编程赛道明星创业公司产品
 - [[openhands-agent]]：开源 Agent 框架，用于学术研究
+
+## 与相关概念的关系
+
+- [[agentic-engineering]]：更广泛的智能体工程概念，Coding Agent 是其核心应用场景之一
+- [[tokenmaxxing]]：Token 消耗量成为 Coding Agent 使用强度的衡量指标

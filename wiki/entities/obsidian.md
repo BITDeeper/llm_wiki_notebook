@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Obsidian
-tags: [工具, 知识管理, markdown, 笔记软件, knowledge-management, note-taking]
-related: [andrej-karpathy, 自维护知识库, obsidian-web-clipper, openclaw, clawhub, 个人知识库自动化, 卡帕西式知识库, openhuman]
-sources: ["卡帕西解锁大模型新玩法！构建个人知识库，“大部分token已经不跑代码了”.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "虾马之后又火一个！openhuman用20分钟了解你的一切，存成卡帕西式知识库.md"]
+tags: [工具, 知识管理, markdown, 笔记软件, knowledge-management, note-taking, 笔记]
+related: [andrej-karpathy, 自维护知识库, obsidian-web-clipper, openclaw, clawhub, 个人知识库自动化, 卡帕西式知识库, openhuman, jason-liu, codex-maxxing, 本地文件记忆]
+sources: ["卡帕西解锁大模型新玩法！构建个人知识库，“大部分token已经不跑代码了”.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "虾马之后又火一个！openhuman用20分钟了解你的一切，存成卡帕西式知识库.md", "openai大神教你如何榨干codex.md"]
 created: 2026-04-03
-updated: 2026-05-22
+updated: 2026-05-25
 ---
 
 # Obsidian
@@ -31,6 +31,12 @@ updated: 2026-05-22
 ### OpenHuman 记忆树
 
 [[openhuman]] 的 [[记忆树]] 数据同步生成兼容 Obsidian 的 .md 文件，用户可直接用 Obsidian 浏览和编辑 Agent 的"记忆"。
+
+### Codex-maxxing 外部记忆
+
+在 [[jason-liu]] 的 [[codex-maxxing]] 方法论中，Obsidian vault 被用作 [[codex]] 的外部记忆基础设施。Jason 将 Obsidian vault 作为所有长期线程的起点，目录划分为 TODO、people、projects、agent、notes 等板块。在顶层 AGENTS.md 中写明规则：人员信息更新、项目推进、待办办结等变动，都要同步更新知识库对应内容。
+
+这一设计体现了[[本地文件记忆]]的理念——核心工作记忆不应托管在平台内部，本地文件系统是最可靠的记忆基础设施，既能随时查阅手动修改，也能通过版本对比查看变动，出现问题还能一键回滚。
 
 ## 与 AI 的深度结合
 

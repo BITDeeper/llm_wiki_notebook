@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Kimi K2.5
-tags: ["大模型", "开源", "moonshot-ai", "moe", "编程", "llm", "open-source", "china-ai", "moonshot", "开源模型", "基座模型", "月之暗面", "open-source-model", "base-model", "多模态", "智能体集群", "ai产品", "付费化", "ai模型"]
-related: ["cursor", "deepseek", "qwen", "glm-5-1", "杨植麟", "composer-2", "注意力残差", "agent集群", "yue-zhi-an-mian", "tokenizer-指纹", "kimi-k2-5", "智能体集群", "coding-plan", "composer-2-5", "ai付费化", "2026年中国ai应用全景图谱报告发布", "基模后训练范式"]
+tags: ["大模型", "开源", "moonshot-ai", "moe", "编程", "llm", "open-source", "china-ai", "moonshot", "开源模型", "基座模型", "月之暗面", "open-source-model", "base-model", "多模态", "智能体集群", "ai产品", "付费化", "ai模型", "model", "kimi", "computer-use"]
+related: ["cursor", "deepseek", "qwen", "glm-5-1", "杨植麟", "composer-2", "注意力残差", "agent集群", "yue-zhi-an-mian", "tokenizer-指纹", "kimi-k2-5", "智能体集群", "coding-plan", "composer-2-5", "ai付费化", "2026年中国ai应用全景图谱报告发布", "基模后训练范式", "saas-bench", "computer-use-agent"]
 created: 2026-03-27
-updated: 2026-05-22
-sources: ["硅谷500亿巨头翻车现场！cursor被扒套壳kimi，中国开源上大分.md", "lecun点赞：国产开源模型占领硅谷，性价比超10倍.md", "cursor滑跪开源技术报告：kimi基模这样微调能干翻claude.md", "cursor套壳kimi败露，最强「自研」模型被锤！创始人：忘记署名了.md", "马年4大顶流模型会师阿里云coding-plan开工！token量大管饱，自由切换真香.md", "编程新王composer-2.5来了，逼近opus-4.7！成本仅为110.md", "2026年中国ai应用全景图谱报告发布.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md"]
+updated: 2026-05-25
+sources: ["硅谷500亿巨头翻车现场！cursor被扒套壳kimi，中国开源上大分.md", "lecun点赞：国产开源模型占领硅谷，性价比超10倍.md", "cursor滑跪开源技术报告：kimi基模这样微调能干翻claude.md", "cursor套壳kimi败露，最强「自研」模型被锤！创始人：忘记署名了.md", "马年4大顶流模型会师阿里云coding-plan开工！token量大管饱，自由切换真香.md", "编程新王composer-2.5来了，逼近opus-4.7！成本仅为110.md", "2026年中国ai应用全景图谱报告发布.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md"]
 ---
 
 # Kimi K2.5
@@ -53,6 +53,17 @@ Cursor 的体量远超此门槛，但初期未进行署名，引发了违约指�
 ### 行业基准
 
 - 已成为全球芯片厂商测试硬件性能的基准模型之一，被广泛用于学术研究。
+
+## 评测表现
+
+### SaaS-Bench 评测
+
+Kimi K2.5 参与了 [[saas-bench|SaaS-Bench]] 评测，在该基准测试中的表现如下：
+
+- **完全通过分数（Resolved Score）**：0%
+- 在 106 个真实办公任务中，没有一个任务能够完整走完全部检查点
+
+Kimi K2.5 在 SaaS-Bench 上的零通过率表明，该模型在长程、跨应用的真实业务流程执行（[[computer-use]]）方面仍存在根本性能力缺口。
 
 ## 战略意义
 

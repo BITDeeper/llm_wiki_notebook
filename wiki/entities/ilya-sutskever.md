@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Ilya Sutskever (伊尔亚·苏茨克维)
-tags: ["ai-research", "safety", "openai-alumni", "人物", "openai", "首席科学家", "安全", "person", "ai-researcher", "深度学习", "联合创始人", "co-founder", "people", "researcher", "scaling-law", "预训练", "ai-safety", "deep-learning", "科学家", "ai-安全", "alignment", "AI研究员", "股权"]
-related: ["openai", "sam-altman", "信任塌陷", "superalignment", "jan-leike", "dario-amodei", "openai-governance-crisis", "scaling-law", "ai-takeoff", "jakub-pachocki", "智力嫉妒", "openai-宫斗事件", "geoffrey-hinton", "alexey-kurakin", "safe-superintelligence", "openai-人才流失", "jerry-tworek", "商业化-vs-理想主义", "预训练瓶颈", "agi", "ai-safety-hollowing-out", "superalignment-team", "head-of-preparedness", "分布式心智", "技术共生", "google-deepmind", "greg-brockman", "google-brain", "the-blip", "verifiable-chain-of-thought", "outcome-oriented-security-framework", "openai世纪诉讼判决-20260518", "openai股权结构"]
+tags: ["ai-research", "safety", "openai-alumni", "人物", "openai", "首席科学家", "安全", "person", "ai-researcher", "深度学习", "联合创始人", "co-founder", "people", "researcher", "scaling-law", "预训练", "ai-safety", "deep-learning", "科学家", "ai-安全", "alignment", "AI研究员", "股权", "openai创始成员", "精神领袖"]
+related: ["openai", "sam-altman", "信任塌陷", "superalignment", "jan-leike", "dario-amodei", "openai-governance-crisis", "scaling-law", "ai-takeoff", "jakub-pachocki", "智力嫉妒", "openai-宫斗事件", "geoffrey-hinton", "alexey-kurakin", "safe-superintelligence", "openai-人才流失", "jerry-tworek", "商业化-vs-理想主义", "预训练瓶颈", "agi", "ai-safety-hollowing-out", "superalignment-team", "head-of-preparedness", "分布式心智", "技术共生", "google-deepmind", "greg-brockman", "google-brain", "the-blip", "verifiable-chain-of-thought", "outcome-oriented-security-framework", "openai世纪诉讼判决-20260518", "openai股权结构", "safe-superintelligence-inc", "feel-the-agi", "die-shot"]
 created: 2026-04-12
-updated: 2026-05-22
-sources: ["奥特曼被投掷燃烧瓶，点燃了ai圈最深层的恐惧.md", "普利策得主万字起底奥特曼，anthropic-ceo：openai问题就在他身上.md", "anthropic史上最大训练曝光，ilya错了？ceo哀嚎：创业公司将被毁灭.md", "忍无可忍，ilya宫斗奥特曼！微软cto爆内幕：全因嫉妒下属太优秀？.md", "普利策得主万字起底奥特曼，anthropic-ceo：openai问题在于他身上.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "推理之父走了！openai七年元老离职：有些研究这里没法做.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远？.md", "ilya闹翻，奥特曼400万年薪急招「末日主管」！上岗即「地狱模式」.md", "nature重磅：智能的尽头是算力！谷歌大佬承认「预测下一个词即智能」.md", "堪比纪录片！openai总裁讲述72小时内讧始末.md", "ilya曝光70页openai绝密文件.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远走？.md", "龙虾安全被3层硬核架构焊死了！一份面向开发者的硬核生存指南.md", "openai世纪诉讼，马斯克输了！.md", "原来ilya还有70亿美元openai股权.md", "nature重磅：智能的尽头是算力！谷歌大佬承认「预测下一个词即智能』.md"]
+updated: 2026-05-25
+sources: ["奥特曼被投掷燃烧瓶，点燃了ai圈最深层的恐惧.md", "普利策得主万字起底奥特曼，anthropic-ceo：openai问题就在他身上.md", "anthropic史上最大训练曝光，ilya错了？ceo哀嚎：创业公司将被毁灭.md", "忍无可忍，ilya宫斗奥特曼！微软cto爆内幕：全因嫉妒下属太优秀？.md", "普利策得主万字起底奥特曼，anthropic-ceo：openai问题在于他身上.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "推理之父走了！openai七年元老离职：有些研究这里没法做.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远？.md", "ilya闹翻，奥特曼400万年薪急招「末日主管」！上岗即「地狱模式」.md", "nature重磅：智能的尽头是算力！谷歌大佬承认「预测下一个词即智能」.md", "堪比纪录片！openai总裁讲述72小时内讧始末.md", "ilya曝光70页openai绝密文件.md", "ilya警告、lecun冷嘲、奥特曼沉默：scaling-law时代还能走多远走？.md", "龙虾安全被3层硬核架构焊死了！一份面向开发者的硬核生存指南.md", "openai世纪诉讼，马斯克输了！.md", "原来ilya还有70亿美元openai股权.md", "nature重磅：智能的尽头是算力！谷歌大佬承认「预测下一个词即智能』.md", "刚刚，ilya又发神图「思考者」！ai芯片海洋上在想啥？.md"]
 ---
 
 # Ilya Sutskever (伊尔亚·苏茨克维)
 
-[[ilya-sutskever]] 是人工智能领域的顶尖科学家，[[OpenAI]] 的联合创始人及前首席科学家。作为深度学习领域的先驱，他不仅是 GPT-4 等核心模型的技术领导者，也是 [[OpenAI]] 内部 AI 安全研究（特别是 [[superalignment]]）的主要推动者。他因在 2023 年主导解雇 [[sam-altman]] 的行动（即 [[the-blip]]）而闻名业界。
+[[ilya-sutskever]] 是人工智能领域最具影响力的研究者之一，被称为"AI圈最神秘的精神领袖"。他是 [[OpenAI]] 的联合创始人及前首席科学家，深度学习领域的先驱，GPT-4 等核心模型的技术领导者，也是 [[OpenAI]] 内部 AI 安全研究（特别是 [[superalignment]]）的主要推动者。他因在 2023 年主导解雇 [[sam-altman]] 的行动（即 [[the-blip]]）而闻名业界。现创办 AI 安全公司 [[safe-superintelligence]] (SSI)。
 
 ## 职业轨迹与早期经历
 
@@ -20,8 +20,11 @@ sources: ["奥特曼被投掷燃烧瓶，点燃了ai圈最深层的恐惧.md", "
 ### 技术贡献
 Sutskever 在 OpenAI 的技术路线图中起到了决定性作用，特别是在强化学习和无监督学习领域。他主导了 [[GPT]] 系列模型的研究方向，是"情感神经元"等关键发现背后的核心推手，并长期担任首席科学家，领导了 GPT-4 等核心模型的开发。
 
+### Logo 设计者
+OpenAI 沿用多年的三朵花 Logo 最初是 Ilya 在走廊墙上随手涂鸦的草稿，这一细节也体现了他对公司文化和技术美学的深远影响。
+
 ### 离职与创业
-2023 年底卷入董事会政变后，他于 2024 年离开 [[OpenAI]]。[[Greg Brockman]] 曾表示，Ilya 的离开是 OpenAI 历史上最艰难的时刻之一，甚至让他一度产生放弃的念头。随后，Ilya 创办了新的 AI 安全公司 [[safe-superintelligence]] (SSI)。
+2023 年底卷入董事会政变后，他于 2024 年离开 [[OpenAI]]。[[Greg Brockman]] 曾表示，Ilya 的离开是 OpenAI 历史上最艰难的时刻之一，甚至让他一度产生放弃的念头。随后，Ilya 创办了新的 AI 安全公司 [[safe-superintelligence]] (SSI)，专注于安全超级智能研究。
 
 ## 股权持有与财务状况
 
@@ -83,6 +86,16 @@ Sutskever 对 [[sam-altman]] 的不信任是导致 2023 年 [[信任塌陷]] 及
 
 在 [[openai世纪诉讼判决-20260518|OpenAI世纪诉讼]] 中，作为前 OpenAI 核心成员，Sutskever 向法庭提交了长达 **52 页**的证据材料，并作为当庭证人出庭作证。其证词意外揭露了 OpenAI 内部的巨额股权分配格局，成为庭审中最受关注的信息披露之一。这些证据成为庭审中揭露 OpenAI 内部治理问题的重要组成部分，虽然具体内容因诉讼被程序性驳回而未进入实质性审理。
 
+## 2026年"思考者"图片事件
+
+2026年5月25日，Ilya 在 Instagram 上传一幅画：罗丹的"思考者"立于 [[die-shot]]（芯片显微剖面图）构成的悬崖边缘，签名"IS 2026"。图片引发全网解读：
+
+- **解读一**：他在寻找某种"神圣感"，暗示对 [[scaling-law]] 的信仰——算力堆叠终将通向智能。
+- **解读二**：这是对"堆算力就能堆出智能"的无声嘲讽，暗示范式跃迁的必要性。
+- **深层含义**：Ilya 押注的不是某个功能，而是一种根本性的智能范式转变。
+
+这一事件再次印证了他的"精神领袖"地位——即使是一张图片，都能引发行业级别的讨论和解读。两种对立解读的并存，也反映了行业内部关于 AGI 路径的根本分歧。
+
 ## 象征意义与文化冲突
 
 Sutskever 的离职被视为 OpenAI 从"理想主义研究圣地"转向"商业化机器"的转折点之一。他与 [[jan-leike]]、[[jerry-tworek]] 等核心元老的离开，标志着公司内部"安全优先"派系的失势。这种转变反映了 [[商业化-vs-理想主义]] 的深层文化冲突，即部分研究人员认为在 OpenAI 现有的商业化压力下，某些关键的安全研究已"没法做"。
@@ -91,6 +104,11 @@ Sutskever 的离职被视为 OpenAI 从"理想主义研究圣地"转向"商业�
 2024 年 5 月，随着 [[OpenAI]] 宣布解散超级对齐团队，Ilya 的离开被正式视为公司安全文化转折点的标志性事件。
 *   **[[ai-safety-hollowing-out]]**：他的离职，连同共同负责人 [[Jan Leike]] 的尖锐批评（指责公司"重产品轻安全"），引发了外界对 OpenAI 是否放弃长期安全承诺的广泛质疑，导致公司核心安全研究力量大幅削弱。
 *   **战略转向**：Ilya 的离职使得 OpenAI 的安全战略重心从长期的"对齐"研究转向了更短期的"准备工作"（Preparedness），这也促使 CEO [[Sam Altman]] 后来高薪招募"[[head-of-preparedness]]"来填补安全防线的空缺。
+
+## 开放问题
+
+- SSI 目前技术进展如何？"思考者"图片是否暗示其研究方向？
+- 他对 [[scaling-law]] 的真实立场是什么？图片的两种对立解读反映了行业内的根本分歧。
 
 ## 相关条目
 *   [[dario-amodei]]：另一位独立得出 Altman 是问题根源结论的前高管。
@@ -111,3 +129,6 @@ Sutskever 的离职被视为 OpenAI 从"理想主义研究圣地"转向"商业�
 *   [[形式化验证的目标约束]]：受其安全思想启发的技术方案。
 *   [[openai世纪诉讼判决-20260518]]：Ilya 在该诉讼中提交了 52 页证据材料并出庭作证。
 *   [[openai股权结构]]：其股权增值直接反映了 OpenAI 估值增长。
+*   [[safe-superintelligence-inc]]：Ilya 离职后创办的 AI 安全公司。
+*   [[feel-the-agi]]：OpenAI 办公区著名标语，最初由 Ilya 提出用于警告 AGI 风险。
+*   [[die-shot]]：与 2026 年"思考者"图片事件相关的芯片显微剖面图。

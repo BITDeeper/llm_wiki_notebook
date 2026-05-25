@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Gemini 3.1 Pro
-tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning]
-related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front"]
-sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md"]
+tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use]
+related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent"]
+sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md"]
 created: 2026-04-30
-updated: 2026-05-08
+updated: 2026-05-25
 ---
 
 # Gemini 3.1 Pro
 
-[[Gemini 3.1 Pro]] 是由 [[google-deepmind]] 于 2026 年 2 月 20 日发布的大语言模型，作为 [[Gemini]] 3 Pro 的继任者。这是谷歌首次在模型命名中采用“.1”版本号，标志着模型迭代速度的加快。它不仅是企业级 AI 工作流的关键底座，也是驱动 Deep Research 和 Deep Research Max 两款研究智能体的核心引擎。
+[[Gemini 3.1 Pro]] 是由 [[google-deepmind]] 于 2026 年 2 月 20 日发布的大语言模型，作为 [[Gemini]] 3 Pro 的继任者。这是谷歌首次在模型命名中采用".1"版本号，标志着模型迭代速度的加快。它不仅是企业级 AI 工作流的关键底座，也是驱动 Deep Research 和 Deep Research Max 两款研究智能体的核心引擎。
 
 ## 核心特性
 
@@ -40,7 +40,7 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 ## 性能基准
 
 ### 对比竞争对手
-在 [[GPT-5.4]] 发布前，Gemini 3.1 Pro 曾被视为强有力的竞争者，并在多项关键指标上实现了对当时顶级模型（如 [[Claude Opus 4.6]] 和 [[GPT-5.2]]）的“断层领先”。然而，随着 GPT-5.4 的推出，Gemini 3.1 Pro 在计算机操控和综合办公能力方面的相对劣势逐渐显现。
+在 [[GPT-5.4]] 发布前，Gemini 3.1 Pro 曾被视为强有力的竞争者，并在多项关键指标上实现了对当时顶级模型（如 [[Claude Opus 4.6]] 和 [[GPT-5.2]]）的"断层领先"。然而，随着 GPT-5.4 的推出，Gemini 3.1 Pro 在计算机操控和综合办公能力方面的相对劣势逐渐显现。
 
 在与 [[Qwen3.5-Omni]] 的实测对比中，Qwen3.5-Omni 在通用音频理解、推理、识别、翻译和对话方面超越了 Gemini 3.1 Pro，而在音视频理解能力方面总体达到 Gemini 3.1 Pro 水平。
 
@@ -56,6 +56,9 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 在 [[ProgramBench]] 测试中，Gemini 3.1 Pro 的平均通过率为 **36.6%**。分析显示其代码生成具有以下特征：
 - **观察者模式**：使用了最多的 API 调用（94 次），其中 34.1% 的操作都在运行原版程序、观察输入输出行为。
 - **函数长度**：生成的函数平均比人类长 62%，显示出逻辑堆砌而非模块化设计的倾向。
+
+### SaaS-Bench 评测（Computer-Use 场景）
+在 [[saas-bench|SaaS-Bench]] 评测中，Gemini 3.1 Pro 的完全通过分数（Resolved Score）为 **0%**——在 106 个真实办公任务中，没有一个任务能够完整走完全部检查点。这一结果补充了其在 [[computer-use-agent|Computer-Use Agent]] 场景中的能力画像，表明当前模型在真实 GUI 操作场景中仍面临巨大挑战。与 [[Gemini]] 在编程能力上追赶 [[claude-code|Claude Code]] 的叙事形成对比——编程场景的进展并未迁移到通用办公场景。
 
 ### 应用场景表现
 在 Gemini 3.1 Pro 的驱动下，Deep Research Max 在 DeepSearchQA 基准测试中取得了 93.3% 的历史最高分，展示了其在长链推理和信息综合方面的强大能力。

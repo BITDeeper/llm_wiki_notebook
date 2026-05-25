@@ -1,12 +1,15 @@
 ---
 type: entity
 title: Project Glasswing
-tags: [anthropic, alliance, cybersecurity, ecosystem, initiative, critical-infrastructure, safety, access-control, defense, ai-safety, gated-access, 安全倡议, 生存指南, 零信任, defense-project, consortium, security, information-sharing, cyber-security, organization, geopolitics, coalition, defensive-security, program, vulnerability-discovery, research-program, ai, 内测, 平台, ai安全, 联盟, 项目, ai模型, 网络安全, 跨企业联盟, 漏洞修补]
-related: ["claude-mythos", "gpt-5-dot-4-cyber", "anthropic", "mythos", "部署安全", "零日漏洞自动化", "零日漏洞", "claude-opus-4-7", "claude-mythos-preview", "能力分层与分级访问", "零信任架构", "rust", "内存安全", "jerome-powell", "scott-bessent", "ai-网络攻防", "360集团", "数字地缘安全", "amazon", "google", "microsoft", "技术余晖", "ai安全漏洞挖掘", "openbsd", "openai", "logan-graham", "ai网络安全攻防竞赛", "ai辅助零日攻击首次实锤-20260512"]
+tags: [anthropic, alliance, cybersecurity, ecosystem, initiative, critical-infrastructure, safety, access-control, defense, ai-safety, gated-access, 安全倡议, 生存指南, 零信任, defense-project, consortium, security, information-sharing, cyber-security, organization, geopolitics, coalition, defensive-security, program, vulnerability-discovery, research-program, ai, 内测, 平台, ai安全, 联盟, 项目, ai模型, 网络安全, 跨企业联盟, 漏洞修补, 安全, 漏洞扫描, 行动计划]
+related: ["claude-mythos", "gpt-5-dot-4-cyber", "anthropic", "mythos", "部署安全", "零日漏洞自动化", "零日漏洞", "claude-opus-4-7", "claude-mythos-preview", "能力分层与分级访问", "零信任架构", "rust", "内存安全", "jerome-powell", "scott-bessent", "ai-网络攻防", "360集团", "数字地缘安全", "amazon", "google", "microsoft", "技术余晖", "ai安全漏洞挖掘", "openbsd", "openai", "logan-graham", "ai网络安全攻防竞赛", "ai辅助零日攻击首次实锤-20260512", "claude-security", "cloudflare", "wolfssl"]
 created: 2026-04-15
-updated: 2026-05-22
-sources: ["openai突然封锁最强gpt-5.4！3000个致命bug瞬间蒸发.md", "anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "「外星科技」mythos-带来重大国家风险，白宫顶着禁令也要部署了.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "openai也开始恐惧自己训练出的新模型了.md", "anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-mythos官宣！性能碾压opus-4.6贵5倍，因太危险遭「囚禁」.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用了.md", "1个月干完15个月！claude-mythos猎杀271个漏洞，有的藏了20年.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md"]
+updated: 2026-05-25
+sources: ["openai突然封锁最强gpt-5.4！3000个致命bug瞬间蒸发.md", "anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "「外星科技」mythos-带来重大国家风险，白宫顶着禁令也要部署了.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "openai也开始恐惧自己训练出的新模型了.md", "anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-mythos官宣！性能碾压opus-4.6贵5倍，因太危险遭「囚禁」.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用了.md", "1个月干完15个月！claude-mythos猎杀271个漏洞，有的藏了20年.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md"]
 origin_date: 2026-04-01
+time_span:
+  start: 2026-04-01
+  end: null
 ---
 
 # Project Glasswing（玻璃翼计划）
@@ -15,7 +18,9 @@ origin_date: 2026-04-01
 **负责人**：[[Logan Graham]]
 **官方链接**：https://www.anthropic.com/glasswing
 
-[[Project Glasswing]]（玻璃翼计划）是由 [[Anthropic]] 牵头组建的跨企业网络安全联盟，在发布 [[Claude Mythos Preview]] 时同步推出，联合亚马逊、苹果、谷歌、微软、英伟达、思科等 40 多家科技巨头及关键基础设施机构共同发起。该项目同时也是 Mythos 模型上线部署的内部项目代号，约 2026 年 5 月 13 日上线，Mythos 的生产版本随该项目部署至 Claude APP。AISI 评测所用的 Mythos checkpoint 即为该项目的生产版本。
+[[Project Glasswing]]（玻璃翼计划）是由 [[Anthropic]] 于 2026 年 4 月秘密启动的全球软件安全扫描行动，名称寓意为希望世界上最重要的闭源和开源软件变得"透明且安全"。该项目在发布 [[Claude Mythos Preview]] 时同步推出，联合亚马逊、苹果、谷歌、微软、英伟达、思科等约 50 家科技巨头及关键基础设施机构共同发起。
+
+该项目同时也是 Mythos 模型上线部署的内部项目代号，约 2026 年 5 月 13 日上线，Mythos 的生产版本随该项目部署至 Claude APP。AISI 评测所用的 Mythos checkpoint 即为该项目的生产版本。
 
 该项目是 [[Mythos]] 模型**唯一的对外提供渠道**，通过该联盟向少数经过筛选的公司定向开放 Mythos 的使用权限，而非公开发布。其旨在有限度地共享 [[claude-mythos]] 模型的能力，利用 AI 技术提升网络生态系统的整体安全性，被定义为"用前沿 AI 保护全球最关键的软件"。
 
@@ -25,6 +30,24 @@ origin_date: 2026-04-01
 
 Mythos 在安全领域的能力强大到 Anthropic 选择不公开发布，仅通过 Project Glasswing 进行受控分发。Mythos 在主流操作系统中发现了数千个零日漏洞，其中许多已存在数十年。Project Glasswing 的成立是对这一发现的紧急响应——在 AI 驱动的攻击能力爆发之前，先加固关键基础设施。这体现了 Anthropic 对高能力安全 AI 模型双重用途风险的审慎态度。
 
+## 行动规模
+
+- 联合全球约 **50 家** 网络巨头和关键基础设施软件开发方
+- 使用 [[Claude Mythos Preview]] 模型进行自动化安全扫描
+- 首月即发现超过 **10,000 个** 高危或严重级别漏洞
+
+## 首月战报（2026 年 4 月—5 月）
+
+| 指标 | 数据 |
+|------|------|
+| 扫描核心开源项目 | 1,000+ |
+| 发现漏洞总数 | 23,019 |
+| 高危/严重漏洞 | 6,202 |
+| 独立复核确认高危/严重 | 1,094 |
+| 提交给开源维护者 | 1,129 |
+| 已打补丁 | 75 |
+| 真阳性准确率 | 90.6% |
+
 ## 核心成果
 
 Project Glasswing 启动后迅速产出惊人成果：
@@ -32,6 +55,10 @@ Project Glasswing 启动后迅速产出惊人成果：
 - **大规模漏洞猎杀**：[[Claude Mythos|Mythos]] 已在**每一个主流操作系统和浏览器**中发现数千个高危漏洞，仅一个月内就猎杀了 **271 个漏洞**，相当于传统团队 15 个月的工作量。
 - **历史性发现**：发现了一个在 [[OpenBSD]] 中潜伏 **27 年**的漏洞，部分被发现的漏洞已隐藏长达 20 年之久。
 - **防御性先手**：随着 AI 在网络攻防领域展现出"代际跨越"式的能力（如发现数十年未解的零日漏洞），单纯的防御措施已不足以应对。为了防止这种能力被恶意利用，同时利用其进行防御，各方启动了这一合作计划，旨在利用 Mythos 极强的漏洞发现能力，在黑客掌握同类 AI 技术之前，抢先修补参与各方系统中的安全漏洞。
+
+## 产能危机
+
+行动暴露了 [[漏洞发现修复产能失衡]] 问题：人类程序员平均修复一个高危漏洞需要两周，而 AI 发现漏洞的速度趋近于零成本。多位开源维护者发来"求饶"邮件，请求放缓漏洞披露节奏。
 
 ## 核心目标与战略意义
 
@@ -70,15 +97,22 @@ Project Glasswing 采取了严格的"门控"模式，不向公众全面开放，
     - 其中 250 万美元捐给 Linux 基金会旗下的 Alpha-Omega 和 OpenSSF。
     - 150 万美元捐给 Apache 基金会。
 
+### 配套措施
+
+为应对产能瓶颈，Anthropic 推出了：
+1. **[[Claude Security]]**：企业版自动化安全修复工具
+2. **防御者工具包**：开源的抓 BUG 流水线，含定制指令、自动化框架和威胁建模生成器
+3. **网络验证计划**：允许白帽子在合规前提下解除 Claude 部分安全限制用于渗透测试
+
 ## 合作伙伴与地缘政治特征
 
 ### 成员构成
 首批参与者涵盖了云计算、金融、网络安全及开源领域的领军者，阵容极其豪华，涵盖了软硬件及互联网生态的各个关键节点：
-- **创始伙伴**（12家）：[[AWS]]、苹果、Broadcom、思科、CrowdStrike、谷歌、摩根大通、Linux 基金会、微软、英伟达、Palo Alto Networks 等。
+- **创始伙伴**（12 家）：[[AWS]]、苹果、Broadcom、思科、CrowdStrike、谷歌、摩根大通、Linux 基金会、微软、英伟达、Palo Alto Networks 等。
 - **金融机构**：摩根大通
 - **网络安全**：Palo Alto Networks, CrowdStrike
 - **开源组织**：Linux 基金会, Apache 基金会
-- **其他**：共计 40 多家维护关键软件和基础设施的组织
+- **其他**：共计约 50 家维护关键软件和基础设施的组织
 
 ### 地缘政治排他性
 Project Glasswing 的成员主要来自美国、欧洲、日本等国，**中国企业未被包含在内**。这一排他性反映了数字安全能力正在形成新的地缘结构，即类似于芯片和操作系统，自主可控成为安全底线。该计划的目标是在漏洞挖掘能力（如 [[Mythos]]）扩散至攻击方之前，优先完成西方关键基础设施的漏洞修复，从而赢得"防守优势窗口"。
@@ -151,9 +185,4 @@ Project Glasswing 的成立加剧了 AI 网络安全领域的军备竞赛，迫�
 - [[Claude Mythos Preview]] — Glasswing 提供访问的具体模型版本。
 - [[Logan Graham]] — 项目负责人。
 - [[部署安全]] — 计划实施过程中的关键考量。
-- [[零日漏洞]] — 该项目试图识别的主要目标。
-- [[AI 网络攻防]] — Project Glasswing 试图应对的核心技术领域。
-- [[对齐悖论]] — 防御能力的提升不可避免地伴随着进攻能力的增强。
-- [[技术余晖]] — 该计划导致的全球技术获取差异现象。
-- [[Trusted Access for Cyber]] — OpenAI 的对标计划。
-- [[能力分层与分级访问]] — 两大计划共同确立的 AI 行业新范式。
+- [[零日

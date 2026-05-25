@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Mitchell Hashimoto
-tags: ["developer", "open-source", "vagrant", "terraform", "packer", "ghostty", "人物", "开发者", "开源"]
-related: [ghostty, vagrant, terraform, packer, github-宕机事件-2026, github]
+tags: ["developer", "open-source", "vagrant", "terraform", "packer", "ghostty", "人物", "开发者", "开源", "技术领袖", "工程实践", "约束工程"]
+related: ["ghostty", "vagrant", "terraform", "packer", "github-宕机事件-2026", "github", "harness-engineering", "harness-io"]
 created: 2026-04-29
-updated: 2026-05-23
-sources: ["ai撑爆github！天天宕机，18年老兵带5万星项目「决裂出逃」.md", "github帝国崩塌前夜：源码泄露、18年老粉决裂！微软失去1.5亿开发者.md"]
+updated: 2026-05-25
+sources: ["ai撑爆github！天天宕机，18年老兵带5万星项目「决裂出逃」.md", "github帝国崩塌前夜：源码泄露、18年老粉决裂！微软失去1.5亿开发者.md", "agent-从「优等生」到「好员工」还差什么？.md"]
 ---
 
 # Mitchell Hashimoto
 
-Mitchell Hashimoto 是美国著名的软件开发者和开源先驱，以创造多款基础设施工具而闻名。他是 [[Ghostty]] 终端模拟器的开发者，也是 GitHub 第 1299 号用户（注册于 2008 年 2 月），曾是该平台最忠诚的支持者之一。2026 年 4–5 月，他因平台频繁宕机公开发表"绝交信"，宣布将 [[Ghostty]] 项目整体迁离 GitHub，成为 GitHub 社区信任危机的标志性事件。
+Mitchell Hashimoto 是美国著名的软件开发者、开源先驱和技术领袖，以创造多款基础设施工具而闻名。他是 [[Ghostty]] 终端模拟器的开发者，也是 GitHub 第 1299 号用户（注册于 2008 年 2 月），曾是该平台最忠诚的支持者之一。2026 年 4–5 月，他因平台频繁宕机公开发表"绝交信"，宣布将 [[Ghostty]] 项目整体迁离 GitHub，成为 GitHub 社区信任危机的标志性事件。
 
 ## 主要贡献
 
@@ -21,6 +21,9 @@ Hashimoto 创造了多个在现代 DevOps 和基础设施即代码（IaC）领�
 - **[[Terraform]]**：由 HashiCorp 开发的基础设施即代码工具，用于安全高效地构建、更改和版本控制基础设施。
 - **[[Packer]]**：用于自动化创建机器镜像（Machine Image）的工具。
 - **[[Ghostty]]**：一款高性能、跨平台的终端模拟器，使用 Zig 和 Swift 编写，发布一年内即在 GitHub 上获得超过 5 万颗星。
+
+### 约束工程（Harness Engineering）
+Hashimoto 提出了"harness engineering"（[[harness-engineering|约束工程]]）概念，将 Agent 运行环境、约束机制和纠错回路的相关实践加以概括，重点是让系统更快暴露错误、定位错误并推动修正。这一概念为 Agent 从"优等生"（benchmark 高分）到"好员工"（生产可靠）的转变提供了重要的工程思维框架。
 
 ## 与 GitHub 的关系
 
@@ -34,9 +37,9 @@ Hashimoto 与 GitHub 的关系极其深厚。他曾表示，开发 Vagrant 的�
 
 > "GitHub每天都在辜负我。我希望它更好，但我更想编程。我已经不能再用GitHub编程了。对不起，18年后，我得走了。"
 
-> "如果一个平台每天都把你锁在外面几个小时，那它就不适合做严肃工作了。"
+> "如果一个平台每天都把你锁在外面几个小时，那它就不适合做严肃工作中。"
 
 Hashimoto 的出走被视为 GitHub 社区信任崩塌的缩影——当一个 18 年的忠实用户都选择离开，说明平台问题已非个别现象。这一事件也被视为 [[去github化]] 趋势中的一个标志性时刻，因为 Hashimoto 代表了最核心、最资深的开源开发者群体。
 
 ## 技术风格
-Hashimoto 的项目通常关注开发者体验和底层系统效率。例如，[[Ghostty]] 强调性能和 GPU 加速渲染，而 [[Terraform]] 则定义了多云管理的标准。
+Hashimoto 的项目通常关注开发者体验和底层系统效率。例如，[[Ghostty]] 强调性能和 GPU 加速渲染，而 [[Terraform]] 则定义了多云管理的标准。他在约束工程方面的思考进一步体现了他对系统可靠性和工程纪律的一贯追求。

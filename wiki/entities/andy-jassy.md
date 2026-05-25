@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Andy Jassy
-tags: [person, ceo, amazon, 亚马逊, 企业管理, 决策者]
-related: ["亚马逊", "openai", "aws", "amazon", "project-dawn", "day-one", "aws-trainium", "anthropic"]
+tags: [person, ceo, amazon, 亚马逊, 企业管理, 决策者, 人物, ai战略]
+related: ["亚马逊", "openai", "aws", "amazon", "project-dawn", "day-one", "aws-trainium", "anthropic", "meshclaw", "tokenmaxxing"]
 created: 2026-02-28
-updated: 2026-05-08
-sources: ["1100亿美元史诗级融资！openai估值狂飙7300亿，对赌agi就在今年.md", "一封误发「死亡日历」，引爆亚马逊16000人大裁员.md", "claude彻底起飞！狂揽亚马逊5gw算力+250亿刀，贝索斯赚麻了.md"]
+updated: 2026-05-25
+sources: ["1100亿美元史诗级融资！openai估值狂飙7300亿，对赌agi就在今年.md", "一封误发「死亡日历」，引爆亚马逊16000人大裁员.md", "claude彻底起飞！狂揽亚马逊5gw算力+250亿刀，贝索斯赚麻了.md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md"]
 ---
 
 # Andy Jassy (安迪·贾西)
@@ -28,8 +28,18 @@ Jassy 强调亚马逊必须像「全球最大的初创公司」那样运作，�
 ## 关键战略行动
 
 ### AI 基础设施与芯片战略
-- **推动 Trainium 战略**：Jassy 强调 AWS 定制 AI 芯片 [[AWS Trainium]] “性能强、成本低”，并成功说服 [[Anthropic]] 将其作为未来十年的主要算力来源。
+- **推动 Trainium 战略**：Jassy 强调 AWS 定制 AI 芯片 [[AWS Trainium]] "性能强、成本低"，并成功说服 [[Anthropic]] 将其作为未来十年的主要算力来源。
 - **双边投资布局**：在任内主导了对 [[Anthropic]] 和 [[OpenAI]] 的巨额投资，确保了 AWS 在不同 AI 生态中的影响力。
 
 ### 技术合作与愿景
-在主导 [[亚马逊]] 对 [[OpenAI]] 的 500 亿美元投资及战略合作后，Andy Jassy 表示，双方共同开发的“[[有状态运行时环境]]”及协作模式，将彻底改变开发者构建 AI 智能体的方式。
+在主导 [[亚马逊]] 对 [[OpenAI]] 的 500 亿美元投资及战略合作后，Andy Jassy 表示，双方共同开发的"[[有状态运行时环境]]"及协作模式，将彻底改变开发者构建 AI 智能体的方式。
+
+## AI 推广与内部文化影响
+
+### 2025 年 6 月公开备忘录
+2025 年 6 月，Jassy 向全体员工发出公开备忘录，直接建议员工"只要有机会，就去使用和实验 AI"，并写道拥抱 AI 转变的人将"处于更有利的位置，产生高影响力"。
+
+### Token 焦虑的源头
+Jassy 在备忘录中将"拥抱 AI"与"产生高影响力"直接挂钩，让普通员工陷入 Token 焦虑。更关键的是，他还在同一封备忘录中写明：未来几年随着 AI 的广泛使用，亚马逊预计企业员工规模将下降。
+
+这一表态被员工解读为隐含的裁员威胁，使得 Token 消耗量成为员工自保的量化指标，直接催生了 [[meshclaw]] 上的 [[tokenmaxxing]] 行为。

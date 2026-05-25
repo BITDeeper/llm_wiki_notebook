@@ -1,24 +1,30 @@
 ---
 type: entity
 title: Scale AI
-tags: ["company", "ai-data", "platform", "ai", "infrastructure", "data", "evaluation", "data-labeling", "benchmark", "acquisition", "ai数据", "数据标注", "美国公司"]
-related: ["人类最后考试", "cais", "alexandr-wang", "audio-multichallenge", "multichallenge", "远程劳动力指数", "meta", "manus", "如祺数据", "物理世界交互数据"]
+tags: ["company", "ai-data", "platform", "ai", "infrastructure", "data", "evaluation", "data-labeling", "benchmark", "acquisition", "ai数据", "数据标注", "美国公司", "公司", "ai评测", "美国", "ai基础设施", "创业公司"]
+related: ["人类最后考试", "cais", "alexandr-wang", "audio-multichallenge", "multichallenge", "远程劳动力指数", "meta", "manus", "如祺数据", "物理世界交互数据", "swe-atlas", "artificial-analysis", "知识型数据护城河"]
 created: 2026-03-07
-updated: 2026-05-22
-sources: ["mmlu已死？「人类最后考试」登nature：全球ai模型集体不及格！.md", "真实音频场景，大模型集体挂科！首个原生语音基准multichallenge.md", "meta新任副总裁：manus创始人肖弘，90后.md", "得场景者得ai天下，出行赛道跑出了一家值得关注的数据玩家.md"]
+updated: 2026-05-25
+sources: ["mmlu已死？「人类最后考试」登nature：全球ai模型集体不及格！.md", "真实音频场景，大模型集体挂科！首个原生语音基准multichallenge.md", "meta新任副总裁：manus创始人肖弘，90后.md", "得场景者得ai天下，出行赛道跑出了一家值得关注的数据玩家.md", "ai编程进入下半场！新基准不测补丁，拷问真正的工程能力.md", "meta大裁员的「幸存者」-们，正在经历进退两难....md"]
 ---
 
 # Scale AI
 
-**Scale AI** 是一家美国 AI 数据基础设施公司，专注于 AI 数据标注与基础设施服务。除了提供核心数据服务外，该公司还致力于开发严苛的 AI 评估基准，旨在揭示顶尖模型在真实场景下的能力边界。其商业模式的核心逻辑是——不仅提供数据，还提供工具与方法论，帮助客户更高效地使用数据。
+**Scale AI** 是一家美国 AI 数据基础设施公司，也是数据标注行业的巨头。公司专注于 AI 数据标注与基础设施服务，同时致力于开发严苛的 AI 评估基准，旨在揭示顶尖模型在真实场景下的能力边界。其商业模式的核心逻辑是——不仅提供数据，还提供工具与方法论，帮助客户更高效地使用数据。
 
 ## 关键人物
 
 公司的 CEO [[Alexandr Wang]] 积极推动了多项前沿评估项目的进行，并对行业内的技术创新（如 [[manus]]）给予了高度评价。
 
+## 与 Meta 的关系
+
+Scale AI 是 [[meta]] 的收购对象。Meta 斥资约 143 亿美元收购 Scale AI 49% 股份实现控股，这一交易规模在当时仅次于 WhatsApp 收购案。
+
+然而，尽管 Meta 重金投资 Scale AI 并坐拥庞大的外部专业外包网络，却仍选择将自家 Infra 工程师调去做数据标注，自建内部标注能力。分析认为，这反映了 Meta 对第三方数据质量的深度不信任，以及建立[[知识型数据护城河]]的战略意图——与其购买外部流水线上的"平庸语料"，不如直接提取内部顶级技术人才的思维过程。
+
 ## 核心评估基准
 
-Scale AI 与 [[CAIS]] (Center for AI Safety) 等机构合作，开发了多个具有行业影响力的基准测试，以解决传统基准（如 [[MMLU]]）因模型表现过好而失效的问题。
+Scale AI 与 [[CAIS]] (Center for AI Safety) 等机构合作，开发了多个具有行业影响力的基准测试，以解决传统基准（如 [[MMLU]]）因模型表现过好而失效的问题。其发布的基准具有行业校准意义。
 
 ### [[人类最后考试]] (HLE)
 
@@ -42,10 +48,14 @@ Scale AI 还推出了针对特定能力的"黄金标准"基准，挑战了行业
 
 - **应用**：该评测基准被用来验证 [[manus]] 的技术实力，Manus 在该评测中取得了 SOTA（当前最佳）成绩。
 
+### [[SWE Atlas]]
+
+- **发布时间**：2026年5月。
+- **定位**：AI 编程智能体评测基准，旨在填补 AI 编程评测体系中"只测补丁、不测工程"的系统性盲区。
+- **内容**：包含 284 道手写考题，覆盖代码库问答、测试编写、代码重构三大工作流。
+- **方法**：引入 rubric-based LLM-as-a-Judge 评估方法。
+- **意义**：核心贡献在于重新定义了 AI 编程能力的评估维度——从"能不能修 bug"扩展到"能不能做工程"。
+
 ## 行业对比
 
 在报道中，Scale AI 作为 [[如祺数据]] 商业模式的类比参照出现。两者逻辑类似——不仅提供数据，还提供工具与方法论，帮助客户更高效地使用数据。但在规模、全球化能力和客户基础上，两者仍有显著差距。
-
-## 关联事件
-
-- **收购**：Scale AI 是 [[meta]] 的收购对象，Meta 曾斥资 143 亿美元控股 Scale AI。这一交易规模在当时仅次于 WhatsApp 收购案。

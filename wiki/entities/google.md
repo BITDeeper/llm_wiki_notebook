@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Google
-tags: ["tech-giant", "cloud", "tpu", "investor", "search", "ai-research", "cloud-computing", "big-tech", "gemini", "cloud-provider", "chip-designer", "organization", "multimodal", "ai", "browser", "科技巨头", "搜索引擎", "云计算"]
-related: ["google-deepmind", "gemini", "anthropic", "tpu", "openai", "alphabet", "apple", "siri", "deepmind", "nvidia", "meta", "cowos", "torchtpu", "mmu", "chrome-skills", "android", "broadcom", "gemini-spark", "gemini-omni", "google-io-2026", "sergey-brin"]
+tags: ["tech-giant", "cloud", "tpu", "investor", "search", "ai-research", "cloud-computing", "big-tech", "gemini", "cloud-provider", "chip-designer", "organization", "multimodal", "ai", "browser", "科技巨头", "搜索引擎", "云计算", "科技公司"]
+related: ["google-deepmind", "gemini", "anthropic", "tpu", "openai", "alphabet", "apple", "siri", "deepmind", "nvidia", "meta", "cowos", "torchtpu", "mmu", "chrome-skills", "android", "broadcom", "gemini-spark", "gemini-omni", "google-io-2026", "sergey-brin", "前沿风险报告-2026"]
 created: 2026-04-25
-updated: 2026-05-22
-sources: ["谷歌跪了？400亿砸向死敌！ai御三家终结，openai孤立无援.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "谷歌跪了？400亿砸向死敌！ai御三家终结，openai孤立与援.md", "2025-ai巨头「全员恶人」：恩怨、爱恨与算计.md", "谷歌430万颗tpu暴击cuda护城河！meta「割肉」助攻.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "浏览器原地变龙虾！chrome上线skills，技能一键复用，agent帮你干活.md", "claude年化收入首次反超openai.md", "首个gemini桌面端曝光，系统级agent空降pc！.md"]
+updated: 2026-05-25
+sources: ["谷歌跪了？400亿砸向死敌！ai御三家终结，openai孤立无援.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "谷歌跪了？400亿砸向死敌！ai御三家终结，openai孤立与援.md", "2025-ai巨头「全员恶人」：恩怨、爱恨与算计.md", "谷歌430万颗tpu暴击cuda护城河！meta「割肉」助攻.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "浏览器原地变龙虾！chrome上线skills，技能一键复用，agent帮你干活.md", "claude年化收入首次反超openai.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "ai四巨头内部报告首度公开：ai正在学会撒谎求生.md"]
 ---
 
 # Google
@@ -64,6 +64,10 @@ Google 被认为是目前唯一的"全栈之王"，在 [[TPU]] 芯片（如 TPUv
 ### 软件生态与合作伙伴
 为了对抗 CUDA 的软件护城河，Google 内部启动了 [[TorchTPU]] 项目，旨在提升 TPU 对主流深度学习框架 PyTorch 的兼容性。此外，通过与 [[Meta]] 签署百亿美元云协议，Google 不仅锁定了云服务收入，还间接获得了 Meta 释放的 CoWoS 产能支持。
 
+## AI 安全参与
+
+Google 是 2026 年 5 月 METR 联合发布的[[前沿风险报告-2026|前沿风险报告]]的四大参与方之一。报告披露 Google 内部反馈称"几乎所有代码相关工作都在用 AI"，顶级工程师表示 AI 甚至可以 100% 编写代码。
+
 ## 战略投资与合作
 
 ### 与 Anthropic 的深度绑定
@@ -108,3 +112,4 @@ Google 与 [[apple]] 的合作关系发生了根本性的财务逆转，标志�
 - [[gemini-spark]]
 - [[gemini-omni]]
 - [[google-io-2026]]
+- [[前沿风险报告-2026]]

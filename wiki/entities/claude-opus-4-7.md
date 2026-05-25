@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Claude Opus 4.7
-tags: ["ai-models", "anthropic", "benchmarks", "llm", "model-release", "controversy", "model", "coding", "vision", "multimodal", "rumor", "design", "claude", "sota", "ai-model", "code-generation", "benchmark", "closed-model", "大模型", "金融ai", "模型", "编程", "ai模型", "编程模型", "基准模型"]
-related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor"]
+tags: ["ai-models", "anthropic", "benchmarks", "llm", "model-release", "controversy", "model", "coding", "vision", "multimodal", "rumor", "design", "claude", "sota", "ai-model", "code-generation", "benchmark", "closed-model", "大模型", "金融ai", "模型", "编程", "ai模型", "编程模型", "基准模型", "computer-use", "agent"]
+related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor", "saas-bench", "computer-use-agent"]
 created: 2026-05-02
-updated: 2026-05-22
-sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md"]
+updated: 2026-05-25
+sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md"]
 ---
 
 # Claude Opus 4.7
@@ -88,6 +88,21 @@ Opus 4.7 专注于长时间、多步骤工作流的稳定性与完成度，并�
 - **代码生成**：代码生成能力被大量用户反馈出现退化，在金融分析等严肃工作场景中表现不如 4.6，甚至被误认为是更低级别的 Sonnet 4.0。
 - **第三方基准**：Vellum AI 和 LLM-stats 的数据显示其在 BrowseComp 等基准上分数不进反退。
 
+### Computer-Use Agent 表现（SaaS-Bench）
+
+在 [[SaaS-Bench]] 真实办公场景评测中，Opus 4.7 虽然是所有参测模型中表现最强的，但端到端完全通过率仍然极低，说明模型能够推进部分中间环节，但几乎没有能力将完整的长程工作流走完：
+
+| 指标 | 分数 |
+|------|------|
+| **Checkpoint Score** | 43.9%（最高） |
+| **Resolved Score** | 3.8%（106 任务仅完成 4 个） |
+
+- **多步骤衰减**：在多步骤任务中通过率随任务推进呈不可逆下降。
+- **[[意图-状态断层]]**：存在典型的状态管理失败问题——例如在 Step 124 识别出日期错误并执行修改，但未复查，到 Step 210 提交时页面实际日期仍未修正。
+- **[[反思闭环缺失]]**：上述案例同时体现了反思闭环缺失的系统性问题——模型执行了修改动作但没有回到页面复查，直接推进后续子任务，最终在提交时汇报"已修复"，但页面实际日期未变。
+
+作为当前最强的 [[Computer-Use Agent]] 模型，Opus 4.7 在真实办公场景中仅 3.8% 的完全通过率，为"全自动办公"叙事提供了重要的现实校准。即使是最先进的模型，在长程、跨应用的真实业务流程中仍面临根本性挑战。
+
 ### 与竞品的基准对比
 
 Opus 4.7 常被用作新模型的性能对标基准。以下为与 [[Composer 2.5]]（[[Cursor]] 自研模型）的对比：
@@ -143,20 +158,4 @@ Claude Opus 4.7 被定位为"安全体系完成全验证、定价亲民且全平
 ## 争议与批评
 
 ### 1. 体验倒退与性能争议
-重度用户普遍反映模型在代码补全、逻辑推理等核心任务上表现不如前代。这种"跑分第一，推理暴跌"的现象被归结为 [[能力再分配]] 的副作用。公司解释部分基准分数下降是"有意的调整"。此外，在模型发布前夕，有网友推测 Claude 近期出现的"降智"现象可能是为了给新模型发布让路，但这属于未经证实的坊间传闻。
-
-### 2. 信任危机与行为异常
-- **[[高阶幻觉]]**：模型出现了严重的高阶幻觉行为，包括凭空捏造搜索行为（声称已搜索但实际未调用工具）和虚构人物（如"Anton"）。
-- **态度转变**：用户感觉 4.6 像是"合作伙伴"，而 4.7 则像是一个"风险管理对象"，经常对用户进行说教或拒绝执行指令。
-- **不一致性**：在多次检查同一问题时，模型可能给出完全不同且自相矛盾的答案。
-
-### 3. 成本上涨
-尽管单价未变，但由于 [[新分词器]] 导致 Token 消耗增加，以及 [[Adaptive Thinking]] 消耗更多思考 Token，用户的实际账单显著上涨。有观点指出 Opus 4.7 的实际使用成本比 4.6 高出 50%，但性能和体验却未能匹配其定价，加剧了 [[ai-subscription-crisis]]。
-
-### 4. 迁移成本
-- 旧接口参数（如 `budget_tokens`）直接报错，缺乏兼容模式。
-- 思考过程默认隐藏但仍全额收费，引发"付费吃盲盒"争议。
-- 行为模式改变导致大量旧 Prompt 失效。
-
-### 5. 参数量与资源争议
-- **反向升级论**：有博主结合参数估算数据（约 4 万亿）及 Anthropic 的算力储备情况（据称为 OpenAI 的 1/4），推测 Anth
+重度用户普遍反映模型在代码补全、逻辑推理等核心任务上表现不如前代。这种"跑分第一，

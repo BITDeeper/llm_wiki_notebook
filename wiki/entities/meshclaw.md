@@ -2,14 +2,14 @@
 type: entity
 title: MeshClaw
 created: 2026-05-21
-updated: 2026-05-21
-tags: [ai工具, ai代理, 亚马逊, 内部工具]
-related: [openclaw, tokenmaxxing, 亚马逊, ai使用kpi化]
-sources: ["为了应付老板的token消耗kpi，亚马逊员工竟这样做....md"]
+updated: 2026-05-25
+tags: ["ai工具", "ai代理", "亚马逊", "内部工具", "ai智能体", "tokenmaxxing"]
+related: ["openclaw", "tokenmaxxing", "亚马逊", "ai使用kpi化", "claudeonomics", "anthropic", "goodhart-定律"]
+sources: ["为了应付老板的token消耗kpi，亚马逊员工竟这样做....md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md"]
 ---
 # MeshClaw
 
-MeshClaw是[[亚马逊]]内部开发的AI代理工具，灵感来源于2026年2月爆火的[[openclaw]]。
+MeshClaw是[[亚马逊]]内部开发的AI智能体工具，灵感来源于2026年2月爆火的[[openclaw]]，后端接入[[anthropic|Claude]]模型。该工具能够处理邮件、Slack消息和代码部署等多种办公任务，是一个真正可以"代劳"的AI智能体。
 
 ## 功能特性
 
@@ -20,9 +20,17 @@ MeshClaw是[[亚马逊]]内部开发的AI代理工具，灵感来源于2026年2�
 - **Slack沟通**：替用户在Slack上与同事交流
 - **夜间学习**：官方描述称"它会在夜间做梦以巩固所学知识"
 
-## 实际使用
+## Token排行榜机制
 
-亚马逊官方声明称该工具让"成千上万的亚马逊人每天能够自动化重复性任务"。然而在实际使用中，MeshClaw成为了[[tokenmaxxing]]的核心工具——员工利用它通宵执行不必要的自动化任务，只为冲刺内部Token消耗排行榜。
+亚马逊为MeshClaw配套上线了内部排行榜，实时追踪每位员工的Token消耗量。公司设定了超过80%的开发者每周必须使用AI工具的内部目标。
+
+## Token刷量现象
+
+亚马逊官方声明称该工具让"成千上万的亚马逊人每天能够自动化重复性任务"。然而在实际使用中，MeshClaw成为了[[tokenmaxxing]]的核心工具。
+
+据《金融时报》报道，多名知情人士透露，部分员工使用MeshClaw运行不必要的任务，专门为了拉高排行榜上的数字。尽管亚马逊官方表示Token数据不用于绩效评估，但员工透露经理仍在盯着排行榜，营造出"谁的Token用得多，谁就更安全"的氛围。
+
+这一现象是[[tokenmaxxing]]（Token刷量）在企业环境中的典型案例，也是[[goodhart-定律]]在AI时代的具体表现。
 
 ## 安全隐患
 

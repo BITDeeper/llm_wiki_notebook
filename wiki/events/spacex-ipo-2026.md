@@ -2,29 +2,29 @@
 type: event
 title: SpaceX 2026年IPO——人类史上最大规模上市
 created: 2026-05-21
-updated: 2026-05-22
-tags: [ipo, spacex, 资本市场, 历史, ai]
-related: [spacex, elon-musk, ai-ipo-window-2026, spacex-xai-merger, anthropic-spacex-compute-deal, openai, openai世纪诉讼判决-20260518]
-sources: ["突发，马斯克递交史上最大ipo！全球首个万亿富翁要来了.md", "刚刚，马斯克公开spacex招股书！.md"]
+updated: 2026-05-25
+tags: [ipo, spacex, 资本市场, 历史, ai, 马斯克]
+related: [spacex, elon-musk, ai-ipo-window-2026, spacex-xai-merger, anthropic-spacex-compute-deal, openai, openai世纪诉讼判决-20260518, 星舰V3, 星舰V3首飞-20260522, colossus-2]
+sources: ["突发，马斯克递交史上最大ipo！全球首个万亿富翁要来了.md", "刚刚，马斯克公开spacex招股书！.md", "刚刚，马斯克第三代星舰首飞成功！.md"]
 origin_date: 2026-05-20
 time_span:
   start: 2026-05-20
   end: 2026-06-12
 participants: [spacex, elon-musk, sec, openai, sam-altman, anthropic]
 causes: [spacex-xai-merger, openai世纪诉讼判决-20260518]
-effects: [ai-ipo-window-2026]
+effects: [ai-ipo-window-2026, 星舰V3首飞-20260522]
 significance: high
 ---
 # SpaceX 2026年IPO——人类史上最大规模上市
 
-2026年5月20日左右，[[spacex]]正式向美国证券交易委员会（SEC）公开递交S-1招股书，计划在纳斯达克挂牌，交易代码"SPCX"，启动人类史上最大规模的IPO。
+2026年5月20日，[[spacex]]正式向美国证券交易委员会（SEC）公开递交S-1招股书，计划在纳斯达克挂牌，交易代码"SPCX"，启动人类史上最大规模的IPO。预计上市日期为2026年6月12日。
 
 ## 关键数据
 
 | 指标 | 数值 |
 |------|------|
 | 目标融资 | 最高750亿美元 |
-| 目标估值 | 超2万亿美元 |
+| 目标估值 | 1.75万–2万亿美元以上 |
 | 股票代码 | SPCX |
 | 上市交易所 | 纳斯达克 |
 | 计划上市日期 | 2026年6月12日 |
@@ -63,6 +63,14 @@ S-1文件首次全面公开SpaceX内部财务数据。合并后的实体为三�
 - 2026年Q1：营收46.9亿，亏损42.7亿（亏损/营收比91%）
 - 星链EBITDA利润率63%，用户突破1000万
 
+### 星舰项目
+
+SpaceX在招股书中披露，星舰项目已累计投入超过150亿美元。星舰V3预计可将多达100吨载荷送入轨道，一旦实现稳定运行，每公斤入轨成本将降至过去行业平均水平的1%甚至更低。SpaceX承诺星舰将在2026年下半年开始执行真正的轨道任务。
+
+## 与星舰V3首飞的关系
+
+2026年5月20日SpaceX提交招股书，两天后即进行[[星舰V3首飞-20260522|星舰V3首次飞行]]。这一时间安排被解读为具有IPO造势意味——"马斯克舞的剑是星舰V3，而即将到来的IPO，想必就是老马眼中的沛公了"。
+
 ## 治理设计
 
 - [[双层股权结构]]：Class A（1票）与Class B（10票），[[elon-musk|马斯克]]投票权约85.1%
@@ -78,3 +86,4 @@ SpaceX声称锁定28.5万亿美元[[tam-总可服务市场|TAM]]，其中AI占26
 - 与[[anthropic]]筹备上市构成三巨头IPO窗口，详见 [[ai-ipo-window-2026]]
 - 三家公司总估值可能超4万亿美元
 - [[elon-musk]]有望成为全球首个万亿富翁（但薪酬解锁条件极为苛刻）
+- 马斯克旗下同时拥有航天（SpaceX）和算力（[[colossus-2]]）双线资本运作

@@ -1,11 +1,11 @@
 ---
 type: entity
 title: AlphaEvolve
-tags: [ai-system, deepmind, algorithm-discovery, code-generation, llm-agent, 算法, 进化计算, 自动化机器学习, ai-tool, google-deepmind, mathematics, automation, automated-research, agent, optimization, recursive-self-improvement, ai系统, 数学, 定理证明, google, 系统, 进化搜索, 算法设计]
-related: [google-deepmind, gemini, 元搜索, 拉姆齐数, aletheia, vad-cfr, shor-psro, 代码即基因组, cfr, psro, 陶哲轩, nodum-set, 埃尔德什-1026-问题, 人机协作数学研究, jeff-dean, 递归式自我改进, ai造ai, ai数学革命, darwin-godel-machine, recursive-superintelligence]
+tags: [ai-system, deepmind, algorithm-discovery, code-generation, llm-agent, 算法, 进化计算, 自动化机器学习, ai-tool, google-deepmind, mathematics, automation, automated-research, agent, optimization, recursive-self-improvement, ai系统, 数学, 定理证明, google, 系统, 进化搜索, 算法设计, ai-for-science, 代码进化, 供应链优化]
+related: [google-deepmind, gemini, 元搜索, 拉姆齐数, aletheia, vad-cfr, shor-psro, 代码即基因组, cfr, psro, 陶哲轩, nodum-set, 埃尔德什-1026-问题, 人机协作数学研究, jeff-dean, 递归式自我改进, ai造ai, ai数学革命, darwin-godel-machine, recursive-superintelligence, era-经验性研究助手, co-scientist, gemini-for-science, ai-for-science]
 created: 2026-03-14
-updated: 2026-05-22
-sources: ["刚刚，谷歌ai破解外星人难题！打破十年纪录，自己写算法震撼诺奖得主.md", "alphaevolve再进化！deepmind用ai「养殖」算法，碾压所有人类设计.md", "陶哲轩儿子变性了？本人现身回应，全网吵翻.md", "陶哲轩震撼！数学家1975年埋下的「坑」，被ai和全球网友用48小时填平了.md", "alphaevolve交出一周年炸裂成绩单！ai自我改进不再科幻.md", "2小时搞定博士论文，3天终结40年悬案：ai宣判数学「死刑」？.md", "赌自己会失业！田渊栋八人天团狂揽44亿元，杀入「递归进化」赛道.md"]
+updated: 2026-05-25
+sources: ["刚刚，谷歌ai破解外星人难题！打破十年纪录，自己写算法震撼诺奖得主.md", "alphaevolve再进化！deepmind用ai「养殖」算法，碾压所有人类设计.md", "陶哲轩儿子变性了？本人现身回应，全网吵翻.md", "陶哲轩震撼！数学家1975年埋下的「坑」，被ai和全球网友用48小时填平了.md", "alphaevolve交出一周年炸裂成绩单！ai自我改进不再科幻.md", "2小时搞定博士论文，3天终结40年悬案：ai宣判数学「死刑」？.md", "赌自己会失业！田渊栋八人天团狂揽44亿元，杀入「递归进化」赛道.md", "谷歌gemini杀入科学界！一日两登nature，alphafold只是开胃菜.md"]
 origin_date: 2025-05-01
 ---
 
@@ -21,17 +21,19 @@ origin_date: 2025-05-01
 
 AlphaEvolve 是一个基于大语言模型（LLM）的代码进化智能体，结合了强化学习与进化算法的思想。其工作流程如下：
 
-1. **种群初始化**：维护一个算法代码种群，初始状态可能仅包含简单的基线程序。
-2. **LLM 变异**：利用 [[Gemini]] 对表现较好的算法代码进行"变异"。LLM 充当遗传算子，对算法源代码进行语义层面的修改，包括重写逻辑、注入新的控制流、修改符号操作、调整初始化逻辑或添加新的启发式规则。
-3. **执行与评估**：运行变异后的代码，根据其生成的解的质量进行评分。
+1. **种群初始化**：维护一个算法代码种群，初始状态可能仅包含简单的基线程序（即「种子程序」作为基础规划逻辑）。
+2. **LLM 变异**：利用 [[Gemini]] 对表现较好的算法代码进行"变异"。LLM 充当遗传算子，对算法源代码进行语义层面的修改，包括重写逻辑、注入新的控制流、修改符号操作、调整初始化逻辑或添加新的启发式规则。系统并行生成数千个代码变体。
+3. **执行与评估**：运行变异后的代码，每个变体自动评分，根据其生成的解的质量进行评估。
     - 在**极值组合学**任务中，评分依据是构造的图的大小（如 [[拉姆齐数]] 问题）。
     - 在**博弈论**任务中，评分依据是 [[可利用度]]（Exploitability），即算法被对手击败的难易程度。
     - 在**数学结构探索**任务中，它负责在庞大的可能性空间中进行高速试错和排序，寻找得分最高的构型方案。
 4. **选择与迭代**：高分（或低可利用度）算法被保留并继续变异，形成类似遗传算法的进化循环。
 
+通过这一机制，AlphaEvolve 将原本需要领域专家耗时数月手工编码的复杂建模路径压缩为机器搜索的范围——输入种子程序并喂入历史数据后，系统自动发现运作规律。
+
 ## 主要成就
 
-AlphaEvolve 在数学、博弈论、硬件设计及商业应用中展现了超越人类直觉的算法设计能力，打破了多项长期保持的纪录。
+AlphaEvolve 在数学、博弈论、硬件设计、供应链优化及商业应用中展现了超越人类直觉的算法设计能力，打破了多项长期保持的纪录。
 
 ### 1. 数学与科学突破
 
@@ -70,13 +72,30 @@ AlphaEvolve 成功进化出了超越人类设计的博弈论算法，包括 [[VA
 
 AlphaEvolve 提出了一种人类工程师认为"反直觉"的电路设计方案。经测试验证，该方案比人类设计更高效，已被直接集成进下一代 [[TPU]] 硅片中。谷歌首席科学家 [[Jeff Dean]] 将此描述为"TPU 大脑正在设计下一代 TPU 身体"，标志着 AI 开始参与改进其自身的物理基础设施。
 
-### 4. 商业应用
+### 4. 供应链优化：BASF 案例
+
+百年化工巨头 BASF 面临 180 个生产基地、5000 多条价值链的复杂供应链网络，此前多次尝试用确定性模型建数字孪生均告失败。
+
+AlphaEvolve 的成果：
+
+- 自动提炼出三条传统建模中需领域专家手工编码的规则：**生产整合**、**动态安全库存**、**网络级协调**。
+- 相比最初种子模型，最新一轮运行准确率相对提升超 80%。
+- BASF 计划用这套数字孪生覆盖整个全球生产网络。
+
+BASF 高级供应链副总裁 Goetz Krabbe 证言：「此前我们多次尝试用确定性模型建数字孪生，均告失败。」
+
+### 5. 商业应用
 
 通过 Google Cloud，AlphaEvolve 已在多个行业实现落地：
 
-- **金融**：为 Klarna 优化模型训练，速度翻倍。
+- **金融**：瑞典金融科技公司 Klarna 用 AlphaEvolve 将大型 Transformer 模型训练速度提升一倍，同时改善模型质量。
 - **物流**：为 FM Logistic 优化路线规划，效率提升 10.4%。
 - **制药**：为 Schrödinger 加速分子力场训练，将药物筛选周期从数月缩短至几天。
+- **能源与公共卫生**：太阳能预测和流行病学是 Google 官方点名的应用场景。
+
+## 在 Gemini for Science 中的定位
+
+AlphaEvolve 是 [[gemini-for-science]] 工具集中「计算发现」模块的核心引擎，与 [[era-经验性研究助手|ERA]]（经验性研究助手）协同工作，共同构成 Google AI for Science 的方法论基础设施。
 
 ## 关联系统
 
