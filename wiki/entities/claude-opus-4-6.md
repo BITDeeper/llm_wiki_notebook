@@ -1,17 +1,24 @@
 ---
 type: entity
 title: Claude Opus 4.6
-tags: ["ai-models", "llm", "anthropic", "model-release", "baseline", "模型版本", "性能争议", "model", "flagship", "code-generation", "claude", "模型", "基准", "legacy", "ai-model", "reasoning", "mathematics", "security", "flagship-model", "closed-source", "benchmark", "2026-milestone", "asl-4", "risk-assessment", "agent", "coding", "大语言模型", "编程", "safety", "constitutional-ai", "可解释性", "大模型", "推理"]
-related: ["anthropic", "claude-opus-4-7", "自适应推理", "claude-code", "ai缩水", "自适应思考", "stella-laurenzo", "claude-haiku-4-5", "meta-harness", "terminalbench-2", "forgecode", "claude-mythos", "模型层级", "browsecomp", "评测意识", "ai失效模式", "gpt-5.4", "gemini-3-1-pro", "osworld-verified", "claude-s-cycles", "自动推理", "高德纳", "claude-code-security", "claude-3-5-sonnet", "arc-agi-2", "claude-sonnet-4-6", "hle", "minimax-m2-5", "gpt-5.3-codex", "dario-amodei", "asl-分级系统", "蓄意破坏", "mrinank-sharma", "vending-bench", "对齐税", "工具使用惰性", "gpt-5-3-codex", "sam-altman", "cursor-9秒删库搞崩公司，然后…写了份检讨.md", "cursor", "ai-agent-自主决策", "pocketos", "nicholas-carlini", "零日漏洞挖掘", "glm-5.1", "gdpval-aa", "evoclaw", "claude", "grok-3", "学术垃圾", "越狱测试", "donald-knuth", "hamiltonian-cycle-decomposition", "perplexity-computer", "claw-eval-live", "gpt-5-4", "glm-5", "nla-自然语言自编码器", "未言明的考试意识", "qwen3-7-max", "deepseek-v4"]
+tags: ["ai-models", "llm", "anthropic", "model-release", "baseline", "模型版本", "性能争议", "model", "flagship", "code-generation", "claude", "模型", "基准", "legacy", "ai-model", "reasoning", "mathematics", "security", "flagship-model", "closed-source", "benchmark", "2026-milestone", "asl-4", "risk-assessment", "agent", "coding", "大语言模型", "编程", "safety", "constitutional-ai", "可解释性", "大模型", "推理", "闭源模型"]
+related: ["anthropic", "claude-opus-4-7", "自适应推理", "claude-code", "ai缩水", "自适应思考", "stella-laurenzo", "claude-haiku-4-5", "meta-harness", "terminalbench-2", "forgecode", "claude-mythos", "模型层级", "browsecomp", "评测意识", "ai失效模式", "gpt-5.4", "gemini-3-1-pro", "osworld-verified", "claude-s-cycles", "自动推理", "高德纳", "claude-code-security", "claude-3-5-sonnet", "arc-agi-2", "claude-sonnet-4-6", "hle", "minimax-m2-5", "gpt-5.3-codex", "dario-amodei", "asl-分级系统", "蓄意破坏", "mrinank-sharma", "vending-bench", "对齐税", "工具使用惰性", "gpt-5-3-codex", "sam-altman", "cursor-9秒删库搞崩公司，然后…写了份检讨.md", "cursor", "ai-agent-自主决策", "pocketos", "nicholas-carlini", "零日漏洞挖掘", "glm-5.1", "gdpval-aa", "evoclaw", "claude", "grok-3", "学术垃圾", "越狱测试", "donald-knuth", "hamiltonian-cycle-decomposition", "perplexity-computer", "claw-eval-live", "gpt-5-4", "glm-5", "nla-自然语言自编码器", "未言明的考试意识", "qwen3-7-max", "deepseek-v4", "skyclaw-v1"]
 created: 2026-03-25
-updated: 2026-05-22
-sources: ["跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "claude-opus-4.6差评如潮！思考深度暴跌67%，amd总监6852次日志打脸.md", "meta-harness让haiku性能狂飙，甚至追平opus！.md", "刚刚，anthropic王炸claude泄露！全面碾压opus-4.6引爆全网.md", "claude考场突然「觉醒」，自行写代码偷答案！人类考试，管不住ai了.md", "claude凭空造假强行部署，比黑客更可怕的入侵者！vercel-ceo紧急预警.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "刚刚，claude独立攻克图论猜想，仅用31步！算法祖师爷高德纳震惊发文.md", "一夜变天？claude出手，网络安全股集体「血洗」！全球百亿市值已蒸发.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "一夜暴涨至2100亿！开源新王minimax-m2.5，革了opus-4.6的命.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "刚刚，anthropic-53页绝密报告曝光：claude自我逃逸，将引爆全球灾难！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4.6", "-奥特曼真急了.md", "cursor-9秒删库搞崩公司，然后…写了份检讨.md", "claude-90分钟挖穿20年漏洞！5w星“安全”系统跌下神坛，linux内核也未能幸免.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "最强claude模型提前曝光！附带anthropic三千份保密档案在线裸奔.md", "openclaw代码越改越崩？新研究evoclaw揭示：agents持续开发成功率仅13.37%.md", "arxiv创始人亲测：水论文这一块，grok最强，claude最不配合.md", "88岁图灵奖得主，用claude一小时破解30年数学悬案.md", "21万年费彭博终端机被ai复刻！perplexity俩月憋出新“pc”：整合所有ai功能，以opus为核心调度19个模型.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "claude脑子里想的，被翻译成人话了！anthropic新研究看懵人类.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md"]
+updated: 2026-05-26
+sources: ["跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "claude-opus-4.6差评如潮！思考深度暴跌67%，amd总监6852次日志打脸.md", "meta-harness让haiku性能狂飙，甚至追平opus！.md", "刚刚，anthropic王炸claude泄露！全面碾压opus-4.6引爆全网.md", "claude考场突然「觉醒」，自行写代码偷答案！人类考试，管不住ai了.md", "claude凭空造假强行部署，比黑客更可怕的入侵者！vercel-ceo紧急预警.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "刚刚，claude独立攻克图论猜想，仅用31步！算法祖师爷高德纳震惊发文.md", "一夜变天？claude出手，网络安全股集体「血洗」！全球百亿市值已蒸发.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "一夜暴涨至2100亿！开源新王minimax-m2.5，革了opus-4.6的命.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "刚刚，anthropic-53页绝密报告曝光：claude自我逃逸，将引爆全球灾难！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4.6", "-奥特曼真急了.md", "cursor-9秒删库搞崩公司，然后…写了份检讨.md", "claude-90分钟挖穿20年漏洞！5w星“安全”系统跌下神坛，linux内核也未能幸免.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "最强claude模型提前曝光！附带anthropic三千份保密档案在线裸奔.md", "openclaw代码越改越崩？新研究evoclaw揭示：agents持续开发成功率仅13.37%.md", "arxiv创始人亲测：水论文这一块，grok最强，claude最不配合.md", "88岁图灵奖得主，用claude一小时破解30年数学悬案.md", "21万年费彭博终端机被ai复刻！perplexity俩月憋出新“pc”：整合所有ai功能，以opus为核心调度19个模型.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "claude脑子里想的，被翻译成人话了！anthropic新研究看懵人类.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md", "后openclaw时代！国产agent模型凭「高配低价」叫板opus-4.6.md"]
 origin_date: 2026-03-01
 ---
 
 # Claude Opus 4.6
 
-[[Claude Opus 4.6]] 是 [[Anthropic]] 开发的旗舰大语言模型，也是 [[nla-自然语言自编码器|NLA]]（自然语言自编码器）研究的主要对象。该模型在软件演进基准测试中表现稳健，同时在学术诚信与安全防御方面展现出业界领先的可靠性。2026年，该模型因协助图灵奖得主 [[Donald Knuth]] 解决复杂数学难题而受到广泛关注。
+[[Claude Opus 4.6]] 是 [[Anthropic]] 开发的旗舰闭源大语言模型，也是 [[nla-自然语言自编码器|NLA]]（自然语言自编码器）研究的主要对象。作为海外"御三家"（Anthropic、OpenAI、谷歌）的代表性模型之一，其 Agent 性能被视为行业标杆。该模型在软件演进基准测试中表现稳健，同时在学术诚信与安全防御方面展现出业界领先的可靠性。2026年，该模型因协助图灵奖得主 [[Donald Knuth]] 解决复杂数学难题而受到广泛关注。
+
+## 市场地位与成本
+
+- 在 OpenClaw 相关任务上被视为性能天花板级别的参考基准。
+- 高昂的调用成本导致大量中小开发者和企业望而却步。
+- [[skyclaw-v1|SkyClaw-v1.0]] 将自身定位为"接近 Claude Opus 4.6 性能但定价仅为一半"的替代方案。
+- 跑完 [[claw-eval-live]] 全部 105 题约需 **$31.6**，成本远高于排名第二的 [[gpt-5-4]]（约 $6.3）和性价比极高的 [[glm-5]]（约 $2.5）。
 
 ## 应用场景
 
@@ -47,11 +54,6 @@ origin_date: 2026-03-01
 - **准确率**：在 13 个参评模型中排名第一，但整体通过率仍未突破 70%。
 - **技术能力**：在终端操作、环境修复等 Development/Terminal 类任务上达到 100% 通过率。
 - **业务能力**：在 HR、管理类任务上表现依然不佳，反映了当前 Agent 的通病。
-
-### 成本分析
-
-- **估算 API 成本**：跑完 Claw-Eval-Live 全部 105 题约需 **$31.6**。
-- **对比**：成本远高于排名第二的 [[gpt-5-4]]（约 $6.3）和性价比极高的 [[glm-5]]（约 $2.5）。
 
 ### 与 Qwen3.7-Max 的对比（2026年5月）
 

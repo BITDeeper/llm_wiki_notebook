@@ -1,0 +1,27 @@
+---
+type: entity
+title: 英伟达
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["tech-company", "gpu", "ai", "chip-design", "nvidia", "ai-hardware", "tech-giant", "公司", "硬件", "cuda", "竞争对手", "hardware", "ai-research", "enterprise", "科技巨头", "芯片制造", "算力金融", "chip-manufacturer", "芯片制造商", "ai硬件", "地缘政治", "investor", "openai", "芯片", "投资方", "ai基础设施", "工程实践", "具身智能", "物理ai", "physical-ai", "company", "财务", "供应链", "ai-基础设施", "科技公司", "半导体", "芯片巨头", "并购", "monopoly", "computing", "算力", "投资", "ai-infrastructure", "ai芯片", "美国", "企业", "硅谷", "芯片公司", "ai算力", "投资者", "垂直整合", "英伟达", "大语言模型", "上市公司"]
+related: ["bill-dally", "nb-cell", "prefix-rl", "chip-nemo", "ai辅助芯片设计", "黄仁勋", "vera-cpu", "coreweave", "rubin-platform", "blackwell-gpu", "空间多线程", "neocloud", "tensorrt-llm", "gb200-nvl72", "hgx-b200", "nvfp4", "deepseek-v4", "华为", "cuda", "cuda-to-cann", "电子到token", "加速计算", "tco", "五层蛋糕生态系统", "groq", "nemotron-3-super", "nemoclaw", "blackwell", "thinking-machines-lab", "vera-rubin", "算力金融学", "openai", "寒序科技", "内存墙", "带宽受限计算", "谷歌tpu", "cerebras", "去gpu化", "数据搬运瓶颈", "美国商务部", "gb300", "全球算力分级审查制", "ai-subscription-crisis", "软银", "算力", "ai经济学", "智能体拐点", "anthropic", "星门计划", "ai基础设施军备竞赛", "vibetensor", "cursor", "ai-生成系统软件", "3d-generalist", "project-gr00t", "omniverse", "isaac-lab", "physical-ai", "tesla", "ai5", "dlss-4.5", "rtx-50-系列", "nvidia-ace", "rtx-remix", "本地推理", "赊账式繁荣", "黄金底座隐喻", "rtx-5090", "hbm", "吸血效应", "ai-pc-悖论", "ai21-labs", "jamba-架构", "aai", "dgx-cloud", "扁平化管理", "商汤科技", "ai工厂", "世嘉", "晶格结构", "受虐文化", "俳句式邮件", "riva-128", "dgx-1", "gtx-580", "tpu", "台积电", "deepseek", "ai-hardware", "openclaw", "token-工厂经济学", "token-工厂", "供应链认知协同", "循环融资", "rubin", "token经济", "claude-code", "商业物理学", "混合异构计算", "babyalpha-a3", "colossus-2", "amd", "奥特曼经济学", "ai军火商模式", "sk海力士", "三星电子", "hbm高带宽内存", "ai算力成本链", "scaling-law", "ai-infrastructure-flywheel", "黄敏珊", "黄胜斌", "recursive-superintelligence-rsi", "厂商融资", "垂直整合图谱", "计算范式转移", "2026算力危机", "hbm-高带宽内存", "cowos-先进封装", "nemo-claw", "nemotron-labs-diffusion", "三模式解码", "扩散语言模型", "ai基建4万亿预测", "meta", "推理算力超越训练", "通信层能耗黑洞", "礼来"]
+sources: ["老黄秘密武器曝光：ai一夜设计芯片，顶人类顶级工程师10个月！.md", "昔日gpu霸主，今日cpu屠夫？黄仁勋亮大招.md", "不换gpu，性能飙升2.8倍！英伟达用软件暴打摩尔定律.md", "刚刚，梁文锋被曝史上首次融资！deepseek-v4彻底摆脱英伟达.md", "老黄公开叫阵谷歌，一个能打的都没有！首次承认低估了anthropic.md", "老黄杀入openclaw战场！最强开源「龙虾」模型直逼opus-4.6.md", "黄仁勋联手openai前高管，1吉瓦超级算力明年开闸.md", "截击英伟达！openclaw狂吞token，北大系芯片黑马剑指2000-tokenss.md", "gpu时代落幕？硅谷巨头集体「叛逃」，英伟达1500亿疯狂自救.md", "全球禁运ai芯片或将大幅升级！刚刚披露，美国草案划定超严格红线.md", "1100亿美元史诗级融资！openai估值狂飙7300亿，对赌agi就在今年.md", "英伟达财报创纪录，老黄定调智能体拐点：算力就是印钞机.md", "1000亿美金！openai估值飙到8500亿，anthropic：我今年就超你.md", "全球首个，英伟达用ai两个月造出「全新pytorch」！震撼整个行业.md", "老黄万亿美元梦成真，英伟达版「世界模型」震撼问世.md", "马斯克掀桌复活dojo-3！ai5性能暴涨50倍，110成本把老黄逼入死角.md", "老黄挤爆牙膏！dlss-4.5狂飙6倍，rtx-50系直接封神.md", "库克送礼，老黄放贷，马斯克画饼：2025科技圈的「生存三部曲」.md", "显卡一夜飙至2.8万！ai吸干全球芯片产能，2026全球消费者买单.md", "人均1个亿！黄仁勋拟砸下30亿美元，「买断」openai昔日劲敌.md", "nba球星，成为英伟达副总裁.md", "2025-ft年度人物：黄仁勋.md", "2年内ai生成世界90%知识！老黄2小时重磅访谈「剧透」未来.md", "黄仁勋都被问毛了：顶级ai厂商在去cuda？“你的前提就是错的”.md", "1220亿美元！openai创下史上最大单笔融资纪录.md", "黄仁勋：龙虾就是新操作系统！英伟达7种芯片拼出算力怪兽，放话2027营收万亿美元.md", "cuda-之外，英伟达还有什么护城河？.md", "openai最新融资1100亿美元！英伟达亚马逊软银都抢到船票了.md", "日进22.6亿！英伟达营收暴涨73%再破纪录，盘后股价重返200美元.md", "claude狂印钞！anthropic人均营收900万美元，吊打英伟达.md", "中国机器狗撕开英伟达垄断！70亿大模型跑通，成本仅110.md", "砸50亿美金：cerebras用一张「赎身契」，闯入奥特曼众神殿.md", "算力账单暴涨！你给openai花的钱，全成了三星sk海力士的年终奖.md", "黄仁勋北京必吃榜我们都尝了！后海酒吧老板：他答应以后每年来一次.md", "英伟达给黄仁勋儿女涨薪了！年薪百万美元，“凭能力而不是身份”.md", "田渊栋ai创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人.md", "ai第一金主黄仁勋：日均花掉20亿.md", "黄仁勋喊话毕业生：ai不会取代你，但善用ai的人会.md", "h100去哪儿了？.md", "企业养虾时代开启？anthropic连夜更新架构，中国大厂已经跑通.md", "首个三模式大语言模型：4倍token吞吐量，长文本秒级时代要来了？.md", "黄仁勋：ai基建还要烧4万亿美元！.md", "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐aigc2026.md"]
+---
+# 英伟达（NVIDIA）
+
+全球领先的AI基础设施公司，正从GPU芯片企业转型为"AI工厂"。
+
+## 战略转型
+
+2026年3月GTC大会上，黄仁勋明确将英伟达重新定位为**人工智能基础设施公司**和**人工智能工厂**，而非单纯的GPU芯片企业。这一叙事转变反映了行业从模型竞赛向基础设施优化的整体转向。
+
+## 关键合作
+
+- 与[[礼来]]达成**10亿美元**合作，构建AI+医疗+数据技术生态，帮助初创企业进行战略合作
+- 从Token经济学视角，将AI基础设施需求类比为电力需求
+
+## 与核心概念的关联
+
+英伟达的转型印证了 [[张璐]] 提出的多个判断：
+- [[推理算力超越训练]] — 推理优化成为基础设施核心问题
+- [[通信层能耗黑洞]] — 数据中心通信层能耗问题催生光学通信等新技术需求

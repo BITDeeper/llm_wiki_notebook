@@ -30947,6 +30947,263 @@
       "filesWritten": [
         "wiki/sources/告别多奖励跷跷板：flow-opd将多教师opd带入图像生成.md"
       ]
+    },
+    "acl-2026-main-不只是调用地图api，spatial-agent让大模型生成可执行地理分析工作流.md": {
+      "hash": "538a01564df45f90a53b325897c9b35beac66a76455a0b2a16e989df3f082871",
+      "timestamp": 1779775061232,
+      "filesWritten": [
+        "wiki/sources/acl-2026-main-不只是调用地图api，spatial-agent让大模型生成可执行地理分析工作流.md",
+        "wiki/entities/spatial-agent.md",
+        "wiki/concepts/geoflow-graph.md",
+        "wiki/concepts/地理空间分析工作流.md",
+        "wiki/concepts/领域知识中间表示.md"
+      ]
+    },
+    "xai解散，但grok还在上新，马斯克官宣新模型.md": {
+      "hash": "4bfa25ff8d5b41796d9309b5efc0a398c544170b96fee919dfa56ed9935fa96b",
+      "timestamp": 1779775452111,
+      "filesWritten": [
+        "wiki/sources/xai解散，但grok还在上新，马斯克官宣新模型.md",
+        "wiki/entities/xai.md",
+        "wiki/entities/grok-v9-medium.md",
+        "wiki/entities/grok-build.md",
+        "wiki/entities/gemini-antigravity.md",
+        "wiki/concepts/终端原生编程智能体.md",
+        "wiki/concepts/plan-mode.md",
+        "wiki/concepts/arena-mode.md",
+        "wiki/concepts/真实开发者工作流数据.md",
+        "wiki/events/xai解散事件.md",
+        "wiki/events/grok-build发布.md",
+        "wiki/events/grok-v9-medium训练完成.md"
+      ]
+    },
+    "不用人类手写训练框架了！ai自己写代码，训出1b端侧「小钢炮」.md": {
+      "hash": "a391a95fc0b59c3fc819ab435671394c673348a3d97d4a5a182148403e0739ef",
+      "timestamp": 1779775795185,
+      "filesWritten": [
+        "wiki/sources/不用人类手写训练框架了！ai自己写代码，训出1b端侧「小钢炮」.md",
+        "wiki/entities/面壁.md",
+        "wiki/entities/minicpm5-1b.md",
+        "wiki/entities/forgetrain.md",
+        "wiki/entities/ultradata.md",
+        "wiki/entities/megatron.md",
+        "wiki/entities/mindspeed.md",
+        "wiki/entities/openbmb.md",
+        "wiki/concepts/密度定律.md",
+        "wiki/concepts/锻造工程.md",
+        "wiki/concepts/ai制造ai.md",
+        "wiki/concepts/端侧模型.md",
+        "wiki/concepts/harness-agent-loop.md",
+        "wiki/concepts/分级数据治理体系.md",
+        "wiki/events/minicpm5-1b发布-20260525.md"
+      ]
+    },
+    "后openclaw时代！国产agent模型凭「高配低价」叫板opus-4.6.md": {
+      "hash": "149feae04532f032c4aa14f0bcbeca6ebb036f147caace2b56f643738f3594e5",
+      "timestamp": 1779776481664,
+      "filesWritten": [
+        "wiki/sources/后openclaw时代！国产agent模型凭「高配低价」叫板opus-4.6.md",
+        "wiki/entities/skyclaw-v1.md",
+        "wiki/entities/昆仑万维.md",
+        "wiki/entities/天工ai.md",
+        "wiki/entities/claude-opus-4-6.md",
+        "wiki/entities/nanobot.md",
+        "wiki/entities/apifree-ai.md",
+        "wiki/concepts/agent模型训练范式.md",
+        "wiki/concepts/后openclaw时代.md",
+        "wiki/concepts/agent模型性价比竞争.md",
+        "wiki/events/skyclaw-v1发布-20260522.md"
+      ]
+    },
+    "acl-2026｜证据摊开看，场景图画清：让流式视频大模型拿捏「何时开口」.md": {
+      "hash": "8763a35b97dfe43d3e9a99b41834ba8e7bae41d30d383495a58b2855424efaba",
+      "timestamp": 1779776822364,
+      "filesWritten": [
+        "wiki/sources/acl-2026｜证据摊开看，场景图画清：让流式视频大模型拿捏「何时开口」.md",
+        "wiki/entities/response-g1.md",
+        "wiki/entities/ovo-bench.md",
+        "wiki/entities/streamingbench.md",
+        "wiki/entities/qwen3-vl-8b.md",
+        "wiki/entities/西北工业大学.md",
+        "wiki/entities/香港科技大学.md",
+        "wiki/concepts/流式视频理解.md",
+        "wiki/concepts/主动交互.md",
+        "wiki/concepts/场景图.md",
+        "wiki/concepts/证据-条件结构化对齐.md",
+        "wiki/concepts/记忆检索.md",
+        "wiki/concepts/触发式提示.md"
+      ]
+    },
+    "openai差点没了？总裁亲述：奥特曼被罢免当天，我就辞职了.md": {
+      "hash": "02a37beab22bbda2c105ebb329a1a84bb47efa324e221fd15c8a7acfaeb99f03",
+      "timestamp": 1779778752665,
+      "filesWritten": [
+        "wiki/sources/openai差点没了？总裁亲述：奥特曼被罢免当天，我就辞职了.md",
+        "wiki/events/openai-2023年11月罢免危机.md",
+        "wiki/concepts/造模型的机器.md",
+        "wiki/entities/emmett-shear.md",
+        "wiki/entities/greg-brockman.md"
+      ]
+    },
+    "ai公司烧不起token了！国产agent杀出，逼近opus-4.6还免费.md": {
+      "hash": "bbdba8e700674346f1d5dd4a756fb36ccd1ee4c133fa81b658004e33700facec",
+      "timestamp": 1779779099130,
+      "filesWritten": [
+        "wiki/sources/ai公司烧不起token了！国产agent杀出，逼近opus-4.6还免费.md",
+        "wiki/entities/skyclaw-v1.md",
+        "wiki/entities/skyclaw-v1-lite.md",
+        "wiki/entities/昆仑万维.md",
+        "wiki/entities/方汉.md",
+        "wiki/entities/apifree-ai.md",
+        "wiki/concepts/agent原生训练.md",
+        "wiki/concepts/轨迹质量评估.md",
+        "wiki/concepts/高性能低成本非互斥.md",
+        "wiki/concepts/旗舰轻量双版本策略.md",
+        "wiki/concepts/agi经济学命题.md",
+        "wiki/events/skyclaw发布-20260526.md"
+      ]
+    },
+    "算法1年翻倍，芯片2年翻倍？重磅实锤：ai正在自我加速，拦不住了.md": {
+      "hash": "f1cca1cc7d91592c54e844416e135ca9b12e45285fb2c3945dcdce1f696ee6ff",
+      "timestamp": 1779779374225,
+      "filesWritten": [
+        "wiki/sources/算法1年翻倍，芯片2年翻倍？重磅实锤：ai正在自我加速，拦不住了.md"
+      ]
+    },
+    "一个月的活一周干完！英伟达世界模型训练速度飙升400%.md": {
+      "hash": "970a06ca690ef7271c9f00c596bd4f87422a7e1d649b6e31a91c99ec8d403461",
+      "timestamp": 1779779812564,
+      "filesWritten": [
+        "wiki/sources/一个月的活一周干完！英伟达世界模型训练速度飙升400%.md",
+        "wiki/entities/rlinf.md",
+        "wiki/entities/dreamzero.md",
+        "wiki/entities/无问芯穹.md",
+        "wiki/entities/清华大学.md",
+        "wiki/entities/英伟达.md",
+        "wiki/concepts/世界动作模型.md",
+        "wiki/concepts/算子融合与计算图优化.md",
+        "wiki/concepts/fsdp2.md",
+        "wiki/concepts/激活重计算.md",
+        "wiki/concepts/视频数据处理管线优化.md"
+      ]
+    },
+    "把vlm塞进隐式世界模型，小鹏机器人新框架让机器人长出物理直觉.md": {
+      "hash": "b2e87dbbbeba3b5c242447d7b63fb815f92f79d3d51794ad7c06eb5e07a24a2e",
+      "timestamp": 1779785673849,
+      "filesWritten": [
+        "wiki/sources/把vlm塞进隐式世界模型，小鹏机器人新框架让机器人长出物理直觉.md"
+      ]
+    },
+    "卡帕西anthropic最新头衔：技术员工（mts）.md": {
+      "hash": "a1867d56127d9f3e51ca29838e055e7d5e75e850ca05b2fddb3c48845ad5b31d",
+      "timestamp": 1779786200892,
+      "filesWritten": [
+        "wiki/sources/卡帕西anthropic最新头衔：技术员工（mts）.md",
+        "wiki/entities/mike-krieger.md",
+        "wiki/entities/peter-bailis.md",
+        "wiki/concepts/mts-技术员工.md",
+        "wiki/events/karpathy-anthropic头衔热议-202605.md"
+      ]
+    },
+    "留给人类数学家的悬赏不多了！谷歌deepmind一口气解决9道埃尔德什问题.md": {
+      "hash": "0529b2efca27dd1719b0d3ab058aa292160d0b33a9788427c27f7f19e010366d",
+      "timestamp": 1779786627456,
+      "filesWritten": [
+        "wiki/sources/留给人类数学家的悬赏不多了！谷歌deepmind一口气解决9道埃尔德什问题.md",
+        "wiki/entities/alphaproof-nexus.md",
+        "wiki/entities/陶哲轩.md",
+        "wiki/entities/paul-erdos.md",
+        "wiki/entities/lean.md",
+        "wiki/entities/aja-huang.md",
+        "wiki/concepts/埃尔德什问题.md",
+        "wiki/concepts/形式化证明循环.md",
+        "wiki/concepts/进化证明搜索.md",
+        "wiki/concepts/ai数学证明成本效益.md",
+        "wiki/events/alphaproof-nexus发布-20260526.md"
+      ]
+    },
+    "龙虾之父教你省钱：开源skill给你的skill减肥.md": {
+      "hash": "c36c8059da24fd7fec45eb353fc09b4f7fbd3f408f603330e135af6c310ef345",
+      "timestamp": 1779786985652,
+      "filesWritten": [
+        "wiki/sources/龙虾之父教你省钱：开源skill给你的skill减肥.md",
+        "wiki/entities/skill-cleaner.md",
+        "wiki/concepts/skill提示词预算管理.md",
+        "wiki/entities/peter-steinberger.md"
+      ]
+    },
+    "画数独、烧蜡烛都不翻车了？浙大&阿里让ai先三思再下笔｜acl-2026.md": {
+      "hash": "dcd59f47edce34795a8e05edf399c3b42d851053e233bf780d69eae4cb744eb0",
+      "timestamp": 1779787246662,
+      "filesWritten": [
+        "wiki/sources/画数独、烧蜡烛都不翻车了？浙大&阿里让ai先三思再下笔｜acl-2026.md",
+        "wiki/entities/unified-thinker.md",
+        "wiki/entities/hierareason-40k.md",
+        "wiki/entities/risebench.md",
+        "wiki/entities/wisebench.md",
+        "wiki/entities/浙江大学.md",
+        "wiki/entities/阿里巴巴.md",
+        "wiki/concepts/思考与执行解耦.md",
+        "wiki/concepts/结构化推理轨迹.md",
+        "wiki/concepts/语义-视觉错位.md",
+        "wiki/concepts/双阶段强化学习.md",
+        "wiki/concepts/先规划后生成.md",
+        "wiki/events/unified-thinker-acl-2026-oral.md"
+      ]
+    },
+    "刚刚，国产ai自己造了ai，全球首例！.md": {
+      "hash": "205744c527164beac82d4eb627baca11e271fb2bcbf6fa96be37828c52eb0ff2",
+      "timestamp": 1779787651780,
+      "filesWritten": [
+        "wiki/sources/刚刚，国产ai自己造了ai，全球首例！.md",
+        "wiki/entities/面壁智能.md",
+        "wiki/entities/forgetrain.md",
+        "wiki/entities/minicpm5-1b.md",
+        "wiki/entities/华为昇腾.md",
+        "wiki/entities/英伟达megatron.md",
+        "wiki/concepts/forge-engineering.md",
+        "wiki/concepts/ai造ai五级分类.md",
+        "wiki/concepts/智能密度翻倍周期.md",
+        "wiki/concepts/端侧模型.md",
+        "wiki/concepts/human-on-the-loop.md",
+        "wiki/events/面壁智能ai造ai发布-20260526.md"
+      ]
+    },
+    "grok最新模型吃上cursor「加餐」，马斯克：coding实现巨大改进.md": {
+      "hash": "3315b20e2c4420cb8be9571f0813264ad1d61c20cb331bb1f7a309029d35f9a8",
+      "timestamp": 1779788247187,
+      "filesWritten": [
+        "wiki/sources/grok最新模型吃上cursor「加餐」，马斯克：coding实现巨大改进.md",
+        "wiki/entities/grok-v9-medium.md",
+        "wiki/entities/grok-build.md",
+        "wiki/entities/xai.md",
+        "wiki/entities/andrew-milich.md",
+        "wiki/entities/jason-ginsberg.md",
+        "wiki/concepts/cursor数据训练.md",
+        "wiki/concepts/计划模式.md",
+        "wiki/concepts/agent-client-protocol.md",
+        "wiki/events/xai收购cursor-202604.md"
+      ]
+    },
+    "0.9b跑出90%真机成功率！上海交大为vla补上空间感.md": {
+      "hash": "95bfb3988a68e4431d7d410335d179b2820f6fbe65cdadc2571f5fe5829f0892",
+      "timestamp": 1779788491614,
+      "filesWritten": [
+        "wiki/sources/0.9b跑出90%真机成功率！上海交大为vla补上空间感.md",
+        "wiki/entities/evo-depth.md",
+        "wiki/entities/上海交大mint团队.md",
+        "wiki/concepts/隐式深度表征.md",
+        "wiki/concepts/flow-matching动作头.md",
+        "wiki/concepts/渐进式对齐训练.md",
+        "wiki/concepts/性能-成本-实时性折中.md"
+      ]
+    },
+    "刚刚，国产agent模型闯入全球第一梯队！限时免费.md": {
+      "hash": "4e13ac6948e9dc55d02a4191796fdf4a5e100f2c7cf87e38d80cc6eee8f18cb0",
+      "timestamp": 1779788723094,
+      "filesWritten": [
+        "wiki/sources/刚刚，国产agent模型闯入全球第一梯队！限时免费.md"
+      ]
     }
   }
 }
