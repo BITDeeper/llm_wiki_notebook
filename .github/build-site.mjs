@@ -41,7 +41,7 @@ console.log(`Mobile Chat: ${config.enableMobileChat ? 'enabled' : 'disabled'}`)
 console.log('\n[1/7] Cloning Quartz...')
 const quartzDir = join(REPO_ROOT, 'quartz-site')
 if (existsSync(quartzDir)) rmSync(quartzDir, { recursive: true, force: true })
-execSync('git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz-site', {
+execSync('git clone --depth 1 --branch v4.5.2 https://github.com/jackyzha0/quartz.git quartz-site', {
   stdio: 'pipe', cwd: REPO_ROOT,
 })
 console.log('Installing dependencies...')
