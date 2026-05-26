@@ -30774,6 +30774,179 @@
       "filesWritten": [
         "wiki/sources/华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资.md"
       ]
+    },
+    "解码加速15倍！edgerazor助推大模型在pc移动端“狂飙”.md": {
+      "hash": "579f510ceaff4bc964559facd05e1024c1fd57f5ce1b516e8dd08395920fa4e5",
+      "timestamp": 1779717411739,
+      "filesWritten": [
+        "wiki/sources/解码加速15倍！edgerazor助推大模型在pc移动端“狂飙”.md",
+        "wiki/entities/edgerazor.md",
+        "wiki/entities/南京大学lamda团队.md",
+        "wiki/entities/微软ai.md",
+        "wiki/entities/张绍群.md",
+        "wiki/concepts/混合精度量化感知蒸馏.md",
+        "wiki/concepts/量化不可能三角.md",
+        "wiki/concepts/混合精度结构量化.md",
+        "wiki/concepts/层自适应特征蒸馏.md",
+        "wiki/concepts/熵感知kl散度.md"
+      ]
+    },
+    "并购激励金都不要了？全程踩中ai-coding，windsurf核心工程师离开deepmind.md": {
+      "hash": "60fa617b4ba8cd12b32a01671a499d61cdbae85bfbd79ce9b7810b92e60cb75c",
+      "timestamp": 1779717703711,
+      "filesWritten": [
+        "wiki/sources/并购激励金都不要了？全程踩中ai-coding，windsurf核心工程师离开deepmind.md",
+        "wiki/entities/ronak-malde.md",
+        "wiki/entities/windsurf.md",
+        "wiki/entities/codeium.md",
+        "wiki/entities/swe-1.md",
+        "wiki/entities/antigravity.md",
+        "wiki/concepts/agentic-coding.md",
+        "wiki/concepts/技术许可式收购.md",
+        "wiki/events/windsurf-google技术许可交易-202507.md",
+        "wiki/events/ronak-malde离开deepmind-202605.md"
+      ]
+    },
+    "verl-omni：面向扩散和全模态生成模型的通用rl后训练框架.md": {
+      "hash": "ce04698c7777e8352591f7d15a5fe8698b7c38ec3d55c1f5cd90790e302ebd81",
+      "timestamp": 1779717936662,
+      "filesWritten": [
+        "wiki/sources/verl-omni：面向扩散和全模态生成模型的通用rl后训练框架.md",
+        "wiki/entities/verl-omni.md",
+        "wiki/entities/verl.md",
+        "wiki/entities/vllm-omni.md",
+        "wiki/concepts/多模态生成rl后训练.md",
+        "wiki/concepts/flowgrpo.md",
+        "wiki/concepts/异构rollout流水线.md",
+        "wiki/concepts/vlm-as-judge.md",
+        "wiki/concepts/扩散transformer.md",
+        "wiki/concepts/奖励计算与训练overlap.md"
+      ]
+    },
+    "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md": {
+      "hash": "0c5a181d50328e2b59321a282043e87bcd23eae7ecf4c09f070f8995cde1577d",
+      "timestamp": 1779718181811,
+      "filesWritten": [
+        "wiki/sources/一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md",
+        "wiki/entities/alphaproof-nexus.md",
+        "wiki/entities/alphaproof.md",
+        "wiki/entities/gemini-3-1-pro.md",
+        "wiki/entities/gemini-3-0-flash.md",
+        "wiki/entities/paul-erdős.md",
+        "wiki/entities/lean-形式化证明语言.md",
+        "wiki/concepts/形式化证明搜索.md",
+        "wiki/concepts/erdős问题.md",
+        "wiki/concepts/基础智能体-vs-全功能智能体架构.md",
+        "wiki/events/deepmind解决9个erdős问题-202605.md",
+        "wiki/events/openai推翻单位距离猜想-202605.md"
+      ]
+    },
+    "性能超越李飞飞，他们把10亿高斯点的3d世界装进浏览器.md": {
+      "hash": "8bda78eaa5f55799d3a0834a9fb270325160fd52de7a5c4e831419fbb5af1f3c",
+      "timestamp": 1779718644821,
+      "filesWritten": [
+        "wiki/sources/性能超越李飞飞，他们把10亿高斯点的3d世界装进浏览器.md",
+        "wiki/entities/群核科技.md",
+        "wiki/entities/aholo-viewer.md",
+        "wiki/entities/aholo平台.md",
+        "wiki/entities/李飞飞.md",
+        "wiki/entities/world-labs.md",
+        "wiki/entities/spark-2.0.md",
+        "wiki/entities/interiorgs.md",
+        "wiki/concepts/3d高斯泼溅.md",
+        "wiki/concepts/chunk-based-lod-tree.md",
+        "wiki/concepts/splat-based-lod-tree.md",
+        "wiki/concepts/空间智能.md",
+        "wiki/concepts/世界模型.md",
+        "wiki/concepts/3d数据飞轮.md",
+        "wiki/events/3dgs浏览器开源竞赛-202605.md"
+      ]
+    },
+    "人类56年解不出，谷歌ai一夜连破9道世纪难题！.md": {
+      "hash": "07c77b87aea19363b463b1bc1a782c4200d922ea6325624c9a7613fb12174cf3",
+      "timestamp": 1779721086782,
+      "filesWritten": [
+        "wiki/sources/人类56年解不出，谷歌ai一夜连破9道世纪难题！.md",
+        "wiki/entities/alphaproof-nexus.md",
+        "wiki/entities/alphaproof-初代.md",
+        "wiki/entities/paul-erdős.md",
+        "wiki/entities/timothy-gowers.md",
+        "wiki/entities/mario-krenn.md",
+        "wiki/entities/lean-编译器.md",
+        "wiki/concepts/erdős开放问题.md",
+        "wiki/concepts/ai数学证明双路线.md",
+        "wiki/concepts/数学奇点.md",
+        "wiki/concepts/编译器反馈锚定.md",
+        "wiki/concepts/进化算法-llm-lean三合一架构.md",
+        "wiki/events/alphaproof-nexus攻克erdős难题-202605.md"
+      ]
+    },
+    "gpt-5.6泄露了！.md": {
+      "hash": "f5b35515cf3761d10461dcb9bc16c3f32e5814920058d8df91c70f86c96f7348",
+      "timestamp": 1779721239282,
+      "filesWritten": [
+        "wiki/sources/gpt-5.6泄露了！.md"
+      ]
+    },
+    "codex自我蒸馏玩法火了！openai员工亲授：复制粘贴就能让ai消灭重复劳动.md": {
+      "hash": "3ce5e0712ae433ced51969b2bd1b224d7d636a1669d9d6f61dd72063062e7f2f",
+      "timestamp": 1779728191703,
+      "filesWritten": [
+        "wiki/sources/codex自我蒸馏玩法火了！openai员工亲授：复制粘贴就能让ai消灭重复劳动.md",
+        "wiki/entities/vaibhav-srivastav.md",
+        "wiki/concepts/codex自我蒸馏.md",
+        "wiki/concepts/codex-chronicle.md",
+        "wiki/concepts/codex-memory.md",
+        "wiki/concepts/codex-subagent.md",
+        "wiki/concepts/codex-goal命令.md",
+        "wiki/entities/huggingface.md"
+      ]
+    },
+    "京东joyinside戴文军：ai的终极形态不是聊天，是融入你家每一件物品丨aigc2026.md": {
+      "hash": "a1e847c404f7b77d1c273b493c00eec9796074f18845d57692ae472a3590dbce",
+      "timestamp": 1779728413574,
+      "filesWritten": [
+        "wiki/sources/京东joyinside戴文军：ai的终极形态不是聊天，是融入你家每一件物品丨aigc2026.md",
+        "wiki/entities/京东.md",
+        "wiki/entities/戴文军.md",
+        "wiki/entities/joyinside.md",
+        "wiki/entities/joyai.md",
+        "wiki/entities/宇树机器人.md",
+        "wiki/entities/松延机器人.md",
+        "wiki/entities/京东mall.md",
+        "wiki/entities/京东京造.md",
+        "wiki/entities/tgt顶尖青年技术天才计划.md",
+        "wiki/concepts/ai-world.md",
+        "wiki/concepts/附身智能.md",
+        "wiki/concepts/ai价值公式.md",
+        "wiki/concepts/去中心化ai入口.md",
+        "wiki/concepts/全品类ai化.md",
+        "wiki/events/joyinside创新创业大赛-2026.md",
+        "wiki/events/戴文军aigc2026演讲.md",
+        "wiki/log.md"
+      ]
+    },
+    "视觉分割进入下半场：conceptseg-r1-开启“分割任意概念”新范式.md": {
+      "hash": "114e04de2366b007ef7550a5c74a0cb9eb9877af7d47d9dcd4043c2cd342ffdb",
+      "timestamp": 1779731791978,
+      "filesWritten": [
+        "wiki/sources/视觉分割进入下半场：conceptseg-r1-开启“分割任意概念”新范式.md",
+        "wiki/entities/conceptseg-r1.md",
+        "wiki/entities/南洋理工大学.md",
+        "wiki/entities/大连理工大学.md",
+        "wiki/entities/sam-segment-anything-model.md",
+        "wiki/concepts/概念分割.md",
+        "wiki/concepts/meta-grpo.md",
+        "wiki/concepts/概念翻译模块.md",
+        "wiki/concepts/快捷路由.md"
+      ]
+    },
+    "告别多奖励跷跷板：flow-opd将多教师opd带入图像生成.md": {
+      "hash": "fde7797c8b84f677130cbfc1e4ea62190733e82a4ab6a77f7a4596f9e1dac6ad",
+      "timestamp": 1779757557148,
+      "filesWritten": [
+        "wiki/sources/告别多奖励跷跷板：flow-opd将多教师opd带入图像生成.md"
+      ]
     }
   }
 }

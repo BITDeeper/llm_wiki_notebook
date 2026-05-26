@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Gemini 3.1 Pro
-tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use]
-related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent"]
-sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md"]
+tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型]
+related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash"]
+sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md"]
 created: 2026-04-30
 updated: 2026-05-25
 ---
 
 # Gemini 3.1 Pro
 
-[[Gemini 3.1 Pro]] 是由 [[google-deepmind]] 于 2026 年 2 月 20 日发布的大语言模型，作为 [[Gemini]] 3 Pro 的继任者。这是谷歌首次在模型命名中采用".1"版本号，标志着模型迭代速度的加快。它不仅是企业级 AI 工作流的关键底座，也是驱动 Deep Research 和 Deep Research Max 两款研究智能体的核心引擎。
+[[Gemini 3.1 Pro]] 是由 [[google-deepmind]] 于 2026 年 2 月 20 日发布的大语言模型，作为 [[Gemini]] 3 Pro 的继任者。这是谷歌首次在模型命名中采用".1"版本号，标志着模型迭代速度的加快。它不仅是企业级 AI 工作流的关键底座，也是驱动 Deep Research 和 Deep Research Max 两款研究智能体的核心引擎，同时在 [[alphaproof-nexus]] 框架中担任基础智能体的底层推理引擎。
 
 ## 核心特性
 
@@ -33,6 +33,15 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 ### 驱动双智能体
 - **Deep Research**：利用 Gemini 3.1 Pro 的低延迟特性，提供快速的交互式研究体验。
 - **Deep Research Max**：利用模型的扩展推理能力，配合 [[test-time-compute]]（测试时计算），实现高精度的复杂分析。
+
+### 在 AlphaProof Nexus 中的角色
+在 [[alphaproof-nexus]] 框架中，Gemini 3.1 Pro 担任基础智能体的底层推理引擎，具体职责包括：
+- 通过"思考链"推理进行数学证明的宏观规划与微观推导
+- 调用搜索和替换工具修改代码草图
+- 利用 Lean 编译器的报错信息进行自我反思和修正
+- 在多轮交互循环中不断迭代直至填补所有证明漏洞
+
+实验表明，仅依赖 Gemini 3.1 Pro + Lean 编译器反馈循环的极简架构，就能解决所有 9 个 [[erdős问题]]。这证明了该模型的原生推理能力已达到研究级数学问题求解的水平，且在绝对客观的编译器反馈锚定下，通用大模型的推理效能正在展现出惊人表现。
 
 ### 成本效益（帕累托前沿）
 该模型被视为推进了 [[pareto-front]]（帕累托前沿）。在保持高性能的同时，大幅降低了智能成本。完成一次 ARC-AGI-2 任务仅需约 **0.96 美元**，而 Gemini 3 Deep Think 的成本是其 10 倍，性能差异却极小。此外，其 API 调用成本仅为 Claude Opus 4.6 的一半不到，展现了极高的性价比。

@@ -1,23 +1,23 @@
 ---
 type: entity
 title: Antigravity
-tags: [google, platform, development, ai-coding, agent, acquisition, ai-ide, 谷歌, 开发工具, ai编程, ide, 开发者工具]
-related: ["agent-smith", "google", "gemini", "windsurf", "varun-mohan", "google-ai-studio", "谷歌", "openclaw", "claude-code", "openai", "ai编程飞轮"]
+tags: [google, platform, development, ai-coding, agent, acquisition, ai-ide, 谷歌, 开发工具, ai编程, ide, 开发者工具, 产品, agentic-coding, deepmind]
+related: ["agent-smith", "google", "gemini", "windsurf", "varun-mohan", "google-ai-studio", "谷歌", "openclaw", "claude-code", "openai", "ai编程飞轮", "google-deepmind", "ronak-malde", "agentic-coding"]
 created: 2026-03-28
-updated: 2026-05-22
-sources: ["黑客帝国在谷歌成真？绝密ai曝光-服务器挤爆，布林狂肝代码不停.md", "ai三巨头72小时狂扫桌面agent！openai三合一，谷歌秘测mac版.md", "谷歌开始大面积封禁openclaw用户账号！.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md"]
-origin_date: 2026-01-01
+updated: 2026-05-25
+sources: ["黑客帝国在谷歌成真？绝密ai曝光-服务器挤爆，布林狂肝代码不停.md", "ai三巨头72小时狂扫桌面agent！openai三合一，谷歌秘测mac版.md", "谷歌开始大面积封禁openclaw用户账号！.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "并购激励金都不要了？全程踩中ai-coding，windsurf核心工程师离开deepmind.md"]
+origin_date: 2025-01-01
 ---
 
 # Antigravity
 
-[[Antigravity]]（反重力）是 [[Google]] 于 2025 年 11 月推出的内部 AI 编程平台/IDE。该平台被定义为"[[Agent 优先]]"的 AI IDE（集成开发环境），旨在支持 AI 自主规划、执行和验证完整的编码任务，并允许开发者调用 [[Gemini]] 模型进行辅助编程。
+[[Antigravity]]（反重力）是 [[Google]] / [[Google DeepMind|DeepMind]] 于 2025 年 11 月推出的内部 AI 编程平台/IDE，包含 CLI 版本（Antigravity CLI）。该平台被定义为"[[Agent 优先]]"的 AI IDE（集成开发环境），旨在支持 AI 自主规划、执行和验证完整的编码任务，并允许开发者调用 [[Gemini]] 模型进行辅助编程。该项目是 DeepMind 在 [[agentic-coding|智能体编程]] 方向的核心布局之一，与 Gemini 项目协同推进。
 
 ## 技术背景与收购
 
 Antigravity 的核心技术源自 [[Google]] 斥资 24 亿美元对代码编辑器 [[Windsurf]] 团队的收购与整合。
 
-- **团队来源**：谷歌挖来了 [[Windsurf]] 的 CEO [[Varun Mohan]] 及其整个核心研发团队，并获得了技术授权。Varun Mohan 目前担任谷歌 DeepMind 工程师，负责搭建该平台。
+- **团队来源**：谷歌挖来了 [[Windsurf]] 的 CEO [[Varun Mohan]] 及其整个核心研发团队，并获得了技术授权。Varun Mohan 目前担任谷歌 DeepMind 工程师，负责搭建该平台。[[Ronak Malde]] 也在 DeepMind 期间参与了该项目的发布。
 - **社区反应**：开发者社区在 [[Google AI Studio]] 的代码中发现了 [[Windsurf]] 相关 Agent 的痕迹，戏称这是"科技史上最贵的 fork"。
 
 ## 核心功能
