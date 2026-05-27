@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": 1779788717261,
+  "updatedAt": 1779847068431,
   "files": {
     "purpose.md": {
       "hash": "2e09e6db048996b07ebc25895892f00f",
@@ -3712,6 +3712,11 @@
       "size": 8884,
       "mtimeMs": 1778470238121
     },
+    "raw/sources/rss/cvpr丹佛之约｜上海ai-lab“北极星x星启”交流会盛邀全球ai英才.md": {
+      "hash": "7a88cc9f0d353a250f59aee3e495af81",
+      "size": 2436,
+      "mtimeMs": 1779803620832
+    },
     "raw/sources/rss/cvpr冠军代码开源！小米svor破解视频消除三大“顽疾”，连人带影一键抹除.md": {
       "hash": "165ef49e1eab9c760559d63ab77170aa",
       "size": 7556,
@@ -5026,6 +5031,11 @@
       "hash": "5d79a296dcc8093498eaf78009cd55ea",
       "size": 17024,
       "mtimeMs": 1779422807988
+    },
+    "raw/sources/rss/icml-2026-哈工深等开源cvsearch：首创认知驱动视觉搜索，让大模型学会“看重点”.md": {
+      "hash": "182882353d847395dd0c0a1e1b1d064e",
+      "size": 6230,
+      "mtimeMs": 1779846820261
     },
     "raw/sources/rss/icml-2026-大模型内部也会长出「情绪树」，规模越大越懂人心.md": {
       "hash": "3171ab97d6d7df490389f5363071cef0",
@@ -6592,6 +6602,11 @@
       "size": 6114,
       "mtimeMs": 1778469650466
     },
+    "raw/sources/rss/paravt：走向并行-agentic-视频推理的多智能体强化学习训练框架.md": {
+      "hash": "a51ff23e916d907634d5586256e046a1",
+      "size": 9957,
+      "mtimeMs": 1779789224753
+    },
     "raw/sources/rss/percept-wam：真正「看懂世界」的自动驾驶大脑，感知到行动的一体化模型.md": {
       "hash": "312fd9598f2da1cdd0e97076bd56a82c",
       "size": 13775,
@@ -6611,6 +6626,11 @@
       "hash": "dbdabd5ced3e4727879290345b21faf4",
       "size": 7593,
       "mtimeMs": 1778469800080
+    },
+    "raw/sources/rss/python逆天改命！开源hermes首次击败openai-codex.md": {
+      "hash": "308e17e23654f5cc73ef6c8ccefe3c42",
+      "size": 6564,
+      "mtimeMs": 1779835993078
     },
     "raw/sources/rss/p图新手福音！智能修图agent一句话精准调用200+专业工具，腾讯混元&厦大出品.md": {
       "hash": "07f0b9b06a6d049403f6b8d50f5e0116",
@@ -6892,6 +6912,11 @@
       "size": 7380,
       "mtimeMs": 1778470285903
     },
+    "raw/sources/rss/stream-t1-｜-实时视频生成的test-time-scaling首次系统探索，提升长视频生成时序稳定性.md": {
+      "hash": "c4d660309981e3e8e5a5fd24ae7e7d1b",
+      "size": 5508,
+      "mtimeMs": 1779818026191
+    },
     "raw/sources/rss/suno、udio都被它干翻！中国ai音乐模型拿下aa全球榜单双料冠军.md": {
       "hash": "c834a567bf14391a0c4eed59bb9b6d12",
       "size": 9694,
@@ -6911,6 +6936,11 @@
       "hash": "b7bcdb9bb5e8a4869e84abc7e0993bab",
       "size": 9852,
       "mtimeMs": 1778469650593
+    },
+    "raw/sources/rss/t-pami｜中国科大、合工大等提出caper++：让关节物体位姿感知真正迈向「又快又稳」.md": {
+      "hash": "43d83225a4e2558c343f4b4a0b2c9626",
+      "size": 14796,
+      "mtimeMs": 1779803620961
     },
     "raw/sources/rss/taco-让-cli-agent-在自主迭代中学会丢掉无用上下文.md": {
       "hash": "366eed8cf6a77a3787a188fc690d9660",
@@ -8307,6 +8337,11 @@
       "size": 17960,
       "mtimeMs": 1778469968013
     },
+    "raw/sources/rss/专治世界模型幻觉！eccv-2026-workshop征稿，sergey出席，帝国理工等联合发起.md": {
+      "hash": "9291714fb10c7c344f6c72b12f5fb84b",
+      "size": 5163,
+      "mtimeMs": 1779814410745
+    },
     "raw/sources/rss/专访中科第五纪黄岩：在具身智能的狂热中，做一位技术实干家.md": {
       "hash": "cd5b0c83c4fd136da7908796e09b57a8",
       "size": 24355,
@@ -8886,6 +8921,11 @@
       "hash": "1552ef25f8a23e3304eb50d4d0eb7842",
       "size": 13446,
       "mtimeMs": 1778470213854
+    },
+    "raw/sources/rss/从openai-ai-phone到gemini-on-android：ai手机时代需要怎样的agent-harness？.md": {
+      "hash": "9c6549e71d8bc71f3d30c2e5e471ad76",
+      "size": 11213,
+      "mtimeMs": 1779803620800
     },
     "raw/sources/rss/从token到词元：全模态时代的基模与交互入口.md": {
       "hash": "7e2ef467b7f9429bdfb6e1d9afcdd806",
@@ -10211,6 +10251,11 @@
       "hash": "b0e89437264e92ffc68cec8d9292ccfd",
       "size": 16207,
       "mtimeMs": 1778469991955
+    },
+    "raw/sources/rss/刚刚，中国ai闯入全球编程前二！前面只剩claude.md": {
+      "hash": "ceb473421df96ea26eaa541eea51eabf",
+      "size": 7246,
+      "mtimeMs": 1779835993099
     },
     "raw/sources/rss/刚刚，云计算一哥出手，大家ai-agent自由了.md": {
       "hash": "a883c47ae919730e58a64ce46eb09131",
@@ -12542,6 +12587,11 @@
       "size": 6132,
       "mtimeMs": 1778469676128
     },
+    "raw/sources/rss/安卓开发被vibe-coding接管了？谷歌把搓app门槛彻底打下来，一周搓出25万个.md": {
+      "hash": "17881071c6640e448aeff706f7249e08",
+      "size": 11110,
+      "mtimeMs": 1779803621010
+    },
     "raw/sources/rss/安卓彻底变了！gemini接管所有屏幕，苹果连影子都没追上.md": {
       "hash": "0cc975c14230fa359b223bf8453432e9",
       "size": 10793,
@@ -12641,6 +12691,11 @@
       "hash": "72154a010a17eff93a9a2794d8803f18",
       "size": 6222,
       "mtimeMs": 1778469790750
+    },
+    "raw/sources/rss/将dsa注意力引入多模态，快手keye2.0开启强化推理新范式.md": {
+      "hash": "3c7ba7b1c4ddcdf0bcb093cb7c5f872b",
+      "size": 20062,
+      "mtimeMs": 1779814410865
     },
     "raw/sources/rss/将注意力旋转-90-度！今天，kimi-的「注意力残差」火了.md": {
       "hash": "63937038d4682086d4cea000c84aee83",
@@ -19502,6 +19557,11 @@
       "size": 5578,
       "mtimeMs": 1778469650408
     },
+    "raw/sources/rss/马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md": {
+      "hash": "5216969d6f3a4b4b007c2999ba951a42",
+      "size": 6683,
+      "mtimeMs": 1779835993290
+    },
     "raw/sources/rss/马斯克最大算力中心建成了：全球首个gw级超算集群，再创世界纪录.md": {
       "hash": "69b2346e22e633d056465696eafb777f",
       "size": 4945,
@@ -19546,6 +19606,11 @@
       "hash": "7260623681fc0b8808aed28204894199",
       "size": 9825,
       "mtimeMs": 1778469896790
+    },
+    "raw/sources/rss/马斯克甩出两张王牌，grok-build杀入ai编程.md": {
+      "hash": "f961db9f3d22dbde4ddec891aa2de8a8",
+      "size": 9554,
+      "mtimeMs": 1779835993171
     },
     "raw/sources/rss/马斯克的gpu也在摸鱼？狂囤几十万张显卡，只有11%在干活.md": {
       "hash": "2c08d33bbbb09a372854f8716d48f539",
@@ -20507,6 +20572,11 @@
       "size": 1488,
       "mtimeMs": 1778233535954
     },
+    "wiki/concepts/agent-centric设备范式.md": {
+      "hash": "be1acdb72d08b3db38a1ced54dbbd2cf",
+      "size": 1894,
+      "mtimeMs": 1779843504922
+    },
     "wiki/concepts/agent-client-protocol.md": {
       "hash": "c33bde1a5e115b2d1dcd73b094e9ec64",
       "size": 736,
@@ -20812,6 +20882,11 @@
       "size": 3321,
       "mtimeMs": 1778101121190
     },
+    "wiki/concepts/agentic-video-reasoning.md": {
+      "hash": "b59a3000138d8b0d417e2c593a86bf36",
+      "size": 1294,
+      "mtimeMs": 1779789446156
+    },
     "wiki/concepts/agentic-vision.md": {
       "hash": "eadb194d6ae780d205acc3f413642128",
       "size": 2956,
@@ -20911,6 +20986,11 @@
       "hash": "07f228eac42b19fd22c04ec09489d0b6",
       "size": 1493,
       "mtimeMs": 1778018994565
+    },
+    "wiki/concepts/agent基座模型.md": {
+      "hash": "7b81c1f913d78bbbd58b94dfce032db4",
+      "size": 1697,
+      "mtimeMs": 1779836300828
     },
     "wiki/concepts/agent基础设施化.md": {
       "hash": "cc126d396292f9d436bd320e3cc8f67c",
@@ -24177,6 +24257,11 @@
       "size": 1106,
       "mtimeMs": 1778159952123
     },
+    "wiki/concepts/context-rl.md": {
+      "hash": "0c50ad35f0cbfa09ab8e1198fcd824e6",
+      "size": 1550,
+      "mtimeMs": 1779844123232
+    },
     "wiki/concepts/context-污染.md": {
       "hash": "d9d6bd61e01c90c2772db9b528927249",
       "size": 1329,
@@ -24376,6 +24461,11 @@
       "hash": "41d6bd66c56fb84dee382ab8b6fc6bc0",
       "size": 1488,
       "mtimeMs": 1779788223571
+    },
+    "wiki/concepts/cursor编程交互数据训练.md": {
+      "hash": "da4b7ed13c9745d88cb70efdb2f77c30",
+      "size": 1837,
+      "mtimeMs": 1779836746409
     },
     "wiki/concepts/cxl-内存池化.md": {
       "hash": "0e55363ab6c4255f1200fdc1b1e0dab2",
@@ -24777,6 +24867,11 @@
       "size": 875,
       "mtimeMs": 1779484473146
     },
+    "wiki/concepts/dsa稀疏注意力.md": {
+      "hash": "64a18cc581fa82dface08e046a073493",
+      "size": 1908,
+      "mtimeMs": 1779844123221
+    },
     "wiki/concepts/dspo.md": {
       "hash": "c6be65d90264153a11086f9ef97545a1",
       "size": 898,
@@ -25062,10 +25157,20 @@
       "size": 2041,
       "mtimeMs": 1779435087383
     },
+    "wiki/concepts/exploration-anchoring.md": {
+      "hash": "cdb6582021666b9453299996f7c763f0",
+      "size": 1293,
+      "mtimeMs": 1779789446174
+    },
     "wiki/concepts/extended-effective-interaction.md": {
       "hash": "59c3414f9ec1e42df0c6dcd3a54662c5",
       "size": 1169,
       "mtimeMs": 1778259120483
+    },
+    "wiki/concepts/extraio架构.md": {
+      "hash": "a32e9fac805859f038feeedcea11de1a",
+      "size": 1280,
+      "mtimeMs": 1779844123235
     },
     "wiki/concepts/f2b.md": {
       "hash": "2eecc088be560f7629c9f88c09dfe2c9",
@@ -25206,6 +25311,11 @@
       "hash": "7c3d6b6b99cba08dc09a3a23f68cd331",
       "size": 1466,
       "mtimeMs": 1778179404075
+    },
+    "wiki/concepts/format-fragility.md": {
+      "hash": "c6333c3c36511f5586534d9756707205",
+      "size": 1399,
+      "mtimeMs": 1779789446161
     },
     "wiki/concepts/forward-kl.md": {
       "hash": "1cbfa10f197dad05cef378954b8971dd",
@@ -26942,6 +27052,11 @@
       "size": 1880,
       "mtimeMs": 1777992686544
     },
+    "wiki/concepts/mopd.md": {
+      "hash": "97f188121057c6dd243c85619dcaf9ea",
+      "size": 1910,
+      "mtimeMs": 1779844123227
+    },
     "wiki/concepts/mope.md": {
       "hash": "f6023bdea1bfc665b3fbc238dbac5ce9",
       "size": 1455,
@@ -27206,6 +27321,11 @@
       "hash": "978669c09b50220431c6304c939b07f9",
       "size": 853,
       "mtimeMs": 1779495039363
+    },
+    "wiki/concepts/nframes-gating.md": {
+      "hash": "d1cea1a1c9483304aac84a26d818c1dc",
+      "size": 1316,
+      "mtimeMs": 1779789446182
     },
     "wiki/concepts/nmpa三类证.md": {
       "hash": "941be8094b5be1ffd928b16537a7e8f2",
@@ -29777,6 +29897,16 @@
       "size": 1580,
       "mtimeMs": 1778269521826
     },
+    "wiki/concepts/tool-necessity-gap.md": {
+      "hash": "b31fc717e45ae4179f1d180e5be676aa",
+      "size": 1343,
+      "mtimeMs": 1779789446167
+    },
+    "wiki/concepts/tool-prior-paradox.md": {
+      "hash": "8e184a02262b82931426ceacb540a9eb",
+      "size": 2508,
+      "mtimeMs": 1779789446143
+    },
     "wiki/concepts/tool-search.md": {
       "hash": "a35b02166a5c8a1c288bc3dd8f1f6e10",
       "size": 2946,
@@ -30261,6 +30391,11 @@
       "hash": "95f004e9f4cd05ca3903d452e7c61ff4",
       "size": 1048,
       "mtimeMs": 1778103467097
+    },
+    "wiki/concepts/weight-sharing多智能体体系.md": {
+      "hash": "20cc376b0c1c5ff55447016bdf576063",
+      "size": 1401,
+      "mtimeMs": 1779789446190
     },
     "wiki/concepts/white-collar-massacre.md": {
       "hash": "b4eb0e43f70a68c6af044286eb6d0539",
@@ -30868,9 +31003,9 @@
       "mtimeMs": 1778022598580
     },
     "wiki/concepts/上下文腐化.md": {
-      "hash": "58951a12ea116b1e6c267905ca55a35f",
-      "size": 1291,
-      "mtimeMs": 1778135590880
+      "hash": "681bd4998f6c2bbeaecb7d753e07afc4",
+      "size": 2543,
+      "mtimeMs": 1779836320009
     },
     "wiki/concepts/上下文腐烂.md": {
       "hash": "bf04591041a96fa8919afd4300928785",
@@ -31073,9 +31208,9 @@
       "mtimeMs": 1779425382481
     },
     "wiki/concepts/世界模型.md": {
-      "hash": "a658faa627b89e3d1bc21a495fe51602",
-      "size": 16722,
-      "mtimeMs": 1779718638430
+      "hash": "e2387b63894eba313dae8e90f452d03e",
+      "size": 16862,
+      "mtimeMs": 1779843906499
     },
     "wiki/concepts/世界模型不一致.md": {
       "hash": "e13c75943d16f1967ed536a4425ff663",
@@ -33042,6 +33177,11 @@
       "size": 1453,
       "mtimeMs": 1778012645483
     },
+    "wiki/concepts/免训练框架.md": {
+      "hash": "7e0ae2931f9bffba5a143f135e71c560",
+      "size": 1174,
+      "mtimeMs": 1779847065680
+    },
     "wiki/concepts/免费引导.md": {
       "hash": "76b1d48db80859767ef619e1fc5551eb",
       "size": 1495,
@@ -34492,6 +34632,11 @@
       "size": 1861,
       "mtimeMs": 1779476491909
     },
+    "wiki/concepts/动作世界模型.md": {
+      "hash": "fe6436204375b2ce22f702514aa78ea5",
+      "size": 1502,
+      "mtimeMs": 1779843906507
+    },
     "wiki/concepts/动作分块.md": {
       "hash": "d4d736af3f22c4e78a6980c432bb468f",
       "size": 1276,
@@ -34562,10 +34707,20 @@
       "size": 1547,
       "mtimeMs": 1778263384583
     },
+    "wiki/concepts/动态累积生存博弈.md": {
+      "hash": "9131f749acc57e0293531fac3ee2ccd8",
+      "size": 1564,
+      "mtimeMs": 1779836300838
+    },
     "wiki/concepts/动态维度缩减.md": {
       "hash": "79ed2e959b1fb1577916963c1a90e47a",
       "size": 1545,
       "mtimeMs": 1778261921705
+    },
+    "wiki/concepts/动态自下而上搜索.md": {
+      "hash": "efae31d40e9a8048e9ebfbca214a15e0",
+      "size": 1377,
+      "mtimeMs": 1779847065690
     },
     "wiki/concepts/动态补全能力.md": {
       "hash": "c9b0bc853ebc8ced751cae95d5d801bd",
@@ -35876,6 +36031,11 @@
       "hash": "78e3d32a8fc72ce5e4239de15d2686c8",
       "size": 1303,
       "mtimeMs": 1779486697007
+    },
+    "wiki/concepts/可验证副作用.md": {
+      "hash": "bc65151182f1260da3dbba6c5616e873",
+      "size": 1916,
+      "mtimeMs": 1779843504918
     },
     "wiki/concepts/可验证推理.md": {
       "hash": "d10c022e1cb0e123d4fecf61e3e1fdd3",
@@ -38827,6 +38987,11 @@
       "size": 2100,
       "mtimeMs": 1778267543739
     },
+    "wiki/concepts/并行视频工具调用.md": {
+      "hash": "6e4febdca48a10801fe0b8b53471d18d",
+      "size": 2157,
+      "mtimeMs": 1779789446149
+    },
     "wiki/concepts/并行验证循环.md": {
       "hash": "f329e4e3321a8f1ed638292c86df90d1",
       "size": 2177,
@@ -39998,9 +40163,9 @@
       "mtimeMs": 1779433732403
     },
     "wiki/concepts/执行轨迹审计.md": {
-      "hash": "fd6789961c967ed071578b551b9179b2",
-      "size": 1155,
-      "mtimeMs": 1778481374852
+      "hash": "b9374d27f0fb4b87e2f482872b69b42d",
+      "size": 2567,
+      "mtimeMs": 1779843515329
     },
     "wiki/concepts/执行透明度.md": {
       "hash": "7ef3475c277bb6ac0ea002a0aebfabe6",
@@ -42592,6 +42757,11 @@
       "size": 1919,
       "mtimeMs": 1778029402501
     },
+    "wiki/concepts/架构优于语言.md": {
+      "hash": "f4d798ed3a1936824b161e1941e5cb20",
+      "size": 1681,
+      "mtimeMs": 1779836143457
+    },
     "wiki/concepts/架构彩票.md": {
       "hash": "2a94c24eb27d406c14a8bae885460ce8",
       "size": 2020,
@@ -42706,6 +42876,11 @@
       "hash": "2855f25d91a661fd172eb15e797f190c",
       "size": 1260,
       "mtimeMs": 1778104124846
+    },
+    "wiki/concepts/框架开销优化.md": {
+      "hash": "e4c2f5cdf1912f70193a3794c8a8c8a2",
+      "size": 1834,
+      "mtimeMs": 1779836143488
     },
     "wiki/concepts/桌拒.md": {
       "hash": "a0394b1ee3d9cb64321d415ed7ded7a8",
@@ -43722,6 +43897,11 @@
       "size": 1475,
       "mtimeMs": 1777962592798
     },
+    "wiki/concepts/混合动作空间.md": {
+      "hash": "3c093313773b49f026d920da0c96adcd",
+      "size": 2008,
+      "mtimeMs": 1779843504908
+    },
     "wiki/concepts/混合型创作者.md": {
       "hash": "133e0c22e40a61d40b8251a3efc855bb",
       "size": 1432,
@@ -44312,6 +44492,11 @@
       "size": 1132,
       "mtimeMs": 1778210859074
     },
+    "wiki/concepts/物理幻觉.md": {
+      "hash": "25690f5c3c09d6e355b061b17dcdf1a2",
+      "size": 1793,
+      "mtimeMs": 1779843906503
+    },
     "wiki/concepts/物理战争.md": {
       "hash": "d5c804bafaeeb169b6d6f519ab01cbbb",
       "size": 1612,
@@ -44451,6 +44636,11 @@
       "hash": "8357ea852b1956bac660ff2964722c84",
       "size": 1296,
       "mtimeMs": 1779447614193
+    },
+    "wiki/concepts/环境扩展训练.md": {
+      "hash": "b46213a1901b3148a8ead65799854f4b",
+      "size": 1532,
+      "mtimeMs": 1779836300831
     },
     "wiki/concepts/环境扰动.md": {
       "hash": "2cac127a35c195a5315302b058bfd43b",
@@ -45842,6 +46032,11 @@
       "size": 1234,
       "mtimeMs": 1778135042886
     },
+    "wiki/concepts/竞品配置兼容.md": {
+      "hash": "d7af399f2e2e7c6480643f2f859ac281",
+      "size": 1120,
+      "mtimeMs": 1779836746418
+    },
     "wiki/concepts/端-边-云一体.md": {
       "hash": "defb5b084b1c6fb43778ebd800e111c4",
       "size": 831,
@@ -47047,6 +47242,11 @@
       "size": 1565,
       "mtimeMs": 1778260707008
     },
+    "wiki/concepts/编程赛道三连布局.md": {
+      "hash": "1aaca2a2c15c00fbe3380f88c64b50e2",
+      "size": 1545,
+      "mtimeMs": 1779836746414
+    },
     "wiki/concepts/编程过时论.md": {
       "hash": "47c893d5437131645f36563f553c4178",
       "size": 2347,
@@ -47702,6 +47902,11 @@
       "size": 899,
       "mtimeMs": 1778254423870
     },
+    "wiki/concepts/自治curator.md": {
+      "hash": "392d4d7d76c8412b576b76a5896b7cdc",
+      "size": 1061,
+      "mtimeMs": 1779836143494
+    },
     "wiki/concepts/自然光级.md": {
       "hash": "e397986e2abbe9d9b2e28d601f957ec7",
       "size": 1254,
@@ -48352,6 +48557,11 @@
       "size": 2359,
       "mtimeMs": 1778186423229
     },
+    "wiki/concepts/视觉复杂度剪枝.md": {
+      "hash": "8f776fb1e0b9c4cb347d91cf1fb8eb2f",
+      "size": 1222,
+      "mtimeMs": 1779847065688
+    },
     "wiki/concepts/视觉定位.md": {
       "hash": "60ac787e45857e2543f305993175b10e",
       "size": 2106,
@@ -48847,6 +49057,11 @@
       "size": 2170,
       "mtimeMs": 1778258552676
     },
+    "wiki/concepts/认知驱动视觉搜索.md": {
+      "hash": "1f58c9025afdb1db92d8dd69dc6ea262",
+      "size": 2079,
+      "mtimeMs": 1779847065672
+    },
     "wiki/concepts/认股权证协议.md": {
       "hash": "f0f532488aeea623db086ffb436b9919",
       "size": 1565,
@@ -49181,6 +49396,11 @@
       "hash": "6082cae5e8ef07d6588e9f09a2eb347c",
       "size": 1307,
       "mtimeMs": 1779429502575
+    },
+    "wiki/concepts/语义引导自适应切分.md": {
+      "hash": "670eaff7b6143bc5215b92e4a70a8db0",
+      "size": 1570,
+      "mtimeMs": 1779847065683
     },
     "wiki/concepts/语义感知物理仿真.md": {
       "hash": "efec9386abb56943b919506cfaaff4e8",
@@ -50857,6 +51077,11 @@
       "size": 1408,
       "mtimeMs": 1778012487746
     },
+    "wiki/concepts/长上下文衰减魔咒.md": {
+      "hash": "6fbde81fe4a7cf1674936546811bf795",
+      "size": 1496,
+      "mtimeMs": 1779844123240
+    },
     "wiki/concepts/长上下文评测.md": {
       "hash": "f7703d1ef2c51f7216680fafe1281b1c",
       "size": 1617,
@@ -50958,9 +51183,9 @@
       "mtimeMs": 1777964206847
     },
     "wiki/concepts/长程自主执行.md": {
-      "hash": "19b4c11bca7d4f49f8519b0bfc2895af",
-      "size": 1630,
-      "mtimeMs": 1779447614186
+      "hash": "d5917c950c48aa0e3270b04c482dd762",
+      "size": 2872,
+      "mtimeMs": 1779836311100
     },
     "wiki/concepts/长程自然语言推理.md": {
       "hash": "d04773c43abba72806d64da596d5ad1c",
@@ -51026,6 +51251,11 @@
       "hash": "b75030c84688be13cea166a1a846e08c",
       "size": 1664,
       "mtimeMs": 1779676444175
+    },
+    "wiki/concepts/闭环学习架构.md": {
+      "hash": "d2bbb5298f191b713ef09bc0aebbb078",
+      "size": 1513,
+      "mtimeMs": 1779836143491
     },
     "wiki/concepts/闭环尝试.md": {
       "hash": "41cfcf813322b9b201029525eb27f0e7",
@@ -51961,6 +52191,11 @@
       "hash": "888b1766137e90236a5b69cdd4ab5a30",
       "size": 1316,
       "mtimeMs": 1778104737033
+    },
+    "wiki/concepts/高分辨率感知瓶颈.md": {
+      "hash": "0dbcb32ba8e3cd92f973e875b68392bc",
+      "size": 1535,
+      "mtimeMs": 1779847065698
     },
     "wiki/concepts/高危操作弹窗拦截.md": {
       "hash": "b9f3bc32951c6470f719e6c8f6e86e94",
@@ -55358,9 +55593,9 @@
       "mtimeMs": 1778240579883
     },
     "wiki/entities/claude-opus-4.8.md": {
-      "hash": "5bdc4a588173ec2d240dcf4e8d099f1b",
-      "size": 1206,
-      "mtimeMs": 1779672970291
+      "hash": "8933eea17b5f788265997b831c06d3ad",
+      "size": 1836,
+      "mtimeMs": 1779836734906
     },
     "wiki/entities/claude-opus-4.md": {
       "hash": "151d743cc751278130a1d7b1fef0bc7d",
@@ -55671,6 +55906,11 @@
       "hash": "512d43ef8f1d4313a5acc8dc88ccf821",
       "size": 651,
       "mtimeMs": 1778269338717
+    },
+    "wiki/entities/code-arena.md": {
+      "hash": "0452c2c06b9d8dad27dcb07cdb95b71c",
+      "size": 1104,
+      "mtimeMs": 1779836300825
     },
     "wiki/entities/code-red.md": {
       "hash": "43a394e853f0ec878595099ddb63c2d8",
@@ -56256,6 +56496,11 @@
       "hash": "5271220f503ec1295be0f0ef5bfd1e68",
       "size": 651,
       "mtimeMs": 1778269338714
+    },
+    "wiki/entities/cvsearch.md": {
+      "hash": "440ac66d17656597d6a0e6b51529620b",
+      "size": 2194,
+      "mtimeMs": 1779847048128
     },
     "wiki/entities/cx-mind.md": {
       "hash": "5b66a2c49ee221600069feeeb3ff0463",
@@ -57517,6 +57762,11 @@
       "size": 987,
       "mtimeMs": 1778267945018
     },
+    "wiki/entities/enterprise-technology-research.md": {
+      "hash": "741f3adab18ef87e4c6781d76a59c6fe",
+      "size": 665,
+      "mtimeMs": 1779836746406
+    },
     "wiki/entities/entire-cli.md": {
       "hash": "9bef1bc5e366a46164ec4e057199144b",
       "size": 1523,
@@ -57696,6 +57946,11 @@
       "hash": "4a4c7559d31d0959f5b204f5da9b138f",
       "size": 929,
       "mtimeMs": 1777955600993
+    },
+    "wiki/entities/evolvinglmms-lab.md": {
+      "hash": "5ca3785e87451162c3eaaa1b96a60444",
+      "size": 720,
+      "mtimeMs": 1779789446140
     },
     "wiki/entities/evol创新团队.md": {
       "hash": "273b9eecb8d4c3544c8f7fa15da86929",
@@ -59252,6 +59507,11 @@
       "size": 15066,
       "mtimeMs": 1779430085918
     },
+    "wiki/entities/gpt-5.6-iris-alpha.md": {
+      "hash": "21b8e4aa255c51712df58188340663e8",
+      "size": 987,
+      "mtimeMs": 1779836725816
+    },
     "wiki/entities/gpt-5.6.md": {
       "hash": "a943d2a5e6632e32553e6be98290d6b5",
       "size": 2421,
@@ -59428,9 +59688,9 @@
       "mtimeMs": 1778132298973
     },
     "wiki/entities/grok-build.md": {
-      "hash": "a867f4312ffa4561d23e184ccae515c1",
-      "size": 4483,
-      "mtimeMs": 1779788150457
+      "hash": "94f2520381dacea6f24553303ccf791e",
+      "size": 5312,
+      "mtimeMs": 1779836690931
     },
     "wiki/entities/grok-code.md": {
       "hash": "802831b3d58c4c28b86feff74f3ce378",
@@ -59443,9 +59703,9 @@
       "mtimeMs": 1778103395072
     },
     "wiki/entities/grok-v9-medium.md": {
-      "hash": "672bc49bf5e4d3ee35d43f872c8bc852",
-      "size": 2233,
-      "mtimeMs": 1779788133689
+      "hash": "d729fbfd5dfbdb724a45d6ee20629ded",
+      "size": 3471,
+      "mtimeMs": 1779836673755
     },
     "wiki/entities/grok.md": {
       "hash": "8c882f212d4dfd9a11580abc779235b4",
@@ -60782,6 +61042,11 @@
       "size": 890,
       "mtimeMs": 1778156000770
     },
+    "wiki/entities/jiajun-wu.md": {
+      "hash": "249863f56bb58bb0eccb337510203a58",
+      "size": 863,
+      "mtimeMs": 1779843848540
+    },
     "wiki/entities/jialin-li.md": {
       "hash": "082bf096122942051a8f4c13249e7983",
       "size": 726,
@@ -61246,6 +61511,11 @@
       "hash": "be68ccfcb94e461a0e655e88d03a788a",
       "size": 1795,
       "mtimeMs": 1778185211019
+    },
+    "wiki/entities/keye-vl-2-0-30b-a3b.md": {
+      "hash": "8ae782568096c8937d3f8bfc29c1ad79",
+      "size": 2672,
+      "mtimeMs": 1779844100403
     },
     "wiki/entities/keye-vl.md": {
       "hash": "fb1761403b5ac05a95e8dbc197421bbe",
@@ -65002,6 +65272,21 @@
       "size": 1633,
       "mtimeMs": 1778004173597
     },
+    "wiki/entities/para-grpo.md": {
+      "hash": "71c5c86910532898c82196fc3cf100a1",
+      "size": 2126,
+      "mtimeMs": 1779789446132
+    },
+    "wiki/entities/paravt-8b.md": {
+      "hash": "b632ba753fdb6365c62dbc08fffd5425",
+      "size": 1117,
+      "mtimeMs": 1779789446126
+    },
+    "wiki/entities/paravt.md": {
+      "hash": "23c8905ccff54503c1d95ba649abf8c5",
+      "size": 2000,
+      "mtimeMs": 1779789446114
+    },
     "wiki/entities/parsa-tajik.md": {
       "hash": "ca5d261692a7be9a039eca9ae4bd135c",
       "size": 1382,
@@ -65266,6 +65551,16 @@
       "hash": "08692c558738c8201f97c7c8e31eff55",
       "size": 1376,
       "mtimeMs": 1779437037246
+    },
+    "wiki/entities/phoneharness-bench.md": {
+      "hash": "ef9e9d69d38b780663bdb58b682ab77a",
+      "size": 1637,
+      "mtimeMs": 1779843515332
+    },
+    "wiki/entities/phoneharness.md": {
+      "hash": "86aa4439ae01b607f339547cc0c98ab4",
+      "size": 2709,
+      "mtimeMs": 1779843493034
     },
     "wiki/entities/physbrain-1-0.md": {
       "hash": "b39d4fa7b060afd19ada46ccdd6f8638",
@@ -65978,9 +66273,9 @@
       "mtimeMs": 1779452887941
     },
     "wiki/entities/qwen3-7-max.md": {
-      "hash": "a9880b550ecac2cd55e6137be42b1117",
-      "size": 2744,
-      "mtimeMs": 1779447562524
+      "hash": "07127b4894099b0ee569e153b2753fff",
+      "size": 4622,
+      "mtimeMs": 1779836300821
     },
     "wiki/entities/qwen3-7-plus-preview.md": {
       "hash": "2cf5d41aed70658a09096f64ea43e285",
@@ -67222,6 +67517,11 @@
       "size": 1480,
       "mtimeMs": 1777963118618
     },
+    "wiki/entities/sergey-levine.md": {
+      "hash": "6f6454da75bd61516524667ff247c52f",
+      "size": 956,
+      "mtimeMs": 1779843848535
+    },
     "wiki/entities/serval.md": {
       "hash": "6ddf9627ca57f3b67e96979087912cc8",
       "size": 951,
@@ -68278,9 +68578,9 @@
       "mtimeMs": 1778206655082
     },
     "wiki/entities/swe-bench-verified.md": {
-      "hash": "2534a868f3ac439353162b925c831b47",
-      "size": 2609,
-      "mtimeMs": 1779475278234
+      "hash": "44b2e8739d70cede138b19f8938b1dab",
+      "size": 3279,
+      "mtimeMs": 1779836746399
     },
     "wiki/entities/swe-bench.md": {
       "hash": "92a60d7e96510e856d3a88f0779713fa",
@@ -68541,6 +68841,11 @@
       "hash": "0ca699d35fee37807924aed98986acfc",
       "size": 618,
       "mtimeMs": 1778199373086
+    },
+    "wiki/entities/teknium.md": {
+      "hash": "90f1d1ae34df393a7afbcee4046c99d1",
+      "size": 988,
+      "mtimeMs": 1779836143449
     },
     "wiki/entities/telepathy.md": {
       "hash": "16f0fc3c716223c944e3f4456826246a",
@@ -70273,9 +70578,9 @@
       "mtimeMs": 1779478852325
     },
     "wiki/entities/xai.md": {
-      "hash": "de3c2373ab516e391fa5ebfc030c6c71",
-      "size": 8520,
-      "mtimeMs": 1779788201414
+      "hash": "6739e818a2537b94ca7134eab57187d2",
+      "size": 7491,
+      "mtimeMs": 1779836725813
     },
     "wiki/entities/xbow.md": {
       "hash": "268c601afdf377e9096e0abbe636e201",
@@ -71021,6 +71326,11 @@
       "hash": "12b50e11222f0dcdf1fbc4b0d31f5e64",
       "size": 1211,
       "mtimeMs": 1779422914694
+    },
+    "wiki/entities/中国科学院深圳先进技术研究院.md": {
+      "hash": "1f09e38ecd91830c226450a19e1a0fc1",
+      "size": 779,
+      "mtimeMs": 1779847065669
     },
     "wiki/entities/中国科学院自动化研究所.md": {
       "hash": "20e96945d96214dae9caa3738d908a73",
@@ -71973,9 +72283,9 @@
       "mtimeMs": 1778258552684
     },
     "wiki/entities/哈尔滨工业大学深圳.md": {
-      "hash": "77ecc6633e39cde0d579988ef2ef06a4",
-      "size": 1410,
-      "mtimeMs": 1779495200458
+      "hash": "ebc0788d07bd4ffdebf693f2aec0e3ce",
+      "size": 2079,
+      "mtimeMs": 1779847058187
     },
     "wiki/entities/哈萨比斯.md": {
       "hash": "a1a673d51315a8035daef1ba5b5d09d6",
@@ -72818,9 +73128,9 @@
       "mtimeMs": 1779680859036
     },
     "wiki/entities/快手.md": {
-      "hash": "bed2afa1d83070b8f04e9b5ad7eee3bc",
-      "size": 3666,
-      "mtimeMs": 1779489175769
+      "hash": "0fdfeb3daf6fb3d411770342b6c48140",
+      "size": 5417,
+      "mtimeMs": 1779844123218
     },
     "wiki/entities/快手可灵.md": {
       "hash": "ab43e9b3053e7a6cebef31ed59fc501e",
@@ -73813,9 +74123,9 @@
       "mtimeMs": 1777957855378
     },
     "wiki/entities/深圳鹏城实验室.md": {
-      "hash": "393b4c3d5f86ddd6d2f53a9bbe584fb3",
-      "size": 817,
-      "mtimeMs": 1779495200462
+      "hash": "3b917b4e02c04c6d537f4220abeff1b0",
+      "size": 1182,
+      "mtimeMs": 1779847065667
     },
     "wiki/entities/深度原理.md": {
       "hash": "a9ced810ba486edb461562b7bdca9e15",
@@ -74673,9 +74983,9 @@
       "mtimeMs": 1778010047638
     },
     "wiki/entities/腾讯混元.md": {
-      "hash": "cfd30274ded7a0f029e798d674e66acd",
-      "size": 1954,
-      "mtimeMs": 1778241520716
+      "hash": "ffbd0c428272e6434c832456186dd309",
+      "size": 2908,
+      "mtimeMs": 1779843504905
     },
     "wiki/entities/腾讯混元团队.md": {
       "hash": "93c138b30aef52d904ab6866515cb91d",
@@ -76117,6 +76427,11 @@
       "size": 1586,
       "mtimeMs": 1779718638441
     },
+    "wiki/events/6月前沿模型混战-2026.md": {
+      "hash": "b64e638fd64ab42c994bb19940c9b7a0",
+      "size": 1781,
+      "mtimeMs": 1779836746423
+    },
     "wiki/events/agent-sdk额度分离事件-202606.md": {
       "hash": "4b4a46917888eadbb952371160a24209",
       "size": 2760,
@@ -76442,6 +76757,11 @@
       "size": 1043,
       "mtimeMs": 1779491506984
     },
+    "wiki/events/cvsearch开源发布-202605.md": {
+      "hash": "28b89ab3fab8a05e6039357512e6fbd9",
+      "size": 1503,
+      "mtimeMs": 1779847065701
+    },
     "wiki/events/cx-mind发布.md": {
       "hash": "ea43d114491db0150148f2f95be2f73d",
       "size": 1648,
@@ -76526,6 +76846,11 @@
       "hash": "a897116763e352ecfbe28e2fd3dbbd5c",
       "size": 1964,
       "mtimeMs": 1779494575448
+    },
+    "wiki/events/eccv-2026.md": {
+      "hash": "d20328425b44ac26a5bda2e6c3651850",
+      "size": 1256,
+      "mtimeMs": 1779843906510
     },
     "wiki/events/echo入选icml-2026-spotlight.md": {
       "hash": "8bcf5e4e8b3522e38a22ccf504f709ed",
@@ -76662,6 +76987,11 @@
       "size": 1470,
       "mtimeMs": 1779672782952
     },
+    "wiki/events/grok-build上线-20260514.md": {
+      "hash": "05945a25f1d0f8c322d796e0f6633033",
+      "size": 1099,
+      "mtimeMs": 1779836746431
+    },
     "wiki/events/grok-build发布.md": {
       "hash": "3932375b470496122874876617ba99cb",
       "size": 1281,
@@ -76672,6 +77002,11 @@
       "size": 1460,
       "mtimeMs": 1779775443368
     },
+    "wiki/events/grok-v9训练完成官宣-20260525.md": {
+      "hash": "1f1258857e290e7f6f6504649a621bd4",
+      "size": 1303,
+      "mtimeMs": 1779836746426
+    },
     "wiki/events/hallo-live论文发布-20260426.md": {
       "hash": "f9ebcccf29da49f6faff26a79860709d",
       "size": 1565,
@@ -76681,6 +77016,11 @@
       "hash": "bb5a7dff758e55d1834e00b2b8910ffa",
       "size": 2463,
       "mtimeMs": 1779484755886
+    },
+    "wiki/events/hermes击败codex基准测试-202605.md": {
+      "hash": "7ed4f78b1a79d62566f8d4963a00ca19",
+      "size": 1901,
+      "mtimeMs": 1779836143497
     },
     "wiki/events/higgs-avatar-v1发布.md": {
       "hash": "89bd52eb0907656d47f89c70db5b05b1",
@@ -76977,6 +77317,11 @@
       "size": 1529,
       "mtimeMs": 1779447614204
     },
+    "wiki/events/qwen3-7-max闯入编程全球前四-20260526.md": {
+      "hash": "1622f1b13235aa71317984ca6ca31c3d",
+      "size": 1667,
+      "mtimeMs": 1779836320022
+    },
     "wiki/events/qwen3.7-max发布.md": {
       "hash": "3b3cbbb560ff4304570d650963fc5d82",
       "size": 1908,
@@ -77037,6 +77382,11 @@
       "size": 1888,
       "mtimeMs": 1779693433336
     },
+    "wiki/events/safe-world-models-workshop-eccv2026.md": {
+      "hash": "d9a611497604b8507c558ef9bb993987",
+      "size": 2816,
+      "mtimeMs": 1779843906517
+    },
     "wiki/events/siggraph-2026-3d生成.md": {
       "hash": "fa5ea4edaa7e7771ff0149476db94afb",
       "size": 1643,
@@ -77081,6 +77431,11 @@
       "hash": "215a0d68b7fad2b09539ad3fe5a89584",
       "size": 1209,
       "mtimeMs": 1779425173105
+    },
+    "wiki/events/spacex锁定cursor收购期权-20260421.md": {
+      "hash": "4b0b005a45a6284a9ec02b7cfaad1dba",
+      "size": 1445,
+      "mtimeMs": 1779836746435
     },
     "wiki/events/su-01奥赛金牌水平突破.md": {
       "hash": "ac688764f1779c12770cfbf384a600bf",
@@ -77276,6 +77631,11 @@
       "hash": "12a520de166764e180040a42733438f4",
       "size": 2295,
       "mtimeMs": 1779496389748
+    },
+    "wiki/events/快手keye-vl-2-0发布.md": {
+      "hash": "bf76630b6da0d9d51cf7665f05f8cfc1",
+      "size": 2299,
+      "mtimeMs": 1779844123246
     },
     "wiki/events/戴文军aigc2026演讲.md": {
       "hash": "89f4f24810d4ec5bf7d2eb30b319739c",
@@ -79847,6 +80207,11 @@
       "size": 4302,
       "mtimeMs": 1778241767073
     },
+    "wiki/sources/cvpr丹佛之约｜上海ai-lab“北极星x星启”交流会盛邀全球ai英才.md": {
+      "hash": "684d1fcbde7bfbb383dda86c5b4ac38e",
+      "size": 5129,
+      "mtimeMs": 1779843664647
+    },
     "wiki/sources/cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md": {
       "hash": "97715c0ced57a1bb3030845751b382f4",
       "size": 1904,
@@ -80461,6 +80826,11 @@
       "hash": "d820625fec46cfa8edf957a6ad733e7b",
       "size": 1734,
       "mtimeMs": 1779477006448
+    },
+    "wiki/sources/icml-2026-哈工深等开源cvsearch：首创认知驱动视觉搜索，让大模型学会“看重点”.md": {
+      "hash": "bc1763f5e51f27965c4986832a807492",
+      "size": 6222,
+      "mtimeMs": 1779847065703
     },
     "wiki/sources/icml-2026-大模型内部也会长出「情绪树」，规模越大越懂人心.md": {
       "hash": "06068e6e99491a30036e841dca92d9b4",
@@ -81462,6 +81832,11 @@
       "size": 3040,
       "mtimeMs": 1777964541719
     },
+    "wiki/sources/paravt：走向并行-agentic-视频推理的多智能体强化学习训练框架.md": {
+      "hash": "02aafcb2f58952ef01a102f9e95c03fa",
+      "size": 1910,
+      "mtimeMs": 1779789446099
+    },
     "wiki/sources/pony-alpha新模型炸场！全球「猜爹大赛」开启.md": {
       "hash": "9b0043474449de72a191372e781cae2c",
       "size": 2760,
@@ -81471,6 +81846,11 @@
       "hash": "014e2914ab2fe059584f35e0ed463401",
       "size": 2452,
       "mtimeMs": 1778252610587
+    },
+    "wiki/sources/python逆天改命！开源hermes首次击败openai-codex.md": {
+      "hash": "54ea5e13f9f645ade977887b14d43902",
+      "size": 1869,
+      "mtimeMs": 1779836143444
     },
     "wiki/sources/qiu-ma-10-tian-wo-zhong-yu-guo-shang-liao-zai-wei-xin-shang-shi-huan-xia-de-ri-zi.md": {
       "hash": "dc45c87be8a063ab23aadb29b9fa1200",
@@ -81602,6 +81982,11 @@
       "size": 2532,
       "mtimeMs": 1778129425431
     },
+    "wiki/sources/stream-t1-｜-实时视频生成的test-time-scaling首次系统探索，提升长视频生成时序稳定性.md": {
+      "hash": "72fe0cf198df78d96933666b4ddb039c",
+      "size": 6522,
+      "mtimeMs": 1779818170361
+    },
     "wiki/sources/suno不再是唯一答案，企业开始选择这个国产ai音乐.md": {
       "hash": "4713a9551c575e5cce4383d54e0fdc4b",
       "size": 2507,
@@ -81616,6 +82001,11 @@
       "hash": "058faac1d72fdd2fb6841427e364b5f1",
       "size": 3445,
       "mtimeMs": 1777965180748
+    },
+    "wiki/sources/t-pami｜中国科大、合工大等提出caper++：让关节物体位姿感知真正迈向「又快又稳」.md": {
+      "hash": "2a8946c1d0e99f6aa3b8964d0d115116",
+      "size": 5885,
+      "mtimeMs": 1779804026132
     },
     "wiki/sources/taco-让-cli-agent-在自主迭代中学会丢掉无用上下文.md": {
       "hash": "83737cc714b0f9181188703669bbd2ec",
@@ -82267,6 +82657,11 @@
       "size": 4403,
       "mtimeMs": 1779681553962
     },
+    "wiki/sources/专治世界模型幻觉！eccv-2026-workshop征稿，sergey出席，帝国理工等联合发起.md": {
+      "hash": "27217ecb898c25ff6306549a6c727070",
+      "size": 2181,
+      "mtimeMs": 1779843848526
+    },
     "wiki/sources/世界最强医疗模型百川m3发布：ai医疗，奇点已至.md": {
       "hash": "19c676b07e3ce137a5c2f51ec6f53dd5",
       "size": 2379,
@@ -82566,6 +82961,11 @@
       "hash": "712d9f7b9daab5c2a2624da0a4d9a676",
       "size": 5627,
       "mtimeMs": 1778186329922
+    },
+    "wiki/sources/从openai-ai-phone到gemini-on-android：ai手机时代需要怎样的agent-harness？.md": {
+      "hash": "0a911b84ef3e04ed0a41e71372412d50",
+      "size": 2302,
+      "mtimeMs": 1779843493027
     },
     "wiki/sources/从token到词元：全模态时代的基模与交互入口.md": {
       "hash": "cf0d537eeca5f105e119b9996a46373d",
@@ -83351,6 +83751,11 @@
       "hash": "d0d405c49b6d49fd8903c06a7e69f77a",
       "size": 3534,
       "mtimeMs": 1778165299701
+    },
+    "wiki/sources/刚刚，中国ai闯入全球编程前二！前面只剩claude.md": {
+      "hash": "faa7565be2fe6849638203a28aeaee0a",
+      "size": 1623,
+      "mtimeMs": 1779836284437
     },
     "wiki/sources/刚刚，何恺明团队新作，「嵌入式语言流」elf来了.md": {
       "hash": "b0ab2477336c727a58f141bb0ed379a6",
@@ -84717,6 +85122,11 @@
       "size": 2114,
       "mtimeMs": 1778039528560
     },
+    "wiki/sources/安卓开发被vibe-coding接管了？谷歌把搓app门槛彻底打下来，一周搓出25万个.md": {
+      "hash": "30f41dc4e82589ad6566bfbf53582117",
+      "size": 452,
+      "mtimeMs": 1779804053040
+    },
     "wiki/sources/安卓彻底变了！gemini接管所有屏幕，苹果连影子都没追上.md": {
       "hash": "4e64615387a56c706384bf2d604c3408",
       "size": 2364,
@@ -84771,6 +85181,11 @@
       "hash": "b03d7f2f70b9de28af7eca96f39bd8a4",
       "size": 2447,
       "mtimeMs": 1778217494709
+    },
+    "wiki/sources/将dsa注意力引入多模态，快手keye2.0开启强化推理新范式.md": {
+      "hash": "a7e21a851e3ec450c16fe8bf5da1b8a7",
+      "size": 2173,
+      "mtimeMs": 1779844100389
     },
     "wiki/sources/将深度信息作为vlm核心输入！视启未来×清华×idea帮机器人看懂物理世界.md": {
       "hash": "d081c87d0b900adbe09689f8a4ca2410",
@@ -88587,6 +89002,11 @@
       "size": 2032,
       "mtimeMs": 1777964328106
     },
+    "wiki/sources/马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md": {
+      "hash": "da487d472ffd7102ff1231dea43de6dd",
+      "size": 1864,
+      "mtimeMs": 1779836660014
+    },
     "wiki/sources/马斯克来抖音卖老干妈了？？.md": {
       "hash": "15d1dacd5da278f7aec13fa80093b86e",
       "size": 2467,
@@ -88621,6 +89041,11 @@
       "hash": "aef15cf11e1b7df904f0c0d20c5378d8",
       "size": 3467,
       "mtimeMs": 1778114954242
+    },
+    "wiki/sources/马斯克甩出两张王牌，grok-build杀入ai编程.md": {
+      "hash": "6e7833a2bfacba8825030641684ae956",
+      "size": 6505,
+      "mtimeMs": 1779836478469
     },
     "wiki/sources/马斯克的gpu也在摸鱼？狂囤几十万张显卡，只有11%在干活.md": {
       "hash": "92efd397fffd5e1369f0daf7aa7a9800",

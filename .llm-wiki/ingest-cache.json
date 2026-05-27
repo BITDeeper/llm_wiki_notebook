@@ -31204,6 +31204,170 @@
       "filesWritten": [
         "wiki/sources/刚刚，国产agent模型闯入全球第一梯队！限时免费.md"
       ]
+    },
+    "paravt：走向并行-agentic-视频推理的多智能体强化学习训练框架.md": {
+      "hash": "8a477031510581726f5100248287b051ee2ff97f79a106501da54d7bb726d68a",
+      "timestamp": 1779789456204,
+      "filesWritten": [
+        "wiki/sources/paravt：走向并行-agentic-视频推理的多智能体强化学习训练框架.md",
+        "wiki/entities/paravt.md",
+        "wiki/entities/paravt-8b.md",
+        "wiki/entities/para-grpo.md",
+        "wiki/entities/evolvinglmms-lab.md",
+        "wiki/concepts/tool-prior-paradox.md",
+        "wiki/concepts/并行视频工具调用.md",
+        "wiki/concepts/agentic-video-reasoning.md",
+        "wiki/concepts/format-fragility.md",
+        "wiki/concepts/tool-necessity-gap.md",
+        "wiki/concepts/exploration-anchoring.md",
+        "wiki/concepts/nframes-gating.md",
+        "wiki/concepts/weight-sharing多智能体体系.md"
+      ]
+    },
+    "t-pami｜中国科大、合工大等提出caper++：让关节物体位姿感知真正迈向「又快又稳」.md": {
+      "hash": "e99fb85074790568a4b9b339e0f23f512e3cfb14f938e6ea3d68c35428c158fe",
+      "timestamp": 1779804031548,
+      "filesWritten": [
+        "wiki/sources/t-pami｜中国科大、合工大等提出caper++：让关节物体位姿感知真正迈向「又快又稳」.md"
+      ]
+    },
+    "安卓开发被vibe-coding接管了？谷歌把搓app门槛彻底打下来，一周搓出25万个.md": {
+      "hash": "3929eadf55f08a022f29ddaf23c9bdc57c22b1f13ad0f21c90808fbc050b71bb",
+      "timestamp": 1779804059624,
+      "filesWritten": [
+        "wiki/sources/安卓开发被vibe-coding接管了？谷歌把搓app门槛彻底打下来，一周搓出25万个.md"
+      ]
+    },
+    "stream-t1-｜-实时视频生成的test-time-scaling首次系统探索，提升长视频生成时序稳定性.md": {
+      "hash": "d8bac0b39a870f75dbac15d4fea969e8c6f48a7da381b7a9a42e3e747f0bee5c",
+      "timestamp": 1779818176010,
+      "filesWritten": [
+        "wiki/sources/stream-t1-｜-实时视频生成的test-time-scaling首次系统探索，提升长视频生成时序稳定性.md"
+      ]
+    },
+    "python逆天改命！开源hermes首次击败openai-codex.md": {
+      "hash": "9ee7ab0d27e07ef65f7653bf297b82ff5662d9d129834c1cdb19d7f1554c9b50",
+      "timestamp": 1779836150500,
+      "filesWritten": [
+        "wiki/sources/python逆天改命！开源hermes首次击败openai-codex.md",
+        "wiki/entities/teknium.md",
+        "wiki/concepts/架构优于语言.md",
+        "wiki/concepts/框架开销优化.md",
+        "wiki/concepts/闭环学习架构.md",
+        "wiki/concepts/自治curator.md",
+        "wiki/events/hermes击败codex基准测试-202605.md"
+      ]
+    },
+    "刚刚，中国ai闯入全球编程前二！前面只剩claude.md": {
+      "hash": "64cf87c2df7d2fcc9c45b0199178298e6b06e8dbf8181b8990d5cf8f8c738545",
+      "timestamp": 1779836325317,
+      "filesWritten": [
+        "wiki/sources/刚刚，中国ai闯入全球编程前二！前面只剩claude.md",
+        "wiki/entities/qwen3-7-max.md",
+        "wiki/entities/code-arena.md",
+        "wiki/concepts/agent基座模型.md",
+        "wiki/concepts/环境扩展训练.md",
+        "wiki/concepts/动态累积生存博弈.md",
+        "wiki/concepts/长程自主执行.md",
+        "wiki/concepts/上下文腐化.md",
+        "wiki/events/qwen3-7-max闯入编程全球前四-20260526.md"
+      ]
+    },
+    "马斯克甩出两张王牌，grok-build杀入ai编程.md": {
+      "hash": "190dff04e260d9609547447e8ebd2c9f2b8b1f3789267a7651d3431a4c522fec",
+      "timestamp": 1779836483979,
+      "filesWritten": [
+        "wiki/sources/马斯克甩出两张王牌，grok-build杀入ai编程.md"
+      ]
+    },
+    "马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md": {
+      "hash": "6f52f33a6beefadb5d92063b91225a3a4a8ebec2d6d3d398ccf664f0c38f231a",
+      "timestamp": 1779836752867,
+      "filesWritten": [
+        "wiki/sources/马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md",
+        "wiki/entities/grok-v9-medium.md",
+        "wiki/entities/grok-build.md",
+        "wiki/entities/xai.md",
+        "wiki/entities/gpt-5.6-iris-alpha.md",
+        "wiki/entities/claude-opus-4.8.md",
+        "wiki/entities/swe-bench-verified.md",
+        "wiki/entities/enterprise-technology-research.md",
+        "wiki/concepts/cursor编程交互数据训练.md",
+        "wiki/concepts/编程赛道三连布局.md",
+        "wiki/concepts/竞品配置兼容.md",
+        "wiki/events/6月前沿模型混战-2026.md",
+        "wiki/events/grok-v9训练完成官宣-20260525.md",
+        "wiki/events/grok-build上线-20260514.md",
+        "wiki/events/spacex锁定cursor收购期权-20260421.md"
+      ]
+    },
+    "从openai-ai-phone到gemini-on-android：ai手机时代需要怎样的agent-harness？.md": {
+      "hash": "3b50de68817b6a6d2ccf9f6224b983673ae1f5e03ee01946f7abb7119f1b208e",
+      "timestamp": 1779843523178,
+      "filesWritten": [
+        "wiki/sources/从openai-ai-phone到gemini-on-android：ai手机时代需要怎样的agent-harness？.md",
+        "wiki/entities/phoneharness.md",
+        "wiki/entities/腾讯混元.md",
+        "wiki/concepts/混合动作空间.md",
+        "wiki/concepts/可验证副作用.md",
+        "wiki/concepts/agent-centric设备范式.md",
+        "wiki/concepts/执行轨迹审计.md",
+        "wiki/entities/phoneharness-bench.md"
+      ]
+    },
+    "cvpr丹佛之约｜上海ai-lab“北极星x星启”交流会盛邀全球ai英才.md": {
+      "hash": "6d8184ef8f6752fc33960e9cdf0fd8be72aa7f258d0f0e4733b411c62faf0c37",
+      "timestamp": 1779843670525,
+      "filesWritten": [
+        "wiki/sources/cvpr丹佛之约｜上海ai-lab“北极星x星启”交流会盛邀全球ai英才.md"
+      ]
+    },
+    "专治世界模型幻觉！eccv-2026-workshop征稿，sergey出席，帝国理工等联合发起.md": {
+      "hash": "81ed9fadec62ba1b5b3255a0e76930bd6cbddb67f2dfeb29559b01e83bb514f3",
+      "timestamp": 1779843914524,
+      "filesWritten": [
+        "wiki/sources/专治世界模型幻觉！eccv-2026-workshop征稿，sergey出席，帝国理工等联合发起.md",
+        "wiki/entities/sergey-levine.md",
+        "wiki/entities/jiajun-wu.md",
+        "wiki/concepts/世界模型.md",
+        "wiki/concepts/物理幻觉.md",
+        "wiki/concepts/动作世界模型.md",
+        "wiki/events/eccv-2026.md",
+        "wiki/events/safe-world-models-workshop-eccv2026.md"
+      ]
+    },
+    "将dsa注意力引入多模态，快手keye2.0开启强化推理新范式.md": {
+      "hash": "d169ed415034cf03167381d68487aa3b621ee8519f3ff2dc03e2cd0531733208",
+      "timestamp": 1779844132073,
+      "filesWritten": [
+        "wiki/sources/将dsa注意力引入多模态，快手keye2.0开启强化推理新范式.md",
+        "wiki/entities/keye-vl-2-0-30b-a3b.md",
+        "wiki/entities/快手.md",
+        "wiki/concepts/dsa稀疏注意力.md",
+        "wiki/concepts/mopd.md",
+        "wiki/concepts/context-rl.md",
+        "wiki/concepts/extraio架构.md",
+        "wiki/concepts/长上下文衰减魔咒.md",
+        "wiki/events/快手keye-vl-2-0发布.md"
+      ]
+    },
+    "icml-2026-哈工深等开源cvsearch：首创认知驱动视觉搜索，让大模型学会“看重点”.md": {
+      "hash": "12c9d95716fef0bfc42f598ff3a0869b5d572bd0281dab2ce0384196df5c895d",
+      "timestamp": 1779847077520,
+      "filesWritten": [
+        "wiki/entities/cvsearch.md",
+        "wiki/entities/哈尔滨工业大学深圳.md",
+        "wiki/entities/深圳鹏城实验室.md",
+        "wiki/entities/中国科学院深圳先进技术研究院.md",
+        "wiki/concepts/认知驱动视觉搜索.md",
+        "wiki/concepts/免训练框架.md",
+        "wiki/concepts/语义引导自适应切分.md",
+        "wiki/concepts/视觉复杂度剪枝.md",
+        "wiki/concepts/动态自下而上搜索.md",
+        "wiki/concepts/高分辨率感知瓶颈.md",
+        "wiki/events/cvsearch开源发布-202605.md",
+        "wiki/sources/icml-2026-哈工深等开源cvsearch：首创认知驱动视觉搜索，让大模型学会“看重点”.md"
+      ]
     }
   }
 }

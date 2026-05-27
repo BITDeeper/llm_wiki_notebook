@@ -3,14 +3,14 @@ type: entity
 title: Grok Build
 created: 2026-05-15
 updated: 2026-05-26
-tags: [coding-agent, ai编程, xai, 编程工具, ai, 编程智能体, grok, 终端工具, agent, cli工具, 编程代理]
+tags: [coding-agent, ai编程, xai, 编程工具, ai, 编程智能体, grok, 终端工具, agent, cli工具, 编程代理, 开发工具]
 related: [xai, claude-code, cursor, colossus-2, ai-subscription-crisis, grok-v9-medium, codex, gemini-antigravity, elon-musk]
-sources: ["马斯克人在北京，xai发布首款coding-agent.md", "xai解散，但grok还在上新，马斯克官宣新模型.md", "grok最新模型吃上cursor「加餐」，马斯克：coding实现巨大改进.md"]
-origin_date: 2026-05-15
+sources: ["马斯克人在北京，xai发布首款coding-agent.md", "xai解散，但grok还在上新，马斯克官宣新模型.md", "grok最新模型吃上cursor「加餐」，马斯克：coding实现巨大改进.md", "马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md"]
+origin_date: 2026-05-14
 ---
 # Grok Build
 
-Grok Build 是 [[xai|xAI]]（马斯克团队）于2026年5月15日发布的首款编码智能体，定位为"马斯克版 [[claude-code|Claude Code]]"——一个直接运行在命令行中的 AI 程序员，能读代码、做计划、改文件、跑测试，专为专业软件工程和复杂编程任务设计。形态类似 [[claude-code]] 和 [[codex]]，开发者可在本地项目目录中唤起它，让 AI 直接读项目、理解上下文、规划改动、修改代码文件。
+Grok Build 是 [[xai|xAI]]（马斯克团队）于2026年5月14–15日发布的首款编码智能体，定位为"马斯克版 [[claude-code|Claude Code]]"——一个直接运行在命令行中的 AI 程序员，能读代码、做计划、改文件、跑测试，专为专业软件工程和复杂编程任务设计。形态类似 [[claude-code]] 和 [[codex]]，开发者可在本地项目目录中唤起它，让 AI 直接读项目、理解上下文、规划改动、修改代码文件。Grok Build 也是马斯克编程赛道三连布局的第三步——"Agent 拿入口"。
 
 ## 产品状态
 
@@ -35,12 +35,15 @@ Grok Build 是 [[xai|xAI]]（马斯克团队）于2026年5月15日发布的首�
 
 ### 工作流兼容
 支持从 [[claude-code]] 无痛迁移：
-- AGENTS.md 一键导入
+- AGENTS.md / CLAUDE.md 一键导入
 - Skills 一键导入
 - MCP Servers 一键导入
 - 自动识别并遵循代码仓库中的开发规范
 
+Grok Build 原生兼容 Claude Code 的 CLAUDE.md 配置文件。这一设计选择确认了 Claude Code 在开发者社区中的[[竞品配置兼容|事实标准]]地位——xAI 为降低用户迁移成本，愿意主动兼容竞品生态。
+
 ### 其他特性
+- 命令行运行，代码生成、文件编辑、依赖管理、Shell 命令执行
 - 支持无界面运行
 - 终端内直接生成图像和视频
 - 构建自动化工作流
@@ -70,6 +73,13 @@ Grok Build 底层运行的是 grok-code-fast-1 模型，仅有 **256K token 上�
 
 Grok Build 的开发受益于 [[cursor]] 团队的融入。马斯克此前以600亿美元收购 Cursor，其团队成为 xAI 换血后的核心研发力量。xAI 工程师表示产品理念是"为习惯 vim、快捷键和 alt-screen 的开发者打造完美融入工作流的终端体验"。
 
-## 市场定位
+## 战略意义与市场定位
+
+Grok Build 的上线标志着马斯克编程赛道三步棋全部落完：
+1. **收购拿分发**：600亿锁定 [[cursor]]
+2. **数据拿能力**：Cursor 数据灌入 [[grok-v9-medium|Grok V9]]
+3. **Agent 拿入口**：Grok Build 上线
+
+三步全部指向同一目标：AI 编程赛道。
 
 马斯克此前公开承认 xAI 在编程能力上落后，Grok Build 的发布被视为"补课式入场"——在功能架构上快速追平对手，再通过 Arena Mode 等差异化机制试图弯道超车。Grok Build 直接对标 [[claude-code]] 和 [[codex]]，标志着 AI 编程工具市场从双寡头（Anthropic vs OpenAI）扩展为多强竞争格局，[[终端原生编程智能体]] 赛道竞争进一步加剧。
