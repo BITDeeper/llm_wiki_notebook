@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Thinking Machines Lab
-tags: ["ai-startup", "research-lab", "openai-spinoff", "可定制ai", "公司", "初创企业", "ai-lab", "ai实验室", "初创公司", "openai系", "实验室", "基础设施", "startup", "ai-research", "company", "llm", "compute-moat", "entity", "frontier-lab", "ai-neolab", "openai-alumni", "ai", "mira-murati", "交互模型", "ai公司", "研究实验室", "硅谷", "实时交互", "多模态", "创业公司"]
+tags: ["ai-startup", "research-lab", "openai-spinoff", "可定制ai", "公司", "初创企业", "ai-lab", "ai实验室", "初创公司", "openai系", "实验室", "基础设施", "startup", "ai-research", "company", "llm", "compute-moat", "entity", "frontier-lab", "ai-neolab", "openai-alumni", "ai", "mira-murati", "交互模型", "ai公司", "研究实验室", "硅谷", "实时交互", "多模态", "创业公司", "人才流动"]
 related: ["mira-murati", "joshua-gross", "andrew-tulloch", "soumith-chintala", "meta", "openai", "拆骨", "英伟达", "tinker", "vera-rubin", "barret-zoph", "luke-metz", "sam-schoenholz", "john-schulman", "alec-radford", "bob-mcgrew", "gpt-4", "dall-e-3", "clip", "pytorch", "dcgan", "weng-li", "chen-danqi", "nvidia", "算力护城河", "ai-neolab", "ssi-safe-superintelligence", "openai黑手党", "lilian-weng", "交互模型", "tml-interaction-small", "翁荔", "encoder-free-early-fusion", "双模型协同架构", "实时交互模型", "谷歌"]
 created: 2026-04-19
-updated: 2026-05-22
-sources: ["小扎拆骨thinking-machines！120亿美元ai独角兽第5位创始人跳槽meta.md", "黄仁勋联手openai前高管，1吉瓦超级算力明年开闸.md", "前openai-cto企业遭重创！办公室偷情致团队崩盘，核心3人叛逃openai.md", "硅谷真实「无间道」！openai前cto怒斩泄密联创，奥特曼打包收了.md", "1人顶1个infra团队！openai前cto新招，让大模型训练跌成白菜价.md", "0博士组合拿下iclr时间检验奖！两个gpt天才本科生+二本逆袭lecun弟子，十年论文终封神.md", "mira翁荔陈丹琦公司，让老黄掏出了600亿美金.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "1人顶1个infra团队！openai前cto新招，让大模型跌成白菜价.md", "ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想openai被毁」.md", "北大校友lilian-weng出镜，爆出120亿估值首个交互模型！.md", "刚刚，thinking-machines出手！首款交互模型来了，翁荔出镜实测.md", "翁荔创业大模型首秀！告别“120亿美元估值0模型”.md"]
+updated: 2026-05-28
+sources: ["小扎拆骨thinking-machines！120亿美元ai独角兽第5位创始人跳槽meta.md", "黄仁勋联手openai前高管，1吉瓦超级算力明年开闸.md", "前openai-cto企业遭重创！办公室偷情致团队崩盘，核心3人叛逃openai.md", "硅谷真实「无间道」！openai前cto怒斩泄密联创，奥特曼打包收了.md", "1人顶1个infra团队！openai前cto新招，让大模型训练跌成白菜价.md", "0博士组合拿下iclr时间检验奖！两个gpt天才本科生+二本逆袭lecun弟子，十年论文终封神.md", "mira翁荔陈丹琦公司，让老黄掏出了600亿美金.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "1人顶1个infra团队！openai前cto新招，让大模型跌成白菜价.md", "ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想openai被毁」.md", "北大校友lilian-weng出镜，爆出120亿估值首个交互模型！.md", "刚刚，thinking-machines出手！首款交互模型来了，翁荔出镜实测.md", "翁荔创业大模型首秀！告别“120亿美元估值0模型”.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
 origin_date: 2025-01-01
 ---
 
@@ -88,6 +88,10 @@ TML 汇聚了多位来自 OpenAI 和 Meta 的核心人才，其背景涵盖了�
     - **Piotr Dollar**：前 Meta FAIR，参与 Segment Anything 相关工作
     - **Zitong Yang (杨子桐)**：斯坦福博士，2026 年新加入，提出将预训练数据重写为智能体轨迹的设想
     - 多位 FAIR、多模态、LLM 训练背景的研究员
+
+### 人才吸引力
+
+尽管 TML 面临巨头的激烈挖角，其愿景和文化吸引力仍使其成为当前 AI 人才流动的重要目的地之一。据投资人向 TechCrunch 透露，一位 AI 研究员收到了来自 [[Meta]] 的 1800 万美元工作邀约，最终拒绝并转投 Thinking Machines Lab。这表明在 AI 人才争夺战中，实验室的愿景和文化吸引力有时可以与天价薪酬竞争。
 
 ### 重大事件：2026 年 1 月政变
 2026 年 1 月 14 日，公司爆发严重的内部危机。联合创始人兼时任 CTO [[Barret Zoph]] 因涉嫌"向竞争对手泄密"及办公室恋情丑闻被降职后，联合 [[Luke Metz]]（[[OpenAI]] 早期成员，[[DCGAN]] 二作）和 [[Sam Schoenholz]] 两名核心骨干向 [[Mira Murati]] 逼宫索权。遭拒后，三人被当场开除。然而，仅在一小时后，三人集体被 [[OpenAI]] 挖角，导致 TML 创始团队瞬间解体。

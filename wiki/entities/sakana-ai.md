@@ -1,18 +1,18 @@
 ---
 type: entity
 title: Sakana AI
-tags: [ai-lab, japan, evolution, ai-for-science, startup, nature-inspired, 组织, ai研究公司, 日本]
-related: ["the-ai-scientist", "david-ha", "全自动科研", "llion-jones", "continuous-thought-machines", "架构彩票", "darwin-godel-machine", "ai-scientist", "递归式自我改进"]
+tags: [ai-lab, japan, evolution, ai-for-science, startup, nature-inspired, 组织, ai研究公司, 日本, ai公司]
+related: ["the-ai-scientist", "david-ha", "全自动科研", "llion-jones", "continuous-thought-machines", "架构彩票", "darwin-godel-machine", "ai-scientist", "递归式自我改进", "transformer架构"]
 created: 2026-03-28
-updated: 2026-05-22
-sources: ["nature重磅：ai写的论文，在顶会同行评审击败55%人类，单篇15美元.md", "transformer亲爹痛斥：当前ai陷死胡同，微调纯属浪费时间！.md", "博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md"]
+updated: 2026-05-27
+sources: ["nature重磅：ai写的论文，在顶会同行评审击败55%人类，单篇15美元.md", "transformer亲爹痛斥：当前ai陷死胡同，微调纯属浪费时间！.md", "博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md", "统治ai十年的transformer，要被亲爹亲手砸碎？.md"]
 ---
 
 # Sakana AI
 
 **Sakana AI** 是一家专注于人工智能基础研究的实验室，由 [[David Ha]]（前 Google Brain 研究员）和 [[Llion Jones]]（Transformer 论文共同作者）等人联合创立。公司名称「Sakana」（日语中的「鱼」）寓意着像鱼群一样通过简单的规则涌现出集体的智能。Sakana AI 与不列颠哥伦比亚大学（UBC）等高校保持紧密合作关系。
 
-与主流大模型公司（如 OpenAI、Google）专注于扩大 Transformer 模型规模不同，Sakana AI 致力于探索受自然界启发的新算法和新架构，被视为打破 AI 领域 [[架构彩票]] 锁定效应的重要力量。
+与主流大模型公司（如 OpenAI、Google）专注于扩大 Transformer 模型规模不同，Sakana AI 致力于探索受自然界启发的新算法和新架构，被视为打破 AI 领域 [[架构彩票]] 锁定效应的重要力量。Jones 以 Sakana AI 联合创始人的身份参与了 2026 年 5 月的 [[post-transformer辩论-20260505|Post-Transformer 辩论]]，站在挑战 [[transformer架构|Transformer]] 架构的一方。
 
 ## 核心贡献
 

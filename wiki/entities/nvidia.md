@@ -1,14 +1,14 @@
 ---
 type: entity
 title: 英伟达
-tags: ["company", "ai-hardware", "cuda", "platform", "hardware", "gpu", "investor", "nvidia", "blackwell", "rubin", "ai-chips", "market-leader", "monopoly", "ai-infrastructure", "物理AI", "机器人", "基础设施", "公司", "AI基础设施", "仿真", "ai公司", "芯片", "研究"]
-related: ["jensen-huang", "vera-rubin", "cuda", "grace-blackwell", "token-工厂", "openai", "算力圈地运动", "rubin-architecture", "gb200-nvl72", "deepseek-v4", "kimi-k2", "google", "tpu", "meta", "ai-chip-war", "fluidstack", "coreweave", "ai-infrastructure-wars", "世界模型", "视频世界模型", "大平行", "cosmos-predict", "dreamdojo", "dreamzero", "dreamgen", "groot-n2", "newton-物理仿真引擎", "物理ai", "仿真即基础设施", "anyflow", "mit", "nus-show-lab"]
+tags: ["company", "ai-hardware", "cuda", "platform", "hardware", "gpu", "investor", "nvidia", "blackwell", "rubin", "ai-chips", "market-leader", "monopoly", "ai-infrastructure", "物理AI", "机器人", "基础设施", "公司", "AI基础设施", "仿真", "ai公司", "芯片", "研究", "半导体", "ai芯片", "硬件"]
+related: ["jensen-huang", "vera-rubin", "cuda", "grace-blackwell", "token-工厂", "openai", "算力圈地运动", "rubin-architecture", "gb200-nvl72", "deepseek-v4", "kimi-k2", "google", "tpu", "meta", "ai-chip-war", "fluidstack", "coreweave", "ai-infrastructure-wars", "世界模型", "视频世界模型", "大平行", "cosmos-predict", "dreamdojo", "dreamzero", "dreamgen", "groot-n2", "newton-物理仿真引擎", "物理ai", "仿真即基础设施", "anyflow", "mit", "nus-show-lab", "amd", "fp4训练", "ocp-microscaling格式标准"]
 created: 2026-03-25
-updated: 2026-05-22
-sources: ["除了agi已来和死亡，我们为黄仁勋重磅访谈总结了50条ai最前沿判断.md", "「10亿入口」只差一步！奥特曼拉上三巨头，1100亿美元算力圈地.md", "老黄开年演讲「含华量」爆表！直接拿deepseek、kimi验货下一代芯片.md", "谷歌430万颗tpu暴击cuda护城河！meta「割肉」助攻.md", "被openai开除的天才少年：联手谷歌，围剿英伟达！.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "光轮智能与谷歌、英伟达共同定义物理ai仿真标准.md", "4-步生成高质量视频，还能越采样越好！nvidia、nus-show-lab、mit-提出-anyflow：迈向“步数自由”的视频扩散生成.md"]
+updated: 2026-05-27
+sources: ["除了agi已来和死亡，我们为黄仁勋重磅访谈总结了50条ai最前沿判断.md", "「10亿入口」只差一步！奥特曼拉上三巨头，1100亿美元算力圈地.md", "老黄开年演讲「含华量」爆表！直接拿deepseek、kimi验货下一代芯片.md", "谷歌430万颗tpu暴击cuda护城河！meta「割肉」助攻.md", "被openai开除的天才少年：联手谷歌，围剿英伟达！.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "光轮智能与谷歌、英伟达共同定义物理ai仿真标准.md", "4-步生成高质量视频，还能越采样越好！nvidia、nus-show-lab、mit-提出-anyflow：迈向“步数自由”的视频扩散生成.md", "amd新论文颠覆认知：fp4训练不稳定，原因不是随机性不足.md"]
 ---
 
-# 英伟达
+# 英伟达（NVIDIA）
 
 英伟达（NVIDIA）是全球领先的人工智能计算公司，最初以显卡（GPU）制造闻名，现已转型为全球 AI 基础设施的核心构建者。在 CEO [[黄仁勋]] 的领导下，英伟达通过 [[CUDA]] 生态建立了深厚的护城河，并随着生成式 AI 的爆发成为全球市值最高的科技巨头之一。英伟达同时也是 [[newton-物理仿真引擎|Newton]] 物理仿真引擎的联合发起方之一。
 
@@ -38,6 +38,7 @@ sources: ["除了agi已来和死亡，我们为黄仁勋重磅访谈总结了50�
 上一代旗舰架构，主要针对大语言模型（LLM）的训练和推理进行了优化。
 
 - **GB200 NVL72**：作为 Blackwell 时代的超算平台，实测能让 [[Kimi K2]] Thinking 性能提升 10 倍，成本降低 90%。
+- **FP4 原生支持**：Blackwell 架构（代表产品 B200）已在硬件层面原生支持 FP4 运算，标称 FP4 算力可达 4500 TOPS（稀疏）。但此前英伟达主推 FP4 用于推理而非训练。
 
 ## 护城河：CUDA 生态与竞争挑战
 
@@ -49,13 +50,23 @@ sources: ["除了agi已来和死亡，我们为黄仁勋重磅访谈总结了50�
 
 ### 市场竞争与挑战
 
-尽管拥有深厚的生态壁垒，英伟达正面临来自竞争对手的严峻挑战：
+尽管拥有深厚的生态壁垒，英伟达正面临来自多个方向的严峻挑战：
+
+#### 谷歌与 TPU 的冲击
 
 - **成本压力**：竞争对手 [[谷歌]] 的 TPU 在每 FLOP 成本上比英伟达 GB200/300 低 20-50%。
 - **客户分流**：主要客户（如 [[Meta]]、[[Anthropic]]）正在寻求算力多元化，通过自研芯片或采购 TPU 来减少对英伟达的依赖。
 - **生态冲击**：谷歌试图通过 [[TorchTPU]] 等项目降低开发者的迁移成本，挑战 CUDA 的统治地位。
 - **产能竞争**：虽然英伟达也在争夺台积电的 [[CoWoS]] 产能，但谷歌通过与 Meta 的资源置换获得了额外的产能份额。
 - **市场围剿**：在 [[AI 基础设施战争]] 中，谷歌正通过扶持 [[Fluidstack]] 等第三方云服务商来推广 [[TPU]]，试图削弱英伟达的市场份额。
+
+#### AMD 的技术竞争
+
+[[AMD]] 在 [[fp4训练]] 领域的突破性研究对英伟达构成技术竞争压力。如果 FP4 训练在更大规模模型上被验证可行，意味着现有硬件的可用训练算力可直接翻倍，这对两家公司的硬件产品都将产生深远影响。
+
+## 开放标准参与
+
+英伟达是 [[ocp-microscaling格式标准]] 的联合支持方之一，与 [[AMD]]、Intel、Meta、Microsoft、Arm、Qualcomm 共同推动 [[mxfp4]] 等开放数据格式标准。
 
 ## 物理AI全栈开源战略
 
@@ -119,6 +130,7 @@ sources: ["除了agi已来和死亡，我们为黄仁勋重磅访谈总结了50�
 - [[Vera Rubin]]：英伟达下一代 GPU 架构。
 - [[OpenAI]]：英伟达的重要合作伙伴及被投方。
 - [[谷歌]]：主要竞争对手，TPU 挑战者。
+- [[AMD]]：主要竞争对手，在 FP4 训练领域构成技术竞争压力。
 - [[Meta]]：寻求算力多元化的主要客户。
 - [[Newton 物理仿真引擎]]：英伟达联合发起的物理仿真引擎。
 - [[AnyFlow]]：NVLabs 联合提出的视频扩散模型蒸馏方法。

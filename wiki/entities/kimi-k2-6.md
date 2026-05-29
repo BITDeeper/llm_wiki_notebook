@@ -1,21 +1,21 @@
 ---
 type: entity
 title: Kimi K2.6
-tags: [llm, 开源模型, 万亿参数, moonshot-ai, kimi, moe, 大语言模型, ai-models, moonshot, open-source, code-generation, coding, agent, ai-model, ai-builder]
-related: ["deepseek-v4", "mla", "moonshot-ai", "技术互鉴", "claw-群组", "agent-集群", "全栈交付", "openclaw", "hermes-agent", "claude-design", "agent-swarm", "vibe-coding", "moonshot", "agent-cluster", "multi-agent-collaboration", "claude-code", "tidb-cloud", "agent原生基础设施", "任务执行范式", "场景白盒化推理"]
+tags: [llm, 开源模型, 万亿参数, moonshot-ai, kimi, moe, 大语言模型, ai-models, moonshot, open-source, code-generation, coding, agent, ai-model, ai-builder, 大模型, 月之暗面]
+related: ["deepseek-v4", "mla", "moonshot-ai", "技术互鉴", "claw-群组", "agent-集群", "全栈交付", "openclaw", "hermes-agent", "claude-design", "agent-swarm", "vibe-coding", "moonshot", "agent-cluster", "multi-agent-collaboration", "claude-code", "tidb-cloud", "agent原生基础设施", "任务执行范式", "场景白盒化推理", "orbit", "rl-post-training"]
 created: 2026-04-24
-updated: 2026-05-22
-sources: ["没想到！deepseek-v4里，竟还藏着一个中国万亿开源模型.md", "13小时不眠不休，300个分身狂敲代码！开源第一易主了.md", "火速吃瓜：kimi-k2.6设计能力超越claude-design.md", "单agent时代结束，ai们开始组团上班.md", "人手一个数据库，kimi背后这套ai基建到底有多能扛？.md"]
+updated: 2026-05-28
+sources: ["没想到！deepseek-v4里，竟还藏着一个中国万亿开源模型.md", "13小时不眠不休，300个分身狂敲代码！开源第一易主了.md", "火速吃瓜：kimi-k2.6设计能力超越claude-design.md", "单agent时代结束，ai们开始组团上班.md", "人手一个数据库，kimi背后这套ai基建到底有多能扛？.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md"]
 ---
 
 # Kimi K2.6
 
-[[Kimi K2.6]] 是由 [[Moonshot AI]]（月之暗面）开发的万亿参数级混合专家（MoE）开源大语言模型。作为 [[DeepSeek V4]] 的主要对标产品，两者在同一周内发布，共同标志着中国开源模型在万亿参数尺度上的技术突破。凭借其在多项基准测试中超越同期闭源 SOTA 模型（如 GPT-5.4 和 Claude Opus 4.6）的表现，K2.6 被称为"开源第一"。在第三方测评机构 Artificial Analysis 的排名中，该模型位列全球开源模型第一，整体性能仅次于闭源领域的"御三家"（Claude、GPT、Gemini）。
+[[Kimi K2.6]] 是由 [[Moonshot AI]]（月之暗面）开发的约 1T 参数级混合专家（MoE）开源大语言模型。作为 [[DeepSeek V4]] 的主要对标产品，两者在同一周内发布，共同标志着中国开源模型在万亿参数尺度上的技术突破。凭借其在多项基准测试中超越同期闭源 SOTA 模型（如 GPT-5.4 和 Claude Opus 4.6）的表现，K2.6 被称为"开源第一"。在第三方测评机构 Artificial Analysis 的排名中，该模型位列全球开源模型第一，整体性能仅次于闭源领域的"御三家"（Claude、GPT、Gemini）。
 
 ## 核心特性
 
 ### 模型架构与规模
-- **参数规模**：总参数量达到万亿（1T+）级别。
+- **参数规模**：总参数量达到万亿（~1T）级别。
 - **MoE 激活策略**：采用 384 选 8 的激活策略，推理时仅激活 32B 参数，兼顾了性能与推理成本。
 - **注意力机制**：采用了 [[DeepSeek]] 首创的 [[MLA (Multi-head Latent Attention)]]，通过低秩压缩显著降低了推理时的 KV 缓存压力。
 
@@ -75,6 +75,15 @@ K2.6 的建站后端运行在 [[tidb-cloud]] 上，采用三个关键工程决�
 - **优化器创新**：团队在 Moonlight 论文中首次将 [[Muon 优化器]] 扩展到大规模训练，并开发了 MuonClip 以控制注意力 logits 的数值范围，实现了 15.5 万亿 token 预训练全程零 loss spike。
 - **产品理念**：其前端审美能力延续了 Kimi K2.5 的优势，被指与 Kimi 相关负责人杨植麟在 2025 年底内部信中的"taste"理念有关。
 
+### RL 后训练验证（Orbit 框架）
+K2.6 是首个完成单节点 RL 后训练的万亿级模型，在 [[orbit]] 框架的验证实验中：
+- **硬件**：单台 8×B200
+- **精度**：INT4 base + BF16 adapter
+- **训练步数**：约 200 step
+- **结果**：reward、eval accuracy、pass@k 同步上升，train-rollout log-prob diff 保持稳定，显存可控。
+
+该实验证明了 [[adapter-first-rl|Adapter-first]] 路径在 1T 级模型上可以稳定完成 RL 后训练闭环。
+
 ### 部署与适配
 - **长上下文**：Kimi 是国内最早将"百万上下文"产品化的公司之一，K2.6 继续在长文本处理成本和稳定性上进行优化。
 - **硬件适配**：通过"Prefill-as-a-Service"架构推进国产芯片（如华为 Ascend）的混合推理方案。
@@ -102,3 +111,4 @@ K2.6 的进化代表了 AI 发展的三个阶段：
 - [[任务执行范式]]：K2.6 是 Agent 从任务执行向应用交付演进的典型案例。
 - [[1-n-agent调度]]："每个用户身边可能有 10 个、100 个独立运行的 Agent 实例"。
 - [[agent原生基础设施]]：Kimi 的选型验证了 Agent 原生基础设施的行业趋势。
+- [[orbit]]：开源 RL 后训练框架，K2.6 是首个在其上完成单节点万亿级 RL 后训练的模型。

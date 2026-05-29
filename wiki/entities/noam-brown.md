@@ -2,16 +2,16 @@
 ---
 type: entity
 title: Noam Brown
-tags: ["ai-researcher", "openai", "poker-ai", "game-theory", "人物", "研究员", "德扑", "推理算力", "ai研究员", "博弈论"]
-related: ["pluribus", "openai", "判断力-ai", "移动球门", "keller-jordan", "scaling-law", "开源影响力", "测试时计算", "sam-altman", "stem", "推理算力scaling-law", "programbench", "gpt-5.5", "openai解决erdős猜想事件"]
+tags: ["ai-researcher", "openai", "poker-ai", "game-theory", "人物", "研究员", "德扑", "推理算力", "ai研究员", "博弈论", "推理模型"]
+related: ["pluribus", "openai", "判断力-ai", "移动球门", "keller-jordan", "scaling-law", "开源影响力", "测试时计算", "sam-altman", "stem", "推理算力scaling-law", "programbench", "gpt-5.5", "openai解决erdős猜想事件", "agentic-engineering"]
 created: 2026-04-03
-updated: 2026-05-22
-sources: ["30年从未赢过！alphago之父：1997年输棋，2026年输命.md", "openai大佬爆料：本科生靠一篇博客杀进openai！没博士，0篇论文.md", "震撼！openai神秘模型连破6道前沿难题，奥特曼：ai在造「新知识」.md", "gpt-5.5全球首破！0源码盲写程序，编程ai进入新纪元.md", "ai首次证明数学核心猜想：80年的经典难题，被openai搞定了.md"]
+updated: 2026-05-29
+sources: ["30年从未赢过！alphago之父：1997年输棋，2026年输命.md", "openai大佬爆料：本科生靠一篇博客杀进openai！没博士，0篇论文.md", "震撼！openai神秘模型连破6道前沿难题，奥特曼：ai在造「新知识」.md", "gpt-5.5全球首破！0源码盲写程序，编程ai进入新纪元.md", "ai首次证明数学核心猜想：80年的经典难题，被openai搞定了.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
 ---
 
 # Noam Brown (诺姆·布朗)
 
-**Noam Brown** 是 [[OpenAI]] 的核心研究员，被誉为"德扑 AI 之父"。他不仅在强化学习、博弈论和多智能体系统（如 [[pluribus]] 和 CICERO）领域有卓越贡献，还因提出[[推理算力scaling-law|推理算力 Scaling Law]]、对 AI 进化时间表的预测、对 STEM 研究变革的断言以及对人才选拔的独特见解而备受关注。
+**Noam Brown** 是 [[OpenAI]] 最具代表性的顶尖研究员之一，被誉为"德扑 AI 之父"。他不仅在强化学习、博弈论和多智能体系统（如 [[pluribus]] 和 CICERO）领域有卓越贡献，还因提出[[推理算力scaling-law|推理算力 Scaling Law]]、对 AI 进化时间表的预测、对 STEM 研究变革的断言以及对人才选拔的独特见解而备受关注。在推理模型方向有奠基性工作。
 
 ## 核心贡献与成就
 
@@ -32,6 +32,12 @@ Brown 主张：同一模型底座在不同推理算力级别下表现呈质的�
 
 ## 近期观点与动态
 
+### 角色转型：从研究者到管理者
+
+近期公开表示自己的主要角色已从个人研究者转变为管理者，管理 AI 智能体团队。这一转型印证了 [[agentic-engineering]] 趋势——顶尖研究员的核心价值不再仅仅是个人产出，而是多年昂贵实验积累的判断力，以及这种判断力对整个团队和方向的辐射。
+
+Brown 是 OpenAI 内部推动"推理模型"发展的关键人物之一，他的言论往往暗示了 OpenAI 在强化学习推理（RL）方面的最新进展。
+
 ### Erdős 猜想突破中的角色
 
 Brown 在 [[openai解决erdős猜想事件]] 中强调了一个关键事实：实现这一数学突破的是一个**通用型大语言模型**，并非专门为数学问题设计（区别于 Google 的 AlphaProof），也不是一个协助工具。
@@ -46,15 +52,11 @@ Brown 在 [[openai解决erdős猜想事件]] 中强调了一个关键事实：�
 
 ### 对 STEM 研究的预测
 
-在 2026 年 2 月 [[first-proof]] 挑战期间，Brown 在社交媒体上高调表示，最新的模型成果将消除人们对 AI 能力的怀疑。他断言 **[[STEM]] 研究即将发生根本性变革**，并承诺 OpenAI 将很快发布参与此次挑战的新模型。
+在 2026 年 2 月 [[first-proof]] 挑战期间，Brown 在社交媒体上高调表示，最新的模型成果将消除人们对 AI 能力的怀疑。他断言 **[[STEM]]** 研究即将发生根本性变革，并承诺 OpenAI 将很快发布参与此次挑战的新模型。
 
 ### 评测基准革新
 
 Brown 公开表示"是时候淘汰 GPQA 这类评估方式，引入一套全新的了"，呼应了传统评测基准饱和的趋势。
-
-### 角色定位
-
-Brown 是 OpenAI 内部推动"推理模型"发展的关键人物之一，他的言论往往暗示了 OpenAI 在强化学习推理（RL）方面的最新进展。
 
 ## 观点与哲学
 
@@ -81,4 +83,5 @@ Brown 的工作和观点揭示了人类在面对 AI 进步时的傲慢与误判�
 - [[推理算力scaling-law]] — 其核心理论贡献
 - [[gpt-5.5首破programbench-20260513]] — 其理论的关键验证事件
 - [[openai解决erdős猜想事件]] — 其参与的数学突破事件
+- [[agentic-engineering]] — 其角色转型所印证的趋势
 ```

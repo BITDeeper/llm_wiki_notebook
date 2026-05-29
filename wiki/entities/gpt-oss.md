@@ -1,19 +1,30 @@
 ---
 type: entity
 title: GPT-OSS
-tags: [llm, reasoning-model, open-source]
-related: [深度思考比率, think-at-n, deepseek-r1]
+tags: [llm, reasoning-model, open-source, 语言模型, 语言编码器, 开源]
+related: [深度思考比率, think-at-n, deepseek-r1, lens-t2i, 微软]
 created: 2026-02-25
-updated: 2026-02-25
-sources: ["不是所有token都平等！谷歌提出真·深度思考：思维链长≠深度推理.md"]
+updated: 2026-05-27
+sources: ["不是所有token都平等！谷歌提出真·深度思考：思维链长≠深度推理.md", "微软开源-lens-：仅-3.8b-参数文生图模型，训练效率提升约-5-倍，性能不输几十倍参数大模型.md"]
 ---
 
 # GPT-OSS
 
-[[gpt-oss]] 是一个被测试的推理模型，在谷歌关于 [[深度思考比率]] 的研究中表现优异。
+[[gpt-oss]] 是一个 20B 参数的语言模型，激活参数仅 3B。它既在谷歌关于 [[深度思考比率]] 的研究中作为推理模型表现优异，也在 [[lens-t2i]] 中被用作文本理解骨干（语言编码器）。
 
-## 性能表现
+## 性能表现（推理任务）
+
 在应用 [[think-at-n]] 策略后，GPT-OSS-120B-medium 在 AIME 2025 数据集上的准确率从 92.7% 提升至 94.7%，同时推理 Token 消耗显著减少。
 
-## 对比
 与 [[deepseek-r1]] 和 [[qwen3]] 一样，它是该研究中用于验证 DTR 有效性的主流推理模型之一。
+
+## 在 Lens 中的角色（文生图任务）
+
+- **特征提取**：从文本指令中提取多层特征（第 4、12、18、24 层拼接），供 MMDiT 模块进行图文交叉注意力交互
+- **指令遵循**：强大的语言理解能力提升了 Lens 对复杂指令的遵循准确性
+- **多语言泛化**：即使 Lens 训练数据全部为英文，GPT-OSS 仍赋予模型理解中文和法文指令的能力
+
+## 注意事项
+
+- GPT-OSS 的具体来源和开源状态尚不明确
+- Lens 号称 3.8B 参数，但推理时实际依赖 20B 的 GPT-OSS，总参数量并非仅 3.8B

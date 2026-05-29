@@ -1,19 +1,20 @@
 ---
 type: entity
 title: DeepSeek V4 Pro
-tags: [deepseek, llm, model-variant, 大模型, 推理优化]
-related: [deepseek-v4, deepseek-v4-flash, agentic-coding, deepseek, deepgemm, 批次不变性, deepseek-api永久降价]
+tags: [deepseek, llm, model-variant, 大模型, 推理优化, moe, 万亿参数]
+related: [deepseek-v4, deepseek-v4-flash, agentic-coding, deepseek, deepgemm, 批次不变性, deepseek-api永久降价, orbit, rl-post-training]
 created: 2026-04-25
-updated: 2026-05-25
-sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，熟悉的d老师也回来了.md", "融资700亿元的deepseek，api价格直降34.md"]
+updated: 2026-05-28
+sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，熟悉的d老师也回来了.md", "融资700亿元的deepseek，api价格直降34.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md"]
 ---
 
 # DeepSeek V4 Pro
 
-[[DeepSeek V4 Pro]] 是 [[DeepSeek V4]] 系列中的高性能版本，主打强推理与编程能力。在模型性能保持全球顶尖的同时，通过独创的注意力架构、并行策略和显存量化带来了极低的推理成本。根据官方说法，该版本在 Agentic 编程能力上达到了开源模型的最佳水平。
+[[DeepSeek V4 Pro]] 是 [[DeepSeek V4]] 系列中最大的变体，拥有 1.6T（万亿级）参数，采用 MoE（混合专家）架构。该版本主打强推理与编程能力，在模型性能保持全球顶尖的同时，通过独创的注意力架构、并行策略和显存量化带来了极低的推理成本。根据官方说法，该版本在 Agentic 编程能力上达到了开源模型的最佳水平。
 
 ## 技术特点
 
+- **MoE 万亿参数架构**：1.6T 参数规模，是 DeepSeek V4 系列中最大的变体。
 - **独创注意力架构**：具体细节尚未公开，但被认为是推理成本大幅下降的关键。
 - **并行策略优化**：与 [[批次不变性]] 理念一脉相承，在保证确定性的前提下优化计算效率。
 - **显存量化**：通过降低精度减少显存占用，进一步压缩推理成本。
@@ -23,6 +24,18 @@ sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，�
 - **网站构建**：成功构建了包含六大板块的《怪奇物语》主题网站，展示了从 0 到 1 的全栈开发能力。
 - **游戏开发**：能够自动补全游戏规则、UI 界面和交互逻辑，生成完整的打地鼠和宠物养成游戏。
 - **推理能力**：在"镜子举手"等逻辑题中表现优于 [[gpt-5.5|ChatGPT-5.5]]，但在包含情感诱导的陷阱题（如"亲生父母结婚"）中，有时会因过度"真诚"而未能识破逻辑漏洞。
+
+## 在 Orbit 框架中的验证
+
+在 [[orbit]] 框架的验证实验中，V4 Pro 用于验证系统的可扩展性上限。
+
+- **硬件：** 单台 8×B200
+- **定位：** 系统上限验证（非效果验证）
+- **结果：** 完成单节点实验，展示稳定的 train-rollout log-prob diff 和可控的 GPU 显存。
+
+值得注意的是，由于 V4 Pro base model 本身已经非常强，实验中使用的 RL 训练数据未能带来涨点。该实验主要证明 [[orbit]] 的系统路径可以扩展到 1.6T 级 MoE 模型，而非效果提升。
+
+这一结果也揭示了系统验证与效果验证是不同层面的问题——"能跑"不等于"有效"。
 
 ## 定价影响
 

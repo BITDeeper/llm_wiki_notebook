@@ -1,0 +1,30 @@
+---
+type: event
+title: ICML 2026
+created: 2026-05-22
+updated: 2026-05-22
+tags: [学术会议, 机器学习, ICML]
+related: [智能体理论-toa, cvpr-2026]
+sources: ["icml-2026｜智能体的下半场：为什么「答对」已经不够了？.md"]
+origin_date: 2026-07-01
+time_span:
+  start: 2026-07-01
+  end: null
+significance: high
+participants: [爱丁堡大学, 普林斯顿大学, uiuc, 西北大学, 香港中文大学]
+causes: []
+effects: [icml-2026智能体理论toa发表]
+---
+# ICML 2026
+
+## 概述
+
+ICML 2026（国际机器学习会议）是机器学习领域最顶级的学术会议之一。Theory of Agent (ToA) 论文以 Position Paper 形式被此会议接收，标志着智能体研究从工程竞赛向理论科学的范式转移。
+
+## 重要发表
+
+- [[智能体理论-toa]]：由爱丁堡大学联合普林斯顿大学、UIUC、西北大学、香港中文大学共同提出的智能体统一理论，以 Position Paper 形式接收
+
+## 关联
+
+- 与 [[cvpr-2026]] 同为 2026 年上半年重要的 AI 学术会议

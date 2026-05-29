@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Scale AI
-tags: ["company", "ai-data", "platform", "ai", "infrastructure", "data", "evaluation", "data-labeling", "benchmark", "acquisition", "ai数据", "数据标注", "美国公司", "公司", "ai评测", "美国", "ai基础设施", "创业公司"]
+tags: ["company", "ai-data", "platform", "ai", "infrastructure", "data", "evaluation", "data-labeling", "benchmark", "acquisition", "ai数据", "数据标注", "美国公司", "公司", "ai评测", "美国", "ai基础设施", "创业公司", "meta投资"]
 related: ["人类最后考试", "cais", "alexandr-wang", "audio-multichallenge", "multichallenge", "远程劳动力指数", "meta", "manus", "如祺数据", "物理世界交互数据", "swe-atlas", "artificial-analysis", "知识型数据护城河"]
 created: 2026-03-07
-updated: 2026-05-25
-sources: ["mmlu已死？「人类最后考试」登nature：全球ai模型集体不及格！.md", "真实音频场景，大模型集体挂科！首个原生语音基准multichallenge.md", "meta新任副总裁：manus创始人肖弘，90后.md", "得场景者得ai天下，出行赛道跑出了一家值得关注的数据玩家.md", "ai编程进入下半场！新基准不测补丁，拷问真正的工程能力.md", "meta大裁员的「幸存者」-们，正在经历进退两难....md"]
+updated: 2026-05-28
+sources: ["mmlu已死？「人类最后考试」登nature：全球ai模型集体不及格！.md", "真实音频场景，大模型集体挂科！首个原生语音基准multichallenge.md", "meta新任副总裁：manus创始人肖弘，90后.md", "得场景者得ai天下，出行赛道跑出了一家值得关注的数据玩家.md", "ai编程进入下半场！新基准不测补丁，拷问真正的工程能力.md", "meta大裁员的「幸存者」-们，正在经历进退两难....md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
 ---
 
 # Scale AI
 
-**Scale AI** 是一家美国 AI 数据基础设施公司，也是数据标注行业的巨头。公司专注于 AI 数据标注与基础设施服务，同时致力于开发严苛的 AI 评估基准，旨在揭示顶尖模型在真实场景下的能力边界。其商业模式的核心逻辑是——不仅提供数据，还提供工具与方法论，帮助客户更高效地使用数据。
+**Scale AI** 是一家美国 AI 数据基础设施公司，也是数据标注行业的巨头，由 [[Alexandr Wang]] 创立。公司专注于 AI 数据标注与基础设施服务，同时致力于开发严苛的 AI 评估基准，旨在揭示顶尖模型在真实场景下的能力边界。其商业模式的核心逻辑是——不仅提供数据，还提供工具与方法论，帮助客户更高效地使用数据。
 
 ## 关键人物
 
@@ -18,7 +18,7 @@ sources: ["mmlu已死？「人类最后考试」登nature：全球ai模型集体
 
 ## 与 Meta 的关系
 
-Scale AI 是 [[meta]] 的收购对象。Meta 斥资约 143 亿美元收购 Scale AI 49% 股份实现控股，这一交易规模在当时仅次于 WhatsApp 收购案。
+Scale AI 是 [[meta]] 的投资与收购对象。2025年，Meta 斥资约 143 亿美元投资 Scale AI（收购 49% 股份实现控股），同时邀请创始人 Alexandr Wang 主导 Meta 的超级智能团队。这一交易规模在当时仅次于 WhatsApp 收购案，是 Meta "personal superintelligence" 愿景的重要组成部分，标志着 Meta 在 AGI 军备赛中的重大布局。
 
 然而，尽管 Meta 重金投资 Scale AI 并坐拥庞大的外部专业外包网络，却仍选择将自家 Infra 工程师调去做数据标注，自建内部标注能力。分析认为，这反映了 Meta 对第三方数据质量的深度不信任，以及建立[[知识型数据护城河]]的战略意图——与其购买外部流水线上的"平庸语料"，不如直接提取内部顶级技术人才的思维过程。
 

@@ -1,24 +1,32 @@
 ---
 type: entity
 title: Lovable
-tags: [company, ai-coding, vibe-coding, startup]
-related: [cursor, 2025-ai-wealth-wave]
+tags: [company, ai-coding, vibe-coding, startup, 无代码开发, 全球top1]
+related: [cursor, 2025-ai-wealth-wave, 百度秒哒, vibe-coding, 第四次编程革命]
 created: 2025-12-28
-updated: 2025-12-28
-sources: ["碾压小扎！22岁成亿万富翁，2025年ai造富速度刷新人类认知.md"]
+updated: 2026-05-28
+sources: ["碾压小扎！22岁成亿万富翁，2025年ai造富速度刷新人类认知.md", "ai正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单丨百度秒哒朱广翔-aigc2026.md"]
 ---
 
 # Lovable
 
-主打“氛围编程”的初创公司。
+全球排名第一的无代码开发软件平台，主打"氛围编程"（vibe coding）。与 [[百度秒哒]] 属于同一赛道，秒哒用户常称秒哒为"中国的 Lovable"。
 
 ## 商业模式
+
 允许没有任何编程经验的用户仅通过文字提示创建网站和应用。
 
-## 商业表现
+## 关键数据
+
 - **估值**：66 亿美元（2025 年 12 月）。
 - **融资**：3.3 亿美元。
 - **增长**：短短八个月内年化收入突破 1 亿美元，被称为史上增长最快的软件公司。
+- **应用占比**：仅由 Lovable 一家公司生成的 AI 应用占全球新增应用的 **10%**，意味着全球每天诞生的每十个应用中就有一个来自 Lovable。
 
 ## 创始人
+
 两位联合创始人 [[Anton Osika]] 和 [[Fabian Hedin]] 各持有约 24% 的股份，身家均达 16 亿美元。
+
+## 行业意义
+
+Lovable 的数据被朱广翔用作"AI正在杀死传统软件"论点的关键证据：应用的创作主体从传统大厂转向 [[opc-一人公司|OPC]] 和个人创作者，反映了软件生产方式的根本性变革。

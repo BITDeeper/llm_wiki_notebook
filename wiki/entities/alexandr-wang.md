@@ -1,18 +1,18 @@
 ---
 type: entity
 title: Alexandr Wang
-tags: [entrepreneur, ai-leadership, person, meta, scale-ai, executive, ai-researcher, people, executives, ceo, 人物, 创始人, ai企业家]
+tags: [entrepreneur, ai-leadership, person, meta, scale-ai, executive, ai-researcher, people, executives, ceo, 人物, 创始人, ai企业家, 创业者]
 related: ["scale-ai", "meta", "meta-superintelligence-labs", "meta-超级智能实验室", "muse-spark", "llama", "nat-friedman", "mark-zuckerberg", "msl", "牛油果模型", "唯模型论", "meta-ai", "yann-lecun", "远程劳动力指数", "manus", "tbd-lab", "avocado", "hudson-river-trading", "奥赛-量化-ai路径", "牛油果", "jason-wei", "maher-saba", "ai人才军备竞赛"]
-sources: ["刚刚，小扎终极野心曝光：为数十亿人提供个人超级智能！.md", "刚刚，小扎砸143亿的「牛油果」来了！硬刚gpt-5.4，硅谷最贵华人首作.md", "28岁alexandr-wang，没走！小扎晒出合照.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "meta新任副总裁：manus创始人肖弘，90后.md", "meta大逃杀！小扎「地狱模式」曝光，不拼命搞ai就滚蛋.md", "小扎千亿新模型被曝「偷师」qwen！meta开源已成笑话.md", "量化公司，正在批量生产ai独角兽创始人.md", "meta亚历山大王走人？小扎回应了.md", "小扎凌晨4点裁员8000人，一切为了ai.md"]
+sources: ["刚刚，小扎终极野心曝光：为数十亿人提供个人超级智能！.md", "刚刚，小扎砸143亿的「牛油果」来了！硬刚gpt-5.4，硅谷最贵华人首作.md", "28岁alexandr-wang，没走！小扎晒出合照.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "meta新任副总裁：manus创始人肖弘，90后.md", "meta大逃杀！小扎「地狱模式」曝光，不拼命搞ai就滚蛋.md", "小扎千亿新模型被曝「偷师」qwen！meta开源已成笑话.md", "量化公司，正在批量生产ai独角兽创始人.md", "meta亚历山大王走人？小扎回应了.md", "小扎凌晨4点裁员8000人，一切为了ai.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
 created: 2026-04-15
-updated: 2026-05-22
+updated: 2026-05-28
 ---
 
 # Alexandr Wang
 
 **Alexandr Wang**（亚历山大·王）是 [[Scale AI]] 的创始人兼前 CEO，现任 Meta 首席 AI 官（CAIO）及 [[Meta 超级智能实验室]]（[[MSL]]/[[TBD Lab]]）负责人。他是典型的"奥赛-量化-AI"路径代表，也是全球最年轻的白手起家亿万富翁之一。
 
-2025 年，Meta 以约 140–143 亿美元收购 Scale AI 49% 的股权并将 Wang 招致麾下。这一金额是 [[ai人才军备竞赛]] 中迄今公开的最高签约费，相当于 Meta 2026 年裁员 8000 人年省金额（30 亿美元）的近 5 倍，标志着 Meta 在 AI 数据基础设施领域的重大布局。
+2025 年，Meta 以约 140–143 亿美元收购 Scale AI 49% 的股权并将 Wang 招致麾下。这一金额是 [[ai人才军备竞赛]] 中迄今公开的最高签约费，相当于 Meta 2026 年裁员 8000 人年省金额（30 亿美元）的近 5 倍，标志着 Meta 在 AI 数据基础设施领域的重大布局。Wang 也由此成为 Meta AGI 战略的核心人物之一。
 
 ## 早期经历与教育背景
 

@@ -481,3 +481,14 @@ sources: []
 ## 2021-01-01 | init | Wiki 初始化
 
 - 创建 Wiki 基础结构
+
+## [2026-05-27] ingest | 本周六，围观学习CVPR 2026论文分享会，最后报名了
+
+- 新增来源页面：机器之心 CVPR 2026 论文分享会活动宣传文案
+- 新增事件页：[[cvpr-2026-论文分享会-机器之心]]
+- 新增人物实体：[[邓志杰]]、[[盛律]]、[[赵昊]]、[[薄杨]]、[[张群英]]
+- 新增组织实体：[[华为香港研究所]]、[[黄大年茶思屋科技网站]]、[[博世集团]]
+- 新增模型/系统实体：[[latentum]]、[[mantis]]、[[dexora]]、[[trellis-2]]、[[aura-video-assistant]]、[[phostream]]、[[mars-simulator]]
+- 新增概念页：[[隐空间统一模型]]、[[生成式视觉先验]]、[[三维内容生成]]、[[流式多模态交互]]
+- CVPR 2026 数据：16,092 篇投稿，4,090 篇接收，录用率 25.42%
+- 关键学术成果标注：Dexora（ICRA 2026 best paper finalist）、TRELLIS 2（CVPR 2026 best paper finalist）、PhoStream（ICML 2026 接收）

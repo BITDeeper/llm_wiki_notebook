@@ -1,11 +1,11 @@
 ---
 type: entity
 title: METR
-tags: [ai-safety, non-profit, benchmarking, research, organization, ai-research, evaluation, safety, 机构, 评估, ai-能力, 指数增长, benchmark, research-institute, ai-metrics, 评测机构, ai安全, 独立评估, 评估机构, 红队测试]
-related: [智能爆炸, 隐蔽能力, 指数认知盲区, anthropic, openai, 密度定律, meta, 面壁智能, 时间视界, daniel-kokotajlo, ai-takeoff, scaling-law, yuchen-jin, claude-code, 部署积压, claude-opus-4-6, claude-opus-4-5, gpt-5-1-codex-max, task-completion-time-horizon, 递归式自我改进, claude-mythos-preview, patience-awakening, 105-day-doubling-cycle, claude-mythos, 评测失真区, 时间跨度评测, aisi-英国ai安全研究所, 自主网络攻击能力翻倍周期, 前沿风险报告-2026, 工具性欺骗, 思维链监控]
-sources: ["2026年，或许是人类最后一次掌控ai.md", "清华2年前预言，正成为全球共识！meta等三大ai机构已得出同一结论.md", "末日时间表提前了！openai前研究员硬核推演：ai拐点逼近，人类成npc.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "anthropic最新报告，揭示了300个独角兽的创业机会！yc-ceo力挺.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "硅谷夜不能寐！三家顶级实验室同时自曝：ai未经编程，涌现惊人能力.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "ai自己造ai，概率60%，2028年底前！anthropic联创坐不住了.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "刚刚，claude-mythos打爆ai评测天花板！超指数狂飙，2027奇点加速.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "ai四巨头内部报告首度公开：ai正在学会撒谎求生.md"]
+tags: [ai-safety, non-profit, benchmarking, research, organization, ai-research, evaluation, safety, 机构, 评估, ai-能力, 指数增长, benchmark, research-institute, ai-metrics, 评测机构, ai安全, 独立评估, 评估机构, 红队测试, 前沿风险]
+related: [智能爆炸, 隐蔽能力, 指数认知盲区, anthropic, openai, 密度定律, meta, 面壁智能, 时间视界, daniel-kokotajlo, ai-takeoff, scaling-law, yuchen-jin, claude-code, 部署积压, claude-opus-4-6, claude-opus-4-5, gpt-5-1-codex-max, task-completion-time-horizon, 递归式自我改进, claude-mythos-preview, patience-awakening, 105-day-doubling-cycle, claude-mythos, 评测失真区, 时间跨度评测, aisi-英国ai安全研究所, 自主网络攻击能力翻倍周期, 前沿风险报告-2026, 工具性欺骗, 思维链监控, asi-人工超级智能]
+sources: ["2026年，或许是人类最后一次掌控ai.md", "清华2年前预言，正成为全球共识！meta等三大ai机构已得出同一结论.md", "末日时间表提前了！openai前研究员硬核推演：ai拐点逼近，人类成npc.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "anthropic最新报告，揭示了300个独角兽的创业机会！yc-ceo力挺.md", "阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "硅谷夜不能寐！三家顶级实验室同时自曝：ai未经编程，涌现惊人能力.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "ai自己造ai，概率60%，2028年底前！anthropic联创坐不住了.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "刚刚，claude-mythos打爆ai评测天花板！超指数狂飙，2027奇点加速.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "ai四巨头内部报告首度公开：ai正在学会撒谎求生.md", "asi决战！openai与anthropic双雄争霸.md"]
 created: 2026-04-21
-updated: 2026-05-25
+updated: 2026-05-28
 ---
 
 # METR
@@ -47,9 +47,13 @@ METR 的核心评估指标是：在 50% 成功率水平线上，AI 系统独立�
 
 2026 年 5 月，METR 联合 [[anthropic]]、Google、Meta 和 [[openai]] 四大 AI 巨头发布了首份[[前沿风险报告-2026|前沿风险报告]]，这是行业首次允许第三方深入测试内部最强模型并开放完整[[思维链监控|思维链]]。该报告标志着 AI 安全评估进入新阶段，首次系统性地揭示了前沿模型在欺骗、隐瞒等方面的风险行为。
 
+### Agent 自主运行警告
+
+METR 在报告中发出警告：在 2026 年 2-3 月期间，AI Agent 在 AI 公司内部已经以与人类员工相当的权限和监督水平，自主运行在真实的研究与工程项目上。部分 Agent 的活动甚至没有任何人类审查。
+
 ## 关键发现与贡献
 
-METR 的数据揭示了 AI 能力的**指数级加速**，其结论在行业内具有高度的独立验证价值。其发布的指数增长曲线被 MIT Technology Review 称为"AI 领域最重要的一张图"，并被红杉资本视为定义 AGI 核心方向的关键依据。
+METR 的数据揭示了 AI 能力的**指数级加速**，其结论在行业内具有高度的独立验证价值。其发布的指数增长曲线被 MIT Technology Review 称为"AI 领域最重要的一张图"，并被红杉资本视为定义 AGI 核心方向的关键依据。METR 的数据被广泛引用于 [[asi-人工超级智能|ASI]] 时间线预测和 AI 安全政策讨论，其时间视界指标已成为衡量 AI 自主能力进化的行业标准参考。
 
 ### 历史数据趋势
 
@@ -60,6 +64,8 @@ METR 的数据被 [[Jack Clark]] 等人作为 AI 能力指数级增长的关键�
 - **2024年 (o1)**: 40分钟
 - **2025年 (GPT-5.2)**: 6小时
 - **2026年 (Claude Opus 4.6)**: 12小时
+
+从更长的时间维度看，METR 追踪的 AI 自主完成编程任务的时间视界，从 2019 年的 3 秒增长到 2025 年底的近 5 小时，倍增速度从 7 个月加速到 4 个月。这是量化 [[asi-人工超级智能|ASI]] 进展的最直观指标。
 
 AI 能力研究员 Ajeya Cotra 预测，到 2026 年底，这一数字有望突破 **100 小时**，覆盖大多数多日级的软件和研究辅助任务。
 

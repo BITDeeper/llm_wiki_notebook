@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Epoch AI
-tags: ["research-institute", "ai-trends", "data-analysis", "research-organization", "benchmarking", "metrics", "研究机构", "数据", "算力", "data-forecasting", "benchmark", "ai-safety", "forecasting", "ai-metrics", "research", "analytics", "ai-industry", "epoch-ai"]
-related: ["ipsos", "institutional-endorsement", "workplace-ai-penetration", "claude-mythos", "ramez-naam", "epoch-能力指数", "谷歌", "openai", "anthropic", "ai算力军备竞赛", "数据成瘾", "scaling-law", "frontiermath", "deepseek-v4", "thinking-tokens", "eci-zong-he-neng-li-zhi-shu", "frontier-math", "zhong-mei-ai-chai-ju", "英伟达", "人均营收"]
+tags: ["research-institute", "ai-trends", "data-analysis", "research-organization", "benchmarking", "metrics", "研究机构", "数据", "算力", "data-forecasting", "benchmark", "ai-safety", "forecasting", "ai-metrics", "research", "analytics", "ai-industry", "epoch-ai", "ai经济学", "数据分析"]
+related: ["ipsos", "institutional-endorsement", "workplace-ai-penetration", "claude-mythos", "ramez-naam", "epoch-能力指数", "谷歌", "openai", "anthropic", "ai算力军备竞赛", "数据成瘾", "scaling-law", "frontiermath", "deepseek-v4", "thinking-tokens", "eci-zong-he-neng-li-zhi-shu", "frontier-math", "zhong-mei-ai-chai-ju", "英伟达", "人均营收", "超级巨星效应", "ai-takeoff"]
 created: 2026-04-07
-updated: 2026-05-11
-sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anthropic版「狼来了」引华尔街恐慌！27年漏洞，mythos被8个ai秒杀.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "karpathy紧急叫停！别再喂数据了，曝agi方向全错.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，全场惊呼新王归来.md", "node.js之父官宣：人类手写代码时代真的结束了！.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，疑似明天发布，全场惊呼新王归来.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "claude狂印钞！anthropic人均营收900万美元，吊打英伟达.md"]
+updated: 2026-05-28
+sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anthropic版「狼来了」引华尔街恐慌！27年漏洞，mythos被8个ai秒杀.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "karpathy紧急叫停！别再喂数据了，曝agi方向全错.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，全场惊呼新王归来.md", "node.js之父官宣：人类手写代码时代真的结束了！.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，疑似明天发布，全场惊呼新王归来.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "claude狂印钞！anthropic人均营收900万美元，吊打英伟达.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
 ---
 
 # Epoch AI
 
-[[Epoch AI]] 是一家全球权威的独立 AI 研究机构，专注于 AI 发展趋势预测、基准测试、AI 安全及影响力分析。该机构为包括 [[OpenAI]]、[[Google DeepMind]] 和美国国会在内的顶级机构提供数据咨询服务，其研究涵盖数据可用性、算力分布分析、前沿模型推理能力评估以及 AI 公司运营效率分析。
+[[Epoch AI]] 是一家全球权威的独立 AI 研究机构，专注于 AI 发展趋势预测、基准测试、AI 安全、算力经济学及影响力分析。该机构为包括 [[OpenAI]]、[[Google DeepMind]] 和美国国会在内的顶级机构提供数据咨询服务，其研究涵盖数据可用性、算力分布分析、前沿模型推理能力评估、AI 公司运营效率分析以及 AI 人才市场量化研究。
 
 ## 核心指标与评估体系
 
@@ -23,7 +23,7 @@ sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anth
 ### 中美 AI 差距分析
 Epoch AI 通过数据可视化量化了全球 AI 的地缘竞争格局：
 - **时间差**：揭示了中美 AI 模型在发布时间和能力上的差距，例如 2025 年平均存在 7 个月的滞后。
-- **影响力**：此类分析常被主流科技媒体引用，作为评估“开源 vs 闭源”技术路线效能及全球 AI 发展趋势的权威参考。
+- **影响力**：此类分析常被主流科技媒体引用，作为评估"开源 vs 闭源"技术路线效能及全球 AI 发展趋势的权威参考。
 
 ### 推理成本分析
 Epoch AI 的数据显示，AI 推理成本正在以惊人的速度下降：
@@ -31,15 +31,23 @@ Epoch AI 的数据显示，AI 推理成本正在以惊人的速度下降：
 - **峰值下降速度**：每年 900 倍（2024 年 1 月后）。
 - **案例**：GPT-3.5 级别性能的成本在两年内（2022.11 - 2024.10）下降了 280 倍以上。
 
+## 商业效率与人才经济学
+
 ### 商业效率分析
 该机构发布的关于前沿 AI 公司人均营收的数据分析，揭示了 [[Anthropic]] 以 900 万美元的人效刷新硅谷纪录的事实。其研究方法基于各公司最新公开的营收与员工信息进行推算，为行业提供了衡量 AI 公司商业效率的重要基准。
+
+### AI 研究员经济学
+Epoch AI 发布了关于 AI 研究员经济学的深度研究报告：
+- **顶尖人才价值**：揭示顶尖研究员年薪可能超过 1000 万美元，薪酬梯度跨越三个数量级。
+- **理论框架**：将 Sherwin Rosen 的 [[超级巨星效应]] 理论系统性地应用于 AI 研究员薪酬分析，结合了 45 年跨行业验证的经济学理论和最新行业薪酬数据。
+- **对 AI Takeoff 的启示**：指出如果薪酬差距主要是市场结构放大而非真实能力反映，则"复制天才智能→加速 AI 进展"的预测被高估，[[ai-takeoff]] 时间线需重新校准。
 
 ## 核心预测：数据枯竭
 - **预测结论**：Epoch AI 预测互联网上的高质量文本数据存量将在 2027-2028 年被 AI 训练需求耗尽。
 - **潜在后果**：一旦高质量数据耗尽，AI 行业将面临两条糟糕的道路：
     1.  **模型坍塌**：使用 AI 生成的低质量数据进行训练，导致模型智力退化。
     2.  **数据垃圾互喂**：模型在无意义的垃圾数据循环中无法提升智力。
-- **行业影响**：这一预测被 [[andrej-karpathy]] 和 [[flapping-airplanes]] 引用，作为反对单纯依赖 [[scaling-law]] 和 [[数据成瘾]] 的关键论据，支持转向“样本高效”的学习范式。
+- **行业影响**：这一预测被 [[andrej-karpathy]] 和 [[flapping-airplanes]] 引用，作为反对单纯依赖 [[scaling-law]] 和 [[数据成瘾]] 的关键论据，支持转向"样本高效"的学习范式。
 
 ## 研究成果：全球算力分布
 - **标准化单位**：发布全球 AI 芯片分布报告，使用 [[H100等量算力]] 作为标准化单位。
@@ -51,5 +59,8 @@ Epoch AI 的数据显示，AI 推理成本正在以惊人的速度下降：
 - **数据完整性保护**：Epoch AI 严格控制 FrontierMath 数据集的访问权限，目前仅他们和 OpenAI 有权对该数据集进行评估。
 - **DeepSeek V4 泄露事件**：在 [[DeepSeek V4]] 基准测试泄露事件中，Epoch AI 确认泄露的 FrontierMath 数据是伪造的。这一发现揭示了部分泄露数据的不可靠性，并引发了对 [[DeepSeek V4]] 性能 claims 的质疑。
 
+## 研究特点
+Epoch AI 在报告中明确标注数据为"粗估"，体现研究严谨性。其分析结合了经济学理论、最新行业数据与定量模型，为理解 AI 发展趋势、人才市场和算力格局提供了重要的理论框架。
+
 ## 行业影响与事件
-- **对 Scaling Law 的支撑**：Epoch AI 的数据为 [[Emad Mostaque]] 关于“思考 Tokens 崩盘”和 AI 编程成本暴跌的预测提供了坚实的定量支撑，增强了行业关于 [[scaling-law]] 和 [[编程平权]] 预测的可信度。
+- **对 Scaling Law 的支撑**：Epoch AI 的数据为 [[Emad Mostaque]] 关于"思考 Tokens 崩盘"和 AI 编程成本暴跌的预测提供了坚实的定量支撑，增强了行业关于 [[scaling-law]] 和 [[编程平权]] 预测的可信度。
