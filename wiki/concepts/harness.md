@@ -2,32 +2,51 @@
 type: concept
 title: Harness (智能体运行框架)
 created: 2026-04-18
-updated: 2026-05-23
-tags: ["agent", "architecture", "engineering", "framework", "ai-agent", "system-design", "optimization", "架构", "系统设计", "ai4s", "metaphor", "human-ai-interaction", "ai-engineering", "governance", "harness", "ai编程", "工程化"]
-related: ["minimax", "m2-7", "maxhermes", "maxclaw", "hermes-agent", "openclaw", "runtime-agent-os", "meta-harness", "agent-model-harness", "claude-code", "scienceclaw", "claude-managed-agents", "多agent分层编排", "紫东太初", "agent-native", "agentic-rl", "wiseclaw-2.0", "任务执行范式", "agentic-engineering", "deepseek-code", "场景白盒化推理"]
-sources: ["b站爆了！hermes首度直播回应「抄袭」，minimax提前杀入harness赛点.md", "meta-harness让haiku性能狂飙，甚至追平opus！.md", "claude有的，国产也有！紫东太初科研龙虾scienceclaw，已经把harness卷进实验室.md", "企业玩不转龙虾，是人的思维出错了.md", "全球医疗榜第一，中国ai杀疯了！医疗ai迈入harness时代.md", "融资700亿！deepseek-code真要来了，acm金牌大神崔添翼挂帅.md"]
+updated: 2026-05-30
+tags: ["agent", "architecture", "engineering", "framework", "ai-agent", "system-design", "optimization", "架构", "系统设计", "ai4s", "metaphor", "human-ai-interaction", "ai-engineering", "governance", "harness", "ai编程", "工程化", "企业级ai", "生产管控", "架构理念"]
+related: ["minimax", "m2-7", "maxhermes", "maxclaw", "hermes-agent", "openclaw", "runtime-agent-os", "meta-harness", "agent-model-harness", "claude-code", "scienceclaw", "claude-managed-agents", "多agent分层编排", "紫东太初", "agent-native", "agentic-rl", "wiseclaw-2.0", "任务执行范式", "agentic-engineering", "deepseek-code", "场景白盒化推理", "amazon-bedrock-agentcore", "企业级agent落地鸿沟", "五层企业ai架构", "产业深水区"]
+sources: ["b站爆了！hermes首度直播回应「抄袭」，minimax提前杀入harness赛点.md", "meta-harness让haiku性能狂飙，甚至追平opus！.md", "claude有的，国产也有！紫东太初科研龙虾scienceclaw，已经把harness卷进实验室.md", "企业玩不转龙虾，是人的思维出错了.md", "全球医疗榜第一，中国ai杀疯了！医疗ai迈入harness时代.md", "融资700亿！deepseek-code真要来了，acm金牌大神崔添翼挂帅.md", "token贵只因你喂给模型的垃圾太多了丨亚马逊王晓野aigc2026.md"]
 ---
 
 # Harness (智能体运行框架)
 
-**Harness**（智能体运行框架 / 脚手架 / 托管框架 / 驾驭系统）是指支撑 AI 模型运行并使其能够完成复杂任务的一整套基础设施和工程逻辑。它是模型从"能对话"到"能干活"的关键桥梁，标志着 AI 从"单次问答"玩具阶段迈向"生产级系统"的关键范式转移。
+**Harness**（智能体运行框架 / 脚手架 / 托管框架 / 驾驭系统）是指支撑 AI 模型运行并使其能够完成复杂任务的一整套基础设施和工程逻辑，是模型之外所有关于生产、控制、管控的生产级能力的统称。它是模型从"能对话"到"能干活"的关键桥梁，标志着 AI 从"单次问答"玩具阶段迈向"生产级系统"的关键范式转移。
+
+这一概念由 HashiCorp 联创 [[Mitchell Hashimoto]] 在 2026 年 2 月率先命名，随后由 [[王晓野]] 在 [[第四届中国aigc产业峰会]] 上系统阐述，并已成为行业共识。
 
 ## 核心公式
 
 在 AI 智能体的构建范式中，业界普遍遵循 **Agent = Model + Harness** 的公式：
 
-- **模型是"大脑" / 引擎**：提供基础的智能、推理和知识能力。
-- **[[Harness]] 是"身体" / 机甲**：决定智能如何被应用，如何与环境交互，以及如何处理不确定性。
+- **模型是"大脑" / 引擎 / CPU**：提供基础的智能、推理和知识能力。
+- **[[Harness]] 是"身体" / 机甲 / 操作系统**：决定智能如何被应用，如何与环境交互，以及如何处理不确定性。
 
 这一公式不仅被 [[MiniMax]] 首席架构师 [[阿岛]] 等人在公开演讲中反复强调，也出现在 [[DeepSeek V4|DeepSeek]] 的官方招聘信息中，已成为行业共识。
 
 再强的引擎，如果没有外骨骼框架来传递动力和执行动作，也无法造出强大的 Agent。
+
+## 核心比喻
+
+### F1 赛车（MiniMax 阿岛）
+
+[[MiniMax]] 首席架构师 [[阿岛]] 曾用"F1 赛车"生动比喻 Agent 与 Harness 的关系：
+
+- **Agent**：马力全开的 F1 赛车（模型能力）。
+- **[[Harness]]**：专业的车身结构与赛道系统（工程架构）。
+- **企业环境**：应为 Agent 打造适配的车身与专业赛道。
+
+**现状误区**：很多企业把 F1 赛车开在乡镇公路上，还要求它遵守家用车的规则。这反映了思维模式的滞后——在 [[Agent Native]] 时代，人类和企业的角色必须从"操作者"转变为"驾驭者（[[Harness]]）"，负责设定目标、提供资源、监督结果，而非束缚 Agent 的手脚。
+
+### CPU 与操作系统（亚马逊 王晓野）
+
+[[王晓野]] 用计算机架构类比：如果把模型看作 CPU，那么真正使用电脑时，没有人会把一块焊着 CPU 的主板直接给用户用。我们还需要软件、操作系统以及各种可使用的能力。Harness 就是把这些可使用、可操作、可管控的能力放在一起，最终让 Agent 呈现为一个完整应用形态。
 
 ## 起源与发展
 
 - **2026 年 2 月**：HashiCorp 联创 [[Mitchell Hashimoto]] 在博客中率先命名了这一概念。
 - **OpenAI 实验**：发布报告称 3 名工程师利用 Codex Agent 在 5 个月内生成了 100 万行生产级代码，展示了 Harness 的潜力。
 - **行业共识**：[[Martin Fowler]] 撰写深度长文，Anthropic 发布相关设计指南，确立了 Harness 在 AI 工程化中的核心地位。
+- **亚马逊产品化**：[[王晓野]] 在 [[第四届中国aigc产业峰会]] 上系统阐述 Harness 理念，[[amazon-bedrock-agentcore|Amazon Bedrock AgentCore]] 作为具体产品化落地，包含九大功能模块。
 - **DeepSeek 入局**：[[DeepSeek]] 在 [[deepseek-code]] 项目招聘中明确将 Harness Engineering 列为核心岗位方向，进一步验证了这一概念的行业地位。
 
 ## 技术演进路径
@@ -56,16 +75,6 @@ DeepSeek 招聘要求中隐含了一条清晰的技术演进路径：
 - **结果检查**：验证每一步执行结果是否符合预期。
 - **错误回滚**：在执行失败时进行诊断、修复和重试。
 
-## 比喻：F1 赛车与驾驭者
-
-[[MiniMax]] 首席架构师 [[阿岛]] 曾用"F1 赛车"生动比喻 Agent 与 Harness 的关系：
-
-- **Agent**：马力全开的 F1 赛车（模型能力）。
-- **[[Harness]]**：专业的车身结构与赛道系统（工程架构）。
-- **企业环境**：应为 Agent 打造适配的车身与专业赛道。
-
-**现状误区**：很多企业把 F1 赛车开在乡镇公路上，还要求它遵守家用车的规则。这反映了思维模式的滞后——在 [[Agent Native]] 时代，人类和企业的角色必须从"操作者"转变为"驾驭者（[[Harness]]）"，负责设定目标、提供资源、监督结果，而非束缚 Agent 的手脚。
-
 ## 核心组件
 
 一个典型的 [[Harness]] 包含以下要素：
@@ -79,12 +88,18 @@ DeepSeek 招聘要求中隐含了一条清晰的技术演进路径：
 
 ### 2. 记忆与上下文
 - **上下文管理**：如何截断、保留和检索历史信息。
-- **记忆管理**：处理短期记忆（上下文窗口）和长期记忆（向量数据库、RAG）的存储与检索。
+- **记忆管理**：处理短期记忆（上下文窗口）和长期记忆（向量数据库、RAG）的存储与检索，包括共享、隔离、长短期记忆的生命周期管理。
 
 ### 3. 执行环境与托管
 - **Skills 系统**：定义、存储和执行复杂任务流程的"技能包"。
 - **沙箱环境**：提供安全、隔离、可弹性伸缩的代码执行环境。
 - **托管控制层**：在高级架构中，Agent 不再拥有直接执行权，而是由 Harness 层进行路由、策略校验和沙盒托管。
+
+### 4. 核心能力范围
+- **运行时管理**：自动横向扩展、自动重启、不中断运行。
+- **安全管控**：权限继承、策略边界、数据隔离。
+- **可观测性**：全链路调用追踪、幻觉检测。
+- **系统集成**：CRM、ERP 等企业现有系统的接入。
 
 ## 架构演进：从"裸奔"到"托管"
 
@@ -130,6 +145,12 @@ Anthropic 提出的企业级智能体托管框架，强调通过标准化 Harnes
 - **正向**：模型为 [[Harness]] 优化底层能力（如工具调用准确性、长上下文一致性）。
 - **反向**：[[Harness]] 产品在真实场景中验证需求，产生数据反馈给模型，指导模型迭代。
 
+### 4. 产业价值重估
+
+在 [[产业深水区]] 阶段，Harness 的价值正在被重新认识。当 87% 企业已部署 AI 但仅 10% 获得真正价值时，差距恰恰在于从模型能力到生产级能力的转化——这正是 Harness 要解决的问题。
+
+这一概念与现有 [[ai产业链价值分配]] 中"模型厂吃肉"的判断形成对照：如果 Harness 价值被广泛认可，AI 产业链的价值分配格局可能发生变化。
+
 ## 技术挑战与优化
 
 ### 1. 云端沙箱难题
@@ -149,6 +170,8 @@ Anthropic 提出的企业级智能体托管框架，强调通过标准化 Harnes
 - **[[agentic-engineering]]**：Harness Engineering 是 Agentic Engineering 的核心子领域。
 - **[[runtime-agent-os]]**：Harness 与 Runtime Agent-OS 的三层架构（实体、交互、记忆）有概念重叠，都试图为 Agent 提供系统级支撑。
 - **[[场景白盒化推理]]**：Harness 的可反馈、可纠错特性与白盒化推理的理念一致。
+- **[[五层企业ai架构]]**：Harness 是企业 AI 架构中的关键层级。
+- **[[企业级agent落地鸿沟]]**：Harness 是跨越落地鸿沟的核心技术手段。
 
 ## 相关案例
 
@@ -159,3 +182,4 @@ Anthropic 提出的企业级智能体托管框架，强调通过标准化 Harnes
 - **[[scienceclaw]]**：紫东太初推出的具备全链路可观测性的 AI4S 托管平台。
 - **[[wiseclaw-2.0]]**：结合了 OpenClaw 连接能力与 Harness 治理能力的协同架构。
 - **[[deepseek-code]]**：DeepSeek 旗下由 ACM 金牌大神崔添翼挂帅的 AI 编程项目，将 Harness Engineering 列为核心方向。
+- **[[amazon-bedrock-agentcore|Amazon Bedrock AgentCore]]**：亚马逊 Harness 理念的具体产品化，包含九大功能模块。

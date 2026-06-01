@@ -1,0 +1,43 @@
+name: Issue Auto Responder (Claude)
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  respond:
+    runs-on: ubuntu-latest
+    if: github.event.sender.type != 'Bot'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Auto respond to issue
+        env:
+          CI: true
+          CLAUDE_CODE_SKIP_LOGIN: 1
+          CLAUDE_CODE_USE_EXTERNAL_AUTH: 1
+          CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: 1
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL || 'https://twilight-violet-b5af.zhangpybit.workers.dev' }}
+          ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN || 'dummy' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_AUTH_TOKEN || 'dummy' }}
+          ANTHROPIC_API_URL: ${{ secrets.ANTHROPIC_BASE_URL || 'https://twilight-violet-b5af.zhangpybit.workers.dev' }}
+          ANTHROPIC_DEFAULT_HAIKU_MODEL: "glm-4.7"
+          ANTHROPIC_DEFAULT_SONNET_MODEL: "glm-4.7"
+          ANTHROPIC_DEFAULT_OPUS_MODEL: "glm-5.1"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          EVENT_NAME: ${{ github.event_name }}
+          SENDER_LOGIN: ${{ github.event.sender.login }}
+        run: node .github/issue-responder-claude.mjs

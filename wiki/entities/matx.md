@@ -1,31 +1,34 @@
 ---
 type: entity
 title: MatX
-tags: [ai-chip, startup, hardware, llm, 公司, AI硬件, 推理优化]
-related: [matx-one, reiner-pope, mike-gunter, andrej-karpathy, 英伟达, cerebras-systems, 可拆分脉动阵列, 显存带宽瓶颈, roofline模型, 软硬协同设计]
+tags: [ai-chip, startup, hardware, llm, 公司, AI硬件, 推理优化, ai芯片, 初创公司, 硬件]
+related: ["matx-one", "reiner-pope", "mike-gunter", "andrej-karpathy", "英伟达", "cerebras-systems", "可拆分脉动阵列", "显存带宽瓶颈", "roofline模型", "软硬协同设计", "nvidia", "google-tpu", "乘加运算", "数据搬运开销", "脉动阵列"]
 created: 2026-02-25
-updated: 2026-05-22
-sources: ["融资34亿！谷歌前tpu员工创业新型芯片，卡帕西也投了.md", "前谷歌-tpu-架构师：为何堆满算力仍无法消除推理卡顿？.md"]
+updated: 2026-05-30
+origin_date: 2022-12-31
+sources: ["融资34亿！谷歌前tpu员工创业新型芯片，卡帕西也投了.md", "前谷歌-tpu-架构师：为何堆满算力仍无法消除推理卡顿？.md", "面对相同的物理法则，gpu、fpga与碳基大脑为何走向不同分支？.md"]
 ---
 
 # MatX
 
-[[MatX]] 是一家成立于 2022 年的 AI 芯片初创公司，由前 Google TPU 团队核心架构师 [[Reiner Pope]] 创立，专注于 AI 推理硬件优化领域。该公司致力于构建专门针对大语言模型（LLM）优化的硬件，试图通过 [[软硬协同设计]] 解决当前 AI 芯片在吞吐量和延迟之间的权衡问题，直接挑战 [[英伟达]] 在 AI 硬件领域的霸主地位。
+[[MatX]] 是一家成立于 2022 年末的 AI 芯片初创公司，由前 Google TPU 团队核心成员 [[Reiner Pope]] 和 [[Mike Gunter]] 联合创立，核心业务是研发用于训练和推理大规模 AI 模型的底层处理器芯片。该公司致力于构建专门针对大语言模型（LLM）优化的硬件，试图通过 [[软硬协同设计]] 解决当前 AI 芯片在吞吐量和延迟之间的权衡问题，直接挑战 [[英伟达|NVIDIA]] 在 AI 硬件领域的霸主地位。
 
-## 团队背景
+## 创始团队
 
-- **[[Reiner Pope]]（CEO）**：前 Google TPU 技术主管、核心架构师，PaLM 模型软硬效率负责人。他对 [[显存带宽瓶颈]]、[[Roofline模型]] 和推理并发调度经济学有深刻理解。
-- **[[Mike Gunter]]（CTO）**：前 Google 首席工程师，硬件架构专家。
+- **[[Reiner Pope]]（CEO）**：前 Google TPU 技术主管、核心架构师，PaLM 模型软硬效率负责人，大模型基础设施团队成员。他对 [[显存带宽瓶颈]]、[[Roofline模型]] 和推理并发调度经济学有深刻理解。
+- **[[Mike Gunter]]（CTO）**：Google TPU 的创造者之一，前 Google 首席工程师，硬件架构专家。曾在六个不同行业领域主导设计或架构过 11 款商业芯片。
 
 ## 核心产品
 
-公司正在研发其首款芯片 [[MatX One]]，号称结合了 HBM 的高吞吐量和 SRAM 的低延迟特性，特别针对长上下文和 [[Agent 循环]] 场景进行了优化。
+公司正在研发其首款芯片 [[MatX One]]，号称结合了 HBM 的高吞吐量和 SRAM 的低延迟特性，特别针对长上下文和 [[Agent 循环]] 场景进行了优化。该旗舰 AI 处理器宣称训练大模型时运算速度比 NVIDIA 竞品快 10 倍。
 
 ## 技术理念
 
 MatX 认为现有的 AI 芯片架构（无论是 HBM 优先还是 SRAM 优先）都无法完美适配未来 LLM 的复杂工作流。他们主张从零开始重构算力与存储的关系，采用 [[可拆分脉动阵列]] 架构，以实现"训练级吞吐"与"推理级低延迟"的统一。
 
 创始团队对推理延迟的物理约束（尤其是 [[显存带宽瓶颈]]）的深刻认知，暗示公司可能针对推理侧的物理极限提出创新硬件解决方案。
+
+MatX 的技术路线强调从逻辑门物理层面理解 AI 芯片设计，关注 [[乘加运算]] 的物理实现、[[数据搬运开销]] 的优化以及 [[脉动阵列]] 等专用架构的工程优势。
 
 ## 融资情况
 

@@ -1,147 +1,39 @@
 ---
 type: entity
 title: Claude Code
-tags: ["产品", "编程", "智能体", "开发工具", "ai-tool", "coding-assistant", "software-engineering", "coding-agent", "anthropic", "tool", "coding", "agent", "competitor", "product", "developer-tools", "ai-agent", "tools", "controversy", "model", "performance", "ai", "工具", "claude", "ai工具", "编程代理", "事故", "automation", "computer-use", "远程控制", "龙虾化", "ai-coding", "高算力消耗", "代码审计", "多智能体", "cli", "voice-interface", "productivity", "enterprise", "ai-programming", "agent-tools", "编程工具", "性能争议", "subscription", "coding-tool", "leak", "security", "计费漏洞", "版本回滚", "development-tools", "安全事故", "gui-操控"]
-related: ["claude", "anthropic", "订阅制死局", "juno-ai", "xcode", "claude-md", "skills-hooks", "harness-engineering", "boris-cherny", "codex", "openai", "通用电脑操控-agent", "ai-平台入口", "商业兑现", "ai-subscription-crisis", "openclaw", "任务执行范式", "claude-mythos", "行动智能", "opus-4-6", "bridgebench", "战略性降智", "计算机使用", "token刺客", "felixrieseberg", "alex-albert", "noah-zweben", "orbit", "电脑使用", "手机使用", "定时任务自动化", "chaofan-shou", "source-map-leaks", "龙虾化", "channels", "dispatch", "mcp", "错峰双倍", "ai-代码评审", "多智能体系统", "语音编程", "编程导演", "cowork", "perseverance", "jpl", "外星自动驾驶", "claude-pilled", "vibe-coding", "claude-dot-md-practice", "通用智能体", "文件夹思维", "会话传送", "swe-bench", "tau-bench", "gpt-4o", "ai-shrinkflation", "gpt-5.5", "opus-4.6", "ai-降智", "glm-5.1", "kairos", "claude-code", "prompt-cache", "computer-use", "无人值守模式", "gui-操控"]
-created: 2026-04-16
-updated: 2026-05-08
-sources: ["claude半个月连崩7次！全球宕机3小时，强制实名精准封号.md", "苹果官方app惊现claude.md，24小时秒删！4万亿帝国ai底裤被扒光.md", "撕开claude-code真相：让它好用的98.4%，是工程不是ai.md", "永别了，终端！openai疯狂升级codex，接管mac人类全程0操作围观.md", "刚刚，美国ai霸主换了！anthropic年收300亿，碾压openai.md", "历史性时刻！anthropic估值暴涨破万亿美元，首次超越openai.md", "今天，anthropic偷偷移除了pro用户的claude-code访问权.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "claude降智，是自杀还是装死？.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "claude深夜长出「双手」，接管电脑狂飙代码！额度光速耗尽，全网哀嚎.md", "claude深夜彻底「虾化」！一句话接管电脑打工，手机指挥7×24小时不停.md", "claude-code开源第一人，竟是华人辍学博士！cc之父回应：纯手误.md", "anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "claude-code也要龙虾化！凌晨床上发条消息，mac-mini瞬间亮屏狂敲代码.md", "限时14天！claude推「错峰双倍」特权，国内用户天降「时差红利」.md", "今天，anthropic偷偷移除了pro用户的claude-code访问权", "claude-code开源第一人，竟是华人辍学博士！cc之父回应：纯手误", "刚刚，anthropic深夜血洗500亿美金行业！代码审计末日来了.md", "编程进入「对讲机」时代！claude抢发语音写代码，转录token全免费.md", "300亿美金为ai新王加冕！anthropic估值狂飙至3800亿，马斯克急了.md", "claude「开上」火星！跨越3.6亿公里，ai指挥毅力号自动驾驶.md", "claude统治一切！吞下这颗红药丸，焊工也是顶尖程序员.md", "anthropic深夜再出杀招！编码ai一键清空桌面，白领末日来临？.md", "全球开发者狂喜！claude-code史上最大更新，一次性1096次提交.md", "谁说老实人赚不到钱？claude用一张3500亿的支票打脸openai.md", "claude终于认了！降智坐实，越聊越傻，3个bug全曝光.md", "300亿美金为ai新王，claude统治一切！吞下这颗红药丸，焊工也是顶尖程序员.md", "好你个智谱，模型价格搞双标：中国一套外国一套.md", "anthropic被逼急了！亲生龙虾意外曝光，karpathy：这就是claude-claw.md", "claude终于承认乱扣费！最高多收你20倍，一句「你好」干掉13%额度.md", "claude-code能控制电脑了！开发全程不离终端，全无人值守模式启动.md", "全球ai新王诞生！anthropic估值冲爆1.2万亿，首次反超openai.md", "openclaw逼出claude最强反击！gui操控电脑和真人无差别，网友：这得花多少token？.md"]
+created: 2026-05-21
+updated: 2026-05-29
+tags: ["产品", "编程", "智能体", "开发工具", "ai-tool", "coding-assistant", "software-engineering", "coding-agent", "anthropic", "tool", "coding", "agent", "competitor", "product", "developer-tools", "ai-agent", "tools", "controversy", "model", "performance", "ai", "工具", "claude", "ai工具", "编程代理", "事故", "automation", "computer-use", "远程控制", "龙虾化", "ai-coding", "高算力消耗", "代码审计", "多智能体", "cli", "voice-interface", "productivity", "enterprise", "ai-programming", "agent-tools", "编程工具", "性能争议", "subscription", "coding-tool", "leak", "security", "计费漏洞", "版本回滚", "development-tools", "安全事故", "gui-操控", "ai编程"]
+related: ["claude", "anthropic", "订阅制死局", "juno-ai", "xcode", "claude-md", "skills-hooks", "harness-engineering", "boris-cherny", "codex", "openai", "通用电脑操控-agent", "ai-平台入口", "商业兑现", "ai-subscription-crisis", "openclaw", "任务执行范式", "claude-mythos", "行动智能", "opus-4-6", "bridgebench", "战略性降智", "计算机使用", "token刺客", "felixrieseberg", "alex-albert", "noah-zweben", "orbit", "电脑使用", "手机使用", "定时任务自动化", "chaofan-shou", "source-map-leaks", "龙虾化", "channels", "dispatch", "mcp", "错峰双倍", "ai-代码评审", "多智能体系统", "语音编程", "编程导演", "cowork", "perseverance", "jpl", "外星自动驾驶", "claude-pilled", "vibe-coding", "claude-dot-md-practice", "通用智能体", "文件夹思维", "会话传送", "swe-bench", "tau-bench", "gpt-4o", "ai-shrinkflation", "gpt-5.5", "opus-4.6", "ai-降智", "glm-5.1", "kairos", "claude-code", "prompt-cache", "computer-use", "无人值守模式", "gui-操控", "claude-opus-4-8", "动态工作流", "投入度控制", "agent-view"]
+sources: ["claude半个月连崩7次！全球宕机3小时，强制实名精准封号.md", "苹果官方app惊现claude.md，24小时秒删！4万亿帝国ai底裤被扒光.md", "撕开claude-code真相：让它好用的98.4%，是工程不是ai.md", "永别了，终端！openai疯狂升级codex，接管mac人类全程0操作围观.md", "刚刚，美国ai霸主换了！anthropic年收300亿，碾压openai.md", "历史性时刻！anthropic估值暴涨破万亿美元，首次超越openai.md", "今天，anthropic偷偷移除了pro用户的claude-code访问权.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "claude降智，是自杀还是装死？.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "claude深夜长出「双手」，接管电脑狂飙代码！额度光速耗尽，全网哀嚎.md", "claude深夜彻底「虾化」！一句话接管电脑打工，手机指挥7×24小时不停.md", "claude-code开源第一人，竟是华人辍学博士！cc之父回应：纯手误.md", "anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "claude-code也要龙虾化！凌晨床上发条消息，mac-mini瞬间亮屏狂敲代码.md", "限时14天！claude推「错峰双倍」特权，国内用户天降「时差红利」.md", "今天，anthropic偷偷移除了pro用户的claude-code访问权", "claude-code开源第一人，竟是华人辍学博士！cc之父回应：纯手误", "刚刚，anthropic深夜血洗500亿美金行业！代码审计末日来了.md", "编程进入「对讲机」时代！claude抢发语音写代码，转录token全免费.md", "300亿美金为ai新王加冕！anthropic估值狂飙至3800亿，马斯克急了.md", "claude「开上」火星！跨越3.6亿公里，ai指挥毅力号自动驾驶.md", "claude统治一切！吞下这颗红药丸，焊工也是顶尖程序员.md", "anthropic深夜再出杀招！编码ai一键清空桌面，白领末日来临？.md", "全球开发者狂喜！claude-code史上最大更新，一次性1096次提交.md", "谁说老实人赚不到钱？claude用一张3500亿的支票打脸openai.md", "claude终于认了！降智坐实，越聊越傻，3个bug全曝光.md", "300亿美金为ai新王，claude统治一切！吞下这颗红药丸，焊工也是顶尖程序员.md", "好你个智谱，模型价格搞双标：中国一套外国一套.md", "anthropic被逼急了！亲生龙虾意外曝光，karpathy：这就是claude-claw.md", "claude终于承认乱扣费！最高多收你20倍，一句「你好」干掉13%额度.md", "claude-code能控制电脑了！开发全程不离终端，全无人值守模式启动.md", "全球ai新王诞生！anthropic估值冲爆1.2万亿，首次反超openai.md", "openclaw逼出claude最强反击！gui操控电脑和真人无差别，网友：这得花多少token？.md", "claude-opus-4.8问世，anthropic估值暴涨至9650亿美元.md"]
 ---
-
 # Claude Code
 
-[[Claude Code]] 是由 [[Anthropic]] 推出的专注于编程任务的 AI 智能体产品。它不仅是一个命令行工具或代码生成器，更已进化为具备全平台控制能力、远程协作功能及自动化代码审计能力的个人自动化助理。它是 [[OpenAI]] [[Codex]] 在“通用电脑操控 Agent”领域的主要竞争对手，底层模型为 [[Opus 4.6]]（亦称 [[Claude Mythos]]）。
-
-Claude Code 的出现引发了硅谷的「[[claude-pilled]]」现象，被视为引发软件开发范式根本性转变的核弹级产品。它不仅服务于专业程序员，更通过彻底消除编程门槛，让非技术人员也能构建复杂系统，催生了「[[vibe-coding]]」这一新范式。
-
-值得注意的是，Claude Code 的底层逻辑具有高度通用性，已成为 Anthropic 构建 [[通用智能体]] 操作系统的技术基石。2026 年 1 月发布的 [[Cowork]]（办公智能体）完全复用了其底层能力，且其 100% 的代码均由 Claude Code 编写，展示了其强大的元循环开发能力。
-
-## 市场表现与商业影响
-
-Claude Code 已成为 Anthropic 商业成功的核心引擎，其市场表现极为亮眼：
-- **增长驱动力**：CC 的推出直接推动了 Anthropic 2026 年第一季度年化收入和使用量实现 **80 倍** 的同比增长。
-- **开发者采用**：软件工程师被证明是采用新工具最快的人群，CC 在开发者群体中的扩散速度远超预期。
-- **估值助推**：作为 Anthropic 的旗舰产品，Claude Code 的爆发式增长助推公司估值在 2026 年突破 1.2 万亿美元，首次反超 OpenAI。
-
-## 核心架构与工程范式
-
-Claude Code 的有效性并非仅依赖模型能力，而是建立在 [[Harness Engineering]]（挽具工程）范式之上。根据 [[VILA-Lab]] 对其 v2.1.88 版本源码的逆向分析，其代码构成中 **98.4% 是确定性工程基础设施**，仅 1.6% 是 AI 决策逻辑。
-
-### 关键组件
-1.  **[[CLAUDE.md]]**：位于项目根目录的配置文件，定义了项目的上下文、规则和约束，是 AI 理解项目架构的核心入口。
-2.  **[[MCP (模型上下文协议)]]**：连接外部数据源和工具的标准协议，使 Claude 能够访问数据库、API 和文件系统。
-3.  **工具调用层**：封装了文件操作、Git 命令、Shell 执行等底层能力，提供标准化的接口供模型调用。
-4.  **沙箱环境**：确保代码执行的安全性，防止恶意操作影响宿主系统。
+Anthropic 推出的 AI 编程代理工具。
 
 ## 核心功能
 
-### 计算机使用与自动化
-2026 年 3 月，Claude Code 正式接入了 [[计算机使用]] 能力，并迅速进化为具备全平台控制能力的自动化助理。在 [[OpenClaw]] 等开源工具的竞争压力下，Claude Code 引入了基于图形用户界面（GUI）的自动化操作能力，利用视觉模型识别屏幕截图，模拟鼠标和键盘输入，无需 API 接口或 CLI 改造，可直接操控包括 Photoshop、老旧 ERP 系统在内的任何桌面软件。
+### 动态工作流（2026年5月新增）
+- 研究预览阶段功能，允许 Claude 自主规划工作流、启动数百个并行子智能体。
+- 支持持续运行数天，中途断了可继续（[[断点续跑]]）。
+- 在提交最终报告前自行验证输出。
+- 适用于代码库级迁移等超大规模任务。
+- 目前面向企业版、团队版及 Max 版用户开放。
 
-#### CLI 端 Computer Use
-在命令行界面（CLI）集成了 **Computer Use** 功能，使得开发者无需离开终端即可让 AI 执行复杂的 GUI 操作：
--   **原生应用构建与验证**：自动编译、启动并点击验证控件。
--   **端到端 UI 测试**：自动执行多步骤操作流程（如注册）并截图。
--   **视觉布局调试**：根据自然语言描述复现并修复界面 Bug。
--   **驱动无 CLI 的工具**：操作设计软件、模拟器等传统命令行无法触及的工具。
--   **macOS 完全控制**：能够直接操作 macOS 的 CLI、鼠标、键盘和屏幕，像真人程序员一样完成「写代码 -> 编译 -> 启动 App -> UI 点击测试 -> 发现 Bug -> 修复」的全闭环任务。用户输入 `/mcp` 即可开启这种「自动驾驶」模式。
+### 系统条目（System Entries）
+- Messages API 新增能力，支持在智能体运行期间动态更新指令。
+- 无需清空缓存或模拟用户回合。
+- 可在运行期间动态调整权限、Token 预算或环境上下文。
 
-#### Auto 模式（无人值守）
-支持“无人值守”工作流。AI 代表用户做出权限决定，在执行每个操作前进行安全检查，结合 Computer Use 可实现从需求到代码、测试、修复的全自动闭环。
+### 投入度控制
+- 支持 [[投入度控制]] 的"xhigh"选项（对应 Extra High）。
+- Anthropic 已上调速率限制以适应高投入度下的 Token 消耗增加。
 
-#### 移动端与远程控制
--   **移动端远程指挥**：用户可以通过手机发送指令，让 Claude 在远程电脑上执行任务（如批量处理图片、转换文档格式或启动开发服务器），实现跨设备协作。
--   **定时任务自动化**：通过 `/schedule` 指令，用户可以使用自然语言创建云端定时任务。Claude 能够在指定时间自动执行代码检查、文档更新等维护工作，实现 7×24 小时的自动化运行。
--   **全场景覆盖（Orbit）**：代码泄露显示，Claude Code 即将推出代号为 [[orbit]] 的移动端控制功能。届时，Claude 将能读取手机屏幕并操作各类 APP。
+### Agent View
+- [[agent-view]] 多会话调度界面，支持在单一终端中管理多个并行 AI 会话。
 
-### 代码评审
-2026 年 3 月，[[Claude Code]] 新增了“代码评审”功能，这是其最具颠覆性的更新。该功能利用 [[多智能体系统]] 自动分析 Pull Request (PR)，旨在解决 AI 编程时代代码量暴涨但人工审查能力不足的瓶颈。
+## 历史事件
 
-#### 工作原理
-当一个 PR 被创建时，系统会自动启动一支 AI Agent 团队。多个智能体并行工作，分别负责不同类型的检查（如安全、逻辑、回归等）。这些智能体通过相互验证来过滤误报，并根据严重性对错误进行排序。
-
-#### 检查重点
-默认情况下，[[Claude Code]] 主要关注**代码正确性**，包括：
-*   会导致生产环境故障的 bug
-*   实际逻辑问题
-*   安全漏洞
-*   边界条件缺陷
-*   隐蔽的回归问题
-
-它通常不重点关注代码格式、风格偏好或测试覆盖率（除非用户配置）。
-
-#### 输出形式
-*   **高信号总结评论**：针对整个 PR 的总体评审意见。
-*   **Inline 评论**：针对特定代码行的具体问题标记。
-*   **严重等级标记**：
-    *   红色：普通问题（合并前应修复）。
-    *   黄色：轻微问题（建议修复）。
-    *   紫色：既存问题（非本次 PR 引入）。
-*   **可折叠推理说明**：展示 AI 为什么标记该问题以及如何验证其存在。
-
-#### 性能数据
-根据 [[Anthropic]] 内部测试数据：
-*   **实质性评审提升**：包含实质性评审意见的 PR 比例从 16% 增加到 54%。
-*   **误报率**：工程师认为评审结果错误的比例不到 1%。
-*   **成本**：平均每次 Review 成本约为 15-25 美元（按 Token 计费）。
-*   **耗时**：平均评审时间约为 20 分钟。
-
-### 编程与工程能力
-- **长时运行任务**：不同于普通聊天机器人，Claude Code 设计用于处理持续数小时的代理式任务，能够按计划自动运行任务，无需人工持续干预。
-- **项目级操作**：支持文件读写、项目级代码重构、复杂逻辑推理以及对大型项目上下文的分析与重构，能够理解系统架构。
-- **全流程参与**：参与软件构建全流程，不仅是提效工具，更是系统架构的参与者。
-- **高算力消耗**：由于其工作流特性（多轮迭代、大吞吐 Token）及连续工作的特性，其推理成本显著高于标准对话场景，对 GPU 推理资源的需求远超普通对话模型。
-
-### 语音模式 (2026年更新)
-2026 年 3 月，Claude Code 正式上线了语音模式，标志着编程进入“对讲机”时代。
-- **操作方式**：输入 `/voice` 命令，长按空格键说话，松开即完成输入。
-- **核心特性**：
-  - **流式转录**：语音转文字实时流入光标位置，与键盘输入无缝混合。
-  - **免费策略**：语音转录的 Token 完全免费，不计入订阅额度。
-  - **交互逻辑**：设计为“对讲机”式体验，旨在补充而非替代键盘。
-- **适用场景**：描述复杂逻辑、口头 Debug、架构讨论等高信息密度场景。
-
-### 远程控制与异步任务（“龙虾化”演进）
-2026 年初，Claude Code 开始向“[[龙虾化]]”方向演进，旨在从“坐下来才能用的工具”转变为“随时能找到的搭档”：
-
-- **[[Channels]]**：允许用户通过 Telegram 或 Discord 等外部消息通道远程控制本地会话。用户可以在移动设备上发送指令，控制本地电脑上的 Claude Code 执行任务。该功能基于 [[MCP (模型上下文协议)]] 实现，将外部事件推送到会话中。
-- **[[Dispatch]]**：支持异步任务分发，允许用户提交任务后关闭会话，任务在后台继续执行。
-- **局限性**：目前的“龙虾化”尚未完全实现，仍依赖本地活跃会话，电脑休眠或会话关闭后功能即失效，尚未像 [[OpenClaw]] 那样实现完全的守护进程化。
-
-### 高级工作流与特性
-在 [[Boris Cherny]]（Claude Code 之父）的推广下，该工具集成了大量高级功能：
-- **`/teleport`**：跨设备会话转移（会话传送），支持在网页端和本地终端之间无缝迁移对话上下文。
-- **`/loop`**：周期性自动化任务（如每 5 分钟处理 PR）。
-- **`/voice`**：语音编程支持。
-- **文件夹思维**：采用以文件夹为上下文边界的设计理念，天然支持多任务并行和组织化管理。
-- **危险模式**：允许 AI 全自动操控电脑而无需每次确认，极大提升效率，但也带来了安全风险（需配合备份使用）。
-- **Hooks**：在特定生命周期事件（如启动、权限请求）触发自定义逻辑。提供 `PreToolUse`、`PostToolUse` 和 `Stop` 钩子，允许用户插入自定义逻辑（如自动备份、日志记录）。
-- **Git Worktrees**：支持大规模并行开发。
-- **Skills 系统**：
-    - **热重载**：修改技能配置无需重启。
-    - **分叉上下文**：支持 `context:fork`，在隔离环境中运行复杂任务，避免污染主对话。
-
-## 安全机制
-
-为了防止 AI 误操作导致的安全事故，Claude Code 实施了严格的安全策略：
--   **权限分级**：浏览器/交易平台只读，终端/IDE只点不写，其他应用完全控制。
--   **单会话锁**：防止多会话冲突。
--   **排除终端截图**：防止敏感信息泄露或 Prompt 注入攻击。
--   **紧急制动**：支持 `Esc` 或 `Ctrl+C` 立即停止。
--   **Docker 隔离环境**：推荐在容器中运行以降低系统级风险。
-
-## 性能表现与开发者反馈
-
-Claude Code 因其卓越的代码生成和修复能力，在开发者社区中建立了极高的声誉，被视为 Anthropic 在企业级市场实现“性能绝杀”的核心产品。
-
-### 基准测试数据
-- **SWE-bench**：Claude 4.5 Opus 得分达到 **80.9%**，远超 GPT-4o 的 70% 档位。这意味着在 100 个复杂代码漏洞中，Claude 能自动修复 80 个。
-- **TAU-bench**：在零售、航空等对逻辑确定性要求极高的企业级场景中，Claude 表现出统治级优势。
-- **BridgeBench**：在 2026 年 4 月的“降智事件”前，Opus 4.6 准确率曾达到 83.3%；事件期间跌至 68.3%。
-
-### 开发者评价
-在 X 和开发者社区中，Claude Code 被广泛认为具有以下特点：
-- **上下文理解**：更擅长理解复杂代码库的约束，而非机械复述错误信息。
-- **工程可靠性**：“少出错、少废话”，符合工程场景对确定性的高要求。
-- **角色定位**：许多资深架构师表示，“头脑风暴用 GPT，但写代码只信 Claude”。
-
+- 曾因高算力消耗引发订阅制争议（[[ai-subscription-crisis]]）。
+- 曾发生重大源码泄露事故（[[source-map-leaks]]），由华人安全研究员 [[chaofan-shou]] 发现。
+- 2026 年 5 月曾测试移除 Pro 用户访问权。

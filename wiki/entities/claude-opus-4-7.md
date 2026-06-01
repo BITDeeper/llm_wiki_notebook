@@ -2,15 +2,15 @@
 type: entity
 title: Claude Opus 4.7
 tags: ["ai-models", "anthropic", "benchmarks", "llm", "model-release", "controversy", "model", "coding", "vision", "multimodal", "rumor", "design", "claude", "sota", "ai-model", "code-generation", "benchmark", "closed-model", "大模型", "金融ai", "模型", "编程", "ai模型", "编程模型", "基准模型", "computer-use", "agent", "ai编程"]
-related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor", "saas-bench", "computer-use-agent", "deepswe", "swe-bench-pro", "claude-memory-files"]
+related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor", "saas-bench", "computer-use-agent", "deepswe", "swe-bench-pro", "claude-memory-files", "claude-opus-4-8", "ai计划性淘汰"]
 created: 2026-05-02
-updated: 2026-05-28
-sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md", "asi决战！openai与anthropic双雄争霸.md"]
+updated: 2026-05-31
+sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md", "asi决战！openai与anthropic双雄争霸.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md"]
 ---
 
 # Claude Opus 4.7
 
-[[Claude Opus 4.7]] 是 [[Anthropic]] 于 2026 年 4 月发布的旗舰大语言模型，作为 [[Claude Opus 4.6]] 的继任者。虽然并非 Anthropic 内部最强的模型（该头衔属于未公开的 [[Mythos]]），但它是目前面向公众开放的最强量产版模型，在 [[Agentic Coding]] 和视觉推理领域确立了新的 SOTA（State of the Art）基准。
+[[Claude Opus 4.7]] 是 [[Anthropic]] 于 2026 年 4 月发布的旗舰大语言模型，作为 [[Claude Opus 4.6]] 的继任者，在 [[Claude Opus 4.8]] 发布前为 Anthropic 的最强公开模型。虽然并非 Anthropic 内部最强的模型（该头衔属于未公开的 [[Mythos]]），但它是当时面向公众开放的最强量产版模型，在 [[Agentic Coding]] 和视觉推理领域确立了新的 SOTA（State of the Art）基准。
 
 该模型在 [[Intelligence Index]] 中得分 57，与 [[GPT-5.5]] 并列全球第一，显著领先于 [[Grok 4.3]] (53)。尽管官方评测数据优异，其发布却引发了巨大争议，呈现出官方基准与重度用户体验之间的巨大鸿沟，被广泛视为一次典型的"产品翻车"事件。在 AI 编程评测中，Opus 4.7 也经历了从"领先"到"被逆转"的排名变化。
 
@@ -169,6 +169,4 @@ Opus 4.7 的定价约为 Composer 2.5 的 10 倍，这一成本差距是 Cursor 
 
 #### 失败原因
 
-1. **颜色解析大小写敏感**：代码使用了 `strcmp()` 而非 `strcasecmp()`，导致输入 "GREEN"、"Red"、"BLUE" 全部被判无效。一个函数调用的差异直接导致 11 个测试失败。讽刺的是，178 步探索中 Opus 从未测试过大写或混合大小写的颜色输入。
-
-2. **无效颜色退出码错误**：原程序遇到无效颜色返回 `exit(0)`，Opus 写成了 `exit(1)`。尽管在探索阶段观察到原程序的正确行为，但在测试自身实现时未发现差异，导致 
+1. **颜色解析大小写敏感**：代码使用了 `strcmp()` 而非 `strcasecmp()`，导致输入 "GREEN"、"Red"、"BLUE" 全部被判无效。一个函数调用的差异直接导致 11 个测试失败。讽刺的是，178 步探索中 Opus 从未测试过大写或混合大小写的颜色

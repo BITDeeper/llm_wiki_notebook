@@ -1,17 +1,17 @@
 ---
 type: entity
 title: Simon Willison
-tags: [developer, ai-programming, datasette, open-source, blogger, opinion-leader, security, django, ai-evaluator, security-researcher, python, ai-engineering, 人物, 技术博主, ai透明度]
-related: ["agentic-engineering-patterns", "vibe-coding", "cognitive-debt", "openclaw", "claw-架构范式", "moltbook", "提示词注入", "claude-code", "claude-cowork", "sandbox-mechanism", "prompt-injection", "vzvirtualmachine", "django", "agentic-engineering", "2025年11月临界点", "anthropic", "claude-4-7-system-prompt", "tool-search"]
+tags: [developer, ai-programming, datasette, open-source, blogger, opinion-leader, security, django, ai-evaluator, security-researcher, python, ai-engineering, 人物, 技术博主, ai透明度, 开发者, ai编程, 独立开发者]
+related: ["agentic-engineering-patterns", "vibe-coding", "cognitive-debt", "openclaw", "claw-架构范式", "moltbook", "提示词注入", "claude-code", "claude-cowork", "sandbox-mechanism", "prompt-injection", "vzvirtualmachine", "django", "agentic-engineering", "2025年11月临界点", "anthropic", "claude-4-7-system-prompt", "tool-search", "codex", "ai-subscription-crisis", "token作为生产资料"]
 created: 2026-03-16
-updated: 2026-05-22
-sources: ["拒绝vibe-coding！大神揭秘8套ai编程模式.md", "20天狂更超10次，openclaw接入gemini-3.1和apple-watch.md", "15万clawdbot建起首个「硅基文明」！人类惨遭禁言，karpathy惊呼.md", "claude版manus宕机，全网炸锅！顶级开发者曝光致命缺陷.md", "25年10x工程师经验一夜归零！django创始人警告：3-8年的程序员受ai冲击最大.md", "23个隐藏工具曝光！anthropic公开claude驯化手册.md"]
+updated: 2026-05-31
+sources: ["拒绝vibe-coding！大神揭秘8套ai编程模式.md", "20天狂更超10次，openclaw接入gemini-3.1和apple-watch.md", "15万clawdbot建起首个「硅基文明」！人类惨遭禁言，karpathy惊呼.md", "claude版manus宕机，全网炸锅！顶级开发者曝光致命缺陷.md", "25年10x工程师经验一夜归零！django创始人警告：3-8年的程序员受ai冲击最大.md", "23个隐藏工具曝光！anthropic公开claude驯化手册.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
 ---
 
 # Simon Willison
 
 ## 概述
-Simon Willison 是 [[Django]] 联合创始人，Datasette 创始人，拥有 25 年经验的资深软件工程师。作为知名开源开发者、独立技术博主及意见领袖，他是 AI 时代编程范式转变的重要观察者和倡导者。他在 AI 编程领域提出了 [[Agentic Engineering Patterns]]（智能体工程模式），旨在帮助专业开发者在代码成本趋近于零的时代保持工程严谨性。同时，他也以对前沿 AI 工具（如 [[Claude Code]] 和 [[Claude Cowork]]）的深度评测、逆向工程分析、安全研究及 AI 透明度分析而闻名。
+Simon Willison 是 [[Django]] 联合创始人，Datasette 创始人，拥有 25 年经验的资深软件工程师。作为知名开源开发者、独立技术博主及意见领袖，他是英语圈最早将 AI 编程工具用到极致的人之一，也是 AI 时代编程范式转变的重要观察者和倡导者。他在 AI 编程领域提出了 [[Agentic Engineering Patterns]]（智能体工程模式），旨在帮助专业开发者在代码成本趋近于零的时代保持工程严谨性。同时，他也以对前沿 AI 工具（如 [[Claude Code]] 和 [[Claude Cowork]]）的深度评测、逆向工程分析、安全研究及 AI 透明度分析而闻名。写了二十年代码，常年通过博客记录 AI 编程工具的使用经验。
 
 ## 核心观点
 
@@ -28,6 +28,21 @@ Willison 指出，2025 年 11 月是 AI 编程能力的分水岭。在此之前�
 Willison 区分了两种未来的编程模式：
 - **[[vibe-coding]]**：利用 AI 快速构建个人项目或原型，不追求完美的工程严谨性。他严厉批判这种模式，指出仅依赖直觉生成代码会导致开发者不理解系统原理，产生巨大的 [[认知债务]]。
 - **[[agentic-engineering]]**：利用 AI 构建生产级系统，重点在于架构设计、质量控制和责任归属。
+
+## AI 编程使用模式与成本洞察
+
+### 个人 Token 消耗数据
+过去 30 天内，他的 token 消耗数据：
+- [[claude-code]]：烧掉价值 1199.79 美元的 token
+- [[codex]]：烧掉价值 980.37 美元的 token
+- 合计：2180.16 美元
+
+而他每月实付仅为 Anthropic 的 100 美元 Max 订阅加上 OpenAI 的 100 美元 Pro 订阅，共 200 美元。200 美元订阅薅出 2180 美元算力，展示了个人订阅用户享受的巨额交叉补贴。
+
+### AI 订阅定价洞察
+Simon 发现一个反直觉现象：他原以为重度使用 Agent 的大公司凭借采购规模，单位成本会比他更低。结果恰恰相反——企业续约后面对的往往是更接近 API 原价的 token 账单，包月折扣正在消失。这一发现揭示了 [[ai-subscription-crisis|AI 订阅危机]] 的深层结构。
+
+他还据此估算，[[opus-4-7]] 因新 tokenizer 导致的有效价格约为 Opus 4.6 的 1.4 倍，揭示了 [[token作为生产资料|Token 作为生产资料]] 的隐性通胀。
 
 ## 核心贡献
 

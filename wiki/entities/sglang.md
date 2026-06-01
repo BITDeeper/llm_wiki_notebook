@@ -1,16 +1,16 @@
 ---
 type: entity
 title: SGLang
-tags: ["inference-engine", "open-source", "llm", "system-optimization", "推理引擎", "开源", "ai框架", "推理框架", "ai基础设施", "开源项目", "大模型部署", "大模型", "大模型服务"]
-related: ["radixark", "miles", "deepseek-v4", "day-0-兼容性", "shadowradix-前缀缓存", "musa", "vllm", "摩尔线程", "qwen3-7-max", "平头哥真武m890", "musa架构", "mooncake", "tilelang", "vibe-coding", "p-d分离", "prefill-decode分离架构", "mtt-s5000", "echo-弹性投机解码", "投机解码"]
+tags: ["inference-engine", "open-source", "llm", "system-optimization", "推理引擎", "开源", "ai框架", "推理框架", "ai基础设施", "开源项目", "大模型部署", "大模型", "大模型服务", "llm-serving", "系统优化"]
+related: ["radixark", "miles", "deepseek-v4", "day-0-兼容性", "shadowradix-前缀缓存", "musa", "vllm", "摩尔线程", "qwen3-7-max", "平头哥真武m890", "musa架构", "mooncake", "tilelang", "vibe-coding", "p-d分离", "prefill-decode分离架构", "mtt-s5000", "echo-弹性投机解码", "投机解码", "oscar-kv-quantization", "together-ai", "kv-cache-量化"]
 created: 2026-05-09
-updated: 2026-05-22
-sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支团队.md", "老黄喝豆汁「破防」背后，国产gpu正在填上cuda护城河.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md", "国产gpu组了个开源局，把sglang等核心开发者都摇来了！.md", "国产gpu首获全球顶级推理框架「原生门票」：musa合入sglang主线.md", "icml-2026-spotlight-拒绝盲目猜token，阿里x浙大将投机解码带入弹性预算时代.md"]
+updated: 2026-05-29
+sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支团队.md", "老黄喝豆汁「破防」背后，国产gpu正在填上cuda护城河.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md", "国产gpu组了个开源局，把sglang等核心开发者都摇来了！.md", "国产gpu首获全球顶级推理框架「原生门票」：musa合入sglang主线.md", "icml-2026-spotlight-拒绝盲目猜token，阿里x浙大将投机解码带入弹性预算时代.md", "超越turboquant，面向长上下文推理的真2-bit-kv-quantization算法问世.md"]
 ---
 
 # SGLang
 
-[[SGLang]] 是一个高性能的全球顶级开源大语言模型（LLM）和多模态模型推理引擎（推理框架），由 [[RadixArk]] 团队核心成员开发。它是连接大模型与底层硬件的关键中间层。自2023年诞生以来，它已迅速成长为事实上的行业标准。GitHub 27k星，面向 LLM 和多模态模型的低延迟、高吞吐部署框架，覆盖从单卡到大规模分布式集群的部署场景，是全球开发者部署大模型的首选框架之一。SGLang 提供 Triton 官方参考实现。DeepSeek V3 的 EP 与 PD 分离方案即出自该社区。
+[[SGLang]] 是一个高性能的全球顶级开源大语言模型（LLM）和多模态模型推理引擎（推理框架 / LLM serving framework），由 [[RadixArk]] 团队核心成员开发。它是连接大模型与底层硬件的关键中间层，支持高效的模型部署和推理。自2023年诞生以来，它已迅速成长为事实上的行业标准。GitHub 27k星，面向 LLM 和多模态模型的低延迟、高吞吐部署框架，覆盖从单卡到大规模分布式集群的部署场景，是全球开发者部署大模型的首选框架之一。SGLang 提供 Triton 官方参考实现。DeepSeek V3 的 EP 与 PD 分离方案即出自该社区。
 
 ## 核心特性
 
@@ -29,6 +29,17 @@ sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支�
 - **[[echo-弹性投机解码|ECHO 弹性投机解码]]**：已集成到 SGLang 中，通过 Flatten & Pack 机制将非规则候选 token 树打包为 dense、kernel-compatible 的布局，确保动态树结构能高效进入 serving kernel。ECHO 团队计划于 2026 年 6 月向 SGLang 提交 MR，推动代码开源和社区复现。
 - **Flash Compressor**
 - **Lightning TopK**
+
+## 与 OSCAR 的集成
+
+[[oscar-kv-quantization]] 已接入 SGLang，实现开箱即用的 2-bit KV serving。在 SGLang 中的具体实现包括：
+
+- 维护 token 池：BF16 sink（64 tokens）| INT2 history（约 2.28 BPE）| BF16 recent（256 tokens）
+- 融合 Triton kernel 执行 rotate/clip/quantize/pack 操作
+- 兼容 paged KV、radix prefix cache 和 fused kernel pipeline
+- 支持 online softmax merge 合并 BF16 段和 INT2 段的结果
+
+这一集成使 OSCAR 从论文方法变为可直接用于长上下文 workload 的生产级系统。
 
 ## 性能数据
 

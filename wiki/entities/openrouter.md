@@ -1,11 +1,11 @@
 ---
 type: entity
 title: OpenRouter
-tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济]
-related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配]
+tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计]
+related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载]
 created: 2026-03-20
-updated: 2026-05-27
-sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md"]
+updated: 2026-05-29
+sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md"]
 ---
 
 # OpenRouter
@@ -52,13 +52,28 @@ OpenRouter 引入了支持"隐身模型"的功能，这使得模型开发者可�
 #### Pony Alpha 事件
 2026 年 2 月，OpenRouter 上线了匿名模型 [[pony-alpha]]。由于没有官方背书和营销，用户完全基于模型的实际表现（编程、推理能力）进行评价。这一事件不仅引爆了技术圈，也确立了 OpenRouter 作为新型模型发布渠道的地位。
 
-### 战略资产：模型排行榜
-OpenRouter 公开的模型调用量排行榜已成为行业风向标，投资人、研究者和媒体均参考该榜单判断市场趋势。2026 年 5 月排行榜显示：
+## 战略资产：模型排行榜
 
-1. [[deepseek-v4|DeepSeek]] 和 [[腾讯]] 的开源模型最受欢迎
-2. [[anthropic]] 旗舰 Claude Opus 4.7 紧随开源模型之后
+OpenRouter 公开的模型调用量排行榜已成为行业风向标，投资人、研究者和媒体均参考该榜单判断市场趋势。排行榜使 OpenRouter 成为 AI 生态的"信息枢纽"——当整个行业都参考你的数据做决策时，平台本身就具备了战略护城河。
 
-排行榜使 OpenRouter 成为 AI 生态的"信息枢纽"——当整个行业都参考你的数据做决策时，平台本身就具备了战略护城河。
+### 2026 年 5 月月度排行榜
+
+#### 模型排名
+| 排名 | 模型 | 月调用量 |
+|------|------|----------|
+| 1 | [[deepseek-v4|DeepSeek V4 Flash]] | 9.13T tokens |
+| 8 | DeepSeek V3.2 | 4.07T tokens |
+| 9 | DeepSeek V4 Pro | 3.89T tokens |
+
+DeepSeek 三模型合计超 **17 万亿 tokens**。[[anthropic]] 旗舰 Claude Opus 4.7 紧随开源模型之后。
+
+#### 应用排名
+| 排名 | 应用 | 月调用量 |
+|------|------|----------|
+| 1 | [[hermes-agent]] | 10.8T tokens |
+| 2 | [[openclaw]] | 6.25T tokens |
+
+应用排名直观证明了 [[agent-推理负载|Agent 负载]] 已取代聊天机器人成为 Token 消耗的绝对主力，是 [[tokenmaxxing]] 趋势的重要佐证。
 
 ## 行业洞察（与 a16z 联合报告）
 

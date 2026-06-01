@@ -1,17 +1,33 @@
 ---
 type: entity
 title: Solaris
-tags: [video-generation, world-model, ai-research]
-related: [ic-world, saining-xie, gong-xiang-shi-jie-sheng-cheng]
+tags: [video-generation, world-model, ai-research, 世界模型, 多智能体, minecraft, 基线模型]
+related: [ic-world, saining-xie, gong-xiang-shi-jie-sheng-cheng, gamma-world, 多智能体世界建模]
 created: 2026-03-28
-updated: 2026-03-28
-sources: ["ai「活在同一个世界里」了！首个共享世界生成模型ic-world登场.md"]
+updated: 2026-06-01
+sources: ["ai「活在同一个世界里」了！首个共享世界生成模型ic-world登场.md", "英伟达清华团队提出gamma-world：世界模型从「一个人玩」到「多人共处」.md"]
 ---
 
 # Solaris
 
-[[solaris]] 是由 [[saining-xie]] 团队发布的视频生成模型。虽然原文未详细展开其技术细节，但指出其采用了与 [[ic-world]] 相似的**共享世界生成**核心思想。
+**Solaris** 是由 [[saining-xie]] 团队发布的视频生成模型，也是此前最强的双人 Minecraft 世界模型。它采用了与 [[ic-world]] 相似的**共享世界生成**核心思想，同时也是 [[gamma-world]] 的主要对比基线。
+
+Solaris 在双人 Minecraft 场景上取得了不错的结果，但暴露了两个结构性问题，说明将单智能体框架直接"扩展"到多智能体是一条走不通的路。
 
 ## 意义
 
-Solaris 的出现佐证了 IC-World 所揭示的技术趋势：即视频生成世界模型正在从单一的“独立生成”迈向多视角协同的“共享生成”。这表明解决多视角一致性问题是行业共同关注的下一个关键节点。
+Solaris 的出现佐证了 IC-World 所揭示的技术趋势：即视频生成世界模型正在从单一的"独立生成"迈向多视角协同的"共享生成"。这表明解决多视角一致性问题是行业共同关注的下一个关键节点。
+
+## 暴露的结构性缺陷
+
+### 1. 身份编码破坏对称性
+
+Solaris 为每个玩家分配固定的可学习槽位身份向量，实质上将"1号槽"和"2号槽"学成了两种不同的角色类型。这导致模型学到的是"特定角色的交互模式"而非"多个平等主体共享世界的规律"，泛化性从根本上受限，且支持新玩家数需重新训练。
+
+### 2. 全连接注意力的扩展性天花板
+
+让所有玩家的 token 两两直接交互，计算成本随玩家数量平方增长——从2人扩展到8人，计算量从 477.8G 增至 7.6T，增长约16倍。这是算法复杂度决定的天花板，无法通过工程优化解决。
+
+## 与 Gamma-World 的对比
+
+[[gamma-world]] 正是在确认 Solaris 的两条路径走不通之后，从底层重新设计了智能体身份表示（[[单纯形旋转智能体编码]]）和跨智能体通信（[[稀疏枢纽注意力]]）两个核心组件。

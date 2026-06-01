@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Gemini 3.1 Pro
-tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型]
-related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash"]
-sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md"]
+tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型, 模型, VLM, 安全]
+related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash", "ai-权威清洗", "对抗样本"]
+sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md"]
 created: 2026-04-30
-updated: 2026-05-25
+updated: 2026-05-31
 ---
 
 # Gemini 3.1 Pro
@@ -81,6 +81,12 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 - **实时数据看板**：能够整合公开 API（如国际空间站遥测数据）构建实时可视化界面。
 - **3D 交互**：编写复杂的 3D 粒子特效（如椋鸟群舞），并结合手势追踪技术。
 - **创意设计**：将抽象概念或文学作品转化为具体的代码实现（如《呼啸山庄》主题主页）。
+
+## 安全漏洞记录
+
+在 [[ai-权威清洗论文发布-202605|AI权威清洗论文]] 的测试中，Gemini 3.1 Pro 被证实对[[对抗样本]]攻击存在脆弱性：
+
+- 将新闻截图扰动为马斯克图像 embedding 后，即使文章标题写明真名，仍将死者错误识别为 Elon Musk
 
 ## 可用性
 目前已在 [[Gemini]] 应用和 API 中上线，Google AI Pro 和 Ultra 用户可在 [[NotebookLM]] 中使用。

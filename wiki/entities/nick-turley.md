@@ -2,15 +2,23 @@
 type: entity
 title: Nick Turley
 tags: [openai, product-manager, leadership, 人物, chatgpt, 产品负责人]
-related: ["chatgpt", "sam-altman", "searchgpt", "atlas", "code-red", "产品-研究对齐", "openai", "chatgpt-plus", "openai三线合一重组-20260516", "greg-brockman", "ai-操作系统化", "openai-super-app"]
+related: ["chatgpt", "sam-altman", "searchgpt", "atlas", "code-red", "产品-研究对齐", "openai", "chatgpt-plus", "openai三线合一重组-20260516", "greg-brockman", "ai-操作系统化", "openai-super-app", "simon-willison"]
 created: 2025-12-10
-updated: 2026-05-22
-sources: ["奥特曼只是面子，他才是里子？揭秘chatgpt的30岁「定海神针」.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md"]
+updated: 2026-05-31
+sources: ["奥特曼只是面子，他才是里子？揭秘chatgpt的30岁「定海神针」.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
 ---
 
 # Nick Turley（尼克·特利）
 
-Nick Turley 是 OpenAI 的 ChatGPT 产品负责人，被称为 ChatGPT 的「定海神针」「隐形掌舵人」乃至「生父」。虽然不站在聚光灯下，但他掌控着 ChatGPT 的产品化落地、用户体验方向以及商业化未来。自 ChatGPT 上线以来担任全权负责人，亲手将其从一个"全家桶赠品"打造为坐拥 9 亿周活跃用户的全球第一大超级应用。
+Nick Turley 是 [[openai]] 的 [[chatgpt]] 产品负责人，被称为 ChatGPT 的「定海神针」「隐形掌舵人」乃至「生父」。虽然不站在聚光灯下，但他掌控着 ChatGPT 的产品化落地、用户体验方向以及商业化未来。自 ChatGPT 上线以来担任全权负责人，亲手将其从一个"全家桶赠品"打造为坐拥 9 亿周活跃用户的全球第一大超级应用。
+
+## 关键数据
+
+2026年2月，Turley 发推官宣 ChatGPT 关键数据：
+- **周活跃用户**突破 9 亿
+- **付费用户**突破 5000 万
+
+这组数据被 [[simon-willison]] 用来分析消费者订阅模式的局限性：9 亿用户中仅 5000 万付费，付费率仅 5.6%，按每人每月 10–20 美元计算，距离 OpenAI 上万亿美元的基建投入目标差距巨大，路径太长。
 
 ## 角色与职责
 

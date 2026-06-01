@@ -1,17 +1,17 @@
 ---
 type: entity
 title: Opus 4.7
-tags: [model, multimodal, vision, anthropic, reasoning, self-correction, ai模型, claude, 自主科研]
-related: [claude-design, anthropic, 审美逻辑, mythos, task-horizon, claude-code, gpt-5.5, prime-intellect, nanogpt速通基准, ai首次击败人类科研竞赛-20260515, 对齐导致的自主性缺陷]
+tags: [model, multimodal, vision, anthropic, reasoning, self-correction, ai模型, claude, 自主科研, 大模型, ai定价]
+related: [claude-design, anthropic, 审美逻辑, mythos, task-horizon, claude-code, gpt-5.5, prime-intellect, nanogpt速通基准, ai首次击败人类科研竞赛-20260515, 对齐导致的自主性缺陷, tokenizer通胀, ai-subscription-crisis]
 created: 2026-04-18
-updated: 2026-05-22
-sources: ["claude-design连夜突袭，figma市值瞬间蒸发！或抢走全球ui设计师饭碗.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "ai第一次科研竞赛中击败人类！opus-4.7狂飙2930步创世界纪录.md"]
+updated: 2026-05-31
+sources: ["claude-design连夜突袭，figma市值瞬间蒸发！或抢走全球ui设计师饭碗.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "ai第一次科研竞赛中击败人类！opus-4.7狂飙2930步创世界纪录.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
 origin_date: 2026-05-14
 ---
 
 # Opus 4.7
 
-[[Opus 4.7]] 是 [[Anthropic]] 发布的 Claude 系列模型中的最新版本，于2026年5月14日发布。同时推出 Fast 模式（Opus 4.7 Fast），并伴随 [[Claude Code]] 额度提升50%。它以其强大的自我纠错能力和工程判断力著称，不仅是目前最强的视觉模型，也是 [[Claude Design]] 功能背后的技术引擎。
+[[Opus 4.7]] 是 [[Anthropic]] 发布的 Claude 系列模型中的最新版本，于2026年5月14日发布。同时推出 Fast 模式（Opus 4.7 Fast），并伴随 [[Claude Code]] 额度提升50%。它专门面向专业软件工程、复杂的智能体工作流以及高风险企业任务，以其强大的自我纠错能力和工程判断力著称，不仅是目前最强的视觉模型，也是 [[Claude Design]] 功能背后的技术引擎。
 
 ## 竞争背景
 
@@ -35,6 +35,23 @@ Opus 4.7 具备独特的**审美逻辑**（Aesthetic Logic）理解能力，使�
 - **信息层级**：理解视觉信息的优先级和清晰度。
 
 这些过去需要设计师依靠直觉和经验积累的能力，现在被压缩进了一次模型推理中。
+
+## 定价策略
+
+官方价格表中，Opus 4.7 与上一代 Opus 4.6 的名义单价完全相同：
+
+- 输入：5美元/百万token
+- 输出：25美元/百万token
+
+### Tokenizer 暗涨
+
+Opus 4.7 更换了新的 tokenizer（分词器），使同一固定文本最多多计35%的 token。名义单价不变，但有效成本约上涨40%。
+
+[[Simon Willison]] 据此估算，Opus 4.7 的有效价格约为 Opus 4.6 的1.4倍。这一策略被称为 [[Tokenizer通胀]]，是 Anthropic 区别于 OpenAI "明涨"的"暗涨"手法。
+
+### 市场定位
+
+切的是"高价值工作加高消耗"这条线——面向极高薪的专业工程师，他们烧掉的 token 远超普通用户。这是 [[代码智能体PMF]] 的核心逻辑体现。
 
 ## 自主科研实验
 

@@ -1,26 +1,22 @@
 ---
 type: entity
 title: Bun
-tags: [tool, javascript, runtime, security, developer-tools, infrastructure, acquisition, 运行时, rust, zig, 开源项目]
-related: [claude-code, source-map-leaks, anthropic, javascript-runtime, 动态工作流, claude-opus-4-8]
+tags: [tool, javascript, runtime, security, developer-tools, infrastructure, acquisition, 运行时, rust, zig, 开源项目, 开源, anthropic]
+related: [claude-code, source-map-leaks, anthropic, javascript-runtime, 动态工作流, claude-opus-4-8, zig, jarred-sumner]
 created: 2026-04-01
-updated: 2026-05-29
-sources: ["claude-code源码「换壳」反杀，全网疯狂克隆！anthropic封杀失败.md", "30天没写一行代码，他却赚了10亿美金！.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md"]
+updated: 2026-05-31
+sources: ["claude-code源码「换壳」反杀，全网疯狂克隆！anthropic封杀失败.md", "30天没写一行代码，他却赚了10亿美金！.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md", "开源编程语言zig，向ai代码说「不」.md"]
 ---
 
 # Bun
 
-Bun 是一款现代化的 JavaScript 运行时和打包工具，最初使用 Zig 语言编写，以其高速性能著称。它是 [[Anthropic]] 旗下 [[Claude Code]] 的首笔战略收购对象，同时也被怀疑是导致 [[claude-code]] 源码泄露事故的技术源头。2026 年 5 月，Bun 创始人 Jarred Sumner 使用 [[动态工作流]] 完成了从 Zig 到 Rust 的移植，成为 Anthropic 展示动态工作流能力的标杆案例。
+Bun 是一款现代化的 JavaScript 运行时和打包工具，最初使用 [[zig]] 语言编写，以其高速性能著称。后被 [[anthropic]] 收购，成为旗下 [[claude-code]] 的首笔战略收购对象，同时也被怀疑是导致 Claude Code 源码泄露事故的技术源头。2026 年 5 月，Bun 创始人 [[jarred-sumner]] 使用 [[动态工作流]] 完成了从 Zig 到 Rust 的移植，成为 Anthropic 展示动态工作流能力的标杆案例。
 
 ## 收购背景
 
 - **时间点**：2025 年 12 月左右。
-- **收购方**：[[Anthropic]]。
+- **收购方**：[[anthropic]]。
 - **战略意义**：此次收购标志着 AI 编码工具开始进入**中后台基础设施时代**。通过整合 Bun，Claude Code 旨在深化其与企业级开发环境的融合，进一步打开企业付费市场。
-
-## 行业影响
-
-Bun 被 Claude Code 收编，暗示了 AI 编程工具正从单纯的"代码补全"向全栈"开发环境"演进。这一举措不仅增强了 Claude Code 的底层执行能力，也展示了 Anthropic 构建完整开发生态的野心。
 
 ## 安全事件与漏洞历史
 
@@ -30,7 +26,7 @@ Bun 被 Claude Code 收编，暗示了 AI 编程工具正从单纯的"代码补�
 
 ## Zig → Rust 移植
 
-2026 年 5 月，Bun 创始人 Jarred Sumner 使用 [[claude-opus-4-8|Claude Opus 4.8]] 的 [[动态工作流]] 完成了从 Zig 到 Rust 的全面移植，成为 Anthropic 展示动态工作流能力的标杆案例。
+2026 年 5 月下旬，[[jarred-sumner]] 使用 [[claude-opus-4-8|Claude Opus 4.8]] 的 [[动态工作流]] 完成了从 Zig 到 Rust 的全面移植，成为 Anthropic 展示动态工作流能力的标杆案例。
 
 ### 移植详情
 
@@ -47,3 +43,15 @@ Bun 被 Claude Code 收编，暗示了 AI 编程工具正从单纯的"代码补�
 - 移植完成后尚未投入生产环境
 
 这一案例既展示了动态工作流的强大能力，也暴露了 AI 大规模代码生成中质量保障的挑战。
+
+## 行业影响与象征意义
+
+Bun 被 Claude Code 收编，暗示了 AI 编程工具正从单纯的"代码补全"向全栈"开发环境"演进。这一举措不仅增强了 Claude Code 的底层执行能力，也展示了 Anthropic 构建完整开发生态的野心。
+
+Bun 从 Zig 迁移到 Rust 的事件具有多重象征意义：
+
+1. **AI 工具的实际影响力**：Claude Code 的动态工作流功能足以完成跨语言的大型项目移植
+2. **Zig 生态的分裂**：用 Zig 开发的最知名项目之一离开了 Zig 生态
+3. **AI 立场的反差**：与 [[zig]] 的 [[ai代码禁令]] 形成鲜明对比——Bun 全面拥抱 AI
+
+Bun 的案例展示了 AI 时代开源项目路线分歧的一个缩影：拥抱 AI 的项目获得了大公司收购和资源支持，而坚守反 AI 立场的项目则面临生态流失的风险。

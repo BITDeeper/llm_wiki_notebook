@@ -1,17 +1,17 @@
 ---
 type: entity
 title: Mythos
-tags: ["ai-model", "cybersecurity", "anthropic", "offensive-security", "defensive-security", "autonomous-agent", "model", "leak", "agent", "benchmark", "claude", "llm", "security", "ai-models", "internal", "frontier", "模型", "架构", "神秘模型", "code-agent", "ai", "网络安全", "涌现", "ai模型", "前沿模型", "ai安全", "大模型", "零日漏洞"]
-related: ["anthropic", "project-glasswing", "美国国家安全局", "部署安全", "修改版模型", "saaspocalypse", "ai-takeoff", "claude-code", "capybara-v2-fast", "opus-4-6", "claude-opus", "scaling-law", "360漏洞挖掘智能体", "claude-opus-4-7", "安全缓冲带", "字节-seed-团队", "循环语言模型", "gpt5.4", "图搜索", "opus-4-7", "task-horizon", "用ai加速预训练", "下游涌现", "gpt-5.5", "gemini-3.5-pro", "mdash", "cybergym", "asi路径之争", "微软", "aisi-英国ai安全研究所", "logan-graham", "ai辅助零日攻击首次实锤-20260512", "ai网络安全攻防竞赛", "gpt-5.5-cyber", "防御者优势窗口"]
+tags: ["ai-model", "cybersecurity", "anthropic", "offensive-security", "defensive-security", "autonomous-agent", "model", "leak", "agent", "benchmark", "claude", "llm", "security", "ai-models", "internal", "frontier", "模型", "架构", "神秘模型", "code-agent", "ai", "网络安全", "涌现", "ai模型", "前沿模型", "ai安全", "大模型", "零日漏洞", "旗舰模型", "未发布"]
+related: ["anthropic", "project-glasswing", "美国国家安全局", "部署安全", "修改版模型", "saaspocalypse", "ai-takeoff", "claude-code", "capybara-v2-fast", "opus-4-6", "claude-opus", "scaling-law", "360漏洞挖掘智能体", "claude-opus-4-7", "安全缓冲带", "字节-seed-团队", "循环语言模型", "gpt5.4", "图搜索", "opus-4-7", "task-horizon", "用ai加速预训练", "下游涌现", "gpt-5.5", "gemini-3.5-pro", "mdash", "cybergym", "asi路径之争", "微软", "aisi-英国ai安全研究所", "logan-graham", "ai辅助零日攻击首次实锤-20260512", "ai网络安全攻防竞赛", "gpt-5.5-cyber", "防御者优势窗口", "claude-opus-4-8"]
 created: 2026-04-22
-updated: 2026-05-22
-sources: ["anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "anthropic王炸claude基准测试泄露，卡皮巴拉细节曝光！还在代码里下毒.md", "anthropic史上最大训练曝光，ilya错了？ceo哀嚎：创业公司将被毁灭.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md"]
+updated: 2026-05-29
+sources: ["anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "anthropic王炸claude基准测试泄露，卡皮巴拉细节曝光！还在代码里下毒.md", "anthropic史上最大训练曝光，ilya错了？ceo哀嚎：创业公司将被毁灭.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md", "claude-opus-4.8实测封神！强到离谱，也贵到肉痛.md"]
 origin_date: 2026-04-01
 ---
 
 # Mythos（Claude Mythos Preview）
 
-**Mythos**（亦称 Mythos Preview）是 [[Anthropic]] 于 2026 年 4 月发布的内部最强前沿大语言模型，迄今仅通过 [[Project Glasswing]] 受邀内测，未公开开放。因其异常强大的性能和未公开的架构细节，该模型被称为"神话"模型。它主要用于漏洞挖掘和网络安全研究，是 Anthropic 手中"能力拉满"的最强模型。
+**Mythos**（亦称 Mythos Preview）是 [[Anthropic]] 的内部最强前沿大语言模型，也是 Anthropic 下一代旗舰模型的内部代号。该模型于 2026 年 4 月通过 [[Project Glasswing]] 受邀内测首次亮相，迄今未公开开放。因其异常强大的性能和未公开的架构细节，被称为"神话"模型。它主要用于漏洞挖掘和网络安全研究，是 Anthropic 手中"能力拉满"的最强模型。
 
 Mythos 是当前 AI 能力天花板级别的模型，已重新定义了前沿标准。在三巨头竞争格局中，它代表"模型质量"的极致——[[gemini-3.5-pro]] 和 [[gpt-5.5]] 均未达到其水平。目前公认在 AI 安全能力上表现最优的**单一模型**。
 
@@ -94,6 +94,10 @@ Mythos 作为单一模型仍是最强的，但被 [[微软]] 的 [[mdash]]（88.
 ## 战略地位
 
 Mythos 是当前最强大的模型，也是最强大的工具。[[andrej-karpathy|Karpathy]] 加入 Anthropic 的核心使命就是用 Mythos/Claude 来改进模型本身的制造方式——即 [[用ai加速预训练|用AI加速预训练]]。
+
+## 与 Opus 4.8 的关系
+
+业内人士将 Mythos 定位为 Anthropic "真正的杀招"，而非过渡产品。[[claude-opus-4-8|Opus 4.8]] 距 Opus 4.7 仅 6 周的仓促迭代，被解读为 Anthropic 应对 [[gpt-5.5|GPT-5.5]] 市场蚕食的应急措施——Opus 4.8 被视为"一个过渡的创有贴"，Mythos 才是"真正的智能质变"。预计 Mythos 将在 Opus 4.8 发布后"几周内"面世（约 2026 年 6 月中下旬），具体能力参数和发布日期尚未公布。Mythos 代表 Anthropic 真正的技术储备和战略方向。
 
 ## 更广泛的意义
 

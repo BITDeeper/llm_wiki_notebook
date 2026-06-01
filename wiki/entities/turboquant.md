@@ -1,17 +1,17 @@
 ---
 type: entity
 title: TurboQuant
-tags: [量化, 算法, 谷歌, 显存优化, 争议, google, 压缩, 推理优化, algorithm, quantization, efficiency, kv-cache, google-research]
-related: ["kv-cache", "flashattention", "随机正交旋转", "rabitq", "高健扬", "谷歌", "学术霸凌", "不公平基准测试", "google-deepmind", "杰文斯悖论", "ai-subscription-crisis", "polarquant", "qjl", "kv-cache压缩", "triattention", "google-research"]
+tags: [量化, 算法, 谷歌, 显存优化, 争议, google, 压缩, 推理优化, algorithm, quantization, efficiency, kv-cache, google-research, 向量量化, 基线方法]
+related: ["kv-cache", "flashattention", "随机正交旋转", "rabitq", "高健扬", "谷歌", "学术霸凌", "不公平基准测试", "google-deepmind", "杰文斯悖论", "ai-subscription-crisis", "polarquant", "qjl", "kv-cache压缩", "triattention", "google-research", "oscar-kv-quantization", "kv-cache-量化", "量化"]
 created: 2026-05-03
-updated: 2026-05-22
-sources: ["vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503.md", "谷歌一夜塌房！干崩内存股论文被曝抄袭，华人学者血泪控诉.md", "谷歌一篇论文引爆存储芯片崩盘！ai内存需求暴降6倍，推理狂飙8倍.md", "谷歌新论文把内存股价干崩了！kv-cache压缩6倍，“谷歌的deepseek时刻”.md", "英伟达mit出手！华人团队重磅开源，大模型推理内存暴降10倍.md"]
+updated: 2026-05-29
+sources: ["vllm-v0-20-发布-2-bit-压缩默认开启-你的推理成本要打折了-20260503.md", "谷歌一夜塌房！干崩内存股论文被曝抄袭，华人学者血泪控诉.md", "谷歌一篇论文引爆存储芯片崩盘！ai内存需求暴降6倍，推理狂飙8倍.md", "谷歌新论文把内存股价干崩了！kv-cache压缩6倍，“谷歌的deepseek时刻”.md", "英伟达mit出手！华人团队重磅开源，大模型推理内存暴降10倍.md", "超越turboquant，面向长上下文推理的真2-bit-kv-quantization算法问世.md"]
 origin_date: 2026-03-24
 ---
 
 # TurboQuant
 
-[[turboquant]] 是一种用于大模型推理的高效量化算法，由 [[谷歌]] 研究院（Google Research）提出，2026年3月24日通过官方博客发布，原定在 ICLR 2026 亮相。该算法主要用于压缩推理过程中的 [[kv-cache]]，声称在几乎不损失精度的情况下大幅降低显存占用。论文发布后，因其宣称的性能提升一度导致美光和西部数据股价大跌，被称为"谷歌的 DeepSeek 时刻"。
+[[turboquant]] 是一种用于大模型推理的高效量化算法，由 [[谷歌]] 研究院（Google Research）提出，2026年3月24日通过官方博客发布，原定在 ICLR 2026 亮相。作为一种通用在线 [[向量量化]] 方法，它压缩的是向量本身，主要用于压缩推理过程中的 [[kv-cache]]，声称在几乎不损失精度的情况下大幅降低显存占用。论文发布后，因其宣称的性能提升一度导致美光和西部数据股价大跌，被称为"谷歌的 DeepSeek 时刻"。在 [[kv-cache-量化]] 领域，TurboQuant 已被广泛用作基线方法。
 
 ## 路线定位
 
@@ -69,6 +69,11 @@ TurboQuant 直接解决了大模型推理的核心瓶颈——显存带宽和容
 *   **待证实领域**：在 70B 以上模型、MoE 架构及百万级上下文窗口上的表现尚待进一步证实。
 *   **部署现状**：目前仍为实验室成果，尚未在谷歌的大规模产品部署中证实。
 *   **社区实践**：已有用户在 Apple Silicon 上用 TurboQuant 跑通 Gemma 4 31B。
+*   **公平设置下的表现**：TurboQuant 关注向量重建误差，但忽略了真正影响模型的是 attention 的质量。在全层 3-bit K/V、无 mixed-precision 保护的公平设置下，小模型推理任务上掉分明显（Qwen3-4B-Thinking 上 mean 仅 31.74）。
+
+## 与 OSCAR 的对比
+
+[[oscar-kv-quantization]] 与 TurboQuant 并非简单替代关系。TurboQuant 是通用在线方法，OSCAR 专门针对 attention-aware 2-bit KV serving 场景。OSCAR 的最新代码库已在 attention-aware rotation 基础上引入 Lloyd Max Codebook，进一步融合两种方法的优势。
 
 ## 抄袭争议
 
@@ -92,5 +97,6 @@ TurboQuant 直接解决了大模型推理的核心瓶颈——显存带宽和容
 
 *   [[kv-cache]] — TurboQuant 的直接作用对象。
 *   [[triattention]] — "选择性保留派"路线代表，与 TurboQuant 的"量化派"路线形成对比。
+*   [[oscar-kv-quantization]] — 专门针对 attention-aware 2-bit KV serving 场景的量化方法，与 TurboQuant 形成互补。
 *   [[杰文斯悖论]] — 关于效率提升如何影响总需求的经济学解释。
 *   [[DeepGEMM]] — DeepSeek 为追求工程确定性而开发的算子库，同样体现了底层优化的重要性。

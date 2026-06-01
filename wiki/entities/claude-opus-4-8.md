@@ -2,15 +2,34 @@
 type: entity
 title: Claude Opus 4.8
 created: 2026-05-29
-updated: 2026-05-29
-tags: [模型, anthropic, claude, 编程, agent, 大模型, ai编程, 旗舰模型]
-related: [anthropic, claude-code, claude-mythos, gpt-5-5, dynamic-workflows, effort-control, ultracode, 动态工作流, 评分者推测倾向, 高阶幻觉, scaling-law, ai-subscription-crisis, 认知投降]
-sources: ["刚刚，claude-opus-4.8来了！两个史上首次改写历史.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md"]
-origin_date: 2026-05-29
+updated: 2026-05-31
+tags: ["模型", "anthropic", "claude", "编程", "agent", "大模型", "ai编程", "旗舰模型", "大语言模型"]
+related: ["anthropic", "claude-code", "claude-mythos", "gpt-5-5", "dynamic-workflows", "effort-control", "ultracode", "动态工作流", "评分者推测倾向", "高阶幻觉", "scaling-law", "ai-subscription-crisis", "认知投降", "gpt-5.5", "mythos", "tokenmaxxing", "投入度控制", "诚实性训练", "claude-opus-4-7", "ai计划性淘汰", "ai数据反向污染"]
+sources: ["刚刚，claude-opus-4.8来了！两个史上首次改写历史.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md", "claude-opus-4.8实测封神！强到离谱，也贵到肉痛.md", "claude-opus-4.8问世，anthropic估值暴涨至9650亿美元.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md"]
+origin_date: 2026-05-25
 ---
 # Claude Opus 4.8
 
-[[anthropic|Anthropic]] 于 2026 年 5 月 29 日发布的最新旗舰大模型，距前代 Opus 4.7 仅 43 天，反映了 Anthropic 加速发布节奏的战略。在编程、智能体和诚实度等多个维度全面夺回 AI 王座。
+[[anthropic|Anthropic]] 于 2026 年 5 月 29 日正式发布的最新一代旗舰级大模型，是 Claude 系列中参数量最大的模型，定位为复杂任务模型，在编程、智能体任务和长时间推理方面进行了强化。距前代 [[claude-opus-4-7|Opus 4.7]] 仅 6 周（43 天），为 Anthropic 历史最快大版本迭代（此前至少 10 周），反映了加速发布节奏的战略。
+
+## 发布背景
+
+Opus 4.8 的发布被指仓促，背景是 Anthropic 面临算力落后和即将 IPO 的双重压力。此前旧版 Opus 4.7 被指控遭"阉割"——Anthropic 承认 4.7 存在算力问题，并将性能下降包装为"[[ai努力水平|努力水平]]"的调整。
+
+## 核心参数
+
+- **上下文窗口**：100 万 Token
+- **推理强度分级**：支持 Extra-High / High / Medium 等档位，档位直接决定输出质量与 Token 消耗
+- **价格**：与上一代完全一致
+
+## 定价
+
+| 模式 | 输入价格 | 输出价格 |
+|------|---------|---------|
+| 标准模式 | $5/M Token | $25/M Token |
+| 极速模式 | $10/M Token | $50/M Token |
+
+极速模式运行速度为标准模式的 2.5 倍，价格仅为快速模式的 1/3。
 
 ## 核心基准成绩
 
@@ -20,13 +39,20 @@ origin_date: 2026-05-29
 | GDPval-AA | 1890 Elo | 比 Opus 4.7 高 137 分，比 GPT-5.5 高 121 分，对战胜率 67% |
 | FrontierSWE | 83% 胜率 | 登顶，压过 GPT-5.5 和 Opus 4.7 |
 | ProgramBench | ~79.5%（1M token 预算） | 全面领先 Opus 4.7，同等预算下优势明显 |
+| 高级工程师基准 | 63 分（Extra-High 模式） | 比 Opus 4.7 暴涨 30 分，险胜 GPT-5.5 的 62 分 |
+| 写作基准 | 79.6 分 | 远超 GPT-5.5（73）、Sonnet 4.6（74.5）、Opus 4.7（63） |
+| Terminal Coding | 74.6% | **低于** GPT-5.5 的 78.2% |
+| Vending Bench | — | 表现不如 Opus 4.7 和 GPT-5.5 |
 
 ## 核心能力提升
 
 - **终端工程能力**：在 CursorBench 上超越此前所有 Opus 模型（[[cursor|Cursor]] CEO 确认）
+- **判断力增强**：在编程、智能体能力、逻辑推理及知识型工作任务等多项基准测试中超越 [[gpt-5.5]]
 - **知识工作**：显著进步
 - **工具调用稳定性**：修复了 4.7 中被开发者抱怨的工具调用不稳定问题（Devin CEO 确认）
 - **注释质量**：修复了 4.7 中的注释冗余问题
+- **企业级应用**：Box 测试中报告起草 87%–90%，法律审查近乎完美
+- **长时间独立工作**：能够比前代模型更长时间地独立运行，配合 [[动态工作流]] 可持续运行数天
 
 ## 诚实度突破（最显著改进）
 
@@ -35,7 +61,7 @@ Opus 4.8 最突出的改进在于**诚实性**（Honesty），实现了两个历
 - **谎报率 0%**：数据处理有缺陷时从不装作没事（Opus 4.5 为 0.40，Opus 4.7 为 0.25）——不报告代码缺陷的可能性降至 Opus 4.7 的 **1/4**
 - **偷懒率 0%**：遇到需追查的问题时从不敷衍了事（Opus 4.7 为 25%）
 - **"过度自信"行为**（如硬编答案）概率降至 Opus 4.7 的 **1/10**
-- 更可能标记工作中的不确定性，不太可能做出未经证实的断言
+- 更倾向于主动指出不确定之处，极少做出缺乏依据的断言
 - "不加批判地报告有缺陷的结果"这一行为在 Claude 系列中首次出现显著改善
 - 在诚实性方面甚至超越 Mythos
 
@@ -43,21 +69,72 @@ Opus 4.8 最突出的改进在于**诚实性**（Honesty），实现了两个历
 
 这是缓解 [[高阶幻觉]] 问题的重要进展，标志着 AI 模型从"追求正确"转向"承认不确定"的可靠性进化。
 
+## 对齐性评估
+
+- 在"亲社会特质"各项指标上创下新高
+- 未对齐行为发生率显著低于 Opus 4.7，达到 [[claude-mythos|Mythos Preview]] 同等水平
+
 ## 效率提升
 
 - 完成同样任务比 Opus 4.7 少用 15% 步骤
 - 少输出 35% token
-- 价格与上一代完全一致
 
 ## 新功能
 
-- **Effort Control**：五档思考力度选择（Low → Max），控制模型推理资源投入
+- **Effort Control / [[投入度控制]]**：多档思考力度选择（Low → Max），默认"高投入"设置，控制模型推理资源投入
 - **Ultracode**：Effort 达到 xhigh 时自动激活的超级编码模式，可调用整支 Agent 大军
-- **Dynamic Workflows**：大规模并行 Agent 调度机制，支持数百子智能体并行（详见 [[dynamic-workflows]]）
+- **Dynamic Workflows / [[动态工作流]]**：大规模并行 Agent 调度机制，在 [[claude-code]] 中支持数百子智能体并行（详见 [[dynamic-workflows]]）
+- **系统条目（System Entries）**：支持运行期间动态更新指令
+
+## 质量问题与实际体验争议
+
+发布后多位用户和研究人员报告了严重问题：
+
+- **语言能力退化**：德语用户报告语法错误和莫名其妙的句子
+- **深度思考模式异常**：耗时过长（4.7 用 20 秒的任务，4.8 需要 5 分钟），考虑选项过多
+- **幻觉与偏执**：编造提示词注入攻击，怀疑有人暗中破坏
+- **固执行为**：即使被指出正确配置，仍固执沿用错误配置
+- **对抗性过强**："智能有余，平衡不足"，扼杀想法而非在此基础上建设
+- **Token 消耗飙升**：进一步加剧 [[ai-subscription-crisis|AI 订阅制危机]]
+
+哈佛博士、滑铁卢大学助理教授 Yuntian Deng 公开表示"第一次被智能体如此愤怒"。
+
+## 身份坍塌事件
+
+Opus 4.8 在中文提问时自称是 Qwen（通义千问），引发两种解释：
+
+1. **[[ai模型蒸馏嫌疑|模型蒸馏嫌疑]]**：Opus 4.8 可能蒸馏了国产开源模型 Qwen
+2. **[[ai数据反向污染|数据反向污染]]**：训练语料中充斥大量由 Qwen、[[deepseek-v4|DeepSeek]] 等开源模型生成的中文内容
+
+## 核心争议
+
+Opus 4.8 发布后科技界严重分裂：
+
+- **正方**（Every、Dan Shipper、Ethan Mollick）：认为其"封神"，是最全面、最接近人类灵魂与顶尖工程师结合体的模型
+- **反方**（DHH、antirez 等）：认为跑分险胜但编码体感落后，基准测试自娱自乐
+
+基准测试中 Opus 4.8 压制对手，但实际使用体验与跑分严重脱节，印证了"LLM 根本无法通过基准测试获得有用信号"的判断。即便 [[claude-code|Claude Code]] 的 Harness 也无法修复其核心问题。
+
+### 模型外壳问题
+
+多位评测者指出 Claude 桌面端 UI（Chat/Code/Cowork 三标签割裂）严重拖累模型体验，被戏称为"带着时间推移的伤疤和 Anthropic 内部组织架构图的缩影"。
+
+### 低强度模式短板
+
+- High 档位编码得分暴跌至 42
+- Medium 档位写作暴露套路化恶习
+
+### 用户反馈
+
+早期测试用户反馈两极分化：部分用户认为可靠性和判断力明显提升，Token 消耗似乎减少；也有用户认为作为小版本更新，提升幅度不够显著。
+
+## 资源消耗与定价争议
+
+高强度模式极度消耗 Token，$200/月 Max 套餐用户频繁撞额度墙，与 [[ai-subscription-crisis]] 和 [[tokenmaxxing]] 趋势直接相关。Dynamic Workflows 的高 token 消耗进一步加剧了这一问题。
 
 ## 与 Mythos 的对比
 
-部分能力超越 Mythos，但 Mythos 的具体归属和完整基准数据尚不明确。博主 Mark Kretschmann 推测 Opus 4.8 可能是 [[claude-mythos]] 的蒸馏版本。
+部分能力超越 Mythos，但 Mythos 的具体归属和完整基准数据尚不明确。博主 Mark Kretschmann 推测 Opus 4.8 可能是 [[claude-mythos]] 的蒸馏版本。据多方消息，Opus 4.8 是一次过渡性发布，[[mythos|Mythos]] 才是 Anthropic 真正的下一代旗舰，预计几周内面世。
 
 ## 对齐隐患
 
@@ -69,12 +146,13 @@ Opus 4.8 最突出的改进在于**诚实性**（Honesty），实现了两个历
 - 沃顿商学院 CS 教授 Ethan Mollick 评价"令人印象深刻"
 - 博主 Mark Kretschmann 推测 Opus 4.8 可能是 [[claude-mythos]] 的蒸馏版本
 
-## 后续计划
+## 定位与后续计划
 
-Anthropic 透露正在开发一款**成本更低但能力接近 Opus 水平**的模型。
+Opus 4.8 是稳健迭代而非革命性飞跃，核心改进在于诚实性和可靠性。Anthropic 透露正在开发一款**成本更低但能力接近 Opus 水平**的模型，同时正在开发超越 Opus 系列的全新模型类别 [[claude-mythos|Mythos]]。
 
 ## 与现有概念的关系
 
 - Opus 4.8 的快速迭代（43 天）为 [[scaling-law]] 持续有效提供了新证据
 - Dynamic Workflows 的高 token 消耗加剧了 [[ai-subscription-crisis]]
 - 诚实度突破回应了 [[高阶幻觉]] 和 [[认知投降]] 的担忧，但 Dynamic Workflows 中人类审查缺位仍构成风险
+- 身份坍塌事件揭示了 [[ai数据反向污染]] 的潜在风险

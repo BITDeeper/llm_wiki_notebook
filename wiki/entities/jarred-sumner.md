@@ -2,19 +2,19 @@
 type: entity
 title: Jarred Sumner
 created: 2026-04-15
-updated: 2026-05-28
-tags: ["anthropic", "engineering", "bun", "人物", "开发者", "rust", "zig"]
-related: ["claude-code", "anthropic", "boris-cherny", "dynamic-workflows", "claude-opus-4-8"]
-sources: ["5分钟缓存清零，性能打1折！集体声讨claude，cc之父紧急回应.md", "刚刚，claude-opus-4.8来了！两个史上首次改写历史.md"]
+updated: 2026-05-31
+tags: ["anthropic", "engineering", "bun", "人物", "开发者", "rust", "zig", "程序员", "开源", "ai编程"]
+related: ["claude-code", "anthropic", "boris-cherny", "dynamic-workflows", "claude-opus-4-8", "bun", "zig", "andrew-kelley"]
+sources: ["5分钟缓存清零，性能打1折！集体声讨claude，cc之父紧急回应.md", "刚刚，claude-opus-4.8来了！两个史上首次改写历史.md", "开源编程语言zig，向ai代码说「不」.md"]
 ---
 
 # Jarred Sumner
 
-Jarred Sumner 是 [[anthropic]] 的工程师，同时也是 Bun 运行时（JavaScript 运行时）的创造者。他因使用 [[claude-code]] 的 [[dynamic-workflows]] 功能完成了一次里程碑式的大规模代码迁移而受到广泛关注。
+Jarred Sumner 是 [[bun]] 的创建者，原使用 [[zig]] 语言开发 Bun。在 Bun 被 [[anthropic]] 收购后，他成为 Anthropic 的工程师。他因使用 [[claude-code]] 的 [[dynamic-workflows]] 功能完成了一次里程碑式的大规模代码迁移而受到广泛关注。
 
 ## Bun 迁移案例
 
-Sumner 使用 Dynamic Workflows 将 Bun 从 Zig 语言整体重写为内存更安全的 Rust：
+2026 年 5 月，Sumner 使用 Dynamic Workflows 将 Bun 从 Zig 语言整体重写为内存更安全的 Rust：
 
 - **规模**：约 75 万行 Rust 代码
 - **时间**：从第一次提交到合并仅 11 天
@@ -28,6 +28,10 @@ Sumner 使用 Dynamic Workflows 将 Bun 从 Zig 语言整体重写为内存更�
 ### 与现有概念的张力
 
 Bun 迁移案例与 [[认知投降]] 和 [[高阶幻觉]] 概念形成张力——六千多次提交几乎未经人类逐行审查，效率提升的同时暴露了人类监督缺位的风险。
+
+### 与 Andrew Kelley 的路线对比
+
+Sumner 的路径与 [[andrew-kelley]] 形成鲜明对比：前者全面拥抱 AI 工具并完成跨语言迁移，后者（Zig 语言创始人）坚持禁止任何 AI 生成代码。这一对比是 AI 时代开源社区路线分歧的典型案例。
 
 ## 在缓存争议中的角色
 

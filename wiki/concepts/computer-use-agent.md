@@ -2,14 +2,14 @@
 type: concept
 title: Computer-Use Agent
 created: 2026-05-25
-updated: 2026-05-25
-tags: [agent, gui, computer-use, paradigm, gui自动化, 办公自动化, ai评测]
-related: [saas-bench, 任务执行范式, 面向agent的软件重设计, 反思闭环缺失, vlm质检闭环]
-sources: ["claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md"]
+updated: 2026-05-31
+tags: [agent, gui, computer-use, paradigm, gui自动化, 办公自动化, ai评测, cua, 桌面自动化]
+related: [saas-bench, 任务执行范式, 面向agent的软件重设计, 反思闭环缺失, vlm质检闭环, 混合动作空间, toolcua]
+sources: ["claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "别光给agent加tool了，它根本选不明白！复旦×通义提出全新cua训练范式.md"]
 ---
 # Computer-Use Agent (CUA)
 
-Computer-Use Agent（CUA）是指通过浏览器操作图形用户界面（GUI）完成任务的 AI 智能体。与编程型 Agent（如 [[claude-code|Claude Code]]、[[codex|Codex]]）不同，CUA 需要像人类一样"看"屏幕、"点"按钮、"填"表单，模拟人类的点击、输入、导航等操作，在真实的软件界面中完成工作流程。
+Computer-Use Agent（CUA）是指能够操作计算机界面完成任务的 AI 智能体。CUA 通过模拟人类的 GUI 操作（点击、输入、拖拽、滚动）或调用工具/API 来执行桌面应用中的复杂任务。与编程型 Agent（如 [[claude-code|Claude Code]]、[[codex|Codex]]）不同，CUA 需要像人类一样"看"屏幕、"点"按钮、"填"表单，在真实的软件界面中完成工作流程。
 
 ## 与编程型 Agent 的区别
 
@@ -19,6 +19,10 @@ Computer-Use Agent（CUA）是指通过浏览器操作图形用户界面（GUI�
 | 反馈机制 | 需要视觉理解页面状态 | 编译器/测试提供即时反馈 |
 | 错误恢复 | 困难（状态隐含在 UI 中） | 相对容易（版本控制、回滚） |
 | 适用场景 | 通用办公、跨系统操作 | 软件开发、数据处理 |
+
+## 技术演进
+
+传统 CUA 主要依赖原子化 GUI 操作，泛化性强但步骤长、误差容易累积。随着工具调用能力的引入，CUA 进入 [[混合动作空间]] 时代，但 [[toolcua|ToolCUA]] 的研究表明，简单叠加工具并不能自动提升性能——核心挑战在于 [[最优gui-tool路径选择]]。
 
 ## 当前能力边界
 
@@ -46,6 +50,12 @@ SaaS-Bench 指出当前 CUA 的底层问题不是模型不够大，而是范式�
 2. 缺少操作后的闭环验证机制
 3. 缺少从错误中恢复的能力
 4. 在长程任务中缺少对全局状态的持续感知
+
+## 与相关概念的关系
+
+- CUA 是 [[任务执行范式]] 在桌面操作场景的具体体现
+- [[混合动作空间]] 是 CUA 面临的新技术挑战
+- [[toolcua|ToolCUA]] 代表了 CUA 训练范式的前沿探索
 
 ## 未来方向
 

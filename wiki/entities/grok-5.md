@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Grok 5
-tags: [模型, agi, 大语言模型, xai, llm, model, 多模态, 预测]
-related: ["xai", "elon-musk", "colossus-2", "agi", "规模至上主义", "scaling-law", "ai-takeoff", "ai-takeover", "openai", "anthropic", "grok-4", "colossus-supercomputer"]
+tags: [模型, agi, 大语言模型, xai, llm, model, 多模态, 预测, 大模型, SpaceX, Grok]
+related: ["xai", "elon-musk", "colossus-2", "agi", "规模至上主义", "scaling-law", "ai-takeoff", "ai-takeover", "openai", "anthropic", "grok-4", "colossus-supercomputer", "spacex", "c语言训练堆栈"]
 created: 2026-04-20
-updated: 2026-05-07
-sources: ["马斯克暴走官宣：grok-5就是agi！五月连轰两代万亿怪兽，openai慌了.md", "马斯克点火全球最大超算，首个1gw狂飙奇点！6万亿grok-5在训.md", "老黄亲自打钱！马斯克一夜狂融1400亿，百万gpu豪赌agi终局.md"]
+updated: 2026-05-29
+sources: ["马斯克暴走官宣：grok-5就是agi！五月连轰两代万亿怪兽，openai慌了.md", "马斯克点火全球最大超算，首个1gw狂飙奇点！6万亿grok-5在训.md", "老黄亲自打钱！马斯克一夜狂融1400亿，百万gpu豪赌agi终局.md", "马斯克也拥抱c语言了！大模型训练堆栈抛弃jax，提速一个数量级.md"]
 ---
 
 # Grok 5
 
-**Grok 5** 是 [[xAI]] 正在开发的下一代旗舰大语言模型，目前在 [[Colossus 2]] 超级计算集群上进行训练。该模型被 [[Elon Musk]] 直接定义为 [[AGI]]，并被视为 xAI 在全球 AI 竞争中确立地位的关键里程碑。
+**Grok 5** 是 [[xAI]]（[[SpaceX]] 旗下）正在开发的下一代旗舰大语言模型，是 [[Elon Musk|马斯克]] AI 布局的核心产品之一。该模型被马斯克直接定义为 [[AGI]]，并被视为 xAI 在全球 AI 竞争中确立地位的关键里程碑。
 
 ## 核心规格与特性
 
@@ -19,16 +19,22 @@ sources: ["马斯克暴走官宣：grok-5就是agi！五月连轰两代万亿怪
 - **架构特性**：预期支持动态智能体生成和跨领域专业化。
 - **发布预期**：预计于 **2026 年第一季度** 正式上线（此前亦有消息称 2026 年上半年发布）。
 
-## 训练基础设施
+## 训练基础设施与技术栈
 
 Grok 5 的训练完全依赖于 [[Colossus 2]]（即 [[Colossus 超算]]）提供的空前算力，该集群拥有百万 GPU 级别的规模。其前代产品 [[Grok 4]] 系列已在 Colossus 上完成训练，并利用预训练规模的算力对强化学习（RL）进行了前所未有的高度应用。马斯克认为，这种极致的算力堆叠（基于 [[scaling-law]]）是快速逼近「奇点」的必要条件。
 
+### C 语言训练堆栈
+
+Grok 5 已确认使用全新的 [[C 语言训练堆栈]] 进行训练，抛弃了此前使用的 JAX 框架。马斯克声称新堆栈使大模型训练速度提升了一个数量级。
+
 ## AGI 宣言与争议
 
-马斯克宣称“Grok 5 就是 AGI”，没有任何修饰词。这一观点基于其巨大的参数规模和算力投入，反映了 [[规模至上主义]] 的技术哲学。它是 xAI 试图在 2026 年实现 AGI 目标的关键产品。
+马斯克宣称"Grok 5 就是 AGI"，没有任何修饰词。这一观点基于其巨大的参数规模和算力投入，反映了 [[规模至上主义]] 的技术哲学。它是 xAI 试图在 2026 年实现 AGI 目标的关键产品。
 
 然而，业内专家如 [[Andrej Karpathy]] 对此持保留态度，认为 AGI 的实现仍需十年时间。
 
 ## 竞争背景与生态
 
-Grok 5 的推出标志着 AI 竞赛已进入“短兵相接的终局阶段”。该模型将与 [[OpenAI]] 的 GPT-5.5 和 [[Anthropic]] 的 Opus 4.7 形成直接竞争。此外，Grok 5 预计将进一步集成进特斯拉和 X 平台的生态系统中。
+Grok 5 的推出标志着 AI 竞赛已进入"短兵相接的终局阶段"。该模型将与 [[OpenAI]] 的 GPT-5.5 和 [[Anthropic]] 的 Opus 4.7（Claude 系列）形成直接竞争。此外，Grok 5 预计将进一步集成进特斯拉和 X 平台的生态系统中。
+
+值得注意的是，Grok 的训练需求与 Anthropic 的算力租赁需求存在潜在冲突——一旦 Grok 训练需求吃紧，作为算力租客的 Anthropic 可能面临断供风险。
