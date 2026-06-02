@@ -33253,6 +33253,473 @@
         "wiki/concepts/理论物理中的ai监督.md",
         "wiki/events/尹希加盟openai传闻-202605.md"
       ]
+    },
+    "icml-2026-上海创智学院-x-复旦大学提出智能体安全新范式-：让智能体学会「三思而后行」.md": {
+      "hash": "ff3c7769727d41c19bf94ce4189905bae94080c91e69625a2c62025808bc5c96",
+      "timestamp": 1780293520019,
+      "filesWritten": [
+        "wiki/sources/icml-2026-上海创智学院-x-复旦大学提出智能体安全新范式-：让智能体学会「三思而后行」.md",
+        "wiki/entities/thought-aligner.md",
+        "wiki/entities/上海创智学院.md",
+        "wiki/entities/复旦大学.md",
+        "wiki/entities/蒋昌跃.md",
+        "wiki/entities/潘旭东.md",
+        "wiki/entities/杨珉.md",
+        "wiki/concepts/智能体行为安全.md",
+        "wiki/concepts/思维校正.md",
+        "wiki/concepts/thought-action-observation循环.md",
+        "wiki/events/中国智能体行为安全政策转折-202605.md",
+        "wiki/events/thought-aligner发布-icml-2026.md"
+      ]
+    },
+    "刚刚，英伟达重新定义pc！史上最高效cpu来了.md": {
+      "hash": "4c8ec68c5d11ccc5ca6967cf45c88871c52ebcffe38532c9085916813c7f0679",
+      "timestamp": 1780293907398,
+      "filesWritten": [
+        "wiki/sources/刚刚，英伟达重新定义pc！史上最高效cpu来了.md",
+        "wiki/entities/英伟达.md",
+        "wiki/entities/黄仁勋.md",
+        "wiki/entities/微软.md",
+        "wiki/entities/联发科.md",
+        "wiki/entities/rtx-spark.md",
+        "wiki/concepts/agent-pc.md",
+        "wiki/concepts/nvidia-open-shell.md",
+        "wiki/concepts/统一内存架构.md",
+        "wiki/concepts/windows-on-arm.md",
+        "wiki/concepts/prism-模拟器.md",
+        "wiki/concepts/端侧-agent-安全原语.md",
+        "wiki/events/gtc-taipei-2026.md"
+      ]
+    },
+    "claude刷爆5亿！一夜涨60倍，你的token账单还撑得住？.md": {
+      "hash": "e504216d42e2864f89f5a0b59fa653127ab06e393bc4c110e15388e21ee01b2e",
+      "timestamp": 1780297017802,
+      "filesWritten": [
+        "wiki/sources/claude刷爆5亿！一夜涨60倍，你的token账单还撑得住？.md",
+        "wiki/entities/github-copilot.md",
+        "wiki/entities/glean.md",
+        "wiki/entities/factory-ai.md",
+        "wiki/entities/arvind-jain.md",
+        "wiki/entities/jesse-davies.md",
+        "wiki/entities/bryan-catanzaro.md",
+        "wiki/entities/uber-ai.md",
+        "wiki/concepts/智能体成本非线性.md",
+        "wiki/concepts/模型路由.md",
+        "wiki/concepts/上下文整合降耗.md",
+        "wiki/concepts/ai成本追平人力成本.md",
+        "wiki/events/github-copilot按量计费转型-202606.md",
+        "wiki/events/amazon-kirorank事件.md",
+        "wiki/events/google-cloud-api-key泄露事件-202604.md",
+        "wiki/events/5亿美元claude账单事件-202605.md"
+      ]
+    },
+    "token狂涨，硅谷哀嚎！全球榜单前十ai-lab，却把三大模型全免了.md": {
+      "hash": "f526dc2683b7eb582a0023941907da7601b5730c44474c5fb5a94ff3ced344ab",
+      "timestamp": 1780297035885,
+      "filesWritten": [
+        "wiki/sources/token狂涨，硅谷哀嚎！全球榜单前十ai-lab，却把三大模型全免了.md"
+      ]
+    },
+    "李飞飞、jeff-dean押注！不卷大模型，专练越用越聪明的ai.md": {
+      "hash": "862a3980d36bf12f2c41ed6e2c75e0108c54e7d226ab220884ddadc8e0f66f86",
+      "timestamp": 1780297044656,
+      "filesWritten": [
+        "wiki/sources/李飞飞、jeff-dean押注！不卷大模型，专练越用越聪明的ai.md"
+      ]
+    },
+    "国家队下场卷ai，清华女学霸死磕10年交作业.md": {
+      "hash": "70578e48de31350770db64f7fa772861ccf8674f01f53b2b75f4a678514516e9",
+      "timestamp": 1780297054502,
+      "filesWritten": [
+        "wiki/sources/国家队下场卷ai，清华女学霸死磕10年交作业.md"
+      ]
+    },
+    "云端模型如何落地物理世界？招商局狮子山人工智能实验室用lios打通具身智能全链路.md": {
+      "hash": "29a56e0bafe5c362eba9d4f723f4ffd28f476cedbdd079c167fce6d7b52045c2",
+      "timestamp": 1780304414263,
+      "filesWritten": [
+        "wiki/sources/云端模型如何落地物理世界？招商局狮子山人工智能实验室用lios打通具身智能全链路.md",
+        "wiki/entities/招商局狮子山人工智能实验室.md",
+        "wiki/entities/lios.md",
+        "wiki/entities/so101.md",
+        "wiki/entities/lefold.md",
+        "wiki/entities/lehome-challenge.md",
+        "wiki/entities/智谱具身智能部门.md",
+        "wiki/concepts/端云协同.md",
+        "wiki/concepts/柔性物体操作.md",
+        "wiki/concepts/低延迟图传.md",
+        "wiki/concepts/虚实迁移.md",
+        "wiki/events/lios开源发布-202606.md"
+      ]
+    },
+    "近2亿美元！vast完成新一轮融资，正式披露世界模型路线.md": {
+      "hash": "d4221196ae94047805f5d922232fce3ab464188306bf42ffff5bf6584fd37668",
+      "timestamp": 1780304645149,
+      "filesWritten": [
+        "wiki/sources/近2亿美元！vast完成新一轮融资，正式披露世界模型路线.md"
+      ]
+    },
+    "openai重返机器人赛道！四大核心岗位开招.md": {
+      "hash": "7a3177edd64a1d8a11af19365c6dd80e802cbae1e4d1749adc524bbdb6dfbd96",
+      "timestamp": 1780304871923,
+      "filesWritten": [
+        "wiki/sources/openai重返机器人赛道！四大核心岗位开招.md",
+        "wiki/entities/openai-robotics.md",
+        "wiki/entities/dactyl.md",
+        "wiki/entities/何泰然.md",
+        "wiki/entities/林星宇.md",
+        "wiki/entities/张鹏川.md",
+        "wiki/concepts/自动域随机化.md",
+        "wiki/concepts/遥操作数据采集.md",
+        "wiki/concepts/全链路硬件自研.md",
+        "wiki/events/openai重启机器人赛道-202606.md"
+      ]
+    },
+    "老黄的token经济学翻车了！微软亚马逊通通跳车.md": {
+      "hash": "bc4380fde186d276e54ea1967962755cda15a240b58489329eb430113dea0a49",
+      "timestamp": 1780305241188,
+      "filesWritten": [
+        "wiki/sources/老黄的token经济学翻车了！微软亚马逊通通跳车.md",
+        "wiki/entities/黄仁勋.md",
+        "wiki/entities/微软.md",
+        "wiki/entities/亚马逊.md",
+        "wiki/entities/uber.md",
+        "wiki/entities/多邻国.md",
+        "wiki/entities/米哈游.md",
+        "wiki/entities/github-copilot-cli.md",
+        "wiki/concepts/黄氏token经济学.md",
+        "wiki/concepts/ai精细运营.md",
+        "wiki/concepts/eat-your-own-dog-food.md",
+        "wiki/events/神秘企业5亿美元claude账单事件.md",
+        "wiki/events/企业token-roi反思潮-2026q2.md"
+      ]
+    },
+    "minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md": {
+      "hash": "a7cdc8ece0cad08fa276da072ab40cde7689e5e993b7859805e7f2b159786057",
+      "timestamp": 1780305561876,
+      "filesWritten": [
+        "wiki/sources/minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md",
+        "wiki/entities/minimax.md",
+        "wiki/entities/minimax-m3.md",
+        "wiki/concepts/msa-稀疏注意力.md",
+        "wiki/concepts/稀疏注意力机制.md",
+        "wiki/concepts/交互式用户模拟器框架.md",
+        "wiki/concepts/长上下文扩展.md",
+        "wiki/concepts/原生多模态训练.md",
+        "wiki/events/minimax-m3发布-20260601.md",
+        "wiki/entities/swe-bench-pro.md",
+        "wiki/entities/posttrainbench.md",
+        "wiki/log.md"
+      ]
+    },
+    "今天起，无限期免费！全球首个全模态api开放，top-10-ai-lab出手.md": {
+      "hash": "135320d9cca827aa2bfc60c3212dd27c74f355ba9899753544167ca484890738",
+      "timestamp": 1780305820743,
+      "filesWritten": [
+        "wiki/sources/今天起，无限期免费！全球首个全模态api开放，top-10-ai-lab出手.md",
+        "wiki/entities/agnes-ai.md",
+        "wiki/entities/agnes-2-0-flash.md",
+        "wiki/entities/agnes-image-2-0-flash.md",
+        "wiki/entities/agnes-video-2-0.md",
+        "wiki/entities/workbuddy.md",
+        "wiki/entities/artificial-analysis.md",
+        "wiki/concepts/全模态免费api策略.md",
+        "wiki/concepts/agent时代调用成本放大.md",
+        "wiki/concepts/pmf前成本困境.md",
+        "wiki/concepts/端到端工作流竞争.md",
+        "wiki/events/agnes全模态免费api发布-20260601.md"
+      ]
+    },
+    "材料版alphafold来了！40个工业任务全方位sota，ai4s迎来行业大突破.md": {
+      "hash": "3cc4b0c1db1ad556097a04a619787b01f3e31c3a312561863803648f7c0e1426",
+      "timestamp": 1780306084295,
+      "filesWritten": [
+        "wiki/sources/材料版alphafold来了！40个工业任务全方位sota，ai4s迎来行业大突破.md",
+        "wiki/entities/深度原理.md",
+        "wiki/entities/mpa-materials-property-axiom.md",
+        "wiki/entities/sciclaw.md",
+        "wiki/concepts/物理对齐.md",
+        "wiki/concepts/hybrid-readout.md",
+        "wiki/concepts/骨架划分.md",
+        "wiki/concepts/llm三段式训练.md",
+        "wiki/events/mpa-40任务sota里程碑-20260601.md"
+      ]
+    },
+    "死脑筋的达里奥，这次把openai干翻了.md": {
+      "hash": "46559a840f6c40c4152270921dc25e6972b1cf3e6b917115983a8a10966cb828",
+      "timestamp": 1780322310744,
+      "filesWritten": [
+        "wiki/sources/死脑筋的达里奥，这次把openai干翻了.md",
+        "wiki/entities/clawd-rip.md",
+        "wiki/concepts/专注vs分心战略.md",
+        "wiki/concepts/编程作为agent治理测试场.md",
+        "wiki/events/anthropic-h轮融资-202605.md"
+      ]
+    },
+    "minimax-m3来了！.md": {
+      "hash": "4a4e26181ed737c19fae21abb9a4c325491e6db623eddcbcf69f2715f9618a49",
+      "timestamp": 1780322564613,
+      "filesWritten": [
+        "wiki/sources/minimax-m3来了！.md",
+        "wiki/entities/minimax.md",
+        "wiki/entities/minimax-m3.md",
+        "wiki/entities/minimax-code.md",
+        "wiki/concepts/frontier-三件套.md",
+        "wiki/concepts/msa-稀疏注意力.md",
+        "wiki/concepts/交错数据.md",
+        "wiki/concepts/交互式用户模拟器框架.md",
+        "wiki/concepts/稀疏注意力.md",
+        "wiki/events/minimax-m3发布-20260601.md"
+      ]
+    },
+    "gui-agent「记与学」双修，长程任务有了专属记忆增强型自进化框架.md": {
+      "hash": "004d6b1cd6e0e63166e1d894b3e795f119dfe2e5c206e0839df7ea70632206a6",
+      "timestamp": 1780322765624,
+      "filesWritten": [
+        "wiki/sources/gui-agent「记与学」双修，长程任务有了专属记忆增强型自进化框架.md",
+        "wiki/entities/se-ga.md",
+        "wiki/entities/天津大学.md",
+        "wiki/entities/王岚君.md",
+        "wiki/entities/qwen2-5-vl-7b.md",
+        "wiki/entities/ui-tars-72b.md",
+        "wiki/concepts/gui智能体.md",
+        "wiki/concepts/测试时记忆扩展.md",
+        "wiki/concepts/记忆增强自进化训练.md",
+        "wiki/concepts/hindsight-goal-shifting.md",
+        "wiki/concepts/部分可观察马尔可夫决策过程.md",
+        "wiki/concepts/grpo.md",
+        "wiki/concepts/分层记忆结构.md"
+      ]
+    },
+    "机器人自回归的创新，让星海图横扫了7大具身评测基准.md": {
+      "hash": "462a6d5e40279c069aa8eb8fff7c309d74dac425be859d6a3cf8aca9e2a1de88",
+      "timestamp": 1780323072949,
+      "filesWritten": [
+        "wiki/sources/机器人自回归的创新，让星海图横扫了7大具身评测基准.md",
+        "wiki/entities/星海图.md",
+        "wiki/entities/g0-5.md",
+        "wiki/entities/physical-intelligence.md",
+        "wiki/entities/r1-pro.md",
+        "wiki/entities/r1-lite.md",
+        "wiki/concepts/统一自回归vla架构.md",
+        "wiki/concepts/actioncodec.md",
+        "wiki/concepts/原生思维链-native-cot.md",
+        "wiki/concepts/言出法随.md",
+        "wiki/concepts/fast-wam.md",
+        "wiki/events/g0-5发布-20260601.md"
+      ]
+    },
+    "别光会调grpo，来看看真正的大规模rl是怎么炼的.md": {
+      "hash": "f66523ea51c5677d8a6a18183de1514e6bbedbc8ba6f5a9578902aba0e6171de",
+      "timestamp": 1780323357403,
+      "filesWritten": [
+        "wiki/sources/别光会调grpo，来看看真正的大规模rl是怎么炼的.md",
+        "wiki/concepts/rl-scaling-law.md",
+        "wiki/concepts/grpo.md",
+        "wiki/concepts/gspo.md",
+        "wiki/concepts/dapo.md",
+        "wiki/concepts/dr-grpo.md",
+        "wiki/concepts/tis.md",
+        "wiki/concepts/cispo.md",
+        "wiki/concepts/scalerl.md",
+        "wiki/concepts/熵崩溃.md",
+        "wiki/concepts/生成器-训练器分离架构.md",
+        "wiki/concepts/采样算力最优分配.md",
+        "wiki/concepts/s形scaling曲线.md",
+        "wiki/concepts/数据复用鲁棒性.md",
+        "wiki/events/scaling从预训练到rl的蜕变.md"
+      ]
+    },
+    "何泰然在线摇人！底薪数百万元、sora之父带队、openai全栈造「人」.md": {
+      "hash": "84516a90e2bfa18b67ae5d56c7cf4afbaf4d025b3bd074546e50e73ebe6a2b3e",
+      "timestamp": 1780323738845,
+      "filesWritten": [
+        "wiki/sources/何泰然在线摇人！底薪数百万元、sora之父带队、openai全栈造「人」.md",
+        "wiki/entities/openai-robotics.md",
+        "wiki/entities/aditya-ramesh.md",
+        "wiki/entities/sora.md",
+        "wiki/entities/worldsim.md",
+        "wiki/entities/何泰然.md",
+        "wiki/concepts/世界模型.md",
+        "wiki/concepts/软硬件协同设计.md",
+        "wiki/concepts/全栈机器人模式.md",
+        "wiki/concepts/ppu.md",
+        "wiki/events/openai进军具身智能硬件-202606.md"
+      ]
+    },
+    "世界模型第一次有了「存档」！vast发布project-eden.md": {
+      "hash": "6fcd071d503f2889361c7092be586ad7d89c41a7db47741bffaa72e3a6894282",
+      "timestamp": 1780323984571,
+      "filesWritten": [
+        "wiki/sources/世界模型第一次有了「存档」！vast发布project-eden.md",
+        "wiki/entities/vast.md",
+        "wiki/entities/project-eden.md",
+        "wiki/entities/tripo-series.md",
+        "wiki/concepts/世界模型.md",
+        "wiki/concepts/状态推演与视觉呈现原生解耦.md",
+        "wiki/concepts/双态对齐数据.md",
+        "wiki/concepts/环境长程持久化.md",
+        "wiki/concepts/原生多智能体并发交互.md",
+        "wiki/events/vast发布project-eden-20260601.md",
+        "wiki/events/vast-a-plus融资-202605.md"
+      ]
+    },
+    "hinton宣告「ai醒了」！教皇却断言它没有灵魂.md": {
+      "hash": "97f871b42cac70d797874d1b2e0d91cdd9ccad0c89ce0106e33499e5c2464914",
+      "timestamp": 1780326192720,
+      "filesWritten": [
+        "wiki/sources/hinton宣告「ai醒了」！教皇却断言它没有灵魂.md",
+        "wiki/entities/geoffrey-hinton.md",
+        "wiki/entities/gary-marcus.md",
+        "wiki/entities/教皇-leo-xiv.md",
+        "wiki/concepts/ai意识争议.md",
+        "wiki/concepts/神经元替换思想实验.md",
+        "wiki/concepts/互动小说论.md",
+        "wiki/concepts/混淆输出与内部状态.md",
+        "wiki/concepts/命题知识-vs-体验知识.md",
+        "wiki/concepts/他心问题.md",
+        "wiki/concepts/eliza效应.md",
+        "wiki/events/2026年ai意识大辩论.md"
+      ]
+    },
+    "400-tokens秒！阶跃step-3.7-flash，把agent任务成本打到claude零头.md": {
+      "hash": "47620fed8ce1170b15316ed964b4acafd597f982929b0b2defe58c6fbbc04f7f",
+      "timestamp": 1780326452798,
+      "filesWritten": [
+        "wiki/sources/400-tokens秒！阶跃step-3.7-flash，把agent任务成本打到claude零头.md",
+        "wiki/entities/阶跃星辰.md",
+        "wiki/entities/step-3.7-flash.md",
+        "wiki/concepts/advisor-策略.md",
+        "wiki/concepts/flash模型范式重构.md",
+        "wiki/concepts/稀疏moe架构.md",
+        "wiki/events/step-3.7-flash发布.md"
+      ]
+    },
+    "解散6年后，openai复活机器人团队！奥特曼目标：人手1台.md": {
+      "hash": "84664f6e9cb49e2a0237cc43396c3b754b6d4de645b661bdd7bfd56fb91fd4b7",
+      "timestamp": 1780326818380,
+      "filesWritten": [
+        "wiki/sources/解散6年后，openai复活机器人团队！奥特曼目标：人手1台.md",
+        "wiki/entities/openai-robotics.md",
+        "wiki/entities/aditya-ramesh.md",
+        "wiki/entities/worldsim.md",
+        "wiki/entities/dactyl.md",
+        "wiki/entities/figure.md",
+        "wiki/entities/brett-adcock.md",
+        "wiki/entities/wojciech-zaremba.md",
+        "wiki/concepts/自动域随机化.md",
+        "wiki/concepts/仿真造数据.md",
+        "wiki/concepts/通用机器人.md",
+        "wiki/events/openai重建机器人团队-202606.md",
+        "wiki/events/openai-figure合作破裂-202502.md"
+      ]
+    },
+    "刚刚，老黄重新发明pc！全球首个agent原生电脑问世.md": {
+      "hash": "e5a5a13a43b493dc49bd67375faf797de3586c0e8f6ab89a4306cf4075c3d884",
+      "timestamp": 1780327306030,
+      "filesWritten": [
+        "wiki/sources/刚刚，老黄重新发明pc！全球首个agent原生电脑问世.md",
+        "wiki/entities/英伟达.md",
+        "wiki/entities/黄仁勋.md",
+        "wiki/entities/rtx-spark.md",
+        "wiki/entities/vera-rubin.md",
+        "wiki/entities/vera-cpu.md",
+        "wiki/entities/nemotron-3-ultra.md",
+        "wiki/entities/nvidia-agent-toolkit.md",
+        "wiki/entities/微软.md",
+        "wiki/entities/联发科.md",
+        "wiki/entities/cadence.md",
+        "wiki/concepts/agent原生计算.md",
+        "wiki/concepts/ai工厂.md",
+        "wiki/events/英伟达gtc-2026大会.md"
+      ]
+    },
+    "2026最新综述-新国立&牛津等发布大模型时代的音视频智能（avi）全景指南.md": {
+      "hash": "e1e357127e8234253eb5ac1767fe3a1b0a145c4830da061b23a56a88399273af",
+      "timestamp": 1780336651773,
+      "filesWritten": [
+        "wiki/sources/2026最新综述-新国立&牛津等发布大模型时代的音视频智能（avi）全景指南.md",
+        "wiki/entities/gpt-4o.md",
+        "wiki/entities/qwen3-omni.md",
+        "wiki/entities/sora-2.md",
+        "wiki/entities/movie-gen.md",
+        "wiki/entities/hunyuanvideo-foley.md",
+        "wiki/entities/daily-omni.md",
+        "wiki/entities/clip.md",
+        "wiki/entities/imagebind.md",
+        "wiki/concepts/音视频智能-avi.md",
+        "wiki/concepts/离散token化.md",
+        "wiki/concepts/扩散模型-vs-自回归模型.md",
+        "wiki/concepts/llm集成架构五分法.md",
+        "wiki/concepts/因果事件源接地.md"
+      ]
+    },
+    "“理解”和“生成”相互成就，字节跳动发布-lance：轻量级统一多模态模型的新标杆.md": {
+      "hash": "dd21c21960911b3bd00161ae6f2b4a0acedfaa30e98cdccffabf0dc90e4bec73",
+      "timestamp": 1780336899190,
+      "filesWritten": [
+        "wiki/sources/“理解”和“生成”相互成就，字节跳动发布-lance：轻量级统一多模态模型的新标杆.md",
+        "wiki/entities/lance.md",
+        "wiki/entities/字节跳动智能创作实验室.md",
+        "wiki/entities/字节跳动.md",
+        "wiki/concepts/双专家混合架构.md",
+        "wiki/concepts/mape-模态感知位置编码.md",
+        "wiki/concepts/表征冲突.md",
+        "wiki/concepts/流匹配.md",
+        "wiki/concepts/四阶段进阶训练.md",
+        "wiki/concepts/多任务协同效应.md",
+        "wiki/events/字节跳动发布lance模型-20260601.md"
+      ]
+    },
+    "机器人运控训练步入分钟级时代！清华air开源unilab：3分钟训好人形，速度暴涨10倍，mac上也能跑.md": {
+      "hash": "6f4d6e1c39c0b3b1d9f025354246cb9c467f1a31651bc02c3af22f0a8bca256d",
+      "timestamp": 1780361784511,
+      "filesWritten": [
+        "wiki/sources/机器人运控训练步入分钟级时代！清华air开源unilab：3分钟训好人形，速度暴涨10倍，mac上也能跑.md",
+        "wiki/entities/unilab.md",
+        "wiki/entities/清华air-discover-lab.md",
+        "wiki/concepts/异构并行训练.md",
+        "wiki/concepts/分钟级运控训练.md",
+        "wiki/events/unilab开源发布-20260602.md",
+        "wiki/log.md"
+      ]
+    },
+    "中国科技考察游火了！老外花几万块钱跑来中国看ai.md": {
+      "hash": "03a6bb597897d6028d96fdd5ea692df0b3e46f0b73aa3aaaa0a3a7b9c7cc7b3f",
+      "timestamp": 1780361947412,
+      "filesWritten": [
+        "wiki/sources/中国科技考察游火了！老外花几万块钱跑来中国看ai.md",
+        "wiki/entities/中国科技考察旅游.md",
+        "wiki/entities/华强北电子市场.md",
+        "wiki/concepts/科技密度.md",
+        "wiki/concepts/科技影响力外溢.md"
+      ]
+    },
+    "刚刚，anthropic提交了招股书！.md": {
+      "hash": "f661e036bf75f1c6c069073a5a11ae8a6bc9d445831d559c82b7ee77fea8d7f0",
+      "timestamp": 1780362018365,
+      "filesWritten": [
+        "wiki/sources/刚刚，anthropic提交了招股书！.md"
+      ]
+    },
+    "百万规模数据集已经不够用了！斯坦福开源-gpic：28-万亿像素、1-亿张合规图像，视觉生成步入“大语料”时代.md": {
+      "hash": "dc1a3885963c6d09a6b1d67cc81d2507fcfff4da34627b472c16f53d69bc225d",
+      "timestamp": 1780369034266,
+      "filesWritten": [
+        "wiki/sources/百万规模数据集已经不够用了！斯坦福开源-gpic：28-万亿像素、1-亿张合规图像，视觉生成步入“大语料”时代.md",
+        "wiki/entities/gpic.md",
+        "wiki/entities/斯坦福大学.md",
+        "wiki/entities/李飞飞.md",
+        "wiki/entities/ji-t2i.md",
+        "wiki/entities/qwen3-vl-4b.md",
+        "wiki/concepts/视觉生成大语料时代.md",
+        "wiki/concepts/fd-dino-v2.md",
+        "wiki/concepts/指标饱和与古德哈特定律.md",
+        "wiki/concepts/图像碰撞模型.md",
+        "wiki/concepts/多粒度标注.md",
+        "wiki/concepts/数据集分片均衡.md",
+        "wiki/events/gpic发布-202606.md"
+      ]
     }
   }
 }

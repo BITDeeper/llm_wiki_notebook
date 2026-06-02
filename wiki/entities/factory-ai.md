@@ -1,27 +1,25 @@
 ---
 type: entity
 title: Factory AI
-tags: [company, startup, agent, software-engineering]
-related: [missions, droids, matan-grinberg, eno-reyes, 红杉资本]
-created: 2026-05-04
-updated: 2026-05-04
-sources: ["最长连续工作40天！硅谷agent又进化了：给个指令，剩下它全搞定.md"]
+created: 2026-06-01
+updated: 2026-06-01
+tags: ["company", "startup", "agent", "software-engineering", "模型路由", "ai成本优化", "初创公司"]
+related: ["missions", "droids", "matan-grinberg", "eno-reyes", "红杉资本", "模型路由", "智能体成本非线性", "token作为生产资料"]
+sources: ["最长连续工作40天！硅谷agent又进化了：给个指令，剩下它全搞定.md", "claude刷爆5亿！一夜涨60倍，你的token账单还撑得住？.md"]
 ---
-
 # Factory AI
 
-Factory AI 是一家硅谷初创公司，致力于构建自主 AI 工程师。与传统的 AI 代码助手（如 [[github-copilot]]）不同，Factory 专注于开发能够独立完成软件开发生命周期的智能体。
+模型路由初创公司。核心业务是自动将每个AI任务派给最合适的模型——简单任务走便宜档，复杂任务走顶配，从而实现成本优化。
 
-## 核心产品
-- **[[droids]]**：专为软件开发生命周期设计的自主 Agent，能够理解需求、查阅文档、编写代码并提交。
-- **[[missions]]**：搭载在 Droids 上的任务调度系统，支持智能体连续工作长达 40 天，实现了全自动工程闭环。
+## 技术路线
 
-## 创始团队
-- **[[matan-grinberg]]**：联合创始人，理论物理背景（师从胡安·马尔达塞纳），UC 伯克利博士肄业。研究方向为物理与 AI 的交叉领域。
-- **[[eno-reyes]]**：联合创始人，前 Hugging Face 机器学习工程师，普林斯顿大学认知科学背景。负责研发 Droids 的自主循环机制和上下文压缩机制。
+与[[glean]]的上下文整合路线不同，Factory AI走的是"模型路由"路线。两条路殊途同归：让AI干活，但别让它乱烧Token。据Glean CEO [[arvind-jain]]估算，路由做对了能省10倍。
 
-## 融资情况
-获得红杉资本合伙人 Shaun Maguire 领投的数百万美元投资。Matan 曾因一封关于弦理论和 AI 深度思考的邮件吸引了投资人的注意。
+## 行业定位
 
-## 理念
-福布斯曾评价创始团队为“AI 时代的黄金搭档”。他们的理念是在 AI 强势发展的同时，进一步激发软件开发领域的创造力，而不仅仅局限于工程师。
+属于Token节省赛道的代表性公司，在AI行业从"不计成本扩张"转向"精打细算运营"的趋势中受益。
+
+## 关联概念
+
+- [[模型路由]]
+- [[智能体成本非线性]]

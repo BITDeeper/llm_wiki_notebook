@@ -2,10 +2,10 @@
 type: entity
 title: SWE-Bench Pro
 created: 2026-02-13
-updated: 2026-05-27
-tags: ["基准测试", "代码生成", "软件工程", "benchmark", "coding", "evaluation", "software-engineering", "llm-evaluation", "ai编程", "评测基准", "代码评测"]
-related: ["gpt-5-3-codex-spark", "terminal-bench-2-0", "gpt-5-3-codex", "gpt-5.2", "claude-code", "专家级-ai", "gpt-5-2", "glm-5-1", "claude-opus-4-6", "kernelbench", "deepswe", "datacurve", "claude-opus-4-7", "gpt-5.5", "基准污染", "基准验证器可靠性"]
-sources: ["openai史上最快模型降临，每秒1000token！代码从此「炸出来」.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4.6,-奥特曼真急了.md", "gpt-5.2来了！首个「专家级」ai复仇成功，牛马打工人终于得救了.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md"]
+updated: 2026-06-01
+tags: ["基准测试", "代码生成", "软件工程", "benchmark", "coding", "evaluation", "software-engineering", "llm-evaluation", "ai编程", "评测基准", "代码评测", "编程能力"]
+related: ["gpt-5-3-codex-spark", "terminal-bench-2-0", "gpt-5-3-codex", "gpt-5.2", "claude-code", "专家级-ai", "gpt-5-2", "glm-5-1", "claude-opus-4-6", "kernelbench", "deepswe", "datacurve", "claude-opus-4-7", "gpt-5.5", "基准污染", "基准验证器可靠性", "minimax-m3"]
+sources: ["openai史上最快模型降临，每秒1000token！代码从此「炸出来」.md", "硅谷一夜两弹!-gpt-5.3-codex狙击claude-4.6,-奥特曼真急了.md", "gpt-5.2来了！首个「专家级」ai复仇成功，牛马打工人终于得救了.md", "开源模型首超opus4.6！智谱glm-5.1登场，14小时后cuda专家被冲了.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md", "minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md"]
 ---
 
 # SWE-Bench Pro
@@ -43,6 +43,11 @@ sources: ["openai史上最快模型降临，每秒1000token！代码从此「炸
 
 ### GLM-5.1
 2026年4月，[[GLM-5.1]] 在该基准测试中刷新全球最佳成绩，超越 [[Claude Opus 4.6]] 和 GPT-5.4，成为首个在该项测试中击败顶尖闭源模型的开源模型。
+
+### MiniMax M3
+根据 [[minimax]] 发布的数据，[[minimax-m3]] 在 SWE-Bench Pro 上超过 [[GPT-5.5]] 和 Gemini 3.1 Pro，接近 [[Claude Opus 4.7]] 的水平。
+
+> 注：以上数据为 MiniMax 自行发布，缺乏第三方独立验证。
 
 ## 被审计出的缺陷
 

@@ -1,20 +1,35 @@
 ---
 type: concept
 title: GRPO
-tags: [reinforcement-learning, algorithm, 强化学习, 算法, deepseek, rl, optimization, 优化算法, 多模态, 训练策略]
-related: [mobilevla-r1, chain-of-thought, deepseek-math, deepseek-r1, guo-daya, twinkle, rlhf, gamma, 渐进式三阶段训练, medgrpo]
+tags: [reinforcement-learning, algorithm, 强化学习, 算法, deepseek, rl, optimization, 优化算法, 多模态, 训练策略, 策略优化, gui-agent, grpo, 大模型训练]
+related: [mobilevla-r1, chain-of-thought, deepseek-math, deepseek-r1, guo-daya, twinkle, rlhf, gamma, 渐进式三阶段训练, medgrpo, se-ga, 记忆增强自进化训练, rl-scaling-law, gspo, dapo, dr-grpo, tis, cispo, scalerl]
 created: 2025-12-05
-updated: 2026-05-22
-sources: ["四足机器人首次同时「思考+走路」，北大提出链式推理mobilevla-r1.md", "大厂抢郭达雅进行时！deepseek核心成员还是个“综艺巨佬”.md", "训练即服务！让模型训练回归算法语义，150行代码跑通rl.md", "高潮从第几秒开始？gamma-让多模态大模型真正「听懂」音乐时间线.md"]
+updated: 2026-06-01
+sources: ["四足机器人首次同时「思考+走路」，北大提出链式推理mobilevla-r1.md", "大厂抢郭达雅进行时！deepseek核心成员还是个“综艺巨佬”.md", "训练即服务！让模型训练回归算法语义，150行代码跑通rl.md", "高潮从第几秒开始？gamma-让多模态大模型真正「听懂」音乐时间线.md", "gui-agent「记与学」双修，长程任务有了专属记忆增强型自进化框架.md", "别光会调grpo，来看看真正的大规模rl是怎么炼的.md"]
+origin_date: 2024-02-01
 ---
 
 # GRPO
 
-[[GRPO]]（Group Relative Policy Optimization，组相对策略优化）是一种基于组内相对表现计算优势函数的强化学习算法范式。该算法由 [[DeepSeek]] 团队在 [[DeepSeek-Math]] 模型的论文中首次提出，主要提出者包括 [[DeepSeek]] 核心工程师 [[郭达雅]]，现已广泛应用于多模态大模型的后训练阶段。
+[[GRPO]]（Group Relative Policy Optimization，组相对策略优化）是由 [[DeepSeek]] 团队在 [[DeepSeek-Math]] 模型的论文中首次提出的一种 RL 优化算法，是近端策略优化（PPO）的变体。主要提出者包括 [[DeepSeek]] 核心工程师 [[郭达雅]]。GRPO 目前已成为推理模型大规模 RL 训练中最常用的算法，[[DeepSeek-R1]] 即使用 GRPO 进行 RL 训练，现已广泛应用于多模态大模型的后训练阶段。
 
 ## 核心机制
 
-给定输入（如音乐片段与问题），模型从当前策略中采样一组候选输出，并基于组内相对表现计算优势函数，无需额外的价值网络（Critic）。
+### 优势估计
+
+GRPO 相对于 PPO 的主要改变在于**优势估计方式**：
+
+- **PPO**：使用价值模型和 GAE 估计优势
+- **GRPO**：通过为每个提示采样多个完成序列（一组），利用组内奖励统计构建基准值
+
+具体而言，给定输入（如音乐片段与问题），模型从当前策略中采样一组候选输出，完成序列 i 的优势通过对其奖励 r_i 进行组内均值和标准差归一化来计算。这种基于组的基准值替代了价值函数，使 GRPO 无需训练额外的价值网络（Critic），大幅降低了内存和算力开销。
+
+### 损失函数
+
+GRPO 的损失函数与 PPO 类似，核心是 token 级策略比率（重要性比率），采用相同的截断机制。默认损失聚合方式为：
+
+1. 对每个完成序列内的 token 级损失取平均
+2. 对组内各完成序列的损失再取平均
 
 ### 奖励函数
 
@@ -22,6 +37,26 @@ sources: ["四足机器人首次同时「思考+走路」，北大提出链式�
 - **格式一致性**：符合结构要求的输出获得正奖励
 - 其余输出奖励为零
 - 引导模型在保持稳定性的同时提升复杂推理能力
+
+### 与奖励模型的关系
+
+> [!note] 常见误解
+> GRPO 消除的是**价值模型**（critic），而非奖励模型。GRPO 可以在有或没有神经网络奖励模型的情况下使用——去除奖励模型是可验证奖励的优势，不是 GRPO 本身的内在特性。
+
+## 已识别的系统性偏差与改进
+
+原始 GRPO 存在多个系统性问题，催生了多种改进方案：
+
+| 偏差 | 改进方案 | 核心修正 |
+|------|---------|---------|
+| token 级与序列级错位 | [[gspo]] | 在序列级别计算重要性比率 |
+| 熵崩溃 | [[dapo]] | 解耦上下截断界（clip higher） |
+| 响应级长度偏差 | [[dr-grpo]]、[[dapo]] | 修正损失聚合中的长度偏差 |
+| 问题级难度偏差 | [[dr-grpo]] | 从优势估计中去除标准差项 |
+| 引擎间概率不一致 | [[tis]] | 引入截断重要性采样修正项 |
+| 重要 token 被截断屏蔽 | [[cispo]] | 用停止梯度确保被截断 token 仍参与梯度 |
+
+参见：[[rl-scaling-law]]、[[scalerl]]
 
 ## 技术意义
 
@@ -48,6 +83,14 @@ GRPO 是 [[DeepSeek-R1]] 推理能力涌现的关键技术。它证明了在不�
 - 合成推理路径更复杂的问题变体
 - 通过 rollout-based 验证确保数据质量
 
+### GUI 智能体自进化
+
+在 [[se-ga|SE-GA 框架]]的 [[记忆增强自进化训练|MASE]] 第二阶段自我进化训练中，GRPO 被用于驱动 GUI 智能体的策略优化。SE-GA 基于 GRPO 算法引入了多个针对 GUI 任务的关键改进：
+
+- **分层奖励设计**：点定位奖励 + 包围框奖励
+- **视觉-空间反馈绑定**：将视觉感知与精确的空间反馈绑定
+- **克服像素级偏差**：有效克服密集 GUI 布局中的像素级偏差问题
+
 ### 训练框架实现
 
 在 [[Twinkle]] 框架的介绍中，GRPO 被用作展示框架处理复杂 RL 训练循环能力的示例算法。通过 Twinkle 的组件化设计，开发者可以用约 150 行代码清晰实现 GRPO 的 rollout、reward 计算和更新过程，而无需显式处理底层的分布式调度细节。
@@ -58,6 +101,11 @@ GRPO 算法家族正在多模态领域获得广泛应用：
 
 - **具身智能**：[[mobilevla-r1]] 使用 GRPO 将语言推理转化为物理控制
 - **音乐理解**：[[gamma]] 使用 GRPO 提升时序推理能力
+- **GUI 智能体**：[[se-ga|SE-GA]] 使用 GRPO 实现长程任务的记忆增强自进化
 - **医疗视频理解**：[[uAI-NEXUS-MedVLM]] 使用 [[MedGRPO]]（GRPO 的医疗领域变体，结合了 [[跨数据集奖励归一化]]）处理异构医疗视频
 
 这种跨域应用趋势表明 GRPO 正在成为多模态大模型后训练阶段的标准强化学习工具，类似于 RLHF 在大语言模型领域的地位。
+
+## 开放问题
+
+GRPO 算法在 SE-GA 和 DeepSeek 系列模型中均有应用，两者是否存在深层技术关联是一个值得探索的开放问题。

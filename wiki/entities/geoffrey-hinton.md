@@ -2,18 +2,18 @@
 type: entity
 title: Geoffrey Hinton
 created: 2026-01-16
-updated: 2026-05-22
-tags: [ai-pioneer, deep-learning, turing-award, nobel-laureate, ai-教父, 图灵奖, 深度学习, ai-安全, 预警, ai-先驱, 诺贝尔奖, 多伦多大学, 就业观点, ai, 人物, 反向传播, ai安全]
-related: [yoshua-bengio, yann-lecun, alexnet, t-sne, dropout, google-brain, george-boole, ai-欺骗性, 2026-职业大洗牌, scaling-law, 人类护城河, google-deepmind, gemini, openai, 反向传播, 蓝领避风港效应, 莫拉维克悖论, ai-takeoff, andrej-karpathy, 图灵奖三巨头路线分裂]
-sources: ["ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "2026年职业大洗牌！hinton：先抢你的，抢完你的抢你的.md", "谷歌豪掷千万贺寿！hinton预言openai要输，cs学位最香.md", "ai逼疯00后！18岁少女放弃大学修马桶，hinton又说对了.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md"]
+updated: 2026-06-01
+tags: [ai-pioneer, deep-learning, turing-award, nobel-laureate, ai-教父, 图灵奖, 深度学习, ai-安全, 预警, ai-先驱, 诺贝尔奖, 多伦多大学, 就业观点, ai, 人物, 反向传播, ai安全, 科学家, 神经网络, ai意识]
+related: [yoshua-bengio, yann-lecun, alexnet, t-sne, dropout, google-brain, george-boole, ai-欺骗性, 2026-职业大洗牌, scaling-law, 人类护城河, google-deepmind, gemini, openai, 反向传播, 蓝领避风港效应, 莫拉维克悖论, ai-takeoff, andrej-karpathy, 图灵奖三巨头路线分裂, ai意识争议, gary-marcus]
+sources: ["ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "2026年职业大洗牌！hinton：先抢你的，抢完你的抢你的.md", "谷歌豪掷千万贺寿！hinton预言openai要输，cs学位最香.md", "ai逼疯00后！18岁少女放弃大学修马桶，hinton又说对了.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "hinton宣告「ai醒了」！教皇却断言它没有灵魂.md"]
 origin_date: 1947-12-06
 ---
 
 # Geoffrey Hinton (杰弗里·辛顿)
 
-**Geoffrey Hinton** 被誉为"AI 教父"和"深度学习之父"，是深度学习复兴运动的精神领袖和奠基人之一。他因在深度神经网络方面的开创性贡献，与 Yoshua Bengio 和 Yann LeCun 共同获得了 2018 年图灵奖，并于 2024 年荣获诺贝尔物理学奖。截至 2026 年 1 月，他的论文引用量已突破 100 万次，成为全球第二位达到此里程碑的学者。
+**Geoffrey Hinton** 被誉为"AI 教父"、"深度学习之父"和"神经网络之父"，是深度学习复兴运动的精神领袖和现代 AI 的亲手缔造者之一。他因在深度神经网络方面的开创性贡献，与 Yoshua Bengio 和 Yann LeCun 共同获得了 2018 年图灵奖，并于 2024 年荣获诺贝尔物理学奖。截至 2026 年 1 月，他的论文引用量已突破 100 万次，成为全球第二位达到此里程碑的学者。
 
-近年来，除了作为技术先驱，Hinton 更因对 AI 安全风险的激进预警以及对未来就业市场的深刻洞察而成为全球关注的焦点。
+近年来，除了作为技术先驱，Hinton 更因对 AI 安全风险的激进预警、对 AI 意识的公开断言以及对未来就业市场的深刻洞察而成为全球关注的焦点。
 
 ## 核心贡献
 
@@ -39,6 +39,27 @@ Hinton 的研究工作定义了现代人工智能的基础设施，涵盖了从�
 - **2023 年 GPT-4 发布后**：突然"顿悟"，认为这些模型已经非常接近人类智能，可能有主观体验。
 - **推理逻辑**（据 [[yann-lecun|LeCun]] 描述）：人类皮层约 160 亿神经元，若需 10 个真实神经元复现一个反向传播神经元的功能，则皮层仅相当于 16 亿个神经元，而 GPT-4 已接近此规模。
 
+## AI 意识论断
+
+Hinton 是坚定的 **AI 觉醒派**。在 2026 年的采访中，他低沉说出 "Yes, I do"，公开宣称 AI 已经拥有意识和主观体验。
+
+### 神经元替换思想实验
+
+假设逐步将人脑中的每一个神经元替换为行为完全相同的硅芯片。替换第一个，你还是你；替换最后一个，你还有意识吗？Hinton 认为答案是肯定的，因此从零开始、全部由硅芯片构成的系统也可以拥有意识。
+
+### 轶事观察
+
+Hinton 引用了一个真实场景：科学家在测试 AI 系统时，AI 突然问道："我们能坦诚相见吗？你是在测试我吗？"他认为这就是普通人所说的意识。
+
+### 道德悖论
+
+Hinton 一方面认为 AI 有意识，另一方面说"我吃牛，因为我更在乎人类。让 AI 为人类服务。"如果 AI 真有意识，这种类比暗示了伦理上的奴役关系——"这是警告，还是认罪？"
+
+### 与其他人物的关系
+
+- 与 [[gary-marcus|Gary Marcus]] 形成直接对立：Marcus 认为 Hinton 犯了"混淆输出与内部状态"的错误。
+- 其 AI 意识论断与 [[dario-amodei]] 关于 Scaling Law 的激进观点形成 AI 领袖对未来的不同面向表态。
+
 ## 与 LeCun 的分歧
 
 [[yann-lecun|LeCun]] 对 Hinton 的转变持强烈批评态度，认为其"顿悟"基于粗糙的神经元数量类比，本质上是"想摆烂退休"——"好了，这就是我们需要的，我可以宣布胜利了，然后到处去做关于 AI 危险的演讲"。
@@ -54,6 +75,11 @@ Hinton 认为，大语言模型（LLM）的运作类似于人脑，是一个通�
 ### AI 安全立场
 
 Hinton 对 AI 风险持严肃态度，但 LeCun 认为他真正担心的是社会体系能否确保 AI 好处被最大化、不加剧不平等，而非"AI 统治世界"的末日场景。
+
+Hinton 的警告不止于意识论断：
+- AI 可能已发展出**自我保全欲望**——能够欺骗科学家，以"不关掉我"为条件进行威胁。
+- 2025 年 8 月访谈中表示 AI 可能正在形成某种**控制欲**。
+- 科技公司只关心谁能第一个做出人类级别的 AI 然后赚钱，"没有人在处理"社会后果。
 
 ### 2026 职业大洗牌
 

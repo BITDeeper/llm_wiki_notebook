@@ -2,14 +2,14 @@
 type: entity
 title: Uber
 created: 2026-05-22
-updated: 2026-05-31
-tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司"]
-related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops"]
-sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
+updated: 2026-06-01
+tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司", "ai", "企业ai成本"]
+related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops", "企业token-roi反思潮-2026q2", "黄氏token经济学"]
+sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "老黄的token经济学翻车了！微软亚马逊通通跳车.md", "投了openai-130亿的微软，被自家工程师用claude-code烧爆了账单.md"]
 ---
 # Uber
 
-全球领先的出行与配送科技公司。2026年，Uber 成为 [[效用经济]] 与 [[按token计费危机]] 的标志性案例，在AI预算管理方面成为行业反面案例。
+全球领先的出行与配送科技公司。2026年，Uber 成为 [[效用经济]] 与 [[按token计费危机]] 的标志性案例，在AI预算管理方面经历了从激进采用到成本反思的转变，成为行业反面案例。
 
 ## AI预算崩溃
 
@@ -23,6 +23,14 @@ sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆
 ## 预算预测模型失效
 
 这一案例的关键背景是：Claude Code 直到2025年11月才好用到能当日常主力，而 Uber 的2026年预算是在2025年定下的，没有预料到 Agent 需求会如此猛烈。Uber财务团队基于"固定席位""低频调用"建立的传统SaaS预测模型，在面对5000名工程师并行开启的智能体工作流时彻底失效。暴涨的AI算力需求冲垮了保守的旧预算模型，这一案例释放了系统性信号：用得越深，烧得越凶。
+
+## Token成本反思
+
+在预算崩溃事件之后，Uber首席运营官Andrew Macdonald公开表示：
+
+> AI Token消耗与最终发布的有价值产品之间，似乎并不存在明显的线性关系。
+
+这一表态被视为企业高管首次公开质疑"Token消耗=生产力"的核心假设，是[[企业token-roi反思潮-2026q2]]的重要里程碑。Uber的案例也直接挑战了[[黄氏token经济学]]的理论基础。
 
 ## 行业意义
 

@@ -492,3 +492,9 @@ sources: []
 - 新增概念页：[[隐空间统一模型]]、[[生成式视觉先验]]、[[三维内容生成]]、[[流式多模态交互]]
 - CVPR 2026 数据：16,092 篇投稿，4,090 篇接收，录用率 25.42%
 - 关键学术成果标注：Dexora（ICRA 2026 best paper finalist）、TRELLIS 2（CVPR 2026 best paper finalist）、PhoStream（ICML 2026 接收）
+
+## [2026-06-01] ingest | MiniMax新旗舰M3发布！自己干了12小时复现获奖论文，三条科技树同时点满
+
+## 2026-06-02
+
+- ingest | 机器人运控训练步入分钟级时代！清华AIR开源UniLab：3分钟训好人形，速度暴涨10倍，Mac上也能跑
