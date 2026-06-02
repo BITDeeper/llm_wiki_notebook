@@ -257,6 +257,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/action-tokenizer</loc>
     <lastmod>2026-03-24T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/actioncodec</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/active-expert-chunked-dequantization</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -280,6 +283,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/adaptive-thinking</loc>
     <lastmod>2026-04-18T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/advisor-%E7%AD%96%E7%95%A5</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/aesthetic-guidance-%E7%BE%8E%E5%AD%A6%E6%8C%87%E5%AF%BC</loc>
     <lastmod>2026-03-15T00:00:00.000Z</lastmod>
@@ -337,6 +343,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent-os</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent-pc</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent-rl</loc>
     <lastmod>2026-02-13T00:00:00.000Z</lastmod>
@@ -542,6 +551,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E5%8E%9F%E7%94%9F%E8%AE%A1%E7%AE%97</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E5%8E%9F%E7%94%9F%E8%AE%AD%E7%BB%83</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
@@ -571,6 +583,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E6%95%99%E7%BB%83%E6%A8%A1%E5%BC%8F</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E6%97%B6%E4%BB%A3%E8%B0%83%E7%94%A8%E6%88%90%E6%9C%AC%E6%94%BE%E5%A4%A7</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agent%E6%99%AE%E5%8F%8A%E4%B8%89%E9%9A%9C%E7%A2%8D</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -648,7 +663,7 @@
     <lastmod>2026-04-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agi</loc>
-    <lastmod>2026-06-01T02:26:27.111Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.564Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/agi%E4%BC%98%E5%85%88%E4%BA%8E%E5%95%86%E4%B8%9A%E5%8C%96</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
@@ -1682,6 +1697,12 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E6%83%85%E6%84%9F%E4%BE%9D%E6%81%8B</loc>
     <lastmod>2026-02-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E6%84%8F%E8%AF%86%E4%BA%89%E8%AE%AE</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E6%88%90%E6%9C%AC%E8%BF%BD%E5%B9%B3%E4%BA%BA%E5%8A%9B%E6%88%90%E6%9C%AC</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E6%88%98%E4%BA%89</loc>
     <lastmod>2025-12-10T00:00:00.000Z</lastmod>
   </url><url>
@@ -1828,6 +1849,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E7%B2%BE%E7%A5%9E%E7%97%85</loc>
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E7%B2%BE%E7%BB%86%E8%BF%90%E8%90%A5</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ai%E7%B4%A0%E5%85%BB%E6%95%99%E8%82%B2%E5%85%88%E8%A1%8C</loc>
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
@@ -2372,6 +2396,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/circular-financing</loc>
     <lastmod>2026-04-08T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/cispo</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/cl-bench</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -2424,7 +2451,7 @@
     <lastmod>2026-02-22T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/cli-hua</loc>
-    <lastmod>2026-06-01T02:26:28.063Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.683Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/cli-vs-gui</loc>
     <lastmod>2026-04-19T00:00:00.000Z</lastmod>
@@ -2496,7 +2523,7 @@
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/codex-chronicle</loc>
-    <lastmod>2026-06-01T02:26:28.071Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.686Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/codex-connectors-skills</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
@@ -2759,6 +2786,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/d2p%E7%AE%97%E6%B3%95</loc>
     <lastmod>2026-02-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/dapo</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/darwin-godel-machine</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -2966,6 +2996,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/dph-rl</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/dr-grpo</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/dram%E5%AE%9A%E4%BB%B7%E6%9D%83%E9%94%81%E5%AE%9A</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -3053,6 +3086,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/dynamic-workflows</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/eat-your-own-dog-food</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/eci-zong-he-neng-li-zhi-shu</loc>
     <lastmod>2026-01-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -3082,6 +3118,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ego-centric</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/eliza%E6%95%88%E5%BA%94</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/eln-lims</loc>
     <lastmod>2026-04-18T00:00:00.000Z</lastmod>
@@ -3218,6 +3257,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/fast-thinking</loc>
     <lastmod>2026-03-05T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/fast-wam</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/fat-tree-clos%E6%9E%B6%E6%9E%84</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
@@ -3253,6 +3295,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/flare</loc>
     <lastmod>2026-01-10T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/flash%E6%A8%A1%E5%9E%8B%E8%8C%83%E5%BC%8F%E9%87%8D%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/flatten-and-pack</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
@@ -3301,6 +3346,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/frontier-search</loc>
     <lastmod>2026-03-05T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/frontier-%E4%B8%89%E4%BB%B6%E5%A5%97</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/frontier</loc>
     <lastmod>2026-02-28T00:00:00.000Z</lastmod>
@@ -3524,6 +3572,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/grpo%E7%AE%97%E6%B3%95</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/gspo</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/gui-agent</loc>
     <lastmod>2025-12-10T00:00:00.000Z</lastmod>
   </url><url>
@@ -3532,6 +3583,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/gui-%E6%93%8D%E6%8E%A7</loc>
     <lastmod>2026-03-24T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/gui%E6%99%BA%E8%83%BD%E4%BD%93</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/gumbel-noise</loc>
     <lastmod>2026-04-30T00:00:00.000Z</lastmod>
@@ -3641,6 +3695,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hierarchical-visual-recognition</loc>
     <lastmod>2026-03-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hindsight-goal-shifting</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hipaa-compliance</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
   </url><url>
@@ -3709,6 +3766,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hybrid-attention-moe</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hybrid-readout</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/hypernetwork</loc>
     <lastmod>2025-12-01T00:00:00.000Z</lastmod>
@@ -3915,7 +3975,7 @@
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/kv-cache</loc>
-    <lastmod>2026-06-01T02:26:28.273Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.793Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/kv-cache%E4%B8%8E%E9%95%BF%E4%B8%8A%E4%B8%8B%E6%96%87%E6%88%90%E6%9C%AC</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
@@ -4073,6 +4133,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/llm4or</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/llm%E4%B8%89%E6%AE%B5%E5%BC%8F%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/llm%E4%BD%9C%E4%B8%BA%E8%A7%86%E8%A7%89%E7%BC%96%E7%A0%81%E5%99%A8</loc>
     <lastmod>2026-01-27T00:00:00.000Z</lastmod>
   </url><url>
@@ -4090,6 +4153,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/llm%E7%96%B2%E5%8A%B3</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/llm%E9%9B%86%E6%88%90%E6%9E%B6%E6%9E%84%E4%BA%94%E5%88%86%E6%B3%95</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/lobster-shell</loc>
     <lastmod>2026-04-21T00:00:00.000Z</lastmod>
@@ -4189,6 +4255,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/map-reduce-agent</loc>
     <lastmod>2026-03-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/mape-%E6%A8%A1%E6%80%81%E6%84%9F%E7%9F%A5%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/mask-memory</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
@@ -4412,6 +4481,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/mrpo</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/msa-%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/msl%E4%B8%89%E6%9D%A1%E5%86%9B%E8%A7%84</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -4598,6 +4670,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/nvfp4</loc>
     <lastmod>2026-04-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/nvidia-open-shell</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/nvlink-fusion</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -4668,7 +4743,7 @@
     <lastmod>2026-03-10T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/opc-%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8</loc>
-    <lastmod>2026-06-01T02:26:28.324Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.819Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/opc</loc>
     <lastmod>2026-03-24T00:00:00.000Z</lastmod>
@@ -4713,7 +4788,7 @@
     <lastmod>2026-05-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/opt-one-person-team</loc>
-    <lastmod>2026-06-01T02:26:28.326Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.820Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/orbital-data-center</loc>
     <lastmod>2026-02-03T00:00:00.000Z</lastmod>
@@ -4889,6 +4964,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/plucker-%E5%B0%84%E7%BA%BF%E5%B5%8C%E5%85%A5</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/pmf%E5%89%8D%E6%88%90%E6%9C%AC%E5%9B%B0%E5%A2%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/point-aligned-elo</loc>
     <lastmod>2026-03-30T00:00:00.000Z</lastmod>
   </url><url>
@@ -4919,6 +4997,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/post-transformer</loc>
     <lastmod>2026-05-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/ppu</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/pre-ipo-%E4%BC%B0%E5%80%BC</loc>
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
   </url><url>
@@ -4936,6 +5017,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/preview%E5%85%88%E8%A1%8C%E5%8F%91%E5%B8%83%E7%AD%96%E7%95%A5</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/prism-%E6%A8%A1%E6%8B%9F%E5%99%A8</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/private-ai</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
@@ -5210,6 +5294,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/rl-post-training</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/rl-scaling-law</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/rlaf</loc>
     <lastmod>2026-04-01T00:00:00.000Z</lastmod>
   </url><url>
@@ -5338,6 +5425,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/sandbox-mechanism</loc>
     <lastmod>2026-01-16T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/scalerl</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/scaling-law</loc>
     <lastmod>2026-03-30T00:00:00.000Z</lastmod>
@@ -5544,7 +5634,7 @@
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/skill-%E5%A5%97%E4%BB%B6</loc>
-    <lastmod>2026-06-01T02:26:28.389Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.863Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/skill-%E5%B8%82%E5%9C%BA</loc>
     <lastmod>2026-03-29T00:00:00.000Z</lastmod>
@@ -5831,6 +5921,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/system2</loc>
     <lastmod>2026-01-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/s%E5%BD%A2scaling%E6%9B%B2%E7%BA%BF</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/s%E6%9B%B2%E7%BA%BF%E9%87%87%E7%94%A8</loc>
     <lastmod>2026-03-15T00:00:00.000Z</lastmod>
   </url><url>
@@ -5975,6 +6068,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/thinking-with-visual-primitives</loc>
     <lastmod>2026-04-30T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/thought-action-observation%E5%BE%AA%E7%8E%AF</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/thousand-people-thousand-faces</loc>
     <lastmod>2026-04-03T00:00:00.000Z</lastmod>
   </url><url>
@@ -6007,6 +6103,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/tiny-engram</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/tis</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/tle-(triton-language-extensions)</loc>
     <lastmod>2026-02-06T00:00:00.000Z</lastmod>
@@ -6690,7 +6789,7 @@
     <lastmod>2026-04-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%80%E8%84%91%E5%A4%9A%E5%BD%A2</loc>
-    <lastmod>2026-06-01T02:26:28.468Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.939Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%80%E8%84%91%E8%B4%AF%E9%80%9A</loc>
     <lastmod>2026-04-29T00:00:00.000Z</lastmod>
@@ -6875,6 +6974,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%8A%E4%B8%8B%E6%96%87%E6%84%9F%E7%9F%A5%E4%BA%A4%E4%BA%92</loc>
     <lastmod>2026-05-20T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%8A%E4%B8%8B%E6%96%87%E6%95%B4%E5%90%88%E9%99%8D%E8%80%97</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%8A%E4%B8%8B%E6%96%87%E6%BA%A2%E5%87%BA</loc>
     <lastmod>2026-03-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -6988,6 +7090,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%93%E5%B1%9E%E8%B6%85%E8%83%BD%E6%90%AD%E6%A1%A3</loc>
     <lastmod>2026-04-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%93%E6%B3%A8vs%E5%88%86%E5%BF%83%E6%88%98%E7%95%A5</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%B8%93%E7%94%A8%E6%8E%A8%E7%90%86%E7%AE%97%E5%8A%9B</loc>
     <lastmod>2026-03-02T00:00:00.000Z</lastmod>
@@ -7308,7 +7413,7 @@
     <lastmod>2026-03-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%91%E7%AB%AF%E7%89%A9%E7%90%86%E9%9A%94%E7%A6%BB</loc>
-    <lastmod>2026-06-01T02:26:28.508Z</lastmod>
+    <lastmod>2026-06-02T03:00:48.958Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%91%E7%AB%AF%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8D</loc>
     <lastmod>2026-03-27T00:00:00.000Z</lastmod>
@@ -7318,6 +7423,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%91%E7%AB%AF%E8%A7%84%E5%88%92</loc>
     <lastmod>2026-04-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%92%E5%8A%A8%E5%B0%8F%E8%AF%B4%E8%AE%BA</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%92%E6%83%A0%E5%AE%A1%E7%A8%BF%E4%BA%BA</loc>
     <lastmod>2026-03-18T00:00:00.000Z</lastmod>
@@ -7379,6 +7487,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%88%86%E5%89%B2</loc>
     <lastmod>2026-04-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%94%A8%E6%88%B7%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%A1%86%E6%9E%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8B-%E5%BF%83%E6%B5%81%E9%98%88%E5%80%BC</loc>
     <lastmod>2026-01-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -7408,6 +7519,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A4%E9%94%99%E6%80%9D%E7%BB%B4%E9%93%BE</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A4%E9%94%99%E6%95%B0%E6%8D%AE</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BA%A7%E4%B8%9Aai</loc>
     <lastmod>2026-02-26T00:00:00.000Z</lastmod>
@@ -7688,6 +7802,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BB%93%E5%BA%93%E7%BA%A7%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BB%96%E5%BF%83%E9%97%AE%E9%A2%98</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BB%99%E7%AB%A5%E6%95%88%E5%BA%94</loc>
     <lastmod>2025-12-27T00:00:00.000Z</lastmod>
   </url><url>
@@ -7850,6 +7967,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BB%BF%E7%9C%9F%E7%8E%AF%E5%A2%83%E9%87%8D%E5%BB%BA</loc>
     <lastmod>2026-04-24T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BB%BF%E7%9C%9F%E9%80%A0%E6%95%B0%E6%8D%AE</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BC%81%E4%B8%9Aai%E9%87%87%E7%94%A8%E7%8E%87</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -7969,6 +8089,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BD%8E%E5%B1%82%E8%A7%86%E8%A7%89</loc>
     <lastmod>2026-01-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BD%8E%E5%BB%B6%E8%BF%9F%E5%9B%BE%E4%BC%A0</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E4%BD%8E%E6%8F%90%E7%A4%BA%E8%AF%8D</loc>
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
@@ -8390,6 +8513,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A0%88%E6%9C%AC%E5%9C%B0-agent</loc>
     <lastmod>2026-01-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A0%88%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A8%A1%E5%BC%8F</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A0%88%E8%87%AA%E7%A0%94-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD</loc>
     <lastmod>2026-04-17T00:00:00.000Z</lastmod>
   </url><url>
@@ -8407,6 +8533,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A8%A1%E6%80%81</loc>
     <lastmod>2026-01-09T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A8%A1%E6%80%81%E5%85%8D%E8%B4%B9api%E7%AD%96%E7%95%A5</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E6%A8%A1%E6%80%81%E5%8E%9F%E7%94%9F</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
@@ -8503,6 +8632,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E9%93%BE%E8%B7%AF%E5%AE%A1%E8%AE%A1</loc>
     <lastmod>2026-03-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E9%93%BE%E8%B7%AF%E7%A1%AC%E4%BB%B6%E8%87%AA%E7%A0%94</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%85%A8%E9%93%BE%E8%B7%AF%E7%AE%A1%E7%BA%BF</loc>
     <lastmod>2026-04-20T00:00:00.000Z</lastmod>
@@ -8894,6 +9026,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E5%B1%82%E8%AE%B0%E5%BF%86%E6%9C%BA%E5%88%B6</loc>
     <lastmod>2026-03-10T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E5%B1%82%E8%AE%B0%E5%BF%86%E7%BB%93%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E5%B1%82%E8%B0%83%E5%BA%A6%E7%AD%96%E7%95%A5</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -8962,6 +9097,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E8%BE%A8%E7%8E%87%E8%87%AA%E9%80%82%E5%BA%94%E5%99%AA%E5%A3%B0%E5%B0%BA%E5%BA%A6</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E9%92%9F%E7%BA%A7%E8%BF%90%E6%8E%A7%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%88%86%E9%98%B6%E6%AE%B5%E6%8A%AB%E9%9C%B2</loc>
     <lastmod>2026-03-28T00:00:00.000Z</lastmod>
@@ -9503,6 +9641,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%8D%8F%E4%BD%9C</loc>
     <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%B9%B6%E5%8F%91%E4%BA%A4%E4%BA%92</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%A8%A1%E6%80%81</loc>
     <lastmod>2026-03-01T00:00:00.000Z</lastmod>
   </url><url>
@@ -9517,6 +9658,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%A4%A7%E4%B8%80%E7%BB%9F%E6%A8%A1%E5%9E%8B</loc>
     <lastmod>2026-03-17T00:00:00.000Z</lastmod>
@@ -9538,6 +9682,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E5%BC%95%E7%94%A8</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E6%80%9D%E7%BB%B4%E9%93%BE-native-cot</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8E%9F%E7%94%9F%E6%80%9D%E8%80%83%E8%83%BD%E5%8A%9B</loc>
     <lastmod>2026-04-21T00:00:00.000Z</lastmod>
@@ -9656,6 +9803,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8CNPU%E6%9E%B6%E6%9E%84</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8C%E4%B8%93%E5%AE%B6%E6%B7%B7%E5%90%88%E6%9E%B6%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8C%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%9D%97</loc>
     <lastmod>2026-04-11T00:00:00.000Z</lastmod>
   </url><url>
@@ -9685,6 +9835,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8C%E5%B1%82%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F</loc>
     <lastmod>2026-01-28T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8C%E6%80%81%E5%AF%B9%E9%BD%90%E6%95%B0%E6%8D%AE</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%8F%8C%E6%89%8B%E8%A7%A6%E8%A7%89%E4%BC%B0%E8%AE%A1</loc>
     <lastmod>2026-04-04T00:00:00.000Z</lastmod>
@@ -10223,6 +10376,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%91%BD%E9%A2%98%E5%BC%8F%E4%B8%8E%E5%A4%84%E6%96%B9%E5%BC%8F%E7%9F%A5%E8%AF%86</loc>
     <lastmod>2026-03-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%91%BD%E9%A2%98%E7%9F%A5%E8%AF%86-vs-%E4%BD%93%E9%AA%8C%E7%9F%A5%E8%AF%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%92%8C%E8%A7%A3%E5%A8%81%E8%83%81</loc>
     <lastmod>2026-05-05T00:00:00.000Z</lastmod>
   </url><url>
@@ -10254,7 +10410,7 @@
     <lastmod>2026-05-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%95%86%E4%B8%9A%E7%BA%A7%E4%BA%A4%E4%BB%98</loc>
-    <lastmod>2026-06-01T02:26:28.689Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.146Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%95%86%E5%93%81%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1</loc>
     <lastmod>2026-01-27T00:00:00.000Z</lastmod>
@@ -10310,6 +10466,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%9B%E8%BD%AE%E8%BD%AC%E5%90%91</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%9B%E9%98%B6%E6%AE%B5%E8%BF%9B%E9%98%B6%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%9E%E5%90%88%E5%88%B6%E4%BA%A4%E4%BA%92</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -10324,6 +10483,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%A0%E6%9E%9C%E4%BA%8B%E4%BB%B6-%E5%A3%B0%E6%BA%90grounding</loc>
     <lastmod>2026-05-20T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%A0%E6%9E%9C%E4%BA%8B%E4%BB%B6%E6%BA%90%E6%8E%A5%E5%9C%B0</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%9B%A0%E6%9E%9C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD</loc>
     <lastmod>2026-01-06T00:00:00.000Z</lastmod>
@@ -10756,6 +10918,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%A4%9A%E4%BA%91%E5%88%86%E5%8F%91%E7%AD%96%E7%95%A5</loc>
     <lastmod>2026-04-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%8D%8F%E5%90%8C%E6%95%88%E5%BA%94</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E8%80%A6</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
@@ -12024,7 +12189,7 @@
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91skill</loc>
-    <lastmod>2026-06-01T02:26:28.809Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.243Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%BA%94%E7%94%A8%E7%BC%BA%E5%8F%A3</loc>
     <lastmod>2026-02-27T00:00:00.000Z</lastmod>
@@ -12151,6 +12316,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%BC%82%E6%9E%84%E5%A4%B4%E9%83%A8%E5%86%97%E4%BD%99%E6%80%A7</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%BC%82%E6%9E%84%E5%B9%B6%E8%A1%8C%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E5%BC%82%E6%9E%84%E7%A1%AC%E4%BB%B6%E9%80%82%E9%85%8D</loc>
     <lastmod>2026-01-14T00:00:00.000Z</lastmod>
@@ -12397,6 +12565,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%80%9D%E7%BB%B4%E5%B4%A9%E5%A1%8C</loc>
     <lastmod>2026-04-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%80%9D%E7%BB%B4%E6%A0%A1%E6%AD%A3</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
@@ -12706,6 +12877,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%89%A9%E6%95%A3%E5%BC%BA%E5%88%B6</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B-vs-%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8F%92%E4%BB%B6%E6%A0%87%E5%87%86%E5%8C%96</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
@@ -13436,6 +13610,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%95%B0%E6%8D%AE%E5%A2%99</loc>
     <lastmod>2025-12-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%95%B0%E6%8D%AE%E5%A4%8D%E7%94%A8%E9%B2%81%E6%A3%92%E6%80%A7</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%95%B0%E6%8D%AE%E5%A5%97%E5%88%A9</loc>
     <lastmod>2026-03-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -13620,7 +13797,7 @@
     <lastmod>2026-01-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%96%B0%E6%99%BA%E5%85%83-%E8%AF%91%E5%90%8D%E6%8F%90%E6%A1%88</loc>
-    <lastmod>2026-06-01T02:26:28.922Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.347Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%96%B0%E6%A2%A6%E7%BD%91</loc>
     <lastmod>2026-05-09T00:00:00.000Z</lastmod>
@@ -13961,6 +14138,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0</loc>
     <lastmod>2026-03-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E6%88%90%E6%9C%AC%E9%9D%9E%E7%BA%BF%E6%80%A7</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E6%89%98%E7%AE%A1%E6%9C%8D%E5%8A%A1</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -14017,6 +14197,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E8%9C%82%E7%BE%A4%E5%8D%8F%E5%90%8C</loc>
     <lastmod>2026-04-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E8%A1%8C%E4%B8%BA%E5%AE%89%E5%85%A8</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%B0%E5%BF%86</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
@@ -14642,6 +14825,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%A8%A1%E5%9E%8B%E8%B0%B1%E7%B3%BB%E5%88%86%E6%9E%90</loc>
     <lastmod>2026-04-25T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%94%B1</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%94%B1%E5%99%A8</loc>
     <lastmod>2026-03-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -14990,6 +15176,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B5%8B%E8%AF%95%E6%97%B6%E8%AE%B0%E5%BF%86</loc>
     <lastmod>2025-12-07T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B5%8B%E8%AF%95%E6%97%B6%E8%AE%B0%E5%BF%86%E6%89%A9%E5%B1%95</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B5%8F%E8%A7%88%E5%99%A8-agent%E5%8C%96</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
   </url><url>
@@ -15139,6 +15328,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B7%B7%E6%B7%86%E4%BB%A3%E7%90%86%E6%94%BB%E5%87%BB</loc>
     <lastmod>2026-04-05T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B7%B7%E6%B7%86%E8%BE%93%E5%87%BA%E4%B8%8E%E5%86%85%E9%83%A8%E7%8A%B6%E6%80%81</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E6%B8%90%E8%BF%9B%E5%BC%8F%E4%B8%89%E9%98%B6%E6%AE%B5%E8%AE%AD%E7%BB%83</loc>
     <lastmod>2026-05-20T00:00:00.000Z</lastmod>
@@ -15374,6 +15566,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%86%B5%E5%B4%A9%E5%A1%8C</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%86%B5%E5%B4%A9%E6%BA%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%86%B5%E6%84%9F%E7%9F%A5kl%E6%95%A3%E5%BA%A6</loc>
     <lastmod>2026-05-25T00:00:00.000Z</lastmod>
   </url><url>
@@ -15464,6 +15659,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%89%A9%E7%90%86%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90</loc>
     <lastmod>2026-05-01T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%89%A9%E7%90%86%E5%AF%B9%E9%BD%90</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%89%A9%E7%90%86%E5%B0%BA%E5%BA%A6%E6%84%9F</loc>
     <lastmod>2025-12-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -15524,6 +15722,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8A%B6%E6%80%81%E5%8C%96-ai</loc>
     <lastmod>2026-03-02T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8A%B6%E6%80%81%E6%8E%A8%E6%BC%94%E4%B8%8E%E8%A7%86%E8%A7%89%E5%91%88%E7%8E%B0%E5%8E%9F%E7%94%9F%E8%A7%A3%E8%80%A6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8A%B6%E6%80%81%E6%BC%82%E7%A7%BB</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
   </url><url>
@@ -15577,6 +15778,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8E%AF%E5%A2%83%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86</loc>
     <lastmod>2026-02-28T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8E%AF%E5%A2%83%E9%95%BF%E7%A8%8B%E6%8C%81%E4%B9%85%E5%8C%96</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%8E%B0%E4%BB%98%E7%8E%B0%E7%94%A8-ai-%E6%90%AD%E4%BE%BF%E8%BD%A6</loc>
     <lastmod>2026-02-08T00:00:00.000Z</lastmod>
@@ -15700,6 +15904,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%94%9F%E6%88%90%E5%8D%B3%E7%90%86%E8%A7%A3</loc>
     <lastmod>2026-04-24T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%94%9F%E6%88%90%E5%99%A8-%E8%AE%AD%E7%BB%83%E5%99%A8%E5%88%86%E7%A6%BB%E6%9E%B6%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%94%9F%E6%88%90%E5%B1%82%E7%BA%A7</loc>
     <lastmod>2026-03-09T00:00:00.000Z</lastmod>
@@ -16208,6 +16415,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A5%9E%E7%BB%8F%E4%B8%9B%E6%9E%97</loc>
     <lastmod>2026-03-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A5%9E%E7%BB%8F%E5%85%83%E6%9B%BF%E6%8D%A2%E6%80%9D%E6%83%B3%E5%AE%9E%E9%AA%8C</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A5%9E%E7%BB%8F%E5%85%83%E7%BC%A9%E6%94%BE%E5%B9%B2%E9%A2%84</loc>
     <lastmod>2026-01-06T00:00:00.000Z</lastmod>
   </url><url>
@@ -16243,6 +16453,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A5%9E%E7%BB%8F%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86</loc>
     <lastmod>2025-12-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A6%BB%E6%95%A3token%E5%8C%96</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
@@ -16291,6 +16504,12 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A7%91%E6%8A%80%E4%BC%A0%E6%92%AD</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A7%91%E6%8A%80%E5%AF%86%E5%BA%A6</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A7%91%E6%8A%80%E5%BD%B1%E5%93%8D%E5%8A%9B%E5%A4%96%E6%BA%A2</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A7%91%E6%8A%80%E6%A0%91</loc>
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
@@ -16343,6 +16562,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A7%BB%E5%8A%A8%E7%AB%AFai%E7%BC%96%E7%A8%8B%E5%8D%8F%E4%BD%9C</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8Fmoe%E6%9E%B6%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8F%E5%A5%96%E5%8A%B1%E5%9B%B0%E5%A2%83</loc>
     <lastmod>2026-02-27T00:00:00.000Z</lastmod>
   </url><url>
@@ -16351,6 +16573,12 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8F%E6%9E%A2%E7%BA%BD%E6%B3%A8%E6%84%8F%E5%8A%9B</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%A8%80%E7%96%8F%E6%BF%80%E6%B4%BB</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -16472,6 +16700,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E4%BA%91%E5%8D%8F%E5%90%8Cagent%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E4%BE%A7-agent-%E5%AE%89%E5%85%A8%E5%8E%9F%E8%AF%AD</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E4%BE%A7agent%E5%8D%8F%E8%AE%AE%E6%A0%87%E5%87%86%E4%B9%8B%E4%BA%89</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
   </url><url>
@@ -16494,7 +16725,7 @@
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E4%BE%A7%E6%A8%A1%E5%9E%8B</loc>
-    <lastmod>2026-06-01T02:26:29.084Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.499Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E4%BE%A7%E7%BB%9F%E4%B8%80%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
@@ -16510,6 +16741,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%A4%A7%E9%9F%B3%E9%A2%91%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B</loc>
     <lastmod>2025-12-31T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%AB%9E%E4%BA%89</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%AB%AF%E5%88%B0%E7%AB%AF%E6%B5%8B%E8%AF%95</loc>
     <lastmod>2025-12-02T00:00:00.000Z</lastmod>
@@ -16818,7 +17052,7 @@
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%B2%BE%E8%AF%BB%E7%95%A5%E8%AF%BB%E6%B7%B7%E5%90%88%E7%AD%96%E7%95%A5</loc>
-    <lastmod>2026-06-01T02:26:32.057Z</lastmod>
+    <lastmod>2026-06-02T03:00:52.380Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%B3%96%E6%B0%B4%E6%95%B0%E6%8D%AE</loc>
     <lastmod>2026-04-22T00:00:00.000Z</lastmod>
@@ -17162,6 +17396,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BB%9F%E4%B8%80%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BB%9F%E4%B8%80%E8%87%AA%E5%9B%9E%E5%BD%92vla%E6%9E%B6%E6%9E%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BB%9F%E4%B8%80%E8%A7%86%E8%A7%89%E8%BF%90%E5%8A%A8%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -17200,6 +17437,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BC%96%E6%8E%92%E5%B1%82</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BC%96%E7%A8%8B%E4%BD%9C%E4%B8%BAagent%E6%B2%BB%E7%90%86%E6%B5%8B%E8%AF%95%E5%9C%BA</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%BC%96%E7%A8%8B%E5%A5%87%E7%82%B9</loc>
     <lastmod>2026-02-12T00:00:00.000Z</lastmod>
@@ -17543,6 +17783,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%87%AA%E5%8A%A8%E5%8E%8B%E7%BC%A9</loc>
     <lastmod>2026-04-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%87%AA%E5%8A%A8%E5%9F%9F%E9%9A%8F%E6%9C%BA%E5%8C%96</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%87%AA%E5%8A%A8%E5%BD%A2%E5%BC%8F%E5%8C%96</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
   </url><url>
@@ -17845,6 +18088,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%99%9A%E5%81%87%E7%94%9F%E4%BA%A7%E5%8A%9B</loc>
     <lastmod>2026-03-20T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%99%9A%E5%AE%9E%E8%BF%81%E7%A7%BB</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%99%9A%E6%8B%9F%E4%BC%B4%E4%BE%A3</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
@@ -18279,7 +18525,7 @@
     <lastmod>2026-05-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%AE%A2%E9%98%85%E5%88%B6coding-plan</loc>
-    <lastmod>2026-06-01T02:26:29.206Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.609Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%AE%A2%E9%98%85%E7%BB%8F%E6%B5%8E%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%84%E6%80%A7%E6%BC%8F%E6%B4%9E</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
@@ -18448,6 +18694,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%AE%B0%E5%BF%86%E5%A2%99</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%AE%B0%E5%BF%86%E5%A2%9E%E5%BC%BA%E8%87%AA%E8%BF%9B%E5%8C%96%E8%AE%AD%E7%BB%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E8%AE%B0%E5%BF%86%E5%AE%AB%E6%AE%BF</loc>
     <lastmod>2026-04-08T00:00:00.000Z</lastmod>
@@ -19403,6 +19652,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%80%9A%E7%94%A8%E6%97%97%E8%88%B0%E6%A8%A1%E5%9E%8B%E5%9E%82%E7%9B%B4%E5%8C%96</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%80%9A%E7%94%A8%E6%9C%BA%E5%99%A8%E4%BA%BA</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%80%9A%E7%94%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9F%BA%E5%BA%A7</loc>
     <lastmod>2026-03-23T00:00:00.000Z</lastmod>
   </url><url>
@@ -19478,6 +19730,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%81%A5%E6%93%8D%E4%BD%9C%E4%BF%A1%E4%BB%BB%E5%8D%B1%E6%9C%BA</loc>
     <lastmod>2026-05-18T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%81%A5%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%81%AE%E6%8C%A1%E4%B8%8D%E5%8F%98%E6%80%A7</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -19486,6 +19741,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%82%BB%E9%81%BF%E6%95%88%E5%BA%94</loc>
     <lastmod>2025-12-10T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%83%A8%E5%88%86%E5%8F%AF%E8%A7%82%E5%AF%9F%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%86%B3%E7%AD%96%E8%BF%87%E7%A8%8B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%83%A8%E5%88%86%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91%E6%A3%80%E7%B4%A2</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
@@ -19510,6 +19768,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%85%8D%E5%88%86%E5%87%BD%E6%95%B0</loc>
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%87%87%E6%A0%B7%E7%AE%97%E5%8A%9B%E6%9C%80%E4%BC%98%E5%88%86%E9%85%8D</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%87%8C%E7%A8%8B%E7%A2%91%E4%BB%BB%E5%8A%A1%E4%BE%9D%E8%B5%96%E5%9B%BE</loc>
     <lastmod>2026-03-25T00:00:00.000Z</lastmod>
@@ -19654,6 +19915,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%95%BF%E4%B8%8A%E4%B8%8B%E6%96%87rl</loc>
     <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%95%BF%E4%B8%8A%E4%B8%8B%E6%96%87%E6%89%A9%E5%B1%95</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%95%BF%E4%B8%8A%E4%B8%8B%E6%96%87%E6%8E%A8%E7%90%86</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
@@ -20372,6 +20636,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%AA%8C%E8%AF%81%E9%A2%84%E7%AE%97%E8%B0%83%E5%BA%A6</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%AA%A8%E6%9E%B6%E5%88%92%E5%88%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%AA%A8%E7%9B%B8%E7%BA%A7%E6%8D%8F%E8%84%B8</loc>
     <lastmod>2026-04-01T00:00:00.000Z</lastmod>
   </url><url>
@@ -20479,6 +20746,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%B8%BD%E5%B7%A2%E5%8E%9F%E7%90%86</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%BB%84%E6%B0%8Ftoken%E7%BB%8F%E6%B5%8E%E5%AD%A6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E9%BB%84%E9%87%91%E4%B8%8A%E4%B8%8B%E6%96%87</loc>
     <lastmod>2026-03-07T00:00:00.000Z</lastmod>
@@ -20747,6 +21017,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/adi-oltean</loc>
     <lastmod>2025-12-11T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/aditya-ramesh</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/adjust</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
   </url><url>
@@ -20873,8 +21146,20 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agibot-world-2026</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-2-0-flash</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-ai</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-image-1-2</loc>
     <lastmod>2026-04-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-image-2-0-flash</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-video-2-0</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/agnes-video-v1-2</loc>
     <lastmod>2026-04-01T00:00:00.000Z</lastmod>
@@ -21246,7 +21531,7 @@
     <lastmod>2026-05-27T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/amd</loc>
-    <lastmod>2026-06-01T02:26:29.398Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.792Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/ami-advanced-machine-intelligence</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
@@ -21502,6 +21787,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/arvid-lunnemark</loc>
     <lastmod>2025-12-28T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/arvind-jain</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/arvind-krishna</loc>
     <lastmod>2026-02-24T00:00:00.000Z</lastmod>
@@ -22085,6 +22373,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/b%E7%AB%99</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/cadence</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/cadyt</loc>
     <lastmod>2026-01-22T00:00:00.000Z</lastmod>
   </url><url>
@@ -22613,11 +22904,14 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/clawcore-p</loc>
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/clawd-rip</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/clawdbot</loc>
     <lastmod>2026-02-08T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/claweval</loc>
-    <lastmod>2026-06-01T02:26:29.478Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.897Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/clawguard-auditor</loc>
     <lastmod>2026-03-21T00:00:00.000Z</lastmod>
@@ -23105,8 +23399,14 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/d4rt</loc>
     <lastmod>2026-01-23T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/dactyl</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/dag-framework</loc>
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/daily-omni</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/daimon-infinity</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
@@ -23463,7 +23763,7 @@
     <lastmod>2026-04-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/dingtalk</loc>
-    <lastmod>2026-06-01T02:26:29.529Z</lastmod>
+    <lastmod>2026-06-02T03:00:49.945Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/dino-wm</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
@@ -24012,7 +24312,7 @@
     <lastmod>2025-12-28T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/factory-ai</loc>
-    <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/factset</loc>
     <lastmod>2026-04-30T00:00:00.000Z</lastmod>
@@ -24296,6 +24596,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/fuzozo</loc>
     <lastmod>2026-03-22T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/g0-5</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/g0-vla</loc>
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
   </url><url>
@@ -24486,7 +24789,7 @@
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/gemini-intelligence</loc>
-    <lastmod>2026-06-01T02:26:29.604Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.001Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/gemini-live-api</loc>
     <lastmod>2026-03-28T00:00:00.000Z</lastmod>
@@ -24699,7 +25002,7 @@
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/github-copilot</loc>
-    <lastmod>2026-04-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/github-%E5%AE%95%E6%9C%BA%E4%BA%8B%E4%BB%B6-2026</loc>
     <lastmod>2026-04-29T00:00:00.000Z</lastmod>
@@ -24712,6 +25015,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/glasswing%E9%A1%B9%E7%9B%AE</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/glean</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/glm-4-7-flash</loc>
     <lastmod>2026-03-10T00:00:00.000Z</lastmod>
@@ -24829,9 +25135,6 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/gpcr</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/gpic</loc>
-    <lastmod>2026-05-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/gpt-2-xl</loc>
     <lastmod>2025-12-11T00:00:00.000Z</lastmod>
@@ -25475,6 +25778,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/hunter-bown</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/hunyuanvideo-foley</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/hunyuanvideo</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -25603,6 +25909,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/image-to-video-arena</loc>
     <lastmod>2026-02-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/imagebind</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/imagenet</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
@@ -25764,7 +26073,7 @@
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jack-clark</loc>
-    <lastmod>2026-06-01T02:26:29.683Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.078Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jack-cui</loc>
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
@@ -25851,7 +26160,7 @@
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jeff-clune</loc>
-    <lastmod>2026-06-01T02:26:29.686Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.082Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jeff-dean</loc>
     <lastmod>2026-02-04T00:00:00.000Z</lastmod>
@@ -25888,6 +26197,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jerry-tworek</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jesse-davies</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/jesse-van-rootselaar</loc>
     <lastmod>2026-04-26T00:00:00.000Z</lastmod>
@@ -26339,6 +26651,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/laguna-xs-2</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/lance</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/langchain</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -26429,6 +26744,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/leewow</loc>
     <lastmod>2026-04-06T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/lefold</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/legends-of-future-past</loc>
     <lastmod>2026-04-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -26437,6 +26755,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/legoocc</loc>
     <lastmod>2026-05-05T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/lehome-challenge</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/leif-weatherby</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
@@ -26584,6 +26905,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/linvideo</loc>
     <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/lios</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/liquid-ai</loc>
     <lastmod>2026-03-16T00:00:00.000Z</lastmod>
@@ -27315,7 +27639,7 @@
     <lastmod>2026-04-28T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/miaoda-app-builder</loc>
-    <lastmod>2026-06-01T02:26:29.778Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.163Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/michael-arnaldi</loc>
     <lastmod>2026-01-14T00:00:00.000Z</lastmod>
@@ -27399,7 +27723,7 @@
     <lastmod>2026-03-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mimo-orbit</loc>
-    <lastmod>2026-06-01T02:26:29.781Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.165Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mimo-v2-omni</loc>
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
@@ -27414,7 +27738,7 @@
     <lastmod>2026-04-28T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mimo-v2.5</loc>
-    <lastmod>2026-06-01T02:26:29.781Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.166Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mimov2-pro</loc>
     <lastmod>2026-03-20T00:00:00.000Z</lastmod>
@@ -27464,6 +27788,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minigrid</loc>
     <lastmod>2026-02-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax-code</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax-m2-5</loc>
     <lastmod>2026-02-13T00:00:00.000Z</lastmod>
   </url><url>
@@ -27482,11 +27809,14 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax-m2</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax-m3</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax-music-2-5</loc>
     <lastmod>2026-01-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minimax</loc>
-    <lastmod>2026-04-18T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/minion</loc>
     <lastmod>2026-05-03T00:00:00.000Z</lastmod>
@@ -27728,6 +28058,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mova</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/movie-gen</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/movieflow-studio</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
@@ -27739,6 +28072,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mp-moe</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mpa-materials-property-axiom</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/mr-cr-v2</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
@@ -27977,6 +28313,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nemotron-3-super</loc>
     <lastmod>2026-03-12T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nemotron-3-ultra</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nemotron-labs-diffusion</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
@@ -28086,7 +28425,7 @@
     <lastmod>2026-03-24T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/noam-brown</loc>
-    <lastmod>2026-06-01T02:26:29.825Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.209Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nof1-ai</loc>
     <lastmod>2025-12-07T00:00:00.000Z</lastmod>
@@ -28141,6 +28480,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nvidia-ace</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nvidia-agent-toolkit</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/nvidia-b200</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
@@ -28321,6 +28663,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/openai-o1</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/openai-robotics</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/openai-sora-2</loc>
     <lastmod>2026-01-30T00:00:00.000Z</lastmod>
@@ -28964,6 +29309,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/project-eat</loc>
     <lastmod>2026-03-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/project-eden</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/project-extract</loc>
     <lastmod>2025-12-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -29168,6 +29516,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen2-5-7b</loc>
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen2-5-vl-7b</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen2.5-coder-instruct-14b</loc>
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
   </url><url>
@@ -29234,11 +29585,11 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen3-omni-thinking-30b</loc>
     <lastmod>2026-03-12T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen3-omni</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen3-vl-30b-a3b-instruct</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen3-vl-4b</loc>
-    <lastmod>2026-05-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/qwen3-vl-8b</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
@@ -29281,6 +29632,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/r-shittyaskscience</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/r1-lite</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/r1-pro</loc>
     <lastmod>2026-04-02T00:00:00.000Z</lastmod>
@@ -29636,6 +29990,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/rtx-remix</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/rtx-spark</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/rubin-architecture</loc>
     <lastmod>2026-01-06T00:00:00.000Z</lastmod>
   </url><url>
@@ -29881,6 +30238,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/scott-wu</loc>
     <lastmod>2026-04-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/se-ga</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/seaart</loc>
     <lastmod>2026-01-21T00:00:00.000Z</lastmod>
@@ -30227,6 +30587,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/snapdragon-wear-elite</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/so101</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/socket-inc</loc>
     <lastmod>2026-05-05T00:00:00.000Z</lastmod>
   </url><url>
@@ -30291,7 +30654,7 @@
     <lastmod>2025-12-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/sora</loc>
-    <lastmod>2026-04-25T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/soul-md</loc>
     <lastmod>2026-03-28T00:00:00.000Z</lastmod>
@@ -30475,6 +30838,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/step-3.5-flash</loc>
     <lastmod>2026-02-28T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/step-3.7-flash</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/step-gui</loc>
     <lastmod>2026-02-26T00:00:00.000Z</lastmod>
@@ -30977,6 +31343,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/thoth</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/thought-aligner</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/three-minutes-wisdom</loc>
     <lastmod>2025-12-30T00:00:00.000Z</lastmod>
   </url><url>
@@ -31178,6 +31547,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/tripo-p1-0</loc>
     <lastmod>2026-03-12T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/tripo-series</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/tripo-studio</loc>
     <lastmod>2026-03-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -31265,6 +31637,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/ualink</loc>
     <lastmod>2026-01-06T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/uber-ai</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/uber</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
@@ -31282,6 +31657,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/udt</loc>
     <lastmod>2026-04-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/ui-tars-72b</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/ui-tars</loc>
     <lastmod>2025-12-10T00:00:00.000Z</lastmod>
@@ -31342,6 +31720,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/unigeo</loc>
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/unilab</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/unipat-ai</loc>
     <lastmod>2026-03-30T00:00:00.000Z</lastmod>
@@ -31868,6 +32249,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/worldlabs</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/worldsim</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/worldx</loc>
     <lastmod>2026-05-01T00:00:00.000Z</lastmod>
   </url><url>
@@ -31893,7 +32277,7 @@
     <lastmod>2026-03-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/wukong</loc>
-    <lastmod>2026-06-01T02:26:30.073Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.442Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/www-2026</loc>
     <lastmod>2026-03-27T00:00:00.000Z</lastmod>
@@ -32393,6 +32777,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E6%89%80</loc>
     <lastmod>2026-04-20T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E8%80%83%E5%AF%9F%E6%97%85%E6%B8%B8</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8</loc>
     <lastmod>2026-05-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -32469,7 +32856,7 @@
     <lastmod>2026-03-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%BA%9A%E9%A9%AC%E9%80%8A</loc>
-    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.460Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%BA%9A%E9%A9%AC%E9%80%8Atrainium</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -32539,6 +32926,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%BD%95%E6%81%BA%E6%98%8E</loc>
     <lastmod>2026-04-24T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%BD%95%E6%B3%B0%E7%84%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E4%BD%99%E5%8D%8E</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
@@ -32724,7 +33114,7 @@
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8C%97%E5%A4%A7-sysy-%E9%A1%B9%E7%9B%AE</loc>
-    <lastmod>2026-06-01T02:26:30.125Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.488Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8C%B9%E5%85%B9%E5%A0%A1%E5%A4%A7%E5%AD%A6</loc>
     <lastmod>2026-01-19T00:00:00.000Z</lastmod>
@@ -32800,6 +33190,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8D%8E%E5%90%9B%E4%BC%A0</loc>
     <lastmod>2026-04-05T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8D%8E%E5%BC%BA%E5%8C%97%E7%94%B5%E5%AD%90%E5%B8%82%E5%9C%BA</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%A4%A7%E5%AD%A6</loc>
     <lastmod>2026-02-05T00:00:00.000Z</lastmod>
@@ -33095,6 +33488,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E5%A4%A7%E5%AD%A6</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%9A%E9%82%BB%E5%9B%BD</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%A7%E5%9C%A3-%E7%A7%91%E7%A0%94%E6%99%BA%E8%83%BD%E4%BD%93</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
   </url><url>
@@ -33124,6 +33520,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%A9%E6%B1%A0</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%A4%A9%E7%8E%919500</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
@@ -33220,6 +33619,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8ai%E6%88%98%E7%95%A5</loc>
     <lastmod>2026-01-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E6%99%BA%E8%83%BD%E5%88%9B%E4%BD%9C%E5%AE%9E%E9%AA%8C%E5%AE%A4</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E6%99%BA%E8%83%BD%E5%88%9B%E4%BD%9C%E9%83%A8%E9%97%A8</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
@@ -33488,6 +33890,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%BC%A0%E9%B9%8F</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%BC%A0%E9%B9%8F%E5%B7%9D</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%BC%BA%E8%84%91%E7%A7%91%E6%8A%80</loc>
     <lastmod>2026-04-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -33632,6 +34037,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%8B%93%E7%AB%B9</loc>
     <lastmod>2026-04-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%8B%9B%E5%95%86%E5%B1%80%E7%8B%AE%E5%AD%90%E5%B1%B1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A4</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%8B%BE%E5%85%89</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -33656,6 +34064,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%95%99%E5%AE%97%E5%88%A9%E5%A5%A5%E5%8D%81%E5%9B%9B%E4%B8%96</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%95%99%E7%9A%87-leo-xiv</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%95%99%E7%9A%87%E5%88%A9%E5%A5%A5%E5%8D%81%E5%9B%9B%E4%B8%96</loc>
     <lastmod>2026-05-27T00:00:00.000Z</lastmod>
   </url><url>
@@ -33673,9 +34084,6 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%96%AF%E5%9D%A6%E7%A6%8F-hai</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6</loc>
-    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%9B%BD%E7%AB%8B%E5%A4%A7%E5%AD%A6</loc>
     <lastmod>2026-04-25T00:00:00.000Z</lastmod>
@@ -33824,6 +34232,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%99%BA%E8%B0%B1glm-5</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%99%BA%E8%B0%B1%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E9%83%A8%E9%97%A8</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%99%BA%E8%B0%B1%E5%8D%8E%E7%AB%A0</loc>
     <lastmod>2026-01-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -33915,7 +34326,7 @@
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83</loc>
-    <lastmod>2026-06-01T02:26:30.219Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.548Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%8E%E4%B8%96%E6%B0%91</loc>
     <lastmod>2026-03-27T00:00:00.000Z</lastmod>
@@ -33983,9 +34394,6 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%8E%E9%9C%87%E5%AE%87</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%8E%E9%A3%9E%E9%A3%9E</loc>
-    <lastmod>2026-03-04T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%8E%E9%BE%99</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -34015,6 +34423,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%A8%E6%B3%BD%E4%B9%BE</loc>
     <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%A8%E7%8F%89</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9D%A8%E7%A1%95</loc>
     <lastmod>2026-03-25T00:00:00.000Z</lastmod>
@@ -34054,6 +34465,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9E%97%E5%90%9B%E5%8F%A1</loc>
     <lastmod>2025-12-11T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9E%97%E6%98%9F%E5%AE%87</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9E%97%E8%BE%BE%E5%8D%8E</loc>
     <lastmod>2025-12-25T00:00:00.000Z</lastmod>
@@ -34217,6 +34631,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%B7%B7%E5%85%83</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%B8%85%E5%8D%8Eair-discover-lab</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%B8%85%E5%8D%8Ethunlp%E5%AE%9E%E9%AA%8C%E5%AE%A4</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -34285,6 +34702,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%BB%B4%E6%BB%B4%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6</loc>
     <lastmod>2026-04-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%BD%98%E6%97%AD%E4%B8%9C</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%BD%9E%E6%99%A8%E4%BA%91</loc>
     <lastmod>2026-01-07T00:00:00.000Z</lastmod>
@@ -34387,6 +34807,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%8E%8B%E5%B0%8F%E5%B7%9D</loc>
     <lastmod>2026-01-13T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%8E%8B%E5%B2%9A%E5%90%9B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%8E%8B%E5%B9%BF%E6%B6%A6</loc>
     <lastmod>2026-03-27T00:00:00.000Z</lastmod>
@@ -34598,6 +35021,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E4%BC%9A</loc>
     <lastmod>2026-02-23T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%B1%B3%E5%93%88%E6%B8%B8</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%B1%B3%E5%A1%94%E8%A7%86%E7%95%8C</loc>
     <lastmod>2026-03-29T00:00:00.000Z</lastmod>
   </url><url>
@@ -34620,7 +35046,7 @@
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%A2%E6%89%8B%E6%8C%87operator</loc>
-    <lastmod>2026-06-01T02:26:30.264Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.595Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%A2%E6%9D%89%E8%B5%84%E6%9C%AC</loc>
     <lastmod>2025-12-11T00:00:00.000Z</lastmod>
@@ -34635,7 +35061,7 @@
     <lastmod>2026-01-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%BD%E7%BA%A6%E5%A4%A7%E5%AD%A6</loc>
-    <lastmod>2026-06-01T02:26:30.265Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.596Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%BD%E7%BA%A6%E5%B7%9E%E7%AB%8B%E5%A4%A7%E5%AD%A6%E7%9F%B3%E6%BA%AA%E5%88%86%E6%A0%A1</loc>
     <lastmod>2026-05-18T00:00:00.000Z</lastmod>
@@ -34812,7 +35238,7 @@
     <lastmod>2026-01-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%8B%B1%E4%BC%9F%E8%BE%BE</loc>
-    <lastmod>2026-05-31T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%8B%B1%E4%BC%9F%E8%BE%BEmegatron</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
@@ -34870,6 +35296,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%92%82%E5%A7%86%C2%B7%E5%BA%93%E5%85%8B</loc>
     <lastmod>2026-05-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%92%8B%E6%98%8C%E8%B7%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%92%B2%E6%B8%8A</loc>
     <lastmod>2026-03-29T00:00:00.000Z</lastmod>
@@ -35019,7 +35448,7 @@
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%B1%86%E5%8C%85</loc>
-    <lastmod>2026-06-01T02:26:30.281Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.629Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%B1%86%E5%8C%85ai%E6%89%8B%E6%9C%BA</loc>
     <lastmod>2025-12-30T00:00:00.000Z</lastmod>
@@ -35619,7 +36048,7 @@
     <lastmod>2026-05-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E9%BB%84%E4%BB%81%E5%8B%8B</loc>
-    <lastmod>2026-05-28T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E9%BB%84%E5%86%A0</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
@@ -35678,6 +36107,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/2026%E5%85%A8%E7%90%83%E5%AD%98%E5%82%A8%E7%9F%AD%E7%BC%BA</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/2026%E5%B9%B4ai%E6%84%8F%E8%AF%86%E5%A4%A7%E8%BE%A9%E8%AE%BA</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/2026%E5%B9%B4llm%E6%9E%B6%E6%9E%84%E5%88%9B%E6%96%B0%E5%8F%91%E5%B8%83%E6%BD%AE</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
   </url><url>
@@ -35696,6 +36128,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/3dgs%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BC%80%E6%BA%90%E7%AB%9E%E8%B5%9B-202605</loc>
     <lastmod>2026-05-25T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/5%E4%BA%BF%E7%BE%8E%E5%85%83claude%E8%B4%A6%E5%8D%95%E4%BA%8B%E4%BB%B6-202605</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/6%E6%9C%88%E5%89%8D%E6%B2%BF%E6%A8%A1%E5%9E%8B%E6%B7%B7%E6%88%98-2026</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
@@ -35710,6 +36145,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/agent%E8%AF%84%E4%BC%B0%E8%8C%83%E5%BC%8F%E8%BD%AC%E7%A7%BB-2026</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/agnes%E5%85%A8%E6%A8%A1%E6%80%81%E5%85%8D%E8%B4%B9api%E5%8F%91%E5%B8%83-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/ai-ipo-window-2026</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
@@ -35767,6 +36205,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/alphaproof-nexus%E6%94%BB%E5%85%8Berd%C5%91s%E9%9A%BE%E9%A2%98-202605</loc>
     <lastmod>2026-05-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/amazon-kirorank%E4%BA%8B%E4%BB%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/amd-ai%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A-%E4%B8%8A%E6%B5%B7-20260519</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
@@ -36077,6 +36518,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/fst%E6%A1%86%E6%9E%B6%E5%8F%91%E5%B8%83-202605</loc>
     <lastmod>2026-05-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/g0-5%E5%8F%91%E5%B8%83-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/gamma-world%E5%8F%91%E5%B8%83-202605</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
   </url><url>
@@ -36101,6 +36545,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/gipo-accerrl-icml-2026-%E5%8F%91%E5%B8%83</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/github-copilot%E6%8C%89%E9%87%8F%E8%AE%A1%E8%B4%B9%E8%BD%AC%E5%9E%8B-202606</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/github-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6-20260521</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
   </url><url>
@@ -36109,6 +36556,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/google-android-show-2026</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/google-cloud-api-key%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6-202604</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/google-gemini-for-science%E5%8F%91%E5%B8%83-20260519</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
@@ -36145,6 +36595,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/grok-v9%E8%AE%AD%E7%BB%83%E5%AE%8C%E6%88%90%E5%AE%98%E5%AE%A3-20260525</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/gtc-taipei-2026</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/hallo-live%E8%AE%BA%E6%96%87%E5%8F%91%E5%B8%83-20260426</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
@@ -36206,6 +36659,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/lejepa%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E7%90%86%E8%AE%BA%E8%AF%81%E6%98%8E</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/lios%E5%BC%80%E6%BA%90%E5%8F%91%E5%B8%83-202606</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/loongforge%E5%BC%80%E6%BA%90%E5%8F%91%E5%B8%83-20260521</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
@@ -36245,8 +36701,14 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/minicpm5-1b%E5%8F%91%E5%B8%83-20260525</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/minimax-m3%E5%8F%91%E5%B8%83-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/mmevoke-iclr-2026-%E6%8E%A5%E6%94%B6</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/mpa-40%E4%BB%BB%E5%8A%A1sota%E9%87%8C%E7%A8%8B%E7%A2%91-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/mrc%E5%8D%8F%E8%AE%AE%E5%8F%91%E5%B8%83-20260505</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
@@ -36278,6 +36740,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai-2023%E5%B9%B411%E6%9C%88%E7%BD%A2%E5%85%8D%E5%8D%B1%E6%9C%BA</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai-figure%E5%90%88%E4%BD%9C%E7%A0%B4%E8%A3%82-202502</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai-o3-gpt45%E9%80%80%E5%BD%B9%E4%BA%8B%E4%BB%B6-202605</loc>
     <lastmod>2026-05-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -36305,8 +36770,17 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai%E8%A7%A3%E5%86%B3erd%C5%91s%E7%8C%9C%E6%83%B3%E4%BA%8B%E4%BB%B6</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai%E8%BF%9B%E5%86%9B%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%A1%AC%E4%BB%B6-202606</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai%E9%83%A8%E7%BD%B2%E5%85%AC%E5%8F%B8%E4%B8%8Edaybreak%E5%8F%91%E5%B8%83-20260511</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai%E9%87%8D%E5%90%AF%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B5%9B%E9%81%93-202606</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openai%E9%87%8D%E5%BB%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9B%A2%E9%98%9F-202606</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/openclaw-130%E4%B8%87%E6%9C%88%E5%BA%A6%E8%B4%A6%E5%8D%95%E4%BA%8B%E4%BB%B6-202605</loc>
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
@@ -36419,6 +36893,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/safe-world-models-workshop-eccv2026</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/scaling%E4%BB%8E%E9%A2%84%E8%AE%AD%E7%BB%83%E5%88%B0rl%E7%9A%84%E8%9C%95%E5%8F%98</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/siggraph-2026-3d%E7%94%9F%E6%88%90</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
@@ -36455,6 +36932,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/spacex%E9%94%81%E5%AE%9Acursor%E6%94%B6%E8%B4%AD%E6%9C%9F%E6%9D%83-20260421</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/step-3.7-flash%E5%8F%91%E5%B8%83</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/sti-wm%E5%8F%91%E5%B8%83-202605</loc>
     <lastmod>2026-05-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -36479,6 +36959,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/thinking-machines%E5%8F%91%E5%B8%83%E9%A6%96%E6%AC%BE%E6%A8%A1%E5%9E%8B</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/thought-aligner%E5%8F%91%E5%B8%83-icml-2026</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/tml%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-202605</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -36494,8 +36977,17 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/unified-thinker-acl-2026-oral</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/unilab%E5%BC%80%E6%BA%90%E5%8F%91%E5%B8%83-20260602</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/unividx%E8%A2%ABsiggraph-2026%E6%8E%A5%E6%94%B6</loc>
     <lastmod>2026-05-11T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/vast-a-plus%E8%9E%8D%E8%B5%84-202605</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/vast%E5%8F%91%E5%B8%83project-eden-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/vggt-omega%E5%8F%91%E5%B8%83</loc>
     <lastmod>2026-05-17T00:00:00.000Z</lastmod>
@@ -36557,8 +37049,14 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E4%B8%AD%E5%85%B3%E6%9D%91%E4%B8%A4%E9%99%A2%E5%85%A8%E7%90%83%E6%8B%9B%E5%8B%9Fai%E6%9E%B6%E6%9E%84%E5%B8%88-202605</loc>
     <lastmod>2026-05-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E4%B8%AD%E5%9B%BD%E6%99%BA%E8%83%BD%E4%BD%93%E8%A1%8C%E4%B8%BA%E5%AE%89%E5%85%A8%E6%94%BF%E7%AD%96%E8%BD%AC%E6%8A%98-202605</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%E7%8E%8B%E5%8A%A0%E5%85%A5meta-202506</loc>
     <lastmod>2026-05-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E4%BC%81%E4%B8%9Atoken-roi%E5%8F%8D%E6%80%9D%E6%BD%AE-2026q2</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E5%85%89%E8%BD%AE%E6%99%BA%E8%83%BD%E5%8A%A0%E5%85%A5newton-tsc-202603</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
@@ -36589,6 +37087,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E5%A6%82%E7%A5%BA%E6%95%B0%E6%8D%AE%E9%A6%96%E6%AC%A1%E5%AE%8C%E6%95%B4%E6%8A%AB%E9%9C%B2ai%E6%95%B0%E6%8D%AE%E7%89%88%E5%9B%BE-202605</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%8F%91%E5%B8%83lance%E6%A8%A1%E5%9E%8B-20260601</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E5%AE%87%E6%A0%91gd01%E5%8F%91%E5%B8%83-20260512</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
@@ -36671,6 +37172,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E7%99%BE%E5%BA%A62026-create%E5%A4%A7%E4%BC%9A</loc>
     <lastmod>2026-05-13T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E7%A5%9E%E7%A7%98%E4%BC%81%E4%B8%9A5%E4%BA%BF%E7%BE%8E%E5%85%83claude%E8%B4%A6%E5%8D%95%E4%BA%8B%E4%BB%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E4%B8%AD%E5%9B%BDaigc%E4%BA%A7%E4%B8%9A%E5%B3%B0%E4%BC%9A</loc>
     <lastmod>2026-05-20T00:00:00.000Z</lastmod>
   </url><url>
@@ -36685,6 +37189,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E8%8B%B1%E4%BC%9F%E8%BE%BE2027%E8%B4%A2%E5%B9%B4q1%E8%B4%A2%E6%8A%A5%E5%8F%91%E5%B8%83</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E8%8B%B1%E4%BC%9F%E8%BE%BEgtc-2026%E5%A4%A7%E4%BC%9A</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/events/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%8F%91%E5%B8%83%E9%A6%96%E4%B8%AA%E4%B8%89%E6%A8%A1%E5%BC%8Fllm</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -36992,6 +37499,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/2026%E6%96%AF%E9%9A%86%E7%A0%94%E7%A9%B6%E5%A5%96%E6%8F%AD%E6%99%93-%E5%8D%8E%E4%BA%BA%E9%9C%B8%E6%A6%9C-%E6%9B%B9%E5%8E%9F-%E6%9C%B1%E4%BF%8A%E5%BD%A6-%E5%BC%A0%E6%98%8A%E5%85%A5%E9%80%89</loc>
     <lastmod>2026-02-18T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/2026%E6%9C%80%E6%96%B0%E7%BB%BC%E8%BF%B0-%E6%96%B0%E5%9B%BD%E7%AB%8B-and-%E7%89%9B%E6%B4%A5%E7%AD%89%E5%8F%91%E5%B8%83%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E7%9A%84%E9%9F%B3%E8%A7%86%E9%A2%91%E6%99%BA%E8%83%BD%EF%BC%88avi%EF%BC%89%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/2026%E7%BE%8E%E5%9B%BD%E6%9C%80%E5%A4%A7ipo%EF%BC%8C%E9%A6%96%E6%97%A5%E6%9A%B4%E6%B6%A8108-percent%EF%BC%81vc%E7%8B%82%E8%B5%9A76%E5%80%8D%EF%BC%8C%E5%A5%A5%E7%89%B9%E6%9B%BC%E8%BA%BA%E8%B5%9A</loc>
     <lastmod>2026-05-15T00:00:00.000Z</lastmod>
   </url><url>
@@ -37180,6 +37690,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/4.55%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%9C%80%E5%A4%A7%E5%8D%95%E7%AC%94%E8%9E%8D%E8%B5%84%E8%AF%9E%E7%94%9F%EF%BC%8C%E9%AB%98%E7%93%B4%E7%BA%A2%E6%9D%89%E8%81%94%E6%89%8B%E6%8A%BC%E6%B3%A8%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91</loc>
     <lastmod>2026-04-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/400-tokens%E7%A7%92%EF%BC%81%E9%98%B6%E8%B7%83step-3.7-flash%EF%BC%8C%E6%8A%8Aagent%E4%BB%BB%E5%8A%A1%E6%88%90%E6%9C%AC%E6%89%93%E5%88%B0claude%E9%9B%B6%E5%A4%B4</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/45%E4%BA%BF%E7%BA%A2%E5%8C%85%E6%89%93%E5%93%8Dai%E5%85%A5%E5%8F%A3%E5%A4%A7%E6%88%98%EF%BC%8C%E7%99%BE%E5%BA%A6%E7%BB%99%E5%87%BA%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%9B%9E%E5%BA%94</loc>
     <lastmod>2026-02-15T00:00:00.000Z</lastmod>
@@ -38006,6 +38519,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/claude%E5%87%AD%E7%A9%BA%E9%80%A0%E5%81%87%E5%BC%BA%E8%A1%8C%E9%83%A8%E7%BD%B2%EF%BC%8C%E6%AF%94%E9%BB%91%E5%AE%A2%E6%9B%B4%E5%8F%AF%E6%80%95%E7%9A%84%E5%85%A5%E4%BE%B5%E8%80%85%EF%BC%81vercel-ceo%E7%B4%A7%E6%80%A5%E9%A2%84%E8%AD%A6</loc>
     <lastmod>2026-03-07T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/claude%E5%88%B7%E7%88%865%E4%BA%BF%EF%BC%81%E4%B8%80%E5%A4%9C%E6%B6%A860%E5%80%8D%EF%BC%8C%E4%BD%A0%E7%9A%84token%E8%B4%A6%E5%8D%95%E8%BF%98%E6%92%91%E5%BE%97%E4%BD%8F%EF%BC%9F</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/claude%E5%8D%8A%E4%B8%AA%E6%9C%88%E8%BF%9E%E5%B4%A97%E6%AC%A1%EF%BC%81%E5%85%A8%E7%90%83%E5%AE%95%E6%9C%BA3%E5%B0%8F%E6%97%B6%EF%BC%8C%E5%BC%BA%E5%88%B6%E5%AE%9E%E5%90%8D%E7%B2%BE%E5%87%86%E5%B0%81%E5%8F%B7</loc>
     <lastmod>2026-04-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -38603,6 +39119,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/grok%E6%9C%80%E6%96%B0%E6%A8%A1%E5%9E%8B%E5%90%83%E4%B8%8Acursor%E3%80%8C%E5%8A%A0%E9%A4%90%E3%80%8D%EF%BC%8C%E9%A9%AC%E6%96%AF%E5%85%8B%EF%BC%9Acoding%E5%AE%9E%E7%8E%B0%E5%B7%A8%E5%A4%A7%E6%94%B9%E8%BF%9B</loc>
     <lastmod>2026-05-26T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/gui-agent%E3%80%8C%E8%AE%B0%E4%B8%8E%E5%AD%A6%E3%80%8D%E5%8F%8C%E4%BF%AE%EF%BC%8C%E9%95%BF%E7%A8%8B%E4%BB%BB%E5%8A%A1%E6%9C%89%E4%BA%86%E4%B8%93%E5%B1%9E%E8%AE%B0%E5%BF%86%E5%A2%9E%E5%BC%BA%E5%9E%8B%E8%87%AA%E8%BF%9B%E5%8C%96%E6%A1%86%E6%9E%B6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/gui-agent%E8%BD%A8%E8%BF%B9%E8%8E%B7%E5%8F%96%E6%96%B0%E8%8C%83%E5%BC%8F%EF%BC%9A%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA%E5%90%88%E6%88%90%E6%97%A0%E9%99%90%E8%BD%A8%E8%BF%B9%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%B9%B3%E5%9D%87%E6%AF%8F%E6%9D%A1%E8%BD%A8%E8%BF%B9%E6%88%90%E6%9C%AC%E4%BD%8E%E8%87%B30.04%E7%BE%8E%E5%85%83</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
@@ -38614,6 +39133,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/hermes-agent%E6%8A%84%E8%A2%AD%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E4%BB%A3%E7%A0%81%E5%AE%9E%E9%94%A4%EF%BC%81%E8%A2%AB%E9%94%A4%E5%90%8E%E5%9B%9E%E5%BA%94%EF%BC%9A%E4%BD%A0%E5%88%A0%E5%8F%B7</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/hinton%E5%AE%A3%E5%91%8A%E3%80%8Cai%E9%86%92%E4%BA%86%E3%80%8D%EF%BC%81%E6%95%99%E7%9A%87%E5%8D%B4%E6%96%AD%E8%A8%80%E5%AE%83%E6%B2%A1%E6%9C%89%E7%81%B5%E9%AD%82</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/hinton%E6%9C%80%E6%96%B0%E9%A2%84%E8%A8%80%E5%88%B7%E5%B1%8F%EF%BC%9A%E8%B0%B7%E6%AD%8C%E5%BF%85%E8%B5%A2%EF%BC%8C%E8%80%8C%E4%B8%94%E3%80%8C%E6%97%A9%E8%AF%A5%E8%B5%A2%E4%BA%86%E3%80%8D%EF%BC%81</loc>
     <lastmod>2025-12-06T00:00:00.000Z</lastmod>
@@ -38650,6 +39172,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/icml-2026-%E4%B8%8A%E6%B5%B7ailab--and--%E5%8C%97%E5%A4%A7%E6%8F%90%E5%87%BA%E5%9B%BE%E5%83%8F%E4%BF%9D%E7%9C%9F%E5%BA%A6%E6%B5%8B%E8%AF%84%E6%A8%A1%E5%9E%8Bstablei2i</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/icml-2026-%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%99%BA%E5%AD%A6%E9%99%A2-x-%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E6%8F%90%E5%87%BA%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%89%E5%85%A8%E6%96%B0%E8%8C%83%E5%BC%8F-%EF%BC%9A%E8%AE%A9%E6%99%BA%E8%83%BD%E4%BD%93%E5%AD%A6%E4%BC%9A%E3%80%8C%E4%B8%89%E6%80%9D%E8%80%8C%E5%90%8E%E8%A1%8C%E3%80%8D</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/icml-2026-%E5%8D%8E%E4%B8%BAgts%E6%8F%90%E5%87%BAai%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE%E6%96%B0%E6%96%B9%E6%B3%95%EF%BC%8Camazongoogle%E4%BD%9C%E8%80%85%E5%9B%A2%E9%98%9F%E3%80%8C%E5%85%89%E9%80%9F%E8%B7%9F%E8%BF%9B%E3%80%8D%EF%BC%9A%E9%9A%BE%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E8%AE%AD%E7%BB%83%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%96%B0%E8%8C%83%E5%BC%8F</loc>
     <lastmod>2026-05-18T00:00:00.000Z</lastmod>
@@ -38894,11 +39419,17 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax-m2.7%E5%9B%BD%E6%9C%8D%E7%AC%AC%E4%B8%80%EF%BC%81%E9%BE%99%E8%99%BE%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%EF%BC%8C%E6%B5%B7%E5%A4%96%E5%BC%80%E5%8F%91%E8%80%85%E7%96%AF%E7%8B%82%E5%88%B7%E5%B1%8F</loc>
     <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax-m3%E6%9D%A5%E4%BA%86%EF%BC%81</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax%E4%BB%8A%E6%97%A9%E4%B8%8A%E5%B8%82%EF%BC%8C%E8%82%A1%E4%BB%B7%E7%96%AF%E6%B6%A880-percent%EF%BC%81%E4%B8%80%E7%BE%A495%E5%90%8E%E8%B7%91%E9%80%9A%E4%BA%86%E4%B8%AD%E5%9B%BDai%E7%9A%84%E4%BB%B7%E5%80%BC</loc>
     <lastmod>2026-01-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax%E5%8F%88%E5%8F%88%E6%9D%A5%E5%90%83%E9%BE%99%E8%99%BE%E8%82%89%E4%BA%86%EF%BC%81openclaw%E7%9C%9F%C2%B7%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%EF%BC%8C%E8%BF%98%E6%9C%89%E4%B8%8A%E4%B8%87%E4%B8%93%E5%AE%B6%E6%99%BA%E8%83%BD%E4%BD%93%E7%AD%89%E4%BD%A0%E5%B7%AE%E9%81%A3</loc>
     <lastmod>2026-02-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax%E6%96%B0%E6%97%97%E8%88%B0m3%E5%8F%91%E5%B8%83%EF%BC%81%E8%87%AA%E5%B7%B1%E5%B9%B2%E4%BA%8612%E5%B0%8F%E6%97%B6%E5%A4%8D%E7%8E%B0%E8%8E%B7%E5%A5%96%E8%AE%BA%E6%96%87%EF%BC%8C%E4%B8%89%E6%9D%A1%E7%A7%91%E6%8A%80%E6%A0%91%E5%90%8C%E6%97%B6%E7%82%B9%E6%BB%A1</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/minimax%E9%83%BD%E5%9C%A8%E7%94%A8%EF%BC%815500pb%E5%B9%95%E5%90%8E%E5%8A%9F%E8%87%A3%E9%A6%96%E6%AC%A1%E4%BA%AE%E7%9B%B8%EF%BC%8C%E5%9B%BD%E4%BA%A7%E9%BB%91%E9%A9%AC%E7%A5%AD%E5%87%BA%E6%9D%80%E6%8B%9B</loc>
     <lastmod>2026-01-16T00:00:00.000Z</lastmod>
@@ -39173,6 +39704,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/openai%E9%87%8D%E7%A3%85%E6%8F%AD%E7%A7%98%EF%BC%9A%E4%BD%A0%E8%AE%A4%E4%B8%BA%E7%9A%84ai%E5%B9%BB%E8%A7%89%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%98%AF%E6%A8%A1%E5%9E%8B%E6%95%85%E6%84%8F%E5%87%BA%E9%94%99</loc>
     <lastmod>2026-03-25T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/openai%E9%87%8D%E8%BF%94%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B5%9B%E9%81%93%EF%BC%81%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%B2%97%E4%BD%8D%E5%BC%80%E6%8B%9B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/openai%E9%97%AA%E7%94%B5%E5%90%9E%E4%B8%8Bastral%EF%BC%81python%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E9%93%BE%E6%B2%A6%E9%99%B7%EF%BC%8Cai%E8%A6%81%E4%BD%8F%E8%BF%9B%E4%BD%A0%E7%9A%84%E7%BB%88%E7%AB%AF</loc>
     <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </url><url>
@@ -39410,6 +39944,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token-%E6%96%B0%E8%AF%91%E5%90%8D%EF%BC%9A%E3%80%8C%E6%99%BA%E5%85%83%E3%80%8D</loc>
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token%E7%8B%82%E6%B6%A8%EF%BC%8C%E7%A1%85%E8%B0%B7%E5%93%80%E5%9A%8E%EF%BC%81%E5%85%A8%E7%90%83%E6%A6%9C%E5%8D%95%E5%89%8D%E5%8D%81ai-lab%EF%BC%8C%E5%8D%B4%E6%8A%8A%E4%B8%89%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%A8%E5%85%8D%E4%BA%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token%E7%BA%A7%EF%BC%8C%E7%B2%BE%E5%87%86%E6%8E%A7%E5%88%B6%E7%94%9F%E6%88%90%E9%95%BF%E5%BA%A6%EF%BC%9A3b%E6%A8%A1%E5%9E%8B%E5%87%BB%E8%B4%A5gpt-5.4%E3%80%81claude</loc>
     <lastmod>2026-05-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -39423,7 +39960,7 @@
     <lastmod>2026-05-07T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token%EF%BC%8C%E5%BA%94%E8%AF%A5%E7%BF%BB%E8%AF%91%E6%88%90%E3%80%8C%E6%96%B0%E6%99%BA%E5%85%83%E3%80%8D</loc>
-    <lastmod>2026-06-01T02:26:30.569Z</lastmod>
+    <lastmod>2026-06-02T03:00:50.884Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/tpami-2026-drawmotion%EF%BC%9A%E8%AE%A9%E8%A7%92%E8%89%B2%E6%B2%BF%E7%9D%80%E4%BD%A0%E7%9A%84%E6%89%8B%E7%BB%98%E8%BD%A8%E8%BF%B9%E5%8A%A8%E8%B5%B7%E6%9D%A5</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -39526,6 +40063,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E2%80%9C%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%B0%8F%E9%BE%99%E2%80%9D%E7%AC%AC%E4%B8%80%E8%82%A1%E6%9D%A5%E4%BA%86%EF%BC%81%E6%B5%99%E5%A4%A7%E6%A0%A1%E5%8F%8B%E5%88%9B%E4%B8%9A%EF%BC%8C%E5%B9%B4%E5%85%A58%E4%BA%BF%E5%86%B2%E5%88%BAipo</loc>
     <lastmod>2026-03-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E2%80%9C%E7%90%86%E8%A7%A3%E2%80%9D%E5%92%8C%E2%80%9C%E7%94%9F%E6%88%90%E2%80%9D%E7%9B%B8%E4%BA%92%E6%88%90%E5%B0%B1%EF%BC%8C%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%8F%91%E5%B8%83-lance%EF%BC%9A%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%BB%9F%E4%B8%80%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%96%B0%E6%A0%87%E6%9D%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E3%80%8A%E7%94%9F%E5%8C%96%E5%8D%B1%E6%9C%BA%E3%80%8B%E5%A5%B3%E4%B8%BB%E6%BC%94%E8%B7%A8%E7%95%8Cai%E6%8B%BFsota%E4%BA%86%EF%BC%81%E6%89%93%E9%80%A0%E5%85%8D%E8%B4%B9%E2%80%9Cai%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E2%80%9D%E7%88%86%E7%81%ABgithub</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
@@ -39830,6 +40370,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E6%8E%A5%E6%A3%92%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%EF%BC%8C%E8%BF%99%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%85%A8%E7%90%83%E9%A6%96%E5%88%9B%E7%89%A9%E7%90%86agi%E2%80%9C%E5%8F%8C%E9%87%91%E5%AD%97%E5%A1%94%E2%80%9D%E4%BD%93%E7%B3%BB%EF%BC%8C%E9%80%9A%E7%94%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9B%E5%85%A5%E2%80%9C%E5%AE%B6%E5%BA%AD%E6%97%B6%E4%BB%A3%E2%80%9D</loc>
     <lastmod>2026-05-28T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9C%89%E4%BA%86%E3%80%8C%E5%AD%98%E6%A1%A3%E3%80%8D%EF%BC%81vast%E5%8F%91%E5%B8%83project-eden</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%A4%E4%B8%AAilya%E7%9A%84%E5%AE%BF%E5%91%BD%E8%BD%AE%E5%9B%9E%EF%BC%9A%E8%80%81%E9%BB%8410%E4%BA%BF%E7%BE%8E%E9%87%91%E5%BC%80%E5%90%AF%E8%B5%9B%E5%8D%9A%E4%BF%AE%E4%BB%99%EF%BC%81</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
   </url><url>
@@ -39884,6 +40427,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%8D%8F%E9%87%8D%E7%A3%85%E5%9B%9E%E5%87%BB%EF%BC%8Cneurips%E5%90%AB%E9%87%91%E9%87%8F%E4%B8%80%E5%A4%9C%E5%BD%92%E9%9B%B6%EF%BC%81ai%E9%A1%B6%E4%BC%9A%E5%B7%B2%E6%AD%BB%EF%BC%9F</loc>
     <lastmod>2026-03-27T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E8%80%83%E5%AF%9F%E6%B8%B8%E7%81%AB%E4%BA%86%EF%BC%81%E8%80%81%E5%A4%96%E8%8A%B1%E5%87%A0%E4%B8%87%E5%9D%97%E9%92%B1%E8%B7%91%E6%9D%A5%E4%B8%AD%E5%9B%BD%E7%9C%8Bai</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E6%8A%8Atoken%E7%8E%A9%E6%98%8E%E7%99%BD%E4%BA%86%EF%BC%8110%E4%BA%BF%E7%94%A8%E6%88%B7%E8%BD%BB%E6%9D%BE%E6%8E%A5%E5%85%A5ai%E7%AE%97%E5%8A%9B%E6%96%B0%E6%97%B6%E4%BB%A3</loc>
     <lastmod>2026-05-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -39910,6 +40456,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%B8%BA%E4%BB%80%E4%B9%88-llm-%E9%9A%BE%E4%BB%A5%E7%9B%B4%E6%8E%A5%E5%A4%8D%E5%88%BB-alphago-%E7%9A%84%E6%A0%91%E6%90%9C%E7%B4%A2%E5%A5%87%E8%BF%B9%EF%BC%9F</loc>
     <lastmod>2026-05-23T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BA%91%E7%AB%AF%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E8%90%BD%E5%9C%B0%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C%EF%BC%9F%E6%8B%9B%E5%95%86%E5%B1%80%E7%8B%AE%E5%AD%90%E5%B1%B1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%94%A8lios%E6%89%93%E9%80%9A%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E5%85%A8%E9%93%BE%E8%B7%AF</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BA%92%E8%81%94%E7%BD%91%E5%96%82%E5%87%BA%E5%8F%8D%E6%B4%BEai%EF%BC%9F96-percent%E5%8B%92%E7%B4%A2%E7%8E%87%EF%BC%8C%E9%83%BD%E6%98%AF%E5%9C%A8%E6%BC%94%E4%BA%BA%E7%B1%BB%E5%86%99%E4%BA%8630%E5%B9%B4%E7%9A%84%E5%89%A7%E6%9C%AC</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
@@ -39985,6 +40534,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BB%8A%E5%A4%A9%E8%B5%B7%EF%BC%8Cgpt-image-2%E8%A6%81%E6%8A%8A%E5%85%A8%E4%BD%93%E8%AE%BE%E8%AE%A1%E5%B8%88%E9%80%81%E8%B5%B0%E4%BA%86</loc>
     <lastmod>2026-04-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BB%8A%E5%A4%A9%E8%B5%B7%EF%BC%8C%E6%97%A0%E9%99%90%E6%9C%9F%E5%85%8D%E8%B4%B9%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%85%A8%E6%A8%A1%E6%80%81api%E5%BC%80%E6%94%BE%EF%BC%8Ctop-10-ai-lab%E5%87%BA%E6%89%8B</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BB%8A%E5%A4%A9%EF%BC%8Canthropic%E5%81%B7%E5%81%B7%E7%A7%BB%E9%99%A4%E4%BA%86pro%E7%94%A8%E6%88%B7%E7%9A%84claude-code%E8%AE%BF%E9%97%AE%E6%9D%83</loc>
     <lastmod>2026-04-22T00:00:00.000Z</lastmod>
@@ -40102,6 +40654,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BD%95%E6%81%BA%E6%98%8E%E9%A6%96%E4%B8%AA%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%EF%BC%9A105m%E5%8F%82%E6%95%B0%EF%BC%8C%E4%B8%8D%E8%B5%B0gpt%E8%87%AA%E5%9B%9E%E5%BD%92%E8%80%81%E8%B7%AF</loc>
     <lastmod>2026-05-22T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BD%95%E6%B3%B0%E7%84%B6%E5%9C%A8%E7%BA%BF%E6%91%87%E4%BA%BA%EF%BC%81%E5%BA%95%E8%96%AA%E6%95%B0%E7%99%BE%E4%B8%87%E5%85%83%E3%80%81sora%E4%B9%8B%E7%88%B6%E5%B8%A6%E9%98%9F%E3%80%81openai%E5%85%A8%E6%A0%88%E9%80%A0%E3%80%8C%E4%BA%BA%E3%80%8D</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E4%BD%A0%E4%BB%A5%E4%B8%BA%E5%9C%A8%E7%94%A8ai%EF%BC%8C%E5%85%B6%E5%AE%9E%E5%9C%A8%E4%BC%BA%E5%80%99ai%EF%BC%9F%E6%AE%8B%E9%85%B7%E6%95%B0%E6%8D%AE%E6%8F%AD%E7%A9%BF%E6%89%93%E5%B7%A5%E4%BA%BA%E5%B9%BB%E8%A7%89</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
@@ -40403,6 +40958,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8Canthropic%E5%86%85%E9%83%A8%E8%80%83%E9%A2%98%E5%BC%80%E6%BA%90%EF%BC%81%E5%B9%B4%E8%96%AA%E7%99%BE%E4%B8%87%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%8C%E8%A2%ABai%E7%A7%92%E4%BA%86</loc>
     <lastmod>2026-01-23T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8Canthropic%E6%8F%90%E4%BA%A4%E4%BA%86%E6%8B%9B%E8%82%A1%E4%B9%A6%EF%BC%81</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8Canthropic%E6%B7%B1%E5%A4%9C%E8%A1%80%E6%B4%97500%E4%BA%BF%E7%BE%8E%E9%87%91%E8%A1%8C%E4%B8%9A%EF%BC%81%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E6%9C%AB%E6%97%A5%E6%9D%A5%E4%BA%86</loc>
     <lastmod>2026-03-10T00:00:00.000Z</lastmod>
   </url><url>
@@ -40604,6 +41162,12 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8C%E7%BE%8E%E5%9B%BD%E6%8A%8A%E5%A4%A9%E7%9C%BC%E4%BA%A4%E7%BB%99palantir%EF%BC%81%E7%BB%9D%E5%AF%86%E4%BF%A1%E4%BB%B6%E6%9B%9D%E5%85%89-ai%E6%8B%BF%E5%88%B0%E7%BE%8E%E5%86%9B%E6%AD%A3%E5%BC%8F%E7%BC%96%E5%88%B6</loc>
     <lastmod>2026-03-23T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8C%E8%80%81%E9%BB%84%E9%87%8D%E6%96%B0%E5%8F%91%E6%98%8Epc%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AAagent%E5%8E%9F%E7%94%9F%E7%94%B5%E8%84%91%E9%97%AE%E4%B8%96</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8C%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89pc%EF%BC%81%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%AB%98%E6%95%88cpu%E6%9D%A5%E4%BA%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%9A%E5%88%9A%EF%BC%8C%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%9B%A2%E9%98%9F%E6%94%BE%E5%87%BA%E7%AC%AC%E4%BA%8C%E4%BB%A3%E8%A1%A8%E5%BE%81%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8</loc>
     <lastmod>2026-05-21T00:00:00.000Z</lastmod>
   </url><url>
@@ -40648,6 +41212,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%AB%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%8D%B7%E8%A7%86%E8%A7%89%EF%BC%8C%E8%BF%99%E5%AE%B6%E5%85%B7%E8%BA%AB%E5%85%AC%E5%8F%B8%E5%81%8F%E8%A6%81%E5%8D%B7%E2%80%9C%E6%89%8B%E6%84%9F%E2%80%9D</loc>
     <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%AB%E5%85%89%E4%BC%9A%E8%B0%83grpo%EF%BC%8C%E6%9D%A5%E7%9C%8B%E7%9C%8B%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%A4%A7%E8%A7%84%E6%A8%A1rl%E6%98%AF%E6%80%8E%E4%B9%88%E7%82%BC%E7%9A%84</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%88%AB%E5%85%89%E7%BB%99agent%E5%8A%A0tool%E4%BA%86%EF%BC%8C%E5%AE%83%E6%A0%B9%E6%9C%AC%E9%80%89%E4%B8%8D%E6%98%8E%E7%99%BD%EF%BC%81%E5%A4%8D%E6%97%A6%C3%97%E9%80%9A%E4%B9%89%E6%8F%90%E5%87%BA%E5%85%A8%E6%96%B0cua%E8%AE%AD%E7%BB%83%E8%8C%83%E5%BC%8F</loc>
     <lastmod>2026-05-31T00:00:00.000Z</lastmod>
@@ -41123,6 +41690,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%9B%BD%E5%86%85%E9%A6%96%E6%AC%A1%EF%BC%81%E9%9D%A2%E5%A3%81%E5%BC%80%E6%BA%90%E5%8D%83%E4%B8%87%E7%BA%A7sft%E4%B8%8E%E6%9C%80%E5%A4%A7%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%EF%BC%8Cminicpm5-1b%E5%BA%95%E5%BA%A7%E5%85%AC%E5%BC%80</loc>
     <lastmod>2026-05-29T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%9B%BD%E5%AE%B6%E9%98%9F%E4%B8%8B%E5%9C%BA%E5%8D%B7ai%EF%BC%8C%E6%B8%85%E5%8D%8E%E5%A5%B3%E5%AD%A6%E9%9C%B8%E6%AD%BB%E7%A3%9510%E5%B9%B4%E4%BA%A4%E4%BD%9C%E4%B8%9A</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%9B%BD%E5%AE%B6%E9%98%9F%E5%87%BA%E6%89%8B%EF%BC%81ai%E6%99%BA%E8%83%BD%E4%BD%93%E8%A6%81%E5%8F%91%E3%80%8C%E8%BA%AB%E4%BB%BD%E8%AF%81%E3%80%8D%EF%BC%8C%E9%A6%96%E4%B8%AA%E4%BA%92%E8%81%94%E5%9B%BD%E6%A0%87%E5%B0%86%E8%90%BD%E5%9C%B0</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -41457,7 +42027,7 @@
     <lastmod>2026-04-08T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%B0%8F%E7%B1%B3%E5%8F%8C%E6%A8%A1%E5%9E%8B%E6%AD%A3%E5%BC%8F%E5%BC%80%E6%BA%90%EF%BC%81mimo-v2.5-pro%E6%97%A0%E4%B8%AD%E6%96%AD%E8%82%9D%E5%87%BA%E2%80%9Cmacos%E2%80%9D%EF%BC%9A54%E4%B8%AA%E5%BA%94%E7%94%A8%E5%85%A8%E5%BC%80%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9C%9F%E8%83%BD%E5%86%B2%E6%B5%AA</loc>
-    <lastmod>2026-06-01T02:26:30.698Z</lastmod>
+    <lastmod>2026-06-02T03:00:51.009Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%B0%8F%E7%B1%B3%E6%96%B0%E5%BC%80%E6%BA%90%E6%97%97%E8%88%B0%EF%BC%81mimo-2.5%E6%9B%B4%E7%9C%81token%EF%BC%9A10%E5%88%86%E9%92%9F%E4%BB%BF%E5%86%99sbti%E6%B5%8B%E8%AF%95</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
@@ -42044,6 +42614,12 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%BA%BF%E4%B8%8B%E7%9C%9F%E6%9C%BA%E5%AF%B9%E7%BA%BF%E6%89%93pk%EF%BC%81%E8%BF%99%E5%B1%8A%E9%BB%91%E5%AE%A2%E6%9D%BE%E5%8F%AF%E5%A4%AA%E4%BC%9A%E7%8E%A9%E4%BA%86</loc>
     <lastmod>2026-03-31T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%87%AA%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%9B%E6%96%B0%EF%BC%8C%E8%AE%A9%E6%98%9F%E6%B5%B7%E5%9B%BE%E6%A8%AA%E6%89%AB%E4%BA%867%E5%A4%A7%E5%85%B7%E8%BA%AB%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E6%8E%A7%E8%AE%AD%E7%BB%83%E6%AD%A5%E5%85%A5%E5%88%86%E9%92%9F%E7%BA%A7%E6%97%B6%E4%BB%A3%EF%BC%81%E6%B8%85%E5%8D%8Eair%E5%BC%80%E6%BA%90unilab%EF%BC%9A3%E5%88%86%E9%92%9F%E8%AE%AD%E5%A5%BD%E4%BA%BA%E5%BD%A2%EF%BC%8C%E9%80%9F%E5%BA%A6%E6%9A%B4%E6%B6%A810%E5%80%8D%EF%BC%8Cmac%E4%B8%8A%E4%B9%9F%E8%83%BD%E8%B7%91</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%95%BF%E5%87%BA800%E4%B8%AA%E5%BF%83%E7%9C%BC%EF%BC%9F%E9%98%BF%E9%87%8C%E8%BE%BE%E6%91%A9%E9%99%A2%E5%BC%80%E6%BA%90%E5%85%B7%E8%BA%AB%E6%96%B0%E5%A4%A7%E8%84%91%EF%BC%8C%E7%A1%85%E8%B0%B7%E5%8F%88%E5%9D%90%E4%B8%8D%E4%BD%8F%E4%BA%86</loc>
     <lastmod>2026-02-10T00:00:00.000Z</lastmod>
   </url><url>
@@ -42058,6 +42634,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%8E%E6%9B%BC%E7%8E%B2%E3%80%81%E6%9D%8E%E9%A3%9E%E9%A3%9E%E3%80%81%E5%90%B4%E4%BD%B3%E4%BF%8A%E7%AD%89%E8%81%94%E6%89%8B%EF%BC%9A%E8%AF%84%E4%BC%B0%E5%85%B7%E8%BA%AB%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%96%B0%E8%8C%83%E5%BC%8F%EF%BC%81</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%8E%E9%A3%9E%E9%A3%9E%E3%80%81jeff-dean%E6%8A%BC%E6%B3%A8%EF%BC%81%E4%B8%8D%E5%8D%B7%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E4%B8%93%E7%BB%83%E8%B6%8A%E7%94%A8%E8%B6%8A%E8%81%AA%E6%98%8E%E7%9A%84ai</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%8E%E9%A3%9E%E9%A3%9E%E5%81%9Aai%E6%B8%B8%E6%88%8F%EF%BC%8C%E6%8B%BF%E4%BA%864%E4%B8%AA%E4%BA%BF</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
@@ -42082,6 +42661,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%8E%E9%A3%9E%E9%A3%9E%E9%80%A0%E4%BA%86imagenet%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%A5%B9%E5%8F%88%E5%B8%A6%E4%BA%BA%E8%B6%85%E8%B6%8A%E4%BA%86%E5%AE%83</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%90%E6%96%99%E7%89%88alphafold%E6%9D%A5%E4%BA%86%EF%BC%8140%E4%B8%AA%E5%B7%A5%E4%B8%9A%E4%BB%BB%E5%8A%A1%E5%85%A8%E6%96%B9%E4%BD%8Dsota%EF%BC%8Cai4s%E8%BF%8E%E6%9D%A5%E8%A1%8C%E4%B8%9A%E5%A4%A7%E7%AA%81%E7%A0%B4</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%9D%A8%E6%A4%8D%E9%BA%9F%E5%BD%93%E4%B8%BB%E6%8C%81%E4%BA%BA%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%86%E6%A1%8C%EF%BC%9A%E5%BC%A0%E9%B9%8F%E7%BD%97%E7%A6%8F%E8%8E%89%E5%A4%8F%E7%AB%8B%E9%9B%AA%E9%83%BD%E6%94%BE%E5%BC%80%E8%AF%B4%E4%BA%86</loc>
     <lastmod>2026-03-28T00:00:00.000Z</lastmod>
@@ -42127,6 +42709,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%AD%BB%E6%95%8C%E7%88%86%E6%96%99%E6%98%AF%E7%8B%A0%EF%BC%81openai%E5%86%85%E9%83%A8%E4%BF%A1%E9%98%B4%E9%98%B3claude%E8%90%A5%E6%94%B6%E6%B3%A8%E6%B0%B480%E4%BA%BF%EF%BC%8C%E7%84%B6%E5%90%8E%E6%B3%84%E9%9C%B2%E4%BA%86%E2%80%A6</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%AD%BB%E8%84%91%E7%AD%8B%E7%9A%84%E8%BE%BE%E9%87%8C%E5%A5%A5%EF%BC%8C%E8%BF%99%E6%AC%A1%E6%8A%8Aopenai%E5%B9%B2%E7%BF%BB%E4%BA%86</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E6%AE%8B%E9%85%B7%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%A1%85%E8%B0%B7%E9%A1%B6%E5%B0%96ai%E7%94%A9%E5%BC%80%E4%B8%96%E7%95%8C1%E5%B9%B4%EF%BC%81%E4%BD%A0%E7%94%A8%E7%9A%84%E4%B8%8D%E8%BF%87%E6%98%AF%E3%80%8C%E6%8A%80%E6%9C%AF%E4%BD%99%E6%99%96%E3%80%8D</loc>
     <lastmod>2026-05-10T00:00:00.000Z</lastmod>
@@ -42747,7 +43332,7 @@
     <lastmod>2026-02-04T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E7%AC%AC%E4%B8%80%E6%89%B9%E9%9D%A0%E9%BE%99%E8%99%BE%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E5%87%BA%E7%8E%B0%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E3%80%8C%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91skill%E3%80%8B%EF%BC%8C%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8A%E7%BA%BF%E5%BA%94%E7%94%A8</loc>
-    <lastmod>2026-06-01T02:26:30.781Z</lastmod>
+    <lastmod>2026-06-02T03:00:51.088Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E7%AC%AC%E4%B8%80%E6%AC%A1%EF%BC%8C%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A6%E4%BC%9A%E8%BE%B9%E7%9C%8B%E8%BE%B9%E5%90%AC%EF%BC%8Cmeta%E6%96%B0%E4%BD%9C%E6%80%A7%E8%83%BD%E6%9A%B4%E6%B6%A8113-percent</loc>
     <lastmod>2026-02-28T00:00:00.000Z</lastmod>
@@ -42937,6 +43522,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%80%81%E9%BB%84%E7%88%86%E6%94%B9%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BC%8Csalesforce%E4%B8%80%E6%AC%A1%E6%8B%9B%E5%8D%83%E4%BA%BA%EF%BC%81%E6%99%BA%E8%83%BD%E4%BD%93%E6%97%B6%E4%BB%A3%E5%BA%94%E5%B1%8A%E7%94%9F%E6%9C%BA%E4%BC%9A%E6%9D%A5%E4%BA%86</loc>
     <lastmod>2026-05-06T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%80%81%E9%BB%84%E7%9A%84token%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%BF%BB%E8%BD%A6%E4%BA%86%EF%BC%81%E5%BE%AE%E8%BD%AF%E4%BA%9A%E9%A9%AC%E9%80%8A%E9%80%9A%E9%80%9A%E8%B7%B3%E8%BD%A6</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%80%81%E9%BB%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8%E6%9B%9D%E5%85%89%EF%BC%9Aai%E4%B8%80%E5%A4%9C%E8%AE%BE%E8%AE%A1%E8%8A%AF%E7%89%87%EF%BC%8C%E9%A1%B6%E4%BA%BA%E7%B1%BB%E9%A1%B6%E7%BA%A7%E5%B7%A5%E7%A8%8B%E5%B8%8810%E4%B8%AA%E6%9C%88%EF%BC%81</loc>
     <lastmod>2026-05-01T00:00:00.000Z</lastmod>
@@ -43141,6 +43729,9 @@
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%A7%A3%E5%86%B3%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E7%A9%BF%E5%B8%AE%E9%97%AE%E9%A2%98%EF%BC%81%E6%B5%99%E5%A4%A7-and-%E5%BE%AE%E8%BD%AF3000%E6%9D%A1%E7%BA%AF%E6%96%87%E6%9C%AC%E8%AE%A9%E6%A8%A1%E5%9E%8B%E7%90%86%E8%A7%A33d</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%A7%A3%E6%95%A36%E5%B9%B4%E5%90%8E%EF%BC%8Copenai%E5%A4%8D%E6%B4%BB%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9B%A2%E9%98%9F%EF%BC%81%E5%A5%A5%E7%89%B9%E6%9B%BC%E7%9B%AE%E6%A0%87%EF%BC%9A%E4%BA%BA%E6%89%8B1%E5%8F%B0</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%A7%A3%E7%A0%81%E5%8A%A0%E9%80%9F15%E5%80%8D%EF%BC%81edgerazor%E5%8A%A9%E6%8E%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%A8pc%E7%A7%BB%E5%8A%A8%E7%AB%AF%E2%80%9C%E7%8B%82%E9%A3%99%E2%80%9D</loc>
     <lastmod>2026-05-25T00:00:00.000Z</lastmod>
@@ -43442,6 +44033,9 @@
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%BD%AF%E4%BB%B6%E6%B2%A1%E6%AD%BB%EF%BC%8C%E4%BA%BA%E5%85%88%E8%A3%81%E4%BA%86%EF%BC%81claude%E6%9C%80%E6%96%B0%E6%8F%92%E4%BB%B6%E7%AA%81%E8%A2%AD%E9%87%91%E8%9E%8D%E5%9C%88%EF%BC%8Cexcel%E5%88%B0ppt%E4%B8%80%E9%94%AE%E9%80%9A%E6%9D%80</loc>
     <lastmod>2026-02-25T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%BF%912%E4%BA%BF%E7%BE%8E%E5%85%83%EF%BC%81vast%E5%AE%8C%E6%88%90%E6%96%B0%E4%B8%80%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E6%AD%A3%E5%BC%8F%E6%8A%AB%E9%9C%B2%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%BA%BF</loc>
+    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E8%BF%98%E5%9C%A8%E6%89%8B%E5%86%99cuda%E5%86%85%E6%A0%B8%EF%BC%9Fcoda%E6%9D%A5%E4%BA%86%EF%BC%81llm%E5%92%8C%E6%96%B0%E6%89%8B%E4%B9%9F%E8%83%BD%E8%AE%A9transformer%E8%B7%91%E5%87%BA%E5%85%89%E9%80%9F</loc>
     <lastmod>2026-05-24T00:00:00.000Z</lastmod>
   </url><url>
@@ -43560,7 +44154,7 @@
     <lastmod>2026-04-27T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E9%98%BF%E9%87%8C%E3%80%8C%E6%82%9F%E7%A9%BA%E3%80%8D%E9%87%8D%E7%A3%85%E6%9D%80%E5%87%BA%EF%BC%8Cath%E9%A6%96%E7%A7%80%E5%B0%81%E7%A5%9E%EF%BC%81%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%B0%83%E9%81%A3%E9%BE%99%E8%99%BE%E5%86%9B%E5%9B%A2</loc>
-    <lastmod>2026-06-01T02:26:30.824Z</lastmod>
+    <lastmod>2026-06-02T03:00:51.113Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E9%98%BF%E9%87%8C%E5%88%9A%E6%8A%95%E7%9A%84ai%E6%98%8E%E6%98%9F%EF%BC%8C3d%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%82%A3%E7%A7%8D</loc>
     <lastmod>2026-03-05T00:00:00.000Z</lastmod>
@@ -44067,13 +44661,13 @@
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/timeline-concepts</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/timeline-events</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/timeline</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://BITDeeper.github.io/llm_wiki_notebook/wiki/sources/token%E8%B4%B5%E5%8F%AA%E5%9B%A0%E4%BD%A0%E5%96%82%E7%BB%99%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%9E%83%E5%9C%BE%E5%A4%AA%E5%A4%9A%E4%BA%86%E4%B8%A8%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%8E%8B%E6%99%93%E9%87%8Eaigc2026</loc>
     <lastmod>2026-05-30T00:00:00.000Z</lastmod>
