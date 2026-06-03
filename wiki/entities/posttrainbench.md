@@ -2,15 +2,17 @@
 type: entity
 title: PostTrainBench
 created: 2026-03-30
-updated: 2026-06-01
-tags: [benchmark, 自动化训练, ai-safety, model-training, llm, 评测基准, 后训练, 模型教练]
-related: ["claude-code", "reward-hacking", "ai-takeoff", "自动化-ai-研发", "opus-4-6", "gpt-5-4", "ai-takeover", "minimax-m3", "agentic-engineering"]
-sources: ["anthropic联创：两年内，ai将像孢子一样自我繁殖！.md", "anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md"]
+updated: 2026-06-02
+tags: ["benchmark", "自动化训练", "ai-safety", "model-training", "llm", "评测基准", "后训练", "模型教练", "大模型"]
+related: ["claude-code", "reward-hacking", "ai-takeoff", "自动化-ai-研发", "opus-4-6", "gpt-5-4", "ai-takeover", "minimax-m3", "agentic-engineering", "datamaster"]
+sources: ["anthropic联创：两年内，ai将像孢子一样自我繁殖！.md", "anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md", "datamaster：当ai开始成为自己的数据工程师.md"]
 ---
 
 # PostTrainBench
 
 PostTrainBench 是**首个专门测量 AI Agent 能否自主完成模型后训练**的评测基准，由图宾根大学、马克斯·普朗克智能系统研究所和 Thoughtful Lab 联合推出。该基准用于评估 AI 模型作为"模型教练"自主完成数据合成、训练、评测和迭代优化的能力。
+
+在该场景中，基础模型和训练流程固定，且没有现成的训练数据，智能体必须自主发现和整理后训练数据。
 
 ## 任务定义
 
@@ -40,6 +42,10 @@ PostTrainBench 是**首个专门测量 AI Agent 能否自主完成模型后训�
 
 - **人类团队得分**：51.1%。
 - **对比**：当前最强 AI 系统已达到人类团队水平的一半左右，证明 AI 正在逐步掌握优化 AI 系统自身的核心技能（即"AI 训练 AI"）。
+
+### DataMaster 表现
+
+[[datamaster|DataMaster]] 将 PostTrainBench 作为验证其 [[ai数据工程师]] 能力的核心实验场景之一。DataMaster 在此基准上将平均分从基础模型的 8.47% 提升至 **31.17%**，并在其中的 GPQA 任务上超越了专家训练的指令模型参考分数。
 
 ### 12小时自主后训练全流程（MiniMax 发布数据）
 

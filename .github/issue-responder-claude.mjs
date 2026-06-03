@@ -69,7 +69,7 @@ console.log('\nCalling Claude Code CLI...')
 let responseText
 try {
   responseText = execSync(
-    `claude -p --effort medium --model glm-5.1 --max-budget-usd 2 --allowedTools Read,Glob,Grep --max-turns 6`,
+    `claude -p --effort medium --model glm-5.1 --max-budget-usd 2 --allowedTools Read,Glob,Grep`,
     {
       input: prompt,
       encoding: 'utf8',

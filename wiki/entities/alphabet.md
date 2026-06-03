@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Alphabet
-tags: [company, tech-giant, ai, search]
-related: [google, gemini, sergey-brin, tpu]
+tags: ["company", "tech-giant", "ai", "search", "科技公司", "谷歌", "ai基础设施", "上市公司"]
+related: [google, gemini, sergey-brin, tpu, openai, 算力即战略资源, ai工厂, 星门计划]
 created: 2026-01-08
-updated: 2026-01-08
-sources: ["全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md"]
+updated: 2026-06-02
+sources: ["全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "万亿ipo前夜，openai把赌注押到了基建工地上.md"]
 ---
 
 # Alphabet
 
-Alphabet Inc. 是谷歌的母公司，全球领先的科技巨头之一。
+Alphabet Inc. 是谷歌的母公司，全球领先的科技巨头之一，也是 AI 基建竞赛中的重磅玩家。
 
 ## 市场表现
 
@@ -25,8 +25,16 @@ Alphabet 在 2025 年完成了漂亮的反击，扭转了在 AI 热潮初期的�
 
 - **研发投入**：利用多年积累的科研基础和巨额利润，持续砸向 AI 研发。
 - **组织架构**：合并谷歌大脑与 DeepMind 两大研究组织。
-- **全栈整合**：从数据中心、TPU 芯片到产品级生态全面领先。
+- **全栈整合**：从数据中心、[[TPU]] 芯片到产品级生态全面领先。
 - **入口优势**：拥有搜索、浏览器、Android、Workspace 等高频入口，使得 [[Gemini]] 能够无缝嵌入用户日常生活。
+
+## AI 基建投入
+
+CEO Sundar Pichai 在 [[OpenAI]] 破土 [[the-barn|The Barn]] 同日宣布 800 亿美元卖股融资，几乎全砸向 AI 基建，其中 100 亿美元直接卖给了巴菲特的伯克希尔哈撒韦。
+
+- **2026 年资本开支预计**：1800–1900 亿美元
+- **800 亿美元卖股融资**几乎全部投入 AI 基建
+- 与 [[OpenAI]] 的 [[星门计划]] 和马斯克 [[colossus-2|Colossus]] 形成三足鼎立的 AI 基建竞争格局
 
 ## 竞争格局
 

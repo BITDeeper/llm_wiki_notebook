@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Alex Lupsasca
-tags: [physicist, openai, black-hole, black-holes, black-hole-physics, ai-researcher]
-related: [openai, gpt-5-pro, 黑洞潮汐响应方程, 科学加速, 理论物理的可程序化, ai-for-science]
-sources: ["科学家要失业了？gpt-5仅用18分钟解出黑洞方程，效率碾压人类数月！.md", "3晚攻克世界数学难题，黑洞方程秒解！openai：ai正让科学加速100年.md", "物理学家，危！anthropic联创：ai觉醒，2-3年写出菲尔兹级论文.md"]
+tags: [physicist, openai, black-hole, black-holes, black-hole-physics, ai-researcher, 物理学家, 黑洞, 人物]
+related: ["openai", "gpt-5-pro", "黑洞潮汐响应方程", "科学加速", "理论物理的可程序化", "ai-for-science", "openai-for-science"]
+sources: ["科学家要失业了？gpt-5仅用18分钟解出黑洞方程，效率碾压人类数月！.md", "3晚攻克世界数学难题，黑洞方程秒解！openai：ai正让科学加速100年.md", "物理学家，危！anthropic联创：ai觉醒，2-3年写出菲尔兹级论文.md", "openai挖走中科大少年班校友！12岁上大学，哈佛史上最年轻正教授.md"]
 created: 2026-04-08
-updated: 2026-05-06
+updated: 2026-06-02
 ---
 
 # Alex Lupsasca
 
-**Alex Lupsasca** 是一位理论物理学家，专长于黑洞物理学。他从 AI 的怀疑论者转变为坚定的拥护者，现任 [[OpenAI]] 科学加速推动者。他的经历是 [[AI for Science]] 浪潮中人类科学家角色转变的典型案例。
+**Alex Lupsasca** 是一位理论物理学家，专长于黑洞物理学，物理学新视野奖获得者。他从 AI 的怀疑论者转变为坚定的拥护者。2025年底 [[openai-for-science|OpenAI for Science]] 团队成立后，他是第一个公开披露加盟的学者。他的经历是 [[AI for Science]] 浪潮中人类科学家角色转变的典型案例。
 
 ## 学术背景与研究
 
@@ -27,7 +27,7 @@ Lupsasca 最初接触 AI 时，带着物理学家面对新观点时特有的怀�
 - **实验对象**：[[GPT-5 Pro]]
 - **任务内容**：求解复杂的黑洞方程（寻找隐藏的对称性生成元）
 - **输入条件**：仅给予最少指导
-- **结果**：模型进入“思考”模式后，在约 18 分钟内返回了与他数月工作成果完全一致的结论。
+- **结果**：模型进入"思考"模式后，在约 18 分钟内返回了与他数月工作成果完全一致的结论。
 
 这一经历让他确信 AI 显然可以彻底改变物理研究，并能够实现系统化的 [[科学加速]]。
 
@@ -38,7 +38,7 @@ Lupsasca 最初接触 AI 时，带着物理学家面对新观点时特有的怀�
 
 ## 在 OpenAI 的使命
 
-这些经历最终促使他加入 OpenAI，致力于将 AI 在科研中的应用从“一次性成功案例”推向“可重复、系统化的加速”。他的工作重点包括：
+这些经历最终促使他加入 OpenAI，致力于将 AI 在科研中的应用从"一次性成功案例"推向"可重复、系统化的加速"。他的工作重点包括：
 
 - 开发比单一聊天窗口更强大的科研工具
 - 构建更高效的论文阅读与解释工作流
