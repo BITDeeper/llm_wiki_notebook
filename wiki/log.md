@@ -498,3 +498,19 @@ sources: []
 ## 2026-06-02
 
 - ingest | 机器人运控训练步入分钟级时代！清华AIR开源UniLab：3分钟训好人形，速度暴涨10倍，Mac上也能跑
+
+## [2026-06-03] ingest | ChatGPT以后可能要没了
+
+- 新增来源页面：量子位关于OpenAI Intelligence at Work发布会及Codex并入ChatGPT的深度报道
+- 新增实体：[[alexander-embiricos]]、[[thibault-sottiaux]]、[[nick-turley]]、[[atlas浏览器]]、[[astral]]
+- 新增概念：[[从chat到agent范式转移]]、[[超级应用]]、[[少token多智能]]、[[入口之争]]
+- 新增事件：[[codex并入chatgpt-202606]]
+- 需更新现有页面：[[codex]]、[[openai]]、[[claude-code]]、[[gpt-5.5]]
+
+## [2026-06-04] ingest | CVPR 2026，英伟达特斯拉Waymo一块听中国公司讲物理AI
+
+- 新增来源页面：量子位关于小鹏在CVPR 2026展示物理AI技术栈的深度报道
+- 新增实体页面：小鹏、刘先明、Ashok Elluswamy、X-World、X-Foresight、X-Cache
+- 新增概念页面：物理AI、世界模型
+- 新增事件页面：小鹏CVPR 2026物理AI技术发布
+- 更新索引页面和总览页面以反映新增内容

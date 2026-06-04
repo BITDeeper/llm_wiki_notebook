@@ -1,16 +1,16 @@
 ---
 type: entity
 title: ClawHub
-tags: ["marketplace", "ecosystem", "plugin-marketplace", "distribution", "openclaw", "platform", "agent", "tools", "repository", "plugin", "平台", "技能市场", "plugin-market", "数据源", "工作流"]
-related: ["openclaw", "插件系统重构", "miaoda-app-builder", "水产市场", "agent-时代", "baidu-qianfan", "agent-技能", "clawbot", "tavily", "n8n", "obsidian", "ai-agent-技能生态", "claw-eval-live", "活的-benchmark"]
+tags: ["marketplace", "ecosystem", "plugin-marketplace", "distribution", "openclaw", "platform", "agent", "tools", "repository", "plugin", "平台", "技能市场", "plugin-market", "数据源", "工作流", "开源社区", "技能库"]
+related: ["openclaw", "插件系统重构", "miaoda-app-builder", "水产市场", "agent-时代", "baidu-qianfan", "agent-技能", "clawbot", "tavily", "n8n", "obsidian", "ai-agent-技能生态", "claw-eval-live", "活的-benchmark", "技能工坊"]
 created: 2026-04-01
-updated: 2026-05-11
-sources: ["104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "第一批靠龙虾赚钱的人出现！全球首个「应用开发skill」，一句话上线应用.md", "openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "硅谷最火openclaw人手一个，1分钱傻瓜式部署！小白也能上手.md", "anthropic封杀48小时，逼出openclaw最强反击！龙虾首次会生视频了.md", "龙虾史上最大升级！但接了微信的千万别更.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md"]
+updated: 2026-06-04
+sources: ["104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "第一批靠龙虾赚钱的人出现！全球首个「应用开发skill」，一句话上线应用.md", "openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "硅谷最火openclaw人手一个，1分钱傻瓜式部署！小白也能上手.md", "anthropic封杀48小时，逼出openclaw最强反击！龙虾首次会生视频了.md", "龙虾史上最大升级！但接了微信的千万别更.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "openclaw终于拿下windows！全球龙虾党狂欢.md"]
 ---
 
 # ClawHub
 
-[[ClawHub]] 是 [[OpenClaw]] 的官方插件分发市场和技能生态中心。作为 OpenClaw 3.22 版本（2026.3.22-beta.1）确立的首选插件安装渠道，它取代了 npm 成为默认源，标志着项目从依赖第三方基础设施向构建自有规范化平台的重要转型。它类似于应用商店，允许用户搜索、安装和管理各类扩展 [[OpenClaw]] 功能的插件，不仅是插件的仓库，更是 OpenClaw 从“对话框”进化为“自动执行中枢”的关键基础设施。
+[[ClawHub]] 是 [[OpenClaw]] 的官方插件分发市场和技能生态中心，承载开源社区贡献的技能（Skills）模块。作为 OpenClaw 3.22 版本（2026.3.22-beta.1）确立的首选插件安装渠道，它取代了 npm 成为默认源，标志着项目从依赖第三方基础设施向构建自有规范化平台的重要转型。它类似于应用商店，允许用户搜索、安装和管理各类扩展 [[OpenClaw]] 功能的插件，不仅是插件的仓库，更是 OpenClaw 从"对话框"进化为"自动执行中枢"的关键基础设施。
 
 此外，ClawHub 还作为 [[claw-eval-live]] 的「信号层」数据源，提供 Top-500 热门技能列表，用于判断企业关注的工作流趋势。
 
@@ -29,16 +29,19 @@ ClawHub 的建立旨在：
 ClawHub 采用优先查询策略来管理插件的获取与安装，确保官方生态的优先地位和用户安全。
 
 ### 查询与安装逻辑
+
 当用户执行插件安装命令时，系统遵循以下逻辑：
-1.  **优先查询 ClawHub**：系统首先在官方市场检索。
-2.  **回退机制**：只有在 ClawHub 找不到相应包时，系统才会回退到 npm 进行检索。
+1. **优先查询 ClawHub**：系统首先在官方市场检索。
+2. **回退机制**：只有在 ClawHub 找不到相应包时，系统才会回退到 npm 进行检索。
 
 ### 安全审查机制
+
 为了防止恶意代码注入，系统实施了严格的安全策略：
 - **来源限制**：系统拒绝安装来自 ClawHub 官方克隆仓库之外的远程插件（如外部 Git 或 HTTP 绝对路径）。
 - **生态标准化**：配合新版 `openclaw/plugin-sdk/*`，统一了插件开发接口。
 
 ### 安装方式
+
 用户可以通过多种方式访问 ClawHub 的资源：
 - **命令行工具**：使用 `npx clawhub@latest install [skill名称]` 安装特定的 [[agent-技能]]。例如，安装 [[Tavily]] 搜索插件的命令为 `npx clawhub@latest install tavily-search`。
 - **图形界面**：在 [[百度智能云]] 等部署方案中，这一过程被简化为图形界面的一键添加操作，降低了使用门槛。
@@ -46,15 +49,17 @@ ClawHub 采用优先查询策略来管理插件的获取与安装，确保官方
 
 ## 生态规模与数据
 
-ClawHub 展现了强劲的增长势头，被视为全球开发者的“进货天堂”。其繁荣有力支撑了基于 OpenClaw 的创业生态，已有 172 家创业公司基于该生态构建产品，形成了具有商业价值的平台经济。
+ClawHub 展现了强劲的增长势头，被视为全球开发者的"进货天堂"。其繁荣有力支撑了基于 OpenClaw 的创业生态，已有 172 家创业公司基于该生态构建产品，形成了具有商业价值的平台经济。
 
-| 指标 | 数据 (截至 2026 年 4 月) | 备注 |
-| :--- | :--- | :--- |
-| **技能数量** | **44,000+** | 从 2 月初的 5,000+ 个快速增长 |
-| **月访问量** | **2,700 万** | 用户活跃度高 |
-| **月活跃用户 (MAU)** | **200 万** | 稳定的用户群体 |
-| **生态创业公司** | **172 家** | 基于 OpenClaw 构建产品 |
-| **月生态收入** | **36.1 万美元** | 形成平台经济效应 |
+| 指标 | 数据 (截至 2026 年 4 月) | 数据 (截至 2026 年 6 月) | 备注 |
+| :--- | :--- | :--- | :--- |
+| **技能数量** | **44,000+** | **13,000+**（社区技能） | 从 2 月初的 5,000+ 个快速增长；社区技能为开源贡献部分 |
+| **月访问量** | **2,700 万** | — | 用户活跃度高 |
+| **月活跃用户 (MAU)** | **200 万** | — | 稳定的用户群体 |
+| **生态创业公司** | **172 家** | — | 基于 OpenClaw 构建产品 |
+| **月生态收入** | **36.1 万美元** | — | 形成平台经济效应 |
+
+> **注**：截至 2026 年 6 月，ClawHub 已积累超过 1.3 万个社区技能（开源贡献部分）。技能是 OpenClaw 的核心能力来源——封装好的任务模块。
 
 ## 技能分类与内容
 
@@ -70,7 +75,13 @@ ClawHub 收录的 Skill 涵盖多种类型，决定了智能体能够执行的�
 
 ### 关键插件
 
-- **[[Miaoda App Builder]]**：由百度 [[秒哒]] 发布，是全球首个应用开发类 Skill。它的出现填补了 ClawHub 在“产品交付”类 Skill 上的空白，允许用户通过一句话上线应用。
+- **[[Miaoda App Builder]]**：由百度 [[秒哒]] 发布，是全球首个应用开发类 Skill。它的出现填补了 ClawHub 在"产品交付"类 Skill 上的空白，允许用户通过一句话上线应用。
+- **Tokenjuice**：以官方插件身份正式登陆 npm 和 ClawHub。
+- **GitHub Copilot 运行时**：以官方插件身份正式登陆 npm 和 ClawHub。
+
+## 与技能工坊的关系
+
+[[技能工坊]] 上线后，Agent 可自主发起技能提议，经人类审批后生成的技能同样进入 ClawHub 生态，形成"人工编写 + AI 自主提议"的双轨技能供给模式。
 
 ## 在评测体系中的作用
 

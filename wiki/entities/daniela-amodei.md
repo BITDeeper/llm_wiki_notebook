@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Daniela Amodei
-tags: [anthropic, founder, president, people, ai, leadership, 人物, 领导者, 人文主义, 高管, 联合创始人, 亿万富翁, 捐赠承诺, 企业文化]
-related: [anthropic, dario-amodei, ai-safety, openai, claude-cowork, 牧星者, anthropic-labs, 双轨战略, anthropic-七子, anthropic-h轮融资-202605, anthropic文化面试, 智识独立筛选]
-sources: ["anthropic登上时代封面！内部曝猛料：ai递归自我改进，或在一年内发生.md", "硅谷最危险战争！anthropic死扛封杀，营收狂飙190亿.md", "文科生年薪72万美元！anthropic总裁预警：逻辑已死，asi不养码农.md", "再造一个10亿爆款！ins之父卸任anthropic-cpo，空降一线写代码.md", "硅谷最危险战争！anthropic死扛封封杀，营收狂飙190亿.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "年薪最高85万、ipo后或身家过亿，进anthropic被问到怀疑人生？.md"]
+tags: [anthropic, founder, president, people, ai, leadership, 人物, 领导者, 人文主义, 高管, 联合创始人, 亿万富翁, 捐赠承诺, 企业文化, 总裁]
+related: [anthropic, dario-amodei, ai-safety, openai, claude-cowork, 牧星者, anthropic-labs, 双轨战略, anthropic-七子, anthropic-h轮融资-202605, anthropic文化面试, 智识独立筛选, greg-brockman]
+sources: ["anthropic登上时代封面！内部曝猛料：ai递归自我改进，或在一年内发生.md", "硅谷最危险战争！anthropic死扛封杀，营收狂飙190亿.md", "文科生年薪72万美元！anthropic总裁预警：逻辑已死，asi不养码农.md", "再造一个10亿爆款！ins之父卸任anthropic-cpo，空降一线写代码.md", "硅谷最危险战争！anthropic死扛封封杀，营收狂飙190亿.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "年薪最高85万、ipo后或身家过亿，进anthropic被问到怀疑人生？.md", "openai执剑人9年恩仇录！惨被anthropic联创逐出chatgpt前身.md"]
 created: 2026-03-12
-updated: 2026-05-30
+updated: 2026-06-03
 ---
 
 # Daniela Amodei
@@ -17,6 +17,11 @@ updated: 2026-05-30
 ### OpenAI 时期
 - 曾任 OpenAI 安全与政策副总裁。
 - 与哥哥 Dario 一样，她对 OpenAI 的发展方向感到担忧，特别是关于安全与商业化之间的平衡。
+
+### 与 Brockman 的交集
+2018 年 [[Greg Brockman]] 在晚宴遇见妻子 Anna 后开始约会，Daniela 跳出来跟 Brockman 打赌 100 美元，赌 Anna 不是"the one"。一年后 Brockman 与 Anna 结婚，婚礼部分在 OpenAI 办公室举行。Daniela 认赌服输，当场掏出一张 100 美元的支票。
+
+这段轶事象征了两家万亿 AI 公司创始家族之间曾经亲密无间的关系——当年赌钱的朋友圈，如今变成了 AI 史上最昂贵的对决。
 
 ### 创立 Anthropic
 - **2020 年底**：与 Dario Amodei 及其他五名 OpenAI 关键研究人员一同离开 OpenAI。
@@ -44,8 +49,8 @@ Daniela 强调 Anthropic 的理想主义色彩，主张像教育孩子一样"训
 
 ### 双轨战略与 Labs 领导
 作为公司核心领导层，Daniela 直接领导 [[anthropic-labs]] 团队，并主导确立了公司的 [[双轨战略]]：
-- **0-1 探索**：由 Labs 负责，定义为"法外之地"，鼓励团队跳出框架进行破坏性创新。她直接接收 [[mike-krieger]] 的汇报。
-- **1-N 规模化**：由 [[ami-vora]] 领导的正规军负责，确保商业落地的稳定性。
+- **0-1 探索**：由 Labs 负责，定义为"法外之地"，鼓励团队跳出框架进行破坏性创新。她直接接收 [[Mike Krieger]] 的汇报。
+- **1-N 规模化**：由 [[Ami Vora]] 领导的正规军负责，确保商业落地的稳定性。
 
 ### 文化面试与人才筛选
 Daniela 在公司的 [[anthropic文化面试|文化面试]] 机制中扮演核心角色。她在播客中明确阐述了筛选逻辑：

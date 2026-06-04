@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Cloudflare
-tags: ["网络安全", "基础设施", "股市", "saas", "company", "cybersecurity", "infrastructure", "网络基础设施", "安全", "上市公司"]
-related: ["claude-mythos", "saas-安全危机", "anthropic", "crowdstrike", "okta", "claude-code-security", "project-glasswing", "claude-mythos-preview"]
+tags: ["网络安全", "基础设施", "股市", "saas", "company", "cybersecurity", "infrastructure", "网络基础设施", "安全", "上市公司", "云服务"]
+related: ["claude-mythos", "saas-安全危机", "anthropic", "crowdstrike", "okta", "claude-code-security", "project-glasswing", "claude-mythos-preview", "安全架构重构三层原则", "grant-bourzikas"]
 created: 2026-04-11
-updated: 2026-05-25
-sources: ["anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "一夜变天？claude出手，网络安全股集体「血洗」！全球百亿市值已蒸发.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md"]
+updated: 2026-06-03
+sources: ["anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "一夜变天？claude出手，网络安全股集体「血洗」！全球百亿市值已蒸发.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md", "忍无可忍，linux之父怒怼ai：别再用「智能垃圾」塞满内核列表了！.md"]
 ---
 
 # Cloudflare
@@ -14,7 +14,18 @@ sources: ["anthropic发最高警告：0day大爆发即将来临！全球巨头�
 
 ## 在玻璃翼计划中的角色
 
-Cloudflare 是 [[project-glasswing]] 的内测合作方之一。在极度关键的核心路径系统中，[[claude-mythos-preview]] 一口气挖出了 **2,000 个漏洞**，其中 **400 个**属于高危或严重级别。Cloudflare 安全团队反馈，Mythos 的误报率甚至比人类顶级安全测试员还要低。
+Cloudflare 是 [[project-glasswing]] 的内测合作方之一，后期加入成为合作伙伴。在极度关键的核心路径系统中，[[claude-mythos-preview]] 一口气挖出了 **2,000 个漏洞**，其中 **400 个**属于高危或严重级别。Cloudflare 安全团队反馈，Mythos 的误报率甚至比人类顶级安全测试员还要低。
+
+### 内部测试与评估
+
+Cloudflare 首席信息安全官 [[grant-bourzikas]] 公布了 [[claude-mythos]] 在 50 多个自有生产仓库的测试结果，确认该模型能力非同凡响，在面向公众发布前必须增加额外安全防护措施。
+
+#### 核心观点
+
+- AI 对安全的冲击绝不只是速度问题
+- 真正的解法是 [[安全架构重构三层原则]]：让漏洞即使存在也难以被利用
+- 与其压缩响应时间，不如从架构层面降低漏洞可利用性
+- Mythos 预览版的原生拒绝机制一致性不足，不能单独构成完整安全边界
 
 ## AI 时代的危机
 

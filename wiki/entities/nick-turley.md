@@ -2,10 +2,10 @@
 type: entity
 title: Nick Turley
 tags: [openai, product-manager, leadership, 人物, chatgpt, 产品负责人]
-related: ["chatgpt", "sam-altman", "searchgpt", "atlas", "code-red", "产品-研究对齐", "openai", "chatgpt-plus", "openai三线合一重组-20260516", "greg-brockman", "ai-操作系统化", "openai-super-app", "simon-willison"]
+related: ["chatgpt", "sam-altman", "searchgpt", "atlas", "code-red", "产品-研究对齐", "openai", "chatgpt-plus", "openai三线合一重组-20260516", "greg-brockman", "ai-操作系统化", "openai-super-app", "simon-willison", "thibault-sottiaux", "codex"]
 created: 2025-12-10
-updated: 2026-05-31
-sources: ["奥特曼只是面子，他才是里子？揭秘chatgpt的30岁「定海神针」.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
+updated: 2026-06-03
+sources: ["奥特曼只是面子，他才是里子？揭秘chatgpt的30岁「定海神针」.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "“chatgpt以后可能要没了”.md"]
 ---
 
 # Nick Turley（尼克·特利）
@@ -44,6 +44,10 @@ Turley 正在推动 ChatGPT 向「AI 操作系统」演进（参见 [[ai-操作�
 ## 人事变动
 
 在[[openai三线合一重组-20260516|2026年5月OpenAI三线合一重组]]中，Turley 被调离最核心的消费者产品线，转为主管相对沉闷的"企业用户"方向。WIRED报道称："他不再负责任何消费者产品。"
+
+### 人事信号
+
+Turley 的调岗与 [[thibault-sottiaux]]（[[codex]] 负责人）升任核心产品与平台负责人形成鲜明对照，被视为 ChatGPT 时代让位于 Codex 时代的关键人事信号。ChatGPT 的流量底盘价值仍在，但增长引擎和未来叙事已转移到 Codex 一侧。
 
 ## 标志性意义与评价
 

@@ -2,10 +2,10 @@
 type: entity
 title: Fidji Simo
 tags: ["openai", "executive", "management", "person", "product", "leadership", "strategy", "高管", "企业治理", "人物", "广告变现", "meta", "ceo", "instacart", "商业化", "女性领导者", "agi部署"]
-related: ["openai", "sam-altman", "agi-deployment", "codex", "anthropic", "claude-code", "chatgpt", "三合一超级app", "atlas", "战略大收缩", "红色警报", "预测市场", "barret-zoph", "总经理制", "对话式广告", "mira-murati", "研究驱动产品", "迭代式部署", "体位性心动过速综合征", "数字在场感", "模型智能与产品体验的差距", "greg-brockman", "openai三线合一重组-20260516"]
+related: ["openai", "sam-altman", "agi-deployment", "codex", "anthropic", "claude-code", "chatgpt", "三合一超级app", "atlas", "战略大收缩", "红色警报", "预测市场", "barret-zoph", "总经理制", "对话式广告", "mira-murati", "研究驱动产品", "迭代式部署", "体位性心动过速综合征", "数字在场感", "模型智能与产品体验的差距", "greg-brockman", "openai三线合一重组-20260516", "super-app-openai"]
 created: 2026-04-25
-updated: 2026-05-22
-sources: ["openai，危机四伏.md", "永别了，sora！奥特曼all-in超级app.md", "openai帝国濒临崩盘，奥特曼急招3500人反击！claude抢走70%新单.md", "ai三巨头72小时狂扫桌面agent！openai三合一，谷歌秘测mac版.md", "anthropic逼急奥特曼：自砍副业，死磕claude主场.md", "openai开除内鬼！拿着改变世界的机密去赌博，一夜狂赚几十万.md", "前openai-cto企业遭重创！办公室偷情致团队崩盘，核心3人叛逃openai.md", "年入1400亿！奥特曼印钞机转疯了，agi尽头是卖广告.md", "anthropic逼急奥特曼：死磕claude主场.md", "硅谷真实「无间道」！openai前cto怒斩泄密联创，奥特曼打包收了.md", "openai开除内鬼！拿着改变机密去赌博，一夜狂赚几十万.md", "openai十周年「血色浪漫」：11位联创出走8位，奥特曼深夜发文.md", "从小渔村逆袭硅谷，她是让奥特曼想法「变现」的人.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md"]
+updated: 2026-06-03
+sources: ["openai，危机四伏.md", "永别了，sora！奥特曼all-in超级app.md", "openai帝国濒临崩盘，奥特曼急招3500人反击！claude抢走70%新单.md", "ai三巨头72小时狂扫桌面agent！openai三合一，谷歌秘测mac版.md", "anthropic逼急奥特曼：自砍副业，死磕claude主场.md", "openai开除内鬼！拿着改变世界的机密去赌博，一夜狂赚几十万.md", "前openai-cto企业遭重创！办公室偷情致团队崩盘，核心3人叛逃openai.md", "年入1400亿！奥特曼印钞机转疯了，agi尽头是卖广告.md", "anthropic逼急奥特曼：死磕claude主场.md", "硅谷真实「无间道」！openai前cto怒斩泄密联创，奥特曼打包收了.md", "openai开除内鬼！拿着改变机密去赌博，一夜狂赚几十万.md", "openai十周年「血色浪漫」：11位联创出走8位，奥特曼深夜发文.md", "从小渔村逆袭硅谷，她是让奥特曼想法「变现」的人.md", "突发！openai大规模重组，总裁brockman夺权挂帅.md", "openai执剑人9年恩仇录！惨被anthropic联创逐出chatgpt前身.md"]
 ---
 
 # Fidji Simo（菲吉·西莫）
@@ -81,7 +81,7 @@ Simo 与 [[Sam Altman]]、CFO Sarah Friar 一起对公司所有项目进行了�
 
 ### 三合一重组与产品整合
 
-在 2026 年 3 月 19 日的内部备忘录中，Simo 指出"产品碎片化正在拖慢我们的速度"，发起了重大的产品重组，决定将 ChatGPT（对话）、Codex（编码助手）和 [[Atlas]]（AI 浏览器）强制整合为一个桌面超级应用。
+在 2026 年 3 月 19 日的内部备忘录中，Simo 直指"我们摊得太多了"，承认 ChatGPT、Codex、[[Atlas]] 浏览器三大产品线各自为战、抢算力资源的困境。她指出"产品碎片化正在拖慢我们的速度"，发起了重大的产品重组，决定将 ChatGPT（对话）、Codex（编码助手）和 [[Atlas]]（AI 浏览器）强制整合为一个桌面超级应用。这一表态为 [[Greg Brockman|Brockman]] 后续推进 [[super-app-openai|超级应用]] 战略、合并三大产品线提供了内部共识基础。
 
 Simo 的具体战略主张包括：
 1.  **聚焦企业客户**：将资源向企业级市场倾斜，目标是到年底让企业客户贡献一半收入。

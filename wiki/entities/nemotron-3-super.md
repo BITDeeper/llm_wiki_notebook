@@ -1,16 +1,20 @@
 ---
 type: entity
 title: Nemotron 3 Super
-tags: [llm, open-source, nvidia, ai-agents, mamba-moe, moe, agent]
-related: ["英伟达", "latentmoe", "mtp", "nvfp4", "blackwell", "openclaw", "nemoclaw", "pinchbench", "混合mamba-transformer架构", "latent-moe", "pivotrl"]
+tags: ["llm", "open-source", "nvidia", "ai-agents", "mamba-moe", "moe", "agent", "英伟达", "大语言模型", "推理引擎"]
+related: ["英伟达", "latentmoe", "mtp", "nvfp4", "blackwell", "openclaw", "nemoclaw", "pinchbench", "混合mamba-transformer架构", "latent-moe", "pivotrl", "hermes-agent", "openshell"]
 created: 2026-03-12
-updated: 2026-05-08
-sources: ["老黄杀入openclaw战场！最强开源「龙虾」模型直逼opus-4.6.md", "老黄入局吃龙虾！英伟达发布最强开源agent推理模型.md"]
+updated: 2026-06-03
+sources: ["老黄杀入openclaw战场！最强开源「龙虾」模型直逼opus-4.6.md", "老黄入局吃龙虾！英伟达发布最强开源agent推理模型.md", "老黄也来养马了！英伟达版hermes-agent发布.md"]
 ---
 
 # Nemotron 3 Super
 
-[[Nemotron 3 Super]] 是 [[英伟达]] 发布的开源大语言模型，拥有 1200 亿参数（120 亿激活参数）。该模型专为大规模 [[agent]] 推理和多智能体协同设计，在 [[openclaw]] 任务中取得了 85.6% 的成功率，性能直逼 Claude Opus 4.6，被视为“最强开源 Agent 模型”。
+[[Nemotron 3 Super]]（120B-A12B）是 [[英伟达]] 自研的开源大语言模型，拥有 1200 亿参数（120 亿激活参数）。该模型专为大规模 [[agent]] 推理和多智能体协同设计，在 [[openclaw]] 任务中取得了 85.6% 的成功率，性能直逼 Claude Opus 4.6，被视为"最强开源 Agent 模型"。同时，它也是 [[nemoclaw]] 方案的默认底层推理引擎。
+
+## 在 NemoClaw 架构中的角色
+
+位于模型层，负责推理、选工具、起草回复。与 Harness 层（[[hermes-agent]]）和运行时层（[[openshell]]）共同构成三层架构。
 
 ## 核心特性
 
@@ -20,6 +24,10 @@ sources: ["老黄杀入openclaw战场！最强开源「龙虾」模型直逼opus
   - 推理速度提升 3 倍（尤其在代码和工具调用等结构化生成任务中）。
   - 吞吐量提升 5 倍（在 8k 输入与 64k 输出设置下，是 GPT-OSS-120B 的 2.2 倍）。
 - **原生精度**：首个原生采用 [[nvfp4]] 精度进行预训练的模型，专为 [[blackwell]] 架构优化。实测显示，其在 B200 上的推理速度比 H100 快四倍，且内存需求更低。
+
+## 多模态版本
+
+Nemotron Omni 是其多模态版本，可直接处理视频、音频、图片和 PDF。
 
 ## 基准测试表现
 
@@ -36,10 +44,10 @@ sources: ["老黄杀入openclaw战场！最强开源「龙虾」模型直逼opus
 ### 混合 Mamba-Transformer
 为了解决百万级上下文下的效率与精度权衡，模型采用了 [[混合mamba-transformer架构]]。88层网络采用周期性交替排列：
 - **Mamba-2 层**：负责高效的序列建模（线性时间复杂度）。
-- **Transformer 层**：作为“全局锚点”负责长距离信息路由，确保精准的关联检索。
+- **Transformer 层**：作为"全局锚点"负责长距离信息路由，确保精准的关联检索。
 
 ### LatentMoE
-引入 [[latentmoe]]（隐式混合专家）架构。在路由决策前，先将 Token 投射到更小的潜在维度（低秩潜空间）进行降维。这使得模型能够“花1个专家的成本，激活4个专家”，在维持同等推理成本的前提下，实现更精细的专业化，大幅提升了参数利用率和算力利用率。
+引入 [[latentmoe]]（隐式混合专家）架构。在路由决策前，先将 Token 投射到更小的潜在维度（低秩潜空间）进行降维。这使得模型能够"花1个专家的成本，激活4个专家"，在维持同等推理成本的前提下，实现更精细的专业化，大幅提升了参数利用率和算力利用率。
 
 ### MTP (Multi-Token Prediction)
 引入 [[mtp]]（多Token预测）层，要求模型在每个位置预测未来的多个 Token。这不仅提升了模型对长程因果关系的理解，还实现了原生的投机解码，大幅降低生成延迟。
@@ -64,7 +72,7 @@ RL 阶段在 NeMo Gym 平台的 21 种环境、37 个数据集上进行了多环
 
 ## 战略背景
 
-Nemotron 3 Super 的发布是英伟达 260 亿美元开源 AI 模型投资计划的一部分。英伟达通过运行此类大规模开源模型来压测硬件，利用数据反馈反哺硬件架构设计，实现“软件定义硬件进化”的闭环。
+Nemotron 3 Super 的发布是英伟达 260 亿美元开源 AI 模型投资计划的一部分。英伟达通过运行此类大规模开源模型来压测硬件，利用数据反馈反哺硬件架构设计，实现"软件定义硬件进化"的闭环。
 
 ## 参考链接
 - [GitHub Usage Cookbook](https://github.com/NVIDIA-NeMo/Nemotron/tree/main/usage-cookbook/Nemotron-3-Super)

@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Linus Torvalds
-tags: ["linux", "git", "programming-legend", "ai-coding", "ai-programming", "open-source", "engineering-culture", "程序员", "开源", "ai编程"]
-related: ["9级地震", "编程奇点", "linux", "audionoise", "google-antigravity", "vibe-coding", "zig", "ai代码禁令", "andrew-kelley"]
+tags: ["linux", "git", "programming-legend", "ai-coding", "ai-programming", "open-source", "engineering-culture", "程序员", "开源", "ai编程", "人物", "内核开发"]
+related: ["9级地震", "编程奇点", "linux", "audionoise", "google-antigravity", "vibe-coding", "zig", "ai代码禁令", "andrew-kelley", "linux内核安全邮件列表", "过客式报告", "认知ddos", "ai安全噪音危机-2026"]
 created: 2026-01-14
-updated: 2026-05-31
-sources: ["再见，程序员！硅谷全员ai-coding，卡帕西宣告9级地震来了.md", "linux祖师爷真香现场！曾嘲讽ai编程是垃圾，如今亲自下场氛围编程.md", "开源编程语言zig，向ai代码说「不」.md"]
+updated: 2026-06-03
+sources: ["再见，程序员！硅谷全员ai-coding，卡帕西宣告9级地震来了.md", "linux祖师爷真香现场！曾嘲讽ai编程是垃圾，如今亲自下场氛围编程.md", "开源编程语言zig，向ai代码说「不」.md", "忍无可忍，linux之父怒怼ai：别再用「智能垃圾」塞满内核列表了！.md"]
 ---
 
 # Linus Torvalds
 
-Linus Torvalds 是芬兰裔美国软件工程师，[[linux]] 内核和 [[git]] 的创造者，开源社区最具影响力的技术领袖之一。他以对代码质量的严格要求和直率的沟通风格著称，被誉为编程界的"活化石"。
+Linus Torvalds 是芬兰裔美国软件工程师，[[linux]] 内核创始人与终身维护者，[[git]] 的创造者，开源运动最具影响力的技术领袖之一。他以对代码质量的严格要求和直率的沟通风格著称，被誉为编程界的"活化石"。
 
 ## AI 编程立场的转变
 
@@ -32,6 +32,20 @@ Linus 曾多次公开嘲讽 AI 生成的代码是"垃圾"，并批评依赖 AI �
 ### 限制与边界
 尽管态度转变，Linus 目前仅在"玩具级"项目中使用 AI 编程，且明确表示不会将其用于 Linux 内核开发。这反映了 AI 编程在"高可靠性/安全关键"系统中的应用边界仍存在争议。
 
+## 在 AI 安全治理中的角色
+
+2026 年 5 月 17 日，Linus 在每周内核状态更新中公开批评 AI 批量漏洞报告对开源安全治理的冲击，明确表示 [[linux内核安全邮件列表]] 已"几乎完全无法管理"。
+
+### 核心立场
+
+- **不反对 AI 工具本身**：原话"随意使用它们，但要用得有成效，能带来更好的体验"
+- **反对 [[过客式报告]]**：批评那些"用 AI 扫一遍代码、发完报告转身就走"的行为，斥为"毫无意义的痛苦和假装工作"
+- **关注人类认知资源消耗**：维护者被迫用最昂贵的认知资源去证明 AI 生成的垃圾报告确实是垃圾
+
+### 历史意义
+
+Linus 的公开批评标志着全球最成熟的开源安全防线——运行二十余年的私密安全报告流程——首次被 AI 的"好心"压垮，而非被黑客攻破或零日漏洞击穿。这一事件被视为 [[ai安全噪音危机-2026]] 和 [[认知ddos]] 现象的标志性案例。
+
 ## 与开源社区的对比
 
-Torvalds 的转向与 [[andrew-kelley]] 的坚守形成鲜明对比：当 Linux 之父也开始拥抱 AI 时，[[zig]] 等项目的 [[ai代码禁令]] 显得尤为引人注目。这一对比凸显了 AI 编程工具在开源社区中引发的深刻分歧。
+Torvalds 的转向与 [[andrew-kelley]] 的坚守形成鲜明对比：当 Linux 之父也开始拥抱 AI 时，[[zig]] 等项目的 [[ai代码禁令]] 显得尤为引人注目。同时，他在内核安全治理中对 AI 滥用的怒怼，又表明他对 AI 的态度并非全盘接受，而是区分了"工具使用"与"工具滥用"的边界。这一对比凸显了 AI 编程工具在开源社区中引发的深刻分歧。

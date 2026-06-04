@@ -1,11 +1,11 @@
 ---
 type: entity
 title: SGLang
-tags: ["inference-engine", "open-source", "llm", "system-optimization", "推理引擎", "开源", "ai框架", "推理框架", "ai基础设施", "开源项目", "大模型部署", "大模型", "大模型服务", "llm-serving", "系统优化"]
-related: ["radixark", "miles", "deepseek-v4", "day-0-兼容性", "shadowradix-前缀缓存", "musa", "vllm", "摩尔线程", "qwen3-7-max", "平头哥真武m890", "musa架构", "mooncake", "tilelang", "vibe-coding", "p-d分离", "prefill-decode分离架构", "mtt-s5000", "echo-弹性投机解码", "投机解码", "oscar-kv-quantization", "together-ai", "kv-cache-量化"]
+tags: ["inference-engine", "open-source", "llm", "system-optimization", "推理引擎", "开源", "ai框架", "推理框架", "ai基础设施", "开源项目", "大模型部署", "大模型", "大模型服务", "llm-serving", "系统优化", "serving"]
+related: ["radixark", "miles", "deepseek-v4", "day-0-兼容性", "shadowradix-前缀缓存", "musa", "vllm", "摩尔线程", "qwen3-7-max", "平头哥真武m890", "musa架构", "mooncake", "tilelang", "vibe-coding", "p-d分离", "prefill-decode分离架构", "mtt-s5000", "echo-弹性投机解码", "投机解码", "oscar-kv-quantization", "together-ai", "kv-cache-量化", "oscar", "长上下文serving"]
 created: 2026-05-09
-updated: 2026-05-29
-sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支团队.md", "老黄喝豆汁「破防」背后，国产gpu正在填上cuda护城河.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md", "国产gpu组了个开源局，把sglang等核心开发者都摇来了！.md", "国产gpu首获全球顶级推理框架「原生门票」：musa合入sglang主线.md", "icml-2026-spotlight-拒绝盲目猜token，阿里x浙大将投机解码带入弹性预算时代.md", "超越turboquant，面向长上下文推理的真2-bit-kv-quantization算法问世.md"]
+updated: 2026-06-04
+sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支团队.md", "老黄喝豆汁「破防」背后，国产gpu正在填上cuda护城河.md", "阿里让qwen3.7-max模拟创业，一年“营收”1400万.md", "国产gpu组了个开源局，把sglang等核心开发者都摇来了！.md", "国产gpu首获全球顶级推理框架「原生门票」：musa合入sglang主线.md", "icml-2026-spotlight-拒绝盲目猜token，阿里x浙大将投机解码带入弹性预算时代.md", "超越turboquant，面向长上下文推理的真2-bit-kv-quantization算法问世.md", "超越turboquant：together-ai把2-bit-kv-cache推向真实服务.md"]
 ---
 
 # SGLang
@@ -18,6 +18,9 @@ sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支�
 - **极致性能**：每天处理数万亿token的生产流量，性能逼近硬件物理极限。
 - **大规模部署**：全球部署规模超过40万张GPU。
 - **高并发推理服务**：工业级框架，支持高并发推理服务场景。
+- **Paged KV Cache 管理**：高效的显存管理机制。
+- **Radix prefix cache（前缀缓存复用）**：提升推理效率的关键缓存技术。
+- **Fused kernel pipeline**：融合算子流水线，面向可部署的长上下文 workload 设计。
 
 ## 技术架构与优化
 
@@ -32,12 +35,15 @@ sources: ["1亿美金！英伟达amd英特尔破天荒联手，投给了这支�
 
 ## 与 OSCAR 的集成
 
-[[oscar-kv-quantization]] 已接入 SGLang，实现开箱即用的 2-bit KV serving。在 SGLang 中的具体实现包括：
+[[oscar-kv-quantization|OSCAR]] 已成功接入 SGLang 的服务路径，实现开箱即用的 2-bit KV serving，证明了 2-bit KV Cache 量化方案在真实推理系统中的可部署性。这一集成标志着 [[kv-cache-量化]] 技术从离线评测走向真实 [[长上下文serving]] 系统的重要一步。
 
-- 维护 token 池：BF16 sink（64 tokens）| INT2 history（约 2.28 BPE）| BF16 recent（256 tokens）
+在 SGLang 中的具体实现包括：
+
+- 维护 token 池（[[三段式token-pool]] 架构）：BF16 sink（64 tokens）| INT2 history（约 2.28 BPE）| BF16 recent（256 tokens）
 - 融合 Triton kernel 执行 rotate/clip/quantize/pack 操作
 - 兼容 paged KV、radix prefix cache 和 fused kernel pipeline
 - 支持 online softmax merge 合并 BF16 段和 INT2 段的结果
+- 与 SGLang 的批量调度机制兼容，使得极致压缩的 KV Cache 能够在生产环境中运行
 
 这一集成使 OSCAR 从论文方法变为可直接用于长上下文 workload 的生产级系统。
 

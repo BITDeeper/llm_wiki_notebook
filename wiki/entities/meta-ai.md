@@ -2,10 +2,10 @@
 type: entity
 title: Meta AI
 tags: [organization, ai-lab, llama, meta, organizations, big-tech, 科技公司, ai研究, 计算机视觉, 研究机构, ai, 视觉推理]
-related: [openai, google, 庞若鸣, llama-4, 扎克伯格, yann-lecun, alexandr-wang, fair, ami-labs, vggt-omega, 牛津大学视觉几何组, dinov3, atlas-视觉推理, 香港中文大学, google-deepmind]
+related: [openai, google, 庞若鸣, llama-4, 扎克伯格, yann-lecun, alexandr-wang, fair, ami-labs, vggt-omega, 牛津大学视觉几何组, dinov3, atlas-视觉推理, 香港中文大学, google-deepmind, papers-with-code, ross-taylor]
 created: 2026-02-26
-updated: 2026-05-23
-sources: ["刚刚，庞若鸣跳槽openai！放弃14亿年薪，在meta只待了7个月.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "cvpr-2026-oral-牛津-&-meta-ai-推出-vggt-ω：前馈-3d-重建迈入-10b-参数时代，动态场景精度升-77%.md", "meta华人发布atlas，一个词搞定可泛化的视觉推理！.md"]
+updated: 2026-06-03
+sources: ["刚刚，庞若鸣跳槽openai！放弃14亿年薪，在meta只待了7个月.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "cvpr-2026-oral-牛津-&-meta-ai-推出-vggt-ω：前馈-3d-重建迈入-10b-参数时代，动态场景精度升-77%.md", "meta华人发布atlas，一个词搞定可泛化的视觉推理！.md", "cvpr论文一网打尽！科研神器papers-with-code满血复活.md"]
 ---
 
 # Meta AI
@@ -41,6 +41,12 @@ Meta AI 是 Meta 公司（原 Facebook）旗下的人工智能研发部门，致
 - **Avi Verma & Ethan Knight**：入职仅一个月后便返回 OpenAI。
 - **Mat Velloso**：负责开发者平台产品，短暂任职后离职。
 
+### Papers with Code 收购与关闭
+- **2019年12月**：Meta 收购 [[papers-with-code]]，承诺保持平台中立、开放和免费。
+- **收购后**：团队转型从事大模型研究，投入 Papers with Code 的维护时间逐渐减少，大量成员离开 Meta。
+- **2025年7月**：平台毫无预警关闭，显示"502 Bad Gateway"，GitHub 上的求助帖无人回应。
+- **教训**：Meta 对 Papers with Code 的关闭暴露了大公司维护开源社区工具的可持续性问题——收购时的承诺与内部战略转型之间的矛盾，导致社区关键基础设施突然断裂。
+
 ## 研究特点与技术贡献
 
 - 偏好开源发布策略，模型和代码通常公开可复现（代码托管于 github.com/facebookresearch）。
@@ -74,3 +80,4 @@ Meta 在 AI 基础设施上投入巨大，近期官宣了与 AMD 的合作以扩
 - [[牛津大学视觉几何组]]: VGGT-Ω 联合开发伙伴。
 - [[香港中文大学]]: ATLAS 联合开发伙伴。
 - [[ziyu-guo|郭子钰]]: 曾在 Meta AI 实习，参与多模态大模型研究。
+- [[papers-with-code]]: 被 Meta 收购后关闭的论文与代码索引平台。

@@ -3,10 +3,10 @@
 type: entity
 title: MiniMax M3
 created: 2026-06-01
-updated: 2026-06-02
-tags: ["大模型", "编程agent", "长上下文", "多模态", "开源模型", "开源", "agentic", "编程"]
-related: ["minimax", "msa-稀疏注意力", "msa-minimax-sparse-attention", "claw-eval", "gpt-5.5", "任务执行范式", "minimax-code", "frontier-三件套", "gemini", "交互式用户模拟器框架", "claude-code"]
-sources: ["minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md", "minimax-m3来了！.md", "minimax-m3一手实测：老黄ppt上74个logo，我以为能难住它.md"]
+updated: 2026-06-04
+tags: ["大模型", "编程agent", "长上下文", "多模态", "开源模型", "开源", "agentic", "编程", "大语言模型", "国产模型"]
+related: ["minimax", "msa-稀疏注意力", "msa-minimax-sparse-attention", "claw-eval", "gpt-5.5", "任务执行范式", "minimax-code", "frontier-三件套", "gemini", "交互式用户模拟器框架", "claude-code", "openclaw"]
+sources: ["minimax新旗舰m3发布！自己干了12小时复现获奖论文，三条科技树同时点满.md", "minimax-m3来了！.md", "minimax-m3一手实测：老黄ppt上74个logo，我以为能难住它.md", "openclaw终于拿下windows！全球龙虾党狂欢.md"]
 origin_date: 2026-06-01
 ---
 # MiniMax M3
@@ -51,6 +51,11 @@ M3在内部测试中从残缺Triton骨架出发，在NVIDIA Hopper架构GPU上�
 
 ### 地图应用
 根据黄仁勋北京行程制作可交互打卡地图。
+
+## 生态接入
+
+### OpenClaw
+在 [[openclaw]] 2026.6.1版本更新中全面接入OpenClaw生态，作为"国产顶尖模型正式进群"的标志。MiniMax M3的接入暗示OpenClaw正在从单一模型生态向多模型中立平台演进。这与GitHub Copilot Claude 1M长上下文能力的打通共同构成了OpenClaw模型层的扩军。
 
 ## 配套产品
 

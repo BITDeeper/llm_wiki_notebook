@@ -1,0 +1,16 @@
+---
+type: entity
+title: 李飞飞
+created: 2026-06-02
+updated: 2026-06-02
+tags: ["researcher", "stanford", "ai-vision", "embodied-ai", "AI", "世界模型", "空间智能", "学术界", "人物", "计算机视觉", "斯坦福大学", "3d", "AI教母", "斯坦福", "以人为本ai", "scaling-law", "数据集"]
+related: ["吴佳俊", "李曼玲", "theory-of-space", "ranjay-krishna", "world-labs", "marble", "世界模型", "google-deepmind", "andrej-karpathy", "esi-bench", "具身空间智能", "imagenet", "yining-hong", "spark-2.0", "空间智能", "3d高斯泼溅", "gpic", "斯坦福大学", "ai-for-science", "以人为本ai", "scaling-law"]
+sources: ["李曼玲、李飞飞、吴佳俊等联手：评估具身大模型的新范式！.md", "李飞飞踢馆游戏圈：unity们，该退场了！.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "李飞飞再出手，空间智能的imagenet来了.md", "性能超越李飞飞，他们把10亿高斯点的3d世界装进浏览器.md", "李飞飞造了imagenet，现在她又带人超越了它.md", "李飞飞获布朗大学荣誉博士，imagenet点燃现代ai之火.md", "百万规模数据集已经不够用了！斯坦福开源-gpic：28-万亿像素、1-亿张合规图像，视觉生成步入"大语料"时代.md"]
+---
+# 李飞飞
+
+**李飞飞**是计算机视觉领域的顶尖学者，[[斯坦福大学]]教授。她以创建 ImageNet 数据集而闻名于世，该数据集深刻推动了深度学习革命。
+
+## 与本 Wiki 的关联
+
+李飞飞教授团队主导了 [[gpic]]（Giant Permissive Image Corpus）数据集的开发。从 ImageNet 到 GPIC，她的研究始终聚焦于通过高质量数据基础设施推动计算机视觉领域的发展。GPIC 可被视为 ImageNet 精神在视觉生成时代的延续——从百万级分类数据集到亿级合规生成数据集。

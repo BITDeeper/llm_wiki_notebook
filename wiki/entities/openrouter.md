@@ -1,11 +1,11 @@
 ---
 type: entity
 title: OpenRouter
-tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计]
+tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合]
 related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载]
 created: 2026-03-20
-updated: 2026-05-29
-sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md"]
+updated: 2026-06-04
+sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md"]
 ---
 
 # OpenRouter
@@ -56,12 +56,14 @@ OpenRouter 引入了支持"隐身模型"的功能，这使得模型开发者可�
 
 OpenRouter 公开的模型调用量排行榜已成为行业风向标，投资人、研究者和媒体均参考该榜单判断市场趋势。排行榜使 OpenRouter 成为 AI 生态的"信息枢纽"——当整个行业都参考你的数据做决策时，平台本身就具备了战略护城河。
 
+排名页面：https://openrouter.ai/rankings
+
 ### 2026 年 5 月月度排行榜
 
 #### 模型排名
 | 排名 | 模型 | 月调用量 |
 |------|------|----------|
-| 1 | [[deepseek-v4|DeepSeek V4 Flash]] | 9.13T tokens |
+| 1 | [[deepseek-v4\|DeepSeek V4 Flash]] | 9.13T tokens |
 | 8 | DeepSeek V3.2 | 4.07T tokens |
 | 9 | DeepSeek V4 Pro | 3.89T tokens |
 
@@ -74,6 +76,15 @@ DeepSeek 三模型合计超 **17 万亿 tokens**。[[anthropic]] 旗舰 Claude O
 | 2 | [[openclaw]] | 6.25T tokens |
 
 应用排名直观证明了 [[agent-推理负载|Agent 负载]] 已取代聊天机器人成为 Token 消耗的绝对主力，是 [[tokenmaxxing]] 趋势的重要佐证。
+
+### 在开源智能体竞争中的角色
+
+OpenRouter 的全球日调用量榜单成为衡量开源智能体竞争格局的关键第三方数据来源：
+
+- **2026年5月10日**：[[hermes-agent]] 以 2240 亿 token 对 1860 亿 token 反超 [[openclaw]] 登顶
+- **截至2026年6月4日**：差距扩大到 6600 亿 token 对 2490 亿 token
+
+该数据被广泛引用为 Hermes 成为开源智能体新王的硬指标。
 
 ## 行业洞察（与 a16z 联合报告）
 

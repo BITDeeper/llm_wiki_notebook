@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Demis Hassabis
-tags: ["person", "google-deepmind", "ai-safety", "ai-leadership", "people", "deepmind", "ai-research", "nobel-laureate", "ai-leaders", "agi", "nobel-prize", "人物", "诺贝尔奖", "ceo", "neuroscience", "ai-researcher", "founder", "ai领袖", "诺贝尔奖得主", "投资人", "alphago", "ai研究"]
-related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线"]
+tags: ["person", "google-deepmind", "ai-safety", "ai-leadership", "people", "deepmind", "ai-research", "nobel-laureate", "ai-leaders", "agi", "nobel-prize", "人物", "诺贝尔奖", "ceo", "neuroscience", "ai-researcher", "founder", "ai领袖", "诺贝尔奖得主", "投资人", "alphago", "ai研究", "谷歌"]
+related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线", "gemma-4-12b"]
 created: 2026-04-08
-updated: 2026-05-25
-sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md"]
+updated: 2026-06-04
+sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md", "谷歌gemma-4-12b震撼发布！全球下载破1.5亿，16g轻薄本封神.md"]
 origin_date: 1976-07-27
 ---
 
@@ -102,6 +102,13 @@ Hassabis 将 AI 研究的答案押在了运营 23 年的老游戏 [[EVE Online]]
 - **AlphaGo**：2016 年，他带领团队开发的 [[AlphaGo]] 击败李世石，震惊世界，证明了深度强化学习在复杂决策任务中的有效性。后续开发的 [[AlphaZero]] 进一步展示了 AI 超越人类直觉的能力。
 - **AlphaFold**：带领团队解决了生物学界 50 年的难题——[[蛋白质折叠]]预测，并因此获得诺贝尔化学奖。
 - **AI for Science**：坚信 AGI 的终极应用是科学发现。在他的领导下，DeepMind 计划于 2026 年建立自动化实验室，利用 AI 和机器人加速新材料（如超导体、电池）和清洁能源（如聚变）的研发。
+
+### 开源与轻量级模型战略
+2026 年 6 月 4 日，Hassabis 亲自发文宣布 [[gemma-4-12b]] 发布及 Gemma 4 全系列下载量突破 1.5 亿次的里程碑。他在公开声明中表示：
+
+> 庆祝 Gemma 4 全系列下载量突破 1.5 亿次的巨大里程碑！伴随新发布的 12B 模型，它体积如此之小，却异常强大。Apache 2.0 许可——祝大家构建愉快！
+
+作为 [[google-deepmind]] 的掌门人，Hassabis 的亲自站台表明谷歌对开源轻量级模型和边缘 AI 战略的高度重视。
 
 ### "华尔街往事"与独立尝试
 据 [[叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停]] 报道，在 [[AlphaGo]] 成功后的 2016 年，Hassabis 曾秘密组建团队尝试 [[ai-量化交易]]，意图挑战 [[jim-simons]] 的大奖章基金。这一行动的主要目的是为 [[project-mario]]（DeepMind 独立计划）筹集资金。

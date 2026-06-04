@@ -1,0 +1,23 @@
+---
+type: entity
+title: 李飞飞
+created: 2026-06-04
+updated: 2026-06-04
+tags: ["researcher", "stanford", "ai-vision", "embodied-ai", "AI", "世界模型", "空间智能", "学术界", "人物", "计算机视觉", "斯坦福大学", "3d", "AI教母", "斯坦福", "以人为本ai", "scaling-law", "数据集", "AI学者"]
+related: ["吴佳俊", "李曼玲", "theory-of-space", "ranjay-krishna", "world-labs", "marble", "世界模型", "google-deepmind", "andrej-karpathy", "esi-bench", "具身空间智能", "imagenet", "yining-hong", "spark-2.0", "空间智能", "3d高斯泼溅", "gpic", "斯坦福大学", "ai-for-science", "以人为本ai", "scaling-law"]
+sources: ["李曼玲、李飞飞、吴佳俊等联手：评估具身大模型的新范式！.md", "李飞飞踢馆游戏圈：unity们，该退场了！.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "李飞飞再出手，空间智能的imagenet来了.md", "性能超越李飞飞，他们把10亿高斯点的3d世界装进浏览器.md", "李飞飞造了imagenet，现在她又带人超越了它.md", "李飞飞获布朗大学荣誉博士，imagenet点燃现代ai之火.md", "百万规模数据集已经不够用了！斯坦福开源-gpic：28-万亿像素、1-亿张合规图像，视觉生成步入"大语料"时代.md", "都别吵了，李飞飞把「世界模型」定义和重点讲清楚了.md"]
+---
+# 李飞飞
+
+AI 学者、[[world-labs|World Labs]] 创始人，[[空间智能]] 概念的倡导者。
+
+## 主要贡献
+
+- **ImageNet**：主导构建了改变深度学习历史的大规模图像数据集。
+- **空间智能**：提出机器智能与物理世界关系演进的长期愿景，认为世界模型是机器理解、想象、推理和与世界互动的方式。
+- **世界模型概念澄清**：2026年6月，与 World Labs 团队发表系统性文章，基于 [[pomdp]] 框架提出世界模型的三分类体系（[[渲染器]]、[[模拟器]]、[[规划器]]），为业界提供了统一的语言和思考框架。
+
+## 关联
+
+- 创立 [[world-labs|World Labs]]，专注空间智能和世界模型研发。
+- 团队开发了 [[marble]] 模型，探索渲染器与模拟器边界的融合。
