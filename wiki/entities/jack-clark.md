@@ -1,32 +1,9 @@
-```yaml
 ---
 type: entity
 title: Jack Clark
 created: 2026-03-30
-updated: 2026-05-30
-tags:
-  - ai-safety
-  - 趋势分析
-  - anthropic
-  - person
-  - ai-policy
-  - journalism
-  - analyst
-  - import-ai
-  - industry-commentator
-  - ai-index
-  - ai-researcher
-  - forecasting
-  - ai-research
-  - 人物
-  - 智能爆炸
-  - 预测
-  - ai政策
-  - 创始人
-  - 亿万富翁
-  - 捐赠
-  - 联合创始人
-related:
+updated: 2026-06-05
+tags: ["anthropic", "人物", "ai安全", "递归自我改进", "ai-safety", "趋势分析", "person", "ai-policy", "journalism", "analyst", "import-ai", "industry-commentator", "ai-index", "ai-researcher", "forecasting", "ai-research", "智能爆炸", "预测", "ai政策", "创始人", "亿万富翁", "捐赠", "联合创始人"]related:
   - anthropic
   - ai-takeoff
   - bench
@@ -45,20 +22,9 @@ related:
   - openai
   - anthropic-h轮融资-2025
   - anthropic-七子
-sources:
-  - anthropic联创：两年内，ai将像孢子一样自我繁殖.md
-  - 永别了，互联网！anthropic联创爆料：人类彻底出局.md
-  - anthropic创始人盛赞meta：开启广告基础设施「智能体」进化时代.md
-  - 硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md
-  - anthropic联创警告：2026年，ai将把世界撕成两个平行宇宙.md
-  - ai自己造ai，概率60%！2028年底前！anthropic联创坐不住了.md
-  - anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md
-  - alphaevolve一周年炸裂成绩单！ai自我改进不再科幻.md
-  - 史上最大规模ipo逼近，超越spacex！28年ai自我迭代，智能爆炸倒计时.md
-  - 博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md
-  - anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md
+sources: ["刚刚，anthropic向全人类发出警告：停止研究ai！.md", "anthropic联创：两年内，ai将像孢子一样自我繁殖.md", "永别了，互联网！anthropic联创爆料：人类彻底出局.md", "anthropic创始人盛赞meta：开启广告基础设施「智能体」进化时代.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "anthropic联创警告：2026年，ai将把世界撕成两个平行宇宙.md", "ai自己造ai，概率60%！2028年底前！anthropic联创坐不住了.md", "anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "alphaevolve一周年炸裂成绩单！ai自我改进不再科幻.md", "史上最大规模ipo逼近，超越spacex！28年ai自我迭代，智能爆炸倒计时.md", "博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md"]
+related: ["anthropic", "递归式自我改进", "ai-takeoff"]
 ---
-```
 
 # Jack Clark
 
@@ -76,7 +42,7 @@ sources:
 
 ## 核心预测：2028 年 RSI 与智能爆炸
 
-在 2026 年初，基于对大量公开数据的分析，Jack Clark 提出了一个引发广泛关注的预测：**到 2028 年底，AI 实现 [[递归式自我改进]]（RSI）的概率超过 60%**。据 Axios 于 2026 年 5 月 7 日报道，Clark 公开给出了这一概率判断，为 RSI 的讨论提供了来自头部 AI 公司高层的重要参考坐标。
+在 2026 年初，基于对大量公开数据的分析，Jack Clark 提出了一个引发广泛关注的预测：**到 2028 年底，AI 实现 [[递归式自我改进]]（RSI）的概率超过 60%**。据 Axios 于 2026 年 5 月 7 日报道，Clark 公开给出了这一概率判断；同年 5 月在伦敦演讲中他再次阐述了这一预测。这为 RSI 从抽象理论讨论提供了具体的时间锚点，也成为 [[AI Takeoff]] 讨论中最具分量的量化预测之一，为 RSI 的讨论提供了来自头部 AI 公司高层的重要参考坐标。
 
 ### 类比：3D 打印机
 

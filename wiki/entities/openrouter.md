@@ -1,16 +1,16 @@
 ---
 type: entity
 title: OpenRouter
-tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合]
-related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载]
+tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合, ai]
+related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载, step-3.7-flash, step-3.5-flash, aa榜]
 created: 2026-03-20
 updated: 2026-06-04
-sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md"]
+sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md"]
 ---
 
 # OpenRouter
 
-**OpenRouter** 是一个全球知名的 AI 推理路由/中转平台，由 [[alex-atallah]] 和 Louis Vichy 于 2023 年联合创立。它定位为"AI 推理的统一控制层"，通过一个 API 接入 **400 多个模型**和 **60 多个提供方**，提供智能路由、自动故障切换、统一计费、权限管理和审计级使用报告等企业级功能。它类似于 AI 模型的"应用商店"或"路由器"，聚合了来自不同供应商（如 Anthropic、OpenAI、DeepSeek 等）的模型，允许用户通过单一 API 进行调用和切换。
+**OpenRouter** 是一个全球知名的 AI 推理路由/中转平台（海外 AI 模型聚合服务平台），由 [[alex-atallah]] 和 Louis Vichy 于 2023 年联合创立。它定位为"AI 推理的统一控制层"，通过一个 API 接入 **400 多个模型**和 **60 多个提供方**，提供智能路由、自动故障切换、统一计费、权限管理和审计级使用报告等企业级功能。它类似于 AI 模型的"应用商店"或"路由器"，聚合了来自不同供应商（如 Anthropic、OpenAI、DeepSeek 等）的模型，允许用户通过单一 API 进行调用和切换。OpenRouter 上的定价数据也是衡量模型性价比的重要参考。
 
 ## 商业模式
 
@@ -58,6 +58,12 @@ OpenRouter 公开的模型调用量排行榜已成为行业风向标，投资人
 
 排名页面：https://openrouter.ai/rankings
 
+### Trending 热度榜
+
+除调用量排行榜外，OpenRouter 的 **Trending 热度榜单**也是衡量模型发布后市场反响的重要指标。例如：
+- [[step-3.7-flash]] 发布后热度暴涨至 Trending 全球第二
+- 前代 [[step-3.5-flash]] 曾在发布两天内登顶 OpenRouter Trending
+
 ### 2026 年 5 月月度排行榜
 
 #### 模型排名
@@ -85,6 +91,12 @@ OpenRouter 的全球日调用量榜单成为衡量开源智能体竞争格局的
 - **截至2026年6月4日**：差距扩大到 6600 亿 token 对 2490 亿 token
 
 该数据被广泛引用为 Hermes 成为开源智能体新王的硬指标。
+
+## 定价与性能数据
+
+OpenRouter 上的定价数据是衡量模型性价比的重要参考。有开发者统计了 OpenRouter 上 60 多个服务商的 398 个核心数据，整理出缓存命中率排行榜，其中阶跃以 **86.1%** 位列全球第二。
+
+典型定价示例：[[step-3.7-flash]] 在 OpenRouter 上的定价为每百万输入 token 0.2 美元、输出 token 1.15 美元。
 
 ## 行业洞察（与 a16z 联合报告）
 

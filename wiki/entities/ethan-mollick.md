@@ -1,17 +1,17 @@
 ---
 type: entity
 title: Ethan Mollick (伊森·莫里克)
-tags: ["academic", "wharton", "ai-observer", "researcher", "person", "人物", "评测者", "教授", "沃顿商学院", "学者", "ai推广"]
-related: ["锯齿状能力", "something-big-is-happening", "claude-opus-4-6", "工具使用惰性", "chatgpt-translate", "openai", "gpt-5.2", "claude-code", "the-veil-of-history", "opus-4-8"]
+tags: ["academic", "wharton", "ai-observer", "researcher", "person", "人物", "评测者", "教授", "沃顿商学院", "学者", "ai推广", "ai-commentator", "professor"]
+related: ["锯齿状能力", "something-big-is-happening", "claude-opus-4-6", "工具使用惰性", "chatgpt-translate", "openai", "gpt-5.2", "claude-code", "the-veil-of-history", "opus-4-8", "claude-mythos", "metr-基准"]
 created: 2026-02-12
-updated: 2026-05-30
-sources: ["阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "阅读7千万文章硅谷已至，抛弃人类自我进化！.md", "openai偷袭，谷歌掀桌！2026开年第一场ai大战太精彩.md", "gpt-5.2发布即降智？背后华人被挖出，清北校友核心贡献.md", "opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md"]
+updated: 2026-06-04
+sources: ["阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "阅读7千万文章硅谷已至，抛弃人类自我进化！.md", "openai偷袭，谷歌掀桌！2026开年第一场ai大战太精彩.md", "gpt-5.2发布即降智？背后华人被挖出，清北校友核心贡献.md", "opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md", "专家预测年底才到，claude-mythos今天就跑出3小时6分！.md"]
 ---
 
 # Ethan Mollick (伊森·莫里克)
 
 ## 概述
-[[Ethan Mollick]] 是沃顿商学院的教授，专注于研究创新与 AI 的影响。他是 AI 领域极具影响力的学术观察者、评论员、关键意见领袖及学术推广者，致力于探索 AI 与商业的交叉领域。他以将前沿 AI 能力转化为公众可理解、可体验的案例而闻名。作为早期评测者，他常通过实际任务验证模型能力，而非单纯依赖基准测试。
+[[Ethan Mollick]] 是沃顿商学院的教授，专注于研究创新与 AI 的影响。他是 AI 领域极具影响力的学术观察者、评论员、关键意见领袖及学术推广者，致力于探索 AI 与商业的交叉领域。他以将前沿 AI 能力转化为公众可理解、可体验的案例而闻名。作为早期评测者，他常通过实际任务验证模型能力，而非单纯依赖基准测试。他活跃于 X/Twitter 平台，经常对 AI 能力突破进行即时评论和分析。
 
 ## 核心观点
 - **审慎的乐观**：他认同 [[matt-shumer]] 关于 AI 正在经历巨大变革的判断，但也提出了 [[锯齿状能力]] 的概念，提醒公众注意 AI 当前的不均衡特性。
@@ -37,6 +37,9 @@ Mollick 教授通过实验发现了 [[Claude Opus 4.6]] 在任务执行上的不
 
 ### 单 Agent 全栈交付案例：The Veil of History
 2026年5月，Mollick 通过一条推文在 𝕏 上公开了由 [[opus-4-8]] 独立生成的 [[the-veil-of-history]] 交互网站，引发全网刷屏。他向 Opus 4.8 发送的 Prompt 要求基于 [[无知之幕]] 思想实验计算人类历史上的投胎概率，最终产出的网站成为 [[单agent全栈交付]] 的标志性案例。
+
+### Claude Mythos 基准评论
+在 [[claude-mythos]] [[metr-基准]] 纪录公布后，Mollick 在 X 平台发表了相关评论，成为新智元等媒体报道的信息来源之一。
 
 ## 作用与影响
 在关于 AI 奇点的讨论中，Mollick 提供了必要的学术平衡视角。他既确认了质变的发生，也指出了现阶段的局限性，帮助公众更客观地理解 AI 的发展现状。

@@ -1,28 +1,28 @@
 ---
 type: entity
 title: Demis Hassabis
-tags: ["person", "google-deepmind", "ai-safety", "ai-leadership", "people", "deepmind", "ai-research", "nobel-laureate", "ai-leaders", "agi", "nobel-prize", "人物", "诺贝尔奖", "ceo", "neuroscience", "ai-researcher", "founder", "ai领袖", "诺贝尔奖得主", "投资人", "alphago", "ai研究", "谷歌"]
-related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线", "gemma-4-12b"]
+tags: ["person", "google-deepmind", "ai-safety", "ai-leadership", "people", "deepmind", "ai-research", "nobel-laureate", "ai-leaders", "agi", "nobel-prize", "人物", "诺贝尔奖", "ceo", "neuroscience", "ai-researcher", "founder", "ai领袖", "诺贝尔奖得主", "投资人", "alphago", "ai研究", "谷歌", "ai"]
+related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线", "gemma-4-12b", "sam-altman", "合成dna筛查立法呼吁-202606"]
 created: 2026-04-08
-updated: 2026-06-04
-sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md", "谷歌gemma-4-12b震撼发布！全球下载破1.5亿，16g轻薄本封神.md"]
+updated: 2026-06-05
+sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md", "谷歌gemma-4-12b震撼发布！全球下载破1.5亿，16g轻薄本封神.md", "活久见！奥特曼dario哈萨比斯同仇敌忾：dna得查了.md"]
 origin_date: 1976-07-27
 ---
 
 # Demis Hassabis
 
-**Demis Hassabis**（戴米斯·哈萨比斯）是 [[Google DeepMind]] 的首席执行官兼首席科学家，2024 年诺贝尔化学奖得主，[[AlphaGo]] 之父。作为著名的人工智能科学家、神经学家、前世界游戏冠军及 DeepMind 创始人，他以其在深度强化学习领域的开创性工作闻名。被媒体称为"AI世界的隐藏Boss"，通过个人投资网络和内部权力整合，构建了横跨全球AI产业的庞大影响力版图。
+**Demis Hassabis**（戴米斯·哈萨比斯 / 德米斯·哈萨比斯）是 [[Google DeepMind]] 的首席执行官兼首席科学家，2024 年诺贝尔化学奖得主（因 [[AlphaFold]] 蛋白质结构预测贡献），[[AlphaGo]] 之父。作为著名的人工智能科学家、神经学家、前世界游戏冠军及 DeepMind 创始人，他以其在深度强化学习和 AI for Science 领域的开创性工作闻名。被媒体称为"AI世界的隐藏Boss"，通过个人投资网络和内部权力整合，构建了横跨全球AI产业的庞大影响力版图。
 
 在 2026 年的舆论场中，他处于风暴中心：一方面因公开表达对 AI 灾难性风险的"深刻恐惧"而成为 AI 行业"[[创世悖论]]"的代表人物；另一方面，因在军事化问题上的立场转变，深陷 [[奥本海默死局]]，面临"出卖灵魂"的内部指控。
 
 ## 个人履历
 
-- 1976年7月27日出生，国际象棋神童出身，后被英国王室册封为爵士
+- 1976年7月27日出生，国际象棋神童出身，英国AI研究者与神经科学家，后被英国王室册封为爵士
 - 五届世界智力运动会冠军（涵盖国际象棋、围棋、扑克等）
 - 职业生涯起点是设计 AI 模拟游戏，此后 AlphaGo、AlphaStar 和 SIMA 的研究都与游戏深度绑定
 - 2010年与 [[shane-legg]] 共同创立 DeepMind，早期面临 99% 投资人的拒绝
 - 2014年以4亿英镑将 DeepMind 出售给谷歌，由此积累巨额个人财富
-- 2024年因 AlphaFold 项目获诺贝尔化学奖
+- 2024年因 AlphaFold 项目获诺贝尔化学奖，其诺贝尔奖身份为后续生物安全立法呼吁增添了科学权威性
 - 2023年起统一掌管合并后的 Google DeepMind
 
 ## 投资版图
@@ -100,7 +100,7 @@ Hassabis 将 AI 研究的答案押在了运营 23 年的老游戏 [[EVE Online]]
 
 ### 科学突破
 - **AlphaGo**：2016 年，他带领团队开发的 [[AlphaGo]] 击败李世石，震惊世界，证明了深度强化学习在复杂决策任务中的有效性。后续开发的 [[AlphaZero]] 进一步展示了 AI 超越人类直觉的能力。
-- **AlphaFold**：带领团队解决了生物学界 50 年的难题——[[蛋白质折叠]]预测，并因此获得诺贝尔化学奖。
+- **AlphaFold**：带领团队解决了生物学界 50 年的难题——[[蛋白质折叠]]预测，并因此获得诺贝尔化学奖。AlphaFold 系列工作对生物学产生深远影响。
 - **AI for Science**：坚信 AGI 的终极应用是科学发现。在他的领导下，DeepMind 计划于 2026 年建立自动化实验室，利用 AI 和机器人加速新材料（如超导体、电池）和清洁能源（如聚变）的研发。
 
 ### 开源与轻量级模型战略
@@ -164,3 +164,7 @@ Hassabis 在军事应用问题上的立场经历了显著转折，这使他成�
 ### 行业评价
 - **原创性倡导者**：他将 DeepMind 定位为"现代版贝尔实验室"，强调源头创新（如发明 Transformer）的重要性。
 - **对中国 AI 的看法**：他承认中国 AI 模型（如 [[DeepSeek V4]]）在工程化能力上已大幅缩小差距，但对其是否具备"原创性创新"能力持保留态度。
+
+## 跨阵营共识：合成DNA筛查立法呼吁
+
+2026年6月5日，Hassabis 与 [[sam-altman]]、[[dario-amodei]] 等67位领袖联合签署公开信，呼吁美国国会立法强制筛查所有合成DNA订单。这是AI行业三大竞争对手CEO首次在生物安全政策领域形成跨阵营共识。Hassabis 的诺贝尔奖身份为这一立法呼吁增添了重要的科学权威性。

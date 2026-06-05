@@ -2,15 +2,15 @@
 type: entity
 title: Mustafa Suleyman (穆斯塔法·苏莱曼)
 tags: ["people", "deepmind", "microsoft", "ai-governance", "ai-leaders", "ethics", "ai", "行业领袖", "微软", "anthropic", "人物", "ai创业者", "deepmind联合创始人"]
-related: ["demis-hassabis", "project-mario", "google-deepmind", "microsoft", "镜像陷阱", "非感知信号", "anthropic", "微软", "ai-takeoff", "scaling-law", "inflection-ai", "deepmind-黑手党"]
+related: ["demis-hassabis", "project-mario", "google-deepmind", "microsoft", "镜像陷阱", "非感知信号", "anthropic", "微软", "ai-takeoff", "scaling-law", "inflection-ai", "deepmind-黑手党", "claude-mythos"]
 created: 2026-04-06
-updated: 2026-05-22
-sources: ["叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "百万openclaw哭喊「自由」？微软ai-ceo直戳幻觉：小心数据镜像陷阱.md", "微软放话一年消灭白领！硅谷老板流行借助ai亲自上手一切.md", "叫板华尔街之神！诺奖得主在诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md"]
+updated: 2026-06-04
+sources: ["叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "百万openclaw哭喊「自由」？微软ai-ceo直戳幻觉：小心数据镜像陷阱.md", "微软放话一年消灭白领！硅谷老板流行借助ai亲自上手一切.md", "叫板华尔街之神！诺奖得主在诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "微软「意外泄密」：claude-mythos万亿参数，训练规模浮出水面？.md"]
 ---
 
 # Mustafa Suleyman (穆斯塔法·苏莱曼)
 
-[[DeepMind]] 联合创始人，[[Anthropic]] 联合创始人，后创办 [[Inflection AI]]，现任 [[microsoft]]（微软）AI CEO。他是 AI 伦理和安全领域的重要声音，以对 AI 感知权利的强硬立场和对 AI 发展速度的激进预测著称。作为 [[deepmind-黑手党|DeepMind黑手党]] 核心成员，他与 [[demis-hassabis|Demis Hassabis]] 共同创立了 DeepMind，其后续创业项目甚至获得了 Hassabis 的个人资本支持，体现了这一派系中"同门师兄弟"的资本纽带。
+[[DeepMind]] 联合创始人，[[Anthropic]] 联合创始人，后创办 [[Inflection AI]]，现任 [[microsoft|微软]] AI CEO。他是 AI 伦理和安全领域的重要声音，以对 AI 感知权利的强硬立场和对 AI 发展速度的激进预测著称。作为 [[deepmind-黑手党|DeepMind黑手党]] 核心成员，他与 [[demis-hassabis|Demis Hassabis]] 共同创立了 DeepMind，其后续创业项目甚至获得了 Hassabis 的个人资本支持，体现了这一派系中"同门师兄弟"的资本纽带。
 
 ## 职业轨迹
 
@@ -22,7 +22,7 @@ sources: ["叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股
 
 1.  **离开谷歌**：2019 年从 DeepMind 离职。
 2.  **创业**：联合创办了 [[Inflection AI]] 和 [[Anthropic]]。其中 Inflection AI 获得了微软投资，Hassabis 也以个人身份参与了投资。
-3.  **加入微软**：被 Satya Nadella 挖角，现掌管微软 AI 部门，成为 [[google-deepmind]] 最直接的竞争对手。
+3.  **加入微软**：被 Satya Nadella 挖角，现掌管微软 AI 部门，成为 [[google-deepmind|Google DeepMind]] 最直接的竞争对手。
 
 ## 核心观点与治理理念
 
@@ -52,5 +52,10 @@ Suleyman 警告社会不要被 AI 的表象所迷惑。他认为，当前表现�
 ### ASI 使命与愿景
 Suleyman 在微软的核心使命是推动 ASI（通用人工智能）的发展，旨在建立微软独立于 OpenAI 的自研基础模型。他主张未来创建 AI 模型应像写博客一样简单，从而瓦解专业知识的垄断。
 
-## 争议与批评
+## 争议与事件
+
+### 18个月白领自动化论的批评
 部分学者认为 Suleyman 混淆了"任务自动化"与"岗位自动化"，指出虽然 AI 能替代特定任务，但法律、流程和监管限制了其替代整个岗位的能力。
+
+### Claude Mythos 算力数据泄露事件
+2026 年 6 月，Suleyman 在一次演示中使用的幻灯片意外包含了 [[anthropic|Anthropic]] [[claude-mythos|Claude Mythos]] 模型的训练算力数据（6.1×10²⁷ FLOPs），导致这一竞争对手的核心技术参数被公开泄露。该数据的泄露渠道和意图（意外或有预谋）尚不明确。

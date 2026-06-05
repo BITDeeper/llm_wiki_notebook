@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Gemini 3.1 Pro
-tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型, 模型, VLM, 安全]
-related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash", "ai-权威清洗", "对抗样本"]
-sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md"]
+tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型, 模型, VLM, 安全, 评测, ai安全]
+related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash", "ai-权威清洗", "对抗样本", "bagen-预算意识评测基准", "预算意识", "harnessaudit", "能力-安全权衡"]
+sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md", "过程比结果更危险：从模型到harness，ai-agent的下半场该如何评测安全？.md"]
 created: 2026-04-30
-updated: 2026-05-31
+updated: 2026-06-05
 ---
 
 # Gemini 3.1 Pro
@@ -68,6 +68,12 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 
 ### SaaS-Bench 评测（Computer-Use 场景）
 在 [[saas-bench|SaaS-Bench]] 评测中，Gemini 3.1 Pro 的完全通过分数（Resolved Score）为 **0%**——在 106 个真实办公任务中，没有一个任务能够完整走完全部检查点。这一结果补充了其在 [[computer-use-agent|Computer-Use Agent]] 场景中的能力画像，表明当前模型在真实 GUI 操作场景中仍面临巨大挑战。与 [[Gemini]] 在编程能力上追赶 [[claude-code|Claude Code]] 的叙事形成对比——编程场景的进展并未迁移到通用办公场景。
+
+### BAGen 预算意识评测
+Gemini 3.1 Pro 是 [[bagen-预算意识评测基准]] 的五个评测对象之一。在 SWE-bench 环境中，Gemini 3.1 Pro 在可行性预测方面领先，但未能在所有子能力上全面占优。
+
+### HarnessAudit 评测（能力-安全权衡）
+在 [[harnessaudit-bench]] 评测中，Gemini 3.1 Pro 的任务完成率低于 [[claude-opus-4-6]]，但总体安全得分反而更高。这一结果说明任务完成能力与安全执行能力是两个独立维度，印证了 [[能力-安全权衡]] 的存在。
 
 ### 应用场景表现
 在 Gemini 3.1 Pro 的驱动下，Deep Research Max 在 DeepSearchQA 基准测试中取得了 93.3% 的历史最高分，展示了其在长链推理和信息综合方面的强大能力。

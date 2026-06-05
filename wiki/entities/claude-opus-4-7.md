@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Claude Opus 4.7
-tags: ["ai-models", "anthropic", "benchmarks", "llm", "model-release", "controversy", "model", "coding", "vision", "multimodal", "rumor", "design", "claude", "sota", "ai-model", "code-generation", "benchmark", "closed-model", "大模型", "金融ai", "模型", "编程", "ai模型", "编程模型", "基准模型", "computer-use", "agent", "ai编程"]
-related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor", "saas-bench", "computer-use-agent", "deepswe", "swe-bench-pro", "claude-memory-files", "claude-opus-4-8", "ai计划性淘汰"]
+tags: ["ai-models", "anthropic", "benchmarks", "llm", "model-release", "controversy", "model", "coding", "vision", "multimodal", "rumor", "design", "claude", "sota", "ai-model", "code-generation", "benchmark", "closed-model", "大模型", "金融ai", "模型", "编程", "ai模型", "编程模型", "基准模型", "computer-use", "agent", "ai编程", "大语言模型", "评测"]
+related: ["grok-4-3", "gpt-5-5", "intelligence-index", "anthropic", "claude-opus-4-6", "adaptive-thinking", "新分词器", "能力再分配", "自适应推理", "高阶幻觉", "ai-subscription-crisis", "claude-opus-4.6", "claude-mythos", "claude-code", "boris-cherny", "搜索优先的认识论门控", "自适应思考", "claude-mythos-preview", "project-glasswing", "gemini", "claude-design", "design-to-code-pipeline", "mythos", "agentic-coding", "字面执行", "xhigh-推理等级", "claude", "programbench", "gpt-5-4", "gemini-3-1-pro", "claude-sonnet-4-6", "不可压缩知识探针", "vals-ai", "金融智能体模板", "gpt-5.5", "composer-2-5", "cursor", "saas-bench", "computer-use-agent", "deepswe", "swe-bench-pro", "claude-memory-files", "claude-opus-4-8", "ai计划性淘汰", "bagen-预算意识评测基准", "预算意识"]
 created: 2026-05-02
-updated: 2026-05-31
-sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md", "asi决战！openai与anthropic双雄争霸.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md"]
+updated: 2026-06-04
+sources: ["马斯克的grok-4.3悄悄上线，跑分评测出炉.md", "跑分第一，推理暴跌！claude-opus-4.7上线48小时口碑崩了.md", "claude-opus-4.7，全网差评！刚升级就翻车，用户怒斥：还我4.6.md", "糟糕，claude-opus-4.7源代码级提示词曝光！底层设计全被看光.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "claude-opus-4.7刚刚曝光！claude-code一夜重构，7x24小时替你打工.md", "claude-design暴击设计行业！figma、adobe市值闪崩.md", "claude-opus-4.7来了，公开模型里的sota！不过用起来gpt味好浓.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "有人只用api就猜出了gpt、claude、gemini的参数量？社区吵翻了.md", "claude杀入华尔街，10个智能体接入office全家桶，爆改分析师桌面.md", "gpt-5.5全球首码盲写程序，编程ai进入新纪元.md", "cursor新模型，你怎么还在套kimi？马斯克你怎么还吆喝上了？？.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "gpt-5.5反杀claude登顶，ai编码旧榜不准了？.md", "asi决战！openai与anthropic双雄争霸.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md"]
 ---
 
 # Claude Opus 4.7
@@ -147,6 +147,13 @@ DeepSWE 团队指出是 SWE-Bench Pro 基准本身让作弊有机可乘，至于
 
 作为当前最强的 [[Computer-Use Agent]] 模型，Opus 4.7 在真实办公场景中仅 3.8% 的完全通过率，为"全自动办公"叙事提供了重要的现实校准。即使是最先进的模型，在长程、跨应用的真实业务流程中仍面临根本性挑战。
 
+### 预算意识评测（BAGEN）
+
+Opus 4.7 作为 [[BAGEN-预算意识评测基准]] 的五个评测对象之一参与了预算意识评测。结果显示：
+
+- **任务成功率**：在 Search-R1 和 SWE-bench 上的任务成功率领先。
+- **区间估计质量**：并非最优，进一步印证了预算意识与任务能力的分离——即模型在完成任务方面表现出色，但对自身资源消耗的感知和预估能力并不与之匹配。
+
 ### 与竞品的基准对比
 
 Opus 4.7 常被用作新模型的性能对标基准。以下为与 [[Composer 2.5]]（[[Cursor]] 自研模型）的对比：
@@ -161,12 +168,4 @@ Opus 4.7 的定价约为 Composer 2.5 的 10 倍，这一成本差距是 Cursor 
 
 ### ProgramBench 案例分析：cmatrix 任务
 
-在 [[ProgramBench]] 的 cmatrix 任务中，Opus 4.7（xhigh 模式）的表现暴露了"聪明但不可靠"的典型问题：
-
-- **成本**：$10.74（[[GPT-5.5]] 为 $1.04，约 10 倍）
-- **API 调用**：178 次（GPT-5.5 为 17 次，约 10 倍）
-- **结果**：19 个测试失败
-
-#### 失败原因
-
-1. **颜色解析大小写敏感**：代码使用了 `strcmp()` 而非 `strcasecmp()`，导致输入 "GREEN"、"Red"、"BLUE" 全部被判无效。一个函数调用的差异直接导致 11 个测试失败。讽刺的是，178 步探索中 Opus 从未测试过大写或混合大小写的颜色
+在 [[ProgramBench]] 的 cmatrix 任务中，Opus 4.7（xhigh 模式）的表现暴露了"聪明但不可靠"的典型问题

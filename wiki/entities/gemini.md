@@ -2,15 +2,15 @@
 type: entity
 title: Gemini
 tags: ["google", "llm", "coding", "model", "multimodal", "android", "ai-agent", "operating-system", "product", "competition", "closed-source", "gemini", "ai-model", "consumer-app", "大语言模型", "多模态", "agent", "谷歌"]
-related: ["google-deepmind", "claude-code", "sergey-brin", "ai-safety-evaluation-crisis", "android", "预设指令", "系统级权限", "算力配给制", "零点击注入风险", "chatgpt", "google", "apple", "siri", "claude", "private-cloud-compute", "alphabet", "openai", "nano-banana", "anthropic", "ai-subscription-crisis", "deepseek-v4", "百万上下文标配", "谷歌地图", "ask-maps", "沉浸式导航", "gemini-spark", "gemini-omni", "google-io-2026", "gemini-3-5-flash", "antigravity-2", "world-r1", "纯文本训练范式"]
-sources: ["anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "$19.99买断你的一生？gemini变身系统管家，人类开始被ai安排了.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "openai最新报告曝光！前5%精英效率暴涨16倍，普通人却被悄悄淘汰.md", "deepseek-v4终于发布！打破最强闭源垄断，明确携手华为芯片.md", "gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋.md", "chatgpt和claude争了个寂寞！用户重叠仅11%，中国应用霸榜移动端.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型3d.md"]
+related: ["google-deepmind", "claude-code", "sergey-brin", "ai-safety-evaluation-crisis", "android", "预设指令", "系统级权限", "算力配给制", "零点击注入风险", "chatgpt", "google", "apple", "siri", "claude", "private-cloud-compute", "alphabet", "openai", "nano-banana", "anthropic", "ai-subscription-crisis", "deepseek-v4", "百万上下文标配", "谷歌地图", "ask-maps", "沉浸式导航", "gemini-spark", "gemini-omni", "google-io-2026", "gemini-3-5-flash", "antigravity-2", "world-r1", "纯文本训练范式", "谷歌", "gemini-omni-flash", "synthid", "seedance-2-0"]
+sources: ["anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "$19.99买断你的一生？gemini变身系统管家，人类开始被ai安排了.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "openai最新报告曝光！前5%精英效率暴涨16倍，普通人却被悄悄淘汰.md", "deepseek-v4终于发布！打破最强闭源垄断，明确携手华为芯片.md", "gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋.md", "chatgpt和claude争了个寂寞！用户重叠仅11%，中国应用霸榜移动端.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型3d.md", "谷歌io发布会最大的赢家，不是谷歌？.md"]
 created: 2026-04-21
-updated: 2026-05-22
+updated: 2026-06-04
 ---
 
 # Gemini
 
-Gemini 是 [[Alphabet]]（[[google]]）旗下 [[google-deepmind]] 开发的旗舰多模态大语言模型系列。作为闭源模型的代表，Gemini 系列在长上下文处理和世界知识储备方面长期处于行业领先地位。2026 年 5 月，Gemini 从单一模型系列升级为涵盖模型、桌面端应用和系统级 Agent 的完整平台。它不仅是通用大模型，更是 Android 与 PC 操作系统中深度集成的 AI 系统管家，并赢得了 [[apple]] 的合作用于增强 [[siri]]。
+Gemini 是 [[Alphabet]]（[[google]]/谷歌）旗下 [[google-deepmind]] 开发的旗舰多模态大语言模型系列。作为闭源模型的代表，Gemini 系列在长上下文处理和世界知识储备方面长期处于行业领先地位。2026 年 5 月，Gemini 从单一模型系列升级为涵盖模型、桌面端应用和系统级 Agent 的完整平台。它不仅是通用大模型，更是 Android 与 PC 操作系统中深度集成的 AI 系统管家，并赢得了 [[apple]] 的合作用于增强 [[siri]]。目前在编程能力上，Gemini 正全力追赶 [[claude-code]]。
 
 ## 产品矩阵
 
@@ -28,7 +28,7 @@ Gemini 系列包含针对不同场景的模型版本：
 | Gemini 3.2 Flash | 高速编程模型，已通过网页端泄露实测 | 已泄露 |
 | Gemini 3.5 Flash | 2026 年 5 月 20 日在 [[google-io-2026]] 发布的最新旗舰，全面碾压 3.1 Pro | 已发布 |
 | Gemini 3.5 Pro | 更强的 3.5 版本，正在内部测试中，预计 2026 年 6 月发布 | 未发布 |
-| [[nano-banana\|Nano Banana]] | 轻量化模型，掀起全网热潮 | 已发布 |
+| [[nano-banana|Nano Banana]] | 轻量化模型，掀起全网热潮 | 已发布 |
 
 ### Gemini 3.5 Flash 详解
 
@@ -60,10 +60,10 @@ Gemini 系列包含针对不同场景的模型版本：
 
 | 功能 | 描述 | 状态 |
 |------|------|------|
-| [[gemini-spark\|Spark]] | 7×24h 云端个人 AI Agent，操控本地文件 | 已泄露 |
-| [[stream-to-cursor\|Stream to Cursor]] | 魔法指针桌面版 | 已泄露 |
-| [[gemini-omni\|Omni]] | 全模态生成模型（Veo4 Omni），支持任意输入生成任意内容，首发支持视频输出 | 已泄露 |
-| [[gemini-live\|Live]] | 语音实时交互 | 开发中 |
+| [[gemini-spark|Spark]] | 7×24h 云端个人 AI Agent，操控本地文件 | 已泄露 |
+| [[stream-to-cursor|Stream to Cursor]] | 魔法指针桌面版 | 已泄露 |
+| [[gemini-omni|Omni]] | 全模态生成模型（Veo4 Omni），支持任意输入生成任意内容，首发支持视频输出 | 已泄露 |
+| [[gemini-live|Live]] | 语音实时交互 | 开发中 |
 
 ### Gemini Omni 详解
 
@@ -71,6 +71,14 @@ Gemini 系列包含针对不同场景的模型版本：
 
 - 将世界知识与推理能力注入视频生成
 - 具备物理一致性（重力、动能）和角色/场景记忆连贯性
+
+### Gemini Omni Flash
+
+在 2026 年 5 月 20 日的 [[google-io-2026]] 大会上，谷歌发布了专注于原生多模态视频生成的 [[gemini-omni-flash]] 模型：
+
+- 支持任意输入生成和编辑视频
+- 集成了 [[synthid]] 数字水印技术
+- 根据社区评测，其在复杂动态场景和物理规律模拟上仍落后于竞品 [[seedance-2-0]]
 
 ### 技能系统
 

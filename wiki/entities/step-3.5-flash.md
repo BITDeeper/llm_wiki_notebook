@@ -1,16 +1,18 @@
+```markdown
 ---
 type: entity
 title: Step 3.5 Flash
-tags: [model, llm, moe, stepfun, agent, open-source, reasoning]
-related: [阶跃星辰, openclaw, openrouter, 128gb-甜点位, swa-结构, 并行协同推理, agent-基座模型]
+tags: [model, llm, moe, stepfun, agent, open-source, reasoning, 大模型, 阶跃星辰, 效率, 车载]
+related: [阶跃星辰, openclaw, openrouter, 128gb-甜点位, swa-结构, 并行协同推理, agent-基座模型, step-3.7-flash, token效率, 模型组合策略]
 created: 2026-02-28
 updated: 2026-05-08
-sources: ["openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "阶跃星辰杀入季后赛，强势跻身ai“新六小虎”第一梯队.md"]
+sources: ["openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "阶跃星辰杀入季后赛，强势跻身ai“新六小虎”第一梯队.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md"]
+origin_date: 2026-02-01
 ---
 
 # Step 3.5 Flash
 
-Step 3.5 Flash 是由中国 AI 公司 [[阶跃星辰]] 发布的高效推理大语言模型。该模型约 196B 参数，采用稀疏 MoE（混合专家）架构，是专为 [[agent-时代]] 的长程任务和复杂工具调用场景设计的 [[agent-基座模型]]。
+Step 3.5 Flash 是由中国 AI 公司 [[阶跃星辰]] 于 2026 年 2 月发布的高效推理大语言模型，是 [[step-3.7-flash]] 的直接前身。该模型约 196B 参数，采用稀疏 MoE（混合专家）架构，是专为 [[agent-时代]] 的长程任务和复杂工具调用场景设计的 [[agent-基座模型]]。Step 3.5 Flash 首次验证了阶跃"效率优先"策略的市场可行性。
 
 ## 核心特性
 
@@ -21,7 +23,7 @@ Step 3.5 Flash 是由中国 AI 公司 [[阶跃星辰]] 发布的高效推理大�
 针对 Agent 工作流中用户只关心任务交付结果的特性，Step 3.5 Flash 将推理速度作为核心卖点：
 - 最高推理速度可达 **每秒 350 个 token**。
 - 在 [[openrouter]] 平台上，该模型曾跻身 Fastest 榜第一梯队，并在发布首日登上 Fastest Models 榜单。
-- 在 [[openclaw]] 生态中，被开发者评价为“实测用于 OpenClaw 特别好用，速度奇快无比”。
+- 在 [[openclaw]] 生态中，被开发者评价为"实测用于 OpenClaw 特别好用，速度奇快无比"。
 
 ### 3. 顶尖数学推理能力
 仅凭 **11B 激活参数**，模型在高难度数学基准测试中表现优异，多项指标位列国内开源模型第一：
@@ -36,10 +38,15 @@ Step 3.5 Flash 是由中国 AI 公司 [[阶跃星辰]] 发布的高效推理大�
 - 使用对投机采样友好的 [[swa-结构]]，进一步提升推理效率。
 - 支持 [[并行协同推理]]（PaCoRe 模式），开启后 AIME 2025 得分可提升至 99.9 分。
 
-## 市场表现
+## 里程碑与市场表现
 
-- **OpenRouter 榜单**：曾登上 Trending 榜榜首，并长期位于 Fastest 梯队。
-- **社区口碑**：在 [[openclaw]] 生态中，被开发者评价为“实测用于 OpenClaw 特别好用，速度奇快无比”。
+- **OpenRouter 榜单**：**两天**登顶 Trending 榜榜首，并长期位于 Fastest 梯队。
+- **OpenClaw 生态**：**一个月**内 [[openclaw]] 调用量做到全球第一；被开发者评价为"实测用于 OpenClaw 特别好用，速度奇快无比"。
+- **量产上车**：**两个多月**量产上车极氪 8X 旗舰车型，成为该车型的"Agent 大脑"。
+
+## 意义
+
+Step 3.5 Flash 从开源榜单到量产车机的快速落地路径，证明了阶跃 Flash 系列在真实场景中的可用性和性价比。它为 Step 3.7 Flash 的工程指标突破奠定了基础，也验证了 [[模型组合策略]] 中高效模型作为 AI 规模化落地基础设施的可行性。
 
 ## 已知问题与修复
 
@@ -47,3 +54,4 @@ Step 3.5 Flash 是由中国 AI 公司 [[阶跃星辰]] 发布的高效推理大�
 - **工具调用不可用**：首发时在 vLLM、llama.cpp 等主流推理栈上无法使用，归因为测试覆盖不足。
 - **无限推理循环**：源于缺乏不同推理强度的训练数据，计划通过强化学习（RL）进行显式长度控制。
 - **世界知识遗忘**：团队称之为 [[对齐税]]，即模型在从预训练转向推理模式冷启动时，可能陷入知识贫乏的子空间。
+```

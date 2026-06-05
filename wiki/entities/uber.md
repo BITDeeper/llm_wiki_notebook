@@ -2,14 +2,15 @@
 type: entity
 title: Uber
 created: 2026-05-22
-updated: 2026-06-01
-tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司", "ai", "企业ai成本"]
-related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops", "企业token-roi反思潮-2026q2", "黄氏token经济学"]
-sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "老黄的token经济学翻车了！微软亚马逊通通跳车.md", "投了openai-130亿的微软，被自家工程师用claude-code烧爆了账单.md"]
+updated: 2026-06-04
+tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司", "ai", "企业ai成本", "美国", "出行"]
+related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops", "企业token-roi反思潮-2026q2", "黄氏token经济学", "tokenmaxxing"]
+sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "老黄的token经济学翻车了！微软亚马逊通通跳车.md", "投了openai-130亿的微软，被自家工程师用claude-code烧爆了账单.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md"]
 ---
+
 # Uber
 
-全球领先的出行与配送科技公司。2026年，Uber 成为 [[效用经济]] 与 [[按token计费危机]] 的标志性案例，在AI预算管理方面经历了从激进采用到成本反思的转变，成为行业反面案例。
+**Uber** 是全球领先的出行与配送科技公司。2026年，Uber 成为 [[效用经济]] 与 [[按token计费危机]] 的标志性案例，在AI预算管理方面经历了从激进采用到成本反思的转变，成为行业反面案例。
 
 ## AI预算崩溃
 
@@ -19,6 +20,8 @@ sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆
 - 84%已进入[[智能体编码]]模式
 - 70%的线上提交代码源自AI生成
 - 重度用户月度成本最高达2000美元/人
+
+这一案例也成为 [[ai-subscription-crisis]] 和 [[tokenmaxxing]] 竞赛失控的典型例证。
 
 ## 预算预测模型失效
 

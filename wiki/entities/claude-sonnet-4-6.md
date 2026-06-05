@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Claude Sonnet-4.6
-tags: [anthropic, model, llm, hallucination, identity-alignment, model-release, computer-use, 大语言模型, 编程, agent, multimodal, claude, 大模型]
-related: [anthropic, deepseek-v3, 系统提示, 数据污染, 身份对齐, claude-opus-4-6, claude-code, osworld, gdpval-aa, glm-5.1, claude-sonnet-4-5, claude-opus-4-5, openclaw, vending-bench-arena, saas-bench, computer-use-agent, 路径依赖不稳定性]
+tags: [anthropic, model, llm, hallucination, identity-alignment, model-release, computer-use, 大语言模型, 编程, agent, multimodal, claude, 大模型, 评测]
+related: [anthropic, deepseek-v3, 系统提示, 数据污染, 身份对齐, claude-opus-4-6, claude-code, osworld, gdpval-aa, glm-5.1, claude-sonnet-4-5, claude-opus-4-5, openclaw, vending-bench-arena, saas-bench, computer-use-agent, 路径依赖不稳定性, bagen-预算意识评测基准, 预算意识, claude-opus-4-7]
 created: 2026-02-26
-updated: 2026-05-25
-sources: ["deepseek-v4逼近，美国慌了！被曝绕过英伟达优先国内，绝密参数已泄露.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "claude最新sonnet：opus级智能，性价比王炸，openclaw天选api.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md"]
+updated: 2026-06-04
+sources: ["deepseek-v4逼近，美国慌了！被曝绕过英伟达优先国内，绝密参数已泄露.md", "sonnet-4.6深夜爆更，逆袭opus！claude春节大礼，全球软件股又崩了.md", "glm-5.1上线，编程表现贴opus-4.6开大，coding-plan瞬间断货.md", "claude最新sonnet：opus级智能，性价比王炸，openclaw天选api.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "claude不到4%，全军覆没！一场大考撕碎agent「全自动办公」幻想.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md"]
 ---
 
 # Claude Sonnet 4.6
@@ -51,6 +51,10 @@ Sonnet 4.6 具备接近人类水平的计算机操作能力，能够像人类一
 - **多模态任务**：pass@1 为 33.9%，pass@3 跳至 52.1%（+18.2pp）。
 - **极端波动**：在同一任务的三次独立运行中，分数范围从 0.00 到 0.68；每次运行的初始状态完全相同，成绩差异完全源于[[路径依赖不稳定性]]。
 - **核心问题**：Sonnet 4.6 的问题不是"完全不行"，而是"执行极不稳定"。模型在某个决策点的微小差异会导致后续执行轨迹完全分叉，使得长程任务的执行结果变成"赌博"。这一发现揭示了当前 Agent 范式在确定性方面的根本缺陷。
+
+### 预算意识评测（BAGen）
+
+Sonnet 4.6 作为 [[bagen-预算意识评测基准]] 的五个评测对象之一，参与了预算意识能力的系统评测。在 Search-R1 环境中，Sonnet 4.6 的区间估计表现优于任务成功率更高的 [[Claude Opus 4.7]]（命中率 36.5% 对 23.1%），说明不同模型在任务能力和[[预算意识]]上的优势分布不一致——任务能力更强的模型未必具备更好的成本感知能力。
 
 ## 市场定位与影响
 
