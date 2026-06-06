@@ -9,62 +9,62 @@
     <title>精读略读混合策略</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%B2%BE%E8%AF%BB%E7%95%A5%E8%AF%BB%E6%B7%B7%E5%90%88%E7%AD%96%E7%95%A5</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/concepts/%E7%B2%BE%E8%AF%BB%E7%95%A5%E8%AF%BB%E6%B7%B7%E5%90%88%E7%AD%96%E7%95%A5</guid>
-    <description><![CDATA[ type: concept title: “精读略读混合策略” tags: [“nlp”, “cognitive-science”, “efficiency”, “strategy”, “concept”] related: [“ram”, “上下文压缩”, “查询引导压缩”] created: 2026-02-14 updated: 2026-02-14 sources: [“清华新框架让大模型学会「精读略读」！实现12倍端到端加速，基准评分翻倍.md”] date: 2026-06-05 精读略读混合策略 精读略读混合策略（Close Reading and Skimming Strate... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:54 GMT</pubDate>
+    <description><![CDATA[ type: concept title: “精读略读混合策略” tags: [“nlp”, “cognitive-science”, “efficiency”, “strategy”, “concept”] related: [“ram”, “上下文压缩”, “查询引导压缩”] created: 2026-02-14 updated: 2026-02-14 sources: [“清华新框架让大模型学会「精读略读」！实现12倍端到端加速，基准评分翻倍.md”] date: 2026-06-06 精读略读混合策略 精读略读混合策略（Close Reading and Skimming Strate... ]]></description>
+    <pubDate>Sat, 06 Jun 2026 05:37:15 GMT</pubDate>
   </item><item>
     <title>阿里「悟空」重磅杀出，ath首秀封神！一句话调遣龙虾军团</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E9%98%BF%E9%87%8C%E3%80%8C%E6%82%9F%E7%A9%BA%E3%80%8D%E9%87%8D%E7%A3%85%E6%9D%80%E5%87%BA%EF%BC%8Cath%E9%A6%96%E7%A7%80%E5%B0%81%E7%A5%9E%EF%BC%81%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%B0%83%E9%81%A3%E9%BE%99%E8%99%BE%E5%86%9B%E5%9B%A2</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E9%98%BF%E9%87%8C%E3%80%8C%E6%82%9F%E7%A9%BA%E3%80%8D%E9%87%8D%E7%A3%85%E6%9D%80%E5%87%BA%EF%BC%8Cath%E9%A6%96%E7%A7%80%E5%B0%81%E7%A5%9E%EF%BC%81%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%B0%83%E9%81%A3%E9%BE%99%E8%99%BE%E5%86%9B%E5%9B%A2</guid>
     <description><![CDATA[ type: source title: “阿里「悟空」重磅杀出，ath首秀封神！一句话调遣龙虾军团” authors: [新智元] year: 2026 url: “mp.weixin.qq.com/s/jUJjXNQetGBVMnedexUx6A” venue: “新智元” tags: [alibaba, agent, dingtalk, enterprise-ai, wukong] related: [wukong, alibaba-token-hub, dingtalk, cli-hua, opt-one-person-team] created: 2026-03-17 updated:... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:53 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:14 GMT</pubDate>
   </item><item>
     <title>第一批靠龙虾赚钱的人出现！全球首个「应用开发skill》，一句话上线应用</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E7%AC%AC%E4%B8%80%E6%89%B9%E9%9D%A0%E9%BE%99%E8%99%BE%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E5%87%BA%E7%8E%B0%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E3%80%8C%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91skill%E3%80%8B%EF%BC%8C%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8A%E7%BA%BF%E5%BA%94%E7%94%A8</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E7%AC%AC%E4%B8%80%E6%89%B9%E9%9D%A0%E9%BE%99%E8%99%BE%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E5%87%BA%E7%8E%B0%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E3%80%8C%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91skill%E3%80%8B%EF%BC%8C%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8A%E7%BA%BF%E5%BA%94%E7%94%A8</guid>
     <description><![CDATA[ type: source title: “第一批靠龙虾赚钱的人出现！全球首个「应用开发skill」，一句话上线应用” tags: [ai-agent, baidu, openclaw, miaoda, application-development] related: [秒哒, miaoda-app-builder, openclaw, 应用开发skill, 云端物理隔离, 订阅制coding-plan] created: 2026-03-18 updated: 2026-03-18 authors: [新智元] year: 2026 url: “mp.weixin.qq.com/s/i0b4... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:53 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:14 GMT</pubDate>
   </item><item>
     <title>小米双模型正式开源！mimo-v2.5-pro无中断肝出“macos”：54个应用全开、浏览器真能冲浪</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%B0%8F%E7%B1%B3%E5%8F%8C%E6%A8%A1%E5%9E%8B%E6%AD%A3%E5%BC%8F%E5%BC%80%E6%BA%90%EF%BC%81mimo-v2.5-pro%E6%97%A0%E4%B8%AD%E6%96%AD%E8%82%9D%E5%87%BA%E2%80%9Cmacos%E2%80%9D%EF%BC%9A54%E4%B8%AA%E5%BA%94%E7%94%A8%E5%85%A8%E5%BC%80%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9C%9F%E8%83%BD%E5%86%B2%E6%B5%AA</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/%E5%B0%8F%E7%B1%B3%E5%8F%8C%E6%A8%A1%E5%9E%8B%E6%AD%A3%E5%BC%8F%E5%BC%80%E6%BA%90%EF%BC%81mimo-v2.5-pro%E6%97%A0%E4%B8%AD%E6%96%AD%E8%82%9D%E5%87%BA%E2%80%9Cmacos%E2%80%9D%EF%BC%9A54%E4%B8%AA%E5%BA%94%E7%94%A8%E5%85%A8%E5%BC%80%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9C%9F%E8%83%BD%E5%86%B2%E6%B5%AA</guid>
     <description><![CDATA[ type: source title: “小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪” tags: [xiaomi, mimo, agent, open-source, llm-evaluation] related: [mimo-v2.5-pro, mimo-v2.5, claweval, token-效率, 模糊指令遵循, 长程任务, 无中断生成, 小米] created: 2026-04-28 updated: 2026-04-28 authors: [闻乐] year: 2026 url: “mp.weixin.qq.com/... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:53 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>token，应该翻译成「新智元」</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token%EF%BC%8C%E5%BA%94%E8%AF%A5%E7%BF%BB%E8%AF%91%E6%88%90%E3%80%8C%E6%96%B0%E6%99%BA%E5%85%83%E3%80%8D</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/sources/token%EF%BC%8C%E5%BA%94%E8%AF%A5%E7%BF%BB%E8%AF%91%E6%88%90%E3%80%8C%E6%96%B0%E6%99%BA%E5%85%83%E3%80%8D</guid>
     <description><![CDATA[ type: source title: “Token，应该翻译成「新智元」” created: 2026-03-19 updated: 2026-05-03 tags: [术语翻译, 语言学, 信息论, 行业标准] related: [新智元-译名提案, token, ai-subscription-crisis] authors: [“新智元”] year: 2026 url: “mp.weixin.qq.com/s/v10SMjqwmIB7W5vbZEwAKg” venue: “新智元 (微信公众号)” sources: [“token，应该翻译成「新智元」.md”] Token，应该翻译... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:53 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>豆包</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%B1%86%E5%8C%85</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E8%B1%86%E5%8C%85</guid>
     <description><![CDATA[ --- type: entity title: 豆包 tags: [product, bytedance, ai-assistant, ai-tool, productivity, multimodal, consumer-app, china-ai] related: [&quot;字节跳动&quot;, &quot;seeduplex&quot;, &quot;原生全双工&quot;, &quot;ai-ppt-生成&quot;, &quot;seeddance-2-0&quot;, &quot;工作流重塑&quot;, &quot;claude&quot;, &quot;seedance... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>红手指operator</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%A2%E6%89%8B%E6%8C%87operator</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%A2%E6%89%8B%E6%8C%87operator</guid>
     <description><![CDATA[ type: entity title: 红手指Operator tags: [mobile-app, agent, security, baidu] related: [百度智能云, 云端物理隔离] created: 2026-03-18 updated: 2026-03-18 sources: [“第一批靠龙虾赚钱的人出现！全球首个「应用开发skill》，一句话上线应用.md”] 红手指Operator 红手指Operator 是百度发布的全球首款手机端 AI Agent 应用。它旨在让用户在移动端通过自然语言指令操控手机完成跨 App 操作（如查资料、订车票、点外卖）。 核心技术：云端物理... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>纽约大学</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%BD%E7%BA%A6%E5%A4%A7%E5%AD%A6</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E7%BA%BD%E7%BA%A6%E5%A4%A7%E5%AD%A6</guid>
     <description><![CDATA[ --- type: entity title: 纽约大学 created: 2025-05-21 updated: 2026-05-29 tags: [&quot;高校&quot;, &quot;研究机构&quot;, &quot;数学&quot;, &quot;ai-for-science&quot;] related: [&quot;谢赛宁&quot;, &quot;rae-表征自编码器&quot;, &quot;raev2&quot;, &quot;atlas-lean&quot;, &quot;meta&quot;] sources: [&quot;刚刚，谢赛宁团队放出第二代表征自编码... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>机器之心</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83</guid>
     <description><![CDATA[ --- type: entity title: 机器之心 created: 2026-05-17 updated: 2026-05-22 tags: [科技媒体, AI媒体, 媒体, 中国] related: [ambisur, 量子位] sources: [&quot;icml-2026-突破3dgs光度多义性瓶颈：北航新国立提出ambisur，重塑高保真3d几何重建.md&quot;, &quot;icml-2026-只用少量thinking-tokens，大模型依然能深度思考.md&quot;, &quot;icml-2026-｜让大模型边想边说：这篇文章把「何时开口」变成可学习策略.m... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item><item>
     <title>卡内基梅隆大学</title>
     <link>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8D%A1%E5%86%85%E5%9F%BA%E6%A2%85%E9%9A%86%E5%A4%A7%E5%AD%A6</link>
     <guid>https://https://BITDeeper.github.io/llm_wiki_notebook/entities/%E5%8D%A1%E5%86%85%E5%9F%BA%E6%A2%85%E9%9A%86%E5%A4%A7%E5%AD%A6</guid>
     <description><![CDATA[ --- type: entity title: 卡内基梅隆大学 tags: [university, research, ai, 教育机构, AI发源地, 大学, 高校, 研究机构, AI研究, 学术机构, 美国] related: [autogeo, cmu-2026毕业演讲, 黄仁勋, 马里兰大学, 模型睡眠机制, 记忆巩固机制, 机器之心] created: 2026-03-28 updated: 2026-06-05 sources: [&quot;315曝光geo投毒产业链？别慌！cmu首提无毒的合作式autogeo.md&quot;, &quot;黄仁勋喊话毕业生：ai不会取代你，... ]]></description>
-    <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+    <pubDate>Sat, 06 Jun 2026 05:37:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
