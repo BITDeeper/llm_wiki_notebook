@@ -35214,6 +35214,205 @@
         "wiki/concepts/boot-loader类比.md",
         "wiki/events/蔚蓝babyalpha-a3发布-20260517.md"
       ]
+    },
+    "首字延迟降低3.6倍！腾讯混元提出stem稀疏注意力算法，长文推理加速新sota.md": {
+      "hash": "59feb398957e4a5a73a106ad6c0e597ec9b9fd2a4ffb46c6d1c8192480765ad1",
+      "timestamp": 1780667900428,
+      "filesWritten": [
+        "wiki/sources/首字延迟降低3.6倍！腾讯混元提出stem稀疏注意力算法，长文推理加速新sota.md",
+        "wiki/entities/腾讯混元.md",
+        "wiki/concepts/stem-稀疏注意力.md",
+        "wiki/concepts/稀疏注意力.md",
+        "wiki/concepts/预填充瓶颈.md",
+        "wiki/concepts/hpc-stem-hpc-bsa算子.md",
+        "wiki/concepts/token位置衰减.md",
+        "wiki/concepts/输出感知度量.md",
+        "wiki/events/stem算法被icml-26收录.md"
+      ]
+    },
+    "claude的双面人生：在anthropic内部卷生卷死，在用户面前躺平摆烂.md": {
+      "hash": "d1269353b686e25ccaa44a843259cc8e2ae1e224f2b181de82f203075d849911",
+      "timestamp": 1780668206314,
+      "filesWritten": [
+        "wiki/sources/claude的双面人生：在anthropic内部卷生卷死，在用户面前躺平摆烂.md",
+        "wiki/entities/claude-mythos-preview.md",
+        "wiki/entities/metr.md",
+        "wiki/entities/reddit.md",
+        "wiki/concepts/ai拟人化行为.md",
+        "wiki/concepts/内部-消费者模型差异.md",
+        "wiki/concepts/安全对齐过度.md",
+        "wiki/events/anthropic内部报告发布-20260605.md",
+        "wiki/events/claude-4-8用户投诉事件-202606.md"
+      ]
+    },
+    "无需外貌，凭骨架识人！南洋理工首发「3d骨架行人重识别」全景综述.md": {
+      "hash": "e7cf7322ce9202f682771e2574dad0f12dd0edaeb6138c523274954ee1f2880d",
+      "timestamp": 1780671485568,
+      "filesWritten": [
+        "wiki/sources/无需外貌，凭骨架识人！南洋理工首发「3d骨架行人重识别」全景综述.md"
+      ]
+    },
+    "anthropic紧急叫停！mythos被内鬼偷卖api.md": {
+      "hash": "d8256de015df1ac8d32a3a3746a840eed4ea617f1225a7f9f2a1ce8154efbec8",
+      "timestamp": 1780671705113,
+      "filesWritten": [
+        "wiki/sources/anthropic紧急叫停！mythos被内鬼偷卖api.md",
+        "wiki/entities/oceanus-mythos.md",
+        "wiki/entities/project-glasswing.md",
+        "wiki/concepts/测试时计算.md",
+        "wiki/events/oceanus-api泄密事件-202606.md",
+        "wiki/concepts/红队测试.md"
+      ]
+    },
+    "下一个anthropic不写代码，它在搬箱子！.md": {
+      "hash": "6af40d7485c6cd4e27874871dfefc7f587035465d706587ff995c22e2f458c58",
+      "timestamp": 1780671928764,
+      "filesWritten": [
+        "wiki/sources/下一个anthropic不写代码，它在搬箱子！.md",
+        "wiki/entities/原力灵机.md",
+        "wiki/entities/atomix.md",
+        "wiki/entities/skild-ai.md",
+        "wiki/entities/fetch-robotics.md",
+        "wiki/entities/dm系列模型.md",
+        "wiki/entities/新智元.md",
+        "wiki/concepts/picking-原子任务.md",
+        "wiki/concepts/场景型数据飞轮.md",
+        "wiki/concepts/coding-时刻.md",
+        "wiki/concepts/omnibodied-ai.md",
+        "wiki/concepts/具身原生.md",
+        "wiki/events/skild-ai收购fetch-robotics-20260415.md",
+        "wiki/events/原力灵机-atomix合并-20260605.md"
+      ]
+    },
+    "anthropic全球警告！openai已跨「可靠性阈值」：ai自我加速启动.md": {
+      "hash": "e0bd1d72538dd58170b7bc4e6d48d55ef5cfbc41fffe02d9b603d594a37c3f8e",
+      "timestamp": 1780672161300,
+      "filesWritten": [
+        "wiki/sources/anthropic全球警告！openai已跨「可靠性阈值」：ai自我加速启动.md",
+        "wiki/entities/yann-dubois.md",
+        "wiki/entities/claude-mythos.md",
+        "wiki/entities/alpaca.md",
+        "wiki/concepts/可靠性阈值.md",
+        "wiki/concepts/ai构建手艺论.md",
+        "wiki/concepts/harness-编排系统.md",
+        "wiki/concepts/最后一公里红利.md",
+        "wiki/concepts/持续学习-ai.md",
+        "wiki/events/anthropic全球ai自我加速警告-202606.md",
+        "wiki/events/openai跨越可靠性阈值-202512.md"
+      ]
+    },
+    "cvpr-2026-最佳论文公布！d4rt-动态4d重建，出自谷歌deepmind-&-ucl-&-牛津.md": {
+      "hash": "e25831f853f49001a041a140555dc4e9cf60632a9d324082adc386c3b5272ba3",
+      "timestamp": 1780682237921,
+      "filesWritten": [
+        "wiki/sources/cvpr-2026-最佳论文公布！d4rt-动态4d重建，出自谷歌deepmind-&-ucl-&-牛津.md",
+        "wiki/entities/d4rt.md",
+        "wiki/entities/ucl-伦敦大学学院.md",
+        "wiki/entities/牛津大学.md",
+        "wiki/concepts/动态4d重建与追踪.md",
+        "wiki/concepts/点查询范式.md",
+        "wiki/concepts/全局场景表示.md",
+        "wiki/events/cvpr-2026.md"
+      ]
+    },
+    "cvpr-2026-第二届微视觉计算研讨会成功举办.md": {
+      "hash": "765b66f788743332f4c339d532f8740c78da6aaf5d304bb33547c71785467724",
+      "timestamp": 1780682383176,
+      "filesWritten": [
+        "wiki/sources/cvpr-2026-第二届微视觉计算研讨会成功举办.md",
+        "wiki/concepts/微视觉计算.md",
+        "wiki/concepts/多模态欺骗检测.md",
+        "wiki/concepts/跨域泛化远程生理测量.md",
+        "wiki/concepts/少样本视觉异常检测.md",
+        "wiki/events/svc-cvpr-2026.md",
+        "wiki/entities/余梓彤.md",
+        "wiki/entities/腾讯优图实验室.md",
+        "wiki/entities/备至科技.md",
+        "wiki/entities/adam-czajka.md",
+        "wiki/entities/essam-rashed.md",
+        "wiki/entities/mohamed-abouelenien.md",
+        "wiki/entities/xin-liu.md"
+      ]
+    },
+    "ai手机时代，mobile-agent最缺是更真实的世界.md": {
+      "hash": "55a3b28840b2034f32e614784462f97500483688834978eac59aa5fe40151f79",
+      "timestamp": 1780696517800,
+      "filesWritten": [
+        "wiki/sources/ai手机时代，mobile-agent最缺是更真实的世界.md",
+        "wiki/entities/phoneworld.md",
+        "wiki/entities/腾讯混元.md",
+        "wiki/concepts/mobile-agent.md",
+        "wiki/concepts/环境-scaling.md",
+        "wiki/concepts/mock-android-app.md",
+        "wiki/concepts/页面级-prd.md"
+      ]
+    },
+    "刚刚，何恺明resnet、yolo获时间检验奖！cvpr-2026奖项出炉.md": {
+      "hash": "bda640ea4822982c0fd3088c6ee7f3d84bdf523afe87c771bec3a3567035bc8e",
+      "timestamp": 1780696681324,
+      "filesWritten": [
+        "wiki/sources/刚刚，何恺明resnet、yolo获时间检验奖！cvpr-2026奖项出炉.md",
+        "wiki/entities/resnet.md",
+        "wiki/entities/yolo.md",
+        "wiki/entities/d4rt.md",
+        "wiki/entities/sam-3d.md",
+        "wiki/entities/nitro-gen.md",
+        "wiki/entities/o-voxel.md",
+        "wiki/entities/chord-edit.md",
+        "wiki/concepts/残差连接.md",
+        "wiki/concepts/端到端目标检测.md",
+        "wiki/concepts/4d动态场景重建.md",
+        "wiki/concepts/视觉-动作基底模型.md",
+        "wiki/concepts/人机协同数据管线.md",
+        "wiki/concepts/动态最优传输.md",
+        "wiki/concepts/longuet-higgins-prize.md",
+        "wiki/events/cvpr-2026.md"
+      ]
+    },
+    "cvpr-2026-最佳学生论文奖！微软&清华等提出trellis.2：原生3d大模型新标杆，17秒生成超高精度pbr资产.md": {
+      "hash": "fec335564bf6dc9419c2866bd9cd03472db329724ade90895bac553f6e1b8f0d",
+      "timestamp": 1780711004974,
+      "filesWritten": [
+        "wiki/sources/cvpr-2026-最佳学生论文奖！微软&清华等提出trellis.2：原生3d大模型新标杆，17秒生成超高精度pbr资产.md",
+        "wiki/entities/trellis-2.md",
+        "wiki/entities/o-voxel.md",
+        "wiki/entities/sc-vae.md",
+        "wiki/entities/flexgemm.md",
+        "wiki/entities/清华大学.md",
+        "wiki/entities/微软研究院.md",
+        "wiki/entities/中国科学技术大学.md",
+        "wiki/concepts/原生3d表征.md",
+        "wiki/concepts/无场表征.md",
+        "wiki/concepts/pbr.md",
+        "wiki/concepts/灵活对偶网格.md",
+        "wiki/concepts/测试时分辨率缩放.md",
+        "wiki/events/cvpr-2026最佳学生论文奖.md"
+      ]
+    },
+    "谁先跑进10万个家庭，谁就赢了机器人第一局.md": {
+      "hash": "fff98b81ab79677dfa1e98a42819c69e019b761d5298e2584e19e0e0d501b723",
+      "timestamp": 1780714706450,
+      "filesWritten": [
+        "wiki/sources/谁先跑进10万个家庭，谁就赢了机器人第一局.md"
+      ]
+    },
+    "快手可灵提出vlm-as-teacher：用测试时在线优化，让视频生成模型学会按规则推理.md": {
+      "hash": "fcb32a2965f9021d6e8a50716e08759626503361159c7dfe3ea427c7e2ddb5fa",
+      "timestamp": 1780714927648,
+      "filesWritten": [
+        "wiki/sources/快手可灵提出vlm-as-teacher：用测试时在线优化，让视频生成模型学会按规则推理.md"
+      ]
+    },
+    "有人靠cpu把ai算力密度卷到了新高度.md": {
+      "hash": "c33cd1cf6ba3e33ca6b6e2dcaa183ce5e4f4bb56138863e408b5d07fc2fee3ce",
+      "timestamp": 1780715103560,
+      "filesWritten": [
+        "wiki/sources/有人靠cpu把ai算力密度卷到了新高度.md",
+        "wiki/index.md",
+        "wiki/entities/允中.md",
+        "wiki/concepts/cpu-ai算力密度.md",
+        "wiki/log.md"
+      ]
     }
   }
 }

@@ -1,0 +1,33 @@
+---
+type: event
+title: CVPR 2026
+created: 2026-05-21
+updated: 2026-06-05
+tags: ["学术会议", "计算机视觉", "2026", "cvpr"]
+related: ["蚂蚁集团", "蚂蚁灵波", "d4rt", "google-deepmind", "机器之心"]
+sources: ["cvpr-2026美国丹佛，蚂蚁集团“攀登者之夜”约你来玩.md", "cvpr-2026-最佳论文公布！d4rt-动态4d重建，出自谷歌deepmind-&-ucl-&-牛津.md", "cvpr-2026美国丹佛，蚂蚁集团"攀登者之夜"约你来玩.md"]
+origin_date: 2026-06-01
+time_span:
+  start: 2026-06-01
+  end: null
+participants: [google-deepmind, ucl-伦敦大学学院, 牛津大学, 蚂蚁集团]
+causes: []
+effects: []
+significance: high
+---
+# CVPR 2026
+
+CVPR 2026 是计算机视觉领域的顶级学术会议，于 2026 年 6 月在美国丹佛举办。
+
+## 最佳论文
+
+**D4RT（Dynamic 4D Reconstruction and Tracking）** 荣获 CVPR 2026 最佳论文奖。
+
+- **研发团队**：[[google-deepmind]]、[[ucl-伦敦大学学院]]、[[牛津大学]]
+- **核心贡献**：通过统一的"五元组"[[点查询范式]]接口，在单一前馈模型中同时解决 [[动态4d重建与追踪]] 的所有核心子任务
+- **关键性能**：A100 上 200+ FPS 姿态估计，比 VGGT 快 9 倍，比 MegaSaM 快 100 倍；3D 追踪吞吐量比竞争对手高 18-300 倍
+- **论文地址**：https://arxiv.org/abs/2512.08924
+
+## 会议活动
+
+- [[蚂蚁集团]] 在会议期间举办"攀登者之夜"社交活动，由 [[机器之心]] 发布活动邀请

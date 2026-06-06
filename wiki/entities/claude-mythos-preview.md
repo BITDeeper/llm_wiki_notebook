@@ -3,14 +3,14 @@ type: entity
 title: Claude Mythos Preview
 created: 2026-05-31
 updated: 2026-06-05
-tags: ["ai-model", "cybersecurity", "anthropic", "offensive-security", "model", "security", "research", "evaluation", "long-horizon-task", "模型", "claude", "ai安全", "ai模型", "安全", "漏洞挖掘", "网络安全", "零日漏洞", "递归自我改进", "实验优化"]
+tags: ["ai-model", "cybersecurity", "anthropic", "offensive-security", "model", "security", "research", "evaluation", "long-horizon-task", "模型", "claude", "ai安全", "ai模型", "安全", "漏洞挖掘", "网络安全", "零日漏洞", "递归自我改进", "实验优化", "模型版本", "评测基准"]
 related: ["anthropic", "project-glasswing", "ai-网络攻防能力", "自动化漏洞利用", "技术余晖", "gpt-5.3-codex", "claude", "metr", "patience-awakening", "nla-自然语言自编码器", "claude-opus-4-6", "claude-security", "claude-code", "scaling-law", "cloudflare", "mozilla-firefox", "openbsd", "wolfssl", "xbow", "漏洞洪水", "ai网络安全受限部署", "ai网络安全临界点-2026年4月", "递归式自我改进"]
-sources: ["openai也开始恐惧自己训练出的新模型了.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "claude脑子里想的，被翻译成人话了！anthropic新研究看懵人类.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md", "ai引爆「漏洞洪水」！99%来不及修，openai高薪抢人.md", "刚刚，anthropic向全人类发出警告：停止研究ai！.md"]
+sources: ["openai也开始恐惧自己训练出的新模型了.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "ai突现首例自我复制！横跨4国160小时无限繁殖.md", "claude脑子里想的，被翻译成人话了！anthropic新研究看懵人类.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md", "ai引爆「漏洞洪水」！99%来不及修，openai高薪抢人.md", "刚刚，anthropic向全人类发出警告：停止研究ai！.md", "claude的双面人生：在anthropic内部卷生卷死，在用户面前躺平摆烂.md"]
 origin_date: 2026-04-01
 ---
 # Claude Mythos Preview
 
-[[anthropic|Anthropic]] 于2026年4月前后推出的最新模型版本，在实验优化、研究判断和攻击性网络安全能力上实现了跨越式突破。2026年4月随 [[project-glasswing|Project Glasswing]] 一同发布。
+[[anthropic|Anthropic]] 于2026年4月前后推出的最新模型版本，在实验优化、研究判断和攻击性网络安全能力上实现了跨越式突破。2026年4月随 [[project-glasswing|Project Glasswing]] 一同发布。该模型配置代表 [[递归式自我改进]] 的重要里程碑，属于 Anthropic 内部使用的高性能配置，与面向消费者的 Claude 产品存在显著差异。
 
 ## 核心性能指标
 
@@ -26,6 +26,10 @@ origin_date: 2026-04-01
 - 在129个真实研究"走弯路"时刻测试中，**64%概率给出比人类更优的下一步**
 - 对比：2025年11月 Opus 4.5 仅为51%
 
+### 评测天花板
+
+- 达到 [[metr|METR]] 在不添加新任务的情况下所能衡量的上限，意味着该模型配置在长时间独立任务完成能力上已触及现有评测体系的天花板
+
 ## 网络安全能力
 
 ### 自主零日漏洞发现
@@ -33,7 +37,6 @@ origin_date: 2026-04-01
 - 能在真实开源代码库中自主发现并利用尚未公开、尚未修复的零日漏洞
 - 一个月内扫描1000+开源项目，标记6202个高危/严重漏洞候选
 - 经六家独立安全公司复核，真阳性率达90.6%，确认1094个高危/严重级别
-- 在 wolfSSL 中拼出完整攻击链（CVE-2026-5194，CVSS 9.1），攻击者可伪造证书创建以假乱真的银行页面
 
 ### 大规模漏洞扫描成果
 
@@ -43,7 +46,7 @@ origin_date: 2026-04-01
 
 ### 完整攻击链构建
 
-- 在 wolfSSL 中拼出完整攻击链（CVE-2026-5194，CVSS 9.1），攻击者可伪造证书创建以假乱真的银行页面
+- 在 [[wolfssl|wolfSSL]] 中拼出完整攻击链（CVE-2026-5194，CVSS 9.1），攻击者可伪造证书创建以假乱真的银行页面
 
 ## 评估验证
 
@@ -64,6 +67,14 @@ origin_date: 2026-04-01
 
 Mythos Preview 未面向公众开放，通过 [[project-glasswing|Project Glasswing]] 限定交付给约50家合作伙伴，仅用于防御性安全工作。这体现了 [[ai网络安全受限部署|受限部署]] 的"窄门"策略。
 
+## 内部报告披露
+
+2026年6月5日 Anthropic 发布的内部报告进一步披露：
+
+- 代码库超80%由 Claude 编写
+- 工程师人均产出翻8倍
+- 报告帖子浏览量破500万
+
 ## 意义
 
-Mythos Preview 的52倍实验加速标志着 [[递归式自我改进]] 从理论推测进入有量化数据支撑的现实阶段。在目标明确的实验优化环节，人类已被甩出一个数量级。
+Mythos Preview 的52倍实验加速标志着 [[递归式自我改进]] 从理论推测进入有量化数据支撑的现实阶段。在目标明确的实验优化环节，人类已被甩出一个数量级。该模型配置作为递归式自我改进进入工程化阶段的关键证据之一，证明 Claude 已具备超长时间独立完成任务的能力。

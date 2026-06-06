@@ -1,0 +1,30 @@
+---
+type: entity
+title: 腾讯混元
+created: 2026-06-05
+updated: 2026-06-05
+tags: ["大模型", "腾讯", "ai", "company", "research", "llm", "ai实验室", "手机agent", "AI基础设施", "推理优化"]
+related: ["hy3-preview", "姚顺雨", "workbuddy", "tokenhub", "cl-bench-life", "腾讯", "phoneharness", "马维斯", "元宝", "stem-稀疏注意力", "hpc-stem-hpc-bsa算子", "量化"]
+sources: ["刚刚，姚顺雨首次交卷！腾讯混元3-preview大模型发布.md", "腾讯混元cl-bench续作发布，让大模型读懂你的日常生活.md", "从openai-ai-phone到gemini-on-android：ai手机时代需要怎样的agent-harness？.md", "首字延迟降低3.6倍！腾讯混元提出stem稀疏注意力算法，长文推理加速新sota.md"]
+---
+# 腾讯混元
+
+[[腾讯]]旗下大模型品牌，由腾讯混元 AI Infra 团队负责研发。该团队专注于大模型的基础设施优化，涵盖推理加速、训练优化和底层算子开发。
+
+## 技术成果
+
+### Stem 稀疏注意力算法
+腾讯混元 AI Infra 团队提出的 [[stem-稀疏注意力|Stem 算法]]已被机器学习顶会 ICML-26 收录。该算法从"因果信息流"视角重新审视块级稀疏注意力，在 128K 上下文下实现 3.6 倍首字延迟降低，仅用 25% 算力即可逼近稠密注意力精度。
+
+### HPC 算子库
+配套开发了面向 Hopper 架构优化的 [[hpc-stem-hpc-bsa算子|HPC-Stem 和 HPC-BSA 算子]]，原生支持 FP8 量化和 Paged KV Cache，将理论加速比转化为端到端实测性能。
+
+### 工业级验证
+Stem 算法已在腾讯混元 Hy3 preview（W8A8-FP8 [[量化]]模型）的 vLLM 推理框架中完成端到端验证，证明其在量化后的工业级模型上同样有效。
+
+## 开源项目
+- **AngelSlim**：Stem 算法开源代码库（https://github.com/Tencent/AngelSlim）
+- **hpc-ops**：HPC 算子开源代码库（https://github.com/Tencent/hpc-ops）
+
+## 与腾讯其他 AI 产品的关系
+腾讯混元代表了[[腾讯]]在 AI 基础设施底层技术（大模型推理优化）方面的布局，与此前维基收录的应用层产品（[[马维斯]]、[[元宝]]）形成互补——混元提供底层模型与推理能力，马维斯和元宝则是面向终端用户的应用。
