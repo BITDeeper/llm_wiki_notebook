@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Daniela Amodei
-tags: [anthropic, founder, president, people, ai, leadership, 人物, 领导者, 人文主义, 高管, 联合创始人, 亿万富翁, 捐赠承诺, 企业文化, 总裁]
-related: [anthropic, dario-amodei, ai-safety, openai, claude-cowork, 牧星者, anthropic-labs, 双轨战略, anthropic-七子, anthropic-h轮融资-202605, anthropic文化面试, 智识独立筛选, greg-brockman]
-sources: ["anthropic登上时代封面！内部曝猛料：ai递归自我改进，或在一年内发生.md", "硅谷最危险战争！anthropic死扛封杀，营收狂飙190亿.md", "文科生年薪72万美元！anthropic总裁预警：逻辑已死，asi不养码农.md", "再造一个10亿爆款！ins之父卸任anthropic-cpo，空降一线写代码.md", "硅谷最危险战争！anthropic死扛封封杀，营收狂飙190亿.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "年薪最高85万、ipo后或身家过亿，进anthropic被问到怀疑人生？.md", "openai执剑人9年恩仇录！惨被anthropic联创逐出chatgpt前身.md"]
+tags: [anthropic, founder, president, people, ai, leadership, 人物, 领导者, 人文主义, 高管, 联合创始人, 亿万富翁, 捐赠承诺, 企业文化, 总裁, person, ai-leader]
+related: [anthropic, dario-amodei, ai-safety, openai, claude-cowork, 牧星者, anthropic-labs, 双轨战略, anthropic-七子, anthropic-h轮融资-202605, anthropic文化面试, 智识独立筛选, greg-brockman, 逃命式上市]
+sources: ["anthropic登上时代封面！内部曝猛料：ai递归自我改进，或在一年内发生.md", "硅谷最危险战争！anthropic死扛封杀，营收狂飙190亿.md", "文科生年薪72万美元！anthropic总裁预警：逻辑已死，asi不养码农.md", "再造一个10亿爆款！ins之父卸任anthropic-cpo，空降一线写代码.md", "硅谷最危险战争！anthropic死扛封封杀，营收狂飙190亿.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "年薪最高85万、ipo后或身家过亿，进anthropic被问到怀疑人生？.md", "openai执剑人9年恩仇录！惨被anthropic联创逐出chatgpt前身.md", "美股一夜蒸发2万亿！asi三巨兽上市前夜，整个华尔街被抽干.md"]
 created: 2026-03-12
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 # Daniela Amodei
@@ -41,6 +41,9 @@ Daniela 提出了"[[牧星者]]"这一概念，主张在 ASI 时代，人类不�
 
 ### 安全理想主义
 Daniela 强调 Anthropic 的理想主义色彩，主张像教育孩子一样"训练" AI 的善良本性。在公司招聘中，她曾提出极端问题以测试候选人的安全承诺：如果为了安全，公司决定不发布模型，候选人是否愿意让自己的股票变得一文不值。
+
+### 大模型行业的资本真相
+Daniela 揭示了当前大模型行业最残酷的真相：**VC 已经供不起大模型了**。她指出，训练下一代大模型需要几百亿美元，即使 OpenAI 和 Anthropic 分别融到了 400 亿和 300 亿美元，这些资金依然远远不够填补算力黑洞。她预测全球最终能留在第一梯队的只会是少数几家核心大模型企业，由于算力资金缺口超出了全球私募投资的承受极限，大模型公司被迫转向二级市场进行[[逃命式上市]]。
 
 ## 管理实践与战略
 

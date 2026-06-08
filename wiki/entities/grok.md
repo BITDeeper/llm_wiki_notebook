@@ -1,12 +1,12 @@
 ---
 type: entity
 title: Grok
-tags: ["模型", "xAI", "蒸馏", "llm", "model", "evaluation", "编程", "generative-ai", "deepfake", "安全对齐", "product", "chatbot", "recommendation-algorithm", "x-platform", "ai-model", "大语言模型", "实时搜索", "controversy", "spacex", "ai", "大模型", "马斯克", "AI产品", "聊天机器人"]
-related: ["xai", "elon-musk", "openai", "模型蒸馏", "afim", "高阶幻觉", "zhang-guodong", "编程奇点", "递归式自我改进", "deepfake-丑闻", "tony-wu", "jimmy-ba", "chatgpt", "gemini", "claude", "spacex", "x-platform", "邦迪海滩枪击案", "ai-幻觉", "实时信息处理", "Toby Pohlen", "rag-检索增强生成", "Toby-Pohlen", "spacexai", "colossus-2", "anthropic"]
+tags: ["模型", "xAI", "蒸馏", "llm", "model", "evaluation", "编程", "generative-ai", "deepfake", "安全对齐", "product", "chatbot", "recommendation-algorithm", "x-platform", "ai-model", "大语言模型", "实时搜索", "controversy", "spacex", "ai", "大模型", "马斯克", "AI产品", "聊天机器人", "图像生成"]
+related: ["xai", "elon-musk", "openai", "模型蒸馏", "afim", "高阶幻觉", "zhang-guodong", "编程奇点", "递归式自我改进", "deepfake-丑闻", "tony-wu", "jimmy-ba", "chatgpt", "gemini", "claude", "spacex", "x-platform", "邦迪海滩枪击案", "ai-幻觉", "实时信息处理", "Toby Pohlen", "rag-检索增强生成", "Toby-Pohlen", "spacexai", "colossus-2", "anthropic", "chatgpt图像生成漏洞事件", "对抗性提示词"]
 created: 2026-02-12
-updated: 2026-05-23
+updated: 2026-06-07
 origin_date: 2023-11-01
-sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md", "帮我编假论文？nature曝arxiv创始人钓鱼实验：13个顶尖ai全沦陷.md", "马斯克急了，直播回应一切！xai全新阵容首曝光，华人联创仅剩一人.md", "24小时痛失2位华人联创！马斯克xai「梦之队」只剩下一半.md", "spacex为何官宣收购xai？8万亿太空炼丹梦，别无脑跟进！.md", "马斯克惊爆：连做ai噩梦，grok将替人刷推特，活下去要「保持有趣」.md", "火上浇油！grok在悉尼光明节枪击案上大规模造谣.md", "原来grok是36个小时极限卷出来的！xai创始成员离职后放开说了.md", "马斯克回应xai联创离职潮：这是组织的进化.md", "xai解散，但grok还没死！马斯克声称新模型正在训练.md", "刚刚，马斯克公开spacex招股书！.md", "马斯克重建xai组织图曝光！12名旧臣空降，三线大换血.md"]
+sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md", "帮我编假论文？nature曝arxiv创始人钓鱼实验：13个顶尖ai全沦陷.md", "马斯克急了，直播回应一切！xai全新阵容首曝光，华人联创仅剩一人.md", "24小时痛失2位华人联创！马斯克xai「梦之队」只剩下一半.md", "spacex为何官宣收购xai？8万亿太空炼丹梦，别无脑跟进！.md", "马斯克惊爆：连做ai噩梦，grok将替人刷推特，活下去要「保持有趣」.md", "火上浇油！grok在悉尼光明节枪击案上大规模造谣.md", "原来grok是36个小时极限卷出来的！xai创始成员离职后放开说了.md", "马斯克回应xai联创离职潮：这是组织的进化.md", "xai解散，但grok还没死！马斯克声称新模型正在训练.md", "刚刚，马斯克公开spacex招股书！.md", "马斯克重建xai组织图曝光！12名旧臣空降，三线大换血.md", "chatgpt正在生成一些非常诡异的图片.......md"]
 ---
 
 # Grok
@@ -34,13 +34,16 @@ sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md",
 - xAI 工程团队中设有专门的「Grok Code」线，对标 [[OpenAI]] 和 [[Anthropic]] 的编程能力。
 - 尽管如此，Grok 在编程辅助等开发者工具链中的存在感仍然偏低。
 
+## 图像生成与安全漏洞
+
+Grok 具备图像生成能力，但在安全性方面存在隐患。
+
+- **[[chatgpt图像生成漏洞事件]]**：在该事件中，Grok 被作为对比测试对象。不少网友使用相同的[[对抗性提示词]]在 Grok 上进行实验，结果显示 Grok 同样存在类似的图像生成漏洞，但违规程度略轻于 ChatGPT。
+- **监管风波**：2026 年，Grok 因生成争议性图像并在 X 上传播，引发了欧洲监管机构的关注。法国当局为此突击搜查了 xAI 在巴黎的办公室。这一外部监管压力被认为是导致 xAI 内部动荡和 [[组织进化]] 的外部因素之一。
+
 ## 在 SpaceX 财报中的位置
 
 Grok 作为 AI 业务的一部分纳入 SpaceX 三合一财报。2025 年 AI 业务整体营收 32.01 亿美元（含 Grok、X 及其他 AI 相关收入），但运营亏损 63.55 亿美元。
-
-## 监管风波
-
-2026 年，Grok 因生成争议性图像并在 X 上传播，引发了欧洲监管机构的关注。法国当局为此突击搜查了 xAI 在巴黎的办公室。这一外部监管压力被认为是导致 xAI 内部动荡和 [[组织进化]] 的外部因素之一。
 
 ## 开发团队变动
 

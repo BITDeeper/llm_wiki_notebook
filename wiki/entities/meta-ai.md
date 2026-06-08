@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Meta AI
-tags: [organization, ai-lab, llama, meta, organizations, big-tech, 科技公司, ai研究, 计算机视觉, 研究机构, ai, 视觉推理]
-related: [openai, google, 庞若鸣, llama-4, 扎克伯格, yann-lecun, alexandr-wang, fair, ami-labs, vggt-omega, 牛津大学视觉几何组, dinov3, atlas-视觉推理, 香港中文大学, google-deepmind, papers-with-code, ross-taylor]
+tags: [organization, ai-lab, llama, meta, organizations, big-tech, 科技公司, ai研究, 计算机视觉, 研究机构, ai, 视觉推理, AI研究机构]
+related: [openai, google, 庞若鸣, llama-4, 扎克伯格, yann-lecun, alexandr-wang, fair, ami-labs, vggt-omega, 牛津大学视觉几何组, dinov3, atlas-视觉推理, 香港中文大学, google-deepmind, papers-with-code, ross-taylor, fusionroute, nuoya-xiong]
 created: 2026-02-26
-updated: 2026-06-03
-sources: ["刚刚，庞若鸣跳槽openai！放弃14亿年薪，在meta只待了7个月.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "cvpr-2026-oral-牛津-&-meta-ai-推出-vggt-ω：前馈-3d-重建迈入-10b-参数时代，动态场景精度升-77%.md", "meta华人发布atlas，一个词搞定可泛化的视觉推理！.md", "cvpr论文一网打尽！科研神器papers-with-code满血复活.md"]
+updated: 2026-06-07
+sources: ["刚刚，庞若鸣跳槽openai！放弃14亿年薪，在meta只待了7个月.md", "meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "cvpr-2026-oral-牛津-&-meta-ai-推出-vggt-ω：前馈-3d-重建迈入-10b-参数时代，动态场景精度升-77%.md", "meta华人发布atlas，一个词搞定可泛化的视觉推理！.md", "cvpr论文一网打尽！科研神器papers-with-code满血复活.md", "icml-2026｜fusionroute：从专家路由到自我修正，一种新的多llm协作范式.md"]
 ---
 
 # Meta AI
@@ -59,6 +59,7 @@ Meta AI 是 Meta 公司（原 Facebook）旗下的人工智能研发部门，致
 - 开发 [[dinov3|DINOv3]] 视觉骨干网络，被 VGGT-Ω 采用为核心视觉编码器。
 - 开发 Grounding DINO，用于 VGGT-Ω 数据流水线中的动态掩码提取。
 - 与 [[香港中文大学]] 联合提出 [[atlas-视觉推理|ATLAS]] 视觉推理范式（2026年5月），用离散 Functional Token 统一 Agentic 和 Latent Visual Reasoning，标志着其在视觉推理范式创新方面的最新探索。
+- [[fusionroute]]：由 Meta AI 的 Zhuokai Zhao 和 Lizhu Zhang 共同领导的多 LLM 协作项目，被 ICML 2026 接收。该项目由 Meta TBD 团队的 Shuchao Bi 参与合作。
 
 ## 战略方向与基础设施
 
@@ -71,6 +72,7 @@ Meta 在 AI 基础设施上投入巨大，近期官宣了与 AMD 的合作以扩
 - [[vggt-omega|VGGT-Ω]]: 前馈3D重建大模型。
 - [[dinov3|DINOv3]]: 视觉骨干网络。
 - [[atlas-视觉推理|ATLAS]]: 视觉推理范式。
+- [[fusionroute]]: 多 LLM 协作范式（ICML 2026）。
 
 ## 相关实体
 

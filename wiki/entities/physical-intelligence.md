@@ -2,10 +2,10 @@
 type: entity
 title: Physical Intelligence
 tags: ["robotics", "startup", "vla", "pi", "具身智能", "美国公司", "机器人", "entity", "ai-neolab", "embodied-ai", "AI公司", "世界模型", "创业公司", "公司", "美国"]
-related: ["pi-0-7", "chelsea-finn", "sergey-levine", "karol-hausman", "rt-2", "星动纪元", "benjies-olympics", "skild-ai", "project-prometheus", "ai-neolab", "具身智能数据困境", "robochallenge-table30", "figure", "vla-视觉-语言-动作", "世界模型", "视频世界模型", "g0-5", "星海图", "统一自回归vla架构"]
+related: ["pi-0-7", "chelsea-finn", "sergey-levine", "karol-hausman", "rt-2", "星动纪元", "benjies-olympics", "skild-ai", "project-prometheus", "ai-neolab", "具身智能数据困境", "robochallenge-table30", "figure", "vla-视觉-语言-动作", "世界模型", "视频世界模型", "g0-5", "星海图", "统一自回归vla架构", "柔性物体操作", "dyna-robotics"]
 created: 2026-04-17
-updated: 2026-06-01
-sources: ["π0.7发布，vla押出了机器人的gpt-3时刻.md", "击败pi！星动纪元登顶具身奥林匹克，狂揽三项全球冠军.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "机器人自回归的创新，让星海图横扫了7大具身评测基准.md"]
+updated: 2026-06-06
+sources: ["π0.7发布，vla押出了机器人的gpt-3时刻.md", "击败pi！星动纪元登顶具身奥林匹克，狂揽三项全球冠军.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "机器人自回归的创新，让星海图横扫了7大具身评测基准.md", "世界第一！让全体ai翻车的叠衣难题，被这家中国实验室拿下.md"]
 ---
 
 # Physical Intelligence
@@ -47,6 +47,9 @@ PI 的模型经常在 [[robochallenge-table30|RoboChallenge Table30]] 等真机�
 
 在 [[Benjies Olympics]]（具身奥林匹克）真机赛事中，PI 是唯一主动参赛并使用闭源模型的队伍，代表了其当时的最高技术水平。[[星动纪元]] 击败了 PI 的 π0.6，拿下剥橘子、开锁和翻袜子三项任务全球第一。尽管如此，PI 的表现仍被视为行业标杆。PI 团队评价该赛事"瞄准了具身智能最难未解问题"。
 
+### 柔性物体操作与叠衣基准
+在 π 系列模型发布中，PI 将 laundry folding（衣物折叠）列为需要专门后训练的高灵巧任务，侧面印证了 [[柔性物体操作|叠衣服]] 作为具身智能验证基准的难度与重要性。这也凸显了柔性物体操作仍是当前具身智能领域最具挑战性的问题之一。
+
 ## 合作与竞争关系
 
 ### 与星动纪元
@@ -61,3 +64,4 @@ PI 曾与 [[星动纪元]] 两次合作，包括 2025 年 10 月的 Ctrl-World �
 ## 关联条目
 - [[vla-视觉-语言-动作]] — VLA 模型概念
 - [[统一自回归vla架构]] — G0.5 的替代架构路线
+- [[柔性物体操作]] — 叠衣服等高灵巧操作任务

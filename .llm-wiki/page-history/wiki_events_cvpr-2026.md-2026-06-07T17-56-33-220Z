@@ -1,0 +1,58 @@
+---
+type: event
+title: CVPR 2026
+created: 2026-05-21
+updated: 2026-06-06
+tags: ["学术会议", "计算机视觉", "2026", "cvpr", "丹佛"]
+related: ["蚂蚁集团", "蚂蚁灵波", "d4rt", "google-deepmind", "机器之心", "resnet", "yolo", "sam-3d", "nitro-gen", "o-voxel", "chord-edit", "longuet-higgins-prize"]
+sources: ["cvpr-2026美国丹佛，蚂蚁集团“攀登者之夜”约你来玩.md", "cvpr-2026-最佳论文公布！d4rt-动态4d重建，出自谷歌deepmind-&-ucl-&-牛津.md", "cvpr-2026美国丹佛，蚂蚁集团"攀登者之夜"约你来玩.md", "刚刚，何恺明resnet、yolo获时间检验奖！cvpr-2026奖项出炉.md"]
+origin_date: 2026-06-03
+significance: high
+time_span:
+  start: 2026-06-03
+  end: 2026-06-07
+participants: [google-deepmind, 蚂蚁集团, 机器之心]
+causes: []
+effects: []
+---
+# CVPR 2026
+
+CVPR 2026是计算机视觉与模式识别领域全球顶级学术会议，于2026年6月3-7日在美国科罗拉多州丹佛市举行。在谷歌学术所有领域科学期刊/会议影响力排名中，CVPR位列第二名，仅次于《Nature》。
+
+## 会议数据
+
+- 投稿量：16092篇
+- 接收量：4071篇（highlights 141篇；poster 3352篇）
+- 接收率：25.3%
+- 论文数量同比增长：23.71%
+- 算力水平：人均4块GPU，40GB显存起步，工业界算力消耗远超学术界
+
+## 获奖论文
+
+### 最佳论文奖
+- **D4RT**：[[d4rt|Efficiently Reconstructing Dynamic Scenes One D4RT at a Time]]（[[google-deepmind|谷歌DeepMind]]、UCL、牛津）
+
+### 最佳论文奖提名
+- **SAM 3D**：[[sam-3d|3Dfy Anything in Images]]（Meta超级智能实验室）
+- **NitroGen**：[[nitro-gen|An Open Foundation Model for Generalist Gaming Agents]]（英伟达、斯坦福等）
+
+### 最佳学生论文
+- **O-Voxel**：[[o-voxel|Native and Compact Structured Latents for 3D Generation]]（清华、微软研究院等）
+
+### 最佳学生论文奖提名
+- **ChordEdit**：[[chord-edit|One-Step Low-Energy Transport for Image Editing]]（广东工业大学等）
+
+### Longuet-Higgins时间检验奖
+- [[resnet|ResNet]]原始论文（何恺明等，CVPR 2016，引用超32万）
+- [[yolo|YOLO]] v1原始论文（Joseph Redmon等，CVPR 2016，引用近8万）
+
+### 年轻学者奖
+- Deepak Pathak（CMU副教授）
+- Vincent Sitzmann（MIT副教授）
+
+### Thomas S. Huang纪念奖
+- Noah Snavely（康奈尔大学教授）
+
+## 周边活动
+
+- [[蚂蚁集团]]"攀登者之夜"社交活动

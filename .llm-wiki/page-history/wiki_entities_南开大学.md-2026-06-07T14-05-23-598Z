@@ -1,0 +1,12 @@
+---
+type: entity
+title: 南开大学
+created: 2026-05-15
+updated: 2026-05-15
+tags: [高校, 研究机构]
+related: [gor-is, 南京大学, cvpr-2026]
+sources: ["cvpr-2026-highlight-gor-is：在"内在空间"重塑-3d-高斯物体移除，物理一致性大幅领先.md"]
+---
+# 南开大学
+
+南开大学是中国顶尖综合性大学，位于天津。在计算机视觉和3D场景编辑领域，南开大学与 [[南京大学]] 联合提出了 [[gor-is]] 框架，该工作被录用为 [[cvpr-2026]] Highlight 论文。

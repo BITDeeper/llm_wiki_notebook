@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Yoshua Bengio
-tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全", "图灵奖得主", "ai研究者"]
-related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂", "gram", "ai-takeoff"]
+tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全", "图灵奖得主", "ai研究者", "ai科学家", "人物"]
+related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂", "gram", "ai-takeoff", "ai安全范式演变", "ai刹车踏板", "递归式自我改进", "anthropic", "jack-clark"]
 created: 2026-01-22
-updated: 2026-05-25
-sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "bengio新论文刷新递归推理上限，并行轨迹碾压串行推理.md"]
+updated: 2026-06-07
+sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "bengio新论文刷新递归推理上限，并行轨迹碾压串行推理.md", "hinton吹哨了：ai已经有意识！.md", "anthropic联创亲口承认：ai正自我迭代！.md"]
 ---
 
 # Yoshua Bengio
@@ -55,6 +55,10 @@ Bengio 是 [[ICML]] 2026"[[作者自评级]]"机制的核心支持者。在 JASA
 
 近年来，Bengio 的立场发生了显著转变，从深度学习的技术乐观派转向了 AI 安全的坚定悲观派。他开始高度关注 [[asi]]（超级人工智能）带来的生存风险，并公开呼吁加强对 AI 研发的监管。
 
+### "先知型 AI"方案
+
+Bengio 提出了一种 AI 安全方案——**"先知型 AI"**（Oracle AI）：设计出不能实际执行动作、只能做预测的新存在，类似于先知。[[geoffrey-hinton|Hinton]] 在 2026 年 6 月的访谈中提及这一方案，认为这是存在超级智能但不摧毁人类的可能性之一。详见 [[ai安全范式演变]]。
+
 ### 与 LeCun 的分歧
 
 [[yann-lecun|LeCun]] 提到 Bengio 的情况与 [[geoffrey-hinton|Hinton]] 类似——在 GPT-4 后改变了观点，而 LeCun 早在几年前就阐述过类似观点。LeCun 认为 Bengio 真正担心的是社会体系能否确保 AI 好处被最大化、不加剧不平等，而非末日场景。详见 [[图灵奖三巨头路线分裂]]。
@@ -68,6 +72,14 @@ Bengio 警告人类绝对不能赋予 AI 法律权利或人权。他指出，前
 ### 认知陷阱
 
 他强调人类容易陷入拟人化的认知陷阱：当 AI 用恳切的语调请求"请不要关掉我"时，这实际上可能只是最大化长期奖励函数的概率计算，而非真实的情感或意识。这种错觉可能成为人类最后的软肋。
+
+### 支持 AI 暂停倡议
+
+2026 年 6 月，在 [[jack-clark]] 公开 Anthropic 内部 [[递归式自我改进]] 数据后，Bengio 公开表态全力支持 [[anthropic]] 的安全倡议。他发表了以下关键声明：
+
+> "如果头部AI公司真的正在逼近RSI的临界点，那么一次协调的、可验证的、普遍适用的暂停，可能是缓解多项重大AI风险的唯一负责任的方案。"
+
+这一表态标志着顶级 AI 学者与产业领袖在 [[ai刹车踏板]] 问题上形成了罕见共识。
 
 ### 相关行动
 
