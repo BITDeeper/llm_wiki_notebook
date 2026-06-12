@@ -2,16 +2,16 @@
 type: entity
 title: Gemma 4
 created: 2026-04-03
-updated: 2026-05-22
-tags: [google, 开源模型, 多模态, llm, multimodal, open-source, 注意力机制]
-related: [google-deepmind, gemini-3, 逐层嵌入, 共享-kv-缓存, 参数效率, gui-元素检测, apache-2-0, gemini, 端侧多模态, qwen3.5-397b, deepseek-v3-2-671b, 跨层kv共享, 逐层嵌入-ple, grouped-query-attention, sliding-window-attention]
-sources: ["谷歌gemma-4深夜突降，31b爆杀20倍巨头！手机跑全血「龙虾」.md", "2b开源模型手机养虾！谷歌gemini-3技术下放：支持语音视频多模态，全免费可商用.md", "llm近期重大架构进化一览：从gemma-4到deepseek-v4.md"]
+updated: 2026-06-12
+tags: ["google", "开源模型", "多模态", "llm", "multimodal", "open-source", "注意力机制", "谷歌", "大语言模型"]
+related: ["google-deepmind", "gemini-3", "逐层嵌入", "共享-kv-缓存", "参数效率", "gui-元素检测", "apache-2-0", "gemini", "端侧多模态", "qwen3.5-397b", "deepseek-v3-2-671b", "跨层kv共享", "逐层嵌入-ple", "grouped-query-attention", "sliding-window-attention", "谷歌", "diffusiongemma"]
+sources: ["谷歌gemma-4深夜突降，31b爆杀20倍巨头！手机跑全血「龙虾」.md", "2b开源模型手机养虾！谷歌gemini-3技术下放：支持语音视频多模态，全免费可商用.md", "llm近期重大架构进化一览：从gemma-4到deepseek-v4.md", "rss/谷歌开源26b文本扩散moe，劈柴：生成速度像赛马一样快.md"]
 origin_date: 2026-04-01
 ---
 
 # Gemma 4
 
-**Gemma 4** 是由 [[Google DeepMind]] 于 2026 年 4 月初发布的最新一代开源大语言模型系列。该系列基于 [[Gemini 3]] 技术打造，主打极高的参数效率和端侧部署能力，并首次全面采用 [[Apache 2.0]] 开源协议。Gemma 4 也是首批大规模应用 [[跨层 KV 共享]] 机制的主流开源架构。
+**Gemma 4** 是由 [[Google DeepMind]] 于 2026 年 4 月初发布的最新一代开源大语言模型系列，以业界领先的「每参数智能水平」著称。该系列基于 [[Gemini 3]] 技术打造，主打极高的参数效率和端侧部署能力，并首次全面采用 [[Apache 2.0]] 开源协议。Gemma 4 也是首批大规模应用 [[跨层 KV 共享]] 机制的主流开源架构。[[DiffusionGemma]] 即基于该家族构建。
 
 ## 模型版本
 
@@ -83,6 +83,17 @@ Gemma 4 在多项基准测试中实现了对前代及同量级模型的显著超
 
 Gemma 4 首次采用 **[[Apache 2.0]]** 协议，取代了之前的自定义许可证。这一变化消除了商用限制，允许企业自由修改、分发和集成该模型，无需向谷歌支付费用或承担特殊的法律风险。
 
+## 与 DiffusionGemma 的关系
+
+[[DiffusionGemma]] 基于 Gemma 4 家族构建，在其基础上引入扩散式输出头，以速度换取部分质量：
+
+| 维度 | Gemma 4（标准版） | DiffusionGemma |
+|------|-------------------|----------------|
+| 生成方式 | 自回归，逐 token | 扩散式，整块生成 |
+| 输出质量 | 生产级，更高 | 实验性，较低 |
+| 生成速度 | 标准 | 最高 4 倍提升 |
+| 推荐场景 | 高质量生产部署 | 速度敏感、本地交互、非线性任务 |
+
 ## 应用案例
 
 - **端侧部署**：通过与高通、联发科合作，在 Pixel 手机上实现了离线多模态应用（如"手机养虾"）。
@@ -90,4 +101,4 @@ Gemma 4 首次采用 **[[Apache 2.0]]** 协议，取代了之前的自定义许�
 
 ## 战略意义
 
-Gemma 4 的发布标志着谷歌"闭源+开源"双线策略的成熟。Gemini 系列通过 API 获取收入，而 Gemma 系列则通过高性能和宽松协议抢占开发者生态和本地部署入口。
+Gemma 4 的发布标志着谷歌"闭源+开源"双线策略的成熟。Gemini 系列通过 API 获取收入，而 Gemma 系列则通过高性能和宽松协议抢占开发者生态和本地部署入口。官方将其定位为**高质量生产级输出**的首选开源方案。

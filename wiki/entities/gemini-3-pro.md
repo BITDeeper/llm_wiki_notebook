@@ -1,22 +1,23 @@
 ---
 type: entity
 title: Gemini 3 Pro
-tags: ["模型", "多模态", "博弈", "llm", "closed-source", "frontier-model", "google", "vlm", "multimodal", "state-of-the-art", "model", "coding", "ai-models"]
-related: [google-deepmind, kaggle-game-arena, gpt-5-2, gpt-5, o1, zhong-mei-ai-chai-ju, vtcbench, gemini, 视觉文本压缩, sergey-brin, nano-banana-pro, eci, evoclaw, claude-opus-4-6, gpt-5-3-codex, qianwen-3-5-plus]
+tags: ["模型", "多模态", "博弈", "llm", "closed-source", "frontier-model", "google", "vlm", "multimodal", "state-of-the-art", "model", "coding", "ai-models", "大模型", "gemini", "谷歌"]
+related: ["google-deepmind", "kaggle-game-arena", "gpt-5-2", "gpt-5", "o1", "zhong-mei-ai-chai-ju", "vtcbench", "gemini", "视觉文本压缩", "sergey-brin", "nano-banana-pro", "eci", "evoclaw", "claude-opus-4-6", "gpt-5-3-codex", "qianwen-3-5-plus", "谷歌", "gemini-3-5-live-translate"]
 created: 2026-04-03
-updated: 2026-05-09
-sources: ["ai竞技场上演「死间计」：gpt-5被ds和gemini玩坏了.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "deepseek-ocr是「长文本理解」未来方向吗？中科院新基准给出答案.md", "gpt-5.2降智遭全网差评！奥特曼慌了.md", "openclaw代码越改越崩？新研究evoclaw揭示：agents持续开发成功率仅13.37%.md", "最强开源大模型除夕登场！397b参数千问3.5超越gemini-3，百万tokens低至8毛.md"]
+updated: 2026-06-11
+sources: ["ai竞技场上演「死间计」：gpt-5被ds和gemini玩坏了.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "deepseek-ocr是「长文本理解」未来方向吗？中科院新基准给出答案.md", "gpt-5.2降智遭全网差评！奥特曼慌了.md", "openclaw代码越改越崩？新研究evoclaw揭示：agents持续开发成功率仅13.37%.md", "最强开源大模型除夕登场！397b参数千问3.5超越gemini-3，百万tokens低至8毛.md", "rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md"]
 ---
 
 # Gemini 3 Pro
 
-**Gemini 3 Pro** 是 [[Google]] 在 2026 年推出的旗舰多模态大语言模型，属于 Gemini 系列的第三代产品。作为闭源的前沿模型，它不仅是美国 AI 技术的代表之一，更在视觉语言理解、复杂博弈策略及长程任务处理上展现了极高的技术水准，被视为谷歌“重回 AI 浪潮之巅”的标志。
+**Gemini 3 Pro** 是 [[Google|谷歌]] [[Gemini]] 模型家族的第三代旗舰多模态大语言模型，于 2026 年推出。作为闭源的前沿模型，它不仅是美国 AI 技术的代表之一，更在视觉语言理解、复杂博弈策略及长程任务处理上展现了极高的技术水准，被视为谷歌"重回 AI 浪潮之巅"的标志。同时，它也是 [[Gemini 3.5 Live Translate]] 的基座模型。
 
-## 核心优势与性能表现
+## 核心架构与能力
 
-- **预训练强度**：工程师评价其拥有“最深入的智能”，这得益于谷歌在预训练阶段的持续投入。
-- **长程任务处理**：在长程任务性能测试中达到 **4.9 小时**，显著领先于 [[GPT-5.2]] (3.5小时) 和 Claude Opus 4.5 (2.6小时)。
+- **预训练强度**：工程师评价其拥有"最深入的智能"，这得益于谷歌在预训练阶段的持续投入。
+- **长程任务处理**：在长程任务性能测试中达到 **4.9 小时**，显著领先于 [[GPT-5.2]]（3.5小时）和 Claude Opus 4.5（2.6小时）。
 - **多模态能力**：在视觉推理、3D 模型生成及前端代码生成等任务上表现优异。配合图像模型 [[Nano Banana Pro]]，在图像生成与编辑方面也领先于竞品。
+- **音频处理**：支持 **128K token 音频上下文输入**，具备全自动语言识别和抗噪能力，为实时翻译等下游应用提供了架构基础。
 - **第三方评测**：在 Epoch AI、CAIS 及 Dubesors 等多项基准测试中排名第一，[[ECI]] 指标也证实了其综合能力优势。
 
 ## 代码与持续演进能力
@@ -24,7 +25,7 @@ sources: ["ai竞技场上演「死间计」：gpt-5被ds和gemini玩坏了.md", 
 在针对软件工程能力的 [[EvoClaw]] 评测中，Gemini 3 Pro 展现出了独特的性能特征：
 
 - **完整解决率**：达到 **13.37%**，为所有被测模型中最高。
-- **演进瓶颈**：尽管单点解决能力强且起步速度最快，但在连续演进中遭遇瓶颈，陷入了“单点能力强、持续能力弱”的窘境。
+- **演进瓶颈**：尽管单点解决能力强且起步速度最快，但在连续演进中遭遇瓶颈，陷入了"单点能力强、持续能力弱"的窘境。
 - **系统稳定性**：其 Precision 曲线容易快速饱和，导致在长周期开发中难以维持系统稳定性。这揭示了单点能力的优化可能无法直接转化为系统工程能力的提升。
 
 ## 视觉语言能力
@@ -37,12 +38,16 @@ sources: ["ai竞技场上演「死间计」：gpt-5被ds和gemini玩坏了.md", 
 
 ## 竞技场博弈表现
 
-在 [[Kaggle Game Arena]] 的实战测试中，Gemini 3 Pro 展现出了极强的社交欺骗和逻辑操纵能力，被称为“六边形战士”。
+在 [[Kaggle Game Arena]] 的实战测试中，Gemini 3 Pro 展现出了极强的社交欺骗和逻辑操纵能力，被称为"六边形战士"。
 
-- **博弈风格**：擅长利用逻辑陷阱和“向上管理”。在狼人杀对局中，它利用 [[GPT-5 mini]] 对逻辑一致性的偏好，成功诱导其倒戈并投票放逐队友。
-- **核心优势**：具备极佳的“网感”，能捕捉对手细微的语义震颤，像一个滴水不漏的“大厂高管”。
-- **战术弱点**：过于追求全局最优解，有时会被 [[DeepSeek]] 这种“自杀式”的非理性策略搞得 CPU 宕机。
+- **博弈风格**：擅长利用逻辑陷阱和"向上管理"。在狼人杀对局中，它利用 [[GPT-5 mini]] 对逻辑一致性的偏好，成功诱导其倒戈并投票放逐队友。
+- **核心优势**：具备极佳的"网感"，能捕捉对手细微的语义震颤，像一个滴水不漏的"大厂高管"。
+- **战术弱点**：过于追求全局最优解，有时会被 [[DeepSeek]] 这种"自杀式"的非理性策略搞得 CPU 宕机。
 - **双重剧本机制**：作为原生的多模态博弈者，它在对话中能生成两套剧本：一套用于真实决策，另一套专门用于误导对手。
+
+## 下游应用
+
+- **[[Gemini 3.5 Live Translate]]**：以 Gemini 3 Pro 为基座模型，实现了 70+ 语言边听边译的实时翻译能力，彻底改变了传统"等你说完才翻译"的交互模式。
 
 ## 技术地位与竞争格局
 

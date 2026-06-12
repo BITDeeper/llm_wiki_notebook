@@ -1,16 +1,16 @@
 ---
 type: entity
 title: OpenRouter
-tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合, ai]
-related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载, step-3.7-flash, step-3.5-flash, aa榜]
+tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合, ai, 数据分析, token, api聚合平台, ai基础设施]
+related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载, step-3.7-flash, step-3.5-flash, aa榜, token末日, claude-fable-5, anthropic, opus-4-8]
 created: 2026-03-20
-updated: 2026-06-04
-sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md"]
+updated: 2026-06-11
+sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md", "rss/内蒙跑通ai逆袭新解法.md", "rss/神话级claude-5，登顶了！.md"]
 ---
 
 # OpenRouter
 
-**OpenRouter** 是一个全球知名的 AI 推理路由/中转平台（海外 AI 模型聚合服务平台），由 [[alex-atallah]] 和 Louis Vichy 于 2023 年联合创立。它定位为"AI 推理的统一控制层"，通过一个 API 接入 **400 多个模型**和 **60 多个提供方**，提供智能路由、自动故障切换、统一计费、权限管理和审计级使用报告等企业级功能。它类似于 AI 模型的"应用商店"或"路由器"，聚合了来自不同供应商（如 Anthropic、OpenAI、DeepSeek 等）的模型，允许用户通过单一 API 进行调用和切换。OpenRouter 上的定价数据也是衡量模型性价比的重要参考。
+**OpenRouter** 是一个全球知名的 AI 推理路由/中转平台（API 聚合平台），由 [[alex-atallah]] 和 Louis Vichy 于 2023 年联合创立。它定位为"AI 推理的统一控制层"，通过一个 API 接入 **400 多个模型**和 **60 多个提供方**，提供智能路由、自动故障切换、统一计费、权限管理和审计级使用报告等企业级功能。它类似于 AI 模型的"应用商店"或"路由器"，聚合了来自不同供应商（如 Anthropic、OpenAI、DeepSeek 等）的模型，允许用户通过单一 API 进行调用和切换。OpenRouter 上的定价数据也是衡量模型性价比的重要参考。
 
 ## 商业模式
 
@@ -41,6 +41,9 @@ OpenRouter 因发布了基于 **100 万亿 Token** 真实消耗数据的行业�
 ### 经济规模
 按约 1 美元/百万智元的市场均价估算，仅该平台背后的年化推理支出就高达 **10 亿美元**。这一流量规模进一步印证了 [[token作为生产资料|Token 作为生产资料]] 的趋势——Token 已成为数字时代最昂贵、增长最快的计算资源。
 
+### 增长预测与能源需求
+OpenRouter 的数据也被用于 AI 基础设施能源需求的论证。其预测显示 **2025 年至 2030 年全球 Token 调用量将增长 212 倍**，为 AI 电力系统讨论提供了关键数据支撑。
+
 ### 千问 Qwen3.6-Plus 破纪录事件
 2026 年 4 月，千问 Qwen3.6-Plus 在 OpenRouter 平台夺得日榜和周榜双料冠军，并创下**单日单模型调用量突破 1.4 万亿 Token** 的全球纪录。这一数据直接佐证了 Token 作为生产资料的经济规模，也体现了千问模型在全球开发者社区中的影响力。
 
@@ -69,7 +72,7 @@ OpenRouter 公开的模型调用量排行榜已成为行业风向标，投资人
 #### 模型排名
 | 排名 | 模型 | 月调用量 |
 |------|------|----------|
-| 1 | [[deepseek-v4\|DeepSeek V4 Flash]] | 9.13T tokens |
+| 1 | [[deepseek-v4|DeepSeek V4 Flash]] | 9.13T tokens |
 | 8 | DeepSeek V3.2 | 4.07T tokens |
 | 9 | DeepSeek V4 Pro | 3.89T tokens |
 
@@ -82,6 +85,10 @@ DeepSeek 三模型合计超 **17 万亿 tokens**。[[anthropic]] 旗舰 Claude O
 | 2 | [[openclaw]] | 6.25T tokens |
 
 应用排名直观证明了 [[agent-推理负载|Agent 负载]] 已取代聊天机器人成为 Token 消耗的绝对主力，是 [[tokenmaxxing]] 趋势的重要佐证。
+
+### Claude Fable 5 发布事件
+
+在 [[claude-fable-5|Claude Fable 5]] 发布后，OpenRouter 数据显示其日处理 Token 量约 2050 亿，远超 [[opus-4-8|Opus 4.8]] 的 1470 亿——尽管 Fable 5 定价为 Opus 4.8 的两倍。这一数据揭示了高端模型市场对价格的不敏感性。
 
 ### 在开源智能体竞争中的角色
 

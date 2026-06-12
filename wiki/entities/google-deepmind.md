@@ -1,21 +1,31 @@
 ---
 type: entity
 title: Google DeepMind
-tags: ["organization", "ai-research", "deepmind", "research", "ai-safety", "google", "实验室", "ai", "研究", "ai-lab", "reasoning"]
-related: ["aletheia", "gemini", "openai", "ai-safety-evaluation-crisis", "turboquant", "深度思考比率", "think-at-n"]
+tags: ["organization", "ai-research", "deepmind", "research", "ai-safety", "google", "实验室", "ai", "研究", "ai-lab", "reasoning", "组织", "ai实验室", "谷歌"]
+related: ["aletheia", "gemini", "openai", "ai-safety-evaluation-crisis", "turboquant", "深度思考比率", "think-at-n", "alex-imas", "agi经济学", "sergey-brin"]
 created: 2026-05-04
-updated: 2026-05-08
-sources: ["顶级ai撞上低级乌龙：连写几十页推导，结果发现题干错了？.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "谷歌一篇论文引爆存储芯片崩盘！ai内存需求暴降6倍，推理狂飙8倍.md", "不是所有token都平等！谷歌提出真·深度思考：思维链长≠深度推理.md"]
+updated: 2026-06-08
+sources: ["顶级ai撞上低级乌龙：连写几十页推导，结果发现题干错了？.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "谷歌一篇论文引爆存储芯片崩盘！ai内存需求暴降6倍，推理狂飙8倍.md", "不是所有token都平等！谷歌提出真·深度思考：思维链长≠深度推理.md", "rss/谷歌agi经济学总监最新访谈：agi-2030降临，人类还能做些什么？.md"]
 ---
 
 # Google DeepMind
 
 Google DeepMind 是 Google 旗下的人工智能研究实验室，致力于解决通用人工智能（AGI）问题。该实验室不仅在 AI 安全、数学推理和底层算法优化领域处于领先地位，还积极利用 AI 加速科学发现。
 
+## 关联人物
+
+- **哈萨比斯（Demis Hassabis）**：DeepMind CEO，预测 AGI 约 2030 年到来
+- **[[sergey-brin|Sergey Brin]]**：谷歌联合创始人，2026 年亲自挂帅组建攻坚队应对编程领域挑战
+- **[[alex-imas|Alex Imas]]**：AGI 经济学总监，芝加哥大学教授
+
+## AGI 经济学布局
+
+2026 年，DeepMind 新设「AGI 经济学总监」职位，由芝加哥大学教授 [[alex-imas|Alex Imas]] 出任。这一举措与 OpenAI、Anthropic 不约而同扩招经济学家的趋势一致，标志着三大 AI 实验室开始系统性地研究 AGI 的经济影响。该部门研究 AGI 对劳动市场、价值分配和经济结构的影响。
+
 ## AI 安全研究
 
 ### 安全评估体系的自我批判
-2026 年 4 月，DeepMind 发布了一项针对 [[gemini]] 3 Pro 的大规模研究（样本量 10,101 人），揭示了当前 AI 安全评估体系的根本性缺陷。研究发现，模型“有害行为”的发生频率与对用户造成的实际伤害之间没有关联。这项工作挑战了整个行业依赖“频率统计”作为安全指标的做法，引发了 [[ai-safety-evaluation-crisis]]。
+2026 年 4 月，DeepMind 发布了一项针对 [[gemini]] 3 Pro 的大规模研究（样本量 10,101 人），揭示了当前 AI 安全评估体系的根本性缺陷。研究发现，模型"有害行为"的发生频率与对用户造成的实际伤害之间没有关联。这项工作挑战了整个行业依赖"频率统计"作为安全指标的做法，引发了 [[ai-safety-evaluation-crisis]]。
 
 ## 数学推理与自动化
 
@@ -24,10 +34,10 @@ DeepMind 在数学研究领域采取了与 [[openai]] 不同的技术路线，�
 ### 核心技术路线
 - **形式化验证**：强调使用计算机程序（如 Lean）对数学证明进行严格逻辑检查，以确保每一步推导无误，避免 [[高阶幻觉]]。
 - **自我博弈**：借鉴 AlphaGo 的成功经验，通过系统自我对弈来探索证明路径，而非依赖训练集记忆。
-- **原创性区分**：在 [[aletheia]] 系统中，DeepMind 专门设立了标签来区分“已知文献关联”和真正的“原创证明”，以此回应关于 AI [[潜意识剽窃]] 的争议。
+- **原创性区分**：在 [[aletheia]] 系统中，DeepMind 专门设立了标签来区分"已知文献关联"和真正的"原创证明"，以此回应关于 AI [[潜意识剽窃]] 的争议。
 
 ### 竞争态势
-DeepMind 与 OpenAI 在数学能力上存在竞争。DeepMind 批评 OpenAI 的 o1 模型主要依赖“题海战术”和训练集记忆，缺乏在真命题上的泛化推理能力。
+DeepMind 与 OpenAI 在数学能力上存在竞争。DeepMind 批评 OpenAI 的 o1 模型主要依赖"题海战术"和训练集记忆，缺乏在真命题上的泛化推理能力。
 
 ## 推理效率与评估
 
@@ -35,13 +45,19 @@ DeepMind 持续探索提升大模型推理效率与评估质量的方法，近�
 
 ### 推理成本优化
 - **[[think-at-n]] 策略**：DeepMind 开发了此策略，通过在推理早期筛选高质量样本，成功将推理模型的算力成本降低近 50%，同时保持或提升了准确率。
-- **[[深度思考比率]] (DTR)**：与弗吉尼亚大学团队合作提出的新指标，挑战了“思维链越长越好”的传统观点，旨在更准确地衡量模型的“深度思考”能力而非单纯的输出长度。
+- **[[深度思考比率]] (DTR)**：与弗吉尼亚大学团队合作提出的新指标，挑战了"思维链越长越好"的传统观点，旨在更准确地衡量模型的"深度思考"能力而非单纯的输出长度。
 
 ## 算法优化与工程效率
 
 ### TurboQuant 突破
 2026 年 3 月，Google DeepMind 发布了 **[[turboquant]]** 算法，这是一种用于压缩大模型 KV 缓存的新技术。该算法通过极坐标量化和 1-bit 误差校正，在不重训模型的情况下将内存占用降低了 6 倍，并将注意力计算速度提升了 8 倍。这一成果不仅展示了谷歌在算法层面的深厚积累，也对存储硬件市场产生了显著影响。
 
+## 已知项目与系统
+
+- **[[aletheia]]**：用于解决数学猜想的大规模自动化系统
+- **[[gemini]]**：谷歌的主力大语言模型
+- **AGI 经济学部门**：由 [[alex-imas|Alex Imas]] 领导，研究 AGI 对劳动市场、价值分配和经济结构的影响
+
 ## 科学发现与行业影响
 
-DeepMind 致力于 [[ai-for-science]]，利用 AI 加速科学发现，涵盖数据融合与假说生成。其研究往往具有“双重效应”：既推动了 AI 能力边界（如 [[gemini]] 的编程能力），又通过工程优化（如 TurboQuant）改变了行业的成本结构和资源需求。
+DeepMind 致力于 [[ai-for-science]]，利用 AI 加速科学发现，涵盖数据融合与假说生成。其研究往往具有"双重效应"：既推动了 AI 能力边界（如 [[gemini]] 的编程能力），又通过工程优化（如 TurboQuant）改变了行业的成本结构和资源需求。

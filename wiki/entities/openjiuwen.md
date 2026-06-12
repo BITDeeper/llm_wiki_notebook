@@ -1,40 +1,27 @@
 ---
 type: entity
 title: openJiuwen
-created: 2026-05-18
-updated: 2026-05-18
-tags: ["open-source", "community", "multi-agent", "huawei", "organization", "华为", "开源社区", "ai-agent", "平台"]
-related: ["coordination-engineering", "jiuwenclaw", "agent-team-engine", "team-skills", "华为", "华为2012实验室", "team-skills-hub", "teamskill-creator", "agentteam", "harness-engineering", "jiuwenswarm", "华为云-agentarts"]
-sources: ["华为携手中科大发布灵境造物，openjiuwen首发coordination-engineering全栈支撑.md", "coordination-engineering关键一环，jiuwenclaw再发布team-skills技能新范式.md", "继harness之后，“龙虾”jiuwenclaw率先开启“coordination-engineering”时代.md", "「虾马」之后，openjiuwen社区发布jiuwenswarm，引领蜂群智能体新架构，开启「养蜂」时代.md"]
-origin_date: 2026-05-18
+created: 2026-06-08
+updated: 2026-06-08
+tags: ["open-source", "community", "multi-agent", "huawei", "organization", "华为", "开源社区", "ai-agent", "平台", "研究团队", "多智能体"]
+related: ["coordination-engineering", "jiuwenclaw", "agent-team-engine", "team-skills", "华为", "华为2012实验室", "team-skills-hub", "teamskill-creator", "agentteam", "harness-engineering", "jiuwenswarm", "华为云-agentarts", "mango-多智能体流网络优化", "华为泊松实验室"]
+sources: ["华为携手中科大发布灵境造物，openjiuwen首发coordination-engineering全栈支撑.md", "coordination-engineering关键一环，jiuwenclaw再发布team-skills技能新范式.md", "继harness之后，“龙虾”jiuwenclaw率先开启“coordination-engineering”时代.md", "「虾马」之后，openjiuwen社区发布jiuwenswarm，引领蜂群智能体新架构，开启「养蜂」时代.md", "rss/解锁agent-swarm新潜力，openjiuwen又一力作：多智能体流网络.md"]
 ---
-
 # openJiuwen
 
-openJiuwen 是华为支持的开源 AI Agent 平台社区，由华为 2012 实验室与华为云 AgentArts 团队联合构建。
+openJiuwen 是一个多智能体研究团队/开源社区，归属于华为 [[jiuwenswarm|JiuwenSwarm]] 研究范畴。该团队提出了 [[mango-多智能体流网络优化|MANGO]]（Multi-Agent Network Gradient Optimization）框架，通过将多智能体协作建模为有向流网络，实现端到端的协作优化。
 
-## 背景
+## 核心贡献
 
-openJiuwen 定位为开源 AI Agent 平台社区，其标杆智能体 [[jiuwenswarm]] 沉淀了平台在 Harness 工程、多智能体协同、自演进等关键方向上的完整能力。社区名称此前的产品被称为"虾马"（暗示早期命名），后升级为蜂群架构。
+- **MANGO 框架**：一体化建模多智能体系统结构、任务分解与路径选择，集成强化学习边优化、文本梯度节点优化和节点跳跃三大机制。
+- **开源仓库**：通过 GitHub（openJiuwen-ai/agent-store）发布社区贡献的多智能体框架。
 
-## 核心能力
+## 关联组织
 
-- **Harness 工程**：单 Agent 的轨迹管理、错误恢复、长程执行能力
-- **多智能体协同**：基于 [[coordination-engineering]] 范式的团队协作机制
-- **自演进**：从任务执行轨迹中自动提取可复用的 [[swarm-skills]]
-- **记忆机制**：在 LOCOMO 长期对话评测集上达到 85% 记忆准确率
+- 隶属于华为 [[jiuwenswarm|JiuwenSwarm]] 研究体系
+- 论文作者来自 [[华为泊松实验室]] 和 [[维纳研究所]]
+- 框架运行于 [[agentos|AgentOS]] 统一执行与调度底座之上
 
-## 关联方
+## 技术定位
 
-- **华为 2012 实验室**：核心技术研发支持
-- **华为云 AgentArts 团队**：平台构建与运营
-- **Kilo.ai**：评测合作方，[[pinchbench]] 发布者
-
-## 开源生态
-
-- JiuwenSwarm 在 GitHub 和 AtomGit 双平台开源
-- Swarm Skills Hub 提供团队技能的共享市场
-
-## 注意事项
-
-openJiuwen 声称开源，但由华为内部团队联合构建，其开源治理的独立性和社区中立性有待长期观察。
+openJiuwen 的工作代表了多智能体技术从"人工设计"（CAMEL/AutoGen/MetaGPT 时代）到"自动化搜索"（ADAS/AFlow 时代）再到"端到端数据驱动优化"（MANGO）的第三阶段演进。

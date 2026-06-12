@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Garry Tan
-tags: ["person", "yc", "investor", "y-combinator", "vc", "ai-coding", "capital-efficiency"]
-related: ["hermes-agent", "nous-research", "y-combinator", "资本效率", "氛围编程"]
+tags: ["person", "yc", "investor", "y-combinator", "vc", "ai-coding", "capital-efficiency", "创业孵化", "AI", "tokenmaxxing"]
+related: ["hermes-agent", "nous-research", "y-combinator", "资本效率", "氛围编程", "tokenmaxxing", "openai", "sam-altman"]
 created: 2026-04-13
-updated: 2026-05-05
-sources: ["龙虾让位！硅谷顶流ai「爱马仕」一夜闯进微信，冲上全球第一.md", "yc掌门人惊呼：这就是-agi！4天、零读码，ai移植37年古董软件.md"]
+updated: 2026-06-09
+sources: ["龙虾让位！硅谷顶流ai「爱马仕」一夜闯进微信，冲上全球第一.md", "yc掌门人惊呼：这就是-agi！4天、零读码，ai移植37年古董软件.md", "rss/奥特曼认输：全球第一，根本不在openai！.md"]
 ---
 
 # Garry Tan
@@ -20,8 +20,11 @@ Tan 对 AI 编程带来的生产力变革和资本效率提升有着深刻的洞
 - **行业增长**：他透露，YC 2025 冬季批次的公司在聚合层面实现了每周 10% 的增长，这在早期风险投资史上从未发生过。
 - **AI 采用率**：他强调，如果仍对 AI 编码持怀疑态度，说明没有关注行业现状。问题不再是 AI 是否会改变软件构建方式，而是是否选择使用它。
 
+## 与 Tokenmaxxing 的关联
+Tan 声称"我们 [[tokenmaxxing]] 比大多数人都早"，表明 YC 系创业公司早在 Tokenmaxxing 成为行业热词之前就已将大量 Token 消耗作为工作方式。[[sam-altman|奥特曼]]曾大手一挥给 YC 每家创业公司白送 200 万美元 Token，推动 Token 消耗文化在创业圈的扩散。
+
 ## 行业影响
-Tan 的言论和数据佐证了 [[氛围编程]] 和 [[盲移植]] 等新范式正在硅谷成为主流，标志着软件开发进入了一个以高资本效率和低人力门槛为特征的新阶段。
+Tan 的言论和数据佐证了 [[氛围编程]] 和盲移植等新范式正在硅谷成为主流，标志着软件开发进入了一个以高资本效率和低人力门槛为特征的新阶段。
 
 ## 与 Hermes Agent 的关系
-Garry Tan 是 [[hermes-agent]] 的早期高调支持者。在试用 Hermes 后，他在社交媒体上公开表示：“亲自尝试后，彻底回不去了。” 这一背书极大地提升了 Hermes 在硅谷开发者社区的知名度，被视为其取代 [[openclaw]] 成为市场“顶流”的重要推手。
+Garry Tan 是 [[hermes-agent]] 的早期高调支持者。在试用 Hermes 后，他在社交媒体上公开表示："亲自尝试后，彻底回不去了。" 这一背书极大地提升了 Hermes 在硅谷开发者社区的知名度，被视为其取代 [[openclaw]] 成为市场"顶流"的重要推手。

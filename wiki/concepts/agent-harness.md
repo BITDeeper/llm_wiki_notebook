@@ -1,118 +1,45 @@
 ---
 type: concept
-title: Agent Harness
-tags: [tools, infrastructure, devops, ai-architecture, system-design, training-free, agent-system, reliability, agent, 架构, 工程化, 系统架构, 工具调用]
-related: ["minimax-m2.7", "自我进化", "minimax", "avenir-web", "runtime-agent-os", "任务执行范式", "creao", "anthropic", "minimax-m2-7", "openclaw", "赛博员工", "生产力智能"]
-created: 2026-03-20
-updated: 2026-05-22
-sources: ["minimax-m2.7国服第一！龙虾自我进化，海外开发者疯狂刷屏.md", "龙虾冲浪终于不迷路了！网页智能体新框架avenir-web开源即sota.md", "anthropic发布managed-agents，才发现这支硅谷华人团队早就押对了赌注.md", "全行业都在忙着“吃虾”，minimax-m2.7已经让虾自己拿起筷子了.md", "从智能体到赛博员工，生产力智能涌现.md"]
+title: Agent Harness（智能体执行系统）
+created: 2026-06-10
+updated: 2026-06-10
+tags: ["tools", "infrastructure", "devops", "ai-architecture", "system-design", "training-free", "agent-system", "reliability", "agent", "架构", "工程化", "系统架构", "工具调用", "agent-harness", "智能体架构", "执行系统"]
+related: ["minimax-m2.7", "自我进化", "minimax", "avenir-web", "runtime-agent-os", "任务执行范式", "creao", "anthropic", "minimax-m2-7", "openclaw", "赛博员工", "生产力智能", "code-as-agent-harness", "agent-harness-后训练", "claude-code", "codex", "macaron-v1-preview"]
+sources: ["minimax-m2.7国服第一！龙虾自我进化，海外开发者疯狂刷屏.md", "龙虾冲浪终于不迷路了！网页智能体新框架avenir-web开源即sota.md", "anthropic发布managed-agents，才发现这支硅谷华人团队早就押对了赌注.md", "全行业都在忙着“吃虾”，minimax-m2.7已经让虾自己拿起筷子了.md", "从智能体到赛博员工，生产力智能涌现.md", "rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md"]
 ---
+# Agent Harness（智能体执行系统）
 
-# Agent Harness
+## 定义
 
-**Agent Harness**（智能体挽具/控制系统）是一种软件架构模式或系统脚手架，旨在通过外部模块化组件或基础设施来增强现有基础模型的能力，而无需重新训练底层模型。它给大模型接上工具、记忆、文件系统、浏览器、MCP、状态管理和多步执行能力——让 AI 不只是"说"，也能"做"。
+让大模型在长期任务环境中可靠运行的执行系统。包含工具、API、沙箱、记忆、权限边界、验证器、反馈循环等组件，负责将模型接到真实执行环境中。
 
-从本质上讲，Agent Harness 是指代让 AI 能够持续、可靠地大规模长期工作的外围控制系统。它既可以是支持"模型驱动模型进化"的研究型脚手架，也可以是无需训练（Training-free）的增强型运行时框架。它是 [[runtime-agent-os]] 的具体实现形式之一，被视为 AI Agent 从"玩具"走向"工具"的关键基础设施，解决了单纯依赖大语言模型（LLM）所面临的不稳定性和不可控性问题。
+## 两个阶段
 
-## 在演进框架中的定位
+Agent Harness贯穿模型的训练和推理两个阶段：
 
-Agent Harness 是 AI 发展四阶段框架中的第二阶段：
+1. **训练阶段（[[agent-harness-后训练]]）**：将模型后训练过程直接放入Agent执行环境中协同优化，使模型在训练阶段就与实际执行环境深度适配。[[macaron-v1-preview|Macaron-V1-Preview]]是这一路线的代表实践。
 
-| 阶段 | 关注点 |
-|------|--------|
-| 大模型助手 | 生成与问答 |
-| **Agent Harness** | **工具与执行** |
-| [[赛博员工]] | 工作站与职责 |
-| [[生产力智能]] | 角色与规模化 |
+2. **推理执行阶段（[[code-as-agent-harness]]）**：模型部署后，harness组织长期执行过程——管理计划、执行、反馈、验证和状态管理。代码成为这一阶段的核心载体，因为其具备可执行、可检查、有状态三个独特属性。
 
-## 核心特征
+## 核心组件
 
-- **Training-free（无需训练）**：不改变模型权重，通过 Prompt Engineering 或外部工具调用提升性能。
-- **模块化**：将复杂任务拆解为独立的功能模块（如 [[experience-imitation-planning]]、[[mixture-of-grounding-experts]]），每个模块负责解决特定问题。
-- **即插即用**：可以灵活地接入不同的基础模型（如 [[gemini-3-pro]] 或 [[qwen-3-vl-8b]]），无需针对特定模型进行适配。
-- **工程化控制**：通过严格的工程约束和沙盒环境，确保 Agent 行为的可预测性与安全性。
+- **工具与API**：终端、沙箱、测试框架、静态分析器
+- **记忆系统**：仓库证据、执行日志、失败经验、历史patch的保存与检索
+- **权限边界**：控制Agent可执行操作的范围
+- **验证器**：测试、linter、静态分析
+- **反馈循环**：Plan-Execute-Verify循环
 
-## 核心能力
+## 核心机制
 
-近年 Agent Harness 已经把 AI Agent 的操作范围大幅扩展到模型推理之外：
+Agent Harness的核心执行机制是**Plan-Execute-Verify循环**：计划定义操作范围→执行在沙箱中发生→验证依赖测试/linter/静态分析，构成可重复的状态转移过程。
 
-- **连接外部工具与 MCP**：管理与外部软件、API 和 MCP 协议的交互。
-- **维护任务状态和长期记忆**：保持任务执行的上下文和持久化信息。
-- **编排多步执行**：管理任务的迭代、循环和终止条件。
-- **加入安全边界**：确保操作在安全边界内执行。
-- **支持系统性评估机制**：自动运行测试并记录指标。
+## 与相关概念的关系
 
-## 演进阶段
+- [[任务执行范式]]：Agent Harness是任务执行范式的具体系统实现
+- [[场景白盒化推理]]：代码化中间物使harness执行过程可检查、可干预
+- [[agentic-engineering]]：Karpathy的概念侧重工作方式，Agent Harness侧重系统架构
+- [[递归式自我改进]]：Harness的自我优化（regression-free self-evolution）是开放问题
 
-Agent Harness 的发展通常分为两个阶段：
+## 来源
 
-1. **被动使用阶段**：模型只能使用人类预先构建好的工具（如早期的 API 调用）。
-2. **主动构建阶段**：模型具备自主构建、迭代和优化 Harness 的能力。
-
-## 系统组成
-
-一个完整的 Agent Harness 通常包含以下基础设施组件：
-
-### 运行时控制
-- **提示词构建**：优化输入以获得最佳模型响应。
-- **工具调用**：管理与外部软件和 API 的交互。
-- **状态管理**：维护任务执行的上下文和记忆。
-- **安全检查**：确保操作在安全边界内。
-- **循环控制**：管理任务的迭代和终止条件。
-
-### 研发与迭代
-- **数据流水线**：自动化处理训练和测试数据。
-- **训练环境**：支持模型训练和微调的沙盒环境。
-- **评测基础设施**：自动运行测试并记录指标。
-- **持久化记忆**：存储实验历史和中间结果。
-- **跨团队协作**：协调不同 Agent 或人类研究员的工作。
-
-## 功能与作用
-
-- **自动化研发**：模型可以承担文献调研、实验方案跟踪、代码编写与审查等工作。
-- **自主监控**：Agent 能够自动监控实验状态，分析日志，排查问题。
-- **自我迭代**：模型可以针对 Harness 本身进行优化，如修改 scaffold 代码以提升效果。
-- **增强执行**：通过外部组件弥补模型在规划、定位或记忆方面的不足。
-
-## 核心局限
-
-Agent Harness 让 AI 更像"会干活的人"，但未必理解角色。它可以执行任务，却难以理解任务背后的真实工作世界。当进入真实工作站的复杂依赖网络时，Agent 容易迷路。
-
-## 与赛博员工的关系
-
-Agent Harness 是通向 [[赛博员工]] 的必经阶段，但不是终点。赛博员工在 Agent Harness 的基础上，还需要具备 [[工作空间学习]] 能力——理解文件依赖关系、承担岗位职责、以可验证方式交付结果。
-
-## 技术意义：自我进化
-
-[[minimax-m2-7]] 的突破在于其不仅能使用 Harness，还能**自我构建**和**迭代** Harness。这意味着模型可以：
-
-- 自主搭建实验环境并运行代码。
-- 自我修复 Bug 并优化工具链。
-- 成为自身研发链条中的一环，实现 [[自我进化]]。
-
-## 行业背景与实现路径
-
-随着 AI 产品从简单的"Chatbot"向可靠的"Agent"转变，Harness 的重要性日益提升。不同的技术团队和公司采取了不同的实现路径：
-
-- **Anthropic (Managed Agents)**：侧重于通过独立沙盒和严格的工程控制来保证企业级应用的安全性和可靠性。Anthropic 在发布 Managed Agents 架构时，特别强调了每个 Agent 请求都应跑在独立的沙盒环境里，这正是 Harness 理念的体现。
-- **CREAO**：侧重于通过"固化"机制和全栈自研，为普通用户提供消费级的 Harness 体验，强调易用性和持久运行能力。
-- **OpenCLAW**：一种被广泛使用的长期记忆框架，可被视为 Harness 的一种具体实现。
-
-## 实际应用案例
-
-- **[[MiniMax]] 案例**：[[MiniMax]] 团队利用 [[MiniMax M2.7]] 仅用 1 人 4 天、零人工编码搭建了 Agent Harness。在运行中，M2.7 承担了 30%-50% 的研发工作流，并成功通过自主迭代将内部 scaffold 的效果提升了 30%。
-- **[[avenir-web]] 案例**：作为 Harness 架构的典型代表，[[avenir-web]] 通过该框架在无需训练的情况下取得了 SOTA 级别的网页操作性能。
-
-## 优势
-
-相比于端到端训练的 Agent 模型，Agent Harness 具有以下优势：
-
-- **部署成本低**：无需大规模算力进行模型重训。
-- **迭代速度快**：通过调整外部模块即可快速响应需求变化。
-- **可解释性强**：基于规则的组件和明确的工具调用路径使得行为更透明。
-
-## 与相关概念的联系
-
-- 与 [[runtime-agent-os]] 类似，都强调构建支撑 Agent 运行的系统基础设施。
-- 是 [[任务执行范式]] 从模型中心转向系统工程的具体体现。
-- 是 [[赛博员工]] 和 [[生产力智能]] 的前置基础阶段。
+- UIUC/Meta/Stanford综述《Code as Agent Harness》（arXiv: 2605.18747）

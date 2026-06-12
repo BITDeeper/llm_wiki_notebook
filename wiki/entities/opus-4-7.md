@@ -1,17 +1,26 @@
 ---
 type: entity
 title: Opus 4.7
-tags: [model, multimodal, vision, anthropic, reasoning, self-correction, ai模型, claude, 自主科研, 大模型, ai定价]
-related: [claude-design, anthropic, 审美逻辑, mythos, task-horizon, claude-code, gpt-5.5, prime-intellect, nanogpt速通基准, ai首次击败人类科研竞赛-20260515, 对齐导致的自主性缺陷, tokenizer通胀, ai-subscription-crisis]
+tags: [model, multimodal, vision, anthropic, reasoning, self-correction, ai模型, claude, 自主科研, 大模型, ai定价, 大语言模型]
+related: [claude-design, anthropic, 审美逻辑, mythos, task-horizon, claude-code, gpt-5.5, prime-intellect, nanogpt速通基准, ai首次击败人类科研竞赛-20260515, 对齐导致的自主性缺陷, tokenizer通胀, ai-subscription-crisis, opus-4-8, claude-fable-5]
 created: 2026-04-18
-updated: 2026-05-31
-sources: ["claude-design连夜突袭，figma市值瞬间蒸发！或抢走全球ui设计师饭碗.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "ai第一次科研竞赛中击败人类！opus-4.7狂飙2930步创世界纪录.md", "openai明升，anthropic暗涨：ai包月折扣没了.md"]
-origin_date: 2026-05-14
+updated: 2026-06-11
+sources: ["claude-design连夜突袭，figma市值瞬间蒸发！或抢走全球ui设计师饭碗.md", "anthropic最危险路线图曝光-无限记忆、多智能体!-硅谷ai终局仅剩双雄决顶.md", "gemini-3.5-pro全网首曝，编程追平gpt-5.5！谷歌终于狠起来了.md", "ai第一次科研竞赛中击败人类！opus-4.7狂飙2930步创世界纪录.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "rss/神话级claude-5，登顶了！.md"]
+origin_date: 2026-04-17
 ---
 
 # Opus 4.7
 
-[[Opus 4.7]] 是 [[Anthropic]] 发布的 Claude 系列模型中的最新版本，于2026年5月14日发布。同时推出 Fast 模式（Opus 4.7 Fast），并伴随 [[Claude Code]] 额度提升50%。它专门面向专业软件工程、复杂的智能体工作流以及高风险企业任务，以其强大的自我纠错能力和工程判断力著称，不仅是目前最强的视觉模型，也是 [[Claude Design]] 功能背后的技术引擎。
+[[Opus 4.7]] 是 [[Anthropic]] 发布的 Claude 系列大语言模型，约2026年4月17日发布（官方发布日期为2026年5月14日）。同时推出 Fast 模式（Opus 4.7 Fast），并伴随 [[Claude Code]] 额度提升50%。它专门面向专业软件工程、复杂的智能体工作流以及高风险企业任务，以其强大的自我纠错能力和工程判断力著称，不仅是目前最强的视觉模型，也是 [[Claude Design]] 功能背后的技术引擎。
+
+## 发布节奏中的位置
+
+Opus 4.7 是 Anthropic 加速迭代时间线的参照起点：
+
+- Opus 4.7 → [[Opus 4.8]]：42天
+- Opus 4.8 → [[Claude Fable 5|Fable 5]]：12天
+
+从42天到12天的间隔压缩，构成了 [[发布间隔坍缩]] 趋势的核心数据，被视为 AI 迭代加速可能失控的信号。
 
 ## 竞争背景
 

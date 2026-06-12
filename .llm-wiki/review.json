@@ -1,1 +1,2640 @@
-[]
+[
+  {
+    "type": "suggestion",
+    "title": "AI平台战略分化：超级应用 vs 基础设施嵌入",
+    "description": "谷歌通过Gemini 3.5 Live Translate选择\"嵌入现有产品矩阵\"（Translate/Meet/API）路线，与OpenAI的超级应用战略（ChatGPT→Codex→插件生态）形成鲜明对比。这一战略分化是理解2026年AI行业格局的关键框架，值得建立专门的概念页面进行追踪和对比分析。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md",
+    "affectedPages": [
+      "wiki/entities/gemini-3-5-live-translate.md",
+      "wiki/concepts/超级应用战略.md",
+      "wiki/concepts/ai全球公用事业叙事.md"
+    ],
+    "searchQueries": [
+      "Google AI platform strategy 2026 vs OpenAI super app",
+      "AI基础设施嵌入模式 vs 超级应用模式对比",
+      "Gemini Live API ecosystem partners enterprise adoption"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-1",
+    "resolved": false,
+    "createdAt": 1781174518657
+  },
+  {
+    "type": "suggestion",
+    "title": "实时语音翻译竞品对比：Gemini Live Translate vs Meta SeamlessM4T vs OpenAI",
+    "description": "Wiki已收录Gemini 3.5 Live Translate的详细信息，但缺乏与Meta SeamlessM4T、OpenAI语音翻译能力的横向对比。目前仅有Google自评数据，缺乏独立第三方基准测试，延迟指标\"几秒\"过于模糊。建立竞品对比页面有助于追踪这一赛道的真实技术进展。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md",
+    "affectedPages": [
+      "wiki/entities/gemini-3-5-live-translate.md",
+      "wiki/concepts/实时同声传译.md",
+      "wiki/concepts/语音对语音翻译.md"
+    ],
+    "searchQueries": [
+      "SeamlessM4T vs Gemini Live Translate benchmark comparison 2026",
+      "real-time speech translation latency benchmark independent evaluation",
+      "OpenAI real-time voice translation model 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-2",
+    "resolved": false,
+    "createdAt": 1781174518657
+  },
+  {
+    "type": "suggestion",
+    "title": "Gemini模型家族版本谱系梳理",
+    "description": "Wiki中已出现[[gemini]]（主力大模型）、[[gemini-3-pro]]（基座模型）、[[gemini-3-5-live-translate]]（应用分支），但Gemini模型家族的完整版本谱系（Gemini 1/2/3/3.5、Pro/Ultra/Flash等变体）尚未系统梳理。随着谷歌加速发布，版本关系日益复杂，值得建立专门的谱系页面。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md",
+    "affectedPages": [
+      "wiki/entities/gemini.md",
+      "wiki/entities/gemini-3-pro.md",
+      "wiki/entities/gemini-3-5-live-translate.md"
+    ],
+    "searchQueries": [
+      "Google Gemini model family versions timeline 2026",
+      "Gemini 3 Pro vs Gemini 3.5 architecture differences",
+      "Gemini model variants Pro Ultra Flash Nano comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-3",
+    "resolved": false,
+    "createdAt": 1781174518657
+  },
+  {
+    "type": "suggestion",
+    "title": "教育场景数据飞轮与工业场景数据飞轮的对比研究",
+    "description": "Wiki中已有[[具身数据飞轮]]（原力灵机物流分拣场景）和松延动力教育/家庭场景的数据飞轮，但两者数据性质差异显著：工业场景产生的是\"真实生产任务副产物\"，教育场景产生的是消费行为和交互偏好数据。教育互动数据对机器人通用能力迭代的实际价值存疑，值得深入研究对比两条路线的数据质量和飞轮可持续性。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/ai教育走出屏幕的第一步，是一台万元机器人.md",
+    "affectedPages": [
+      "wiki/concepts/具身数据飞轮.md",
+      "wiki/concepts/教育作为具身智能规模化第一站.md",
+      "wiki/entities/松延动力.md",
+      "wiki/entities/原力灵机.md"
+    ],
+    "searchQueries": [
+      "教育机器人数据飞轮真实价值",
+      "具身智能教育场景vs工业场景数据质量对比",
+      "人形机器人教育数据反哺模型迭代案例"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-4",
+    "resolved": false,
+    "createdAt": 1781175038865
+  },
+  {
+    "type": "suggestion",
+    "title": "中国具身智能教育联席会EIEA与行业标准制定",
+    "description": "松延动力参与的\"中国具身智能教育联席会（EIEA）\"由清华、北大等高校及行业协会牵头，正在制定《青少年具身智能课程标准》。这是具身智能进入K12正式教育体系的关键制度入口，但Wiki中缺乏该组织及其标准制定的详细信息，对判断教育机器人赛道的政策壁垒和行业格局至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/ai教育走出屏幕的第一步，是一台万元机器人.md",
+    "affectedPages": [
+      "wiki/entities/松延动力.md",
+      "wiki/concepts/ai素养教育先行.md"
+    ],
+    "searchQueries": [
+      "中国具身智能教育联席会EIEA",
+      "青少年具身智能课程标准",
+      "EIEA具身智能教育标准制定进展"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-5",
+    "resolved": false,
+    "createdAt": 1781175038865
+  },
+  {
+    "type": "suggestion",
+    "title": "万元级人形机器人成本结构与竞争格局",
+    "description": "松延动力将人形机器人降至万元级，但技术栈（自研关节电机、AI模型等）缺乏披露，成本结构是否可持续、是否依赖补贴均不明确。同时Wiki中已收录多家具身智能公司（乐聚机器人、星动纪元、原力灵机、蚂蚁灵波），但缺乏对消费级人形机器人赛道整体竞争格局和定价策略的横向比较研究。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/ai教育走出屏幕的第一步，是一台万元机器人.md",
+    "affectedPages": [
+      "wiki/concepts/万元级人形机器人.md",
+      "wiki/entities/乐聚机器人.md",
+      "wiki/entities/星动纪元.md",
+      "wiki/entities/蚂蚁灵波.md"
+    ],
+    "searchQueries": [
+      "消费级人形机器人价格战2026",
+      "万元级人形机器人成本拆解",
+      "松延动力小布米vs乐聚夸父vs星动纪元对比"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-6",
+    "resolved": false,
+    "createdAt": 1781175038865
+  },
+  {
+    "type": "suggestion",
+    "title": "Fable 5 与 Mythos 5 的确切产品线关系",
+    "description": "Wiki 中 Mythos 5 被描述为\"10万亿参数、红队测试阶段\"的传闻模型，而 Fable 5 被描述为\"Mythos 级别首款通用消费级模型\"。两者是同一模型的不同版本、同一产品线的不同层级、还是完全独立的模型？这一关系对理解 Anthropic 产品战略至关重要，目前信息模糊且存在潜在矛盾。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md",
+    "affectedPages": [
+      "wiki/entities/fable-5.md",
+      "wiki/entities/mythos-5.md"
+    ],
+    "searchQueries": [
+      "Anthropic Fable 5 vs Mythos 5 relationship",
+      "Claude Fable 5 Mythos product line",
+      "Anthropic 2026 model lineup Fable Mythos"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-7",
+    "resolved": false,
+    "createdAt": 1781176170298
+  },
+  {
+    "type": "suggestion",
+    "title": "Nemotron 3 Ultra 技术细节与性能基准",
+    "description": "Nemotron 3 Ultra 被称为 NVIDIA 首款旗舰开源模型，但 Wiki 中缺乏参数规模、性能基准、许可证类型、训练架构等任何具体技术信息。作为 NVIDIA 正式加入开源旗舰模型竞争的标志性产品，这些信息对理解开源生态格局至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md",
+    "affectedPages": [
+      "wiki/entities/nemotron-3-ultra.md"
+    ],
+    "searchQueries": [
+      "NVIDIA Nemotron 3 Ultra specs benchmark",
+      "Nemotron 3 Ultra parameter size license",
+      "Nemotron 3 Ultra vs Llama vs DeepSeek performance"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-8",
+    "resolved": false,
+    "createdAt": 1781176170298
+  },
+  {
+    "type": "suggestion",
+    "title": "隐性降智的技术实现：转向向量与参数高效微调",
+    "description": "Fable 5 系统卡提及通过\"提示词修改、转向向量、参数高效微调\"实现隐性降智，但这三种技术手段在模型推理时如何具体协同工作、各自的触发条件和干预强度如何、用户是否有技术手段检测干预是否发生，均缺乏深入分析。这对理解 AI 治理中\"不可见干预\"的技术边界极为重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md",
+    "affectedPages": [
+      "wiki/concepts/隐性降智.md"
+    ],
+    "searchQueries": [
+      "steering vectors LLM inference intervention",
+      "Anthropic Fable 5 system card technical details",
+      "PEFT runtime output quality reduction detection"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-9",
+    "resolved": false,
+    "createdAt": 1781176170298
+  },
+  {
+    "type": "contradiction",
+    "title": "Anthropic 安全叙事的内在矛盾",
+    "description": "Wiki 中 Anthropic 同时呈现为：(1) Dario Amodei 称 Scaling Law 没有墙、预测激进加速；(2) Jack Clark 和 Marina Favaro 联合呼吁全球暂停 AI 研发；(3) Fable 5 实施隐性降智以\"防止加速 AI 发展\"；(4) 秘密提交 S-1 冲刺 IPO。这四条叙事之间存在显著张力——一家呼吁暂停研发的公司同时在激进推出最强模型并冲刺上市，需要用户判断这是战略分工还是根本性矛盾。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md",
+    "affectedPages": [
+      "wiki/entities/anthropic.md",
+      "wiki/entities/dario-amodei.md",
+      "wiki/entities/jack-clark.md",
+      "wiki/events/fable-5隐性降智争议.md"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-10",
+    "resolved": false,
+    "createdAt": 1781176170298
+  },
+  {
+    "type": "suggestion",
+    "title": "\"安全洗白\"作为AI治理概念的系统梳理",
+    "description": "Fable 5 事件中 Lambert 指出 Anthropic 以安全为名行商业保护之实，Wiki 中已有\"防蒸馏保护\"页面提及此现象，但缺乏对\"安全洗白\"（Safety-washing）作为 AI 治理领域系统性概念的独立梳理。该概念在 OpenAI（军方合作）、Anthropic（隐性降智）等多家公司均有体现，值得作为跨实体的分析框架单独建页。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md",
+    "affectedPages": [
+      "wiki/concepts/防蒸馏保护.md",
+      "wiki/concepts/人为制造的对齐失调.md"
+    ],
+    "searchQueries": [
+      "AI safety washing concept governance",
+      "safety-washing AI companies commercial protection",
+      "Anthropic OpenAI safety narrative vs commercial interest"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-11",
+    "resolved": false,
+    "createdAt": 1781176170298
+  },
+  {
+    "type": "contradiction",
+    "title": "Anthropic\"呼吁暂停AI研发\"与\"加速发布Fable 5\"的内部矛盾",
+    "description": "2026年6月4日，Anthropic联合创始人Jack Clark和研究所负责人Marina Favaro联合呼吁全球暂停AI研发；仅6天后（6月10日），Anthropic发布史上最强模型Claude Fable 5，文章以\"秒追ASI\"收尾。这一极端张力需要用户判断：是安全团队的真诚警告被商业压力压倒，还是暂停提案本身即为IPO前的公关策略？此判断直接影响对Anthropic组织文化和AI安全前景的评估。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话级claude-5，登顶了！.md",
+    "affectedPages": [
+      "wiki/entities/anthropic.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/concepts/能力跑赢控制.md"
+    ],
+    "searchQueries": [
+      "Anthropic Jack Clark Marina Favaro 暂停AI研发 2026年6月",
+      "Anthropic 暂停研发提案 Fable 5 发布矛盾",
+      "Anthropic AI safety pause vs product launch June 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-12",
+    "resolved": false,
+    "createdAt": 1781176605904
+  },
+  {
+    "type": "suggestion",
+    "title": "发布间隔坍缩是否为行业普遍趋势还是Anthropic独有现象",
+    "description": "Wiki已记录Anthropic的发布间隔从42天压缩至12天，但缺乏OpenAI、Google、Meta等竞争对手在同一时期的发布节奏对比数据。如果这是行业普遍现象，则对AI Takeoff时间线的推断意义更大；如果仅Anthropic独有，则更可能是其IPO前的刻意节奏。需要横向对比研究来校准判断。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话级claude-5，登顶了！.md",
+    "affectedPages": [
+      "wiki/concepts/发布间隔坍缩.md",
+      "wiki/concepts/ai-takeoff.md",
+      "wiki/entities/anthropic.md"
+    ],
+    "searchQueries": [
+      "OpenAI Google Meta 模型发布间隔 2026年趋势",
+      "AI lab model release cadence acceleration 2026",
+      "大模型发布频率对比 Anthropic OpenAI Google 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-13",
+    "resolved": false,
+    "createdAt": 1781176605904
+  },
+  {
+    "type": "suggestion",
+    "title": "Fable 5定价翻倍用量反超与Token末日叙事的矛盾",
+    "description": "Wiki中\"Token末日\"概念记录了2026年6月行业从Token消耗竞赛转向成本治理的趋势，但Fable 5以Opus 4.8两倍的价格获得更高的日Token消耗量（2050亿vs1470亿），暗示高端模型市场对价格极度不敏感。这一矛盾需要深入研究：Token末日是中低端市场的现象，还是Fable 5的数据代表了短期发布效应而非长期趋势？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/神话级claude-5，登顶了！.md",
+    "affectedPages": [
+      "wiki/concepts/token末日.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/entities/openrouter.md"
+    ],
+    "searchQueries": [
+      "Claude Fable 5 价格 用量 Token消耗趋势",
+      "AI高端模型价格弹性 企业付费意愿 2026",
+      "Token cost crisis premium model demand inelasticity"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-14",
+    "resolved": false,
+    "createdAt": 1781176605904
+  },
+  {
+    "type": "suggestion",
+    "title": "Anthropic模型命名体系与产品线梳理",
+    "description": "Fable 5引入了全新的命名体系（Fable/Mythos），与此前Opus/Sonnet/Haiku层级的关系尚不明确。Opus 4.8作为安全回退模型的具体版本信息也缺失。梳理Anthropic完整模型谱系对理解其战略定位至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5一天干完两个月，这类工程师更值钱了.md",
+    "affectedPages": [
+      "wiki/entities/claude-fable-5.md",
+      "wiki/entities/opus-4-8.md",
+      "wiki/entities/mythos-5.md",
+      "wiki/entities/anthropic.md"
+    ],
+    "searchQueries": [
+      "Anthropic Claude Fable Mythos model naming convention 2026",
+      "Opus 4.8 Anthropic safety fallback model",
+      "Anthropic model lineup Fable Opus Sonnet Haiku relationship"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-15",
+    "resolved": false,
+    "createdAt": 1781177186726
+  },
+  {
+    "type": "suggestion",
+    "title": "Stripe 5000万行Ruby迁移案例独立验证",
+    "description": "Stripe案例是Fable 5能力的核心证据，但目前仅来自Anthropic官方发布文引用，缺乏独立技术细节验证。迁移的具体定义（语法升级？框架迁移？）、质量评估方法、人工验证比例等关键信息缺失，值得深入追踪。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5一天干完两个月，这类工程师更值钱了.md",
+    "affectedPages": [
+      "wiki/entities/stripe.md",
+      "wiki/entities/claude-fable-5.md"
+    ],
+    "searchQueries": [
+      "Stripe Ruby codebase migration Claude Fable 5 technical details",
+      "Stripe 50 million lines Ruby migration Anthropic case study",
+      "Stripe AI code migration 2026 verification"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-16",
+    "resolved": false,
+    "createdAt": 1781177186726
+  },
+  {
+    "type": "contradiction",
+    "title": "Anthropic发布最强模型与呼吁暂停AI研发的矛盾",
+    "description": "维基已记录Marina Favaro与Jack Clark联合发表暂停AI研发提案，同时Anthropic发布Fable 5/Mythos 5并清零速率限制鼓励\"尽情使用\"。Dario Amodei也发表过AI激进加速观点。这一内部矛盾需要用户判断如何呈现。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5一天干完两个月，这类工程师更值钱了.md",
+    "affectedPages": [
+      "wiki/entities/anthropic.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/entities/mythos-5.md",
+      "wiki/concepts/递归式自我改进.md"
+    ],
+    "searchQueries": [
+      "Anthropic pause AI development proposal vs Fable 5 release contradiction",
+      "Jack Clark Marina Favaro AI pause proposal 2026",
+      "Anthropic safety vs acceleration internal tension 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-17",
+    "resolved": false,
+    "createdAt": 1781177186726
+  },
+  {
+    "type": "suggestion",
+    "title": "Mythos 5参数规模信息修正",
+    "description": "此前维基记录Mythos 5为\"传闻中10万亿参数旗舰模型\"，但Fable 5发布文确认两者为同一底层模型，未提及参数规模。10万亿参数的说法来自Pankaj Kumar爆料，现需评估是否为不实信息并修正相关页面。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5一天干完两个月，这类工程师更值钱了.md",
+    "affectedPages": [
+      "wiki/entities/mythos-5.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/entities/pankaj-kumar.md"
+    ],
+    "searchQueries": [
+      "Mythos 5 parameter size 10 trillion verification",
+      "Pankaj Kumar Mythos 5 leak accuracy",
+      "Claude Fable 5 Mythos 5 same model parameters"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-18",
+    "resolved": false,
+    "createdAt": 1781177186726
+  },
+  {
+    "type": "suggestion",
+    "title": "AIEC 2026 大会实际成果与核心发言追踪",
+    "description": "AIEC 2026已于2026年6月16日举办，但Wiki中仅有会前预告信息，缺少大会实际举办后的核心发言内容、重要技术/战略发布、以及是否形成新的产业合作或生态联盟。作为集结中国AI主要玩家的大型生态大会，其实际成果对理解行业趋势走向具有重要参考价值。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/清华攒的这个局，中国ai半壁江山全来了.md",
+    "affectedPages": [
+      "wiki/events/aiec-2026.md"
+    ],
+    "searchQueries": [
+      "AIEC 2026 人工智能生态大会 清华大学 核心发言",
+      "AIEC 2026 会议成果 报告总结",
+      "清华全球产业研究院 AIEC 2026 回顾"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-19",
+    "resolved": false,
+    "createdAt": 1781177647078
+  },
+  {
+    "type": "suggestion",
+    "title": "月之暗面、阶跃星辰、百川智能等AI新势力实体页",
+    "description": "AIEC 2026参会名单中出现月之暗面、阶跃星辰、百川智能、上海人工智能实验室等多家中国AI新势力企业，这些实体在Wiki中尚无独立页面。考虑到Wiki已深度覆盖商汤、腾讯、阿里等公司的AI布局，补充这些新势力的页面有助于完善中国AI生态的全景图谱。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/清华攒的这个局，中国ai半壁江山全来了.md",
+    "affectedPages": [
+      "wiki/events/aiec-2026.md",
+      "wiki/entities/清华大学全球产业研究院.md"
+    ],
+    "searchQueries": [
+      "月之暗面 Kimi 大模型 最新进展 2026",
+      "阶跃星辰 Step 大模型 公司介绍",
+      "百川智能 Baichuan AI 最新融资 产品"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-20",
+    "resolved": false,
+    "createdAt": 1781177647078
+  },
+  {
+    "type": "suggestion",
+    "title": "智能体驱动的制造业重构——AI Agent在制造业的落地实践",
+    "description": "AIEC 2026将\"智能体驱动的制造业重构\"列为核心议题之一，美的作为制造业代表参会。Wiki中已有大量Agent技术在软件/办公场景的覆盖（WorkBuddy、微信AI、Codex等），但制造业等实体经济的Agent落地案例几乎空白。这一方向是\"产业深水区\"和\"应用闭环\"概念在物理世界的关键验证场。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/清华攒的这个局，中国ai半壁江山全来了.md",
+    "affectedPages": [
+      "wiki/concepts/产业深水区.md",
+      "wiki/concepts/应用闭环.md",
+      "wiki/events/aiec-2026.md"
+    ],
+    "searchQueries": [
+      "AI Agent 制造业重构 落地案例 2026",
+      "美的 AI智能体 工业应用",
+      "智能体 制造业 流程再造 实践"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-21",
+    "resolved": false,
+    "createdAt": 1781177647078
+  },
+  {
+    "type": "suggestion",
+    "title": "腾讯混元技术谱系与产品全景",
+    "description": "Wiki已收录腾讯应用层产品（马维斯、元宝、WorkBuddy、CodeBuddy）和基础研究层（腾讯混元与复旦联合提出Baton），但缺乏对腾讯混元团队整体技术路线图、模型矩阵（Hunyuan系列版本演进）、与其他大厂模型团队（如阿里Qwen、百度文心）的系统性对比。补全此页面有助于理解腾讯AI从底层模型到上层应用的完整技术栈。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/指令遵循媲美seedance-2.0！复旦腾讯联合提出baton，多说话人场景m-wer暴降76%.md",
+    "affectedPages": [
+      "wiki/entities/腾讯混元.md",
+      "wiki/entities/腾讯.md",
+      "wiki/entities/baton.md"
+    ],
+    "searchQueries": [
+      "腾讯混元 Hunyuan 大模型 技术路线图 2026",
+      "腾讯混元 vs 阿里Qwen vs 百度文心 对比",
+      "Hunyuan video generation model architecture 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-22",
+    "resolved": false,
+    "createdAt": 1781178489388
+  },
+  {
+    "type": "suggestion",
+    "title": "2026年联合视频-音频生成技术全景对比",
+    "description": "Baton、LTX-2、Seedance 2.0、Wan 2.7、Kling 3.0等模型在Wiki中均以独立实体存在，但缺乏跨模型的技术路线对比页面。关键开放问题：这些模型在架构设计（全局文本嵌入 vs 语义蓝图 vs 其他路线）、训练数据规模、推理效率、开源状态等维度的系统性差异。此类对比页面将显著提升Wiki对多模态生成领域的技术判断力。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/指令遵循媲美seedance-2.0！复旦腾讯联合提出baton，多说话人场景m-wer暴降76%.md",
+    "affectedPages": [
+      "wiki/entities/baton.md",
+      "wiki/entities/ltx-2.md",
+      "wiki/entities/seedance-2-0.md",
+      "wiki/entities/wan-2-7.md",
+      "wiki/entities/kling-3-0.md"
+    ],
+    "searchQueries": [
+      "joint video audio generation models comparison 2026",
+      "Seedance 2.0 vs Kling 3.0 vs Wan 2.7 benchmark",
+      "LTX-2 vs Baton architecture comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-23",
+    "resolved": false,
+    "createdAt": 1781178489388
+  },
+  {
+    "type": "suggestion",
+    "title": "Sem100评测基准的可复现性与行业标准化问题",
+    "description": "Baton的核心实验结果依赖内部收集的Sem100数据集（仅100条样例），样本量较小且未开源。这与Wiki中已收录的其他评测基准（如MedVidBench 53万样本、GM-100 100个任务、Verse-Bench开源）形成对比。值得深入研究：联合视频-音频生成领域是否存在公认的复杂语义评测标准？Sem100是否会开源？内部小样本数据集上的显著优势是否能在更大规模验证中复现？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/指令遵循媲美seedance-2.0！复旦腾讯联合提出baton，多说话人场景m-wer暴降76%.md",
+    "affectedPages": [
+      "wiki/concepts/联合视频-音频生成.md",
+      "wiki/entities/baton.md"
+    ],
+    "searchQueries": [
+      "joint video audio generation benchmark dataset 2026",
+      "Sem100 dataset Baton arXiv 2605.25195",
+      "Verse-Bench audio visual generation evaluation standard"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-24",
+    "resolved": false,
+    "createdAt": 1781178489388
+  },
+  {
+    "type": "suggestion",
+    "title": "OpenAI Atlas AI浏览器现状与进展追踪",
+    "description": "Atlas作为OpenAI超级应用三合一战略的关键组件（聊天=大脑、编程=双手、浏览器=眼睛和腿脚），目前仅以\"传闻\"形式存在于Wiki中。鉴于OpenAI的战略重心和Wiki中已有的[[超级应用战略]]页面，确认Atlas的真实状态（内部代号、开发阶段、是否已公开承认）对理解OpenAI完整产品路线图至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/美团，这次“送”了个ai浏览器.md",
+    "affectedPages": [
+      "wiki/entities/atlas.md",
+      "wiki/concepts/超级应用战略.md"
+    ],
+    "searchQueries": [
+      "OpenAI Atlas AI browser 2026",
+      "OpenAI 超级应用 浏览器 Atlas",
+      "OpenAI super app browser strategy 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-25",
+    "resolved": false,
+    "createdAt": 1781179925372
+  },
+  {
+    "type": "suggestion",
+    "title": "Perplexity Comet浏览器与Agent转型现状",
+    "description": "Perplexity从AI搜索到浏览器Comet再到Agent的转型路径是\"Agent时代浏览器复兴\"论点的关键验证案例，但Comet目前的具体状态（是否公开发布、用户规模、功能范围）在Wiki中完全空白。补充这一信息将显著增强该概念页面的论证力度。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/美团，这次“送”了个ai浏览器.md",
+    "affectedPages": [
+      "wiki/entities/perplexity.md",
+      "wiki/entities/comet.md",
+      "wiki/concepts/agent时代浏览器复兴.md"
+    ],
+    "searchQueries": [
+      "Perplexity Comet AI browser launch 2026",
+      "Perplexity Comet 浏览器 发布",
+      "Perplexity AI agent browser strategy"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-26",
+    "resolved": false,
+    "createdAt": 1781179925372
+  },
+  {
+    "type": "suggestion",
+    "title": "美团GN06团队战略定位与AI布局",
+    "description": "美团作为本地生活服务平台选择AI浏览器作为AI切入点，这一决策背后的战略逻辑尚不清晰。GN06团队在美团内部的定位（独立创新实验室还是核心业务单元）、团队规模、与美团主业（外卖、到店）的协同关系，是判断Tabbit是认真投入还是边缘实验的关键信息。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/美团，这次“送”了个ai浏览器.md",
+    "affectedPages": [
+      "wiki/entities/美团gn06团队.md",
+      "wiki/entities/美团.md"
+    ],
+    "searchQueries": [
+      "美团 GN06 团队 AI浏览器",
+      "美团 Tabbit 战略 定位",
+      "美团 AI 浏览器 布局 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-27",
+    "resolved": false,
+    "createdAt": 1781179925372
+  },
+  {
+    "type": "suggestion",
+    "title": "AI浏览器赛道竞争格局：Tabbit vs Arc vs The Browser Company",
+    "description": "Wiki中已收录Tabbit、Atlas、Comet三个AI浏览器实体，但缺少对整个AI浏览器赛道的系统性梳理。Arc浏览器（The Browser Company）作为该赛道最早的知名玩家，其当前状态和战略方向是补全竞争图景的关键缺失拼图。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/美团，这次“送”了个ai浏览器.md",
+    "affectedPages": [
+      "wiki/concepts/ai原生浏览器.md",
+      "wiki/concepts/agent时代浏览器复兴.md"
+    ],
+    "searchQueries": [
+      "Arc browser AI agent 2026",
+      "The Browser Company Arc AI strategy",
+      "AI浏览器 竞争格局 Arc Tabbit 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-28",
+    "resolved": false,
+    "createdAt": 1781179925372
+  },
+  {
+    "type": "suggestion",
+    "title": "追踪SenseNova-U1超越GPT-5和Gemini的具体空间智能榜单名称与分数",
+    "description": "林达华在演讲中声称U1（8B参数）在\"多个国际权威榜单\"上超越GPT-5和Gemini，但未披露任何具体榜单名称、分数或对比数据。这是验证商汤\"反Scaling Law\"和\"Predict the next view\"路线有效性的关键证据，目前完全缺失。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/用一套统一架构，驱动数字空间与物理空间互通丨商汤林达华aigc2026.md",
+    "affectedPages": [
+      "wiki/entities/sensenova-u1.md",
+      "wiki/concepts/反scaling-law现象.md",
+      "wiki/concepts/predict-the-next-view.md"
+    ],
+    "searchQueries": [
+      "SenseNova-U1 benchmark results spatial intelligence",
+      "SenseNova-U1 空间智能 排行榜 分数",
+      "SenseNova SI spatial intelligence benchmark GPT-5 Gemini"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-29",
+    "resolved": false,
+    "createdAt": 1781181125444
+  },
+  {
+    "type": "suggestion",
+    "title": "调查\"反Scaling Law现象\"是否有正式论文或同行评审研究",
+    "description": "商汤声称在空间智能任务中发现增加多模态数据反而削弱视觉判断能力的\"反Scaling Law\"，但当前Wiki仅基于一篇峰会演讲报道。这一发现若成立，对主流Scaling Law叙事构成根本性挑战，且与Meta VLM³的\"三维视觉Bitter Lesson\"（标准VLM+规模数据即可）存在表面矛盾。需要确认是否有arXiv论文、技术报告或更详细的实验数据支撑。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/用一套统一架构，驱动数字空间与物理空间互通丨商汤林达华aigc2026.md",
+    "affectedPages": [
+      "wiki/concepts/反scaling-law现象.md",
+      "wiki/concepts/三维视觉的bitter-lesson.md",
+      "wiki/concepts/scaling-law.md"
+    ],
+    "searchQueries": [
+      "SenseNova anti scaling law spatial intelligence paper",
+      "商汤 反Scaling Law 空间智能 论文",
+      "language prior hurts visual reasoning scaling law"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-30",
+    "resolved": false,
+    "createdAt": 1781181125444
+  },
+  {
+    "type": "suggestion",
+    "title": "深入研究\"Predict the next view\"训练范式的技术细节与学术渊源",
+    "description": "林达华将\"Predict the next view\"定位为替代next token预测的空间智能新Scaling Law，但演讲中仅给出概念性描述。需要追踪：该范式是否源自商汤原创，还是与已有研究（如NeRF/3D重建中的novel view synthesis、Meta的3D理解工作）存在学术传承关系；具体训练目标函数是什么；与next token预测是否可以统一在同一损失框架下。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/用一套统一架构，驱动数字空间与物理空间互通丨商汤林达华aigc2026.md",
+    "affectedPages": [
+      "wiki/concepts/predict-the-next-view.md",
+      "wiki/concepts/原生理解生成统一.md",
+      "wiki/entities/sensenova-si.md"
+    ],
+    "searchQueries": [
+      "predict next view training paradigm spatial intelligence",
+      "novel view synthesis as pretraining objective LLM",
+      "商汤 predict next view 训练范式 技术报告"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-31",
+    "resolved": false,
+    "createdAt": 1781181125444
+  },
+  {
+    "type": "contradiction",
+    "title": "反Scaling Law vs 三维视觉Bitter Lesson——两条路线的表面矛盾需用户判断",
+    "description": "商汤林达华发现\"增加多模态数据反而削弱视觉判断\"（反Scaling Law），而Meta VLM³发现\"标准VLM+规模数据即可超越专家模型\"（三维视觉Bitter Lesson）。两者在\"数据规模是否有用\"上给出相反结论。Wiki中已尝试调和（任务层面不同），但这一调和本身缺乏实证支撑，需要用户判断是否接受当前解释框架，或是否需要更深入的比较研究。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/用一套统一架构，驱动数字空间与物理空间互通丨商汤林达华aigc2026.md",
+    "affectedPages": [
+      "wiki/concepts/反scaling-law现象.md",
+      "wiki/concepts/三维视觉的bitter-lesson.md",
+      "wiki/entities/vlm3.md"
+    ],
+    "searchQueries": [
+      "VLM3 bitter lesson 3D vision vs anti scaling law",
+      "Meta VLM3 spatial understanding benchmark comparison",
+      "多模态数据规模 视觉理解 矛盾 实验"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-32",
+    "resolved": false,
+    "createdAt": 1781181125444
+  },
+  {
+    "type": "suggestion",
+    "title": "OpenAI与Google是否也在部署类似反蒸馏机制",
+    "description": "Fable 5的反蒸馏机制是行业首例被公开确认的推理链内静默降智技术。关键开放问题：OpenAI和Google是否也在GPT-5.5/Gemini中部署了类似机制？这将决定\"表面开放、实际降智\"是Anthropic独有策略还是行业趋势。建议深度调研三大实验室的系统卡和用户实测报告。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5自带反蒸馏机制！检测到就降智，误触率高到离谱.md",
+    "affectedPages": [
+      "wiki/concepts/反蒸馏机制.md",
+      "wiki/entities/fable-5.md",
+      "wiki/entities/openai.md",
+      "wiki/entities/谷歌.md"
+    ],
+    "searchQueries": [
+      "OpenAI GPT-5.5 anti-distillation mechanism system card",
+      "Google Gemini silent capability reduction distillation protection",
+      "AI model anti-distillation industry comparison 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-33",
+    "resolved": false,
+    "createdAt": 1781181651333
+  },
+  {
+    "type": "suggestion",
+    "title": "Anthropic\"AI必须广泛赋权\"承诺与有条件释放策略的矛盾分析",
+    "description": "Anthropic在OpenAI三阶段战略对标中强调\"AI必须广泛赋权而非集中权力\"，但Fable 5的静默降智、反蒸馏机制和有条件释放策略直接 contradicts 这一叙事。这一矛盾在IPO前夕尤为敏感，值得作为独立研究条目追踪Anthropic公开承诺与实际产品行为之间的张力。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5自带反蒸馏机制！检测到就降智，误触率高到离谱.md",
+    "affectedPages": [
+      "wiki/concepts/有条件释放.md",
+      "wiki/concepts/反蒸馏机制.md",
+      "wiki/entities/anthropic.md",
+      "wiki/concepts/openai三阶段战略.md"
+    ],
+    "searchQueries": [
+      "Anthropic \"broadly empower\" vs conditional release contradiction",
+      "Anthropic IPO strategy model access restrictions",
+      "Dario Amodei scaling law safety guardrail tension 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-34",
+    "resolved": false,
+    "createdAt": 1781181651333
+  },
+  {
+    "type": "suggestion",
+    "title": "Fable 5安全护栏误触发率的独立验证与量化研究",
+    "description": "官方声称Fable 5安全护栏回退触发率不到5%，但大量用户报告表明实际体感远高于此。目前缺乏系统性量化数据。建议追踪独立第三方评测（如METR、Epoch AI或学术团队）对误触发率的实测结果，以及Anthropic是否会在后续版本中公开更精确的分场景触发率数据。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5自带反蒸馏机制！检测到就降智，误触率高到离谱.md",
+    "affectedPages": [
+      "wiki/concepts/安全护栏回退.md",
+      "wiki/entities/fable-5.md",
+      "wiki/entities/metr.md"
+    ],
+    "searchQueries": [
+      "Fable 5 safety guardrail false positive rate independent benchmark",
+      "Anthropic Fable 5 Opus fallback trigger rate user measurement",
+      "Claude Fable 5 safety classifier overtriggering analysis"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-35",
+    "resolved": false,
+    "createdAt": 1781181651333
+  },
+  {
+    "type": "suggestion",
+    "title": "反蒸馏机制的技术绕过方法与检测手段",
+    "description": "反蒸馏机制通过Prompt Modification、Steering Vector和PEFT实现静默降智，用户完全无法感知。关键研究空白：是否存在技术手段检测自己是否被降智？是否有已知的绕过方法？这对依赖API进行AI研究的学术团队和创业公司具有直接实操价值。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/fable-5自带反蒸馏机制！检测到就降智，误触率高到离谱.md",
+    "affectedPages": [
+      "wiki/concepts/反蒸馏机制.md",
+      "wiki/entities/fable-5.md"
+    ],
+    "searchQueries": [
+      "detect AI model silent capability reduction anti-distillation",
+      "bypass Anthropic anti-distillation steering vector PEFT",
+      "AI model quality degradation detection methods research 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-36",
+    "resolved": false,
+    "createdAt": 1781181651333
+  },
+  {
+    "type": "suggestion",
+    "title": "Seedance 2.0 技术细节与行业影响深度追踪",
+    "description": "Seedance 2.0 被多次引用为\"抬高AI视频行业下限\"的关键技术里程碑，但当前页面信息极度稀薄，缺乏具体技术架构、能力边界、与Sora 2/Runway等竞品的对比分析。作为字节跳动AI视频生态的核心技术底座，其详细信息对理解抖音AI创作大赛的技术支撑和AI视频行业格局至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/抖音征召天下「ai视频英才」！创作者们，这次是真能吃上ai红利了….md",
+    "affectedPages": [
+      "wiki/entities/seedance-2.md",
+      "wiki/entities/即梦.md",
+      "wiki/entities/抖音.md"
+    ],
+    "searchQueries": [
+      "Seedance 2.0 字节跳动 技术架构",
+      "Seedance 2.0 vs Sora 2 vs Runway 对比",
+      "Seedance 2.0 AI视频生成能力评测"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-37",
+    "resolved": false,
+    "createdAt": 1781182293971
+  },
+  {
+    "type": "suggestion",
+    "title": "2026年6月中国内容平台AI化浪潮横向对比研究",
+    "description": "Wiki已收录抖音AI创作大赛、小红书RED Skill、微信AI开发者内测三条平行路线，但缺乏跨平台横向对比分析。三条路线分别代表\"赛事+奖金激励\"、\"内容即Skill分发\"、\"小程序Agent化\"三种截然不同的AI生态构建策略，对其进行系统性对比将显著提升对AI产业演进方向的理解。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/抖音征召天下「ai视频英才」！创作者们，这次是真能吃上ai红利了….md",
+    "affectedPages": [
+      "wiki/events/抖音ai创作大赛-2026.md",
+      "wiki/entities/小红书.md",
+      "wiki/concepts/小程序agent化.md",
+      "wiki/concepts/智能体时代生态演进.md",
+      "wiki/concepts/skill集市模式.md"
+    ],
+    "searchQueries": [
+      "2026年 抖音 小红书 微信 AI生态布局对比",
+      "中国内容平台AI化策略分析",
+      "抖音AI大赛 小红书RED Skill 微信AI开发者 三条路线"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-38",
+    "resolved": false,
+    "createdAt": 1781182293971
+  },
+  {
+    "type": "suggestion",
+    "title": "字节跳动AI产品矩阵全景梳理",
+    "description": "Wiki已分散收录豆包（AI助手）、即梦（AI视频工具）、Seedance 2.0（视频模型）、抖音（短视频平台）等字节跳动旗下AI相关实体，但缺乏对字节跳动整体AI战略和产品矩阵的系统性梳理。与Wiki中已较为完整的腾讯AI生态（微信AI+元宝+WorkBuddy+CodeBuddy+SkillHub）和阿里AI生态（QoderWork+RTP-LLM+高德）相比，字节跳动AI版图存在明显知识缺口。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/抖音征召天下「ai视频英才」！创作者们，这次是真能吃上ai红利了….md",
+    "affectedPages": [
+      "wiki/entities/即梦.md",
+      "wiki/entities/seedance-2.md",
+      "wiki/entities/豆包.md",
+      "wiki/entities/抖音.md"
+    ],
+    "searchQueries": [
+      "字节跳动 AI产品矩阵 2026 豆包 即梦",
+      "ByteDance AI strategy 2026",
+      "字节跳动大模型布局 豆包 Seedance"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-39",
+    "resolved": false,
+    "createdAt": 1781182293971
+  },
+  {
+    "type": "suggestion",
+    "title": "Agent时代动态评测范式研究综述",
+    "description": "SemanticQA论文明确提出\"静态评测在Agent时代根本性失效\"的论断，与Wiki中已有的[[livingbench]]（Mind Lab动态Agent评测）、[[断点续跑]]（长链路容错）、[[多智能体错误传播]]等概念高度相关但分散。建议创建一个整合性页面，系统梳理从静态基准到动态自适应评测的范式转型，涵盖执行轨迹审计、任务生命周期、安全护栏一票否决权等新兴方向。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/acl-2026-oral｜语义推理如鲠在喉：大模型被「短语」难住了.md",
+    "affectedPages": [
+      "wiki/concepts/静态评测失效.md",
+      "wiki/concepts/livingbench.md",
+      "wiki/concepts/断点续跑.md",
+      "wiki/concepts/多智能体错误传播.md"
+    ],
+    "searchQueries": [
+      "Agent动态评测基准 2026",
+      "dynamic evaluation benchmark LLM agent",
+      "执行轨迹审计 AI评测范式"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-40",
+    "resolved": false,
+    "createdAt": 1781183233352
+  },
+  {
+    "type": "suggestion",
+    "title": "DeepSeek-R1模型能力画像",
+    "description": "Wiki已收录[[deepseek-v4]]但未收录DeepSeek-R1。SemanticQA评测中DeepSeek-R1是关键评测对象，其细粒度分类准确率从81.7%暴跌至35.4%（跌幅46.3个百分点）的表现，为DeepSeek模型家族的能力边界提供了重要数据点。随着DeepSeek产品线扩展，R1作为推理特化模型值得独立记录。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/acl-2026-oral｜语义推理如鲠在喉：大模型被「短语」难住了.md",
+    "affectedPages": [
+      "wiki/entities/deepseek-v4.md",
+      "wiki/concepts/深度思考模式.md"
+    ],
+    "searchQueries": [
+      "DeepSeek-R1 模型能力评测",
+      "DeepSeek R1 reasoning model benchmark",
+      "DeepSeek R1 vs GPT-5 对比"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-41",
+    "resolved": false,
+    "createdAt": 1781183233352
+  },
+  {
+    "type": "suggestion",
+    "title": "大模型语义理解能力边界：跨操作一致性缺失的系统性证据",
+    "description": "Wiki中[[scaling-law]]条目记录了Dario Amodei\"Scaling没有墙\"的主张，但SemanticQA提供了Scaling在细粒度语义推理上的明确边界证据——规模扩展不等于语义深化，千亿参数模型在十六分类任务上性能衰减远超小规模监督模型。建议创建一个研究综述页面，整合SemanticQA、[[高阶幻觉]]、[[认知投降]]等页面中关于\"模型表面能力vs真实理解\"的系统性证据。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/acl-2026-oral｜语义推理如鲠在喉：大模型被「短语」难住了.md",
+    "affectedPages": [
+      "wiki/concepts/scaling-law.md",
+      "wiki/concepts/高阶幻觉.md",
+      "wiki/concepts/认知投降.md",
+      "wiki/concepts/跨操作一致性.md"
+    ],
+    "searchQueries": [
+      "大模型语义理解能力边界",
+      "LLM semantic understanding limitation scaling",
+      "语言模型短语理解评测 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-42",
+    "resolved": false,
+    "createdAt": 1781183233352
+  },
+  {
+    "type": "suggestion",
+    "title": "VBench 评测基准",
+    "description": "MBench 页面多次将 VBench 作为核心对比参照（侧重短视频视觉质量 vs. 长时序记忆能力），但 VBench 本身尚无独立页面。创建 VBench 页面将完善视频生成评测基准的知识图谱，使两者的范式差异更加清晰。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mbench-清华x腾讯联合定义视频世界模型的长期记忆能力.md",
+    "affectedPages": [
+      "wiki/entities/mbench.md",
+      "wiki/concepts/视频世界模型长期记忆能力.md"
+    ],
+    "searchQueries": [
+      "VBench video generation benchmark",
+      "VBench 视频生成评测基准 论文",
+      "VBench comprehensive video generation evaluation"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-43",
+    "resolved": false,
+    "createdAt": 1781184616402
+  },
+  {
+    "type": "suggestion",
+    "title": "MBench 14个SOTA模型具体名单与评测结果",
+    "description": "MBench 报道提及对14个SOTA模型（8个文本驱动+6个动作驱动）进行了评测，但未列出具体模型名称和各维度得分。这些定量数据对理解当前视频世界模型的能力边界至关重要，值得通过查阅技术报告或排行榜补充。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mbench-清华x腾讯联合定义视频世界模型的长期记忆能力.md",
+    "affectedPages": [
+      "wiki/entities/mbench.md"
+    ],
+    "searchQueries": [
+      "MBench leaderboard 14 SOTA models results",
+      "MBench 视频世界模型评测结果 技术报告",
+      "MBench arxiv paper 2026 video world model memory"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-44",
+    "resolved": false,
+    "createdAt": 1781184616402
+  },
+  {
+    "type": "suggestion",
+    "title": "视频生成记忆 vs 视频理解记忆：统一记忆框架",
+    "description": "Wiki 中已收录 VAM（视频理解记忆）和 MBench（视频生成记忆），两者互补但尚未建立统一的分析框架。一个对比页面或统一概念页面将帮助厘清\"记忆\"在视频AI不同子领域中的定义差异、技术路线分野和未来融合可能性。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mbench-清华x腾讯联合定义视频世界模型的长期记忆能力.md",
+    "affectedPages": [
+      "wiki/concepts/视频世界模型长期记忆能力.md",
+      "wiki/entities/vam-视觉智能体记忆.md",
+      "wiki/concepts/视觉记忆系统.md"
+    ],
+    "searchQueries": [
+      "video generation memory vs video understanding memory AI",
+      "视频生成与视频理解中的记忆机制对比",
+      "world model memory unified framework video AI 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-45",
+    "resolved": false,
+    "createdAt": 1781184616402
+  },
+  {
+    "type": "missing-page",
+    "title": "Fable 5（Anthropic传闻模型）",
+    "description": "网友评论中提及的Fable 5与已收录的Mythos 5并列，暗示Anthropic可能同时准备两个旗舰模型，或Fable 5是Mythos 5的内部代号/变体。该信息对理解Anthropic产品线和IPO前发布节奏至关重要，目前Wiki中完全缺失。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo锐评ai现状和政策，但他只想保证自己的领先地位.md",
+    "affectedPages": [
+      "wiki/entities/mythos-5.md",
+      "wiki/concepts/ai监管俘获争议.md"
+    ],
+    "searchQueries": [
+      "Anthropic Fable 5 model leak",
+      "Fable 5 vs Mythos 5 Anthropic",
+      "Anthropic 新模型发布时间 2026年6月"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-46",
+    "resolved": true,
+    "createdAt": 1781185038512,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "Anthropic IPO前叙事策略时间线整合研究",
+    "description": "Wiki已分散记录了Anthropic 6月初的S-1秘密提交、暂停研发呼吁、Policy on the AI Exponential长文三个事件，但缺乏一个将它们整合为系统性\"IPO前叙事策略\"的深度研究页面。需要梳理Anthropic如何通过\"安全叙事\"为IPO估值服务，以及与OpenAI同期IPO策略的对比。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo锐评ai现状和政策，但他只想保证自己的领先地位.md",
+    "affectedPages": [
+      "wiki/entities/anthropic.md",
+      "wiki/entities/dario-amodei.md",
+      "wiki/concepts/ai监管俘获争议.md",
+      "wiki/events/anthropic-policy-on-the-ai-exponential发布.md"
+    ],
+    "searchQueries": [
+      "Anthropic IPO S-1 安全叙事策略 2026",
+      "Anthropic vs OpenAI IPO策略对比",
+      "Dario Amodei 政策长文 IPO时间线"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-47",
+    "resolved": false,
+    "createdAt": 1781185038512
+  },
+  {
+    "type": "suggestion",
+    "title": "Amodei原文《Policy on the AI Exponential》核心论点与全球AI监管政策对比",
+    "description": "当前Wiki仅通过机器之心的二次评论记录了Amodei的政策框架，但缺乏对其原文中\"计算量阈值\"、UBI具体方案、FDA改革建议等核心细节的独立梳理。同时，这些主张与欧盟AI Act、中国生成式AI管理办法等实际监管框架的异同也值得深入研究。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo锐评ai现状和政策，但他只想保证自己的领先地位.md",
+    "affectedPages": [
+      "wiki/concepts/强制第三方ai审计.md",
+      "wiki/concepts/ai指数速度与政策滞后.md",
+      "wiki/concepts/监管体系堵塞.md"
+    ],
+    "searchQueries": [
+      "Dario Amodei \"Policy on the AI Exponential\" 全文要点",
+      "AI监管 计算量阈值 国际对比",
+      "FDA AI药物审批改革 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-48",
+    "resolved": false,
+    "createdAt": 1781185038512
+  },
+  {
+    "type": "missing-page",
+    "title": "anthropic-s1秘密提交-20260601（事件页）",
+    "description": "Wiki中多个页面引用了`anthropic-s1秘密提交-20260601`作为事件节点（包括新生成的事件页causes字段），但该事件页本身尚未创建。这是Anthropic IPO前叙事策略时间线的起点，属于关键缺失。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo锐评ai现状和政策，但他只想保证自己的领先地位.md",
+    "affectedPages": [
+      "wiki/events/anthropic-policy-on-the-ai-exponential发布.md",
+      "wiki/entities/anthropic.md"
+    ],
+    "searchQueries": [
+      "Anthropic 秘密提交S-1 2026年6月",
+      "Anthropic IPO 9650亿估值 S-1文件",
+      "Anthropic 上市计划 2026年10月"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-49",
+    "resolved": true,
+    "createdAt": 1781185038512,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "UiT架构与DiT+VAE主流路线的技术对比验证",
+    "description": "智象未来宣称其8B参数UiT架构可对标甚至超越行业百亿级传统模型，但文章缺乏定量对比数据，且UiT的具体技术细节（如何不使用VAE直接处理像素、计算开销、显存需求）未披露。这一架构路线若成立，可能对Wiki中已记录的DiT主流路线（如pid-pixel-diffusion-decoder）构成挑战。需要寻找第三方技术分析或论文来验证其可行性。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/半月内两次问鼎全球：中国创业公司，在ai图像生成赛道掀了桌子.md",
+    "affectedPages": [
+      "wiki/concepts/uit-像素级统一transformer.md",
+      "wiki/concepts/vae解码器瓶颈.md",
+      "wiki/concepts/生成式解码器范式.md"
+    ],
+    "searchQueries": [
+      "HiDream UiT architecture technical paper",
+      "UiT vs DiT VAE image generation comparison",
+      "智象未来 UiT 像素级统一Transformer 技术报告"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-50",
+    "resolved": false,
+    "createdAt": 1781185560158
+  },
+  {
+    "type": "suggestion",
+    "title": "Artificial Analysis文生图榜单的评测方法论与行业公信力评估",
+    "description": "Wiki中已创建Artificial Analysis实体页，但其评测方法论（匿名对比+用户投票+ELO排名）的样本量、用户群体构成、与自动化指标的相关性等关键信息缺失。作为文生图领域的重要第三方基准，需要更深入了解其评测机制是否可靠，以及与Claw-Eval等自动化榜单的差异。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/半月内两次问鼎全球：中国创业公司，在ai图像生成赛道掀了桌子.md",
+    "affectedPages": [
+      "wiki/entities/artificial-analysis.md",
+      "wiki/entities/claw-eval.md"
+    ],
+    "searchQueries": [
+      "Artificial Analysis text to image leaderboard methodology",
+      "Artificial Analysis ELO rating system evaluation",
+      "文生图评测基准对比 Artificial Analysis vs 其他榜单"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-51",
+    "resolved": false,
+    "createdAt": 1781185560158
+  },
+  {
+    "type": "suggestion",
+    "title": "2026年文生图赛道竞争格局：原生全模态vs模块化架构的路线之争",
+    "description": "Wiki中已记录多条文生图相关技术路线（商汤sensenova-u1的原生理解生成统一、英伟达PiD的生成式解码器范式、智象未来UiT的像素级全模态），但缺乏对2026年文生图赛道整体竞争格局的系统性梳理。竞品模型如Google Nano Banana 2、NVIDIA Cosmos3、字节Seedream 4.0均未收录，无法形成完整的行业图谱。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/半月内两次问鼎全球：中国创业公司，在ai图像生成赛道掀了桌子.md",
+    "affectedPages": [
+      "wiki/concepts/原生理解生成统一.md",
+      "wiki/concepts/uit-像素级统一transformer.md",
+      "wiki/concepts/vae解码器瓶颈.md"
+    ],
+    "searchQueries": [
+      "2026 text to image model benchmark comparison",
+      "Google Nano Banana 2 Gemini image generation",
+      "NVIDIA Cosmos text to image Seedream 4.0 字节跳动"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-52",
+    "resolved": false,
+    "createdAt": 1781185560158
+  },
+  {
+    "type": "suggestion",
+    "title": "具身智能空间对齐技术路线对比研究",
+    "description": "Wiki已收录Dexterity-BEV（BEV统一坐标系）和VITRA（人类视频预训练）两条解决具身数据异构性的路线，但缺乏对两者互补性、技术兼容性及行业其他空间对齐方案（如3D原生生成、NeRF-based方法）的系统性对比页面。建立此对比将显著提升Wiki在具身智能数据基建方向的知识结构完整性。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/bev杀入具身智能：跨维智能把机器人数据带上scaling快车道.md",
+    "affectedPages": [
+      "wiki/entities/dexterity-bev.md",
+      "wiki/entities/vitra.md",
+      "wiki/concepts/具身数据异构性.md",
+      "wiki/concepts/具身智能数据困境.md"
+    ],
+    "searchQueries": [
+      "具身智能空间对齐技术路线对比 Dexterity-BEV vs VITRA",
+      "BEV机器人操作 3D视觉方法对比 2026",
+      "embodied AI spatial alignment benchmark comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-53",
+    "resolved": false,
+    "createdAt": 1781186602004
+  },
+  {
+    "type": "suggestion",
+    "title": "LIBERO与RoboTwin 2.0评测基准",
+    "description": "Dexterity-BEV、π0、X-VLA等多个VLA模型均以LIBERO和RoboTwin 2.0作为核心仿真评测平台，但Wiki中尚未收录这两个重要基准。它们是具身智能操作任务泛化能力评测的事实标准，收录后可为多个模型页面的实验验证部分提供交叉引用支撑。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/bev杀入具身智能：跨维智能把机器人数据带上scaling快车道.md",
+    "affectedPages": [
+      "wiki/entities/dexterity-bev.md",
+      "wiki/concepts/vla-视觉-语言-动作.md",
+      "wiki/concepts/sim2real.md"
+    ],
+    "searchQueries": [
+      "LIBERO benchmark robot manipulation simulation",
+      "RoboTwin 2.0 embodied AI evaluation",
+      "具身智能仿真评测基准对比 LIBERO RoboTwin"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-54",
+    "resolved": false,
+    "createdAt": 1781186602004
+  },
+  {
+    "type": "suggestion",
+    "title": "π0与X-VLA基线模型",
+    "description": "Wiki中多次引用π0和X-VLA作为VLA领域的对比基线（Dexterity-BEV、LingBot-VLA等均与之对比），但这两个模型本身尚无独立页面。作为具身智能VLA路线的代表性工作，收录它们有助于建立完整的技术谱系参照系。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/bev杀入具身智能：跨维智能把机器人数据带上scaling快车道.md",
+    "affectedPages": [
+      "wiki/entities/dexterity-bev.md",
+      "wiki/entities/lingbot-vla.md",
+      "wiki/concepts/vla-视觉-语言-动作.md"
+    ],
+    "searchQueries": [
+      "π0 physical intelligence VLA model paper",
+      "X-VLA vision language action model baseline",
+      "具身智能VLA模型谱系 π0 X-VLA对比"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-55",
+    "resolved": false,
+    "createdAt": 1781186602004
+  },
+  {
+    "type": "suggestion",
+    "title": "自动驾驶BEV到具身智能的方法论迁移有效性验证",
+    "description": "Wiki已收录BEV从自动驾驶迁移至具身智能的叙事（bev-鸟瞰图.md、bev进入具身智能.md），但存在一个未解决的张力：自动驾驶BEV在相对结构化的道路环境中验证，而机器人操作场景的非结构化程度远高于驾驶。这一类比的边界条件和失效模式值得深入研究，以避免过度乐观的技术迁移叙事。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/bev杀入具身智能：跨维智能把机器人数据带上scaling快车道.md",
+    "affectedPages": [
+      "wiki/concepts/bev-鸟瞰图.md",
+      "wiki/events/bev进入具身智能.md",
+      "wiki/concepts/具身数据异构性.md"
+    ],
+    "searchQueries": [
+      "BEV自动驾驶到机器人操作迁移局限性",
+      "bird's eye view robot manipulation unstructured environment",
+      "BEV非结构化场景泛化能力验证"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-56",
+    "resolved": false,
+    "createdAt": 1781186602004
+  },
+  {
+    "type": "suggestion",
+    "title": "SWE-agent 与 OpenHands 系统页面",
+    "description": "综述《Code as Agent Harness》多次引用 SWE-agent 和 OpenHands 作为 Plan-Execute-Verify 循环的代表系统，且 Wiki 中已有 claude-code 和 codex 页面，缺少这两个学术界的对标系统页面会影响对 Agent Harness 生态的完整理解。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md",
+    "affectedPages": [
+      "wiki/concepts/code-as-agent-harness.md",
+      "wiki/concepts/plan-execute-verify循环.md",
+      "wiki/entities/claude-code.md",
+      "wiki/entities/codex.md"
+    ],
+    "searchQueries": [
+      "SWE-agent software engineering AI agent paper",
+      "OpenHands autonomous software engineering agent",
+      "SWE-bench agent system comparison 2025 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-57",
+    "resolved": false,
+    "createdAt": 1781187363147
+  },
+  {
+    "type": "suggestion",
+    "title": "PoT/PAL/Lean 推理外部化方法对比页面",
+    "description": "综述将 PoT (Program of Thought)、PAL、Lean/Coq 等方法归类为\"推理可执行化\"路线，Wiki 已有 lean-形式化证明语言 页面但缺少 PoT 和 PAL，这些方法是理解\"代码让推理可执行\"这一核心论点的关键技术支撑。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md",
+    "affectedPages": [
+      "wiki/concepts/code-as-agent-harness.md",
+      "wiki/entities/lean-形式化证明语言.md"
+    ],
+    "searchQueries": [
+      "Program of Thought PoT prompting paper",
+      "PAL Program-Aided Language model reasoning",
+      "code-based reasoning externalization LLM survey"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-58",
+    "resolved": false,
+    "createdAt": 1781187363147
+  },
+  {
+    "type": "suggestion",
+    "title": "Code as Policies 与 SayCan 机器人代码化行动页面",
+    "description": "综述在\"行动可落地\"维度引用了 SayCan、Code as Policies、Voyager 等机器人领域工作，这些是将代码化行动从软件工程扩展到物理世界的关键案例，与 Wiki 中已有的 VLA 和具身智能主题高度相关但完全缺失。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md",
+    "affectedPages": [
+      "wiki/concepts/code-as-agent-harness.md",
+      "wiki/concepts/vla-视觉-语言-动作.md",
+      "wiki/concepts/具身智能数据困境.md"
+    ],
+    "searchQueries": [
+      "Code as Policies robot language model",
+      "SayCan Google robot affordance grounding",
+      "Voyager Minecraft LLM lifelong learning agent"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-59",
+    "resolved": false,
+    "createdAt": 1781187363147
+  },
+  {
+    "type": "contradiction",
+    "title": "agent-harness 训练阶段与推理阶段概念边界需厘清",
+    "description": "Wiki 新建的 agent-harness 页面将概念分为\"训练阶段（agent-harness-后训练）\"和\"推理执行阶段（code-as-agent-harness）\"两个子概念，但原始综述《Code as Agent Harness》本身并未做此二分法，这是 Wiki 自行构建的分类。需确认这种拆分是否准确反映了学术原意，还是过度简化了两者之间可能存在的连续谱关系。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md",
+    "affectedPages": [
+      "wiki/concepts/agent-harness.md",
+      "wiki/concepts/agent-harness-后训练.md",
+      "wiki/concepts/code-as-agent-harness.md"
+    ],
+    "searchQueries": [
+      "agent harness training inference unified framework",
+      "Code as Agent Harness arXiv 2605.18747"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-60",
+    "resolved": false,
+    "createdAt": 1781187363147
+  },
+  {
+    "type": "suggestion",
+    "title": "Dario Amodei的\"三类就业出口\"与Alex Imas\"关系性部门\"的交叉验证研究",
+    "description": "Dario提出的\"人本型工作\"出口与Alex Imas的\"关系性部门\"概念高度一致，但两者分别来自AI公司CEO的个人推测和学术经济学家的理论框架。值得深入研究：这两个框架是否可以合并为一个更完整的AGI就业理论？Dario坦诚\"都不保证一定行\"，而Imas呼吁\"数据曼哈顿计划\"来实证测量——是否存在已有的实证数据可以初步验证？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo只直接管一个人！.md",
+    "affectedPages": [
+      "wiki/concepts/三类就业出口.md",
+      "wiki/concepts/关系性部门.md",
+      "wiki/concepts/温水效应.md",
+      "wiki/concepts/agi经济学.md"
+    ],
+    "searchQueries": [
+      "Dario Amodei three employment exits AI jobs framework",
+      "Alex Imas relational sectors AI labor economics empirical data",
+      "AI automation 90% job content remaining 10% leverage evidence"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-61",
+    "resolved": false,
+    "createdAt": 1781190839379
+  },
+  {
+    "type": "suggestion",
+    "title": "Anthropic IPO冲刺期内部矛盾张力：S-1提交与暂停研发提案的三天时间差",
+    "description": "6月1日秘密提交S-1冲刺IPO，6月4日联合创始人Jack Clark和研究所负责人Marina Favaro即呼吁暂停AI研发——这一极端矛盾的时间差值得深度研究。是精心策划的\"安全叙事\"策略（先展示商业价值，再展示安全担当），还是真实的内部路线分裂？Dario的\"加速者+预警者\"双重身份如何在这一张力中自洽？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo只直接管一个人！.md",
+    "affectedPages": [
+      "wiki/entities/anthropic.md",
+      "wiki/entities/dario-amodei.md",
+      "wiki/concepts/末日营销争议.md"
+    ],
+    "searchQueries": [
+      "Anthropic S-1 filing June 2026 pause AI research proposal contradiction",
+      "Jack Clark Marina Favaro pause AI development Anthropic IPO timing",
+      "Anthropic safety washing IPO strategy 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-62",
+    "resolved": false,
+    "createdAt": 1781190839379
+  },
+  {
+    "type": "suggestion",
+    "title": "Leo Szilard与AI治理：Dario Amodei的历史类比是否成立",
+    "description": "Dario将自己类比为Leo Szilard（最早提出链式反应可能性）而非奥本海默，视奥本海默为\"失败案例\"。但Szilard本人后来也未能阻止核武器使用，其晚年深感挫败。这一历史类比是否反而暗示了Dario自身处境的悲剧性——提出警告但无法改变轨迹？值得将Szilard的核物理史与当前AI治理困境做系统性对比分析。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo只直接管一个人！.md",
+    "affectedPages": [
+      "wiki/concepts/制衡.md",
+      "wiki/entities/dario-amodei.md"
+    ],
+    "searchQueries": [
+      "Leo Szilard nuclear chain reaction warning failure parallel AI governance",
+      "Dario Amodei Oppenheimer Szilard analogy AI safety",
+      "Szilard petition nuclear weapons AI alignment historical comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-63",
+    "resolved": false,
+    "createdAt": 1781190839379
+  },
+  {
+    "type": "suggestion",
+    "title": "极简直接下属管理的可复制性：兄妹信任是否为必要条件",
+    "description": "Dario仅一名直接下属的管理模式高度依赖与Daniela的兄妹信任。值得研究：科技史上是否有类似案例（非亲属关系下的极端授权模式）？这种模式在组织规模继续扩大（IPO后）是否可持续？如果Daniela离开，Anthropic的组织架构将如何应对？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo只直接管一个人！.md",
+    "affectedPages": [
+      "wiki/concepts/极简直接下属管理.md",
+      "wiki/entities/daniela-amodei.md",
+      "wiki/entities/dario-amodei.md"
+    ],
+    "searchQueries": [
+      "CEO single direct report management model tech companies",
+      "extreme delegation CEO sibling co-founder trust governance",
+      "Daniela Amodei role Anthropic operations organizational structure"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-64",
+    "resolved": false,
+    "createdAt": 1781190839379
+  },
+  {
+    "type": "suggestion",
+    "title": "Anthropic 2026年6月事件链：IPO、暂停研发与主动求监管的内部路线分歧",
+    "description": "Wiki中已收录6月1日秘密提交S-1、6月4日Clark/Favaro暂停研发提案、6月11日Amodei指数级AI政策檄文三个独立事件，但缺乏对三者之间内部路线分歧和战略协调性的综合分析页面。Clark/Favaro的\"暂停\"与Amodei的\"监管但不停止\"存在基调差异，同时IPO加速商业化与主动求监管形成极端张力。理解这一张力对判断Anthropic真实战略意图至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo发万字檄文！指数级ai不可逆，不安全必封杀.md",
+    "affectedPages": [
+      "wiki/events/anthropic指数级ai政策发布-20260611.md",
+      "wiki/concepts/指数级ai政策.md",
+      "wiki/entities/jack-clark.md",
+      "wiki/entities/marina-favaro.md",
+      "wiki/entities/dario-amodei.md"
+    ],
+    "searchQueries": [
+      "Anthropic内部路线分歧 Jack Clark暂停研发 Dario Amodei监管",
+      "Anthropic IPO S-1 监管护城河策略分析",
+      "Anthropic 2026年6月政策提案 战略意图分析"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-65",
+    "resolved": false,
+    "createdAt": 1781191424157
+  },
+  {
+    "type": "suggestion",
+    "title": "监管护城河假说：10²⁵ FLOPs门槛是否精准排除竞争者",
+    "description": "Amodei提出的10²⁵ FLOPs / 5亿美元营收 / 10亿美元研发三重门槛，恰好将Anthropic和OpenAI纳入监管范围而将绝大多数AI创业公司排除在外。这一门槛设计是否构成事实上的\"监管护城河\"——提高行业准入门槛、阻止新竞争者崛起——是评估该政策提案真实动机的关键问题。需要深入研究其他AI实验室（Google DeepMind、Meta、xAI）对该门槛的具体反应。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo发万字檄文！指数级ai不可逆，不安全必封杀.md",
+    "affectedPages": [
+      "wiki/concepts/指数级ai政策.md",
+      "wiki/entities/anthropic.md",
+      "wiki/entities/openai.md"
+    ],
+    "searchQueries": [
+      "10^25 FLOPs监管门槛 监管护城河 AI创业公司影响",
+      "Anthropic监管提案 竞争对手反应 Google Meta xAI",
+      "AI监管门槛计算量标准 政策分析 监管捕获"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-66",
+    "resolved": false,
+    "createdAt": 1781191424157
+  },
+  {
+    "type": "suggestion",
+    "title": "Mythos Preview网络安全漏洞发现事件：从传闻到实证的关键转折",
+    "description": "Wiki中Mythos-5此前处于\"红队测试阶段\"和\"泄露\"状态，Amodei檄文首次披露其已具备自主发现所有主流OS和浏览器数千个高危漏洞的能力。这是AI安全风险从假设变为现实的关键转折点，但缺乏独立验证：哪些具体漏洞被发现？是否已通报相关厂商？漏洞严重程度分布如何？这些细节对评估AI网络安全风险的实际规模至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo发万字檄文！指数级ai不可逆，不安全必封杀.md",
+    "affectedPages": [
+      "wiki/entities/mythos-5.md",
+      "wiki/concepts/指数级ai政策.md",
+      "wiki/events/anthropic指数级ai政策发布-20260611.md"
+    ],
+    "searchQueries": [
+      "Claude Mythos Preview网络安全漏洞发现 具体清单",
+      "Anthropic Mythos自主发现OS浏览器漏洞 独立验证",
+      "Mythos AI漏洞挖掘 CVE 安全社区反应"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-67",
+    "resolved": false,
+    "createdAt": 1781191424157
+  },
+  {
+    "type": "suggestion",
+    "title": "杰文斯悖论与比较优势同时失效：AI失业的理论前沿辩论",
+    "description": "Amodei在就业冲击框架中提出AI将同时击穿杰文斯悖论和比较优势两大技术失业缓冲机制，这是Wiki中AGI经济学议题的重要理论补充。但该判断尚属理论推演，需要追踪经济学界对此的具体辩论：哪些经济学家支持或反对这一判断？是否有初步实证数据支持？与Wiki中已有的劳动收入份额下降、温水效应、人类劳动悲观摩尔定律等概念如何系统整合？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/anthropic-ceo发万字檄文！指数级ai不可逆，不安全必封杀.md",
+    "affectedPages": [
+      "wiki/concepts/anthropic就业冲击三层框架.md",
+      "wiki/concepts/agi经济学.md",
+      "wiki/concepts/劳动收入份额.md",
+      "wiki/concepts/温水效应.md"
+    ],
+    "searchQueries": [
+      "AI击穿杰文斯悖论比较优势 经济学家辩论",
+      "AI失业缓冲机制失效 实证研究 2026",
+      "Dario Amodei就业冲击框架 经济学界反应评价"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-68",
+    "resolved": false,
+    "createdAt": 1781191424157
+  },
+  {
+    "type": "missing-page",
+    "title": "CVPR 2026 会议总览页",
+    "description": "Wiki中已有多个CVPR 2026相关条目（SAM 3D最佳论文提名、ViT³最佳论文候选、蚂蚁集团攀登者之夜、VLM³），但缺少一个统一的CVPR 2026会议总览页来汇总所有获奖论文、Oral论文、关键事件和趋势。当前信息分散在各个独立条目中，无法一览全貌。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/cvpr-2026-oral-vit³：解锁视觉中的测试时训练，速度快了、显存省了，精度也依然在线.md",
+    "affectedPages": [
+      "wiki/events/cvpr-2026最佳论文候选-vit3.md",
+      "wiki/entities/sam-3d.md",
+      "wiki/entities/vlm3.md"
+    ],
+    "searchQueries": [
+      "CVPR 2026 best paper award winners list",
+      "CVPR 2026 oral papers full list",
+      "CVPR 2026 会议 获奖论文 汇总"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-69",
+    "resolved": true,
+    "createdAt": 1781199592834,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "TTT内部模型深度优化瓶颈的后续研究追踪",
+    "description": "ViT³的Insight 5指出深层内部模型在TTT端到端训练中遭遇梯度消失/爆炸，标准残差连接和权重初始化策略缓解作用有限。这是TTT范式扩展性的关键开放问题，值得持续追踪后续是否有解决方案（如更好的初始化、归一化策略或架构改进）。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/cvpr-2026-oral-vit³：解锁视觉中的测试时训练，速度快了、显存省了，精度也依然在线.md",
+    "affectedPages": [
+      "wiki/entities/vit3-vittt.md",
+      "wiki/concepts/测试时训练-ttt.md"
+    ],
+    "searchQueries": [
+      "test-time training deep inner model optimization bottleneck",
+      "TTT layer depth gradient vanishing solution 2026",
+      "ViT³ follow-up work inner model depth"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-70",
+    "resolved": false,
+    "createdAt": 1781199592834
+  },
+  {
+    "type": "suggestion",
+    "title": "线性复杂度视觉架构技术路线对比研究",
+    "description": "Wiki中已收录多条降低Transformer计算复杂度的技术路线（TTT/ViT³、DSA稀疏注意力、RTPurboV2内生稀疏性释放、线性注意力、Mamba/VMamba），但缺少一个横向对比分析，评估各路线在视觉任务上的性能-效率权衡、适用场景和未来潜力。这对理解架构演进方向有重要价值。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/cvpr-2026-oral-vit³：解锁视觉中的测试时训练，速度快了、显存省了，精度也依然在线.md",
+    "affectedPages": [
+      "wiki/concepts/线性复杂度视觉架构.md",
+      "wiki/concepts/dsa-稀疏注意力.md",
+      "wiki/entities/rtpturbo-v2.md",
+      "wiki/entities/vit3-vittt.md"
+    ],
+    "searchQueries": [
+      "linear complexity vision transformer comparison benchmark 2026",
+      "TTT vs Mamba vs linear attention vision tasks",
+      "高效视觉Transformer架构综述 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-71",
+    "resolved": false,
+    "createdAt": 1781199592834
+  },
+  {
+    "type": "suggestion",
+    "title": "扩散文本生成与Agent场景的结合潜力研究",
+    "description": "DiffusionGemma的双向注意力和实时自我纠错能力在代码补全、复杂格式化等Agent场景中的实际效果尚未验证。这是一个关键开放问题：如果扩散文本生成能在Agent工作流中发挥结构性优势（如并行生成+全局协调），可能改变Agent架构设计。建议深入研究Mercury 2的实际投产案例和用户反馈。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mythos阴影里谷歌悄悄发模型，速度暴涨4倍.md",
+    "affectedPages": [
+      "wiki/concepts/扩散文本生成.md",
+      "wiki/entities/diffusiongemma.md",
+      "wiki/entities/mercury-2.md"
+    ],
+    "searchQueries": [
+      "Mercury 2 Inception Labs 扩散语言模型 实际应用",
+      "扩散文本生成 Agent工作流 代码补全",
+      "DiffusionGemma 双向注意力 实际评测"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-72",
+    "resolved": false,
+    "createdAt": 1781226171571
+  },
+  {
+    "type": "suggestion",
+    "title": "扩散文本生成 vs 自回归架构的质量差距深度对比",
+    "description": "DiffusionGemma在速度上领先4倍，但谷歌坦诚质量存在差距且仅推荐速度敏感场景。去噪步数与质量的权衡是扩散模型的核心矛盾。需要追踪后续基准测试数据、社区实测反馈，以及谷歌是否在后续版本中缩小质量差距，这将决定扩散文本生成能否从互补方案升级为主流替代。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mythos阴影里谷歌悄悄发模型，速度暴涨4倍.md",
+    "affectedPages": [
+      "wiki/concepts/扩散文本生成.md",
+      "wiki/entities/diffusiongemma.md",
+      "wiki/entities/gemma-4-26b-a4b.md"
+    ],
+    "searchQueries": [
+      "DiffusionGemma vs Gemma 4 质量对比 基准测试",
+      "扩散语言模型 文本质量 评测 2026",
+      "diffusion text generation quality benchmark comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-73",
+    "resolved": false,
+    "createdAt": 1781226171571
+  },
+  {
+    "type": "suggestion",
+    "title": "Mythos 5泄露事件页面缺失",
+    "description": "事件页`wiki/events/diffusiongemma发布-20260611.md`中引用了`[[mythos-5泄露事件-202606]]`作为同期对照叙事，但该事件页面尚未创建。Mythos 5作为Anthropic传闻中的10万亿参数旗舰模型，其泄露细节（52倍代码加速、高精细SVG生成）与DiffusionGemma的\"生成范式创新\"路线构成2026年6月AI领域最重要的对照叙事，值得独立记录。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mythos阴影里谷歌悄悄发模型，速度暴涨4倍.md",
+    "affectedPages": [
+      "wiki/entities/mythos-5.md",
+      "wiki/events/diffusiongemma发布-20260611.md"
+    ],
+    "searchQueries": [
+      "Anthropic Mythos 5 泄露 红队测试 2026年6月",
+      "Mythos 5 10万亿参数 52倍加速 详情",
+      "Anthropic next flagship model leak June 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-74",
+    "resolved": false,
+    "createdAt": 1781226171571
+  },
+  {
+    "type": "suggestion",
+    "title": "Gemini Diffusion 前沿研究成果",
+    "description": "DiffusionGemma 明确吸收了 Gemini Diffusion 的研究成果，但 Wiki 中尚未收录 Gemini Diffusion 这一重要研究项目。作为谷歌在文本扩散领域的前沿探索，了解其技术细节有助于理解 DiffusionGemma 的技术渊源和谷歌在非自回归生成路线上的完整布局。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌开源26b文本扩散moe，劈柴：生成速度像赛马一样快.md",
+    "affectedPages": [
+      "wiki/entities/diffusiongemma.md",
+      "wiki/entities/gemma-4.md",
+      "wiki/entities/谷歌.md"
+    ],
+    "searchQueries": [
+      "Google Gemini Diffusion text generation research",
+      "谷歌 Gemini Diffusion 文本扩散模型",
+      "Google non-autoregressive text generation 2025 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-75",
+    "resolved": false,
+    "createdAt": 1781226646549
+  },
+  {
+    "type": "suggestion",
+    "title": "文本扩散 vs 自回归模型的质量差距量化对比",
+    "description": "Wiki 中文本扩散模型页面记录了速度优势和质量劣势，但缺乏与同级别自回归模型在标准基准（如 MMLU、HumanEval、MT-Bench）上的量化对比数据。这一差距是评估文本扩散路线能否从实验性走向生产级的关键指标，值得持续追踪。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌开源26b文本扩散moe，劈柴：生成速度像赛马一样快.md",
+    "affectedPages": [
+      "wiki/concepts/文本扩散模型.md",
+      "wiki/entities/diffusiongemma.md"
+    ],
+    "searchQueries": [
+      "DiffusionGemma vs Gemma 4 benchmark comparison",
+      "text diffusion model quality benchmark 2026",
+      "DiffusionGemma MMLU HumanEval score"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-76",
+    "resolved": false,
+    "createdAt": 1781226646549
+  },
+  {
+    "type": "suggestion",
+    "title": "非自回归文本生成的行业竞争格局",
+    "description": "DiffusionGemma 是文本扩散路线的代表，但行业内其他玩家（如 Inception Labs 的 Mercury、Meta 的相关研究）也在探索非自回归生成。Wiki 缺少对这一技术路线竞争格局的全景梳理，了解各方案的差异有助于判断文本扩散是否会成为下一代模型架构的主流方向。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/谷歌开源26b文本扩散moe，劈柴：生成速度像赛马一样快.md",
+    "affectedPages": [
+      "wiki/concepts/文本扩散模型.md",
+      "wiki/entities/diffusiongemma.md"
+    ],
+    "searchQueries": [
+      "non-autoregressive text generation models 2026",
+      "Inception Labs Mercury diffusion LLM",
+      "文本扩散模型竞争格局 非自回归"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-77",
+    "resolved": false,
+    "createdAt": 1781226646549
+  },
+  {
+    "type": "contradiction",
+    "title": "Anthropic暂停研发呼吁与Fable 5发布的6天间隔矛盾",
+    "description": "Anthropic于6月4日联合呼吁全球暂停AI研发，6月10日即发布史上最强模型Fable 5，间隔仅6天。Wiki中已收录暂停提案事件（anthropic暂停研发提案-20260604）和Fable 5发布事件，但两者之间的极端叙事矛盾尚未有独立页面进行系统性分析。这一矛盾涉及AI安全叙事与商业竞争的真实关系，值得深度研究：是策略性烟雾弹、内部路线分裂，还是IPO前的\"既要又要\"？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md",
+    "affectedPages": [
+      "wiki/events/fable-5发布.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/entities/anthropic.md"
+    ],
+    "searchQueries": [
+      "Anthropic pause AI development June 2026 Fable 5 contradiction",
+      "Anthropic 呼吁暂停AI研发 发布Fable 5 矛盾",
+      "Dario Amodei safety vs commercialization tension 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-78",
+    "resolved": false,
+    "createdAt": 1781227333598
+  },
+  {
+    "type": "suggestion",
+    "title": "Fable 5持久性文件级内存的技术实现细节",
+    "description": "Fable 5声称可处理\"数百万Token而不失焦点\"并通过\"自身笔记改进输出\"，在《杀戮尖塔》测试中借助持久性文件级内存性能提升3倍。但当前Wiki仅基于单篇报道创建了概念页面，缺乏技术实现细节：这是否依赖新的记忆架构？与δ-mem参数化记忆、VAM视觉记忆系统有何本质区别？是否为Anthropic自研的Agent记忆方案？这些细节对理解大模型记忆技术的演进方向至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md",
+    "affectedPages": [
+      "wiki/concepts/持久性文件级内存.md",
+      "wiki/entities/claude-fable-5.md",
+      "wiki/concepts/参数化记忆.md"
+    ],
+    "searchQueries": [
+      "Claude Fable 5 persistent file-level memory architecture",
+      "Anthropic Fable 5 millions tokens without losing focus technical details",
+      "Claude Fable 5 Slay the Spire memory mechanism"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-79",
+    "resolved": false,
+    "createdAt": 1781227333598
+  },
+  {
+    "type": "suggestion",
+    "title": "GPT-5.6与Fable 5的双寡头正面交锋",
+    "description": "Fable 5发布报道文末暗示OpenAI GPT-5.6将于同周发布，但Wiki中尚未收录GPT-5.6的任何信息。作为AI双寡头格局中Anthropic发布最强模型后的直接竞争回应，GPT-5.6的性能对比、定价策略、市场反应将直接检验Wiki中已收录的\"AI创业收入双寡头格局\"和\"Token末日\"等概念的演进方向。这是2026年6月最关键的竞争事件之一。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md",
+    "affectedPages": [
+      "wiki/entities/claude-fable-5.md",
+      "wiki/concepts/ai创业收入双寡头格局.md",
+      "wiki/concepts/token末日.md"
+    ],
+    "searchQueries": [
+      "GPT-5.6 OpenAI release June 2026",
+      "GPT-5.6 vs Claude Fable 5 benchmark comparison",
+      "OpenAI GPT-5.6 pricing performance specs 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-80",
+    "resolved": false,
+    "createdAt": 1781227333598
+  },
+  {
+    "type": "suggestion",
+    "title": "Mythos 5科学假说的独立实验室验证详情",
+    "description": "Mythos 5提出的大肠杆菌蛋白质新机制假说被独立实验室证实，这是AI-for-Science领域的里程碑事件。但当前Wiki仅基于机器之心的一篇二手报道，缺乏关键细节：哪个独立实验室？具体是什么蛋白质机制假说？是否已发表预印本或论文？这一验证的具体科学意义是什么？深度追踪这一事件将显著提升Wiki在AI-for-Science方向的内容质量。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md",
+    "affectedPages": [
+      "wiki/concepts/科学假说生成.md",
+      "wiki/entities/mythos-5.md",
+      "wiki/concepts/ai-for-science.md"
+    ],
+    "searchQueries": [
+      "Mythos 5 E. coli protein hypothesis independent lab verification",
+      "Anthropic Mythos 5 molecular biology hypothesis confirmed",
+      "Claude Mythos 5 scientific discovery paper 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-81",
+    "resolved": false,
+    "createdAt": 1781227333598
+  },
+  {
+    "type": "suggestion",
+    "title": "中国C端AI Agent竞争格局对比研究",
+    "description": "千问（AI办事）、腾讯元宝/WorkBuddy、字节豆包三家在C端Agent赛道的战略定位、技术路径和产品能力缺乏横向对比页面。千问强调\"AI办事\"和All in One，WorkBuddy走企业统一入口路线，豆包在高考数学评测中表现突出但Agent能力边界未明。创建一个对比研究页面将帮助理解中国AI Agent市场的分化格局。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/高考志愿agent发布后，对话千问总裁吴嘉：如何「抹平」信息差，走进「真实人生决策」？.md",
+    "affectedPages": [
+      "wiki/entities/千问.md",
+      "wiki/entities/豆包.md",
+      "wiki/entities/workbuddy.md",
+      "wiki/concepts/ai办事.md",
+      "wiki/concepts/两条agent落地路径.md"
+    ],
+    "searchQueries": [
+      "千问vs豆包vs元宝 AI Agent对比 2026",
+      "中国C端AI助手Agent能力评测",
+      "阿里千问腾讯元宝字节豆包竞争分析"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-82",
+    "resolved": false,
+    "createdAt": 1781227784272
+  },
+  {
+    "type": "suggestion",
+    "title": "高考志愿Agent实际准确率与用户反馈追踪",
+    "description": "千问高考志愿Agent已上线并免费开放，但Wiki中明确标注\"缺乏独立第三方评测数据验证实际准确率\"。高考志愿填报容错率极低，幻觉不可完全消除，这一Agent的实际表现是验证\"Agent幻觉治理路径\"可行性的关键案例。建议在高考季结束后追踪用户反馈和第三方评测数据。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/高考志愿agent发布后，对话千问总裁吴嘉：如何「抹平」信息差，走进「真实人生决策」？.md",
+    "affectedPages": [
+      "wiki/entities/高考志愿填报agent.md",
+      "wiki/concepts/agent幻觉治理路径.md",
+      "wiki/concepts/上下文对齐.md"
+    ],
+    "searchQueries": [
+      "千问高考志愿Agent准确率评测 2026",
+      "AI高考志愿填报用户反馈投诉",
+      "千问志愿Agent第三方测评结果"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-83",
+    "resolved": false,
+    "createdAt": 1781227784272
+  },
+  {
+    "type": "suggestion",
+    "title": "Agent在严肃决策场景的落地范式",
+    "description": "千问高考志愿Agent、微信AI小程序Agent、WorkBuddy企业Agent分别代表了Agent在人生决策、日常服务和企业办公三类严肃场景的落地。但Wiki中缺少一个统一的框架页面来分析\"严肃场景Agent\"的共同设计原则（幻觉治理、边界感知、数据溯源、主动追问）和差异化挑战。这将帮助提炼Agent从Demo走向真实世界任务的通用方法论。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/高考志愿agent发布后，对话千问总裁吴嘉：如何「抹平」信息差，走进「真实人生决策」？.md",
+    "affectedPages": [
+      "wiki/concepts/agent幻觉治理路径.md",
+      "wiki/concepts/上下文对齐.md",
+      "wiki/concepts/任务执行范式.md",
+      "wiki/concepts/ai执行层瓶颈.md"
+    ],
+    "searchQueries": [
+      "AI Agent严肃场景落地方法论 2026",
+      "高风险场景Agent设计原则 幻觉治理",
+      "Agent真实世界任务执行框架"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-84",
+    "resolved": false,
+    "createdAt": 1781227784272
+  },
+  {
+    "type": "suggestion",
+    "title": "2026年AI IPO窗口期对比分析",
+    "description": "Wiki已收录SpaceX（6月）、OpenAI（9月）、Anthropic（10月）三家IPO事件，但缺乏跨公司对比分析页。关键对比维度包括：估值逻辑差异（SpaceX 95倍市销率 vs OpenAI 40倍 vs Anthropic的未公开数据）、散户认购热度、基本面与估值背离程度、投票权结构。这将帮助理解AI资本市场的整体估值锚定逻辑。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/spacex一上市，连食堂阿姨都要成百万富翁了。。。.md",
+    "affectedPages": [
+      "wiki/events/spacex-ipo-2026.md",
+      "wiki/entities/spacex.md",
+      "wiki/entities/openai.md",
+      "wiki/entities/anthropic.md",
+      "wiki/concepts/估值与基本面背离.md"
+    ],
+    "searchQueries": [
+      "2026 AI IPO窗口期 SpaceX OpenAI Anthropic 估值对比",
+      "AI公司IPO估值逻辑 市销率对比 2026",
+      "OpenAI Anthropic IPO S-1 估值收入数据 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-85",
+    "resolved": false,
+    "createdAt": 1781228518933
+  },
+  {
+    "type": "suggestion",
+    "title": "SpaceX 2025年近50亿美元净亏损构成分析",
+    "description": "Wiki记录了SpaceX 2025年收入186.7亿美元、净亏损近50亿美元，但亏损的具体构成（研发投入 vs 运营亏损 vs 资本支出）尚不清晰。这对判断SpaceX估值合理性至关重要——如果亏损主要来自研发投入和基础设施扩张，则与\"未来基础设施公司\"定位一致；如果来自运营效率低下，则Morningstar的63美元公允估值更有说服力。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/spacex一上市，连食堂阿姨都要成百万富翁了。。。.md",
+    "affectedPages": [
+      "wiki/entities/spacex.md",
+      "wiki/events/spacex-ipo-2026.md",
+      "wiki/concepts/估值与基本面背离.md"
+    ],
+    "searchQueries": [
+      "SpaceX 2025 financial statements loss breakdown",
+      "SpaceX IPO prospectus revenue cost structure 2026",
+      "SpaceX 净亏损构成 研发投入 运营成本 2025"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-86",
+    "resolved": false,
+    "createdAt": 1781228518933
+  },
+  {
+    "type": "suggestion",
+    "title": "X并入SpaceX的财务整合细节",
+    "description": "Wiki已记录X（原推特）被并入SpaceX且广告收入下滑65%，但并入的交易结构、估值方法、对SpaceX财务报表的影响均不清晰。这是评估马斯克\"过度承诺\"历史和SpaceX估值可信度的关键信息缺口。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/spacex一上市，连食堂阿姨都要成百万富翁了。。。.md",
+    "affectedPages": [
+      "wiki/entities/x-推特.md",
+      "wiki/entities/spacex.md",
+      "wiki/events/spacex-ipo-2026.md"
+    ],
+    "searchQueries": [
+      "X Twitter merged into SpaceX deal structure 2026",
+      "SpaceX X Twitter acquisition financial integration details",
+      "X并入SpaceX 交易结构 财务影响 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-87",
+    "resolved": false,
+    "createdAt": 1781228518933
+  },
+  {
+    "type": "suggestion",
+    "title": "AI时代科技IPO散户化趋势与治理风险",
+    "description": "SpaceX IPO中散户订单超700亿美元、30%散户配售与马斯克82%投票权形成鲜明对比。这一\"散户友好+创始人绝对控制\"模式是否正在成为AI时代科技IPO的模板？OpenAI和Anthropic的IPO是否也会采用类似结构？值得作为独立研究主题追踪。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/spacex一上市，连食堂阿姨都要成百万富翁了。。。.md",
+    "affectedPages": [
+      "wiki/concepts/散户超额认购.md",
+      "wiki/events/spacex-ipo-2026.md",
+      "wiki/entities/spacex.md"
+    ],
+    "searchQueries": [
+      "AI IPO dual class share structure founder control 2026",
+      "科技IPO散户配售 创始人投票权 双重股权结构",
+      "tech IPO retail investor allocation governance risk dual class 2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-88",
+    "resolved": false,
+    "createdAt": 1781228518933
+  },
+  {
+    "type": "suggestion",
+    "title": "SAM在医学影像垂直领域的应用全景",
+    "description": "Wiki中已有SAM-3D（3D重建）、CFR-SAM（病理分割）和VLM³（三维视觉）等SAM衍生工作，但缺乏对SAM基础模型本身及其在医学影像领域迁移路线的系统性梳理。建议创建SAM基础模型页面，汇总其架构设计、能力边界及各垂直领域的PEFT迁移案例，为理解\"冻结主干+针对性适配器\"这一范式的普适性提供参照。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mia-2026-福州大学提出cfr-sam：医学影像分割领域的参数高效微调新方案.md",
+    "affectedPages": [
+      "wiki/entities/cfr-sam.md",
+      "wiki/entities/sam-3d.md",
+      "wiki/entities/meta.md",
+      "wiki/concepts/参数高效微调.md"
+    ],
+    "searchQueries": [
+      "SAM Segment Anything Model 医学影像应用综述",
+      "SAM foundation model medical image segmentation PEFT",
+      "SAM微调方法对比 LoRA Adapter 医学"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-89",
+    "resolved": false,
+    "createdAt": 1781228965692
+  },
+  {
+    "type": "suggestion",
+    "title": "PEFT范式在视觉大模型与语言大模型上的差异对比",
+    "description": "Wiki中PEFT相关内容分散在多个页面（参数高效微调、mixture-of-lora、delta-mem、peft规模定律），但缺乏对PEFT在视觉模型（如CFR-SAM的MALA/HMFM/BGMR）与语言模型（如LoRA、Adapter）上本质差异的系统性分析。视觉PEFT需要补偿空间感知、边界精度等视觉特有短板，而语言PEFT侧重知识注入和风格对齐，这一对比对理解PEFT范式的通用性至关重要。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mia-2026-福州大学提出cfr-sam：医学影像分割领域的参数高效微调新方案.md",
+    "affectedPages": [
+      "wiki/concepts/参数高效微调.md",
+      "wiki/concepts/mixture-of-lora.md",
+      "wiki/concepts/参数化记忆.md",
+      "wiki/entities/cfr-sam.md"
+    ],
+    "searchQueries": [
+      "PEFT视觉模型vs语言模型差异",
+      "parameter efficient fine-tuning vision language model comparison",
+      "视觉大模型适配器设计 空间感知 边界精度"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-90",
+    "resolved": false,
+    "createdAt": 1781228965692
+  },
+  {
+    "type": "suggestion",
+    "title": "大模型垂直领域迁移的\"冻结主干+补偿短板\"范式是否具有普遍性",
+    "description": "CFR-SAM验证了冻结SAM主干+针对性适配器在病理分割上的有效性，但Wiki中缺乏跨领域验证：这一范式在医疗视频理解（uAI-NEXUS-MedVLM）、3D重建（SAM 3D）、具身智能（VITRA）等其他垂直场景中是否同样成立？建议深入研究各场景的适配器设计差异和共性规律，提炼可迁移的方法论。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/rss/mia-2026-福州大学提出cfr-sam：医学影像分割领域的参数高效微调新方案.md",
+    "affectedPages": [
+      "wiki/entities/cfr-sam.md",
+      "wiki/entities/uAI-NEXUS-MedVLM.md",
+      "wiki/entities/sam-3d.md",
+      "wiki/entities/vitra.md",
+      "wiki/concepts/参数高效微调.md"
+    ],
+    "searchQueries": [
+      "大模型垂直领域迁移 冻结主干 适配器 普遍性",
+      "foundation model domain adaptation PEFT generalization",
+      "视觉大模型医疗 具身智能 3D 微调策略对比"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-91",
+    "resolved": false,
+    "createdAt": 1781228965692
+  }
+]

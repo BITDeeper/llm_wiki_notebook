@@ -1,16 +1,20 @@
 ---
 type: entity
 title: Google Meet
-tags: [google, video-conferencing, collaboration, api]
-related: [openclaw, gemini-live, 实时语音循环]
+tags: [google, video-conferencing, collaboration, api, 视频会议, 谷歌产品, 企业协作]
+related: [openclaw, gemini-live, 实时语音循环, 谷歌, gemini-3-5-live-translate]
 created: 2026-04-26
-updated: 2026-04-26
-sources: ["今天起，deepseek-v4成openclaw默认模型！.md"]
+updated: 2026-06-11
+sources: ["今天起，deepseek-v4成openclaw默认模型！.md", "rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md"]
 ---
 
 # Google Meet
 
 Google Meet 是 Google 开发的视频会议服务。在 [[OpenClaw]] v2026.4.24 版本更新中，它被作为一个重要的集成点引入，标志着 OpenClaw 从聊天工具向企业级工作流系统的演进。
+
+## 实时翻译能力
+
+2026年6月起，Google Meet 接入 [[gemini-3-5-live-translate|Gemini 3.5 Live Translate]] 私测，语音翻译从5种语言扩展至70+，单场会议可支持2000+语言组合。此前仅支持英语与其他语言之间的翻译。
 
 ## 在 OpenClaw 中的集成
 

@@ -1,16 +1,16 @@
 ---
 type: entity
 title: GPT-5.4
-tags: ["openai", "model", "agent", "llm", "product", "模型", "传闻", "状态化-ai", "长上下文", "ai-model", "code-generation", "benchmark", "大语言模型", "评测", "VLM", "安全", "ai安全"]
-related: ["openai", "ai超级应用", "智能体工作流", "openclaw", "codex", "claude-code", "状态化-ai", "200万上下文窗口", "全分辨率视觉直读", "gemini", "programbench", "claude-opus-4-7", "gemini-3-1-pro", "gpt-5-4-mini", "gpt-5-4-nano", "kimi-2-5", "子代理", "ai-subscription-crisis", "gemini-flash-3-1", "claude-opus-4-6", "glm-5", "claw-eval-live", "gpt-5-5", "frontier-eng-bench", "ai-权威清洗", "对抗样本", "gpt-5.5", "harnessaudit", "能力-安全权衡"]
+tags: ["openai", "model", "agent", "llm", "product", "模型", "传闻", "状态化-ai", "长上下文", "ai-model", "code-generation", "benchmark", "大语言模型", "评测", "VLM", "安全", "ai安全", "基线模型"]
+related: ["openai", "ai超级应用", "智能体工作流", "openclaw", "codex", "claude-code", "状态化-ai", "200万上下文窗口", "全分辨率视觉直读", "gemini", "programbench", "claude-opus-4-7", "gemini-3-1-pro", "gpt-5-4-mini", "gpt-5-4-nano", "kimi-2-5", "子代理", "ai-subscription-crisis", "gemini-flash-3-1", "claude-opus-4-6", "glm-5", "claw-eval-live", "gpt-5-5", "frontier-eng-bench", "ai-权威清洗", "对抗样本", "gpt-5.5", "harnessaudit", "能力-安全权衡", "noam-brown"]
 created: 2026-04-01
-updated: 2026-06-05
-sources: ["史上最怪兽级融资：openai一锤砸出8520亿帝国，顶2个阿里！向散户敞开大门.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "anthropic逼急奥特曼：自砍副业，死磕claude主场.md", "gpt-5.4据传下周上线！200万上下文窗口+持久化状态，告别频繁遗忘.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "龙虾史上最大升级！但接了微信的千万别更.md", "openai新模型day0就被嫌弃！排名拉垮，不如一月底发布的国产模型.md", "龙虾最大痛点被官方插件升级！对话永不忘记，gpt和gemini最强模型都可接入.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "auto-research最后一块拼图，frontier-eng-bench登场，在工程闭环里死磕最优.md", "anthropic逼急奥特曼：死磕claude主场.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md", "过程比结果更危险：从模型到harness，ai-agent的下半场该如何评测安全？.md"]
+updated: 2026-06-09
+sources: ["史上最怪兽级融资：openai一锤砸出8520亿帝国，顶2个阿里！向散户敞开大门.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "anthropic逼急奥特曼：自砍副业，死磕claude主场.md", "gpt-5.4据传下周上线！200万上下文窗口+持久化状态，告别频繁遗忘.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "龙虾史上最大升级！但接了微信的千万别更.md", "openai新模型day0就被嫌弃！排名拉垮，不如一月底发布的国产模型.md", "龙虾最大痛点被官方插件升级！对话永不忘记，gpt和gemini最强模型都可接入.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "auto-research最后一块拼图，frontier-eng-bench登场，在工程闭环里死磕最优.md", "anthropic逼急奥特曼：死磕claude主场.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md", "过程比结果更危险：从模型到harness，ai-agent的下半场该如何评测安全？.md", "rss/openai科学家noam-brown：ai的真正上限，可能根本没人测得起.md"]
 ---
 
 # GPT-5.4
 
-**GPT-5.4**（亦称 **ChatGPT 5.4 Thinking**）是 [[OpenAI]] 在 2026 年发布的前沿大语言模型系列，包含 `mini` 和 `nano` 等不同规格的版本。该模型被官方定义为"Agent 的母体"及"最适合专业工作"的模型，旨在作为驱动智能体工作流和生产力工具的核心引擎。
+**GPT-5.4**（亦称 **ChatGPT 5.4 Thinking**）是 [[OpenAI]] 在 2026 年发布的前沿大语言模型系列，包含 `mini` 和 `nano` 等不同规格的版本。该模型被官方定义为"Agent 的母体"及"最适合专业工作"的模型，旨在作为驱动智能体工作流和生产力工具的核心引擎。作为 [[GPT-5.5]] 的前代版本，GPT-5.4 在后续讨论中常被用作对比基线。
 
 > **💡 发布背景**：在正式发布前，GPT-5.4 曾因代码泄露（GitHub 误提交 `gpt-5.4` 标识）和 `alpha-gpt-5.4` 端点截图流出而引发网络热议，传闻其具备 200 万上下文窗口和状态化能力。
 
@@ -82,7 +82,9 @@ GPT-5.4 系列包含针对不同应用场景优化的多个版本，主打快速
 
 ## 与 GPT-5.5 的关系
 
-维基已收录 [[GPT-5.5]]（2026 年 4 月发布，主打独立完成复杂任务）。GPT-5.4 可能是侧重推理/工程的版本，或为 5.5 的前代版本。两者在定位上的具体差异尚需进一步确认。
+维基已收录 [[GPT-5.5]]（2026 年 4 月发布，主打独立完成复杂任务）。GPT-5.4 是 GPT-5.5 的前代版本，可能侧重推理/工程方向。
+
+在 [[Noam Brown]] 的讨论中，GPT-5.4 作为对比基线出现：GPT-5.5 发布初期与 GPT-5.4 的榜单分数差距有限，但在相同 [[推理预算]] 下对比时，GPT-5.5 的能力提升更加明显，体现了更强模型更擅长利用额外计算资源的"富者愈富"效应。
 
 ## 应用与生态
 
@@ -133,3 +135,5 @@ GPT-5.4 的发布伴随着 OpenAI 巨额算力投入（1220 亿美元融资）�
 - [[对抗样本]]：针对视觉语言模型的对抗攻击方法。
 - [[harnessaudit]]：Agent 安全评测框架。
 - [[能力-安全权衡]]：模型能力提升与安全性的权衡关系。
+- [[Noam Brown]]：OpenAI 科学家，在讨论中将 GPT-5.4 作为对比基线。
+- [[推理预算]]：衡量模型在给定计算资源下表现的维度。

@@ -1,0 +1,53 @@
+---
+type: entity
+title: Perplexity
+tags: ["组织", "ai-search", "rag", "被告", "perplexity", "搜索引擎", "ai", "agent", "browser", "privacy", "ai-company", "search-engine", "ai-agent", "llm", "comparison", "ai搜索", "独角兽"]
+related: ["大英百科全书", "openai", "rag-实时检索", "perplexity-computer", "aravind-srinivas", "alex-graveley", "多模型编排", "chatgpt", "谷歌", "ai-mode", "胖鹅ai", "ai-search", "ai-产业链三层分类"]
+created: 2026-03-22
+updated: 2026-06-08
+sources: ["openai又摊上事了！大英百科状告chatgpt：查资料也算侵权.md", "别了，openclaw！19个顶尖ai夜袭硅谷，3万刀金融终端变「废铁」.md", "暴涨3倍！18-34岁占比反降15%：这届中年人开始占领ai.md", "21万年费彭博终端机被ai复刻！perplexity俩月憋出新“pc”：整合所有ai功能，以opus为核心调度19个模型.md", "不用学ai了！圈内公开的秘密：顶级玩家已开始让ai用ai.md", "rss/100亿只是起步价？21家全球ai独角兽名单刷屏.md"]
+---
+
+# Perplexity
+
+[[Perplexity]] 是一家以 [[RAG-实时检索]]（Retrieval-Augmented Generation）为核心产品逻辑的 AI 搜索引擎公司，由 [[Aravind Srinivas]] 创立。它通过扫描外部数据库获取最新信息，并结合生成式 AI 为用户提供直接的答案，定位为"会聊天的搜索引擎"，致力于通过引用来源提高信息的可信度。
+
+在 [[deedy-das|Deedy Das]] 盘点的 21 家 AI 独角兽名单中，Perplexity 属于 [[ai-产业链三层分类|卖场景]]（应用层）类别。评论区有观点认为 Perplexity 是少数真正有客户付费的 AI 公司之一。
+
+## 概述与愿景
+
+Perplexity 致力于通过对话式搜索理解用户意图，强调隐私保护和精准的信息获取。目前，公司正从传统的搜索引擎向个人操作系统转型。其创始人 [[Aravind Srinivas]] 提出了 [[ai-即电脑]] 的理念，认为未来的计算应由 AI 组成的「交响乐团」来驱动。
+
+在 2026 年的"龙虾大战"（AI Agent 操作系统竞争）中，Perplexity 宣布入局，推出了基于浏览器的全能型通用数字员工系统——[[Perplexity Computer]]。这标志着公司从单纯的"搜索"工具向能够执行复杂任务的"智能体"平台转型。
+
+## 核心产品
+
+- **Perplexity AI Search**：其核心的 AI 搜索引擎产品。
+- **[[Perplexity Computer]]**：2026 年发布的「全能 Agent」个人计算系统。该产品秘密研发两个月，旨在整合所有 AI 功能，以 [[Claude Opus 4.6]] 为核心调度 19 个顶尖 AI 模型，实现端到端任务自动化和跨平台的任务执行能力。
+- **Comet 浏览器**：推出的 AI 浏览器，旨在重塑用户接入互联网的方式，允许用户在浏览网页时直接向 AI 提问或请求总结。
+
+## 核心团队
+
+- **[[Aravind Srinivas]]**：CEO，提出了「AI 即计算机」的愿景，强调多模型协作的重要性。
+- **[[Alex Graveley]]**：技术灵魂人物，GitHub Copilot 前总架构师，负责构建 Perplexity Computer 的底层架构。
+
+## 商业模式
+
+Perplexity 采用分级订阅制，包括 Pro 和 Max 等级别。其中，[[Perplexity Computer]] 作为高级功能，目前仅对年费 2000 美元的 Max 订阅用户开放。
+
+## 战略方向
+
+Perplexity 正在通过 [[多模型编排]] 技术打破单一模型的生产力瓶颈。公司认为，随着 2025 年平均每 17 天就有一个新模型面世，计算的护城河已从底层代码转向对异构模型的调度能力。
+
+在 [[双入口格局]] 中，Perplexity 代表了试图融合搜索与 AI 体验的第三条道路。它既是 [[谷歌]] 传统搜索模式的挑战者，也是 [[ChatGPT]] 等 AI 平台的竞争对手，特别是在需要高精度引用和溯源的知识获取场景中。
+
+## 垂直领域对比
+
+在 [[不用学ai了！圈内公开的秘密：顶级玩家已开始让ai用ai.md]] 的报道中，[[Perplexity]] 被用作对比参照。在"生成 Logo 宣传视频"的测试任务中，其生成的效果在运镜、转场和逻辑连贯性上被认为不如 [[胖鹅AI]]。这反映了通用 AI 工具在特定垂直任务（尤其是复杂视频生成）上，可能不如经过 SOP 深度优化的专用工具。
+
+## 法律挑战
+
+Perplexity 是 [[大英百科全书]] 法律攻势的首个主要目标。
+
+- **2025年9月**：大英百科对 Perplexity 提起了版权和商标侵权诉讼，指控其未经授权使用内容。
+- **战略意义**：大英百科选择先起诉 Perplexity，被视为对 [[OpenAI]] 等更大巨头的「法律预演」。通过在 Perplexity 案中摸清 RAG 侵权指控的可行性与法律逻辑，大英百科随后将类似的诉讼策略复制到了 OpenAI 身上。

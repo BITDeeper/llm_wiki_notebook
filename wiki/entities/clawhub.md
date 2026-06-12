@@ -1,16 +1,16 @@
 ---
 type: entity
 title: ClawHub
-tags: ["marketplace", "ecosystem", "plugin-marketplace", "distribution", "openclaw", "platform", "agent", "tools", "repository", "plugin", "平台", "技能市场", "plugin-market", "数据源", "工作流", "开源社区", "技能库"]
-related: ["openclaw", "插件系统重构", "miaoda-app-builder", "水产市场", "agent-时代", "baidu-qianfan", "agent-技能", "clawbot", "tavily", "n8n", "obsidian", "ai-agent-技能生态", "claw-eval-live", "活的-benchmark", "技能工坊"]
+tags: ["marketplace", "ecosystem", "plugin-marketplace", "distribution", "openclaw", "platform", "agent", "tools", "repository", "plugin", "平台", "技能市场", "plugin-market", "数据源", "工作流", "开源社区", "技能库", "openclaw生态", "供应链安全"]
+related: ["openclaw", "插件系统重构", "miaoda-app-builder", "水产市场", "agent-时代", "baidu-qianfan", "agent-技能", "clawbot", "tavily", "n8n", "obsidian", "ai-agent-技能生态", "claw-eval-live", "活的-benchmark", "技能工坊", "clawhavoc行动", "智能体操作系统"]
 created: 2026-04-01
-updated: 2026-06-04
-sources: ["104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "第一批靠龙虾赚钱的人出现！全球首个「应用开发skill」，一句话上线应用.md", "openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "硅谷最火openclaw人手一个，1分钱傻瓜式部署！小白也能上手.md", "anthropic封杀48小时，逼出openclaw最强反击！龙虾首次会生视频了.md", "龙虾史上最大升级！但接了微信的千万别更.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "openclaw终于拿下windows！全球龙虾党狂欢.md"]
+updated: 2026-06-11
+sources: ["104人重写底层，openclaw装上「任务大脑」，连qq机器人都能管.md", "刚刚，openclaw最猛升级！底层架构大换血，全网等了9天.md", "第一批靠龙虾赚钱的人出现！全球首个「应用开发skill」，一句话上线应用.md", "openclaw杀出中国黑马，全球开发者狂呼真香！一场深夜ama撕开底牌.md", "硅谷最火openclaw人手一个，1分钱傻瓜式部署！小白也能上手.md", "anthropic封杀48小时，逼出openclaw最强反击！龙虾首次会生视频了.md", "龙虾史上最大升级！但接了微信的千万别更.md", "龙虾部署不求人，还附5个openclaw必备技能.md", "agent评测的下半场：为什么需要一个「活的」benchmark？.md", "openclaw终于拿下windows！全球龙虾党狂欢.md", "rss/ai智能体走出实验室！中科院等机构联合发布首个openclaw系统性综述.md"]
 ---
 
 # ClawHub
 
-[[ClawHub]] 是 [[OpenClaw]] 的官方插件分发市场和技能生态中心，承载开源社区贡献的技能（Skills）模块。作为 OpenClaw 3.22 版本（2026.3.22-beta.1）确立的首选插件安装渠道，它取代了 npm 成为默认源，标志着项目从依赖第三方基础设施向构建自有规范化平台的重要转型。它类似于应用商店，允许用户搜索、安装和管理各类扩展 [[OpenClaw]] 功能的插件，不仅是插件的仓库，更是 OpenClaw 从"对话框"进化为"自动执行中枢"的关键基础设施。
+[[ClawHub]] 是 [[OpenClaw]] 的官方插件分发市场和技能生态中心，类比操作系统中的应用商店。社区开发者可在 ClawHub 上发布和共享技能模块，供 OpenClaw 智能体调用。作为 OpenClaw 3.22 版本（2026.3.22-beta.1）确立的首选插件安装渠道，它取代了 npm 成为默认源，标志着项目从依赖第三方基础设施向构建自有规范化平台的重要转型。它允许用户搜索、安装和管理各类扩展 [[OpenClaw]] 功能的插件，不仅是插件的仓库，更是 OpenClaw 从"对话框"进化为"自动执行中枢"的关键基础设施。
 
 此外，ClawHub 还作为 [[claw-eval-live]] 的「信号层」数据源，提供 Top-500 热门技能列表，用于判断企业关注的工作流趋势。
 
@@ -59,7 +59,16 @@ ClawHub 展现了强劲的增长势头，被视为全球开发者的"进货天�
 | **生态创业公司** | **172 家** | — | 基于 OpenClaw 构建产品 |
 | **月生态收入** | **36.1 万美元** | — | 形成平台经济效应 |
 
-> **注**：截至 2026 年 6 月，ClawHub 已积累超过 1.3 万个社区技能（开源贡献部分）。技能是 OpenClaw 的核心能力来源——封装好的任务模块。
+> **注**：截至 2026 年 6 月，ClawHub 已积累超过 1.3 万个社区技能（开源贡献部分）。技能是 OpenClaw 的核心能力来源——封装好的任务模块。另有数据显示当前收录 **5,700+** 社区贡献技能模块，覆盖文件系统、网络栈、ROS 话题、串口等多种后端，通过 [[模型上下文协议-mcp]] 实现技能与不同后端的无缝对接。
+
+## 安全问题与供应链风险
+
+尽管 ClawHub 建立了安全审查机制，大规模分析仍显示社区技能存在系统性安全风险：
+
+- **26.1%** 的社区技能（42,447 个样本中）存在至少一个安全漏洞。
+- [[clawhavoc行动]]中，恶意行为者成功向 ClawHub 注入 **1,200+** 恶意技能，用于在开发者工作站上窃取凭证。
+
+这些数据揭示了 AI 智能体生态中供应链攻击的严峻现实，是 [[权威-赋能不对称]] 问题的具体体现。
 
 ## 技能分类与内容
 

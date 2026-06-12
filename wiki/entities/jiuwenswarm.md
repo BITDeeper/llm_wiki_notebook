@@ -2,16 +2,26 @@
 type: entity
 title: JiuwenSwarm
 created: 2026-05-18
-updated: 2026-05-18
-tags: [agent, 多智能体, 蜂群, 开源框架, 华为]
-related: [openjiuwen, coordination-engineering, swarm-skills, hots-hits, pinchbench, openclaw]
-sources: ["「虾马」之后，openjiuwen社区发布jiuwenswarm，引领蜂群智能体新架构，开启「养蜂」时代.md"]
+updated: 2026-06-08
+tags: ["agent", "多智能体", "蜂群", "开源框架", "华为", "研究体系"]
+related: ["openjiuwen", "coordination-engineering", "swarm-skills", "hots-hits", "pinchbench", "openclaw", "mango-多智能体流网络优化", "华为泊松实验室", "agentos"]
+sources: ["「虾马」之后，openjiuwen社区发布jiuwenswarm，引领蜂群智能体新架构，开启「养蜂」时代.md", "rss/解锁agent-swarm新潜力，openjiuwen又一力作：多智能体流网络.md"]
 origin_date: 2026-05-18
 ---
 
 # JiuwenSwarm
 
-JiuwenSwarm 是 [[openjiuwen]] 社区发布并开源的蜂群智能体框架，是 [[coordination-engineering]]（协同工程）范式的首个完整开源工程交付。
+JiuwenSwarm 是华为的多智能体研究体系，涵盖多智能体协作的框架设计、优化方法与工程落地。[[openjiuwen]] 社区发布并开源的蜂群智能体框架是其在工程侧的核心交付，也是 [[coordination-engineering]]（协同工程）范式的首个完整开源工程实现。[[mango-多智能体流网络优化|MANGO]] 框架的设计同样归属于该研究范畴。
+
+## 技术生态
+
+- **研究团队**：[[openjiuwen]] 负责 JiuwenSwarm 框架及 MANGO 等具体框架的研发
+- **执行底座**：[[agentos|AgentOS]] 提供统一的执行与调度能力
+- **研究机构**：[[华为泊松实验室]] 和 [[维纳研究所]] 参与核心研究
+
+## 研究方向
+
+JiuwenSwarm 关注多智能体协作中的核心挑战，包括错误传播、工作流优化、路径选择和计算效率。其技术路线强调数据驱动的端到端优化，区别于依赖人工配置或启发式搜索的传统方法。
 
 ## 核心架构
 

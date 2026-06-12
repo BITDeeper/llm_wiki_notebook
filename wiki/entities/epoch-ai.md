@@ -1,16 +1,23 @@
 ---
 type: entity
 title: Epoch AI
-tags: ["research-institute", "ai-trends", "data-analysis", "research-organization", "benchmarking", "metrics", "研究机构", "数据", "算力", "data-forecasting", "benchmark", "ai-safety", "forecasting", "ai-metrics", "research", "analytics", "ai-industry", "epoch-ai", "ai经济学", "数据分析"]
-related: ["ipsos", "institutional-endorsement", "workplace-ai-penetration", "claude-mythos", "ramez-naam", "epoch-能力指数", "谷歌", "openai", "anthropic", "ai算力军备竞赛", "数据成瘾", "scaling-law", "frontiermath", "deepseek-v4", "thinking-tokens", "eci-zong-he-neng-li-zhi-shu", "frontier-math", "zhong-mei-ai-chai-ju", "英伟达", "人均营收", "超级巨星效应", "ai-takeoff"]
+tags: ["research-institute", "ai-trends", "data-analysis", "research-organization", "benchmarking", "metrics", "研究机构", "数据", "算力", "data-forecasting", "benchmark", "ai-safety", "forecasting", "ai-metrics", "research", "analytics", "ai-industry", "epoch-ai", "ai经济学", "数据分析", "组织", "ai预测", "经济分析"]
+related: ["ipsos", "institutional-endorsement", "workplace-ai-penetration", "claude-mythos", "ramez-naam", "epoch-能力指数", "谷歌", "openai", "anthropic", "ai算力军备竞赛", "数据成瘾", "scaling-law", "frontiermath", "deepseek-v4", "thinking-tokens", "eci-zong-he-neng-li-zhi-shu", "frontier-math", "zhong-mei-ai-chai-ju", "英伟达", "人均营收", "超级巨星效应", "ai-takeoff", "phil-trammell", "agi经济学"]
 created: 2026-04-07
-updated: 2026-05-28
-sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anthropic版「狼来了」引华尔街恐慌！27年漏洞，mythos被8个ai秒杀.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "karpathy紧急叫停！别再喂数据了，曝agi方向全错.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，全场惊呼新王归来.md", "node.js之父官宣：人类手写代码时代真的结束了！.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，疑似明天发布，全场惊呼新王归来.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "claude狂印钞！anthropic人均营收900万美元，吊打英伟达.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
+updated: 2026-06-08
+sources: ["epoch-ai万人调研：老板不订阅，ai就是摆设！.md", "anthropic版「狼来了」引华尔街恐慌！27年漏洞，mythos被8个ai秒杀.md", "刚刚，anthropic首超openai！暴买谷歌tpu，claude杀疯了.md", "karpathy紧急叫停！别再喂数据了，曝agi方向全错.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，全场惊呼新王归来.md", "node.js之父官宣：人类手写代码时代真的结束了！.md", "刚刚，deepseek-v4基准测试泄露！疑似明天发布，疑似明天发布，全场惊呼新王归来.md", "美国ai一骑绝尘，中国平均落后7个月！epoch-ai新报告出炉.md", "claude狂印钞！anthropic人均营收900万美元，吊打英伟达.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md", "rss/谷歌agi经济学总监最新访谈：agi-2030降临，人类还能做些什么？.md"]
 ---
 
 # Epoch AI
 
 [[Epoch AI]] 是一家全球权威的独立 AI 研究机构，专注于 AI 发展趋势预测、基准测试、AI 安全、算力经济学及影响力分析。该机构为包括 [[OpenAI]]、[[Google DeepMind]] 和美国国会在内的顶级机构提供数据咨询服务，其研究涵盖数据可用性、算力分布分析、前沿模型推理能力评估、AI 公司运营效率分析以及 AI 人才市场量化研究。
+
+## 定位与团队
+
+Epoch AI 专注于 AI 发展时间线预测与经济影响分析，为 [[agi经济学|AGI 经济学]] 讨论提供数据支撑和理论框架，在这一新兴交叉领域中扮演重要角色。[[phil-trammell|Phil Trammell]] 担任其经济学主管。
+
+- 与 [[google-deepmind]] 的 AGI 经济学部门形成互补视角
+- 其研究涉及 [[scaling-law|Scaling Law]] 和 [[ai-takeoff|AI Takeoff]] 等核心议题
 
 ## 核心指标与评估体系
 

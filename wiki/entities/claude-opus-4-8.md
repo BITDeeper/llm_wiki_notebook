@@ -2,15 +2,20 @@
 type: entity
 title: Claude Opus 4.8
 created: 2026-05-29
-updated: 2026-06-02
-tags: ["模型", "anthropic", "claude", "编程", "agent", "大模型", "ai编程", "旗舰模型", "大语言模型"]
-related: ["anthropic", "claude-code", "claude-mythos", "gpt-5-5", "dynamic-workflows", "effort-control", "ultracode", "动态工作流", "评分者推测倾向", "高阶幻觉", "scaling-law", "ai-subscription-crisis", "认知投降", "gpt-5.5", "mythos", "tokenmaxxing", "投入度控制", "诚实性训练", "claude-opus-4-7", "ai计划性淘汰", "ai数据反向污染", "claude-opus-4-5"]
-sources: ["刚刚，claude-opus-4.8来了！两个史上首次改写历史.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md", "claude-opus-4.8实测封神！强到离谱，也贵到肉痛.md", "claude-opus-4.8问世，anthropic估值暴涨至9650亿美元.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md", "刚刚，anthropic抢先交表！冲击ai史上最大ipo.md", "claude-4.8实测封神！强到离谱，也贵到肉痛.md", "claude-4.8问世，anthropic估值暴涨至9650亿美元.md"]
+updated: 2026-06-12
+tags: ["模型", "anthropic", "claude", "编程", "agent", "大模型", "ai编程", "旗舰模型", "大语言模型", "降级模型", "安全机制", "安全降级"]
+related: ["anthropic", "claude-code", "claude-mythos", "gpt-5-5", "dynamic-workflows", "effort-control", "ultracode", "动态工作流", "评分者推测倾向", "高阶幻觉", "scaling-law", "ai-subscription-crisis", "认知投降", "gpt-5.5", "mythos", "tokenmaxxing", "投入度控制", "诚实性训练", "claude-opus-4-7", "ai计划性淘汰", "ai数据反向污染", "claude-opus-4-5", "claude-fable-5", "mythos-5", "模型路由安全机制", "fable-5"]
+sources: ["刚刚，claude-opus-4.8来了！两个史上首次改写历史.md", "claude-4.8炸场！部分能力超过mythos，支持数百子智能体并行.md", "claude-opus-4.8实测封神！强到离谱，也贵到肉痛.md", "claude-opus-4.8问世，anthropic估值暴涨至9650亿美元.md", "anthropic「阴谋」曝光：被指故意阉割旧模型.md", "刚刚，anthropic抢先交表！冲击ai史上最大ipo.md", "claude-4.8实测封神！强到离谱，也贵到肉痛.md", "claude-4.8问世，anthropic估值暴涨至9650亿美元.md", "rss/刚刚，claude-mythos-5发布！5000万行代码1天搞定.md", "rss/神话模型fable-5被曝降智，只为防蒸馏？ai大佬抗议.md", "rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md"]
 origin_date: 2026-05-25
 ---
+
 # Claude Opus 4.8
 
-[[anthropic|Anthropic]] 于 2026 年 5 月 29 日正式发布的最新一代旗舰级大模型，是 Claude 系列中参数量最大的模型，定位为复杂任务模型，在编程、智能体任务和长时间推理方面进行了强化。距前代 [[claude-opus-4-7|Opus 4.7]] 仅 6 周（43 天），为 Anthropic 历史最快大版本迭代（此前至少 10 周），反映了加速发布节奏的战略。
+**类型：** 大语言模型
+**开发者：** [[anthropic|Anthropic]]
+**定位：** 前代旗舰级大模型 / [[claude-fable-5|Fable 5]] 安全红线触发后的显性降级目标模型
+
+[[anthropic|Anthropic]] 于 2026 年 5 月 29 日正式发布的旗舰级大模型，是 Claude 系列中参数量最大的模型，定位为复杂任务模型，在编程、智能体任务和长时间推理方面进行了强化。距前代 [[claude-opus-4-7|Opus 4.7]] 仅 6 周（43 天），为 Anthropic 历史最快大版本迭代（此前至少 10 周），反映了加速发布节奏的战略。在 [[claude-fable-5|Claude Fable 5]] 发布后，Opus 4.8 从旗舰定位转为安全备选，并在 Fable 5 的[[模型路由安全机制]]中担任降级后备模型。
 
 ## 发布背景
 
@@ -41,6 +46,8 @@ Opus 4.8 的发布时机极具象征意义——与 Anthropic 650 亿美元 H �
 
 极速模式运行速度为标准模式的 2.5 倍，价格仅为快速模式的 1/3。
 
+Fable 5 发布后，Opus 4.8 的定价成为 Fable 5 定价的锚点参照（Fable 5 定价比 Opus 4.8 贵一倍）。
+
 ## 核心基准成绩
 
 | 基准 | Opus 4.8 成绩 | 对比 |
@@ -53,6 +60,9 @@ Opus 4.8 的发布时机极具象征意义——与 Anthropic 650 亿美元 H �
 | 写作基准 | 79.6 分 | 远超 GPT-5.5（73）、Sonnet 4.6（74.5）、Opus 4.7（63） |
 | Terminal Coding | 74.6% | **低于** GPT-5.5 的 78.2% |
 | Vending Bench | — | 表现不如 Opus 4.7 和 GPT-5.5 |
+| GDPpdf（视觉文件推理） | 22.5% | 低于 Fable 5/Mythos 5 的 29.8% |
+| Hex 核心分析 | — | 比 Fable 5 低 10 个百分点 |
+| 《杀戮尖塔》游戏测试 | — | Fable 5 性能比 Opus 4.8 提升 3 倍 |
 
 ## 核心能力提升
 
@@ -156,6 +166,17 @@ Opus 4.8 发布后科技界严重分裂：
 - 沃顿商学院 CS 教授 Ethan Mollick 评价"令人印象深刻"
 - 博主 Mark Kretschmann 推测 Opus 4.8 可能是 [[claude-mythos]] 的蒸馏版本
 
+## 后续角色：Fable 5 安全后备
+
+在 [[claude-fable-5|Claude Fable 5]] 发布后，Opus 4.8 在 Anthropic 的[[模型路由安全机制]]中担任显性降级目标模型。当 Fable 5 的独立分类器检测到用户请求涉及网络安全攻击、生物化学风险或模型蒸馏等安全红线时，系统自动将请求转交给 Opus 4.8 处理，而非直接拒绝。约 95% 的对话不触发此降级机制。这是 Anthropic 在开放最强能力与控制安全风险之间设计的缓冲层。
+
+### 降级机制特点
+
+- **显性降级**：切换过程对用户透明，前端界面会明确提示模型已降级
+- **与隐性降智的对比**：显性降级因公开透明而未引发太大争议，与 Fable 5 被曝的隐性降智机制形成鲜明对比
+- **极端敏感性**：有中文用户反馈仅输入"你好"即被强制切回 Opus 4.8，显示安全过滤的触发阈值极低
+- **设计理念**：Anthropic 认为，降级到强模型回答的体验优于直接拒绝
+
 ## 定位与后续计划
 
 Opus 4.8 是稳健迭代而非革命性飞跃，核心改进在于诚实性和可靠性。Anthropic 透露正在开发一款**成本更低但能力接近 Opus 水平**的模型，同时正在开发超越 Opus 系列的全新模型类别 [[claude-mythos|Mythos]]。
@@ -167,3 +188,4 @@ Opus 4.8 是稳健迭代而非革命性飞跃，核心改进在于诚实性和�
 - 诚实度突破回应了 [[高阶幻觉]] 和 [[认知投降]] 的担忧，但 Dynamic Workflows 中人类审查缺位仍构成风险
 - 身份坍塌事件揭示了 [[ai数据反向污染]] 的潜在风险
 - 其编程能力通过 [[claude-code]] 转化为商业收入，是 Anthropic 年化收入飙升至 470 亿美元的技术底座
+- 作为 Fable 5 的安全后备，Opus 4.8 在 [[模型路由安全机制]] 中延续了其生命周期

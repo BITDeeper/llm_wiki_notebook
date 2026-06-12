@@ -2,10 +2,10 @@
 type: entity
 title: Uber
 created: 2026-05-22
-updated: 2026-06-04
-tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司", "ai", "企业ai成本", "美国", "出行"]
-related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops", "企业token-roi反思潮-2026q2", "黄氏token经济学", "tokenmaxxing"]
-sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "老黄的token经济学翻车了！微软亚马逊通通跳车.md", "投了openai-130亿的微软，被自家工程师用claude-code烧爆了账单.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md"]
+updated: 2026-06-08
+tags: ["科技公司", "ai预算", "效用经济", "ai成本", "企业", "案例公司", "ai", "企业ai成本", "美国", "出行", "企业案例"]
+related: ["效用经济", "智能体编码", "claude-code", "ai-subscription-crisis", "anthropic", "按token计费危机", "ai-finops", "企业token-roi反思潮-2026q2", "黄氏token经济学", "tokenmaxxing", "企业ai成本治理", "token末日"]
+sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆了账本.md", "微软：claude-code的token，我也烧不起了.md", "openai明升，anthropic暗涨：ai包月折扣没了.md", "老黄的token经济学翻车了！微软亚马逊通通跳车.md", "投了openai-130亿的微软，被自家工程师用claude-code烧爆了账单.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md", "rss/「token末日」来了！ai正迎来一场定价海啸.md"]
 ---
 
 # Uber
@@ -23,6 +23,15 @@ sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆
 
 这一案例也成为 [[ai-subscription-crisis]] 和 [[tokenmaxxing]] 竞赛失控的典型例证。
 
+## 紧急应对措施
+
+据 Bloomberg 6月2日报道，Uber 在一个半月内发现AI预算远超预期后，采取了紧急措施：
+
+- 设置AI工具使用上限
+- 限制员工使用高级AI模型（如 Claude Code）
+
+TechCrunch 播客将 Uber 引用为"像Uber这样大量使用AI的公司都会这么快碰壁"的行业缩影。
+
 ## 预算预测模型失效
 
 这一案例的关键背景是：Claude Code 直到2025年11月才好用到能当日常主力，而 Uber 的2026年预算是在2025年定下的，没有预料到 Agent 需求会如此猛烈。Uber财务团队基于"固定席位""低频调用"建立的传统SaaS预测模型，在面对5000名工程师并行开启的智能体工作流时彻底失效。暴涨的AI算力需求冲垮了保守的旧预算模型，这一案例释放了系统性信号：用得越深，烧得越凶。
@@ -37,4 +46,4 @@ sources: ["投了openai-130亿的微软，被自家工程师用claude-code烧爆
 
 ## 行业意义
 
-Uber的案例证明，在[[效用经济]]范式下，最积极拥抱AI技术的企业可能最先撞上财务危机。即使是大型科技公司也难以承受基于 token 计费的 AI 工具在大规模部署时的真实成本。AI的效率神话往往伴随着预算黑洞，企业财务团队尚未学会管理这种"效用制"定价。Uber事件也因此成为企业进入 [[ai-finops]] 时代的标志性事件。
+Uber的案例证明，在[[效用经济]]范式下，最积极拥抱AI技术的企业可能最先撞上财务危机。即使是大型科技公司也难以承受基于 token 计费的 AI 工具在大规模部署时的真实成本。AI的效率神话往往伴随着预算黑洞，企业财务团队尚未学会管理这种"效用制"定价。Uber事件也因此成为企业进入 [[ai-finops]] 时代的标志性事件，同时也是 [[企业ai成本治理]] 和 [[token末日|Token末日]] 讨论中的核心论据。

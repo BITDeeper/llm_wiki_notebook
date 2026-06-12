@@ -2,10 +2,10 @@
 type: entity
 title: Yoshua Bengio
 tags: ["ai-pioneers", "turing-award", "deep-learning", "图灵奖", "深度学习", "学术哲学", "ai-pioneer", "ai-research", "chc-theory", "ai-safety", "ai", "学术界", "ai安全", "图灵奖得主", "ai研究者", "ai科学家", "人物"]
-related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂", "gram", "ai-takeoff", "ai安全范式演变", "ai刹车踏板", "递归式自我改进", "anthropic", "jack-clark"]
+related: ["知识嵌入", "scaling-law", "icml", "作者自评级", "慢科学", "geoffrey-hinton", "yann-lecun", "deep-learning-revival", "chc-theory", "agi", "google-deepmind", "eric-schmidt", "ai-memory", "asi", "ai-legal-rights", "alignment-faking", "字节-seed-团队", "循环语言模型", "图灵奖三巨头路线分裂", "gram", "ai-takeoff", "ai安全范式演变", "ai刹车踏板", "递归式自我改进", "anthropic", "jack-clark", "gram-generative-recursive-reasoning", "hrm-分层递归架构"]
 created: 2026-01-22
-updated: 2026-06-07
-sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "bengio新论文刷新递归推理上限，并行轨迹碾压串行推理.md", "hinton吹哨了：ai已经有意识！.md", "anthropic联创亲口承认：ai正自我迭代！.md"]
+updated: 2026-06-09
+sources: ["图灵奖得主bengio斩获aaai-2026大奖！5篇杰出论文，华人占3篇.md", "图灵巨头反水！icml新规血洗学术圈，学术散户只能「裸奔」.md", "ai教父geoffrey-hinton，全球第二个百万引用科学家！.md", "奥特曼点名「agi最后一块拼图」！记忆，才是硅谷2026新共识.md", "ai教父bengio警告人类：必须停止asi研发，防范ai失控末日！.md", "claude强到不敢发的mythos，被质疑用了字节seed技术.md", "lecun炮轰hinton：他认可llm就是想摆烂退休了！.md", "bengio新论文刷新递归推理上限，并行轨迹碾压串行推理.md", "hinton吹哨了：ai已经有意识！.md", "anthropic联创亲口承认：ai正自我迭代！.md", "rss/新架构模型hrm-text创新纪录！1b参数、1000美元，图灵奖得主都亲自下场了.md"]
 ---
 
 # Yoshua Bengio
@@ -35,7 +35,9 @@ Bengio 在深度学习算法、生成模型（特别是 GANs）以及序列建�
 
 ## GRAM：生成式递归推理模型
 
-Bengio 于 2026 年 5 月发表 [[gram|GRAM（生成式递归推理模型）]] 论文，提出 [[概率多轨迹递归]] 范式，在递归推理领域取得突破性进展。该工作将确定性递归推理转变为概率性多轨迹计算，在等计算预算下以"深度+宽度"策略碾压纯串行深度递归。
+Bengio 于 2026 年 5 月 19 日作为共同作者参与发布 [[gram|GRAM（生成式递归推理模型）]]（Generative Recursive Reasoning Models）论文，提出 [[概率多轨迹递归]] 范式，在递归推理领域取得突破性进展。该工作沿 [[hrm-分层递归架构|HRM]]（分层递归架构）路线展开研究，在 HRM 架构基础上进一步引入概率化多轨迹推理机制，将确定性递归推理转变为概率性多轨迹计算，在等计算预算下以"深度+宽度"策略碾压纯串行深度递归。
+
+Bengio 的参与表明 HRM 的分层递归推理路线正在获得全球顶尖学者的关注和验证，从单一模型创新发展为下一代推理型 AI 的重要研究基础。
 
 ## AGI 评估与认知理论
 

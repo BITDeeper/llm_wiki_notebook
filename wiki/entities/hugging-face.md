@@ -2,10 +2,10 @@
 type: entity
 title: Hugging Face
 created: 2026-05-31
-updated: 2026-06-03
-tags: [平台, 模型托管, 开源ai, ai公司, 开源社区, 科研基础设施]
-related: [低比特模型, bitnet, bitnet-cpp, papers-with-code, niels-rogge, julien-chaumond, sota排行榜]
-sources: ["低比特模型会是推理降本的关键组件吗？.md", "cvpr论文一网打尽！科研神器papers-with-code满血复活.md"]
+updated: 2026-06-12
+tags: [平台, 模型托管, 开源ai, ai公司, 开源社区, 科研基础设施, AI平台]
+related: [低比特模型, bitnet, bitnet-cpp, papers-with-code, niels-rogge, julien-chaumond, sota排行榜, diffusiongemma]
+sources: ["低比特模型会是推理降本的关键组件吗？.md", "cvpr论文一网打尽！科研神器papers-with-code满血复活.md", "rss/谷歌开源26b文本扩散moe，劈柴：生成速度像赛马一样快.md"]
 ---
 # Hugging Face
 
@@ -23,8 +23,13 @@ Hugging Face 是全球领先的 AI 模型托管平台和开源社区，也是 AI
 
 这一提示印证了 [[低比特模型]] 面临的核心工程现实：位宽下降的理论红利需要推理框架和硬件的原生支持才能真正兑现。
 
+## 模型演示与生态活动
+
+- 在 [[diffusiongemma|DiffusionGemma]] 发布后，Hugging Face 制作了 DiffusionGemma text-to-3D SVG 演示，展示了文本扩散模型逐步生成文本的过程。
+
 ## 生态贡献
 
 - 承接并升级了机器学习社区最关键的论文-代码-排行榜聚合功能。
 - 通过 AI 智能体技术解决了原版平台依赖人工维护的可持续性问题。
 - 将平台数据与自身模型生态系统打通，形成从论文发现到模型部署的完整链路。
+- 为前沿模型（如 DiffusionGemma）快速提供交互式演示，降低社区体验门槛。

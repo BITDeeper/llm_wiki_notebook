@@ -2,15 +2,17 @@
 type: entity
 title: Project Glasswing
 created: 2026-05-31
-updated: 2026-06-05
-tags: ["anthropic", "alliance", "cybersecurity", "ecosystem", "initiative", "critical-infrastructure", "safety", "access-control", "defense", "ai-safety", "gated-access", "安全倡议", "生存指南", "零信任", "defense-project", "consortium", "security", "information-sharing", "cyber-security", "organization", "geopolitics", "coalition", "defensive-security", "program", "vulnerability-discovery", "research-program", "ai", "内测", "平台", "ai安全", "联盟", "项目", "ai模型", "网络安全", "跨企业联盟", "漏洞修补", "安全", "漏洞扫描", "行动计划", "防御性安全", "负责任发布", "漏洞发现", "mythos-preview", "安全项目", "绝密"]
-related: ["claude-mythos", "gpt-5-dot-4-cyber", "anthropic", "mythos", "部署安全", "零日漏洞自动化", "零日漏洞", "claude-opus-4-7", "claude-mythos-preview", "能力分层与分级访问", "零信任架构", "rust", "内存安全", "jerome-powell", "scott-bessent", "ai-网络攻防", "360集团", "数字地缘安全", "amazon", "google", "microsoft", "技术余晖", "ai安全漏洞挖掘", "openbsd", "openai", "logan-graham", "ai网络安全攻防竞赛", "ai辅助零日攻击首次实锤-20260512", "claude-security", "cloudflare", "wolfssl", "漏洞洪水", "ai网络安全受限部署", "ai安全噪音危机-2026", "递归式自我改进", "oceanus-mythos"]
-sources: ["openai突然封锁最强gpt-5.4！3000个致命bug瞬间蒸发.md", "anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "「外星科技」mythos-带来重大国家风险，白宫顶着禁令也要部署了.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "openai也开始恐惧自己训练出的新模型了.md", "anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-mythos官宣！性能碾压opus-4.6贵5倍，因太危险遭「囚禁」.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用了.md", "1个月干完15个月！claude-mythos猎杀271个漏洞，有的藏了20年.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md", "ai引爆「漏洞洪水」！99%来不及修，openai高薪抢人.md", "忍无可忍，linux之父怒怼ai：别再用「智能垃圾」塞满内核列表了！.md", "刚刚，anthropic向全人类发出警告：停止研究ai！.md", "anthropic紧急叫停！mythos被内鬼偷卖api.md"]
+updated: 2026-06-12
+tags: ["anthropic", "alliance", "cybersecurity", "ecosystem", "initiative", "critical-infrastructure", "safety", "access-control", "defense", "ai-safety", "gated-access", "安全倡议", "生存指南", "零信任", "defense-project", "consortium", "security", "information-sharing", "cyber-security", "organization", "geopolitics", "coalition", "defensive-security", "program", "vulnerability-discovery", "research-program", "ai", "内测", "平台", "ai安全", "联盟", "项目", "ai模型", "网络安全", "跨企业联盟", "漏洞修补", "安全", "漏洞扫描", "行动计划", "防御性安全", "负责任发布", "漏洞发现", "mythos-preview", "安全项目", "绝密", "基础设施", "定向部署"]
+related: ["claude-mythos", "gpt-5-dot-4-cyber", "anthropic", "mythos", "部署安全", "零日漏洞自动化", "零日漏洞", "claude-opus-4-7", "claude-mythos-preview", "能力分层与分级访问", "零信任架构", "rust", "内存安全", "jerome-powell", "scott-bessent", "ai-网络攻防", "360集团", "数字地缘安全", "amazon", "google", "microsoft", "技术余晖", "ai安全漏洞挖掘", "openbsd", "openai", "logan-graham", "ai网络安全攻防竞赛", "ai辅助零日攻击首次实锤-20260512", "claude-security", "cloudflare", "wolfssl", "漏洞洪水", "ai网络安全受限部署", "ai安全噪音危机-2026", "递归式自我改进", "oceanus-mythos", "mythos-5", "claude-fable-5"]
 origin_date: 2026-04-07
+sources: ["openai突然封锁最强gpt-5.4！3000个致命bug瞬间蒸发.md", "anthropic最强网络攻防大模型mythos，美国国安局早就一直在用了.md", "行动奇点降临！mythos把ai从「会说」跨进「动手」时代.md", "「外星科技」mythos-带来重大国家风险，白宫顶着禁令也要部署了.md", "claude-opus-4.7连夜突袭：或将抢走全球7亿打工人饭碗！.md", "openai也开始恐惧自己训练出的新模型了.md", "anthropic发最高警告：0day大爆发即将来临！全球巨头瞬间蒸发数十亿.md", "claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿.md", "刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用.md", "挖漏洞何必mythos，国产智能体早跑通了.md", "claude-mythos官宣！性能碾压opus-4.6贵5倍，因太危险遭「囚禁」.md", "残酷真相：硅谷顶尖ai甩开世界1年！你用的不过是「技术余晖」.md", "刚刚，anthropic祭出最强claude-mythos！暴击opus-4.6，跪求千万别用了.md", "1个月干完15个月！claude-mythos猎杀271个漏洞，有的藏了20年.md", "深度｜karpathy为何突然加入anthropic，只能当dario的「-2」？.md", "最强黑客大模型，不再是mythos.md", "cyber天花板被打穿！aisi实测mythos能力正以4.5月翻倍速冲向asi.md", "谷歌首度证实：黑客已开始用ai发动真实网络攻击！.md", "mythos首个报告出炉：全球数十亿设备裸奔！30天挖出10000致命漏洞.md", "ai引爆「漏洞洪水」！99%来不及修，openai高薪抢人.md", "忍无可忍，linux之父怒怼ai：别再用「智能垃圾」塞满内核列表了！.md", "刚刚，anthropic向全人类发出警告：停止研究ai！.md", "anthropic紧急叫停！mythos被内鬼偷卖api.md", "rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md"]
 ---
 # Project Glasswing（玻璃翼计划）
 
 [[anthropic|Anthropic]] 为负责任发布 [[claude-mythos]] 而启动的绝密防御性安全部署计划，官方定位为"为AI时代守住全世界最关键的软件"。利用 [[claude-mythos-preview|Claude Mythos Preview]] 进行漏洞发现与修补。2026年4月7日上线。
+
+Project Glasswing 同时是 [[mythos-5|Claude Mythos 5]] 的首批且唯一的官方部署渠道，面向网络安全防御者和基础设施提供商进行定向部署。
 
 ## 背景
 
@@ -25,6 +27,8 @@ origin_date: 2026-04-07
 ## 运作模式
 
 将预览阶段的 [[claude-mythos-preview|Claude Mythos]] 限定交付给约50家合作伙伴，仅用于防御性安全工作。合作伙伴横跨云服务、芯片、金融、网络安全等领域。
+
+后续部署的 [[mythos-5|Claude Mythos 5]]（与 [[claude-fable-5|Fable 5]] 同底座，但去除部分安全限制）同样仅限 Glasswing 合作伙伴访问，后续将通过扩展可信访问计划逐步开放。
 
 ## 合作伙伴
 
@@ -55,6 +59,15 @@ origin_date: 2026-04-07
 ## 与 Oceanus 的关系
 
 2026年6月泄露的 `claude-oceanus-v1-p` 是该模型经过多轮安全对齐后，在 Project Glasswing 框架下试图走出实验室的"完全体升级版"。文章推测其内置的 REPL 自主沙箱环境与玻璃翼计划中透露的内容相吻合。
+
+## 双轨安全策略
+
+Project Glasswing 体现了 Anthropic 的双轨安全策略：
+
+1. **Fable 5**（大众版）：全渠道开放，配备安全降级机制
+2. **Mythos 5**（专业版）：去除部分安全限制，仅通过 Glasswing 定向部署
+
+这种"安全版大众化 + 无限制版定向化"的模式，是 Anthropic 在商业扩张与安全承诺之间寻求平衡的新范式。选择网络安全和基础设施作为首批开放领域，暗示 Anthropic 认为 Mythos 5 的增强能力在这些领域的安全风险相对可控，且商业价值最高。
 
 ## 战略意义
 

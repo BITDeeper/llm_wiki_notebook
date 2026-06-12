@@ -2,10 +2,10 @@
 type: entity
 title: Demis Hassabis
 tags: ["person", "google-deepmind", "ai-safety", "ai-leadership", "people", "deepmind", "ai-research", "nobel-laureate", "ai-leaders", "agi", "nobel-prize", "人物", "诺贝尔奖", "ceo", "neuroscience", "ai-researcher", "founder", "ai领袖", "诺贝尔奖得主", "投资人", "alphago", "ai研究", "谷歌", "ai"]
-related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线", "gemma-4-12b", "sam-altman", "合成dna筛查立法呼吁-202606"]
+related: ["google-deepmind", "创世悖论", "ai-takeoff", "project-mario", "mustafa-suleyman", "alphago", "alphafold", "jim-simons", "gemini", "奥本海默死局", "ai-military-complex", "搜索与规划", "爱因斯坦测试", "elon-musk", "agi", "锯齿状智能", "持续学习", "世界模型", "ai-for-science", "shane-legg", "anthropic", "dario-amodei", "deepmind-黑手党", "eve-online", "alphago进化线", "gemma-4-12b", "sam-altman", "合成dna筛查立法呼吁-202606", "openai", "aletheia"]
 created: 2026-04-08
-updated: 2026-06-05
-sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md", "谷歌gemma-4-12b震撼发布！全球下载破1.5亿，16g轻薄本封神.md", "活久见！奥特曼dario哈萨比斯同仇敌忾：dna得查了.md"]
+updated: 2026-06-08
+sources: ["刚刚，claude-mythos敲响末日警钟！超级智能已在悬崖，hassabis深感恐惧.md", "叫板华尔街之神！诺奖得主在谷歌眼皮底下组队炒股，ceo亲自叫停.md", "越预警越被骂！ai三巨头陷入「奥本海默」死局.md", "诺奖获得者hassabis警告：alphago已觉醒，agi正接管科研.md", "诺奖得主惊人预测：4年推出广义相对论，就是agi！做完人类580亿年任务.md", "奥特曼与anthropic掌门同台冷战，拒牵手刷爆全网！豪言2028年asi降临.md", "只剩5年？诺奖得主hassabis放出agi时间表：还差一两个技术突破.md", "四周2亿人围观！诺奖凭什么颁给他，都在这一个半小时里.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "alphago之父把ai扔进23年的人造社会：智能体3块最硬骨头全在这.md", "谷歌gemma-4-12b震撼发布！全球下载破1.5亿，16g轻薄本封神.md", "活久见！奥特曼dario哈萨比斯同仇敌忾：dna得查了.md", "rss/降维打击！数学博士熬秃头，ai数学家：上午出题，下午4点交证明.md"]
 origin_date: 1976-07-27
 ---
 
@@ -136,6 +136,10 @@ Hassabis本人仍驻扎在伦敦国王十字区，谷歌为此投资10亿美元�
 在马斯克起诉奥特曼的世纪诉讼中，Hassabis的名字以极高频率出现在起诉材料中。The Verge评价："Hassabis不需要亲自出庭，就已经长久地住在了马斯克的脑海里，成为其挥之不去的梦魇。"
 
 此外，Hassabis提出的"爱因斯坦测试"也引发了马斯克的反驳。马斯克认为该标准定义的是超级智能而非 AGI，因为全人类集体都无法独立重现相对论，若 AI 能做到则意味着其能力已远超人类水平。
+
+## 与OpenAI的对抗：GPT-5数学声称事件
+
+2025年10月，[[openai|OpenAI]] 声称 GPT-5 解决了10个埃尔德什难题，遭到数学界广泛质疑。Hassabis 公开批评这一声明为"令人尴尬"（embarrassing），反映了AI行业内部对"不可验证的数学声称"的零容忍态度。这一争议直接推动了AI数学从"声称"向"形式化验证"的范式转移。
 
 ## 战略定位
 

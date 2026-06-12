@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Harvey
-tags: [legal-tech, case-study, anthropic, 企业客户, 法律ai]
-related: [claude-managed-agents, dreaming-ai-function, anthropic, ai梦境记忆再巩固]
+tags: [legal-tech, case-study, anthropic, 企业客户, 法律ai, ai法律, 独角兽]
+related: [claude-managed-agents, dreaming-ai-function, anthropic, ai梦境记忆再巩固, ai-产业链三层分类]
 created: 2026-05-07
-updated: 2026-05-25
-sources: ["claude会「做梦」了，梦里还在卷.md", "anthropic自曝下一代claude训练内幕！有人专职研究「性格」.md"]
+updated: 2026-06-08
+sources: ["claude会「做梦」了，梦里还在卷.md", "anthropic自曝下一代claude训练内幕！有人专职研究「性格」.md", "rss/100亿只是起步价？21家全球ai独角兽名单刷屏.md"]
 ---
 
 # Harvey
 
-**Harvey** 是一家法律 AI 公司，也是 Anthropic 的企业客户、Claude Managed Agents 的早期用户之一。
+**Harvey** 是一家 AI 法律公司，也是 Anthropic 的企业客户、Claude Managed Agents 的早期用户之一。在 [[deedy-das|Deedy Das]] 的 21 家 AI 独角兽名单中，Harvey 属于 [[ai-产业链三层分类|卖场景]]（应用层）类别，专注于法律行业。
 
 ## 与 Anthropic 的合作
 

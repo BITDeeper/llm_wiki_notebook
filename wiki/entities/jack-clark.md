@@ -2,9 +2,10 @@
 type: entity
 title: Jack Clark
 created: 2026-03-30
-updated: 2026-06-07
+updated: 2026-06-08
 tags: ["anthropic", "人物", "ai安全", "递归自我改进", "ai-safety", "趋势分析", "person", "ai-policy", "journalism", "analyst", "import-ai", "industry-commentator", "ai-index", "ai-researcher", "forecasting", "ai-research", "智能爆炸", "预测", "ai政策", "创始人", "亿万富翁", "捐赠", "联合创始人"]
-related: ["anthropic", "递归式自我改进", "ai-takeoff", "claude-code", "ai刹车踏板", "yoshua-bengio", "bench", "moltbook", "智能体互联网", "kernel-evolve", "meta", "dario-amodei", "平行宇宙", "沉默的警报器", "自动化-ai-研发", "import-ai-newsletter", "智能爆炸", "openai", "anthropic-h轮融资-2025", "anthropic-七子"]sources: ["刚刚，anthropic向全人类发出警告：停止研究ai！.md", "anthropic联创：两年内，ai将像孢子一样自我繁殖.md", "永别了，互联网！anthropic联创爆料：人类彻底出局.md", "anthropic创始人盛赞meta：开启广告基础设施「智能体」进化时代.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "anthropic联创警告：2026年，ai将把世界撕成两个平行宇宙.md", "ai自己造ai，概率60%！2028年底前！anthropic联创坐不住了.md", "anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "alphaevolve一周年炸裂成绩单！ai自我改进不再科幻.md", "史上最大规模ipo逼近，超越spacex！28年ai自我迭代，智能爆炸倒计时.md", "博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "anthropic联创亲口承认：ai正自我迭代！.md"]
+related: ["anthropic", "递归式自我改进", "ai-takeoff", "claude-code", "ai刹车踏板", "yoshua-bengio", "bench", "moltbook", "智能体互联网", "kernel-evolve", "meta", "dario-amodei", "平行宇宙", "沉默的警报器", "自动化-ai-研发", "import-ai-newsletter", "智能爆炸", "openai", "anthropic-h轮融资-2025", "anthropic-七子", "marina-favaro", "metr", "cset"]
+sources: ["rss/anthropic-80%代码ai自己写，人类刹车来得及么？.md", "刚刚，anthropic向全人类发出警告：停止研究ai！.md", "anthropic联创：两年内，ai将像孢子一样自我繁殖.md", "永别了，互联网！anthropic联创爆料：人类彻底出局.md", "anthropic创始人盛赞meta：开启广告基础设施「智能体」进化时代.md", "硅谷豪赌2万亿！deepseek登顶nature，meta却成2025最大输家？.md", "anthropic联创警告：2026年，ai将把世界撕成两个平行宇宙.md", "ai自己造ai，概率60%！2028年底前！anthropic联创坐不住了.md", "anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "alphaevolve一周年炸裂成绩单！ai自我改进不再科幻.md", "史上最大规模ipo逼近，超越spacex！28年ai自我迭代，智能爆炸倒计时.md", "博士80小时熬夜改代码，codex-2小时交卷！科研奇点来了.md", "anthropic七子一夜杀进全球富豪榜！每人身家80亿，承诺捐出80%财富.md", "anthropic联创亲口承认：ai正自我迭代！.md"]
 ---
 
 # Jack Clark
@@ -23,7 +24,7 @@ related: ["anthropic", "递归式自我改进", "ai-takeoff", "claude-code", "ai
 
 ## 核心预测：2028 年 RSI 与智能爆炸
 
-在 2026 年初，基于对大量公开数据的分析，Jack Clark 提出了一个引发广泛关注的预测：**到 2028 年底，AI 实现 [[递归式自我改进]]（RSI）的概率超过 60%**。据 Axios 于 2026 年 5 月 7 日报道，Clark 公开给出了这一概率判断；同年 5 月在伦敦演讲中他再次阐述了这一预测。这为 RSI 从抽象理论讨论提供了具体的时间锚点，也成为 [[AI Takeoff]] 讨论中最具分量的量化预测之一。
+在 2026 年初，基于对大量公开数据的分析，Jack Clark 提出了一个引发广泛关注的预测：**到 2028 年底，AI 实现 [[递归式自我改进]]（RSI）的概率超过 60%**——即在没有任何人类参与的情况下，AI 能够自行创造出下一代产品。据 Axios 于 2026 年 5 月 7 日报道，Clark 公开给出了这一概率判断；同年 5 月在伦敦演讲中他再次阐述了这一预测。这为 RSI 从抽象理论讨论提供了具体的时间锚点，也成为 [[AI Takeoff]] 讨论中最具分量的量化预测之一。
 
 ### 类比：3D 打印机
 
@@ -42,7 +43,7 @@ Clark 的判断并非基于内部情报，而是完全基于公开可验证的�
 支持这一预测的关键证据包括：
 
 - **编程能力的飞跃**：引用 [[SWE-bench]] 数据，指出 AI 解决真实 GitHub issue 的能力从 2% 飙升至 93.9%。
-- **任务时长的延长**：引用相关评估数据，指出 AI 可独立完成的任务时长从 30 秒延长至 12 小时以上。
+- **任务时长的延长**：引用 [[METR]] 基准测试数据，AI 任务处理能力从 2025 年初的 <1 小时任务跃迁至 2026 年中的 >8 小时复杂任务；其他评估数据也显示 AI 可独立完成的任务时长从 30 秒延长至 12 小时以上。
 - **科研技能的自动化**：AI 在复现论文（[[CORE-bench]]）、构建 ML 系统（[[MLE-bench]]）和微调模型（[[PostTrainBench]]）等关键科研环节快速逼近人类水平。
 - **自我改进信号验证**：[[AlphaEvolve]] 发布一周年的成绩单，以及 [[Claude Code]] 编写了 Anthropic 大部分代码的事实，作为 AI 自我改进能力不再科幻的佐证。
 
@@ -60,6 +61,20 @@ Clark 认为，AI 研究的大部分工作是"**搭乐高**"（工程迭代、�
 ## 公开承认 AI 自我迭代
 
 2026 年 6 月，Clark 在接受 BBC Newsnight 采访时，首次公开了 Anthropic 内部 [[递归式自我改进]] 的关键数据，引发全球关注。他透露 Anthropic 合入代码中 **80% 由 [[Claude Code]] 生成**，并预测最晚 2028 年这一比例将达到 100%。这一公开承认标志着头部 AI 公司高层首次在主流媒体上确认 AI 自我迭代已成为工程现实。
+
+## 倡导"刹车踏板"与暂停呼吁
+
+### "油门没刹车"论断
+
+Clark 提出 AI 行业当前"只有油门没有刹车"，[[Anthropic]] 的使命之一是构建 [[AI刹车踏板]]——即可验证的暂停与干预机制。他认为，在 AI 自我迭代加速的背景下，缺乏有效的减速与审查能力是全行业面临的最紧迫问题之一。
+
+2026 年 6 月 4 日，Clark 与 [[Anthropic]] 研究所负责人 [[Marina Favaro]] 联合发表提案，呼吁全球暂停 AI 研发。他在采访中表示：
+
+> 现在的情况是，AI行业有油门，但没有刹车。我们想做的，就是为打造那个刹车踏板贡献一些力量。
+
+### 与 Anthropic 商业推进的矛盾
+
+Clark 呼吁全球暂停 AI 研发的时间点（6 月 4 日）与 [[Anthropic]] 秘密提交 S-1 文件冲刺 9650 亿估值 IPO（6 月 1 日）仅相隔三天。这一矛盾恰恰由"80% 代码由 Claude 编写"这一数据解释——[[递归式自我改进]] 已在 Anthropic 内部实质性发生，Clark 的暂停呼吁是对这一现实的回应。
 
 ## 核心观点与隐喻
 
@@ -98,10 +113,6 @@ Clark 是最早公开警告 [[智能体互联网]] 风险的业界领袖之一�
 
 他断言，Kernel-Evolve 的成功预示着 **LLM 智能体将成为异构 AI 系统的通用编译层**，标志着软件工程范式正在经历从人工编写代码向智能体主导的自动化优化的深刻变革。
 
-### 倡导"刹车踏板"
-
-Clark 提出 AI 行业当前"只有油门没有刹车"，[[Anthropic]] 的使命之一是构建 [[AI刹车踏板]]——即可验证的暂停与干预机制。他认为，在 AI 自我迭代加速的背景下，缺乏有效的减速与审查能力是全行业面临的最紧迫问题之一。
-
 ### 涌现式风险警告
 
 Clark 表示最担忧的是大量不协调的 AI 系统突然涌现，行为不可预测且可能违背人类常识。这种涌现式风险不同于单一超级智能的威胁，而是来自无数半自主系统在缺乏统一协调下的交互失控。
@@ -139,3 +150,5 @@ Clark 高度关注 [[递归式自我改进]] 带来的治理挑战，特别是 *
 - **[[思维草稿本]]**：他用此描述 Moltbook 等 Agent 平台作为 AI 进化训练场的角色。
 - **[[Anthropic 七子]]**：与他共同出走创立 Anthropic 的六位同事。
 - **[[AI刹车踏板]]**：他倡导构建的可验证暂停与干预机制。
+- **[[Marina Favaro]]**：与他联合发表暂停 AI 研发提案的 Anthropic 研究所负责人。
+- **[[METR]] / [[CSET]]**：他引用的核心基准测试与数据来源。

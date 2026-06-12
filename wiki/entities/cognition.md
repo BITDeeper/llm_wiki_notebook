@@ -1,19 +1,19 @@
 ---
 type: entity
 title: Cognition
-tags: [公司, ai-agent, 编程, ioi, ai-startup, coding-agent]
-related: [devin, scott-wu, steven-hao, windsurf, 奥赛-量化-ai路径, cursor, claude-code, glm-5-1]
+tags: [公司, ai-agent, 编程, ioi, ai-startup, coding-agent, ai编程, 独角兽]
+related: [devin, scott-wu, steven-hao, windsurf, 奥赛-量化-ai路径, cursor, claude-code, glm-5-1, ai-产业链三层分类]
 created: 2026-04-25
-updated: 2026-05-08
-sources: ["量化公司，正在批量生产ai独角兽创始人.md", "lecun点赞：国产开源模型占领硅谷，性价比超10倍.md"]
+updated: 2026-06-08
+sources: ["量化公司，正在批量生产ai独角兽创始人.md", "lecun点赞：国产开源模型占领硅谷，性价比超10倍.md", "rss/100亿只是起步价？21家全球ai独角兽名单刷屏.md"]
 ---
 
 # Cognition
 
-**Cognition** 是一家专注于 AI 智能体的初创公司，开发了世界第一位 AI 软件工程师 [[Devin]]。
+**Cognition** 是一家专注于 AI 编程的初创公司，开发了世界第一位 AI 软件工程师 [[Devin]]。在 [[deedy-das|Deedy Das]] 的 21 家 AI 独角兽名单中，Cognition 属于 [[ai-产业链三层分类|卖场景]]（应用层）类别，与 [[cursor|Cursor]] 同列编程赛道。
 
 ## 团队背景
-Cognition 因其极致的团队背景而闻名，常被称为“IOI 金牌梦之队”：
+Cognition 因其极致的团队背景而闻名，常被称为"IOI 金牌梦之队"：
 - **创始人** [[Scott Wu]]：三枚 IOI 金牌得主（含满分）。
 - **联合创始人** [[Steven Hao]]：前 Scale AI 工程师，IOI 金牌得主。
 - **联合创始人** Walden Yan：同样为 IOI 金牌得主。

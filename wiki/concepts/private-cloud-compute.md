@@ -1,22 +1,24 @@
 ---
 type: concept
 title: Private Cloud Compute
-tags: [apple, cloud-computing, privacy, security]
-related: [apple, gemini, siri, apple-foundation-models]
-created: 2026-01-13
-updated: 2026-01-13
-sources: ["15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md"]
+created: 2026-06-10
+updated: 2026-06-10
+tags: ["apple", "cloud-computing", "privacy", "security", "苹果", "隐私计算", "云端推理", "谷歌云"]
+related: ["apple", "gemini", "siri", "apple-foundation-models", "苹果", "afm-3", "谷歌", "英伟达"]
+sources: ["15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "rss/库克最后一届wwdc，把苹果ai九年的地基掀了.md"]
 ---
+# Private Cloud Compute
 
-# Private Cloud Compute (PCC)
+苹果的**隐私云计算架构**，为[[afm-3|AFM 3]]云端模型提供推理基础设施。2026年6月WWDC上扩展至[[谷歌]]云[[英伟达]]GPU，隐私规则照旧——数据不出域。
 
-[[apple]] 提出的一种云计算架构，旨在在利用云端强大算力的同时，确保用户数据的隐私和安全。
+## 定价策略
 
-## 核心机制
-PCC 允许 [[apple]] 将复杂的AI任务（如基于 [[gemini]] 的长文本总结）发送至云端服务器处理，但通过技术手段保证：
-1. **数据隔离**：用户数据与 [[google]] 等第三方模型提供商完全隔离。
-2. **不可追溯**：云端服务器无法将特定数据与特定用户账户关联。
-3. **即时删除**：处理完成后，数据立即从服务器中清除。
+- App首次下载量低于200万：云端推理**完全免费**，零API成本，零token费用
+- 精准卡位独立开发者和中小团队
+- 长期商业可持续性存疑，可能是初期生态建设期的补贴策略
 
-## 应用场景
-在 [[apple]] 与 [[google]] 的合作中，[[gemini]] 模型将部署在 PCC 环境中。这意味着 [[apple]] 利用 [[google]] 的模型能力，但无需向 [[google]] 开放用户数据，从而在提升 [[siri]] 智能水平的同时，维持了 [[apple]] 核心的隐私承诺。
+## 技术架构
+
+- 运行AFM 3 Cloud、ADM 3 Cloud、AFM 3 Cloud Pro三个云端模型
+- 扩展至谷歌云英伟达GPU基础设施
+- 核心原则：用户数据不离开苹果的隐私保护域

@@ -1,22 +1,23 @@
 ---
 type: entity
 title: Menlo Ventures
-tags: ["venture-capital", "investment", "ai-market-report", "entity", "投资机构", "风投"]
+tags: ["venture-capital", "investment", "ai-market-report", "entity", "投资机构", "风投", "风险投资", "硅谷"]
 related: ["anthropic", "openai", "enterprise-generative-ai", "deedy-das", "ai-neolab", "openrouter", "a16z"]
 created: 2026-01-31
-updated: 2026-05-27
-sources: ["anthropic登顶全球第一，吃掉370亿市场！投资大佬连夜抛openai股票.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "月吞100万亿token！ai中转站openrouter赚爆了.md"]
+updated: 2026-06-08
+sources: ["anthropic登顶全球第一，吃掉370亿市场！投资大佬连夜抛openai股票.md", "估值3000亿！63家新实验室杀疯了，murati、贝佐斯集体押注下一代ai.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "rss/100亿只是起步价？21家全球ai独角兽名单刷屏.md"]
 ---
 
 # Menlo Ventures
 
-[[Menlo Ventures]] 是一家美国老牌风险投资机构，成立于 1976 年，专注于科技领域早期和成长期投资。因发布《2025 企业 AI 报告》定义市场格局，以及合伙人 [[Deedy Das]] 发布"AI Neolab"榜单而受到关注。
+[[Menlo Ventures]] 是一家美国老牌风险投资机构，成立于 1976 年，总部位于硅谷，专注于科技领域早期和成长期投资。因发布《2025 企业 AI 报告》定义市场格局，以及合伙人 [[Deedy Das]] 发布"AI Neolab"榜单和全球 AI 独角兽名单而受到关注。
 
 ## 关键角色
 
 - **数据提供者**：其报告声称 [[Anthropic]] 在企业级 LLM 市场占据 40% 的份额，超越 [[OpenAI]] 的 27%。
 - **主要投资方**：作为 Anthropic 的最大投资方之一，其数据的客观性在报道中被标记为潜在利益冲突（⚠️）。
 - **Neolab 追踪者**：通过合伙人 [[Deedy Das]] 积极追踪并投资于 AI Neolab 赛道。
+- **独角兽名单发布者**：[[Deedy Das]] 于 2026 年 6 月发布了引发行业刷屏的 21 家全球 AI 独角兽名单。
 
 ## 投资布局
 

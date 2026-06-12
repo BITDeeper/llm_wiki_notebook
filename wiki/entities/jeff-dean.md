@@ -1,20 +1,20 @@
 ---
 type: entity
 title: Jeff Dean
-tags: [google, ai-research, computer-science, engineering, ai, leadership, legend, performance, system-design, ai-scientist, tpu, gemini, computer-scientist, ai-leadership]
-related: [john-hennessy, laude-研究所, google-deepmind, sanjay-ghemawat, jeff-dean-facts, mapreduce, tensorflow, performance-hints, google, 信封背面估算, 物理尺度感, gemini, tpu, pareto-frontier-strategy, requirement-engineering, alphaevolve]
+tags: ["google", "ai-research", "computer-science", "engineering", "ai", "leadership", "legend", "performance", "system-design", "ai-scientist", "tpu", "gemini", "computer-scientist", "ai-leadership", "人物", "谷歌", "deepmind", "首席科学家"]
+related: ["john-hennessy", "laude-研究所", "google-deepmind", "sanjay-ghemawat", "jeff-dean-facts", "mapreduce", "tensorflow", "performance-hints", "google", "信封背面估算", "物理尺度感", "gemini", "tpu", "pareto-frontier-strategy", "requirement-engineering", "alphaevolve", "谷歌", "gemini-3-5-live-translate"]
 created: 2026-02-04
-updated: 2026-05-11
-sources: ["谷歌jeff-dean和多位图灵奖得主合著论文，全面剖析了ai.md", "图灵奖大佬来听课，竟然只能坐地板！谷歌扫地僧有多离谱？.md", "性能真的不重要了吗？jeff-dean给出反常答案.md", "jeff-dean最新访谈：未来开发者人均50个智能体，写需求成核心技能.md", "alphaevolve交出一周年炸裂成绩单！ai自我改进不再科幻.md"]
+updated: 2026-06-11
+sources: ["谷歌jeff-dean和多位图灵奖得主合著论文，全面剖析了ai.md", "图灵奖大佬来听课，竟然只能坐地板！谷歌扫地僧有多离谱？.md", "性能真的不重要了吗？jeff-dean给出反常答案.md", "jeff-dean最新访谈：未来开发者人均50个智能体，写需求成核心技能.md", "alphaevolve交出一周年炸裂成绩单！ai自我改进不再科幻.md", "rss/谷歌干掉了「等你说完才翻译」！70+语言边听边译.md"]
 ---
 
 # Jeff Dean (杰夫·迪恩)
 
-**Jeff Dean** 是谷歌的传奇工程师和现任首席科学家，负责领导 [[Google DeepMind]] 和 Google Research 的 AI 研发工作。他是谷歌技术体系的奠基人之一，也是互联网技术圈“神级”人物的代表。
+**Jeff Dean** 是谷歌的传奇工程师和现任首席科学家，负责领导 [[Google DeepMind]] 和 Google Research 的 AI 研发工作。他是谷歌技术体系的奠基人之一，也是互联网技术圈"神级"人物的代表。
 
 ## 职业生涯
 - **早期经历**：1999年加入谷歌，是公司早期的核心员工之一。
-- **职级地位**：与 [[Sanjay Ghemawat]] 并列为谷歌内部仅有的两位 Senior Fellow（最高技术职级之一），被戏称为“Level 11”。
+- **职级地位**：与 [[Sanjay Ghemawat]] 并列为谷歌内部仅有的两位 Senior Fellow（最高技术职级之一），被戏称为"Level 11"。
 - **现任角色**：作为 Google DeepMind 的负责人，主导谷歌在 AI 时代的战略方向，并在 AI 基础设施和芯片研发中扮演关键角色。
 
 ## 核心技术贡献
@@ -32,17 +32,20 @@ Jeff Dean 以其对工程性能的极致追求和深刻的系统洞察力而闻�
 - **底层直觉**：通过著名的 [[信封背面估算]] 和延迟对照表（如 L1 缓存 0.5ns vs 磁盘寻址 10,000,000ns），他教导工程师在写第一行代码前就要判断方案在物理上的可行性。
 - **能量感知计算**：他提出了 **[[能量感知计算]]** 的视角，指出在系统设计中，数据搬运的能量消耗（如从 SRAM 读取数据）远高于计算本身的消耗。这一原理是 Batching 和硬件架构优化的物理基础。
 
-### 反对“过早优化”的滥用
-Jeff Dean 指出，[[过早优化是万恶之源]] 这句名言常被误用为编写低效代码的“免责金牌”。他认为真正的关键在于避免“过早放弃对性能的思考”，性能应当是设计之初的考量，而非事后修补。他的工程思想影响了无数工程师，强调在看似资源无限的云时代，依然必须对每一层 [[抽象税]] 和每一次内存分配保持敬畏。
+### 反对"过早优化"的滥用
+Jeff Dean 指出，[[过早优化是万恶之源]] 这句名言常被误用为编写低效代码的"免责金牌"。他认为真正的关键在于避免"过早放弃对性能的思考"，性能应当是设计之初的考量，而非事后修补。他的工程思想影响了无数工程师，强调在看似资源无限的云时代，依然必须对每一层 [[抽象税]] 和每一次内存分配保持敬畏。
 
 ## AI 战略与未来愿景
 Jeff Dean 主导了谷歌在 AI 时代的多项关键战略，从硬件架构到模型发展路线，再到对未来开发者角色的预判。
 
 ### 硬件与模型策略
 - **TPU 与协同设计**：他强调 [[TPU]]（张量处理单元）与机器学习研究的紧密互动，推动了软硬件协同设计的演进。作为 TPU 项目的主要领导者之一，他积极支持 AI 辅助芯片设计的探索。
-- **AI 自我改进与硬件进化**：在 [[AlphaEvolve]] 项目中，Jeff Dean 证实了该系统设计的电路已被集成进下一代 TPU 硅片中。他评价道：“AlphaEvolve 从我们 AI 技术栈最底层的硬件开始优化。它提出的电路设计如此反直觉却又如此高效，以至于被直接集成进了下一代 TPU 的硅片。这是 **TPU 大脑帮助设计下一代 TPU 身体** 的最新案例。”这一观点被视为 AI 系统开始实质性参与自身硬件进化的明确信号。
-- **帕累托前沿策略**：在主导 [[Gemini]] 模型研发时，他确立了 **[[帕累托前沿策略]]**，即同时追求高端前沿模型（能力）和高性价比模型（成本/延迟）。他确认了 **[[蒸馏]]** 技术在实现“下一代 Flash ≈ 上一代 Pro”中的核心作用。
+- **AI 自我改进与硬件进化**：在 [[AlphaEvolve]] 项目中，Jeff Dean 证实了该系统设计的电路已被集成进下一代 TPU 硅片中。他评价道："AlphaEvolve 从我们 AI 技术栈最底层的硬件开始优化。它提出的电路设计如此反直觉却又如此高效，以至于被直接集成进了下一代 TPU 的硅片。这是 **TPU 大脑帮助设计下一代 TPU 身体** 的最新案例。"这一观点被视为 AI 系统开始实质性参与自身硬件进化的明确信号。
+- **帕累托前沿策略**：在主导 [[Gemini]] 模型研发时，他确立了 **[[帕累托前沿策略]]**，即同时追求高端前沿模型（能力）和高性价比模型（成本/延迟）。他确认了 **[[蒸馏]]** 技术在实现"下一代 Flash ≈ 上一代 Pro"中的核心作用。
 - **统一模型时代**：他见证了从专用符号系统（如 AlphaGeometry）向通用大语言模型的范式转移，认为 **[[统一模型时代]]** 已经到来。同时，他也强调 **[[非人类模态]]**（如 LIDAR、医疗影像）对于 AI 理解物理世界的重要性。
+
+### 重大产品官宣
+- **[[gemini-3-5-live-translate|Gemini 3.5 Live Translate]]**：2026年6月，Jeff Dean 亲自发帖官宣该产品发布，强调语音翻译是"Google跑得最久的机器学习项目之一"，体现了该项目在 Google 战略中的重要性。
 
 ### 对未来的预言：开发者角色的转变
 在最新访谈中，他提出了关于未来开发者工作模式的著名论断：
@@ -51,15 +54,15 @@ Jeff Dean 主导了谷歌在 AI 时代的多项关键战略，从硬件架构到
 
 ### 务实的 AI 观点
 在 2026 年，Jeff Dean 联合图灵奖得主 [[john-hennessy]] 等人发布了《塑造AI对数十亿人的影响》报告，主张以务实的态度应对 AI 带来的机遇与挑战。
-- **务实路线**：拒绝“AI末日论”与盲目狂热，强调通过实际行动（如改善教育、加速科学发现）来引导 AI 技术的发展。
+- **务实路线**：拒绝"AI末日论"与盲目狂热，强调通过实际行动（如改善教育、加速科学发现）来引导 AI 技术的发展。
 - **就业与经济**：反驳 [[劳动总量谬误]]，指出 AI 通过 [[需求弹性]] 将创造更多就业机会，而非单纯替代人类。
 - **技术评估**：支持通过 [[laude-研究所]] 资助 [[codeclash]] 等实战化评估项目，以打破科技巨头对 AI 评价标准的垄断。
 
 ## 工作风格与文化影响
-- **[[结对编程]]**：Jeff 与 Sanjay 长期坚持结对编程，两人并排坐在同一台电脑前工作，一人输入，一人审查。Jeff 曾表示：“当我和 Sanjay 一起工作时，我们共同写出的代码比我们任何一个人单独写的都要好。”
-- **个人特质**：被前同事评价为“聪明的那个”，擅长想出巧妙的技巧让系统变得更快。
-- **[[Jeff Dean Facts]]**：他是互联网著名迷因“Jeff Dean Facts”的主角，这些段子通过夸张的方式（如“编译器从不警告 Jeff Dean，是他在警告编译器”）表达了技术圈对他能力的敬畏。
+- **[[结对编程]]**：Jeff 与 Sanjay 长期坚持结对编程，两人并排坐在同一台电脑前工作，一人输入，一人审查。Jeff 曾表示："当我和 Sanjay 一起工作时，我们共同写出的代码比我们任何一个人单独写的都要好。"
+- **个人特质**：被前同事评价为"聪明的那个"，擅长想出巧妙的技巧让系统变得更快。
+- **[[Jeff Dean Facts]]**：他是互联网著名迷因"Jeff Dean Facts"的主角，这些段子通过夸张的方式（如"编译器从不警告 Jeff Dean，是他在警告编译器"）表达了技术圈对他能力的敬畏。
 
 ## 轶事
-- **人肉网站创建者**：当同事 [[Kenton Varda]] 匿名创建“Jeff Dean Facts”网站时，Jeff 仅用一两个小时通过查询服务器日志精准定位了作者。
+- **人肉网站创建者**：当同事 [[Kenton Varda]] 匿名创建"Jeff Dean Facts"网站时，Jeff 仅用一两个小时通过查询服务器日志精准定位了作者。
 - **高德纳坐地板**：在斯坦福举办的研讨会上，因听众爆满，图灵奖得主高德纳（Don Knuth）不得不坐在地板上听讲。

@@ -2,10 +2,10 @@
 type: entity
 title: Gemini 3.1 Pro
 tags: [google, llm, agent, model, gemini, multimodal, ai-model, code-generation, benchmark, reasoning, computer-use, 大语言模型, 推理模型, 模型, VLM, 安全, 评测, ai安全]
-related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash", "ai-权威清洗", "对抗样本", "bagen-预算意识评测基准", "预算意识", "harnessaudit", "能力-安全权衡"]
-sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md", "过程比结果更危险：从模型到harness，ai-agent的下半场该如何评测安全？.md"]
+related: ["google-deepmind", "deep-research-max", "test-time-compute", "gpt-5.4", "claude-opus-4-6", "arc-agi-2", "gpt-5-2", "姚顺宇", "svg-生成", "原生全模态输入", "qwen3-5-omni", "gpt-5.2", "google", "programbench", "claude-opus-4-7", "gpt-5-4", "gemini", "pareto-front", "saas-bench", "computer-use-agent", "alphaproof-nexus", "gemini-3-0-flash", "ai-权威清洗", "对抗样本", "bagen-预算意识评测基准", "预算意识", "harnessaudit", "能力-安全权衡", "claude-fable-5", "gpt-5-5"]
+sources: ["谷歌掀桌：深度研究智能体进入自动驾驶时代.md", "openai深夜祭出gpt-5.4，暴击claude！原生操控电脑，打工人悬了.md", "谷歌gemini-3.1-pro屠榜封神，清华姚顺宇出手！claude和gpt被逼入死角.md", "实测拿215项sota的qwen3.5-omni：摄像头一开，ai给我现场讲论文、撸代码.md", "刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "谷歌突发gemini-3.1-pro！首次采用「.1」版本号，推理性能×2的那种.md", "claude-通过率不到-4%，saas-bench-撕碎了-computer-use-的「全自动办公」幻想.md", "谷歌掀桌：深度研究研究智能体进入自动驾驶时代.md", "一个问题几百美元，deepmind智能体一次搞定了9个erdős问题.md", "ai权威清洗：-一张肉眼难辨的图片，就能让gpt-5.4、claude-opus-4.6集体造谣.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md", "过程比结果更危险：从模型到harness，ai-agent的下半场该如何评测安全？.md", "rss/刚刚，anthropic首个神话级claude-5正式解禁！.md"]
 created: 2026-04-30
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 # Gemini 3.1 Pro
@@ -60,6 +60,16 @@ Gemini 3.1 Pro 在企业级 AI 工作流中扮演关键底座角色，支撑了�
 | **LiveCodeBench Pro** | **2887 Elo** | (较低) | (较低) | - |
 | **Terminal-Bench 2.0** | **68.5%** | - | 64.7% (GPT-5.3-Codex) | - |
 | **APEX-Agents** | **33.5%** | 29.8% | 23.0% | - |
+
+### 与新一代旗舰模型的差距
+在 [[claude-fable-5|Fable 5]] 发布时的基准对比中，Gemini 3.1 Pro 作为参照对象出现，暴露出与新一代旗舰模型之间的显著差距：
+
+| 基准测试 | Gemini 3.1 Pro | Fable 5 | 差距 |
+| :--- | :--- | :--- | :--- |
+| **SWE-Bench Pro** | 54.2% | 80.3% | 26.1 个百分点 |
+| **HLE (人类最后考试)** | (被断层式领先) | Mythos 5 断层领先 | 显著 |
+
+Gemini 3.1 Pro 在编程和知识工作基准上与 [[gpt-5-5|GPT-5.5]] 和 Fable 5 存在显著差距，反映出 [[谷歌]] 在旗舰模型竞赛中面临的追赶压力。
 
 ### 代码生成与开发风格
 在 [[ProgramBench]] 测试中，Gemini 3.1 Pro 的平均通过率为 **36.6%**。分析显示其代码生成具有以下特征：

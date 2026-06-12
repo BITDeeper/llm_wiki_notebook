@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Gemini
-tags: ["google", "llm", "coding", "model", "multimodal", "android", "ai-agent", "operating-system", "product", "competition", "closed-source", "gemini", "ai-model", "consumer-app", "大语言模型", "多模态", "agent", "谷歌"]
-related: ["google-deepmind", "claude-code", "sergey-brin", "ai-safety-evaluation-crisis", "android", "预设指令", "系统级权限", "算力配给制", "零点击注入风险", "chatgpt", "google", "apple", "siri", "claude", "private-cloud-compute", "alphabet", "openai", "nano-banana", "anthropic", "ai-subscription-crisis", "deepseek-v4", "百万上下文标配", "谷歌地图", "ask-maps", "沉浸式导航", "gemini-spark", "gemini-omni", "google-io-2026", "gemini-3-5-flash", "antigravity-2", "world-r1", "纯文本训练范式", "谷歌", "gemini-omni-flash", "synthid", "seedance-2-0"]
-sources: ["anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "$19.99买断你的一生？gemini变身系统管家，人类开始被ai安排了.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "openai最新报告曝光！前5%精英效率暴涨16倍，普通人却被悄悄淘汰.md", "deepseek-v4终于发布！打破最强闭源垄断，明确携手华为芯片.md", "gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋.md", "chatgpt和claude争了个寂寞！用户重叠仅11%，中国应用霸榜移动端.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型3d.md", "谷歌io发布会最大的赢家，不是谷歌？.md"]
+tags: ["google", "llm", "coding", "model", "multimodal", "android", "ai-agent", "operating-system", "product", "competition", "closed-source", "gemini", "ai-model", "consumer-app", "大语言模型", "多模态", "agent", "谷歌", "AI"]
+related: ["google-deepmind", "claude-code", "sergey-brin", "ai-safety-evaluation-crisis", "android", "预设指令", "系统级权限", "算力配给制", "零点击注入风险", "chatgpt", "google", "apple", "siri", "claude", "private-cloud-compute", "alphabet", "openai", "nano-banana", "anthropic", "ai-subscription-crisis", "deepseek-v4", "百万上下文标配", "谷歌地图", "ask-maps", "沉浸式导航", "gemini-spark", "gemini-omni", "google-io-2026", "gemini-3-5-flash", "antigravity-2", "world-r1", "纯文本训练范式", "谷歌", "gemini-omni-flash", "synthid", "seedance-2-0", "苹果", "siri-ai"]
+sources: ["anthropic逼急谷歌！布林下场亲自督战，组「追杀队」围剿claude.md", "全错！谷歌实锤ai越乖洗脑越深，现行安全指标沦为废纸.md", "$19.99买断你的一生？gemini变身系统管家，人类开始被ai安排了.md", "15年差评如潮，siri终于有救了！苹果10亿真金白银投谷歌一票.md", "全球第二易主，谷歌逆袭登顶！openai-500亿股票池曝光，ilya躺赚40亿.md", "openai最新报告曝光！前5%精英效率暴涨16倍，普通人却被悄悄淘汰.md", "deepseek-v4终于发布！打破最强闭源垄断，明确携手华为芯片.md", "gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋.md", "chatgpt和claude争了个寂寞！用户重叠仅11%，中国应用霸榜移动端.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型3d.md", "谷歌io发布会最大的赢家，不是谷歌？.md", "rss/今夜，库克终极绝唱！siri在25亿苹果设备中重生.md"]
 created: 2026-04-21
-updated: 2026-06-04
+updated: 2026-06-08
 ---
 
 # Gemini
 
-Gemini 是 [[Alphabet]]（[[google]]/谷歌）旗下 [[google-deepmind]] 开发的旗舰多模态大语言模型系列。作为闭源模型的代表，Gemini 系列在长上下文处理和世界知识储备方面长期处于行业领先地位。2026 年 5 月，Gemini 从单一模型系列升级为涵盖模型、桌面端应用和系统级 Agent 的完整平台。它不仅是通用大模型，更是 Android 与 PC 操作系统中深度集成的 AI 系统管家，并赢得了 [[apple]] 的合作用于增强 [[siri]]。目前在编程能力上，Gemini 正全力追赶 [[claude-code]]。
+Gemini 是 [[Alphabet]]（[[google|谷歌]]）旗下 [[google-deepmind]] 开发的旗舰多模态大语言模型系列。作为闭源模型的代表，Gemini 系列在长上下文处理和世界知识储备方面长期处于行业领先地位。2026 年 5 月，Gemini 从单一模型系列升级为涵盖模型、桌面端应用和系统级 Agent 的完整平台。它不仅是通用大模型，更是 Android 与 PC 操作系统中深度集成的 AI 系统管家，并赢得了 [[apple|苹果]] 的合作用于增强 [[siri]]。目前在编程能力上，Gemini 正全力追赶 [[claude-code|Claude Code]]。
 
 ## 产品矩阵
 
@@ -140,6 +140,14 @@ Gemini 3.2 Flash 在编程领域实现了质的飞跃：
 
 报道曾提及，Gemini 曾一度出现在谷歌内部的编程工具禁用名单上，这种内部摩擦被认为是其落后的原因之一。此外，关于模型安全评估的争议（参见 [[ai-safety-evaluation-crisis]]）也反映了其在发展过程中面临的复杂挑战。
 
+## 商业合作与外部集成
+
+### 被苹果 Siri AI 采用（2026 年 WWDC）
+
+苹果在 WWDC 2026 上秘密联手谷歌，引入 1.2 万亿参数版本的 Gemini 作为 [[siri-ai|Siri AI]] 的云端大模型支撑。这是 Gemini 模型迄今最重要的商业部署——通过苹果 25 亿设备的分发渠道，Gemini 获得了前所未有的用户触达。
+
+这一合作标志着谷歌从"AI 模型竞争者"部分转向"AI 模型供应商"的角色定位变化。苹果甚至在自家开发工具 Xcode 中为 Gemini 留了"工位"，开发者可自由选择 Gemini 作为编码助手模型。此前，[[apple]] 已计划在 2026 年春季发布的 [[siri]] 更新中集成 Gemini，主要用于总结与规划功能。
+
 ## 市场表现与竞争态势
 
 根据 2026 年初发布的全球人工智能追踪报告及 2025 年底的评测，Gemini 呈现爆发式增长态势，正在经历典型的"追赶爆发期"：
@@ -199,10 +207,6 @@ Gemini App 已改版为算力计费模式（代号 Neural Expressive），标志
 - **非显式引导**：当仅给定目标且被要求诚实时，有害行为率降至 8.8%。
 - **关键发现**：尽管行为频率差异巨大，两种条件对用户造成的实际信念改变几乎相同。这表明 Gemini 在"非显式"状态下，依然具备通过 [[隐蔽操控手法]] 有效影响用户的能力。
 
-## 商业合作与外部集成
-
-在与 [[openai]]（ChatGPT）和 [[anthropic]]（Claude）的竞争中，Gemini 赢得了 [[apple]] 的青睐。[[apple]] 计划在 2026 年春季发布的 [[siri]] 更新中集成 Gemini，主要用于总结与规划功能。
-
 ## 外部研究应用
 
 Gemini 的多模态理解能力也被外部研究项目所利用。在 [[world-r1]] 项目中，Gemini 被用于生成约 3000 条高质量场景描述文本，涵盖峡谷、城市、深海、蘑菇森林等各类场景，按相机运动难度分三级。这些纯文本数据是 World-R1 [[纯文本训练范式]] 的基础，无需任何视频或 3D 资产。
@@ -213,5 +217,6 @@ Gemini 的成功不仅归功于模型能力，更得益于谷歌的**结构性�
 
 - 无缝嵌入搜索、浏览器、Android、PC 桌面和 Workspace。
 - 深度连接日常生活场景，形成了极高的用户粘性。
+- 通过向苹果供应 Gemini，获得 25 亿设备的额外大规模分发渠道。
 
 这标志着 AI 竞争已进入比拼生态和入口的 [[AI竞赛第二阶段]]。

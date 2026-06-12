@@ -2,15 +2,15 @@
 type: entity
 title: Reid Hoffman
 created: 2026-02-08
-updated: 2026-06-04
-tags: ["企业家", "投资人", "LinkedIn", "风险投资", "人物", "风投", "意见领袖"]
-related: ["jeffrey-epstein", "elon-musk", "mark-zuckerberg", "ed-boyden", "硅谷社交暗网", "voicepilled", "wispr-flow", "vibe-working"]
-sources: ["马斯克、小扎人设崩塌？爱泼斯坦合影流出，300万绝密文件撕开真相.md", "当办公室都在咕咕嘎嘎……打字，正在变成一种古老的技艺.md"]
+updated: 2026-06-09
+tags: ["企业家", "投资人", "LinkedIn", "风险投资", "人物", "风投", "意见领袖", "创业者", "AI投资", "tokenmaxxing"]
+related: ["jeffrey-epstein", "elon-musk", "mark-zuckerberg", "ed-boyden", "硅谷社交暗网", "voicepilled", "wispr-flow", "vibe-working", "tokenmaxxing", "openai"]
+sources: ["马斯克、小扎人设崩塌？爱泼斯坦合影流出，300万绝密文件撕开真相.md", "当办公室都在咕咕嘎嘎……打字，正在变成一种古老的技艺.md", "rss/奥特曼认输：全球第一，根本不在openai！.md"]
 ---
 
 # Reid Hoffman
 
-Reid Hoffman 是 LinkedIn 联合创始人、知名风险投资人，同时也是推动语音输入破圈的关键意见领袖。在爱泼斯坦案解密文件中，他的名字出现了 2,658 次，是所有科技精英中出现频率最高的一位。
+Reid Hoffman 是 LinkedIn 联合创始人、知名风险投资人和意见领袖，活跃于 AI 投资领域。在爱泼斯坦案解密文件中，他的名字出现了 2,658 次，是所有科技精英中出现频率最高的一位。
 
 ## 与爱泼斯坦的关系
 
@@ -23,3 +23,7 @@ Reid Hoffman 是 LinkedIn 联合创始人、知名风险投资人，同时也是
 2025年秋季，Hoffman 在 LinkedIn 上公开宣布自己已被 [[voicepilled]]，论证说用说话代替打字是计算机领域的下一次伟大飞跃。他的公开背书为 [[wispr-flow]] 等语音听写产品带来了巨大的关注度，也使"voicepilled"一词迅速成为抛弃键盘的文化符号。
 
 Hoffman 认为，当用户不再被"维多利亚时代的打字机遗产"（即键盘）束缚时，可以拥有更高的生产力和创造力。这一观点与 [[vibe-working]] 的核心理念高度一致。
+
+## 与 Tokenmaxxing 的关联
+
+Hoffman 公开支持 [[tokenmaxxing]] 理念，站在"多烧 Token 才能多产出"的一派。作为 [[openai|OpenAI]] 的重要投资者和支持者，其立场与奥特曼推动 Token 消耗的战略方向一致。

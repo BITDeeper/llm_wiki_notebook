@@ -2,15 +2,19 @@
 type: entity
 title: Claude Opus 4.8
 created: 2026-05-30
-updated: 2026-05-30
-tags: [ai模型, anthropic, claude, 基准测试, agent]
-related: [anthropic, gpt-5-5, the-veil-of-history, 单agent全栈交付, scaling-law]
-sources: ["opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md"]
+updated: 2026-06-11
+tags: ["ai模型", "anthropic", "claude", "基准测试", "agent", "model", "大语言模型", "旗舰模型", "大模型", "安全架构", "模型"]
+related: ["anthropic", "gpt-5-5", "the-veil-of-history", "单agent全栈交付", "scaling-law", "claude-fable-5", "mythos-5", "opus-4-7", "fable-5"]
+sources: ["opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md", "rss/刚刚，anthropic首个神话级claude-5正式解禁！.md", "opus-4.8连夜算尽1170亿人命运，一句话敲出人类投投胎模拟器！.md", "rss/神话级claude-5，登顶了！.md", "rss/fable-5一天干完两个月，这类工程师更值钱了.md", "rss/fable-5自带反蒸馏机制！检测到就降智，误触率高到离谱.md"]
 origin_date: 2026-05-28
 ---
 # Claude Opus 4.8
 
-[[anthropic]] 于2026年5月底推出的旗舰大语言模型，是 Claude 系列的最新一代。Opus 4.8 在发布后迅速登顶多个第三方基准测试榜单，标志着 Anthropic 在与 [[openai]] 的 [[ai王座拉锯战]] 中重新夺回领先地位。
+[[anthropic|Anthropic]] 于2026年5月底推出的旗舰大语言模型，是 Claude 系列的最新一代（后被 [[claude-fable-5|Fable 5]] 取代）。从 [[opus-4-7|Opus 4.7]] 到 4.8 间隔约42–43天，但 Opus 4.8 仅坐稳约11–12天王座即被 Fable 5 超越。Opus 4.8 在发布后迅速登顶多个第三方基准测试榜单，标志着 Anthropic 在与 [[openai]] 的 [[ai王座拉锯战]] 中重新夺回领先地位。
+
+## 发布节奏
+
+Opus 4.8 在 [[opus-4-7|Opus 4.7]] 发布约42天后推出，是 Anthropic 加速迭代节奏中的重要一环。其继任者 [[claude-fable-5|Claude Fable 5]]（首个 Mythos 级模型）仅在其发布约12天后便面世，标志着 [[发布间隔坍缩]] 现象的加剧。这体现了 AI 模型迭代周期从"代差"压缩为"以周计的拉锯"。
 
 ## 核心能力
 
@@ -21,7 +25,7 @@ Opus 4.8 最突出的突破不在于"聪明"，而在于"能独立干活"。它�
 - **Artificial Analysis 综合榜**：61.4分登顶，反超 [[gpt-5.5]]
 - **Humanity's Last Exam**：45.7%，领先第二名1分
 - **CritPt（前沿物理基准）**：超越 Gemini 3.1 Pro
-- **SWE-Bench Pro**：69.2%（GPT-5.5 为 58.6%，拉开十个百分点）
+- **SWE-Bench Pro**：69.2%（GPT-5.5 为 58.6%，拉开十个百分点；后继者 Fable 5 为 80.3%）
 - **GDPval-AA**：1890 Elo，甩开 GPT-5.5 约121分，正面单挑隐含胜率约67%
 - **平均交互轮数**：38次，显著低于竞品，表明更强的自主完成任务能力
 
@@ -34,8 +38,33 @@ Opus 4.8 最突出的突破不在于"聪明"，而在于"能独立干活"。它�
 
 ## 竞争格局
 
-Opus 4.8 的登顶是2026年春季 [[ai王座拉锯战]] 的最新回合。此前 [[gpt-5.5]] 在4月将 Opus 4.7 掀下榜首，一个多月后 Opus 4.8 完成反超。这标志着 AI 模型迭代周期从"代差"压缩为"以周计的拉锯"。
+Opus 4.8 的登顶是2026年春季 [[ai王座拉锯战]] 的最新回合。此前 [[gpt-5.5]] 在4月将 Opus 4.7 掀下榜首，一个多月后 Opus 4.8 完成反超。
+
+在 Fable 5 发布后，Opus 4.8 在多个评测榜单中被大幅超越：
+
+- **GDPval-AA**：Elo 被 Fable 5 的1932远远甩开
+- **OpenRouter 日 Token 量**：1470亿，被 Fable 5 的2050亿盖过
+- **Mechanize/GBA Eval**：战绩在 Fable 5 发布不到2小时后被超越
+
+## 定价
+
+Opus 4.8 定价为5美元/25美元每百万 Token（输入/输出）。Fable 5 的定价接近 Opus 4.8 的两倍，引发用户对按量收费策略的担忧。
+
+## 在 Claude 5 双模架构中的角色
+
+在 Claude 5 的双模架构中，Opus 4.8 承担安全降级角色——当 Fable 5 内置的 [[安全护栏回退|两阶段分类器]] 检测到网络安全、生物、化学等高风险话题时，用户会话会被自动路由回 Opus 4.8 处理。官方称超过95%的会话不会触发这种回退。
+
+这意味着：
+- 用户以为自己在用 Fable 5（Mythos 级别能力），实际上已经切换到 Opus 4.8
+- 切换发生在 Fable 的思考过程中，不会询问用户
+- Anthropic 自己承认，由于分类器在网络安全测试中几乎总会触发，Fable 5 在网络安全任务上的实际表现基本等同于 Opus 4.8
+
+Opus 4.8 在此架构中的定位是"安全兜底"——在 Fable 5 可能产生高风险输出的场景中，由更保守的模型接管处理。
+
+## 历史地位
+
+Opus 4.8 是 AI 模型迭代加速的标志性案例：作为上代旗舰仅维持约11–12天即被自家新模型超越，体现了 Anthropic 内部 [[递归式自我改进]] 循环的加速效应。
 
 ## 后续
 
-Anthropic 在发布 Opus 4.8 的同一天预告，[[mythos级模型]] 将在几周内对所有人开放，暗示更强大的模型即将到来。
+Anthropic 在发布 Opus 4.8 的同一天预告，[[mythos级模型]] 将在几周内对所有人开放，暗示更强大的模型即将到来。随后 [[claude-fable-5|Fable 5]] 正式解禁，成为新一代旗舰。

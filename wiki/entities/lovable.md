@@ -1,16 +1,16 @@
 ---
 type: entity
 title: Lovable
-tags: [company, ai-coding, vibe-coding, startup, 无代码开发, 全球top1]
-related: [cursor, 2025-ai-wealth-wave, 百度秒哒, vibe-coding, 第四次编程革命]
+tags: [company, ai-coding, vibe-coding, startup, 无代码开发, 全球top1, ai应用生成, 独角兽]
+related: [cursor, 2025-ai-wealth-wave, 百度秒哒, vibe-coding, 第四次编程革命, ai-产业链三层分类]
 created: 2025-12-28
-updated: 2026-05-28
-sources: ["碾压小扎！22岁成亿万富翁，2025年ai造富速度刷新人类认知.md", "ai正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单丨百度秒哒朱广翔-aigc2026.md"]
+updated: 2026-06-08
+sources: ["碾压小扎！22岁成亿万富翁，2025年ai造富速度刷新人类认知.md", "ai正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单丨百度秒哒朱广翔-aigc2026.md", "rss/100亿只是起步价？21家全球ai独角兽名单刷屏.md"]
 ---
 
 # Lovable
 
-全球排名第一的无代码开发软件平台，主打"氛围编程"（vibe coding）。与 [[百度秒哒]] 属于同一赛道，秒哒用户常称秒哒为"中国的 Lovable"。
+全球排名第一的 AI 全栈应用生成公司，主打"氛围编程"（vibe coding）的无代码开发平台。与 [[百度秒哒]] 属于同一赛道，秒哒用户常称秒哒为"中国的 Lovable"。在 [[deedy-das|Deedy Das]] 的 21 家 AI 独角兽名单中属于 [[ai-产业链三层分类|卖场景]]（应用层）类别。
 
 ## 商业模式
 
