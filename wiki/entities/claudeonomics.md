@@ -1,20 +1,22 @@
 ---
 type: entity
 title: Claudeonomics
-tags: [leaderboard, internal-tool, metric-gaming, case-study, meta, token追踪, 内部工具, tokenmaxxing]
-related: ["meta", "tokenmaxxing", "checkpoint", "ai-insights", "meshclaw", "goodhart-定律", "andrew-bosworth", "古德哈特定律"]
+tags: [leaderboard, internal-tool, metric-gaming, case-study, meta, token追踪, 内部工具, tokenmaxxing, meta内部排行榜, 企业文化]
+related: ["meta", "tokenmaxxing", "checkpoint", "ai-insights", "meshclaw", "goodhart-定律", "andrew-bosworth", "古德哈特定律", "企业ai成本治理"]
 created: 2026-04-26
-updated: 2026-05-25
-sources: ["刷token走火入魔！meta员工写外挂作弊冲榜，1个月烧掉200万美元.md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md"]
+updated: 2026-06-13
+sources: ["刷token走火入魔！meta员工写外挂作弊冲榜，1个月烧掉200万美元.md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md", "rss/员工骂高管、限token使用量、扎克伯格承认犯错：meta内部炸锅了.md"]
 ---
 
 # Claudeonomics
 
-Claudeonomics（"Claude经济学"）是 Meta 员工 Ash Bhat 独立搭建的内部 AI Token 使用追踪仪表盘，覆盖约 8.5 万名员工的 Token 消耗量，以排行榜形式展示前 250 名。该系统设有游戏化的段位体系（如铜牌、银牌、金牌、翡翠、永恒会话，最高为"Token 传奇"）。
+Claudeonomics（"Claude经济学"）是 [[meta|Meta]] 员工 Ash Bhat 独立搭建的内部 AI Token 使用追踪仪表盘，覆盖约 8.5 万名员工的 Token 消耗量，以排行榜形式展示前 250 名。该系统设有游戏化的段位体系（如铜牌、银牌、金牌、翡翠、永恒会话，最高为"Token 传奇"）。
+
+该排行榜在 2026 年春季催生了 [[tokenmaxxing]] 风潮，员工为了让 AI Agent 同时运行多个任务、尽可能增加 Token 消耗以冲榜而疯狂使用工具。随后该排行榜因引发严重浪费而被下线，成为企业 AI 治理失控的经典反面案例。
 
 ## 关键数据
 
-- **30 天累计消耗**：60 万亿 Token（约等于人类历史上所有出版书籍 Token 量的 3 倍）
+- **30 天累计消耗**：60.2 万亿 Token（约等于人类历史上所有出版书籍 Token 量的 3 倍），后升至 73.7 万亿个
 - **顶级用户**：单个用户最高消耗达 2810 亿至 3285 亿 Token，按 Anthropic 公开定价估算成本接近 200 万美元
 - **扎克伯格排名**：未进入前 250 名
 - **CTO Andrew Bosworth 排名**：同样未进入前 250 名

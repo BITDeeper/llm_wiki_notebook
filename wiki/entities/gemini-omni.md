@@ -2,20 +2,22 @@
 type: entity
 title: Gemini Omni
 created: 2026-05-20
-updated: 2026-05-22
+updated: 2026-06-14
 tags: ["google", "世界模型", "多模态", "视频生成", "视频编辑", "ai模型", "gemini", "全能生成模型", "谷歌", "全模态", "ai视频生成", "多模态模型", "大模型"]
-related: ["google-deepmind", "gemini", "世界模型-ai", "模态互相喂养", "avatar-flow", "synthid", "原生理解生成统一", "全能生成模型", "veo", "sensenova-u1", "gemini-3-5-flash", "google-io-2026", "sora", "原生多模态视频生成", "视频文本一致性", "实时视频编辑", "谷歌io-2026", "sora-停服事件-20260426", "谷歌"]
-sources: ["全网实测gemini-omni！一句话改视频，草图变大片.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "谷歌全新gemini-omni首曝，视频版「香蕉」来了！教授黑板推公式全对.md", "io大会开完，谷歌连搜索框都变智能体了.md"]
+related: ["google-deepmind", "gemini", "世界模型-ai", "模态互相喂养", "avatar-flow", "synthid", "原生理解生成统一", "全能生成模型", "veo", "sensenova-u1", "gemini-3-5-flash", "google-io-2026", "sora", "原生多模态视频生成", "视频文本一致性", "实时视频编辑", "谷歌io-2026", "sora-停服事件-20260426", "谷歌", "thinking-with-video"]
+sources: ["全网实测gemini-omni！一句话改视频，草图变大片.md", "首个gemini桌面端曝光，系统级agent空降pc！.md", "gemini-3.5来了！今夜，谷歌亲手淘汰谷歌.md", "谷歌全新gemini-omni首曝，视频版「香蕉」来了！教授黑板推公式全对.md", "io大会开完，谷歌连搜索框都变智能体了.md", "rss/视频生成作为多模态推理新范式-cvpr-2026.md"]
 origin_date: 2026-05-11
 ---
 
 # Gemini Omni
 
-Gemini Omni 是 [[google-deepmind|Google DeepMind]] 于 2026 年 5 月 20 日在 [[google-io-2026]] 大会上正式发布的全新[[世界模型-ai|世界模型]]，内部代号为 **Veo4 Omni**（模型 ID：`fbard_eac_video_generation_omni`）。由 DeepMind 负责人 Demis Hassabis 亲自登台宣布。它将**文字、图片、视频**三大生成能力合并到一个统一的模型中，被报道称为"业界第一个真正意义上的[[全能生成模型]]"。Omni 可接收任意形式的输入（图片、音频、视频、文字），生成任意内容，首发支持视频输出。Omni 标志着 AI 从预测文本转向模拟现实的战略转向。
+Gemini Omni 是 [[google-deepmind|Google DeepMind]]（[[谷歌]]）于 2026 年 5 月 20 日在 [[google-io-2026]] 大会上正式发布的全新[[世界模型-ai|世界模型]]，内部代号为 **Veo4 Omni**（模型 ID：`fbard_eac_video_generation_omni`）。由 DeepMind 负责人 Demis Hassabis 亲自登台宣布。它将**文字、图片、视频**三大生成能力合并到一个统一的模型中，被报道称为"业界第一个真正意义上的[[全能生成模型]]"。Omni 可接收任意形式的输入（图片、音频、视频、文字），生成任意内容，首发支持视频输出。Omni 标志着 AI 从预测文本转向模拟现实的战略转向。
 
 ## 泄露背景
 
 2026 年 5 月 11 日左右，Gemini 移动端 App 截图和 API 模型 ID 流出。泄露时间点恰在 [[sora-停服事件-20260426]] 两周后、[[谷歌io-2026]]（5 月 19 日）开幕前一周，被外界视为"精准卡位"。早期测试显示额度消耗非常快。更早的泄露显示 Gemini 视频生成页面出现"Powered by Omni"标签，与现有 Veo 3.1（代号"Toucan"）并列出现。I/O 预热视频中的 AI 生成内容（10s 经典梗图、8s 真人预告）被猜测由 Omni 完成。
+
+社交平台 X 上网友曝光的"教授在黑板上推导数学公式"视频效果惊艳，进一步引发了业界对视频生成模型文本推理能力的广泛关注。
 
 ## 核心定位
 
@@ -75,6 +77,10 @@ Omni 不只是"看起来像"，而是真正理解物理世界：
 2. **场景续写**：从未显式训练过续写任务，但模型能自然延续故事并保持场景一致性
 
 这些涌现能力体现了 [[模态互相喂养]] 的核心洞察——不同模态联合训练时，学会一种模态的能力会反哺其他模态。
+
+## 学术关联：Thinking with Video 范式
+
+Omni 的视频文本推理能力（如教授黑板推公式 demo）引发了业界对"视频生成作为多模态推理新范式"的广泛关注。然而，[[复旦大学邱锡鹏团队]]指出，他们提出并系统性评测 [[thinking-with-video|Thinking with Video]] 范式的时间实际上早于 Gemini Omni 曝光该能力的时间点。
 
 ## 技术规格
 

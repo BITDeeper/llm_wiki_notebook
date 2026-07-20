@@ -3,21 +3,21 @@ type: event
 title: Fable 5发布
 created: 2026-06-10
 updated: 2026-06-12
-tags: [anthropic, 模型发布, ai编程, 范式转移, 旗舰模型, 2026年6月]
-related: [claude-fable-5, mythos-5, claude-code, anthropic, 从监工到产品经理, claude-opus-4-8, project-glasswing, ai-subscription-crisis, anthropic暂停研发提案-20260604, 双万亿ipo赛跑-2026q3]
+tags: [anthropic, 模型发布, ai编程, 范式转移, 旗舰模型, 2026年6月, fable-5, mythos, 编码]
+related: [claude-fable-5, mythos-5, claude-code, anthropic, 从监工到产品经理, claude-opus-4-8, project-glasswing, ai-subscription-crisis, anthropic暂停研发提案-20260604, 双万亿ipo赛跑-2026q3, fable-5, gpt-5.5, andrej-karpathy, openai-token降价讨论-20260612]
 origin_date: 2026-06-10
 participants: [anthropic, andrej-karpathy, claude-code]
 causes: [mythos-5泄露事件-202606, anthropic-s1秘密提交-20260601]
-effects: [从监工到产品经理, ai-subscription-crisis]
+effects: [从监工到产品经理, ai-subscription-crisis, openai-token降价讨论-20260612]
 significance: high
 time_span:
   start: 2026-06-10
   end: null
-sources: ["rss/fable-5一天干完两个月，这类工程师更值钱了.md", "rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md"]
+sources: ["rss/fable-5一天干完两个月，这类工程师更值钱了.md", "rss/刚刚，claude最强模型fable-5发布：性能爆炸，价格翻倍.md", "rss/openai即将开启token大降价！.md"]
 ---
 # Fable 5发布
 
-2026年6月10日，[[anthropic|Anthropic]]正式发布[[claude-fable-5|Claude Fable 5]]和[[mythos-5|Claude Mythos 5]]两款旗舰模型，同时确认两者为同一底层模型的孪生关系。这是Anthropic有史以来最强大的模型发布，标志着AI编程从辅助工具向自治工程代理的范式跃迁，也是Anthropic在[[双万亿ipo赛跑-2026q3|IPO前沿]]（计划10月上市）展示技术实力的关键节点。
+2026年6月10日，[[anthropic|Anthropic]]正式发布[[claude-fable-5|Claude Fable 5]]和[[mythos-5|Claude Mythos 5]]两款旗舰模型，同时确认两者为同一底层模型的孪生关系。Fable 5是首个面向公众的Mythos级模型，也是Anthropic有史以来最强大的模型发布，标志着AI编程从辅助工具向自治工程代理的范式跃迁，更是Anthropic在[[双万亿ipo赛跑-2026q3|IPO前沿]]（计划10月上市）展示技术实力的关键节点。
 
 ## 背景
 
@@ -39,9 +39,10 @@ sources: ["rss/fable-5一天干完两个月，这类工程师更值钱了.md", "
 ### Claude Fable 5
 
 - 面向全渠道开放的大众版旗舰模型
+- 与Mythos 5共享底层架构，但加装安全护栏：涉及网络安全、生物和化学的请求会自动回退到前代模型[[claude-opus-4-8|Opus 4.8]]
 - 配备[[模型安全降级机制|安全降级机制]]（95%对话不触发）
 - [[蒸馏防护]]：禁止用于开发新大模型
-- 定价：输入$10/百万Token，输出$50/百万Token
+- 定价：输入$10/百万Token，输出$50/百万Token，是[[gpt-5.5|GPT-5.5]]的两倍
 
 ### Claude Mythos 5
 
@@ -54,7 +55,16 @@ sources: ["rss/fable-5一天干完两个月，这类工程师更值钱了.md", "
 
 - **速率限制清零**：所有用户的5小时和每周速率限制全部清零
 - **6月10日至22日**：Pro、Max、Team及企业版免费使用Fable 5
-- **6月23日起**：从订阅方案移除，需消耗额度
+- **6月23日起**：从订阅方案移除，转为Usage Credits单独计费
+
+## 性能突破
+
+在核心编码基准上对GPT-5.5形成代际碾压：
+
+- **SWE-bench Pro**：80.3% vs 58.6%（差距22个百分点）
+- **FrontierCode Diamond**：29.3% vs 5.7%（约五倍差距）
+
+[[andrej-karpathy|Andrej Karpathy]]称其为"值得大版本号跳跃的阶梯式飞跃"。
 
 ## 核心影响
 
@@ -68,7 +78,7 @@ Claude Code新增[[dynamic-workflows|Dynamic workflows]]（单次最多1000智�
 
 ### 标杆案例
 
-[[stripe|Stripe]]的5000万行Ruby代码库全库迁移：人工两个多月 → Fable 5一天完成。
+[[stripe|Stripe]]使用Fable 5在一天内完成了5000万行Ruby代码库迁移，此前估计需要一个团队干两个多月。
 
 ## 叙事矛盾
 
@@ -76,10 +86,12 @@ Claude Code新增[[dynamic-workflows|Dynamic workflows]]（单次最多1000智�
 
 ## 竞争影响
 
+- GPT-5.5在4月发布时刚帮[[codex|Codex]]追平甚至反超Claude Code的多项基准优势，仅七周后Fable 5又把差距拉开
 - Fable 5发布进一步巩固[[ai创业收入双寡头格局|AI创业收入双寡头格局]]
 - 定价翻倍在[[token末日|Token末日]]背景下加剧企业成本治理压力，引发[[ai-subscription-crisis|AI订阅危机]]
+- Fable 5的发布直接触发了[[openai|OpenAI]]的[[token价格战|Token降价讨论]]（[[openai-token降价讨论-20260612]]）
 - GPT-5.6传闻同周发布，双寡头军备竞赛进一步升级
 
 ## 因果链
 
-[[anthropic-s1秘密提交-20260601|Anthropic S-1秘密提交]]（6月1日）→ [[mythos-5泄露事件-202606|Mythos 5泄露]]（6月初）→ [[anthropic暂停研发提案-20260604|Anthropic呼吁暂停研发]]（6月4日）→ Fable 5/Mythos 5官方发布（6月10日）→ 媒体解读与最佳实践传播
+[[anthropic-s1秘密提交-20260601|Anthropic S-1秘密提交]]（6月1日）→ [[mythos-5泄露事件-202606|Mythos 5泄露]]（6月初）→ [[anthropic暂停研发提案-20260604|Anthropic呼吁暂停研发]]（6月4日）→ Fable 5/Mythos 5官方发布（6月10日）→ 媒体解读与最佳实践传播 → OpenAI Token降价讨论

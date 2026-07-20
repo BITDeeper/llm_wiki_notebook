@@ -1,16 +1,16 @@
 ---
 type: entity
 title: DeepSeek V4 Pro
-tags: [deepseek, llm, model-variant, 大模型, 推理优化, moe, 万亿参数]
-related: [deepseek-v4, deepseek-v4-flash, agentic-coding, deepseek, deepgemm, 批次不变性, deepseek-api永久降价, orbit, rl-post-training]
+tags: [deepseek, llm, model-variant, 大模型, 推理优化, moe, 万亿参数, 大语言模型, 高性价比]
+related: [deepseek-v4, deepseek-v4-flash, agentic-coding, deepseek, deepgemm, 批次不变性, deepseek-api永久降价, orbit, rl-post-training, fusion-多模型融合方案, openrouter]
 created: 2026-04-25
-updated: 2026-05-28
-sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，熟悉的d老师也回来了.md", "融资700亿元的deepseek，api价格直降34.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md"]
+updated: 2026-06-14
+sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，熟悉的d老师也回来了.md", "融资700亿元的deepseek，api价格直降34.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md", "rss/平替版fable-5的打开教程来了：性能追平，成本砍半.md"]
 ---
 
 # DeepSeek V4 Pro
 
-[[DeepSeek V4 Pro]] 是 [[DeepSeek V4]] 系列中最大的变体，拥有 1.6T（万亿级）参数，采用 MoE（混合专家）架构。该版本主打强推理与编程能力，在模型性能保持全球顶尖的同时，通过独创的注意力架构、并行策略和显存量化带来了极低的推理成本。根据官方说法，该版本在 Agentic 编程能力上达到了开源模型的最佳水平。
+[[DeepSeek V4 Pro]] 是 [[DeepSeek V4]] 系列中最大的变体，拥有 1.6T（万亿级）参数，采用 MoE（混合专家）架构。该版本主打强推理与编程能力，在模型性能保持全球顶尖的同时，通过独创的注意力架构、并行策略和显存量化带来了极低的推理成本，成为该系列中的高性价比版本。根据官方说法，该版本在 Agentic 编程能力上达到了开源模型的最佳水平。
 
 ## 技术特点
 
@@ -18,6 +18,12 @@ sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，�
 - **独创注意力架构**：具体细节尚未公开，但被认为是推理成本大幅下降的关键。
 - **并行策略优化**：与 [[批次不变性]] 理念一脉相承，在保证确定性的前提下优化计算效率。
 - **显存量化**：通过降低精度减少显存占用，进一步压缩推理成本。
+
+## 定价与成本优势
+
+V4 Pro 的极低推理成本是 [[deepseek-api永久降价|API 永久降价]] 的技术基础。降价后价格降至国际同级别模型（[[gpt-5.5]]、Claude Opus 4.7）的不到 1/10，以人民币计价，对全球开发者极具吸引力。
+
+经过永久降价后，该模型百万输入 Token 仅需 0.44 美元，百万输出 Token 为 0.87 美元，在市场上具有极强的成本竞争力。
 
 ## 实测表现
 
@@ -37,9 +43,9 @@ sources: ["不愧是deepseek！v4一手实测：推理编程能力给到夯，�
 
 这一结果也揭示了系统验证与效果验证是不同层面的问题——"能跑"不等于"有效"。
 
-## 定价影响
+## 多模型编排应用
 
-V4 Pro 的极低推理成本是 [[deepseek-api永久降价|API 永久降价]] 的技术基础。降价后价格降至国际同级别模型（[[gpt-5.5]]、Claude Opus 4.7）的不到 1/10，以人民币计价，对全球开发者极具吸引力。
+在 [[openrouter|OpenRouter]] 的 [[fusion-多模型融合方案|Fusion 融合实验]]中，DeepSeek V4 Pro 作为核心平价组件，与 [[kimi-k2-6|Kimi K2.6]] 和 [[gemini-3-flash|Gemini 3 Flash]] 共同组成了"平替版 [[claude-fable-5|Fable 5]]"阵容，证明了其在多模型编排架构中作为高性价比"平替"组件的实际应用价值。
 
 ## 适用场景
 

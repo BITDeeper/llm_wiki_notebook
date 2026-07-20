@@ -1,16 +1,12 @@
 ---
 type: entity
-title: DAPO
-tags: [算法, 强化学习]
-related: [microcoder, grpo]
-created: 2026-03-29
-updated: 2026-03-29
-sources: ["打破代码大模型训练瓶颈：微软&剑桥&普林推出microcoder，算法、数据、框架、训练经验全面升级.md"]
+title: DAPO (Dynamic Policy Optimization)
+created: 2026-06-15
+updated: 2026-06-15
+tags: ["算法", "强化学习", "强化学习算法", "大模型训练"]
+related: ["microcoder", "grpo", "可验证奖励的强化学习", "dyco-rl"]
+sources: ["打破代码大模型训练瓶颈：微软&剑桥&普林推出microcoder，算法、数据、框架、训练经验全面升级.md", "rss/dyco-rl：动态跨模态协同学习让多模态大模型“看得准也想得清”.md"]
 ---
+# DAPO (Dynamic Policy Optimization)
 
-# DAPO
-
-[[DAPO]] 是一种强化学习算法，作为基线被 [[MicroCoder]] 项目对比和超越。
-
-## 与 MicroCoder 的关系
-MicroCoder-GRPO 借鉴了 DAPO 去除 KL 散度的设计思路，并在此基础上进一步优化了裁剪比率和掩码策略。实验表明，MicroCoder-GRPO 在 LeetCode 等基准上相比 DAPO 取得了明显的性能提升。
+DAPO（动态策略优化）是用于大模型推理增强的强化学习算法之一。[[dyco-rl|DyCo-RL]] 框架在实验中证明，其基于 Fisher-Rao 距离的动态优势重加权机制可以无缝接入 DAPO，有效解决其在多模态视觉推理中 Token 级学习信号“一刀切”的问题。

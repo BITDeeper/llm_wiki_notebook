@@ -1,11 +1,11 @@
 ---
 type: entity
 title: OpenRouter
-tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合, ai, 数据分析, token, api聚合平台, ai基础设施]
-related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载, step-3.7-flash, step-3.5-flash, aa榜, token末日, claude-fable-5, anthropic, opus-4-8]
+tags: [platform, api, inference, marketplace, platforms, ai-aggregation, api-aggregation, analytics, 平台, 大模型, 开发者工具, ai平台, 推理路由, 中间层, 融资, token经济, 模型平台, 排行榜, Token统计, 模型聚合, ai, 数据分析, token, api聚合平台, ai基础设施, 路由, 多模型融合]
+related: [tokenomics, token-budget, aaas, pony-alpha, 匿名盲测式发布, claude, deepseek, a16z, 杰文斯悖论, 水晶鞋效应, qwen3.7-max, token作为生产资料, tokenmaxxing, alex-atallah, ai推理路由, stripe, ai产业链价值分配, deepseek-v4, hermes-agent, openclaw, agent-推理负载, step-3.7-flash, step-3.5-flash, aa榜, token末日, claude-fable-5, anthropic, opus-4-8, fusion-多模型融合方案, draco-深度研究基准测试集]
 created: 2026-03-20
-updated: 2026-06-11
-sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md", "rss/内蒙跑通ai逆袭新解法.md", "rss/神话级claude-5，登顶了！.md"]
+updated: 2026-06-14
+sources: ["黄仁勋，开启智元（token）时代.md", "pony-alpha新模型炸场！全球「猜爹大赛」开启.md", "100万亿token看懵硅谷！全球一半算力写代码，另一半在「搞颜色」-？.md", "520，遇见国产「新模王」qwen3.7-max！.md", "月吞100万亿token！ai中转站openrouter赚爆了.md", "deepseek狂吞17万亿tokens？国产ai算力，最关键一战来了！.md", "老黄刚夸完openclaw，hermes反手把智能体搬进电脑桌面.md", "阶跃step-3.7-flash登顶aa榜：速度、性价比、端到端三项第一.md", "rss/内蒙跑通ai逆袭新解法.md", "rss/神话级claude-5，登顶了！.md", "rss/平替版fable-5的打开教程来了：性能追平，成本砍半.md"]
 ---
 
 # OpenRouter
@@ -54,6 +54,10 @@ OpenRouter 引入了支持"隐身模型"的功能，这使得模型开发者可�
 
 #### Pony Alpha 事件
 2026 年 2 月，OpenRouter 上线了匿名模型 [[pony-alpha]]。由于没有官方背书和营销，用户完全基于模型的实际表现（编程、推理能力）进行评价。这一事件不仅引爆了技术圈，也确立了 OpenRouter 作为新型模型发布渠道的地位。
+
+### Fusion 多模型融合实验
+
+2026 年 6 月，OpenRouter 主导了一项重要的 [[fusion-多模型融合方案|Fusion 多模型融合]]实验，验证了通过编排调度多个高性价比模型（如 [[deepseek-v4-pro|DeepSeek V4 Pro]]、[[gemini-3-flash|Gemini 3 Flash]] 等）可以在性能上追平旗舰级单体模型，同时大幅降低使用成本。这一实验为当时正处于 [[token末日|Token 成本危机]] 中的 AI 应用层提供了一种通过智能编排而非单纯降级模型来解决成本问题的新思路。
 
 ## 战略资产：模型排行榜
 

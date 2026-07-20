@@ -1,0 +1,18 @@
+---
+type: entity
+title: 斯坦福大学
+created: 2026-06-10
+updated: 2026-06-10
+tags: ["学术研究", "具身智能", "3d视觉", "学术机构", "大学", "斯坦福", "AI研究", "美国", "计算机视觉"]
+related: ["3d-generalist", "吴佳俊", "密歇根大学", "agentic-coding-token消耗分析", "得克萨斯大学奥斯汀分校", "李飞飞", "gpic", "alexnet", "imagenet", "赵哲", "autogenesis-protocol-agp", "w-flow", "jiaqi-han", "puheng-li", "bagen-预算意识评测基准", "西北大学", "康奈尔大学", "伊利诺伊大学香槟分校", "meta", "code-as-agent-harness"]
+sources: ["老黄万亿美元梦成真，英伟达版「世界模型」震撼问世.md", "花了1000倍的token，效果可能却没有更好：ai-agent的“隐性账单”长什么样.md", "李飞飞造了imagenet，现在她又带人超越了它.md", "leetcode-c++近满分！autogenesis要给智能体装上「自进化操作系统」.md", "百万规模数据集已经不够用了！斯坦福开源-gpic：28-万亿像素、1-亿张合规图像，视觉生成步入"大语料"时代.md", "一步生成-imagenet-fid-1.29！斯坦福用-wasserstein-梯度流重写一步生成模型.md", "一个月烧掉5亿美元账单之后：这项研究在问，agent到底知不知道自己花了多少.md", "rss/claude-code爆火背后的agent-harness底层逻辑，uiuc、meta、斯坦福深度解读.md"]
+---
+# 斯坦福大学
+
+## 基本信息
+
+美国顶尖私立研究型大学，人工智能领域传统重镇。
+
+## AI Agent研究
+
+2026年5月，斯坦福大学联合[[伊利诺伊大学香槟分校]]（UIUC）和[[meta|Meta]]发布102页综述论文《Code as Agent Harness》（arXiv: 2605.18747），参与提出[[code-as-agent-harness|代码作为智能体执行系统]]理论框架。

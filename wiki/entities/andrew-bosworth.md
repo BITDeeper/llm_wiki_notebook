@@ -1,34 +1,44 @@
 ---
 type: entity
 title: Andrew Bosworth
-tags: [人物, meta, cto, 安全, meta高管]
-related: [meta, moltbook, 平台完整性检查, meta-2026裁员潮, 马克·扎克伯格, claudeonomics, tokenmaxxing]
+tags: [人物, meta, cto, 安全, meta高管, ai转型]
+related: [meta, moltbook, 平台完整性检查, meta-2026裁员潮, 马克·扎克伯格, claudeonomics, tokenmaxxing, 企业ai成本治理]
 created: 2026-03-11
-updated: 2026-05-28
-sources: ["龙虾社交上线40天被facebook收购！俩文科创始人加入超级智能实验室.md", "小扎凌晨4点裁员8000人，一切为了ai.md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md"]
+updated: 2026-06-13
+sources: ["龙虾社交上线40天被facebook收购！俩文科创始人加入超级智能实验室.md", "小扎凌晨4点裁员8000人，一切为了ai.md", "30天烧掉60万亿，扎克伯格没进前250：大厂ai沦为kpi游戏.md", "1个ai天才值1亿美元？meta抢人不是疯，45年前一篇论文早算清了.md", "rss/员工骂高管、限token使用量、扎克伯格承认犯错：meta内部炸锅了.md"]
 ---
 
-# Andrew Bosworth
+# Andrew Bosworth（博斯沃思）
 
-[[Andrew Bosworth]] 是 [[Meta]] 的首席技术官（CTO）。
+[[Andrew Bosworth]]（博斯沃思）是 [[Meta]] 的首席技术官（CTO）。
 
 ## 2026 裁员期间的表态
 
 在2026年裁员期间的一场内部问答中，面对员工对企业文化的担忧，他直言不讳地表示："这确实很糟糕，我不想试图去粉饰它。"这一表态与 CEO [[马克·扎克伯格]] 的"成功并非理所当然"叙事形成微妙对比。
 
+## 对 Token 刷量的立场与转变
+
+### 公开力挺
+
+在 Meta 内部 [[claudeonomics]] 排行榜被媒体报道后，Bosworth 在 Forbes 上公开为 [[tokenmaxxing|Token 刷量]]行为站台。他声称公司最优秀的工程师花掉相当于自己一年工资的 Token，效率却提升了 5 到 10 倍，并表示："这就像白送钱，继续刷，不设上限。"
+
+值得注意的是，Bosworth 本人未进入 Claudeonomics 排行榜前 250 名。
+
+### 态度转向：发布内部备忘录叫停浪费
+
+在2026年Meta内部AI转型危机中，Bosworth的态度发生明显转变。他于4月发布内部备忘录，试图叫停员工浪费性的AI Token使用行为。他明确指出：
+
+> "任何人都不应该为了使用AI工具而使用AI工具。所有动作并不都代表进展，单纯的Token使用量也不能衡量任何形式的影响力。"
+
+## AI 转型举措
+
+同一份备忘录中，Bosworth还透露Meta正在通过一项名为 **Agent Transformation Accelerator** 的计划，围绕AI Agent重组内部工作，推动现有碎片化的AI工具走向统一。
+
 ## 对"1亿美元签字费"传闻的澄清
 
 在公司全员会议（流出版本）上，Bosworth 澄清了关于"1亿美元签字费"的传闻，表示可能有极少数高级领导层职位的总薪酬包接近该量级，但并非"签字费"，而是由 RSU、年薪和绩效奖金构成的多年总薪酬包。
 
-## 对 Token 刷量的立场
-
-在 Meta 内部 [[claudeonomics]] 排行榜被媒体报道后，Bosworth 在 Forbes 上公开为 [[tokenmaxxing|Token 刷量]]行为站台。
-
-他声称公司最优秀的工程师花掉相当于自己一年工资的 Token，效率却提升了 5 到 10 倍，并表示："这就像白送钱，继续刷，不设上限。"
-
-值得注意的是，Bosworth 本人未进入 Claudeonomics 排行榜前 250 名。
-
-## 观点与评价
+## 对外部产品的观点与评价
 
 在 [[Moltbook]] 爆红期间，他公开评价了该平台：
 

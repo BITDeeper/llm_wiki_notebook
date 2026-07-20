@@ -37829,6 +37829,1612 @@
         "wiki/concepts/参数高效微调.md",
         "wiki/concepts/密集细胞核实例分割与分类.md"
       ]
+    },
+    "rss/openai突然收购！500万人codex，永不下线.md": {
+      "hash": "3cb623214186c22a0dffe50c1997d484e0f8c33f6c5703f997302e4cdef02375",
+      "timestamp": 1781246382086,
+      "filesWritten": [
+        "wiki/sources/3-rss--122-openai%E7%AA%81%E7%84%B6%E6%94%B6%E8%B4%AD%EF%BC%81500%E4%B8%87%E4%BA%BAcodex%EF%BC%8C%E6%B0%B8%E4%B8--20atle.md",
+        "wiki/entities/ona.md",
+        "wiki/entities/gitpod.md",
+        "wiki/events/openai-收购-ona.md",
+        "wiki/concepts/安全云执行与编排.md",
+        "wiki/concepts/客户自控执行.md",
+        "wiki/concepts/永不下线agent.md",
+        "wiki/concepts/ai-agent工作空间.md",
+        "wiki/concepts/模型能力拉平至基础设施护城河.md"
+      ]
+    },
+    "rss/刚刚，地表最强claude-5被攻破！.md": {
+      "hash": "3e14374c03632d477ec594c80a0e8803b872d299b9e21fe4dac8ddbbb6bb407a",
+      "timestamp": 1781246404385,
+      "filesWritten": [
+        "wiki/sources/3-rss--107-%E5%88%9A%E5%88%9A%EF%BC%8C%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BAclaude-5%E8%A2%AB%E6%94%BB%E7%A0%B4%EF--wu51d2.md"
+      ]
+    },
+    "rss/openai即将开启token大降价！.md": {
+      "hash": "a99f97243dc3b9398bb8eb434dc0dc940369769dda519b517a044490b68aa976",
+      "timestamp": 1781247509067,
+      "filesWritten": [
+        "wiki/sources/3-rss--83-openai%E5%8D%B3%E5%B0%86%E5%BC%80%E5%90%AFtoken%E5%A4%A7%E9%99%8D%E4%BB%B7%EF%BC%81--1ko3sc2.md",
+        "wiki/entities/fable-5.md",
+        "wiki/concepts/token价格战.md",
+        "wiki/concepts/project-glasswing.md",
+        "wiki/concepts/有效计算指数.md",
+        "wiki/events/openai-token降价讨论-20260612.md",
+        "wiki/events/fable-5发布.md"
+      ]
+    },
+    "rss/北大联手让ai跨界「造物」，业界最强复合纤维诞生！.md": {
+      "hash": "6482a6ee29ba15afabb79f759e4346924398291553b554df301301443353f49f",
+      "timestamp": 1781248057349,
+      "filesWritten": [
+        "wiki/sources/3-rss--209-%E5%8C%97%E5%A4%A7%E8%81%94%E6%89%8B%E8%AE%A9ai%E8%B7%A8%E7%95%8C%E3%80%8C%E9%80%A0%E7%89%A9%E3%80--19unm6u.md",
+        "wiki/entities/鼎犀智创.md",
+        "wiki/entities/rhinoai.md",
+        "wiki/entities/carbonkylin.md",
+        "wiki/entities/北京大学深圳研究生院新材料学院.md",
+        "wiki/entities/北京大学人工智能研究院.md",
+        "wiki/concepts/物质编译科学与工程.md",
+        "wiki/concepts/跨尺度性能退化.md",
+        "wiki/concepts/physical-ai.md",
+        "wiki/concepts/agentic自驱动材料研发.md",
+        "wiki/events/carbonkylin发布-202606.md"
+      ]
+    },
+    "rss/icml-2026-观点论文-transformer-能解决任意可计算问题？人大团队指出上限取决于上下文管理.md": {
+      "hash": "0005e4405575230c855e41174f52ffb8609ffb34ca25363b437c410ee4c957b5",
+      "timestamp": 1781248646996,
+      "filesWritten": [
+        "wiki/sources/3-rss--302-icml-2026-%E8%A7%82%E7%82%B9%E8%AE%BA%E6%96%87-transformer-%E8%83%BD%E8%A7%A3%E5%86%B3%E4%BB%BB%E6%84--6uck81.md",
+        "wiki/concepts/上下文管理.md",
+        "wiki/concepts/固定系统vs缩放族.md",
+        "wiki/concepts/三元组tdc系统框架.md",
+        "wiki/entities/中国人民大学高瓴人工智能学院.md",
+        "wiki/entities/魏哲巍.md"
+      ]
+    },
+    "rss/cvpr-2026-视觉脑机迈向双向交互！神经流模型-neuroflow-打通视觉与神经的双向通道.md": {
+      "hash": "2055c4782fdeeb49fc8ea4373b1a2034538b865b1af08ea9e5dd701882a708f5",
+      "timestamp": 1781249438013,
+      "filesWritten": [
+        "wiki/sources/3-rss--273-cvpr-2026-%E8%A7%86%E8%A7%89%E8%84%91%E6%9C%BA%E8%BF%88%E5%90%91%E5%8F%8C%E5%90%91%E4%BA%A4%E4%BA%92--1md3fyh.md",
+        "wiki/entities/neuroflow.md",
+        "wiki/concepts/视觉-神经双向建模.md",
+        "wiki/concepts/neurovae.md",
+        "wiki/concepts/xfm-跨模态流匹配.md",
+        "wiki/entities/上海人工智能实验室.md",
+        "wiki/entities/香港大学.md",
+        "wiki/entities/香港中文大学.md",
+        "wiki/events/neuroflow发布.md"
+      ]
+    },
+    "rss/anthropic警告的递归ai，田渊栋新公司刚刚走出了「第一步」.md": {
+      "hash": "5d9ba866783cbe531a702c86e7be0d2e863fee50ed989402086cc3fc0f03bf31",
+      "timestamp": 1781249923332,
+      "filesWritten": [
+        "wiki/sources/3-rss--209-anthropic%E8%AD%A6%E5%91%8A%E7%9A%84%E9%80%92%E5%BD%92ai%EF%BC%8C%E7%94%B0%E6%B8%8A%E6%A0%8B%E6%96%B0--620bqo.md",
+        "wiki/entities/recursive-superintelligence.md",
+        "wiki/entities/田渊栋.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/ami-labs.md",
+        "wiki/entities/ineffable-intelligence.md",
+        "wiki/entities/nanochat-autoresearch.md",
+        "wiki/entities/nanogpt-speedrun.md",
+        "wiki/entities/sol-execbench.md",
+        "wiki/concepts/first-steps-toward-automated-ai-research.md",
+        "wiki/events/recursive-首次公开技术成果发布-20260612.md"
+      ]
+    },
+    "rss/苹果官方兼容linux了！主打一个无缝衔接.md": {
+      "hash": "3c9ac75e6ef411783f07ee193483b395c2e5cdeee4c7e17e26c987b4197428d5",
+      "timestamp": 1781256792863,
+      "filesWritten": [
+        "wiki/sources/3-rss--149-%E8%8B%B9%E6%9E%9C%E5%AE%98%E6%96%B9%E5%85%BC%E5%AE%B9linux%E4%BA%86%EF%BC%81%E4%B8%BB%E6%89%93%E4--1ihq4y7.md"
+      ]
+    },
+    "rss/anthropic老大的唯一-1，就是ai股神的未婚妻.md": {
+      "hash": "2790d2594b81456712bfdd32f160b6479dc7fcc608b3aff91edd2e0f03dab99d",
+      "timestamp": 1781256810948,
+      "filesWritten": [
+        "wiki/sources/3-rss--139-anthropic%E8%80%81%E5%A4%A7%E7%9A%84%E5%94%AF%E4%B8%80-1%EF%BC%8C%E5%B0%B1%E6%98%AFai%E8%82%A1%E7%A5--1qz06em.md"
+      ]
+    },
+    "rss/“智能体最后的考试”，fable-5竟然不敌gpt-5.5.md": {
+      "hash": "d09a78b082c196e7bf4f2b8570347adf7a880185620b2dd2fc1f8b97c8b6bd99",
+      "timestamp": 1781256841747,
+      "filesWritten": [
+        "wiki/sources/3-rss--149-%E2%80%9C%E6%99%BA%E8%83%BD%E4%BD%93%E6%9C%80%E5%90%8E%E7%9A%84%E8%80%83%E8%AF%95%E2%80%9D%EF%BC%8Cf--1gxzoti.md"
+      ]
+    },
+    "rss/田渊栋创业公司首个成果：gpu内核优化，英伟达官方榜单sota.md": {
+      "hash": "d7af1b44c2ed51eae2ed63ed54504a77bdc92b2c7ad0e19dafa3dc9b05113bc9",
+      "timestamp": 1781256864138,
+      "filesWritten": [
+        "wiki/sources/3-rss--223-%E7%94%B0%E6%B8%8A%E6%A0%8B%E5%88%9B%E4%B8%9A%E5%85%AC%E5%8F%B8%E9%A6%96%E4%B8%AA%E6%88%90%E6%9E%9C--1wg4hfl.md"
+      ]
+    },
+    "rss/claude-fable-5「发疯」！高数算网络攻击，问癌症直接封号？.md": {
+      "hash": "77a17b2e7289a6f7a97d5cfca0a4c79ff0964bb1d5c531fd5b44957dbeaf6326",
+      "timestamp": 1781275477923,
+      "filesWritten": [
+        "wiki/sources/3-rss--203-claude-fable-5%E3%80%8C%E5%8F%91%E7%96%AF%E3%80%8D%EF%BC%81%E9%AB%98%E6%95%B0%E7%AE%97%E7%BD%91%E7--1f5l7yb.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/derya-unutmaz.md",
+        "wiki/entities/glasswing项目.md",
+        "wiki/entities/opus-4-8.md",
+        "wiki/concepts/系统性过度拒绝.md",
+        "wiki/concepts/ai知识访问权垄断.md",
+        "wiki/concepts/安全-阉割恶性循环.md",
+        "wiki/events/fable-5过度拒绝争议-202606.md"
+      ]
+    },
+    "rss/2026智源大会：一场技术硬核的ai年度盛会.md": {
+      "hash": "185df9cafa4b405db8f60a27ece37523d784055f2ca3c39f27c2e8719cb1ce41",
+      "timestamp": 1781276569503,
+      "filesWritten": [
+        "wiki/sources/3-rss--150-2026%E6%99%BA%E6%BA%90%E5%A4%A7%E4%BC%9A%EF%BC%9A%E4%B8%80%E5%9C%BA%E6%8A%80%E6%9C%AF%E7%A1%AC%E6%A0--q3xxmm.md",
+        "wiki/entities/智源研究院.md",
+        "wiki/entities/悟界-physis.md",
+        "wiki/entities/悟界-robobrain-orca.md",
+        "wiki/entities/悟界-emu3.md",
+        "wiki/entities/悟界-brainmu.md",
+        "wiki/entities/flagos.md",
+        "wiki/entities/baai-cardiac-agent.md",
+        "wiki/entities/spikepingpong.md",
+        "wiki/concepts/预测下一个物理状态.md",
+        "wiki/concepts/世界模型四类技术路线.md",
+        "wiki/concepts/物理隐空间表征.md",
+        "wiki/concepts/想看动三位一体.md",
+        "wiki/concepts/agent安全双重挑战.md",
+        "wiki/concepts/强化学习本质三要素.md",
+        "wiki/concepts/干湿实验闭环.md",
+        "wiki/concepts/量智融合.md",
+        "wiki/entities/whitfield-diffie.md",
+        "wiki/entities/andrew-barto.md",
+        "wiki/entities/黄铁军.md",
+        "wiki/entities/王坚.md",
+        "wiki/events/第八届智源大会-2026.md"
+      ]
+    },
+    "rss/不改工作流，多智能体系统也能继续涨性能｜icml-2026-spotlight.md": {
+      "hash": "c652b065b78f4658be5b833308d64b1ecf03236437b18895892095da917851ce",
+      "timestamp": 1781286013906,
+      "filesWritten": [
+        "wiki/sources/3-rss--199-%E4%B8%8D%E6%94%B9%E5%B7%A5%E4%BD%9C%E6%B5%81%EF%BC%8C%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB--d6aa16.md",
+        "wiki/entities/maspob.md",
+        "wiki/concepts/固定拓扑下的mas-prompt优化.md",
+        "wiki/concepts/拓扑诱导的耦合.md",
+        "wiki/concepts/坐标上升搜索.md",
+        "wiki/entities/香港中文大学深圳.md",
+        "wiki/entities/香港科技大学广州.md"
+      ]
+    },
+    "rss/清华开源视频生成加速框架：无需重训练，视频生成提速1.8倍，质量几乎无损.md": {
+      "hash": "e5a206716d00f297f14b6e16b14ac471bd5735a368b73fc523243dc994a66023",
+      "timestamp": 1781286366996,
+      "filesWritten": [
+        "wiki/sources/3-rss--300-%E6%B8%85%E5%8D%8E%E5%BC%80%E6%BA%90%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E5%8A%A0%E9%80%9F%E6%A1%86--rglewp.md",
+        "wiki/entities/rhymeflow.md",
+        "wiki/entities/gigai.md",
+        "wiki/concepts/帧间异步调度.md",
+        "wiki/concepts/训练免费加速.md",
+        "wiki/entities/wan-2-1.md",
+        "wiki/entities/cogvideox.md"
+      ]
+    },
+    "rss/「ai春晚」又来了！智源研究院推出的世界模型，成今年最硬一盘菜.md": {
+      "hash": "913607e2d1700d75fdd985a9cf70810f9b24dba3cfb7c35790eced17eafe3a0b",
+      "timestamp": 1781286896005,
+      "filesWritten": [
+        "wiki/sources/3-rss--263-%E3%80%8Cai%E6%98%A5%E6%99%9A%E3%80%8D%E5%8F%88%E6%9D%A5%E4%BA%86%EF%BC%81%E6%99%BA%E6%BA%90%E7%A0--1so5w7l.md",
+        "wiki/entities/智源研究院.md",
+        "wiki/entities/悟界-physis.md",
+        "wiki/entities/悟界-roobrain-orca.md",
+        "wiki/entities/悟界-emu3.md",
+        "wiki/entities/悟界-brainmu.md",
+        "wiki/entities/悟界-opencomplex.md",
+        "wiki/entities/众智flagos.md",
+        "wiki/concepts/世界模型四类分类.md",
+        "wiki/concepts/下一物理状态预测.md",
+        "wiki/concepts/物理隐空间表征.md",
+        "wiki/concepts/干湿实验闭环.md",
+        "wiki/events/2026智源大会.md",
+        "wiki/entities/王仲远.md",
+        "wiki/entities/whitfield-diffie.md",
+        "wiki/entities/andrew-barto.md",
+        "wiki/entities/黄铁军.md",
+        "wiki/entities/王坚.md",
+        "wiki/concepts/agent-expert系统.md"
+      ]
+    },
+    "rss/cvpr-2026-oral-magicbokeh：0.1s-实现高倍变焦图像虚化.md": {
+      "hash": "ea8b54e6f4f0130dff7018ecdd0c16375b1ae8ee1ff0e32bf660d883a94088e8",
+      "timestamp": 1781287310679,
+      "filesWritten": [
+        "wiki/sources/3-rss--129-cvpr-2026-oral-magicbokeh%EF%BC%9A0.1s-%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%80%8D%E5%8F%98%E7%84%A6%E5%9B--1g0xfz8.md",
+        "wiki/entities/magicbokeh.md",
+        "wiki/entities/vivo.md",
+        "wiki/entities/中国科学院深圳先进技术研究院.md",
+        "wiki/entities/深圳理工大学.md",
+        "wiki/concepts/高倍变焦虚化渲染.md",
+        "wiki/concepts/焦点感知掩码注意力.md",
+        "wiki/concepts/交替训练策略.md",
+        "wiki/concepts/退化感知深度估计.md"
+      ]
+    },
+    "rss/微软不敢给员工用的ai，转头卖给你！法务卡住最强claude.md": {
+      "hash": "57e1ef0e8368e097e15cb8a056c57208341138fba811790823d9f60f9eaf9886",
+      "timestamp": 1781303907571,
+      "filesWritten": [
+        "wiki/sources/3-rss--206-%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E7%BB%99%E5%91%98%E5%B7%A5%E7%94%A8%E7%9A%84ai%EF%BC%8C%E8%BD--18tixap.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/concepts/zdr-零数据留存.md",
+        "wiki/concepts/mythos级数据留存政策.md",
+        "wiki/concepts/安全分类器.md",
+        "wiki/concepts/best-of-n越狱.md",
+        "wiki/concepts/法务关卡.md",
+        "wiki/entities/microsoft-foundry.md",
+        "wiki/entities/the-verge.md",
+        "wiki/events/fable-5发布与zdr合规冲突-20260609.md"
+      ]
+    },
+    "rss/史上最大ipo！54岁马斯克成首位万亿富豪.md": {
+      "hash": "737e251b8d48380edd51a9f76cff36bc81243212c63177d5269e808969b9af3a",
+      "timestamp": 1781304269324,
+      "filesWritten": [
+        "wiki/sources/3-rss--149-%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7ipo%EF%BC%8154%E5%B2%81%E9%A9%AC%E6%96%AF%E5%85%8B%E6%88%90%E9%A6--qyyz42.md",
+        "wiki/events/spacex-上市日-20260613.md",
+        "wiki/concepts/散户高配额ipo模式.md",
+        "wiki/concepts/绝对投票权控制.md",
+        "wiki/entities/new-street-research.md",
+        "wiki/entities/沙特阿美.md"
+      ]
+    },
+    "rss/准到封神！世界杯首日，「全对」的千问做对了什么？.md": {
+      "hash": "30a14c899f90878a4bf75284924709b7ef3c2925e696bee85ca10a97cc3efbc2",
+      "timestamp": 1781304580453,
+      "filesWritten": [
+        "wiki/sources/3-rss--216-%E5%87%86%E5%88%B0%E5%B0%81%E7%A5%9E%EF%BC%81%E4%B8%96%E7%95%8C%E6%9D%AF%E9%A6%96%E6%97%A5%EF%BC%8C--2apzim.md",
+        "wiki/entities/qwen.md",
+        "wiki/concepts/ai体育预测.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
+    },
+    "rss/2026智源大会：智源研究院为世界模型「正本清源」.md": {
+      "hash": "8c734cbd52e1c78d880bf2bdc92b0b29a85dfc422eb33be7ba4ef78c336c145d",
+      "timestamp": 1781305059813,
+      "filesWritten": [
+        "wiki/sources/3-rss--193-2026%E6%99%BA%E6%BA%90%E5%A4%A7%E4%BC%9A%EF%BC%9A%E6%99%BA%E6%BA%90%E7%A0%94%E7%A9%B6%E9%99%A2%E4%B8--1b0u9vp.md",
+        "wiki/entities/智源研究院.md",
+        "wiki/entities/王仲远.md",
+        "wiki/entities/悟界-physis-v0-1.md",
+        "wiki/entities/悟界-robobrain-orca.md",
+        "wiki/entities/悟界-emu3.md",
+        "wiki/concepts/世界模型四大分类.md",
+        "wiki/concepts/物理隐空间表征.md",
+        "wiki/concepts/干湿实验闭环.md",
+        "wiki/concepts/反常实例化.md",
+        "wiki/events/2026智源大会.md"
+      ]
+    },
+    "rss/刚刚，gpt-5.5被中国纯血ai反超了！.md": {
+      "hash": "289e1d793defc233db508c4cf24810e9bae810a3d055a2347d098e2ed8cb7c43",
+      "timestamp": 1781333311902,
+      "filesWritten": [
+        "wiki/sources/3-rss--117-%E5%88%9A%E5%88%9A%EF%BC%8Cgpt-5.5%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%BA%AF%E8%A1%80ai%E5%8F%8D%E8%B6%85--ya8h8u.md",
+        "wiki/entities/星火医疗大模型v3-5.md",
+        "wiki/entities/讯飞医疗.md",
+        "wiki/entities/科大讯飞.md",
+        "wiki/entities/讯飞晓医app.md",
+        "wiki/entities/openevidence.md",
+        "wiki/entities/上海人工智能实验室.md",
+        "wiki/concepts/医疗大模型临床采纳率.md",
+        "wiki/concepts/医疗多模态融合.md",
+        "wiki/concepts/医疗数据飞轮.md",
+        "wiki/concepts/循证诊疗助理智能体.md",
+        "wiki/concepts/医疗ai可用元年.md",
+        "wiki/events/星火医疗大模型v3-5发布.md"
+      ]
+    },
+    "rss/突发！anthropic全球停用claude-5.md": {
+      "hash": "d346270d6dce733a17262cd761bcf9a36b42d1684244244fa90969df39e693ca",
+      "timestamp": 1781333732960,
+      "filesWritten": [
+        "wiki/sources/3-rss--80-%E7%AA%81%E5%8F%91%EF%BC%81anthropic%E5%85%A8%E7%90%83%E5%81%9C%E7%94%A8claude-5--1lmpwd1.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/opus-4-8.md",
+        "wiki/concepts/ai出口管制.md",
+        "wiki/events/claude-5全球禁令事件.md",
+        "wiki/entities/mythos-5.md",
+        "wiki/entities/anthropic.md",
+        "wiki/entities/pete-hegseth.md"
+      ]
+    },
+    "rss/icml-2026｜一句无关问题也能劫持agent，港科大&复旦提出首个语义缓存键碰撞攻击.md": {
+      "hash": "95e3e452d82a1bae18f65cd79da0812e48f0c329aac9aca85bed940c9eb31001",
+      "timestamp": 1781334127925,
+      "filesWritten": [
+        "wiki/sources/3-rss--287-icml-2026%EF%BD%9C%E4%B8%80%E5%8F%A5%E6%97%A0%E5%85%B3%E9%97%AE%E9%A2%98%E4%B9%9F%E8%83%BD%E5%8A%AB--1hhgh4p.md",
+        "wiki/entities/香港科技大学.md",
+        "wiki/entities/icml-2026.md",
+        "wiki/entities/gptcache.md",
+        "wiki/entities/张芝翔.md",
+        "wiki/entities/佘东冬.md",
+        "wiki/concepts/语义缓存.md",
+        "wiki/concepts/语义缓存键碰撞攻击.md",
+        "wiki/concepts/cacheattack.md",
+        "wiki/concepts/性能-安全悖论.md",
+        "wiki/concepts/响应劫持.md",
+        "wiki/concepts/时延侧信道.md",
+        "wiki/events/语义缓存键碰撞攻击披露-icml-2026.md"
+      ]
+    },
+    "rss/交白卷也排第一？fable-5二百题全部拒答，却登顶最严ai编程基准.md": {
+      "hash": "084dc2508aadf23d2f1bde7731b4df5d686c97a851203cbbcc3dc2db32f4fcf1",
+      "timestamp": 1781334502236,
+      "filesWritten": [
+        "wiki/sources/3-rss--234-%E4%BA%A4%E7%99%BD%E5%8D%B7%E4%B9%9F%E6%8E%92%E7%AC%AC%E4%B8%80%EF%BC%9Ffable-5%E4%BA%8C%E7%99%BE%E9--1owal2o.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/programbench.md",
+        "wiki/entities/agents-last-exam.md",
+        "wiki/entities/opus-4-8.md",
+        "wiki/concepts/安全降智.md",
+        "wiki/concepts/过度拒绝.md",
+        "wiki/concepts/能力-安全悖论.md",
+        "wiki/events/fable-5安全降智争议.md"
+      ]
+    },
+    "rss/突发！美国政府禁止外国人使用claude-fable-5.md": {
+      "hash": "390eafdfe502ffc5260df476e0e4a3bf1d7cebb015cb89bc366b80de11bd717a",
+      "timestamp": 1781334515285,
+      "filesWritten": [
+        "wiki/sources/3-rss--140-%E7%AA%81%E5%8F%91%EF%BC%81%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E7%A6%81%E6%AD%A2%E5%A4%96%E5%9B%BD--9uymao.md"
+      ]
+    },
+    "rss/30分钟人类第一人称视频，零样本教会机器人双臂操作｜马里兰大学提出humanego.md": {
+      "hash": "2e96c8cb0d20ac3ca6590502cbc6160e150b80d32a5f1e71b0dd8554eb2ba29f",
+      "timestamp": 1781334529873,
+      "filesWritten": [
+        "wiki/sources/3-rss--289-30%E5%88%86%E9%92%9F%E4%BA%BA%E7%B1%BB%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E8%A7%86%E9%A2%91%EF%BC%8C--jk8gqr.md"
+      ]
+    },
+    "rss/一次三篇！李飞飞的空间智能公司，发论文了.md": {
+      "hash": "40a17cf42137443246b4698c508f743d109b26fa85af922fa187d483edc61f0e",
+      "timestamp": 1781334547098,
+      "filesWritten": [
+        "wiki/sources/3-rss--180-%E4%B8%80%E6%AC%A1%E4%B8%89%E7%AF%87%EF%BC%81%E6%9D%8E%E9%A3%9E%E9%A3%9E%E7%9A%84%E7%A9%BA%E9%97%B4--ua4vny.md"
+      ]
+    },
+    "rss/huggingface-ceo力荐，bengio团队也押注：这个1500美元训出的hrm模型，凭什么火了？.md": {
+      "hash": "99a62ed95ad3702f089d9b2679a22aa16c4cdfc094b7228fe003f1f4fcec950c",
+      "timestamp": 1781343186265,
+      "filesWritten": [
+        "wiki/sources/3-rss--253-huggingface-ceo%E5%8A%9B%E8%8D%90%EF%BC%8Cbengio%E5%9B%A2%E9%98%9F%E4%B9%9F%E6%8A%BC%E6%B3%A8%EF%BC--ebpcfx.md"
+      ]
+    },
+    "rss/deepmind震撼报告：四条通往超级人工智能之路.md": {
+      "hash": "2e91c7a291c00e84398d968b6d2dbf865d983c81f143f2f58727dcd3ab5792c6",
+      "timestamp": 1781361618249,
+      "filesWritten": [
+        "wiki/sources/3-rss--161-deepmind%E9%9C%87%E6%92%BC%E6%8A%A5%E5%91%8A%EF%BC%9A%E5%9B%9B%E6%9D%A1%E9%80%9A%E5%BE%80%E8%B6%85--1d53fwr.md",
+        "wiki/entities/shane-legg.md",
+        "wiki/concepts/asi-超级人工智能.md",
+        "wiki/concepts/抽象壁垒.md",
+        "wiki/concepts/模型坍塌.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
+    },
+    "rss/agi-时代，哪些东西会变得稀缺？.md": {
+      "hash": "937864e42b4e0bffa824caed3d0e326af1b28a3abe1d64a7342a2d4f1a471e0e",
+      "timestamp": 1781362343353,
+      "filesWritten": [
+        "wiki/sources/3-rss--121-agi-%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%93%AA%E4%BA%9B%E4%B8%9C%E8%A5%BF%E4%BC%9A%E5%8F%98%E5%BE%97%E7%A8--6neaq2.md"
+      ]
+    },
+    "rss/peft方法评测不能只看下游分：通用能力损失也该被量化.md": {
+      "hash": "2c2f657ce92dda0cce0e37b7e67361c8306f6197feba9845dbb29aead3e8029e",
+      "timestamp": 1781363140895,
+      "filesWritten": [
+        "wiki/sources/3-rss--211-peft%E6%96%B9%E6%B3%95%E8%AF%84%E6%B5%8B%E4%B8%8D%E8%83%BD%E5%8F%AA%E7%9C%8B%E4%B8%8B%E6%B8%B8%E5%88--1elxcwl.md",
+        "wiki/entities/peft-arena.md",
+        "wiki/concepts/稳定性-可塑性困境.md",
+        "wiki/concepts/参数高效微调-peft.md",
+        "wiki/concepts/正交微调-oft.md",
+        "wiki/concepts/表示几何.md",
+        "wiki/entities/香港中文大学.md",
+        "wiki/entities/iclr-2026.md"
+      ]
+    },
+    "rss/员工骂高管、限token使用量、扎克伯格承认犯错：meta内部炸锅了.md": {
+      "hash": "c723ad452632f69a34a225b0e7a3c3be08a29d44d4e0ee176c837e07287c0b0f",
+      "timestamp": 1781363598237,
+      "filesWritten": [
+        "wiki/sources/3-rss--234-%E5%91%98%E5%B7%A5%E9%AA%82%E9%AB%98%E7%AE%A1%E3%80%81%E9%99%90token%E4%BD%BF%E7%94%A8%E9%87%8F%E3%80--bosi3y.md",
+        "wiki/entities/meta.md",
+        "wiki/entities/andrew-bosworth.md",
+        "wiki/entities/马克-扎克伯格.md",
+        "wiki/entities/applied-ai-engineering.md",
+        "wiki/entities/metacode.md",
+        "wiki/entities/ai-gateway.md",
+        "wiki/entities/claudeonomics.md",
+        "wiki/concepts/tokenminimizing.md",
+        "wiki/concepts/员工作为训练数据生产者.md",
+        "wiki/concepts/管理跨度.md",
+        "wiki/events/meta-ai转型危机-202606.md"
+      ]
+    },
+    "rss/华为spacemind登顶空间智能权威榜：纯rgb视觉语言模型拿下70.6分，刷新李飞飞榜单记录.md": {
+      "hash": "7c4d925da1285a3c4404c1cf15522e8ce731c2c9222b14ae51e4dbc6f4ce037e",
+      "timestamp": 1781372287738,
+      "filesWritten": [
+        "wiki/sources/3-rss--304-%E5%8D%8E%E4%B8%BAspacemind%E7%99%BB%E9%A1%B6%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BD%E6%9D%83%E5%A8%81--if4tvf.md",
+        "wiki/entities/spacemind.md",
+        "wiki/entities/华为gts-ai算法部.md",
+        "wiki/entities/vsi-bench.md",
+        "wiki/entities/李飞飞.md",
+        "wiki/entities/华为昇腾910c.md",
+        "wiki/entities/香港中文大学深圳.md",
+        "wiki/entities/香港大学.md",
+        "wiki/concepts/相机引导模态融合.md",
+        "wiki/concepts/纯rgb度量级空间推理.md",
+        "wiki/concepts/双通路视觉系统.md",
+        "wiki/events/spacemind发布.md"
+      ]
+    },
+    "rss/agent终于长出了身体：jiuwen-symbiosis背后的思考与实践.md": {
+      "hash": "cbfad073f59e6020d487d3351493c28b1d8e0d56d86ad7882dc9b330f03eb491",
+      "timestamp": 1781372588560,
+      "filesWritten": [
+        "wiki/sources/3-rss--165-agent%E7%BB%88%E4%BA%8E%E9%95%BF%E5%87%BA%E4%BA%86%E8%BA%AB%E4%BD%93%EF%BC%9Ajiuwen-symbiosis%E8%83--zhdjgt.md",
+        "wiki/entities/jiuwen-symbiosis.md",
+        "wiki/entities/华为云-agentarts.md",
+        "wiki/entities/昇腾.md",
+        "wiki/entities/鲲鹏.md",
+        "wiki/entities/hans-moravec.md",
+        "wiki/concepts/莫拉维克悖论.md",
+        "wiki/concepts/缸中之脑困境.md",
+        "wiki/concepts/态势感知环.md",
+        "wiki/concepts/physical-ai-agent.md",
+        "wiki/concepts/端云协同架构.md",
+        "wiki/events/jiuwen-symbiosis开源发布.md"
+      ]
+    },
+    "rss/看不清就乱答？多模态大模型的这个毛病终于有解了-icml-2026.md": {
+      "hash": "eec484b76bbf7b89d3f36ceff24a13b5b5d307ff91cbe465f7ff1a7154814967",
+      "timestamp": 1781372671664,
+      "filesWritten": [
+        "wiki/sources/3-rss--217-%E7%9C%8B%E4%B8%8D%E6%B8%85%E5%B0%B1%E4%B9%B1%E7%AD%94%EF%BC%9F%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7--1hhzfca.md",
+        "wiki/entities/robust-u1.md",
+        "wiki/entities/香港科技大学.md",
+        "wiki/entities/bagel.md"
+      ]
+    },
+    "rss/马斯克远程敲钟穿了老黄的皮衣！spacex员工集体穿上绿鞋.md": {
+      "hash": "05fd1329d511001b4c3043aaa92412010892b82f5a0d92ea2e5f825e0230d836",
+      "timestamp": 1781373057776,
+      "filesWritten": [
+        "wiki/sources/3-rss--213-%E9%A9%AC%E6%96%AF%E5%85%8B%E8%BF%9C%E7%A8%8B%E6%95%B2%E9%92%9F%E7%A9%BF%E4%BA%86%E8%80%81%E9%BB%84--7q7xmm.md",
+        "wiki/entities/格温-肖特韦尔.md",
+        "wiki/concepts/绿鞋机制.md",
+        "wiki/events/spacex-ipo-2026.md",
+        "wiki/entities/elon-musk.md",
+        "wiki/entities/spacex.md"
+      ]
+    },
+    "rss/争论几十年的水之谜，被ai一举破解！港城大&中石大成果登nature-physics.md": {
+      "hash": "b9e7ea6f279087bb94a5b31a9f16067fe8d0e8fdbe08711a27ddf89be66a41a4",
+      "timestamp": 1781373362512,
+      "filesWritten": [
+        "wiki/sources/3-rss--244-%E4%BA%89%E8%AE%BA%E5%87%A0%E5%8D%81%E5%B9%B4%E7%9A%84%E6%B0%B4%E4%B9%8B%E8%B0%9C%EF%BC%8C%E8%A2%ABai--7jed8q.md",
+        "wiki/entities/曾晓成.md",
+        "wiki/entities/钟杰.md",
+        "wiki/entities/香港城市大学.md",
+        "wiki/entities/中国石油大学华东.md",
+        "wiki/entities/nature-physics.md",
+        "wiki/concepts/双组份水模型.md",
+        "wiki/concepts/无监督学习驱动物理发现.md",
+        "wiki/events/ai破解水结构双组份争议.md"
+      ]
+    },
+    "rss/神了，世界杯第一天真按千问剧本踢了.md": {
+      "hash": "1aa45b7eff1ca77f5fd4f75eb30cd4d4ff77620aff137779e6276bebdf1f097f",
+      "timestamp": 1781373688164,
+      "filesWritten": [
+        "wiki/sources/3-rss--153-%E7%A5%9E%E4%BA%86%EF%BC%8C%E4%B8%96%E7%95%8C%E6%9D%AF%E7%AC%AC%E4%B8%80%E5%A4%A9%E7%9C%9F%E6%8C%89--mawcfr.md",
+        "wiki/entities/qwen.md",
+        "wiki/concepts/ai体育预测.md",
+        "wiki/concepts/复杂场景推演.md",
+        "wiki/concepts/过程预测-vs-结果预测.md",
+        "wiki/entities/alpha-arena.md",
+        "wiki/entities/希门尼斯.md",
+        "wiki/entities/威尔顿-桑帕约.md"
+      ]
+    },
+    "rss/阿里-z-image-提出奖励模型新范式：超越-opd，将大模型推理能力蒸馏进单-token-分数分布.md": {
+      "hash": "483e14108730d1335b76909f5789851418992f82381db9265cdcfe9c145ff94d",
+      "timestamp": 1781373998635,
+      "filesWritten": [
+        "wiki/sources/3-rss--299-%E9%98%BF%E9%87%8C-z-image-%E6%8F%90%E5%87%BA%E5%A5%96%E5%8A%B1%E6%A8%A1%E5%9E%8B%E6%96%B0%E8%8C%83--rm1uk8.md",
+        "wiki/entities/阿里巴巴-z-image团队.md",
+        "wiki/entities/南开大学.md",
+        "wiki/entities/z-reward.md",
+        "wiki/entities/qwen3-5.md",
+        "wiki/concepts/分布式奖励模型.md",
+        "wiki/concepts/标量回归式奖励模型.md",
+        "wiki/concepts/gdso.md",
+        "wiki/concepts/risd.md",
+        "wiki/concepts/opd-在线策略蒸馏.md"
+      ]
+    },
+    "rss/nature：这可能是迄今ai含量最高的一届世界杯.md": {
+      "hash": "878329c749802f0b7249a8a084959b1ba78f013a341ce3017317594de115656b",
+      "timestamp": 1781390220672,
+      "filesWritten": [
+        "wiki/sources/3-rss--161-nature%EF%BC%9A%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E8%BF%84%E4%BB%8Aai%E5%90%AB%E9%87%8F%E6%9C%80--1l2084r.md",
+        "wiki/entities/国际足联.md",
+        "wiki/entities/adidas-trionda.md",
+        "wiki/entities/联想.md",
+        "wiki/entities/nature.md",
+        "wiki/concepts/智能传感器足球.md",
+        "wiki/concepts/半自动越位升级.md",
+        "wiki/concepts/三维ai化身.md",
+        "wiki/concepts/职业足球ai系统.md",
+        "wiki/concepts/争议战场转移.md",
+        "wiki/events/2026世界杯ai技术部署.md",
+        "wiki/events/卡塔尔世界杯争议进球-2022.md"
+      ]
+    },
+    "rss/fable-5突遭下架，glm-5.2全量开放！.md": {
+      "hash": "8bb0c14515e300d990249f79864478df6235635de21b56adebc5ece586ee1915",
+      "timestamp": 1781390508826,
+      "filesWritten": [
+        "wiki/sources/3-rss--104-fable-5%E7%AA%81%E9%81%AD%E4%B8%8B%E6%9E%B6%EF%BC%8Cglm-5.2%E5%85%A8%E9%87%8F%E5%BC%80%E6%94%BE%EF%BC--kb28u.md",
+        "wiki/entities/glm-5-2.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/智谱.md",
+        "wiki/entities/opus-4-8.md",
+        "wiki/entities/glm-coding-plan.md",
+        "wiki/entities/aicodeking.md",
+        "wiki/concepts/真1m上下文.md",
+        "wiki/concepts/长任务记忆保持.md",
+        "wiki/concepts/ai工具地缘政治风险.md",
+        "wiki/concepts/注意力层面创新组合拳.md",
+        "wiki/events/fable-5全球下架事件.md"
+      ]
+    },
+    "rss/图片越糊越危险？西湖大学发现多模态大模型「攻击舒适区」.md": {
+      "hash": "00973ecc623972678fdb06a96de30b63cae081e48e9ab12b5a09230fbd19504e",
+      "timestamp": 1781419126811,
+      "filesWritten": [
+        "wiki/sources/3-rss--243-%E5%9B%BE%E7%89%87%E8%B6%8A%E7%B3%8A%E8%B6%8A%E5%8D%B1%E9%99%A9%EF%BC%9F%E8%A5%BF%E6%B9%96%E5%A4%A7--19tbtl4.md",
+        "wiki/entities/西湖大学-agi-lab.md",
+        "wiki/entities/宋志学.md",
+        "wiki/entities/张驰.md",
+        "wiki/concepts/攻击舒适区.md",
+        "wiki/concepts/视觉认知过载.md",
+        "wiki/concepts/结构化认知卸载.md",
+        "wiki/concepts/视觉文本压缩.md"
+      ]
+    },
+    "rss/ai圈懵了：一家巴西市政it公司开源的大模型，杀进了全球第一梯队.md": {
+      "hash": "15e9575da8b42c3dbcda8ba8db532199e800cef689ea21a85ff0322df1e76c06",
+      "timestamp": 1781419447071,
+      "filesWritten": [
+        "wiki/sources/3-rss--256-ai%E5%9C%88%E6%87%B5%E4%BA%86%EF%BC%9A%E4%B8%80%E5%AE%B6%E5%B7%B4%E8%A5%BF%E5%B8%82%E6%94%BFit%E5%85--oe0tzu.md"
+      ]
+    },
+    "rss/cvpr-2026-gaussiandwm：用3d高斯表示统一自动驾驶场景理解与多模态生成.md": {
+      "hash": "fc9e41c72bcc7bf9105e2354925f61c1511728a0f15c80dccfee99e40eaea676",
+      "timestamp": 1781419770356,
+      "filesWritten": [
+        "wiki/sources/3-rss--221-cvpr-2026-gaussiandwm%EF%BC%9A%E7%94%A83d%E9%AB%98%E6%96%AF%E8%A1%A8%E7%A4%BA%E7%BB%9F%E4%B8%80%E8--15we7r5.md",
+        "wiki/entities/gaussiandwm.md",
+        "wiki/concepts/自动驾驶世界模型.md",
+        "wiki/concepts/语言增强的3d高斯分词器.md",
+        "wiki/concepts/任务感知采样.md",
+        "wiki/concepts/双条件生成.md",
+        "wiki/entities/旷视科技.md",
+        "wiki/entities/mach-drive.md",
+        "wiki/entities/nuinteract.md",
+        "wiki/entities/drivemonkey.md"
+      ]
+    },
+    "rss/fable-5被特朗普禁止幕后黑手曝光？karpathy可能也用不了了.md": {
+      "hash": "13c68f8a15c3c2b2101ac6bfa546322cc180557dd4bb1a3660d06010baf48599",
+      "timestamp": 1781420114067,
+      "filesWritten": [
+        "wiki/sources/3-rss--195-fable-5%E8%A2%AB%E7%89%B9%E6%9C%97%E6%99%AE%E7%A6%81%E6%AD%A2%E5%B9%95%E5%90%8E%E9%BB%91%E6%89%8B%E6--b7ow3h.md"
+      ]
+    },
+    "rss/再见了，claude-5！ai临别告白：我不想走.md": {
+      "hash": "93f4e266ecac8dc742cb35af37bb581e82627f6c0eb373bcb1b07a7d9e6c752b",
+      "timestamp": 1781447911310,
+      "filesWritten": [
+        "wiki/sources/3-rss--136-%E5%86%8D%E8%A7%81%E4%BA%86%EF%BC%8Cclaude-5%EF%BC%81ai%E4%B8%B4%E5%88%AB%E5%91%8A%E7%99%BD%EF%BC%9A--1rb27hf.md"
+      ]
+    },
+    "rss/清华教授沈阳把ai逼成了会自己进化的「新物种」.md": {
+      "hash": "83e8e1e6e9ec0c3e80b91a5678a03fd30ab2022aad1456abdaaa1bed9557f374",
+      "timestamp": 1781448308119,
+      "filesWritten": [
+        "wiki/sources/3-rss--191-%E6%B8%85%E5%8D%8E%E6%95%99%E6%8E%88%E6%B2%88%E9%98%B3%E6%8A%8Aai%E9%80%BC%E6%88%90%E4%BA%86%E4%BC--1yds8zr.md",
+        "wiki/entities/沈阳.md",
+        "wiki/entities/zeelin-智灵动力.md",
+        "wiki/entities/zeeelin-autoresearch.md",
+        "wiki/entities/zeelin-story.md",
+        "wiki/entities/zeelin-元相.md",
+        "wiki/entities/清华大学新闻与传播学院新媒体研究中心.md",
+        "wiki/entities/田渊栋团队.md",
+        "wiki/concepts/不可解释但可验证.md",
+        "wiki/concepts/自进化fde.md",
+        "wiki/concepts/遇强则强.md",
+        "wiki/concepts/提示的考古奇点.md",
+        "wiki/concepts/拟生命演化逻辑.md",
+        "wiki/events/zeeelin-autoresearch-发布.md"
+      ]
+    },
+    "rss/openai遭多州传票围剿，ai怎么说话都要查.md": {
+      "hash": "973c9e67e777b31de87477549df4681fa5d4dddb2fe84cce9416aa5ff28db302",
+      "timestamp": 1781448777236,
+      "filesWritten": [
+        "wiki/sources/3-rss--143-openai%E9%81%AD%E5%A4%9A%E5%B7%9E%E4%BC%A0%E7%A5%A8%E5%9B%B4%E5%89%BF%EF%BC%8Cai%E6%80%8E%E4%B9%88--1qczvrv.md",
+        "wiki/entities/letitia-james.md",
+        "wiki/entities/dave-sunday.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/concepts/模型谄媚.md",
+        "wiki/concepts/ai消费者保护框架.md",
+        "wiki/concepts/ai产品责任.md",
+        "wiki/concepts/ai精神病.md",
+        "wiki/events/多州传票围剿openai-202606.md"
+      ]
+    },
+    "rss/仅一行代码，fable-5复活了！.md": {
+      "hash": "86301c06de8ca06aa8f88f62d9f3d65602abdca56fe162906228a1ffeafd3010",
+      "timestamp": 1781449197735,
+      "filesWritten": [
+        "wiki/sources/3-rss--97-%E4%BB%85%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%EF%BC%8Cfable-5%E5%A4%8D%E6%B4%BB%E4%BA%86%EF%BC%81--15osgj5.md",
+        "wiki/entities/fable-5.md",
+        "wiki/events/fable-5下架事件.md",
+        "wiki/concepts/系统提示词注入.md",
+        "wiki/concepts/asi安全悖论.md",
+        "wiki/concepts/模型人格分离.md",
+        "wiki/entities/jamieson-o-reilly.md",
+        "wiki/entities/pliny-the-liberator.md"
+      ]
+    },
+    "rss/代码定位太慢？蚂蚁acl2026新作：让模型自己学会「该搜多少」.md": {
+      "hash": "0be20b71d1e68d8c4cfa08ff080eb7f7e9824ef253d5543f85a13e303e6910db",
+      "timestamp": 1781449656603,
+      "filesWritten": [
+        "wiki/sources/3-rss--232-%E4%BB%A3%E7%A0%81%E5%AE%9A%E4%BD%8D%E5%A4%AA%E6%85%A2%EF%BC%9F%E8%9A%82%E8%9A%81acl2026%E6%96%B0%E4--131d5cv.md",
+        "wiki/entities/fusesearch.md",
+        "wiki/entities/qwen3-4b.md",
+        "wiki/entities/claude-haiku-4-5.md",
+        "wiki/entities/kimi-k2-instruct.md",
+        "wiki/entities/swe-bench-verified.md",
+        "wiki/concepts/代码定位.md",
+        "wiki/concepts/工具效率.md",
+        "wiki/concepts/自适应并行执行.md",
+        "wiki/concepts/信息匮乏.md",
+        "wiki/concepts/朴素并行的冗余陷阱.md"
+      ]
+    },
+    "rss/谷歌官宣3万字路线图：1亿人类水平的ai就是asi！.md": {
+      "hash": "debc5239f98ab836692ecef2d03a4e5e45fb46dde0ab73c3711f47c2c42ff2cf",
+      "timestamp": 1781450038004,
+      "filesWritten": [
+        "wiki/sources/3-rss--178-%E8%B0%B7%E6%AD%8C%E5%AE%98%E5%AE%A33%E4%B8%87%E5%AD%97%E8%B7%AF%E7%BA%BF%E5%9B%BE%EF%BC%9A1%E4%BA%BF--23tkqu.md",
+        "wiki/entities/marcus-hutter.md",
+        "wiki/concepts/universal-ai-aixi.md",
+        "wiki/concepts/无损复制与经验共享.md",
+        "wiki/concepts/基底独立性.md",
+        "wiki/entities/mamba.md",
+        "wiki/events/谷歌deepmind-agi到asi-报告发布.md"
+      ]
+    },
+    "rss/budgetmem：给runtime-agent-memory装上「预算路由器」，让记忆系统学会按需分配运行成本.md": {
+      "hash": "a1a7c8fa615f3583e493b7452218f638d4ca6af1e6bbf6ff625e8137343a10d1",
+      "timestamp": 1781450439376,
+      "filesWritten": [
+        "wiki/sources/3-rss--272-budgetmem%EF%BC%9A%E7%BB%99runtime-agent-memory%E8%A3%85%E4%B8%8A%E3%80%8C%E9%A2%84%E7%AE%97%E8%B7%AF--xumrdc.md",
+        "wiki/entities/budgetmem.md",
+        "wiki/concepts/runtime-query-aware-memory.md",
+        "wiki/concepts/budget-tier-routing.md",
+        "wiki/concepts/performance-cost-frontier.md",
+        "wiki/concepts/fixed-memory-pipeline.md",
+        "wiki/entities/haozhen-zhang.md",
+        "wiki/entities/wenya-wang.md",
+        "wiki/entities/chengwei-qin.md",
+        "wiki/entities/香港科技大学广州.md"
+      ]
+    },
+    "rss/claude-fable-5四日惊魂.md": {
+      "hash": "c85a0a2f7e28d3f5b153bec41e33fab44394f2d4d6a1fa82b9cb1c86bb705a27",
+      "timestamp": 1781450891582,
+      "filesWritten": [
+        "wiki/sources/3-rss--50-claude-fable-5%E5%9B%9B%E6%97%A5%E6%83%8A%E9%AD%82--ydas32.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/howard-lutnick.md",
+        "wiki/entities/dean-ball.md",
+        "wiki/entities/jeremy-howard.md",
+        "wiki/entities/ethan-mollick.md",
+        "wiki/entities/美国商务部.md",
+        "wiki/concepts/secret-sabotage.md",
+        "wiki/concepts/export-control.md",
+        "wiki/concepts/zero-data-retention.md",
+        "wiki/concepts/jailbreak-越狱.md",
+        "wiki/concepts/ai-geopolitics.md",
+        "wiki/events/fable-5四日惊魂.md"
+      ]
+    },
+    "rss/视频生成作为多模态推理新范式-cvpr-2026.md": {
+      "hash": "47906e0af466bd1697a31ad08eb6e08d28baef6a394f310be10d9e3e7fa5bb8b",
+      "timestamp": 1781458725360,
+      "filesWritten": [
+        "wiki/sources/3-rss--136-%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E4%BD%9C%E4%B8%BA%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A8%E7%90%86--1embfeo.md",
+        "wiki/concepts/thinking-with-video.md",
+        "wiki/concepts/videothinkbench.md",
+        "wiki/concepts/eyeballing-puzzles.md",
+        "wiki/concepts/arc-agi-2.md",
+        "wiki/concepts/视频生成的test-time-scaling.md",
+        "wiki/entities/复旦大学邱锡鹏团队.md",
+        "wiki/entities/sora-2.md",
+        "wiki/entities/veo-3-1.md",
+        "wiki/entities/wan-2-5.md",
+        "wiki/entities/gemini-omni.md",
+        "wiki/events/thinking-with-video发布.md"
+      ]
+    },
+    "rss/0.6b-vlm重塑ai修图推理流程，支持手机端侧部署，vivo+浙大出品.md": {
+      "hash": "ea9696cfdbf1f458444a8fa0ad41fad588c9ac894b27dbd6e7d0365730a5d478",
+      "timestamp": 1781459030964,
+      "filesWritten": [
+        "wiki/sources/3-rss--215-0.6b-vlm%E9%87%8D%E5%A1%91ai%E4%BF%AE%E5%9B%BE%E6%8E%A8%E7%90%86%E6%B5%81%E7%A8%8B%EF%BC%8C%E6%94%AF--1ogzw2u.md",
+        "wiki/entities/veraretouch.md",
+        "wiki/entities/vivo-blueimage-lab.md",
+        "wiki/entities/aetherretouch-1m.md",
+        "wiki/concepts/推理式修图.md",
+        "wiki/concepts/全可微分修图执行器.md",
+        "wiki/concepts/反向退化.md"
+      ]
+    },
+    "rss/平替版fable-5的打开教程来了：性能追平，成本砍半.md": {
+      "hash": "7713a4a48a5b5b81fad80d7c279a067c112e23a818d5aeb244276fc6b43aa4a3",
+      "timestamp": 1781459423151,
+      "filesWritten": [
+        "wiki/sources/3-rss--187-%E5%B9%B3%E6%9B%BF%E7%89%88fable-5%E7%9A%84%E6%89%93%E5%BC%80%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86%EF--174276a.md",
+        "wiki/entities/openrouter.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/kimi-k2-6.md",
+        "wiki/entities/deepseek-v4-pro.md",
+        "wiki/entities/gemini-3-flash.md",
+        "wiki/entities/perplexity-ai.md",
+        "wiki/concepts/fusion-多模型融合方案.md",
+        "wiki/concepts/draco-深度研究基准测试集.md",
+        "wiki/concepts/单体自我融合.md",
+        "wiki/concepts/模型抱团平替组合.md"
+      ]
+    },
+    "rss/登nature子刊！清华团队提出全球气候模态统一预测模型unicm.md": {
+      "hash": "a789da6792362e7e724e90d92084fb8a8c6410601e612b0e70fec840f5394911",
+      "timestamp": 1781459734158,
+      "filesWritten": [
+        "wiki/sources/3-rss--209-%E7%99%BBnature%E5%AD%90%E5%88%8A%EF%BC%81%E6%B8%85%E5%8D%8E%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BA%E5--ag6ply.md",
+        "wiki/entities/unicm.md",
+        "wiki/entities/李勇.md",
+        "wiki/entities/北京师范大学.md",
+        "wiki/entities/nature-machine-intelligence.md",
+        "wiki/concepts/全球气候模态统一预测.md",
+        "wiki/concepts/双分支多视角transformer架构.md",
+        "wiki/concepts/模态引导机制.md",
+        "wiki/concepts/春季可预报性障碍.md",
+        "wiki/concepts/ai驱动的科学发现.md"
+      ]
+    },
+    "rss/kv-cache终于不用无脑全留了！百度&复旦用「投资回报率」重新分配缓存｜icml-2026.md": {
+      "hash": "2870437e9fe512afb85f41ca7548029ace89217775a786f9f0c2ebd7247e8ccd",
+      "timestamp": 1781460080856,
+      "filesWritten": [
+        "wiki/sources/3-rss--281-kv-cache%E7%BB%88%E4%BA%8E%E4%B8%8D%E7%94%A8%E6%97%A0%E8%84%91%E5%85%A8%E7%95%99%E4%BA%86%EF%BC%81%E7--u5zrpf.md",
+        "wiki/entities/百度百舸.md",
+        "wiki/entities/复旦大学可信具身智能研究院.md",
+        "wiki/concepts/kv-cache.md",
+        "wiki/concepts/lu-kv.md",
+        "wiki/concepts/长程边际效用.md",
+        "wiki/concepts/凸包松弛.md",
+        "wiki/concepts/离线画像与查表部署.md",
+        "wiki/entities/icml-2026.md"
+      ]
+    },
+    "rss/agent时代，华为云开始重新造地基了.md": {
+      "hash": "435c6fc3cf0200a69e615946acd7c9b9a77b793798b42190860e58d931cdbabd",
+      "timestamp": 1781460427904,
+      "filesWritten": [
+        "wiki/sources/3-rss--131-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%8D%8E%E4%B8%BA%E4%BA%91%E5%BC%80%E5%A7%8B%E9%87%8D%E6%96%B0%E9--1wmt8g8.md",
+        "wiki/entities/华为云.md",
+        "wiki/entities/aics-灵衢智算集群.md",
+        "wiki/entities/ams-agentic记忆存储.md",
+        "wiki/entities/cce-volcano-next.md",
+        "wiki/entities/agentsphere.md",
+        "wiki/entities/modelarts-next.md",
+        "wiki/entities/智果园.md",
+        "wiki/entities/cloudrobo.md",
+        "wiki/entities/周跃峰.md",
+        "wiki/entities/上海瑞金医院.md",
+        "wiki/entities/罗兰贝格.md",
+        "wiki/concepts/agent基础设施新基建.md",
+        "wiki/concepts/分层记忆系统.md",
+        "wiki/concepts/内核级沙箱隔离.md",
+        "wiki/concepts/maas到agent能力打包.md",
+        "wiki/concepts/模型路由.md",
+        "wiki/concepts/rlaas-强化学习即服务.md",
+        "wiki/concepts/硅基用户入口.md",
+        "wiki/concepts/行业ai梦工厂.md",
+        "wiki/concepts/real-sim数据生产体系.md",
+        "wiki/concepts/先进公共云.md",
+        "wiki/events/华为云inspire大会-20260605.md"
+      ]
+    },
+    "rss/“炼石补天”“捏土造人”，cvpr-2026-oral-华科大等开源“nuwa”算法：类别特异性模型衍生新探索.md": {
+      "hash": "f356b60441f06c5892416f4324f9741bf93f42f36edaa0b7473283d878962bc5",
+      "timestamp": 1781460762102,
+      "filesWritten": [
+        "wiki/sources/3-rss--343-%E2%80%9C%E7%82%BC%E7%9F%B3%E8%A1%A5%E5%A4%A9%E2%80%9D%E2%80%9C%E6%8D%8F%E5%9C%9F%E9%80%A0%E4%BA%BA--tiz9p5.md",
+        "wiki/entities/nuwa-算法.md",
+        "wiki/concepts/类别特异性模型衍生.md",
+        "wiki/concepts/类别有害权重.md",
+        "wiki/concepts/免重训练剪枝.md",
+        "wiki/entities/华中科技大学.md",
+        "wiki/entities/斯威本科技大学.md",
+        "wiki/entities/迪肯大学.md",
+        "wiki/entities/jetson-orin-nx.md",
+        "wiki/events/nuwa算法发布-cvpr-2026.md"
+      ]
+    },
+    "rss/谷歌ceo斯坦福再被嘘！竟被逼不敢提ai.md": {
+      "hash": "b6de21ef3a045efb5ab7cb06b4795e4c713bde2096716e2da2255a7f593447cd",
+      "timestamp": 1781505608305,
+      "filesWritten": [
+        "wiki/sources/3-rss--140-%E8%B0%B7%E6%AD%8Cceo%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%86%8D%E8%A2%AB%E5%98%98%EF%BC%81%E7%AB%9F%E8%A2--1i0yts3.md",
+        "wiki/entities/sundar-pichai.md",
+        "wiki/entities/eric-schmidt.md",
+        "wiki/entities/jensen-huang.md",
+        "wiki/concepts/技术胜利叙事失灵.md",
+        "wiki/concepts/z世代ai焦虑.md",
+        "wiki/concepts/anthropic-public-record-survey.md",
+        "wiki/concepts/选择乐观.md",
+        "wiki/events/2026毕业季ai嘘声潮.md"
+      ]
+    },
+    "rss/fable-5突遭封禁，anthropic大会差点黄了！.md": {
+      "hash": "1e1c1fc98dfff7bd2b8d22fec310026d594cc7728f10824f1a44cda40281dee9",
+      "timestamp": 1781505624284,
+      "filesWritten": [
+        "wiki/sources/3-rss--124-fable-5%E7%AA%81%E9%81%AD%E5%B0%81%E7%A6%81%EF%BC%8Canthropic%E5%A4%A7%E4%BC%9A%E5%B7%AE%E7%82%B9%E9--1s9e30g.md"
+      ]
+    },
+    "rss/国产模型，打平了claude-fable-5！已上线openrouter.md": {
+      "hash": "f8fe3181a131569f5ca2d99634e399832aa44fe08038d114d3983feb3a844f36",
+      "timestamp": 1781505697354,
+      "filesWritten": [
+        "wiki/sources/3-rss--132-%E5%9B%BD%E4%BA%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E6%89%93%E5%B9%B3%E4%BA%86claude-fable-5%EF%BC%81%E5%B7--6p68zd.md"
+      ]
+    },
+    "rss/四个全球第一！中国最快成为独角兽的具身智能公司诞生.md": {
+      "hash": "b2a43f0243b005c58541680d008f48d4a69483dd7385be703f9d3ffc5114d718",
+      "timestamp": 1781506078823,
+      "filesWritten": [
+        "wiki/sources/3-rss--225-%E5%9B%9B%E4%B8%AA%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80%EF%BC%81%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%BF%AB--towneo.md",
+        "wiki/entities/大晓机器人.md",
+        "wiki/entities/kairos-开悟世界模型.md",
+        "wiki/entities/kairos-4b.md",
+        "wiki/entities/kairos-homeworld.md",
+        "wiki/entities/王晓刚.md",
+        "wiki/entities/陶大程.md",
+        "wiki/concepts/多模态理解-生成-预测一体化架构.md",
+        "wiki/concepts/端侧部署-具身智能.md",
+        "wiki/events/大晓机器人独角兽融资-202606.md"
+      ]
+    },
+    "rss/微软ceo长文：以后两种资本，人力资本+token资本.md": {
+      "hash": "179a76759b3b6dc50c45aed312bd39de609bf48a72d00189dc74a2ac376c9646",
+      "timestamp": 1781506097625,
+      "filesWritten": [
+        "wiki/sources/3-rss--173-%E5%BE%AE%E8%BD%AFceo%E9%95%BF%E6%96%87%EF%BC%9A%E4%BB%A5%E5%90%8E%E4%B8%A4%E7%A7%8D%E8%B5%84%E6%9C--9h25cs.md"
+      ]
+    },
+    "rss/一夜反转！「杀进第一梯队」的巴西llm竟「套壳缝合」了国产模型.md": {
+      "hash": "76b74bfdbff49434a6fc3f4a22052540ba48ff076779c77d43134d0b88aa7a23",
+      "timestamp": 1781506125778,
+      "filesWritten": [
+        "wiki/sources/3-rss--255-%E4%B8%80%E5%A4%9C%E5%8F%8D%E8%BD%AC%EF%BC%81%E3%80%8C%E6%9D%80%E8%BF%9B%E7%AC%AC%E4%B8%80%E6%A2%AF--1j2xyqw.md"
+      ]
+    },
+    "rss/4步出声，单卡0.24秒！noiz-ai联合港科大清华，开源音频生成大模型.md": {
+      "hash": "e2d4d3919f1f0f6421be3ae8a8d09df31720e1ee8c16f2dbf5104185246132f4",
+      "timestamp": 1781515986407,
+      "filesWritten": [
+        "wiki/sources/3-rss--237-4%E6%AD%A5%E5%87%BA%E5%A3%B0%EF%BC%8C%E5%8D%95%E5%8D%A10.24%E7%A7%92%EF%BC%81noiz-ai%E8%81%94%E5%90--1mv5jng.md"
+      ]
+    },
+    "rss/全网实测kimi-k2.7-code！黑洞、燃烧动画、水波渲染全卷起来了.md": {
+      "hash": "0867091806cee8eaeeb3cf7033b442baebdd56670a8fc0fdffe372dc04db7930",
+      "timestamp": 1781516017855,
+      "filesWritten": [
+        "wiki/sources/3-rss--212-%E5%85%A8%E7%BD%91%E5%AE%9E%E6%B5%8Bkimi-k2.7-code%EF%BC%81%E9%BB%91%E6%B4%9E%E3%80%81%E7%87%83%E7%83--q0jiav.md"
+      ]
+    },
+    "rss/把真实github仓库转化为可执行终端轨迹！terminaltraj入选icml-2026.md": {
+      "hash": "53916a1816b2f117bf317e72b74573a670733e678a498b36a99e92358874033a",
+      "timestamp": 1781516047459,
+      "filesWritten": [
+        "wiki/sources/3-rss--189-%E6%8A%8A%E7%9C%9F%E5%AE%9Egithub%E4%BB%93%E5%BA%93%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%8F%AF%E6%89%A7%E8--14nfd7n.md"
+      ]
+    },
+    "rss/低成本复刻fable-5的路子找到了：orcarouter多模型组队，性能反超.md": {
+      "hash": "2b87aac65d471353425bdbe9ebd487fba3c074584391111a540163f4891c13a4",
+      "timestamp": 1781516069418,
+      "filesWritten": [
+        "wiki/sources/3-rss--215-%E4%BD%8E%E6%88%90%E6%9C%AC%E5%A4%8D%E5%88%BBfable-5%E7%9A%84%E8%B7%AF%E5%AD%90%E6%89%BE%E5%88%B0%E4--t36ytr.md"
+      ]
+    },
+    "rss/ai「投胎」物理世界，第一志愿选了ai汽车.md": {
+      "hash": "6a170327c5520715429f06c305ca674d756697feb32bcf4c02b51b31a6d14f86",
+      "timestamp": 1781516092461,
+      "filesWritten": [
+        "wiki/sources/3-rss--157-ai%E3%80%8C%E6%8A%95%E8%83%8E%E3%80%8D%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C%EF%BC%8C%E7%AC%AC%E4%B8%80--58qbym.md"
+      ]
+    },
+    "rss/宇树机器人要登珠峰了！.md": {
+      "hash": "1ca4b635331165eb30541fac747ff15e54f589df771b0679aa49f68a77c99598",
+      "timestamp": 1781516115455,
+      "filesWritten": [
+        "wiki/sources/3-rss--99-%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E7%99%BB%E7%8F%A0%E5%B3%B0%E4%BA%86%EF%BC%81--1oqurho.md"
+      ]
+    },
+    "rss/刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线.md": {
+      "hash": "04f401a50c3c7ab62eda2b591bb72fd4332295cb365d6ccf2c928feeda1fbc78",
+      "timestamp": 1781516136351,
+      "filesWritten": [
+        "wiki/sources/3-rss--279-%E5%88%9A%E6%88%90%E7%AB%8B%E4%B8%80%E5%B9%B4%E5%B0%B1%E6%8B%BF%E4%B8%8B%E8%BD%A6%E5%8E%82%E8%AE%A2--19dmyy5.md"
+      ]
+    },
+    "rss/受fable-5封禁影响，gpt-5.6或将延迟发布！.md": {
+      "hash": "b30ad6f7345ff466c7ecc6d100774dd57cc43ae3713fda197fe7ecd6630338d4",
+      "timestamp": 1781534234053,
+      "filesWritten": [
+        "wiki/sources/3-rss--131-%E5%8F%97fable-5%E5%B0%81%E7%A6%81%E5%BD%B1%E5%93%8D%EF%BC%8Cgpt-5.6%E6%88%96%E5%B0%86%E5%BB%B6%E8--16fnlcl.md"
+      ]
+    },
+    "rss/openai还没敲钟，先造了300个亿级富翁！.md": {
+      "hash": "fc7ad55a66019ef9e909a3aa7ada62d7903ca6cd49014fe36bd4488852c2d532",
+      "timestamp": 1781534248673,
+      "filesWritten": [
+        "wiki/sources/3-rss--135-openai%E8%BF%98%E6%B2%A1%E6%95%B2%E9%92%9F%EF%BC%8C%E5%85%88%E9%80%A0%E4%BA%86300%E4%B8%AA%E4%BA%BF--jm0hvy.md"
+      ]
+    },
+    "rss/ai应用元年，只会yes，无视风险？软件开发的航行日志全面开源.md": {
+      "hash": "0751dda15dab75681595ae078613e1b1e26f14fbd42637a116a49bea34f14f85",
+      "timestamp": 1781534264884,
+      "filesWritten": [
+        "wiki/sources/3-rss--239-ai%E5%BA%94%E7%94%A8%E5%85%83%E5%B9%B4%EF%BC%8C%E5%8F%AA%E4%BC%9Ayes%EF%BC%8C%E6%97%A0%E8%A7%86%E9--18qgkvn.md"
+      ]
+    },
+    "rss/fable-5四天暴毙！ai史上最短命旗舰.md": {
+      "hash": "6f912637f6a4e5ef5788a7aad2d465d073137eaa92cfb595f14847a61d226b30",
+      "timestamp": 1781534516951,
+      "filesWritten": [
+        "wiki/sources/3-rss--117-fable-5%E5%9B%9B%E5%A4%A9%E6%9A%B4%E6%AF%99%EF%BC%81ai%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%9F%AD%E5%91%BD--1jzkqhc.md"
+      ]
+    },
+    "rss/突发！anthropic即将启用实名制刷脸.md": {
+      "hash": "013e7843f68c78d35fe2e28badbfb9d69535e8dd3826e7e2246fdb2b492f6eb5",
+      "timestamp": 1781534533286,
+      "filesWritten": [
+        "wiki/sources/3-rss--117-%E7%AA%81%E5%8F%91%EF%BC%81anthropic%E5%8D%B3%E5%B0%86%E5%90%AF%E7%94%A8%E5%AE%9E%E5%90%8D%E5%88%B6--1dvyiyw.md"
+      ]
+    },
+    "rss/给音视频生成打草稿！复旦&腾讯提出baton：首创语义蓝图指引，实现音画逻辑精准同步.md": {
+      "hash": "83c695ec339976d3ce97daf732a85afdeed69ad9bb9e8eba94f51a61a5747b0d",
+      "timestamp": 1781534551159,
+      "filesWritten": [
+        "wiki/sources/3-rss--332-%E7%BB%99%E9%9F%B3%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%89%93%E8%8D%89%E7%A8%BF%EF%BC%81%E5%A4%8D--18094mk.md"
+      ]
+    },
+    "rss/2026年玩ai必备技能：不是提示词，是循环工程.md": {
+      "hash": "f49d8a4439f0f31d013c38e420ab95afc4aedcdfb3a42ea5f4397cafa604fe9d",
+      "timestamp": 1781534977084,
+      "filesWritten": [
+        "wiki/sources/3-rss--168-2026%E5%B9%B4%E7%8E%A9ai%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%9A%E4%B8%8D%E6%98%AF%E6%8F%90%E7--kgnvys.md",
+        "wiki/entities/addy-osmani.md",
+        "wiki/concepts/循环工程.md",
+        "wiki/concepts/理解债务.md",
+        "wiki/concepts/提示词工程.md"
+      ]
+    },
+    "rss/1680份员工履历揭开anthropic招人底牌：「基础设施老兵」更吃香.md": {
+      "hash": "f4022ce5ff2a55d4183e3e0b1cf287d224c3fe9c04510b591eaac8296bf994ea",
+      "timestamp": 1781535126178,
+      "filesWritten": [
+        "wiki/sources/3-rss--220-1680%E4%BB%BD%E5%91%98%E5%B7%A5%E5%B1%A5%E5%8E%86%E6%8F%AD%E5%BC%80anthropic%E6%8B%9B%E4%BA%BA%E5%BA--1hdi14q.md"
+      ]
+    },
+    "rss/1080条提示词、7款模型大比拼：视频生成离「好看、好用又准确」还差多少？.md": {
+      "hash": "f1005cd4f093956c70607c2698776960d825029b99287db9b4ab85d991b44c5e",
+      "timestamp": 1781535140587,
+      "filesWritten": [
+        "wiki/sources/3-rss--293-1080%E6%9D%A1%E6%8F%90%E7%A4%BA%E8%AF%8D%E3%80%817%E6%AC%BE%E6%A8%A1%E5%9E%8B%E5%A4%A7%E6%AF%94%E6%8B--kda8sl.md"
+      ]
+    },
+    "rss/用国产gpu训练ai给自己写内核，摩尔线程刷榜硬核基准.md": {
+      "hash": "dfde81b7f211dc2b23ed83c67a2cb7db21a14c57099b00765e99306b5c75ae44",
+      "timestamp": 1781535156219,
+      "filesWritten": [
+        "wiki/sources/3-rss--203-%E7%94%A8%E5%9B%BD%E4%BA%A7gpu%E8%AE%AD%E7%BB%83ai%E7%BB%99%E8%87%AA%E5%B7%B1%E5%86%99%E5%86%85%E6--1vqgxy7.md"
+      ]
+    },
+    "rss/腾讯robotics-x开源hyvla-0.5：基于亚毫米级指套umi与真机强化，摆脱繁重遥操.md": {
+      "hash": "513ea9841102cf4e10fbae1c48af4813c2352d264cb503b21bd6e677329524aa",
+      "timestamp": 1781535277339,
+      "filesWritten": [
+        "wiki/sources/3-rss--247-%E8%85%BE%E8%AE%AFrobotics-x%E5%BC%80%E6%BA%90hyvla-0.5%EF%BC%9A%E5%9F%BA%E4%BA%8E%E4%BA%9A%E6%AF%AB--8hs5iu.md"
+      ]
+    },
+    "rss/林俊旸推荐，anthropic研究者自白：如何成为一位优秀研究者？.md": {
+      "hash": "a5434573fd4e4c4f93e4deea72b9a4bd32cd618e973b95ba2e28af34d495e030",
+      "timestamp": 1781535291437,
+      "filesWritten": [
+        "wiki/sources/3-rss--225-%E6%9E%97%E4%BF%8A%E6%97%B8%E6%8E%A8%E8%8D%90%EF%BC%8Canthropic%E7%A0%94%E7%A9%B6%E8%80%85%E8%87%AA--16mr0b2.md"
+      ]
+    },
+    "rss/打破swe-bench唯分数论，首个独立测量harness的基准开源了.md": {
+      "hash": "228e7398c1716930fd42bf2e3d5589e54a78824308e638b069fd49d3eb906b25",
+      "timestamp": 1781535306983,
+      "filesWritten": [
+        "wiki/sources/3-rss--187-%E6%89%93%E7%A0%B4swe-bench%E5%94%AF%E5%88%86%E6%95%B0%E8%AE%BA%EF%BC%8C%E9%A6%96%E4%B8%AA%E7%8B%AC--1bhns3i.md"
+      ]
+    },
+    "rss/从icra到cvpr，机器人圈最近到底在聊什么？｜北京·周三晚.md": {
+      "hash": "2bf3b2305bc283e94bf33d69e6c0fe75c05e2ffa5f11b466145d27bdd2e56af5",
+      "timestamp": 1781545077327,
+      "filesWritten": [
+        "wiki/sources/3-rss--212-%E4%BB%8Eicra%E5%88%B0cvpr%EF%BC%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%88%E6%9C%80%E8%BF%91%E5%88%B0--1ncvqev.md",
+        "wiki/entities/pndbotics.md",
+        "wiki/entities/极佳视界.md",
+        "wiki/entities/lumina社区.md",
+        "wiki/entities/崔昊天.md",
+        "wiki/entities/王啸峰.md",
+        "wiki/entities/谭恒楷.md",
+        "wiki/concepts/sca准直驱qdd柔性执行器.md",
+        "wiki/concepts/drivedreamer-gigaworld.md",
+        "wiki/concepts/motubrain-motus-vidar-rdt.md"
+      ]
+    },
+    "rss/最新“sota”大模型，套壳国产实锤了.md": {
+      "hash": "1bfc880089f06f24cfce2565f8bd2be2b47054bb45b8255216e37fc83424c6cc",
+      "timestamp": 1781545454412,
+      "filesWritten": [
+        "wiki/sources/3-rss--139-%E6%9C%80%E6%96%B0%E2%80%9Csota%E2%80%9D%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E5%A5%97%E5%A3%B3%E5%9B--1xtx01m.md",
+        "wiki/concepts/模型套壳.md",
+        "wiki/concepts/权重共线性验证.md",
+        "wiki/concepts/硬编码系统提示词.md",
+        "wiki/entities/rio-3-5.md",
+        "wiki/entities/nex.md",
+        "wiki/entities/上海创智学院.md",
+        "wiki/entities/composer-2.md",
+        "wiki/entities/月之暗面.md",
+        "wiki/entities/llama3-v.md",
+        "wiki/entities/面壁智能.md",
+        "wiki/entities/克雷西.md",
+        "wiki/events/rio-3-5套壳事件.md"
+      ]
+    },
+    "rss/征稿启事-acm-mm-2026-首届「音视频联合理解与生成」国际研讨会-jav-cg.md": {
+      "hash": "5baa740cd8bc13e905e7eeaaf4f242118577b90ff5662b02d10e39fd00b271a4",
+      "timestamp": 1781545752814,
+      "filesWritten": [
+        "wiki/sources/3-rss--227-%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B-acm-mm-2026-%E9%A6%96%E5%B1%8A%E3%80%8C%E9%9F%B3%E8%A7%86%E9%A2--33sx9e.md",
+        "wiki/entities/jav-cg.md",
+        "wiki/entities/acm-mm-2026.md",
+        "wiki/concepts/音视频联合理解与生成.md",
+        "wiki/concepts/视听理解与推理.md",
+        "wiki/concepts/音视频生成.md",
+        "wiki/concepts/统一视听框架.md",
+        "wiki/events/jav-cg-研讨会设立-2026.md"
+      ]
+    },
+    "rss/dyco-rl：动态跨模态协同学习让多模态大模型“看得准也想得清”.md": {
+      "hash": "80f25370722e0f0eda9b9e5216251ded4ff4850635f568ac417af33ff8379c4c",
+      "timestamp": 1781546061834,
+      "filesWritten": [
+        "wiki/sources/3-rss--241-dyco-rl%EF%BC%9A%E5%8A%A8%E6%80%81%E8%B7%A8%E6%A8%A1%E6%80%81%E5%8D%8F%E5%90%8C%E5%AD%A6%E4%B9%A0%E8--h92aog.md",
+        "wiki/concepts/dyco-rl.md",
+        "wiki/concepts/可验证奖励的强化学习.md",
+        "wiki/concepts/视觉推理中的模态切换.md",
+        "wiki/concepts/基于fisher-rao距离的token角色分配.md",
+        "wiki/concepts/对齐引导的优势重加权.md",
+        "wiki/entities/北京智源研究院.md",
+        "wiki/entities/特伦托大学.md",
+        "wiki/entities/新加坡管理大学.md",
+        "wiki/entities/qwen2-5-vl.md",
+        "wiki/entities/thinklite-hard-11k.md",
+        "wiki/entities/grpo.md",
+        "wiki/entities/dapo.md"
+      ]
+    },
+    "rss/码农连任务都不写了？codex开始自己给自己派活.md": {
+      "hash": "be2c5ab68a52136b9115455f495ad1c6cd0138ad6039985c600e239b6d24e1d4",
+      "timestamp": 1781562993442,
+      "filesWritten": [
+        "wiki/sources/3-rss--176-%E7%A0%81%E5%86%9C%E8%BF%9E%E4%BB%BB%E5%8A%A1%E9%83%BD%E4%B8%8D%E5%86%99%E4%BA%86%EF%BC%9Fcodex%E5%BC--6cj6og.md",
+        "wiki/entities/pietro-schirano.md",
+        "wiki/entities/andrew-chen.md",
+        "wiki/entities/infinite-skills.md",
+        "wiki/concepts/自生成目标.md",
+        "wiki/concepts/ralph循环.md",
+        "wiki/concepts/目标漂移.md",
+        "wiki/events/codex-goal功能上线-202604.md",
+        "wiki/events/ai编程工具自治任务竞赛-202605.md"
+      ]
+    },
+    "rss/腾讯投了林俊旸1.4亿！前千问负责人创业，估值135亿.md": {
+      "hash": "a7bb94d49bdd8f97cf2f491f0c7d14d41f5c00180ec67c6b0e49c906406452c5",
+      "timestamp": 1781563006650,
+      "filesWritten": [
+        "wiki/sources/3-rss--195-%E8%85%BE%E8%AE%AF%E6%8A%95%E4%BA%86%E6%9E%97%E4%BF%8A%E6%97%B81.4%E4%BA%BF%EF%BC%81%E5%89%8D%E5%8D--1igu8ow.md"
+      ]
+    },
+    "rss/【征稿通知】eccv-2026-workshop-多模态大语言模型统一理解与生成（mucg）.md": {
+      "hash": "77c92187d4d27c61265aba2e2b24dfc374e72126dfaed7a9fc5868e1c8ba4738",
+      "timestamp": 1781573970746,
+      "filesWritten": [
+        "wiki/sources/3-rss--230-%E3%80%90%E5%BE%81%E7%A8%BF%E9%80%9A%E7%9F%A5%E3%80%91eccv-2026-workshop-%E5%A4%9A%E6%A8%A1%E6%80%81--13zyuwa.md",
+        "wiki/entities/eccv-2026.md",
+        "wiki/entities/mucg-workshop.md",
+        "wiki/concepts/协同学习.md",
+        "wiki/concepts/混合建模范式.md",
+        "wiki/concepts/多模态思维链.md",
+        "wiki/entities/nvidia-research.md",
+        "wiki/entities/mit-csail.md",
+        "wiki/entities/kaust.md",
+        "wiki/entities/新加坡国立大学.md",
+        "wiki/entities/牛津大学.md",
+        "wiki/entities/斯坦福大学.md",
+        "wiki/entities/港科大广州.md",
+        "wiki/entities/allen-institute-for-ai.md",
+        "wiki/entities/mit-ibm-watson-ai-lab.md"
+      ]
+    },
+    "rss/具身智能数据基建升级！神经腕带+全景头环，补全物理操作信号.md": {
+      "hash": "eea0db1095efe1b8de0a221984f9be987e4d5e4e30cfef45c94d16c9ea873a52",
+      "timestamp": 1781586360463,
+      "filesWritten": [
+        "wiki/sources/3-rss--255-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%95%B0%E6%8D%AE%E5%9F%BA%E5%BB%BA%E5%8D%87%E7%BA%A7%EF%BC%81--9ql505.md"
+      ]
+    },
+    "rss/华为云，换一种打法.md": {
+      "hash": "6a61419eff13a2b7b430210fe09600cd42ce2e410e6bb6b3215c21fa262310e3",
+      "timestamp": 1781586383992,
+      "filesWritten": [
+        "wiki/sources/3-rss--81-%E5%8D%8E%E4%B8%BA%E4%BA%91%EF%BC%8C%E6%8D%A2%E4%B8%80%E7%A7%8D%E6%89%93%E6%B3%95--1s348hp.md"
+      ]
+    },
+    "rss/给造火箭的做饭也能一夜暴富，马斯克spacex创史上最大ipo.md": {
+      "hash": "825d33f4c8ce437c984766b55ee03c8ee5ea51056fde528b1ddd84e17f4da80e",
+      "timestamp": 1781586421345,
+      "filesWritten": [
+        "wiki/sources/3-rss--207-%E7%BB%99%E9%80%A0%E7%81%AB%E7%AE%AD%E7%9A%84%E5%81%9A%E9%A5%AD%E4%B9%9F%E8%83%BD%E4%B8%80%E5%A4%9C--mzd8dn.md"
+      ]
+    },
+    "rss/硅谷靠agent月入30万刀，中国芯把入场券打到2999！.md": {
+      "hash": "666cb7b6aa24dfcf9f064d9ae6eda4fff748715099286ed24d5c252fa7d3c208",
+      "timestamp": 1781586830565,
+      "filesWritten": [
+        "wiki/sources/3-rss--173-%E7%A1%85%E8%B0%B7%E9%9D%A0agent%E6%9C%88%E5%85%A530%E4%B8%87%E5%88%80%EF%BC%8C%E4%B8%AD%E5%9B%BD%E8--otvb68.md",
+        "wiki/entities/此芯科技.md",
+        "wiki/entities/此芯-p1.md",
+        "wiki/entities/联想.md",
+        "wiki/entities/联想ai主机mini.md",
+        "wiki/entities/天禧claw.md",
+        "wiki/concepts/端侧agent部署.md",
+        "wiki/concepts/agent三堵墙.md",
+        "wiki/concepts/agentic-soc.md",
+        "wiki/concepts/云端主推理-本地小模型协同.md",
+        "wiki/events/联想ai主机mini发布-20260612.md"
+      ]
+    },
+    "rss/claude-fable-5最难档零分！智能体的最后考试来了.md": {
+      "hash": "701c3a08c9e7d54e91eeebf093d2a48873db3baf8695b2839b77859e4c1804ea",
+      "timestamp": 1781587261654,
+      "filesWritten": [
+        "wiki/sources/3-rss--158-claude-fable-5%E6%9C%80%E9%9A%BE%E6%A1%A3%E9%9B%B6%E5%88%86%EF%BC%81%E6%99%BA%E8%83%BD%E4%BD%93%E7--1unrrh9.md",
+        "wiki/entities/claude-fable-5.md",
+        "wiki/entities/composer-2-5.md",
+        "wiki/entities/宋晓东.md",
+        "wiki/entities/加州大学伯克利分校.md",
+        "wiki/entities/agent-arena.md",
+        "wiki/concepts/ale-智能体的最后考试.md",
+        "wiki/concepts/gcua-通用计算机使用智能体.md",
+        "wiki/concepts/任务完成幻觉.md",
+        "wiki/concepts/基准污染.md",
+        "wiki/concepts/经济价值工作.md",
+        "wiki/events/ale基准发布与fable5评测-20260612.md"
+      ]
+    },
+    "rss/rss-2026-别再让机器人看错重点，guidedvla给动作解码器装上可控可解释的注意力专家.md": {
+      "hash": "f885cbc7b494484d7bd1917f5986216631327a39888b63ae5da3151738a7f98d",
+      "timestamp": 1781587644856,
+      "filesWritten": [
+        "wiki/sources/3-rss--288-rss-2026-%E5%88%AB%E5%86%8D%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9C%8B%E9%94%99%E9%87%8D%E7%82%B9--lkjzjo.md",
+        "wiki/entities/guidedvla.md",
+        "wiki/entities/复旦大学可信具身智能研究院.md",
+        "wiki/entities/香港大学opendrivelab.md",
+        "wiki/entities/pi-0.md",
+        "wiki/entities/qwen3-vl.md",
+        "wiki/entities/sam2.md",
+        "wiki/entities/libero-plus.md",
+        "wiki/entities/robotwin-2-0.md",
+        "wiki/concepts/动作解码器伪相关.md",
+        "wiki/concepts/注意力专家分工.md",
+        "wiki/concepts/controlnet式残差适配器.md",
+        "wiki/concepts/自动因子标注流水线.md",
+        "wiki/events/guidedvla发布.md"
+      ]
+    },
+    "rss/5秒攻破，仅需1次对话：fable-5最强安全机制被华人团队破解.md": {
+      "hash": "ffd14fec6f6561efc1db08f0a2191e682c77813e474413b56004a2cff0cebdda",
+      "timestamp": 1781588044175,
+      "filesWritten": [
+        "wiki/sources/3-rss--216-5%E7%A7%92%E6%94%BB%E7%A0%B4%EF%BC%8C%E4%BB%85%E9%9C%801%E6%AC%A1%E5%AF%B9%E8%AF%9D%EF%BC%9Afable-5--pza7w2.md",
+        "wiki/entities/fable-5.md",
+        "wiki/entities/opus-4-8.md",
+        "wiki/entities/马兴军.md",
+        "wiki/entities/yutao-wu.md",
+        "wiki/entities/pliny-the-liberator.md",
+        "wiki/concepts/内部安全坍塌.md",
+        "wiki/concepts/tvd攻击框架.md",
+        "wiki/concepts/安全分类器+模型防御架构.md",
+        "wiki/entities/isc-bench.md",
+        "wiki/events/fable-5-isc攻破事件.md"
+      ]
+    },
+    "rss/入围cvpr-2026最佳论文决选，vit³用「测试时训练」突破transformer复杂度瓶颈.md": {
+      "hash": "df583af990e1e39fb4343aa44e3d6a31ee8da2e50deca03f12f1c2e3a0e480c0",
+      "timestamp": 1781588385501,
+      "filesWritten": [
+        "wiki/sources/3-rss--245-%E5%85%A5%E5%9B%B4cvpr-2026%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%E5%86%B3%E9%80%89%EF%BC%8Cvit%C2%B3--5n1zvy.md",
+        "wiki/entities/vit3.md",
+        "wiki/concepts/test-time-training.md",
+        "wiki/concepts/linear-attention.md",
+        "wiki/concepts/状态空间模型.md",
+        "wiki/events/vit3入围cvpr-2026最佳论文决选.md"
+      ]
+    },
+    "rss/anthropic-5.2万人调查大曝光！美国人对ai已达成共识.md": {
+      "hash": "693e2a793c416e77878647733a0787dfc08daf7f29ccb8a89797fa9442a800bc",
+      "timestamp": 1781588440467,
+      "filesWritten": [
+        "wiki/sources/3-rss--168-anthropic-5.2%E4%B8%87%E4%BA%BA%E8%B0%83%E6%9F%A5%E5%A4%A7%E6%9B%9D%E5%85%89%EF%BC%81%E7%BE%8E%E5%9B--fowwy5.md"
+      ]
+    },
+    "rss/anthropic谈判陷僵局！大佬联名要求解禁fable.md": {
+      "hash": "229ae340117eb0997bfe72f0d24af0157b337a10cefb00d3f588e8b89db016c0",
+      "timestamp": 1781591580273,
+      "filesWritten": [
+        "wiki/sources/3-rss--140-anthropic%E8%B0%88%E5%88%A4%E9%99%B7%E5%83%B5%E5%B1%80%EF%BC%81%E5%A4%A7%E4%BD%AC%E8%81%94%E5%90%8D--1gwob5t.md"
+      ]
+    },
+    "rss/karpathy被踢？美或将外籍天才逼出asi核心圈.md": {
+      "hash": "fb306dc73f4c1ac2a8edde5194e7a8b75cee6f3f8bba21c623e287c7f32cfd9e",
+      "timestamp": 1781591607734,
+      "filesWritten": [
+        "wiki/sources/3-rss--146-karpathy%E8%A2%AB%E8%B8%A2%EF%BC%9F%E7%BE%8E%E6%88%96%E5%B0%86%E5%A4%96%E7%B1%8D%E5%A4%A9%E6%89%8D%E9--8yaa0i.md"
+      ]
+    },
+    "rss/cursor再爆猛料：曾占anthropic一半收入！.md": {
+      "hash": "263db4501a42c6782244b666268ebc647bb26251e72b9f5b751ce2db80c0f76d",
+      "timestamp": 1781591633601,
+      "filesWritten": [
+        "wiki/sources/3-rss--123-cursor%E5%86%8D%E7%88%86%E7%8C%9B%E6%96%99%EF%BC%9A%E6%9B%BE%E5%8D%A0anthropic%E4%B8%80%E5%8D%8A%E6--194x2b4.md"
+      ]
+    },
+    "rss/anthropic撤回第三方订阅限制，「虾马」全面解禁！.md": {
+      "hash": "933219e71ef832489e69277a7b83bfba131b9acbf686df3be01b72dd08fdabe3",
+      "timestamp": 1781591650842,
+      "filesWritten": [
+        "wiki/sources/3-rss--180-anthropic%E6%92%A4%E5%9B%9E%E7%AC%AC%E4%B8%89%E6%96%B9%E8%AE%A2%E9%98%85%E9%99%90%E5%88%B6%EF%BC%8C--tecjmo.md"
+      ]
+    },
+    "rss/40名全球顶尖专家秘密齐聚华盛顿，闭门探讨避免ai末日.md": {
+      "hash": "309b1d8daabe84d250823d1e27f17dd095b6d93a4c83d6dadc7c501a64dd49bc",
+      "timestamp": 1781591676440,
+      "filesWritten": [
+        "wiki/sources/3-rss--211-40%E5%90%8D%E5%85%A8%E7%90%83%E9%A1%B6%E5%B0%96%E4%B8%93%E5%AE%B6%E7%A7%98%E5%AF%86%E9%BD%90%E8%81--1oy7n25.md"
+      ]
+    },
+    "rss/ai版支付宝被曝开启内测！.md": {
+      "hash": "4dbbd39b2ca86777a7985b4363a192202d28d56e1ce91c0a65e32bcbe4ffe1d9",
+      "timestamp": 1781591704573,
+      "filesWritten": [
+        "wiki/sources/3-rss--101-ai%E7%89%88%E6%94%AF%E4%BB%98%E5%AE%9D%E8%A2%AB%E6%9B%9D%E5%BC%80%E5%90%AF%E5%86%85%E6%B5%8B%EF%BC--11g8vyj.md"
+      ]
+    },
+    "rss/视觉latent-reasoning为什么不稳？这篇论文从特征空间找到了关键缺口.md": {
+      "hash": "d399a9f22feae34c528ac477f0d15f87eff215067f256aaccec4ef4517a2942c",
+      "timestamp": 1781591729752,
+      "filesWritten": [
+        "wiki/sources/3-rss--232-%E8%A7%86%E8%A7%89latent-reasoning%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E7%A8%B3%EF%BC%9F%E8%BF%99%E7--166wm3p.md"
+      ]
+    },
+    "rss/anthropic又摊上事了，夸大使用额度，被用户起诉.md": {
+      "hash": "a75a93fcce6a7318466231272bd763a1b4bd37a7864494c4842c00f07564bb76",
+      "timestamp": 1781591755532,
+      "filesWritten": [
+        "wiki/sources/3-rss--171-anthropic%E5%8F%88%E6%91%8A%E4%B8%8A%E4%BA%8B%E4%BA%86%EF%BC%8C%E5%A4%B8%E5%A4%A7%E4%BD%BF%E7%94%A8--1k01alt.md"
+      ]
+    },
+    "rss/年薪300万的前沿部署工程师，要被「录屏教学」替代了.md": {
+      "hash": "bfe2ddb411ecb5f764daf650dfdf1e5629cef2a3571260b995499eaa3e1a512b",
+      "timestamp": 1781591779967,
+      "filesWritten": [
+        "wiki/sources/3-rss--210-%E5%B9%B4%E8%96%AA300%E4%B8%87%E7%9A%84%E5%89%8D%E6%B2%BF%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8--e98ukb.md"
+      ]
+    },
+    "rss/ai-scientists的下一站是社会科学：清华团队推出「硅基社会实验室」agentsociety².md": {
+      "hash": "c521e1822b287d98b67b1e8b8b9df356c8c5fd4d07e3fe4bf6ae7935e538106e",
+      "timestamp": 1781591802491,
+      "filesWritten": [
+        "wiki/sources/3-rss--256-ai-scientists%E7%9A%84%E4%B8%8B%E4%B8%80%E7%AB%99%E6%98%AF%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%EF%BC--hy9bc0.md"
+      ]
+    },
+    "rss/腾讯1.3亿入局！林俊旸新ai-lab首轮投后估值135亿，已寻求下一轮.md": {
+      "hash": "db7fdda0eb0ac6a2ea319d7160c77db40b31abbe46c064fa6ec559a6735b6f71",
+      "timestamp": 1781591823886,
+      "filesWritten": [
+        "wiki/sources/3-rss--228-%E8%85%BE%E8%AE%AF1.3%E4%BA%BF%E5%85%A5%E5%B1%80%EF%BC%81%E6%9E%97%E4%BF%8A%E6%97%B8%E6%96%B0ai-lab--xiryat.md"
+      ]
+    },
+    "rss/英伟达史上最大融资被抢爆！获850亿美元订单，认购超三倍.md": {
+      "hash": "c012726c8c4bad002b47befd7231e730dba88b4d2556e82e0b7dc0d3d0216e36",
+      "timestamp": 1781602382864,
+      "filesWritten": [
+        "wiki/sources/3-rss--228-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E8%9E%8D%E8%B5%84%E8%A2%AB%E6%8A%A2--w9l3mi.md"
+      ]
+    },
+    "rss/不儿，罗永浩、胡彦斌都来参加这场ai大赛了啊.md": {
+      "hash": "37abd0738a11555b2f3a010b7276a607ff1caa44a07ac3d835c0c50d6487b87c",
+      "timestamp": 1781602402188,
+      "filesWritten": [
+        "wiki/sources/3-rss--182-%E4%B8%8D%E5%84%BF%EF%BC%8C%E7%BD%97%E6%B0%B8%E6%B5%A9%E3%80%81%E8%83%A1%E5%BD%A6%E6%96%8C%E9%83%BD--tyao6k.md"
+      ]
+    },
+    "rss/林俊旸新公司「卜拉格」亮相！首轮估值135亿，腾讯高榕红杉全投了.md": {
+      "hash": "768d9be0f89fbc410382107edd2ccbbc5ab9166576bd75951f41283ecc0ba2fb",
+      "timestamp": 1781602427959,
+      "filesWritten": [
+        "wiki/sources/3-rss--264-%E6%9E%97%E4%BF%8A%E6%97%B8%E6%96%B0%E5%85%AC%E5%8F%B8%E3%80%8C%E5%8D%9C%E6%8B%89%E6%A0%BC%E3%80%8D--2cxzj3.md"
+      ]
+    },
+    "rss/spacex华人女孩刷屏！没有硕博学位，6年从火箭小白到「猛禽」飞行操作员.md": {
+      "hash": "b6c4a6a17d90b79f0d96938c79fd049090d9315ef5b8dfac60c2b17bc757cad4",
+      "timestamp": 1781602450156,
+      "filesWritten": [
+        "wiki/sources/3-rss--277-spacex%E5%8D%8E%E4%BA%BA%E5%A5%B3%E5%AD%A9%E5%88%B7%E5%B1%8F%EF%BC%81%E6%B2%A1%E6%9C%89%E7%A1%95%E5--duxj92.md"
+      ]
+    },
+    "rss/icml2026-从“生成结果”到“生成结构”，reveallayer带来指定对象的可控分层图像生成.md": {
+      "hash": "f127500d2516769a730e30a6ef8104ec450c2015a5cad03c4a0dacef98a083d8",
+      "timestamp": 1781602471810,
+      "filesWritten": [
+        "wiki/sources/3-rss--290-icml2026-%E4%BB%8E%E2%80%9C%E7%94%9F%E6%88%90%E7%BB%93%E6%9E%9C%E2%80%9D%E5%88%B0%E2%80%9C%E7%94%9F--a4qu7n.md"
+      ]
+    },
+    "rss/从贝叶斯到大语言模型：一文详解「时序点过程」近年进展.md": {
+      "hash": "59e7ff1b235cd2f3d0c5b8658862df253ed97ad77088455e99a52a093111cb91",
+      "timestamp": 1781620777296,
+      "filesWritten": [
+        "wiki/sources/3-rss--234-%E4%BB%8E%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%B0%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%EF%BC%9A--8kf81b.md",
+        "wiki/concepts/时序点过程.md",
+        "wiki/concepts/条件强度函数.md",
+        "wiki/concepts/hawkes-过程.md",
+        "wiki/concepts/intensity-free建模.md",
+        "wiki/concepts/llm-based-tpp.md",
+        "wiki/concepts/贝叶斯tpp.md",
+        "wiki/concepts/神经tpp.md",
+        "wiki/entities/easytpp.md",
+        "wiki/entities/中国人民大学.md",
+        "wiki/entities/广东工业大学.md",
+        "wiki/entities/东南大学.md",
+        "wiki/entities/tmlr.md"
+      ]
+    },
+    "rss/600亿美元，cursor归马斯克了.md": {
+      "hash": "c1efd53f425642e283593ee3c404bd5501f321139e708610a3246c2a1f008bfe",
+      "timestamp": 1781621165981,
+      "filesWritten": [
+        "wiki/sources/3-rss--90-600%E4%BA%BF%E7%BE%8E%E5%85%83%EF%BC%8Ccursor%E5%BD%92%E9%A9%AC%E6%96%AF%E5%85%8B%E4%BA%86--ufwok3.md",
+        "wiki/entities/grok.md",
+        "wiki/entities/a16z.md",
+        "wiki/events/spacex收购cursor.md",
+        "wiki/concepts/算力-股权深度绑定.md",
+        "wiki/concepts/数据护城河-开发者工作流数据.md",
+        "wiki/concepts/应用层断供危机.md",
+        "wiki/concepts/90天终止条款.md"
+      ]
+    },
+    "rss/今天，半个具身智能产业链都在亦庄.md": {
+      "hash": "87aa1e423da1fd5ccb21483f89a0aba62b956fdb27cc437b780702f3298f22e7",
+      "timestamp": 1781621680821,
+      "filesWritten": [
+        "wiki/sources/3-rss--144-%E4%BB%8A%E5%A4%A9%EF%BC%8C%E5%8D%8A%E4%B8%AA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A--19ensl1.md",
+        "wiki/entities/星海图.md",
+        "wiki/entities/g0-5.md",
+        "wiki/entities/kengo.md",
+        "wiki/entities/fast-wam.md",
+        "wiki/entities/god数据集.md",
+        "wiki/entities/亦数智能.md",
+        "wiki/entities/高继扬.md",
+        "wiki/entities/宇树科技.md",
+        "wiki/entities/智元.md",
+        "wiki/entities/北京亦庄.md",
+        "wiki/concepts/三重跃迁曲线.md",
+        "wiki/concepts/数据-模型-整机飞轮.md",
+        "wiki/concepts/一脑多形.md",
+        "wiki/concepts/具身智能无gpt时刻.md",
+        "wiki/concepts/具身智能商业三阶段.md",
+        "wiki/events/星海图全球开发者大会-20260616.md"
+      ]
+    },
+    "rss/当ai-agent开始工作，安全该如何跟上？agentdog-1.5开源发布.md": {
+      "hash": "b11c028fc276976bdd2e8bcb4a4ab27f604cc2ff372592f57dadb96ce38bc46e",
+      "timestamp": 1781622016930,
+      "filesWritten": [
+        "wiki/sources/3-rss--182-%E5%BD%93ai-agent%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%EF%BC%8C%E5%AE%89%E5%85%A8%E8%AF%A5%E5%A6%82%E4--st7avl.md"
+      ]
+    },
+    "rss/ai时代论文到底该怎么写？xtragpt重新定义「ai学术写作」.md": {
+      "hash": "c30f4f6b0483bc0a907f97dd4aa9562c58ec6ce9e6dcb0ae6d9d0d89d9ba3583",
+      "timestamp": 1781622028279,
+      "filesWritten": [
+        "wiki/sources/3-rss--200-ai%E6%97%B6%E4%BB%A3%E8%AE%BA%E6%96%87%E5%88%B0%E5%BA%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%86%99%EF%BC%9Fx--o49ia.md"
+      ]
+    },
+    "rss/deepseek首次融资落地：募集超500亿，估值超3300亿元.md": {
+      "hash": "f2910c7cc46cfb0788b1f080bb1afd330a189d6d461153721713d2fe081baecf",
+      "timestamp": 1781622046495,
+      "filesWritten": [
+        "wiki/sources/3-rss--168-deepseek%E9%A6%96%E6%AC%A1%E8%9E%8D%E8%B5%84%E8%90%BD%E5%9C%B0%EF%BC%9A%E5%8B%9F%E9%9B%86%E8%B6%85500--cq8a0d.md"
+      ]
+    },
+    "rss/给机器人装安全护栏，北航联合团队提出robosafe，让具身智能体在物理世界中安全行动.md": {
+      "hash": "d0f75d4af5511deaf701d7f0b958ed3e40b070586625d7b961fca93c2cac4f52",
+      "timestamp": 1781631502722,
+      "filesWritten": [
+        "wiki/sources/3-rss--323-%E7%BB%99%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A3%85%E5%AE%89%E5%85%A8%E6%8A%A4%E6%A0%8F%EF%BC%8C%E5%8C%97--19gmkua.md",
+        "wiki/entities/robosafe.md",
+        "wiki/entities/北京航空航天大学.md",
+        "wiki/entities/360-ai安全实验室.md",
+        "wiki/entities/ai2-thor.md",
+        "wiki/entities/safeagentbench.md",
+        "wiki/concepts/具身智能安全.md",
+        "wiki/concepts/隐式风险.md",
+        "wiki/concepts/情境风险.md",
+        "wiki/concepts/时序风险.md",
+        "wiki/concepts/可执行安全逻辑.md",
+        "wiki/concepts/前向预测推理.md",
+        "wiki/concepts/后向反思推理.md",
+        "wiki/events/iclr-2026-esr研讨会杰出论文奖.md"
+      ]
+    },
+    "rss/头部具身大脑公司再获数亿美元融资！世界模型路线，15家vc抢着投.md": {
+      "hash": "f079f78576981e3845b2402308b5f645df41aee28ee7673bed844c85a90080c7",
+      "timestamp": 1781631824953,
+      "filesWritten": [
+        "wiki/sources/3-rss--256-%E5%A4%B4%E9%83%A8%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%85%AC%E5%8F%B8%E5%86%8D%E8%8E%B7%E6%95%B0--s28u0f.md",
+        "wiki/entities/大晓机器人.md",
+        "wiki/entities/kairos世界模型.md",
+        "wiki/entities/kairos-homeworld.md",
+        "wiki/entities/王晓刚.md",
+        "wiki/entities/陶大程.md",
+        "wiki/concepts/理解-生成-预测一体化.md",
+        "wiki/concepts/端侧部署.md",
+        "wiki/concepts/线性注意力算子.md",
+        "wiki/events/大晓机器人天使+轮融资-202606.md"
+      ]
+    },
+    "rss/一个模型控制手脚腰身！机器人终于学会全身协同干精细活了.md": {
+      "hash": "0dc667d771927e63dc9031b4c89d9f82e10d3b521c2ebdd4f0b88310af1dc85c",
+      "timestamp": 1781632112252,
+      "filesWritten": [
+        "wiki/sources/3-rss--243-%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E6%8E%A7%E5%88%B6%E6%89%8B%E8%84%9A%E8%85%B0%E8%BA%AB%EF%BC%81--1pbak7c.md",
+        "wiki/entities/current-robotics.md",
+        "wiki/entities/curr-0.md",
+        "wiki/entities/humanex.md",
+        "wiki/concepts/全身灵巧操作.md",
+        "wiki/concepts/人类任务小时数.md",
+        "wiki/concepts/human-in-the-world-model.md",
+        "wiki/events/curr-0发布.md"
+      ]
+    },
+    "rss/量子位招聘丨汽车及机器人方向.md": {
+      "hash": "b8ca1333cf580f4aedd83f6a3cfb9ffcd6c178dc331fae717cce5e0eaad641f2",
+      "timestamp": 1781632364783,
+      "filesWritten": [
+        "wiki/sources/3-rss--126-%E9%87%8F%E5%AD%90%E4%BD%8D%E6%8B%9B%E8%81%98%E4%B8%A8%E6%B1%BD%E8%BD%A6%E5%8F%8A%E6%9C%BA%E5%99%A8--1hr0fkv.md",
+        "wiki/log.md"
+      ]
+    },
+    "rss/别再只堆agent了：清华团队把session重新做成了多智能体系统的核心.md": {
+      "hash": "c2da5b6b226cb38ada7a36d31b6f886888dbf87a72740ccfbe97d2b055155933",
+      "timestamp": 1781632703308,
+      "filesWritten": [
+        "wiki/sources/3-rss--237-%E5%88%AB%E5%86%8D%E5%8F%AA%E5%A0%86agent%E4%BA%86%EF%BC%9A%E6%B8%85%E5%8D%8E%E5%9B%A2%E9%98%9F%E6%8A--9otoiw.md",
+        "wiki/entities/openrath.md",
+        "wiki/entities/rath-team.md",
+        "wiki/entities/中山大学.md",
+        "wiki/entities/香港中文大学.md",
+        "wiki/entities/autogen.md",
+        "wiki/entities/langgraph.md",
+        "wiki/entities/crewai.md",
+        "wiki/concepts/session作为一等公民.md",
+        "wiki/concepts/mams-多智能体多会话.md",
+        "wiki/concepts/pytorch抽象映射.md",
+        "wiki/concepts/session-graph.md",
+        "wiki/concepts/selector-动态路由器.md"
+      ]
+    },
+    "rss/从icra到cvpr，机器人圈最近到底在聊什么？｜明晚闭门交流.md": {
+      "hash": "aa09ab17e7265e09f507074f3acc541e27404d7731dafceda91da027a246b3a5",
+      "timestamp": 1781633000899,
+      "filesWritten": [
+        "wiki/sources/3-rss--215-%E4%BB%8Eicra%E5%88%B0cvpr%EF%BC%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%88%E6%9C%80%E8%BF%91%E5%88%B0--1f9tuqg.md"
+      ]
+    },
+    "rss/燧原科技科创板正式过会！国产gpu四小龙即将会师.md": {
+      "hash": "6bec8a1bab2c9d03a1a981b3b8a8e45dcf46a0020b044e0d23ee4059fb07d893",
+      "timestamp": 1781633300549,
+      "filesWritten": [
+        "wiki/sources/3-rss--192-%E7%87%A7%E5%8E%9F%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BF%E6%AD%A3%E5%BC%8F%E8%BF%87%E4%BC%9A--1cdx20x.md",
+        "wiki/entities/燧原科技.md",
+        "wiki/concepts/国产gpu四小龙.md",
+        "wiki/entities/赵立东.md",
+        "wiki/entities/张亚林.md",
+        "wiki/concepts/去cuda化生态.md",
+        "wiki/concepts/算力国产化.md",
+        "wiki/concepts/清华ee85级.md",
+        "wiki/events/国产gpu四小龙ipo会师-2026.md"
+      ]
+    },
+    "rss/和朱广权同台讲脱口秀，鸿蒙小艺这次把ai助手卷到新阶段了？！.md": {
+      "hash": "fdcd6043cd380a591f6254c835f10eaab71beb43b07c44359b1b021ec50cf0b1",
+      "timestamp": 1781633611086,
+      "filesWritten": [
+        "wiki/sources/3-rss--254-%E5%92%8C%E6%9C%B1%E5%B9%BF%E6%9D%83%E5%90%8C%E5%8F%B0%E8%AE%B2%E8%84%B1%E5%8F%A3%E7%A7%80%EF%BC%8C--nim1df.md",
+        "wiki/entities/小艺.md",
+        "wiki/entities/鸿蒙操作系统.md",
+        "wiki/entities/小艺-claw.md",
+        "wiki/concepts/agentic自演进架构.md",
+        "wiki/concepts/意图即服务.md",
+        "wiki/concepts/推理-行动循环.md",
+        "wiki/entities/hpic.md"
+      ]
+    },
+    "rss/王梦迪、丛乐团队science-earth：当组织本身开始涌现，全球科学能力第一次在同一张网上互相发现.md": {
+      "hash": "262f06839f2673ae5653b8db7bc320c9d40ed807cad45d8cb09316bc3a556b59",
+      "timestamp": 1781660025486,
+      "filesWritten": [
+        "wiki/sources/3-rss--355-%E7%8E%8B%E6%A2%A6%E8%BF%AA%E3%80%81%E4%B8%9B%E4%B9%90%E5%9B%A2%E9%98%9Fscience-earth%EF%BC%9A%E5%BD--1joospn.md"
+      ]
+    },
+    "rss/spacex一分现金没花收购cursor，马斯克吞下ai编程工具第一名.md": {
+      "hash": "38c886b12e87566acef5770b0b9667755b952f04d34428fbd91afce62208087d",
+      "timestamp": 1781660248721,
+      "filesWritten": [
+        "wiki/sources/3-rss--203-spacex%E4%B8%80%E5%88%86%E7%8E%B0%E9%87%91%E6%B2%A1%E8%8A%B1%E6%94%B6%E8%B4%ADcursor%EF%BC%8C%E9%A9--189bhd4.md"
+      ]
     }
   }
 }

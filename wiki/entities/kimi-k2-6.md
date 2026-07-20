@@ -1,11 +1,11 @@
 ---
 type: entity
 title: Kimi K2.6
-tags: [llm, 开源模型, 万亿参数, moonshot-ai, kimi, moe, 大语言模型, ai-models, moonshot, open-source, code-generation, coding, agent, ai-model, ai-builder, 大模型, 月之暗面]
-related: ["deepseek-v4", "mla", "moonshot-ai", "技术互鉴", "claw-群组", "agent-集群", "全栈交付", "openclaw", "hermes-agent", "claude-design", "agent-swarm", "vibe-coding", "moonshot", "agent-cluster", "multi-agent-collaboration", "claude-code", "tidb-cloud", "agent原生基础设施", "任务执行范式", "场景白盒化推理", "orbit", "rl-post-training"]
+tags: [llm, 开源模型, 万亿参数, moonshot-ai, kimi, moe, 大语言模型, ai-models, moonshot, open-source, code-generation, coding, agent, ai-model, ai-builder, 大模型, 月之暗面, 高性价比]
+related: ["deepseek-v4", "mla", "moonshot-ai", "技术互鉴", "claw-群组", "agent-集群", "全栈交付", "openclaw", "hermes-agent", "claude-design", "agent-swarm", "vibe-coding", "moonshot", "agent-cluster", "multi-agent-collaboration", "claude-code", "tidb-cloud", "agent原生基础设施", "任务执行范式", "场景白盒化推理", "orbit", "rl-post-training", "fusion-多模型融合方案", "openrouter"]
 created: 2026-04-24
-updated: 2026-05-28
-sources: ["没想到！deepseek-v4里，竟还藏着一个中国万亿开源模型.md", "13小时不眠不休，300个分身狂敲代码！开源第一易主了.md", "火速吃瓜：kimi-k2.6设计能力超越claude-design.md", "单agent时代结束，ai们开始组团上班.md", "人手一个数据库，kimi背后这套ai基建到底有多能扛？.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md"]
+updated: 2026-06-14
+sources: ["没想到！deepseek-v4里，竟还藏着一个中国万亿开源模型.md", "13小时不眠不休，300个分身狂敲代码！开源第一易主了.md", "火速吃瓜：kimi-k2.6设计能力超越claude-design.md", "单agent时代结束，ai们开始组团上班.md", "人手一个数据库，kimi背后这套ai基建到底有多能扛？.md", "全球首次单机降服万亿巨模deepseek-v4！rl后训练框架orbit开源！.md", "rss/平替版fable-5的打开教程来了：性能追平，成本砍半.md"]
 ---
 
 # Kimi K2.6
@@ -60,6 +60,15 @@ K2.6 的 Agent 模式具备"一句话建站"能力——用户通过自然语言
 ### 复杂内容生产
 在处理大规模内容生成任务时，K2.6 展现了极高的吞吐量与组织能力：
 - **多格式产出**：一次指令生成了包含 3.5 万字报告、结构化表格和 PPT 的多格式产出。
+
+## 定价与高性价比应用
+
+K2.6 是一款主打高性价比的大语言模型，采用缓存计费机制：
+- **首次处理**：按 0.95 美元/百万 Token 计费。
+- **重复上下文**：重复使用同一上下文时，输入成本可降至 0.16 美元/百万 Token，输出为 4 美元/百万 Token。
+
+### Fusion 融合实验
+在 [[openrouter|OpenRouter]] 的 [[fusion-多模型融合方案|Fusion 融合实验]]中，Kimi K2.6 作为平价组合成员之一，与 [[deepseek-v4-pro|DeepSeek V4 Pro]] 和 [[gemini-3-flash|Gemini 3 Flash]] 组合，在 [[draco-深度研究基准测试集|DRACO]] 测试中以极低的成本实现了追平旗舰模型 [[claude-fable-5|Claude Fable 5]] 的效果。
 
 ## 工程架构
 

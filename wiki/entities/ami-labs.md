@@ -1,11 +1,12 @@
 ---
 type: entity
 title: AMI Labs (Advanced Machine Intelligence Labs)
-tags: ["organizations", "startups", "world-model", "paris", "世界模型", "JEPA", "Yann-LeCun", "创业公司", "ai公司", "自我改进", "融资", "组织", "AI实验室", "欧洲"]
-related: ["yann-lecun", "world-model", "jepa", "v-jepa", "世界模型", "recursive-superintelligence-rsi", "ssi", "ineffable-intelligence", "顶级科学家集体出走浪潮", "隐空间世界模型"]
+tags: ["organizations", "startups", "world-model", "paris", "世界模型", "JEPA", "Yann-LeCun", "创业公司", "ai公司", "自我改进", "融资", "组织", "AI实验室", "欧洲", "递归自我改进"]
+related: ["yann-lecun", "world-model", "jepa", "v-jepa", "世界模型", "recursive-superintelligence-rsi", "ssi", "ineffable-intelligence", "顶级科学家集体出走浪潮", "隐空间世界模型", "recursive-superintelligence", "递归式自我改进"]
 created: 2026-01-03
-updated: 2026-05-23
-sources: ["meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "田渊栋ai创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人.md", "lecun-10亿押注的方向，全球领先视觉大模型团队早已布局.md"]
+updated: 2026-06-12
+origin_date: 2026-03-01
+sources: ["meta炸了！lecun炮轰28岁上司不懂行，实锤llama-4刷榜丑闻.md", "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局.md", "田渊栋ai创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人.md", "lecun-10亿押注的方向，全球领先视觉大模型团队早已布局.md", "rss/anthropic警告的递归ai，田渊栋新公司刚刚走出了「第一步」.md"]
 ---
 
 # AMI Labs
@@ -16,7 +17,11 @@ AMI Labs (Advanced Machine Intelligence Labs) 是 [[yann-lecun|Yann LeCun]] 离�
 
 公司获 **10.3 亿美元种子轮融资**（欧洲有史以来最大的种子轮），押注 [[jepa]]（联合嵌入预测架构）路线，代表了 LeCun 对物理世界 AI 基础设施的战略押注。
 
-AMI Labs 与 [[recursive-superintelligence-rsi|RSI]]、[[ineffable-intelligence]]、[[ssi]] 同属 [[顶级科学家集体出走浪潮]] 中涌现的公司。
+AMI Labs 与 [[recursive-superintelligence-rsi|RSI]]、[[ineffable-intelligence]]、[[ssi]] 同属 [[顶级科学家集体出走浪潮]] 中涌现的公司，处于同一赛道。其方向指向 [[递归式自我改进]]——让 AI 系统自主生成知识、减少人类在研究流程中的介入。
+
+## 融资情况
+
+- **2026 年 3 月**：完成约 10 亿美元融资（种子轮总额 10.3 亿美元，欧洲有史以来最大种子轮）。
 
 ## 团队与管理
 
@@ -48,10 +53,11 @@ AMI Labs 的核心论点是：**预测像素在根本上是一种浪费**，大�
 
 AMI Labs 走的是与主流视频世界模型完全相反的路线。当 NVIDIA、DeepMind 等在构建越来越逼真的视频预测系统时，AMI Labs 用 10 亿美元检验抽象预测是否优于像素预测。
 
-## 发展计划
+## 发展计划与现状
 
 - **短期（12个月）**：推出具备初步物理直觉的「婴儿级」模型。
 - **长期**：几年内在更大规模上实现可用于预测与规划的世界模型。
+- **当前状态**：方向指向 [[递归式自我改进]]，但目前尚未公开可复现的技术成果，在公开进度上落后于 [[recursive-superintelligence|Recursive]]。
 
 ## 相关概念
 
@@ -59,3 +65,4 @@ AMI Labs 走的是与主流视频世界模型完全相反的路线。当 NVIDIA�
 - [[jepa]]：基础架构。
 - [[v-jepa]]：视频理解的具体实现。
 - [[隐空间世界模型]]：核心研究方向。
+- [[递归式自我改进]]：AMI Labs 的远期方向。

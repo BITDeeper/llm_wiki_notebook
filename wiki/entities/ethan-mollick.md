@@ -1,18 +1,21 @@
 ---
 type: entity
 title: Ethan Mollick (伊森·莫里克)
-tags: ["academic", "wharton", "ai-observer", "researcher", "person", "人物", "评测者", "教授", "沃顿商学院", "学者", "ai推广", "ai-commentator", "professor", "ai学者", "人机协作", "ai-evaluation"]
+tags: ["academic", "wharton", "ai-observer", "researcher", "person", "人物", "评测者", "教授", "沃顿商学院", "学者", "ai推广", "ai-commentator", "professor", "ai学者", "人机协作", "ai-evaluation", "academia"]
 related: ["锯齿状能力", "something-big-is-happening", "claude-opus-4-6", "工具使用惰性", "chatgpt-translate", "openai", "gpt-5.2", "claude-code", "the-veil-of-history", "opus-4-8", "claude-mythos", "metr-基准", "claude-fable-5", "巫师到甲方范式", "anthropic"]
 created: 2026-02-12
-updated: 2026-06-11
-sources: ["阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "阅读7千万文章硅谷已至，抛弃人类自我进化！.md", "openai偷袭，谷歌掀桌！2026开年第一场ai大战太精彩.md", "gpt-5.2发布即降智？背后华人被挖出，清北校友核心贡献.md", "opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md", "专家预测年底才到，claude-mythos今天就跑出3小时6分！.md", "rss/刚刚，claude-mythos-5发布！5000万行代码1天搞定.md", "rss/最强fable-5跨越神话时刻，但ai学会了自相残杀！.md", "rss/神话级claude-5，登顶了！.md"]
+updated: 2026-06-14
+origin_date: 2026-06-09
+sources: ["阅读7千万文章硅谷爆火：ai奇点已至，抛弃人类自我进化！.md", "claude变身「ai华尔街之狼」狂赚6万！串通、欺诈、趁火打劫.md", "阅读7千万文章硅谷已至，抛弃人类自我进化！.md", "openai偷袭，谷歌掀桌！2026开年第一场ai大战太精彩.md", "gpt-5.2发布即降智？背后华人被挖出，清北校友核心贡献.md", "opus-4.8连夜算尽1170亿人命运，一句话敲出人类投胎模拟器！.md", "专家预测年底才到，claude-mythos今天就跑出3小时6分！.md", "rss/刚刚，claude-mythos-5发布！5000万行代码1天搞定.md", "rss/最强fable-5跨越神话时刻，但ai学会了自相残杀！.md", "rss/神话级claude-5，登顶了！.md", "rss/claude-fable-5四日惊魂.md"]
 ---
 
 # Ethan Mollick (伊森·莫里克)
 
+> 又译：伊桑·莫利克
+
 ## 概述
 
-[[Ethan Mollick]] 是宾夕法尼亚大学沃顿商学院的教授，专注于研究创新与 AI 的影响，关注 AI 在商业和教育领域的应用。他是 AI 领域极具影响力的学术观察者、评论员、关键意见领袖及学术推广者，致力于探索 AI 与商业的交叉领域。他以将前沿 AI 能力转化为公众可理解、可体验的案例而闻名。作为早期评测者，他常通过实际任务验证模型能力，而非单纯依赖基准测试。他活跃于 X/Twitter 平台，经常对 AI 能力突破进行即时评论和分析。
+[[Ethan Mollick]] 是宾夕法尼亚大学沃顿商学院的副教授，专注于研究创新与 AI 的影响，关注 AI 在商业和教育领域的应用。他是 AI 领域极具影响力的学术观察者、评论员、关键意见领袖及学术推广者，致力于探索 AI 与商业的交叉领域。他以将前沿 AI 能力转化为公众可理解、可体验的案例而闻名。作为早期评测者，他常通过实际任务验证模型能力，而非单纯依赖基准测试。他活跃于 X/Twitter 平台及个人博客，经常对 AI 能力突破进行即时评论和分析。
 
 ## 核心观点
 
@@ -47,9 +50,11 @@ Mollick 教授通过实验发现了 [[Claude Opus 4.6]] 在任务执行上的不
 
 ### Claude Fable 5 实测
 
-Mollick 率先内测 [[claude-fable-5|Claude Fable 5]] 并分享了深度体验，给出核心评价：
+Mollick 率先内测 [[claude-fable-5|Claude Fable 5]] 并在发布首日即通过博客分享了深度体验，给予极高评价：
 
 > "Fable 5 的表现，将目前市面上所有公开的模型甩开了极其残忍的距离！"
+>
+> ——在博客中称该模型"在我用过的所有公开模型中，以相当大的差距超越了其他所有模型"。
 
 **关键实测发现：**
 

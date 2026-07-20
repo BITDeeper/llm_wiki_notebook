@@ -1,12 +1,12 @@
 ---
 type: entity
 title: Grok
-tags: ["模型", "xAI", "蒸馏", "llm", "model", "evaluation", "编程", "generative-ai", "deepfake", "安全对齐", "product", "chatbot", "recommendation-algorithm", "x-platform", "ai-model", "大语言模型", "实时搜索", "controversy", "spacex", "ai", "大模型", "马斯克", "AI产品", "聊天机器人", "图像生成"]
-related: ["xai", "elon-musk", "openai", "模型蒸馏", "afim", "高阶幻觉", "zhang-guodong", "编程奇点", "递归式自我改进", "deepfake-丑闻", "tony-wu", "jimmy-ba", "chatgpt", "gemini", "claude", "spacex", "x-platform", "邦迪海滩枪击案", "ai-幻觉", "实时信息处理", "Toby Pohlen", "rag-检索增强生成", "Toby-Pohlen", "spacexai", "colossus-2", "anthropic", "chatgpt图像生成漏洞事件", "对抗性提示词"]
+tags: ["模型", "xAI", "蒸馏", "llm", "model", "evaluation", "编程", "generative-ai", "deepfake", "安全对齐", "product", "chatbot", "recommendation-algorithm", "x-platform", "ai-model", "大语言模型", "实时搜索", "controversy", "spacex", "ai", "大模型", "马斯克", "AI产品", "聊天机器人", "图像生成", "ai模型"]
+related: ["xai", "elon-musk", "openai", "模型蒸馏", "afim", "高阶幻觉", "zhang-guodong", "编程奇点", "递归式自我改进", "deepfake-丑闻", "tony-wu", "jimmy-ba", "chatgpt", "gemini", "claude", "spacex", "x-platform", "邦迪海滩枪击案", "ai-幻觉", "实时信息处理", "Toby Pohlen", "rag-检索增强生成", "Toby-Pohlen", "spacexai", "colossus-2", "anthropic", "chatgpt图像生成漏洞事件", "对抗性提示词", "cursor"]
 created: 2026-02-12
-updated: 2026-06-07
+updated: 2026-06-16
 origin_date: 2023-11-01
-sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md", "帮我编假论文？nature曝arxiv创始人钓鱼实验：13个顶尖ai全沦陷.md", "马斯克急了，直播回应一切！xai全新阵容首曝光，华人联创仅剩一人.md", "24小时痛失2位华人联创！马斯克xai「梦之队」只剩下一半.md", "spacex为何官宣收购xai？8万亿太空炼丹梦，别无脑跟进！.md", "马斯克惊爆：连做ai噩梦，grok将替人刷推特，活下去要「保持有趣」.md", "火上浇油！grok在悉尼光明节枪击案上大规模造谣.md", "原来grok是36个小时极限卷出来的！xai创始成员离职后放开说了.md", "马斯克回应xai联创离职潮：这是组织的进化.md", "xai解散，但grok还没死！马斯克声称新模型正在训练.md", "刚刚，马斯克公开spacex招股书！.md", "马斯克重建xai组织图曝光！12名旧臣空降，三线大换血.md", "chatgpt正在生成一些非常诡异的图片.......md"]
+sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md", "帮我编假论文？nature曝arxiv创始人钓鱼实验：13个顶尖ai全沦陷.md", "马斯克急了，直播回应一切！xai全新阵容首曝光，华人联创仅剩一人.md", "24小时痛失2位华人联创！马斯克xai「梦之队」只剩下一半.md", "spacex为何官宣收购xai？8万亿太空炼丹梦，别无脑跟进！.md", "马斯克惊爆：连做ai噩梦，grok将替人刷推特，活下去要「保持有趣」.md", "火上浇油！grok在悉尼光明节枪击案上大规模造谣.md", "原来grok是36个小时极限卷出来的！xai创始成员离职后放开说了.md", "马斯克回应xai联创离职潮：这是组织的进化.md", "xai解散，但grok还没死！马斯克声称新模型正在训练.md", "刚刚，马斯克公开spacex招股书！.md", "马斯克重建xai组织图曝光！12名旧臣空降，三线大换血.md", "chatgpt正在生成一些非常诡异的图片.......md", "rss/600亿美元，cursor归马斯克了.md", "马斯克惊爆：连做ai噩梦，grok将替人刷推特，活下去要「有趣」.md"]
 ---
 
 # Grok
@@ -23,16 +23,23 @@ sources: ["马斯克翻车了！一边告openai，一边偷偷蒸馏chatgpt.md",
 - 已发布 Grok 1 至 Grok 4 等版本。
 - **新版本**：据马斯克 2026 年 5 月透露，正在 [[Colossus 2]] 上同时训练"多款新 Grok"。
 
+## 工程与编程能力
+
+Grok 在编程辅助等开发者工具链中的存在感长期偏低，是 xAI 相对落后的板块。xAI 工程团队中设有专门的「Grok Code」线，对标 [[OpenAI]] 和 [[Anthropic]] 的编程能力。
+
+### 与 Cursor 收购的关系
+
+在 SpaceX 收购 [[Cursor]]（母公司 Anysphere）的交易中，Grok 团队是核心受益方。马斯克在 2026 年 5 月官宣新模型时提到，Grok 的后训练已加入大量来自 Cursor 的数据。
+
+Cursor 作为开发者实际使用的 AI 代码编辑器，其数据包含真实的工作流（写代码、调试、迭代、修复 Bug 等），是"人类开发者如何思考"的映射。这一数据源对 Grok 在 AI 编程领域的竞争力提升具有独特战略价值。
+
+随着 Cursor 成为 [[SpaceX]] 全资子公司，Grok 团队将获得持续扩充的开发者工作流数据，依托 [[Colossus 2]] 超算中心的算力支撑，有望在 AI 编程市场赢得更稳固的立足点。
+
 ## 商业化与市场表现
 
 - **企业销售困境**：Grok 被反复推到华尔街投行谈合作，但企业销售始终没起色。尽管拥有 X 平台的数据优势，Grok 在企业级市场和开发者工具链中的存在感远低于 [[Claude]]、[[Gemini]] 和 [[ChatGPT]]。
 - **高端功能**：其高端功能（如 SuperGrok Heavy）主要服务于 X 平台的深度用户。
 - **客户线指标**：作为 xAI 面向市场的主力产品，Grok 的商业化进展是 xAI 三线预警中「客户线」的核心指标。
-
-## 工程与编程能力
-
-- xAI 工程团队中设有专门的「Grok Code」线，对标 [[OpenAI]] 和 [[Anthropic]] 的编程能力。
-- 尽管如此，Grok 在编程辅助等开发者工具链中的存在感仍然偏低。
 
 ## 图像生成与安全漏洞
 

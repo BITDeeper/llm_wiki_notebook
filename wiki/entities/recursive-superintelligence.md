@@ -2,25 +2,25 @@
 type: entity
 title: Recursive Superintelligence
 created: 2026-05-05
-updated: 2026-05-22
-tags: ["startup", "ai-research", "automation", "公司", "递归自我进化", "AI创业", "融资"]
-related: ["自动化-ai-研发", "anthropic", "openai", "田渊栋", "richard-socher", "jeff-clune", "递归式自我改进", "有损自我进化", "alphaevolve", "darwin-godel-machine"]
-sources: ["anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "赌自己会失业！田渊栋八人天团狂揽44亿元，杀入「递归进化」赛道.md"]
-origin_date: 2026-05-13
+updated: 2026-06-12
+tags: ["startup", "ai-research", "automation", "公司", "递归自我进化", "AI创业", "融资", "ai公司", "递归自我改进", "自动化ai研究", "创业公司"]
+related: ["自动化-ai-研发", "anthropic", "openai", "田渊栋", "richard-socher", "jeff-clune", "递归式自我改进", "有损自我进化", "alphaevolve", "darwin-godel-machine", "first-steps-toward-automated-ai-research", "自动化ai研究员", "ami-labs", "ineffable-intelligence", "sakana-ai", "英伟达"]
+sources: ["anthropic联创定下deadline：2028年ai实现自我进化，没有人类了.md", "赌自己会失业！田渊栋八人天团狂揽44亿元，杀入「递归进化」赛道.md", "rss/anthropic警告的递归ai，田渊栋新公司刚刚走出了「第一步」.md"]
+origin_date: 2025-12-01
 ---
 
 # Recursive Superintelligence
 
-Recursive Superintelligence（简称 Recursive）是一家专注于实现 [[递归式自我改进|递归自我进化]]（RSI）的 AI 公司，致力于实现 [[自动化-ai-研发]]。公司于 2026 年初成立，2026 年 5 月 13 日正式走出隐身模式。
+Recursive Superintelligence（简称 Recursive）是一家专注于构建 [[递归式自我改进|递归自我改进]]（RSI）AI 系统的创业公司，致力于实现 [[自动化-ai-研发]]。公司成立于 2025 年底至 2026 年初，2026 年 5 月 13 日正式结束隐身状态。
 
 ## 基本信息
 
-- **成立时间**：2026 年初（不到半年即公开亮相）
+- **成立时间**：2025 年底至 2026 年初
 - **团队规模**：25 人
 - **估值**：46.5 亿美元
-- **融资总额**：6.5 亿美元（含 2026 年左右完成的 5 亿美元融资轮）
+- **融资总额**：6.5 亿美元
 - **领投方**：GV（Google Ventures）、Greycroft
-- **跟投方**：AMD Ventures、英伟达
+- **跟投方**：[[英伟达]]、AMD Ventures
 
 ## 核心使命
 
@@ -28,24 +28,39 @@ Recursive Superintelligence（简称 Recursive）是一家专注于实现 [[递�
 
 这与 [[anthropic]]（构建自动化 AI 对齐研究员）和 [[openai]]（构建自动化 AI 研究实习生）的战略方向一致。
 
-## 八位联合创始人
+## 创始团队
 
-| 创始人 | 背景 | 代表成果 |
-|--------|------|----------|
-| [[richard-socher\|Richard Socher]] | Salesforce 前首席科学家，You.com 创始人 | NLP 词向量奠基人 |
-| [[田渊栋]] | Meta FAIR 前研究总监 | ELF OpenGo、StreamingLLM、GaLore |
-| [[jeff-clune\|Jeff Clune]] | UBC 教授，进化算法先驱 | [[darwin-godel-machine\|Darwin Gödel Machine]] |
-| Alexey Dosovitskiy | Vision Transformer 第一作者 | ViT（An Image is Worth 16x16 Words） |
-| Tim Rocktäschel | UCL AI 教授，DeepMind 研究员 | Genie 世界模型 |
-| Josh Tobin | OpenAI 机器人团队搭建者 | AI 解魔方机械手 |
-| Tim Shi | OpenAI 早期成员 | AI 客服独角兽 Cresta 联创 |
-| Caiming Xiong | Salesforce AI Research 前 SVP | 100+ 深度学习论文 |
+Recursive 拥有被誉为"全明星"的 9 人创始团队，成员来自 Meta FAIR、Google DeepMind、OpenAI、Salesforce AI、Uber AI 等顶级机构，研究方向覆盖进化算法、世界模型、视觉 Transformer、强化学习、机器人、NLP、核心训练。
 
-八位创始人从 Meta FAIR、Google DeepMind、OpenAI、Salesforce AI、Uber AI 等顶级机构汇聚，研究方向覆盖进化算法、世界模型、视觉 Transformer、强化学习、机器人、NLP、核心训练。
+| 创始人 | 角色 | 背景 | 代表成果 |
+|--------|------|------|----------|
+| [[richard-socher|Richard Socher]] | CEO | Salesforce 前首席科学家，You.com 创始人 | NLP 词向量奠基人 |
+| [[田渊栋]] | 联合创始人 | Meta FAIR 前研究科学家总监 | ELF OpenGo、StreamingLLM、GaLore |
+| [[jeff-clune|Jeff Clune]] | 联合创始人 | 前 Google DeepMind 研究副总裁，UBC 教授 | [[darwin-godel-machine|Darwin Gödel Machine]] |
+| Alexey Dosovitskiy | 联合创始人 | 前 Google DeepMind 研究科学家 | ViT（An Image is Worth 16x16 Words），谷歌学术引用超 16 万 |
+| Tim Rocktäschel | 联合创始人 | 前 DeepMind Principal 科学家，UCL AI 教授 | Genie 世界模型 |
+| Josh Tobin | CTO | 前 OpenAI 与 Uber ATG 研究负责人 | AI 解魔方机械手 |
+| Tim Shi | 联合创始人 | 前 OpenAI 研究员 | AI 客服独角兽 Cresta 联合创始人/CTO |
+| Caiming Xiong | 联合创始人 | Salesforce AI Research 前 SVP | 100+ 深度学习论文 |
+| Peter Norvig | 联合创始人 | 谷歌前研究总监 | 《人工智能：一种现代方法》合著者 |
 
-## 当前状态
+## 核心技术成果
 
-公司尚无产品，处于纯研发阶段。
+2026 年 6 月，Recursive 发布首个公开技术成果 [[first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]，在三个基准测试上取得 SOTA 结果：
+
+- [[nanochat-autoresearch|NanoChat Autoresearch]]：BPB 从 0.9372 降至 0.9109
+- [[nanogpt-speedrun|NanoGPT Speedrun]]：训练时间从 79.7s 压缩至 77.5s
+- [[sol-execbench|SOL-ExecBench]]：SOL 分数从 0.699 提升至 0.754
+
+## 赛道竞争格局
+
+Recursive 并非递归自我改进赛道唯一玩家：
+
+- [[ami-labs|AMI Labs]] — [[yann-lecun|Yann LeCun]] 创立，2026 年 3 月完成 10 亿美元融资
+- [[ineffable-intelligence|Ineffable Intelligence]] — David Silver 创立，2026 年 4 月获 11 亿美元种子轮
+- [[sakana-ai|Sakana AI]] — 已成立 AI RSI Lab
+
+但在公开成果的可复现性和具体性上，Recursive 的"第一步"是目前同类公司中最突出的技术展示之一。
 
 ## 行业背景与战略意义
 

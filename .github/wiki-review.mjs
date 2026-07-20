@@ -1,30 +1,22 @@
 #!/usr/bin/env node
-// Wiki Content Review — calls LLM via Cloudflare Worker proxy, creates GitHub Issue
+// Wiki Content Review — uses Claude Code CLI for intelligent wiki review
 // Triggered by .github/workflows/wiki-review.yml on push to main (wiki/ changes)
 
 import { execSync } from 'node:child_process'
-import { readFileSync, existsSync } from 'node:fs'
-import { join, basename } from 'node:path'
-
-const WORKER_URL = 'https://twilight-violet-b5af.zhangpybit.workers.dev'
-const MODEL = 'glm-5.1'
-const MAX_TOKENS = 225000
+import { writeFileSync } from 'node:fs'
 
 // ── Step 1: Get changed wiki files ────────────────────────────────────────
 console.log('Getting changed wiki files...')
-const before = process.env.PUSH_BEFORE
-const sha = process.env.PUSH_SHA
+const baseSha = process.env.BASE_SHA
+const headSha = process.env.HEAD_SHA
 
-let diffCmd
-if (before && sha && before !== '0000000000000000000000000000000000000000') {
-  // Use full push range — captures all commits in this push
-  console.log(`Push range: ${before.slice(0, 8)}..${sha.slice(0, 8)}`)
-  diffCmd = `git diff ${before} ${sha} --name-only -- wiki/`
-} else {
-  // Fallback for first push or manual trigger
-  console.log('Falling back to HEAD~1 (no before SHA available)')
-  diffCmd = 'git diff HEAD~1 HEAD --name-only -- wiki/'
+if (!baseSha) {
+  console.error('BASE_SHA not set — cannot determine diff range.')
+  process.exit(1)
 }
+
+console.log(`Review range: ${baseSha}..${headSha}`)
+const diffCmd = `git diff ${baseSha} ${headSha} --name-only -- wiki/`
 
 let changedFiles
 try {
@@ -43,88 +35,50 @@ if (changedFiles.length === 0) {
 console.log(`Found ${changedFiles.length} changed files:`)
 changedFiles.forEach((f) => console.log(`  - ${f}`))
 
-// ── Step 2: Read file contents ────────────────────────────────────────────
-const REPO_ROOT = process.cwd()
-const fileContents = []
-for (const fp of changedFiles) {
-  const fullPath = join(REPO_ROOT, fp)
-  if (!existsSync(fullPath)) {
-    console.log(`  (deleted, skipping): ${fp}`)
-    continue
-  }
-  const content = readFileSync(fullPath, 'utf8')
-  const title = basename(fp, '.md')
-  fileContents.push({ path: fp, title, content })
-}
+// ── Step 2: Build prompt with file paths only ─────────────────────────────
+const fileList = changedFiles.map((f) => `- \`${f}\``).join('\n')
 
-if (fileContents.length === 0) {
-  console.log('No readable files to review — skipping.')
-  process.exit(0)
-}
+const prompt = `你是一位 AI/科技领域的研究分析专家。你对用户提供的技术笔记进行深度分析和 Review。请使用 Markdown 格式输出，语言简洁专业。
 
-// Truncate individual files to ~3000 chars to stay within context budget
-const MAX_FILE_CHARS = 3000
-const truncatedFiles = fileContents.map((f) => {
-  const trimmed = f.content.length > MAX_FILE_CHARS
-    ? f.content.slice(0, MAX_FILE_CHARS) + '\n... (truncated)'
-    : f.content
-  return `### ${f.title}\nPath: \`${f.path}\`\n\n${trimmed}`
-})
+本次更新的 wiki 文件列表：
 
-const filesBlock = truncatedFiles.join('\n\n---\n\n')
+${fileList}
 
-// ── Step 3: Call LLM ──────────────────────────────────────────────────────
-console.log('\nCalling LLM for review...')
-const systemPrompt = `你是一位 AI/科技领域的研究分析专家。你对用户提供的技术笔记进行深度分析和 Review。请使用 Markdown 格式输出，语言简洁专业。`
-
-const userPrompt = `请对以下最近更新的 wiki 内容进行深度 Review，包括：
+请先使用 Read 工具逐个读取这些文件的内容，然后进行深度 Review，包括：
 
 1. **内容摘要** — 逐条概述每个更新内容的要点（每个文件一条）
 2. **研究趋势分析** — 从这些更新中识别当前 AI 领域的研究趋势和热点方向
 3. **拓展建议** — 建议可以进一步深入研究或补充的内容方向
-4. **关联发现** — 指出这些内容之间可能存在的关联或交叉点
+4. **关联发现** — 指出这些内容之间可能存在的关联或交叉点`
 
-以下是本次更新的 wiki 内容：
+// ── Step 3: Call Claude Code CLI ──────────────────────────────────────────
+console.log('\nCalling Claude Code CLI...')
 
----
-
-${filesBlock}`
-
-const apiEndpoint = `${WORKER_URL.replace(/\/+$/, '')}/v1/messages`
-
-const resp = await fetch(apiEndpoint, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    'anthropic-version': '2023-06-01',
-  },
-  body: JSON.stringify({
-    model: MODEL,
-    max_tokens: MAX_TOKENS,
-    system: systemPrompt,
-    messages: [{ role: 'user', content: userPrompt }],
-  }),
-})
-
-if (!resp.ok) {
-  const errText = await resp.text()
-  console.error(`LLM API error ${resp.status}: ${errText}`)
-  process.exit(1)
-}
-
-const data = await resp.json()
-const reviewText = data.content?.[0]?.text
-
-if (!reviewText) {
-  console.error('LLM returned empty response:', JSON.stringify(data).slice(0, 500))
-  process.exit(1)
+let reviewText
+try {
+  reviewText = execSync(
+    `claude -p --effort medium --model glm-4.7 --max-budget-usd 10 --allowedTools Read,Glob,Grep,WebSearch,WebFetch`,
+    {
+      input: prompt,
+      encoding: 'utf8',
+      timeout: 1800000, // 30 min timeout
+    },
+  ).trim()
+} catch (err) {
+  console.error('Claude CLI failed:', err.message)
+  if (err.stdout) {
+    reviewText = err.stdout.trim()
+  }
+  if (!reviewText) {
+    console.error('No output captured. Exiting.')
+    process.exit(1)
+  }
 }
 
 console.log('Review generated successfully.')
 
 // ── Step 4: Create GitHub Issue ───────────────────────────────────────────
 const today = new Date().toISOString().split('T')[0]
-const fileList = changedFiles.map((f) => `- \`${f}\``).join('\n')
 
 const issueBody = `${reviewText}
 
@@ -141,14 +95,16 @@ ${fileList}
 *Auto-generated by [wiki-review](https://github.com/BITDeeper/llm_wiki_notebook/actions/workflows/wiki-review.yml)*
 `
 
-const escapedBody = issueBody.replace(/"/g, '\\"').replace(/`/g, '\\`').replace(/\$/g, '\\$')
-
 const issueTitle = `Wiki Review — ${today}`
+
+// Write body to temp file to avoid shell escaping issues
+const tmpBodyFile = `/tmp/wiki-review-${today}.md`
+writeFileSync(tmpBodyFile, issueBody, 'utf8')
 
 console.log('\nCreating GitHub Issue...')
 try {
   const result = execSync(
-    `gh issue create --title "${issueTitle}" --body "${escapedBody}" --label "wiki-review"`,
+    `gh issue create --title "${issueTitle}" --body-file "${tmpBodyFile}" --label "wiki-review"`,
     { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
   )
   console.log(`Issue created: ${result.trim()}`)
@@ -157,7 +113,7 @@ try {
   console.log('Retrying without label...')
   try {
     const result = execSync(
-      `gh issue create --title "${issueTitle}" --body "${escapedBody}"`,
+      `gh issue create --title "${issueTitle}" --body-file "${tmpBodyFile}"`,
       { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
     )
     console.log(`Issue created: ${result.trim()}`)

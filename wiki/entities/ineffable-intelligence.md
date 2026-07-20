@@ -1,11 +1,12 @@
 ---
 type: entity
 title: Ineffable Intelligence
-tags: [startup, ai-lab, reinforcement-learning, london, funding, ai公司, 初创企业, deepmind系, 超级独角兽, 自我改进, 融资]
-related: [david-silver, 强化学习, 自我经验学习, asi, 数据枯竭, demis-hassabis, deepmind-黑手党, recursive-superintelligence-rsi, ssi, ami-labs, 顶级科学家集体出走浪潮]
+tags: [startup, ai-lab, reinforcement-learning, london, funding, ai公司, 初创企业, deepmind系, 超级独角兽, 自我改进, 融资, 递归自我改进, 创业公司]
+related: [david-silver, 强化学习, 自我经验学习, asi, 数据枯竭, demis-hassabis, deepmind-黑手党, recursive-superintelligence-rsi, ssi, ami-labs, 顶级科学家集体出走浪潮, recursive-superintelligence, 递归式自我改进]
 created: 2026-04-28
-updated: 2026-05-22
-sources: ["30万被引的alphago之父，创业4个月融资近百亿元！笃信rl实现asi.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "田渊栋ai创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人.md"]
+updated: 2026-06-12
+origin_date: 2026-04-01
+sources: ["30万被引的alphago之父，创业4个月融资近百亿元！笃信rl实现asi.md", "惊了！hassabis才是ai世界的隐藏boss？黑手党4年卷走140亿.md", "田渊栋ai创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人.md", "rss/anthropic警告的递归ai，田渊栋新公司刚刚走出了「第一步」.md"]
 ---
 
 # Ineffable Intelligence
@@ -33,7 +34,7 @@ Ineffable 的核心使命是"与超级智能进行第一次接触"。其技术�
 - **反对单纯依赖人类数据**：Silver 认为人类文本数据是"化石燃料"，终将枯竭（参见 [[数据枯竭]]）。
 - **主张自我进化**：致力于构建一个能从自身经验中发现知识的"superlearner"，通过环境反馈和自我对弈持续进化，而非仅仅模仿人类文本。
 
-Ineffable Intelligence 与 [[recursive-superintelligence-rsi|RSI]] 同属 [[递归式自我改进]] 赛道。
+Ineffable Intelligence 与 [[recursive-superintelligence-rsi|RSI]] 同属 [[递归式自我改进]] 赛道，方向指向 [[递归式自我改进]]，但目前尚未公开可复现的技术成果。
 
 ## 挑战与争议
 

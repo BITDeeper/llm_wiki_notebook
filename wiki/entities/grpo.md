@@ -1,19 +1,27 @@
 ---
 type: entity
 title: GRPO
-tags: [算法, 强化学习]
-related: [microcoder, dapo, 代际性训练动态差异]
+tags: ["算法", "强化学习", "强化学习算法", "大模型训练"]
+related: [microcoder, dapo, 代际性训练动态差异, 可验证奖励的强化学习, dyco-rl]
 created: 2026-03-29
-updated: 2026-03-29
-sources: ["打破代码大模型训练瓶颈：微软&剑桥&普林推出microcoder，算法、数据、框架、训练经验全面升级.md"]
+updated: 2026-06-15
+sources: ["打破代码大模型训练瓶颈：微软&剑桥&普林推出microcoder，算法、数据、框架、训练经验全面升级.md", "rss/dyco-rl：动态跨模态协同学习让多模态大模型“看得准也想得清”.md"]
 ---
 
-# GRPO
+# GRPO (Group Relative Policy Optimization)
 
-[[GRPO]] (Group Relative Policy Optimization) 是一种在数学推理任务上取得成功的强化学习策略优化方法。
+[[GRPO]]（组相对策略优化）是一种主流的 [[可验证奖励的强化学习]]（RLVR）算法。它通过比较同一提示词下多个生成结果的相对优势来更新策略，在数学推理任务上取得了显著成功。
 
 ## 在代码生成中的挑战
+
 虽然 GRPO 在数学推理中表现出色，但直接将其迁移到代码生成任务时遇到了困难。研究显示，使用 GRPO 配合 [[DeepCoder]] 等数据集训练最新推理模型时，性能提升不明显。这主要是因为新模型的训练动态（如输出长度持续增长）与 GRPO 的原始设计假设存在**[[代际性训练动态差异]]**。
 
-## 改进
+## 改进与扩展
+
+### MicroCoder-GRPO
+
 [[MicroCoder]] 项目提出了 [[MicroCoder-GRPO]]，通过引入条件截断掩码、动态温度选择和去除 KL 散度等修改，使其适应现代代码模型的训练需求。
+
+### 在多模态场景中的应用
+
+在 [[dyco-rl|DyCo-RL]] 的研究中，GRPO 被作为基线算法之一，验证了 DyCo-RL 即插即用模块能够为其带来显著的跨模态协调性能提升。

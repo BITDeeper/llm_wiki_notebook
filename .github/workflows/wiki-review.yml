@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - "wiki/**"
+  workflow_dispatch:
+    inputs:
+      base_sha:
+        description: "对比起点 commit SHA (留空则自动获取上次 review 的 SHA)"
+        required: false
+        type: string
 
 permissions:
   issues: write
@@ -17,14 +23,88 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
 
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
 
+      - name: Resolve base SHA
+        id: resolve-base
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Priority: manual input > artifact from last run > github.event.before > HEAD~1
+          if [ -n "${{ inputs.base_sha }}" ]; then
+            echo "Source: manual input"
+            echo "base_sha=${{ inputs.base_sha }}" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Try download artifact from last successful run
+          RUN_ID=$(gh run list \
+            --workflow=wiki-review.yml \
+            --status=success \
+            --limit=1 \
+            --json databaseId \
+            -q '.[0].databaseId' 2>/dev/null || echo "")
+
+          if [ -n "$RUN_ID" ]; then
+            echo "Found last successful run: $RUN_ID"
+            if gh run download "$RUN_ID" --name last-review-sha --dir /tmp/review-artifact 2>/dev/null; then
+              ARTIFACT_SHA=$(cat /tmp/review-artifact/sha.txt 2>/dev/null || echo "")
+              if [ -n "$ARTIFACT_SHA" ]; then
+                echo "Source: artifact from run $RUN_ID"
+                echo "base_sha=${ARTIFACT_SHA}" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+            fi
+          fi
+
+          # Fallback: github.event.before for push events
+          BEFORE="${{ github.event.before }}"
+          if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+            echo "Source: github.event.before"
+            echo "base_sha=${BEFORE}" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Last resort: HEAD~1
+          echo "Source: fallback HEAD~1"
+          echo "base_sha=HEAD~1" >> "$GITHUB_OUTPUT"
+
+
+
       - name: Run wiki review
         env:
+          CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUSH_BEFORE: ${{ github.event.before }}
-          PUSH_SHA: ${{ github.event.sha }}
+          BASE_SHA: ${{ steps.resolve-base.outputs.base_sha }}
+          HEAD_SHA: ${{ github.sha }}
+
+          CLAUDE_CODE_SKIP_LOGIN: 1
+          CLAUDE_CODE_USE_EXTERNAL_AUTH: 1
+          CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: 1
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL || 'https://twilight-violet-b5af.zhangpybit.workers.dev' }}
+          ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN || 'dummy' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_AUTH_TOKEN || 'dummy' }}
+          ANTHROPIC_API_URL: ${{ secrets.ANTHROPIC_BASE_URL || 'https://twilight-violet-b5af.zhangpybit.workers.dev' }}
+          ANTHROPIC_DEFAULT_HAIKU_MODEL: "glm-4.7"
+          ANTHROPIC_DEFAULT_SONNET_MODEL: "glm-4.7"
+          ANTHROPIC_DEFAULT_OPUS_MODEL: "glm-5.1"
+
         run: node .github/wiki-review.mjs
+
+      - name: Save review SHA as artifact
+        if: success()
+        run: |
+          mkdir -p /tmp/review-sha-artifact
+          echo "${{ github.sha }}" > /tmp/review-sha-artifact/sha.txt
+
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: last-review-sha
+          path: /tmp/review-sha-artifact/sha.txt
+          retention-days: 90

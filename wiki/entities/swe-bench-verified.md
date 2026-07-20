@@ -1,18 +1,18 @@
 ---
 type: entity
 title: SWE-Bench Verified
-tags: [benchmark, software-engineering, evaluation, 评测基准, 编程, 代码生成, 代码任务, ai编程, 基准测试]
-related: ["terminal-bench", "llm-as-a-verifier", "claude-code", "gemini", "斯坦福年度结论：中美大模型已没差距.md", "coding-agent", "openhands-agent", "agentic-coding-token消耗分析", "gpt-5.5", "grok-v9-medium", "codex"]
+tags: [benchmark, software-engineering, evaluation, 评测基准, 编程, 代码生成, 代码任务, ai编程, 基准测试, dataset]
+related: ["terminal-bench", "llm-as-a-verifier", "claude-code", "gemini", "斯坦福年度结论：中美大模型已没差距.md", "coding-agent", "openhands-agent", "agentic-coding-token消耗分析", "gpt-5.5", "grok-v9-medium", "codex", "fusesearch", "代码定位"]
 created: 2026-04-27
-updated: 2026-05-26
-sources: ["超越claude-mythos和gpt-5.5！斯坦福agent验证框架拿下sota，transformer作者转发.md", "斯坦福年度结论：中美大模型已没差距.md", "花了1000倍的token，效果可能却没有更好：ai-agent的“隐性账单”长什么样.md", "马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md"]
+updated: 2026-06-14
+sources: ["超越claude-mythos和gpt-5.5！斯坦福agent验证框架拿下sota，transformer作者转发.md", "斯坦福年度结论：中美大模型已没差距.md", "花了1000倍的token，效果可能却没有更好：ai-agent的“隐性账单”长什么样.md", "马斯克曝光grok-5！1.5万亿参数，偷师cursor狂练编程.md", "rss/代码定位太慢？蚂蚁acl2026新作：让模型自己学会「该搜多少」.md"]
 ---
 
 # SWE-Bench Verified
 
 **SWE-Bench Verified** 是目前开发者社区最关注的 AI 编程基准测试，也是衡量 AI 模型软件工程能力（特别是代码生成与修复能力）的核心基准。它用于评估 AI 模型及 [[coding-agent]] 自主编程能力解决真实软件工程问题的能力。
 
-它包含 **500 个**真实 GitHub issue 的代码修复任务，用于评估 AI 智能体解决复杂软件工程任务的能力。
+该基准包含 **500 个**真实 GitHub issue 的代码修复任务（部分公开子集包含 386 个实例），用于评估 AI 智能体在真实大型代码库中解决复杂软件工程任务的能力。它也是当前评估 [[代码定位]] 和自动软件修复能力的权威标准。
 
 ## 特点
 
@@ -42,6 +42,8 @@ sources: ["超越claude-mythos和gpt-5.5！斯坦福agent验证框架拿下sota�
 ### SOTA 成绩
 
 在该基准上，应用 [[LLM-as-a-Verifier]] 框架的 Agent 取得了 SOTA 性能，证明了该验证框架在处理长时序任务时的有效性。
+
+在代码定位子任务上，[[fusesearch|FuseSearch-4B]] 在此基准上取得了 **84.7%** 的文件级 F1 分数。
 
 ## 意义
 

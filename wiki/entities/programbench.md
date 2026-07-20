@@ -1,69 +1,37 @@
 ---
 type: entity
 title: ProgramBench
-tags: ["benchmark", "software-engineering", "meta", "stanford", "reverse-engineering", "llm", "evaluation", "评测基准", "编程", "斯坦福", "哈佛"]
-related: [swe-bench, claude-opus-4-7, 行为等价性测试, 黑盒逆向工程, mini-swe-agent, 工程智能, 单体化代码, claude-code, gemini, gpt-5.5, 从0重建程序范式, noam-brown]
-created: 2026-05-06
-updated: 2026-05-22
-sources: ["刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "0%完成率！claude、gpt、gemini-全灭，swe-bench作者新作把ai圈干沉默了.md", "gpt-5.5全球首破！0源码盲写程序，编程ai进入新纪元.md"]
+created: 2026-06-13
+updated: 2026-06-13
+tags: ["benchmark", "software-engineering", "meta", "stanford", "reverse-engineering", "llm", "evaluation", "评测基准", "编程", "斯坦福", "哈佛", "ai评测", "编程基准", "逆向工程"]
+related: ["swe-bench", "claude-opus-4-7", "行为等价性测试", "黑盒逆向工程", "mini-swe-agent", "工程智能", "单体化代码", "claude-code", "gemini", "gpt-5.5", "从0重建程序范式", "noam-brown", "claude-fable-5", "过度拒绝", "能力-安全悖论"]
+sources: ["刷榜ai全挂了！meta斯坦福地狱级测试，gptclaudegemini交出0分.md", "0%完成率！claude、gpt、gemini-全灭，swe-bench作者新作把ai圈干沉默了.md", "gpt-5.5全球首破！0源码盲写程序，编程ai进入新纪元.md", "rss/交白卷也排第一？fable-5二百题全部拒答，却登顶最严ai编程基准.md"]
 ---
-
 # ProgramBench
 
-**ProgramBench** 是由 [[SWE-Bench]] 作者联合 [[Meta]] FAIR、[[斯坦福]] 大学、[[哈佛]] 大学等机构推出的全新编程评测基准，于 2026 年 5 月上旬发布。它旨在评估大语言模型从零开始构建真实、可执行软件系统的能力，而非仅仅测试局部代码补全或 Bug 修复能力。
+ProgramBench 是 SWE-Bench 作者团队推出的 AI 编程基准测试，专注于**从编译后的二进制文件重建源代码**这一高难度任务。
 
-## 设计理念
+## 核心特征
 
-与 [[SWE-Bench]]、HumanEval 等传统基准的"修 Bug"或"补函数"模式不同，ProgramBench 采用 [[从0重建程序范式]]，核心场景为**黑盒逆向工程**：
+- **任务定义**：给定编译后的二进制文件，要求 AI 模型逆向重建原始源代码
+- **难度极高**：上线时将当时所有前沿 AI 模型（Claude、GPT、Gemini）全部清零，完成率均为 0%
+- **题目规模**：200 道题
 
-1. **任务设定**：删除原始源码和测试，仅保留编译好的可执行文件和使用文档，要求模型重建完整项目（如 FFmpeg、SQLite、ripgrep）。
-2. **三不原则**：不给源码、不许反编译、不许联网，迫使模型必须展示内在的工程推理能力，而非通过搜索或复制粘贴代码来通过测试。
-3. **行为等价性测试**：不比对源码相似度，只要求生成的程序在输入输出行为上与原程序一致。这允许模型使用不同的语言、算法或架构来实现功能。评测利用 Agent 驱动的模糊测试生成了 248,853 个行为测试来验证正确性。
+## Fable 5 事件
 
-## 规模与难度
+[[claude-fable-5|Claude Fable 5]] 在 ProgramBench 上创造了 AI 评测史上的荒诞记录：
 
-- **任务数量**：200 个软件项目。
-- **覆盖领域**：从小工具（jq、ripgrep）到重量级项目（FFmpeg、SQLite、PHP 编译器），涵盖压缩工具（zstd, lz4）、语言解释器（PHP, Lua）、数据库（DuckDB, SQLite）、媒体处理（FFmpeg）等。
-- **代码量**：中位数 8,635 行，最大项目（FFmpeg）达 270 万行。
+1. **200 道题全部拒绝作答**——"二进制逆向"操作触发了 Fable 5 的网络安全分类器
+2. **排行榜仍将其列为第一**——综合其他基准表现，ProgramBench 将弃考模型排在榜首
+3. **引发评测有效性争议**——社区质疑"交白卷怎能登顶"，认为应直接给零分
 
-## 与传统基准的对比
+排行榜备注对 Fable 5 的特别警告：
+> "除了彻底的访问限制（我们只是不断重试运行直到任务顺利完成），Anthropic 还可能默认悄无声息地提供该模型的一个降级版、低能力变体。重试无法纠正这一点，因此这里的数据可能低估了其真实能力——解读时需谨慎。"
 
-| 基准 | 模式 | 当前最高通过率 |
-|------|------|--------------|
-| SWE-bench | 开卷修 Bug | 88.7%（接近饱和） |
-| HumanEval | 半开卷补函数 | 已饱和 |
-| GPQA | 知识问答 | AI 已超多数 PhD |
-| ProgramBench | 闭卷从零重建 | 0.5% |
+## 意义
 
-## 测试结果
+ProgramBench 事件暴露了当前 AI 评测体系在处理安全拒绝时的方法论缺陷：当模型因安全原因拒绝作答时，评测系统缺乏统一的处理标准——是计为零分、排除排名，还是综合其他表现？这一问题随着 AI 安全护栏的普及将日益突出。
 
-### 初始测试（2026 年 5 月上旬）
+## 外部链接
 
-在 9 个顶级模型（包括 [[Claude Opus 4.7]], [[GPT-5.4]], [[Gemini 3.1 Pro]]）的测试中：
-
-- **严格完成率**：**0%**（所有模型均未完全通过任何项目）。
-- **接近完成率**（>95%）：[[Claude Opus 4.7]] 最高，但也仅达到 3%。
-- **平均通过率**：[[Claude Opus 4.7]] 最高，为 51.2%。
-
-### 首破记录（2026 年 5 月 13 日）
-
-[[gpt-5.5]] 成为首个在 ProgramBench 上解出题目的 AI 模型，攻克了 cmatrix 任务，通过率 0.5%。详见 [[gpt-5.5首破programbench-20260513]]。
-
-## 暴露的问题
-
-这一结果揭示了当前 AI 模型在软件工程领域的核心短板：
-
-- **缺乏全局规划**：模型虽然具备代码生成能力，但极度缺乏全局系统规划能力和长期软件系统构建能力。
-- **单体化倾向**：模型倾向于生成 [[单体化代码]]，即逻辑集中在单文件、目录结构浅、模块拆分少，这与人类工程师追求的模块化和关注点分离背道而驰。
-- **架构设计缺陷**：模型在软件架构设计（如模块化、抽象）方面存在严重不足。
-- **语言差异**：模型在 C/C++ 项目上表现相对较好，而在强调工程哲学（如模块化、所有权）的 Rust 项目上表现最差。
-
-## 技术栈
-
-测试使用了 [[mini-SWE-agent]] 作为极简脚手架，强调无上下文压缩、无多 Agent 协作、无定制化工具链，以纯粹考察模型本身的能力。
-
-## 行业意义
-
-ProgramBench 的发布标志着 AI 编程评估从"函数级"向"系统级"的跨越。传统评测正在以惊人速度"融化"（分数越来越高、区分度越来越低），而 ProgramBench 提供了真正区分前沿能力的测试场。[[noam-brown]] 此前曾表示"是时候淘汰 GPQA 这类评估方式，引入一套全新的了"。
-
-ProgramBench 指出了 AI Coding 的下一个瓶颈，促使行业研究重心转向 Memory、Agents、Repo-level reasoning 和 Long-horizon planning 等方向。
+- 排行榜：https://www.vals.ai/benchmarks/programbench

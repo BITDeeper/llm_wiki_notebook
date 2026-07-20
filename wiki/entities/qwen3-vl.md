@@ -2,14 +2,14 @@
 type: entity
 title: Qwen3-VL
 created: 2026-05-17
-updated: 2026-06-05
-tags: ["model", "vlm", "qwen", "alibaba", "multimodal", "baseline", "模型", "基础模型", "multimodal-llm", "vision-language-model", "ai-models", "vision-language", "多模态大模型", "基座模型", "阿里云", "视觉语言模型", "评审模型", "阿里", "多模态"]
-related: ["starvla", "vla-视觉-语言-动作", "moss-vl", "spatial-point", "promptecho", "qwenimage-2512", "qianwen-3-5-plus", "alibaba-cloud", "prism-分布对齐方法", "sft-分布漂移问题", "sft-rl后训练范式", "world-r1", "四维复合奖励函数", "wbench", "视频世界模型", "afun", "冻结大模型拼接范式"]
-sources: ["统一vla范式！港科大开源starvla乐高式架构，复现成本大幅降低.md", "准确回答视频细节！11b模型挑战视频理解「证据级」任务，开源可商用.md", "将深度信息作为vlm核心输入！视启未来×清华×idea帮机器人看懂物理世界.md", "阿里开源promptecho：用冻结多模态大模型为文生图训练提供高质量reward.md", "最强开源大模型除夕登场！397b参数千问3.5超越gemini-3，百万tokens低至8毛.md", "sft别急着接rl！你的多模态大模型可能一直在“带伤训练”.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型理解3d.md", "美团&复旦发布-wbench：首个多轮交互视频世界模型基准，5大维度22项指标全方位测评模型真实短板.md", "11个数据集全拿sota！机器人终于既会“看”又会“动”了.md"]
+updated: 2026-06-16
+tags: ["model", "vlm", "qwen", "alibaba", "multimodal", "baseline", "模型", "基础模型", "multimodal-llm", "vision-language-model", "ai-models", "vision-language", "多模态大模型", "基座模型", "阿里云", "视觉语言模型", "评审模型", "阿里", "多模态", "阿里巴巴"]
+related: ["starvla", "vla-视觉-语言-动作", "moss-vl", "spatial-point", "promptecho", "qwenimage-2512", "qianwen-3-5-plus", "alibaba-cloud", "prism-分布对齐方法", "sft-分布漂移问题", "sft-rl后训练范式", "world-r1", "四维复合奖励函数", "wbench", "视频世界模型", "afun", "冻结大模型拼接范式", "自动因子标注流水线", "guidedvla"]
+sources: ["统一vla范式！港科大开源starvla乐高式架构，复现成本大幅降低.md", "准确回答视频细节！11b模型挑战视频理解「证据级」任务，开源可商用.md", "将深度信息作为vlm核心输入！视启未来×清华×idea帮机器人看懂物理世界.md", "阿里开源promptecho：用冻结多模态大模型为文生图训练提供高质量reward.md", "最强开源大模型除夕登场！397b参数千问3.5超越gemini-3，百万tokens低至8毛.md", "sft别急着接rl！你的多模态大模型可能一直在“带伤训练”.md", "解决视频生成穿帮问题！浙大&微软3000条纯文本让模型理解3d.md", "美团&复旦发布-wbench：首个多轮交互视频世界模型基准，5大维度22项指标全方位测评模型真实短板.md", "11个数据集全拿sota！机器人终于既会“看”又会“动”了.md", "rss/rss-2026-别再让机器人看错重点，guidedvla给动作解码器装上可控可解释的注意力专家.md"]
 ---
 # Qwen3-VL
 
-Qwen3-VL 是阿里巴巴通义千问系列开源的视觉-语言模型（多模态大模型），有 4B 和 8B 两个规模。在多个研究中作为核心实验基座、语言理解组件和评审模型被广泛使用。
+**Qwen3-VL** 是阿里巴巴通义千问系列推出的视觉-语言模型（多模态大模型），有 4B 和 8B 两个规模。在多个研究中作为核心实验基座、语言理解组件、评审模型和自动标注工具被广泛使用。
 
 ## 在 PRISM 实验中的角色
 
@@ -41,6 +41,10 @@ PRISM 在 4 个数学推理基准（MathVista、MathVerse、MathVision、WeMath�
 
 Qwen3-VL 的预训练知识为 AFUN 提供了任务意图理解能力，使其能够区分同一物体在不同指令下的不同交互方式。
 
+## 在 GuidedVLA 中的角色
+
+在 [[guidedvla|GuidedVLA]] 框架的 [[自动因子标注流水线]] 中，Qwen3-VL 被用于提供物体前景点提示以及生成技能阶段标签，大幅降低了人工标注成本。
+
 ## 在 World-R1 中的角色
 
 在 [[world-r1]] 中担任"评审员"角色，专门用于检测生成视频中的"纸片人"等 3D 不一致问题。作为 [[四维复合奖励函数]] 中元视角评分的一部分，Qwen3-VL 从多角度审视 3D 重建结果，识别几何幻觉。
@@ -50,6 +54,7 @@ Qwen3-VL 的预训练知识为 AFUN 提供了任务意图理解能力，使其�
 在 [[wbench|WBench]] 评测框架中，经过微调的 Qwen3-VL 被用于物理合规性维度的自动评估，判断生成视频中的碰撞、流体、重力等物理现象是否符合常识。
 
 WBench 的物理合规性评估分为两层：
+
 - **高层因果忠实度（Causal Fidelity）：** 评估物理因果关系是否正确。
 - **底层视觉合理性（Visual Plausibility）：** 评估视觉层面的物理效果是否合理。
 
