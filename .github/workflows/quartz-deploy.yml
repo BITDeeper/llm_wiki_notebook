@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Sanitize wiki content (decodeURI-unsafe names/links break Quartz)
+        run: node .github/sanitize-wiki.mjs
+
       - name: Build Quartz site
         run: node .github/build-site.mjs
 
