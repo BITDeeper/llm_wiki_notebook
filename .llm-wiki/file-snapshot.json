@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": 1781660235396,
+  "updatedAt": 1790219503080,
   "files": {
     "purpose.md": {
       "hash": "2e09e6db048996b07ebc25895892f00f",
@@ -23967,6 +23967,11 @@
       "size": 2956,
       "mtimeMs": 1778195881048
     },
+    "wiki/concepts/agentic-visual-generation综述.md": {
+      "hash": "8d4b6e537ac82131c8a1ef92982c3c4f",
+      "size": 1908,
+      "mtimeMs": 1790219500220
+    },
     "wiki/concepts/agentic-vs-workflow.md": {
       "hash": "5d9bae56e9045341e9634e97928dc4d5",
       "size": 2063,
@@ -30576,6 +30581,11 @@
       "hash": "9652badf86e4d2ddd73727be00ca6e99",
       "size": 2053,
       "mtimeMs": 1778106346954
+    },
+    "wiki/concepts/l0-l4控制级别分类.md": {
+      "hash": "793f40f15094faf1037499c53b4f3fd1",
+      "size": 2078,
+      "mtimeMs": 1790219500226
     },
     "wiki/concepts/l2++级辅助驾驶.md": {
       "hash": "212df7ce9570940e20dbd65360adbc20",
@@ -84017,6 +84027,11 @@
       "size": 2278,
       "mtimeMs": 1780986844705
     },
+    "wiki/entities/wan团队.md": {
+      "hash": "90db79e758d04f74f0e805d3f085f9b1",
+      "size": 577,
+      "mtimeMs": 1790219500428
+    },
     "wiki/entities/warehouse-供应链模拟环境.md": {
       "hash": "18f880d7d82bca269800d792ef24e03d",
       "size": 2240,
@@ -92067,6 +92082,11 @@
       "size": 2013,
       "mtimeMs": 1779475309625
     },
+    "wiki/events/agentic视觉生成综述发布-202609.md": {
+      "hash": "0d4dad4743f8194ca037644ca1c1a9c9",
+      "size": 1529,
+      "mtimeMs": 1790219500431
+    },
     "wiki/events/agent评估范式转移-2026.md": {
       "hash": "a791d1d27bc606a1122dfb11744b3971",
       "size": 2139,
@@ -94993,19 +95013,19 @@
       "mtimeMs": 1779501149564
     },
     "wiki/index.md": {
-      "hash": "f9569fce55f4145680b1a80b341d0b83",
-      "size": 83740,
-      "mtimeMs": 1781361608988
+      "hash": "851cdfb706c004220e5c3f20e512d227",
+      "size": 84832,
+      "mtimeMs": 1790219500490
     },
     "wiki/log.md": {
-      "hash": "51ce7eb08ee022a755536e6b83eaa883",
-      "size": 50670,
-      "mtimeMs": 1781632356669
+      "hash": "dfd3766d6c3a6918c7ab5cb07e6c3cb8",
+      "size": 50780,
+      "mtimeMs": 1790219500499
     },
     "wiki/overview.md": {
-      "hash": "1938e740df674c2aa481e511368cd38f",
-      "size": 15728,
-      "mtimeMs": 1780933015095
+      "hash": "54fffca0aa7217c63778c2a71b957902",
+      "size": 9706,
+      "mtimeMs": 1790219500501
     },
     "wiki/sources/0%完成率！claude、gpt、gemini-全灭，swe-bench作者新作把ai圈干沉默了.md": {
       "hash": "3b1abd79b7ae0be5b7b6a965f80e9872",
@@ -108331,6 +108351,11 @@
       "hash": "ba2bd4a85d62606a5686dedfc595b94c",
       "size": 2562,
       "mtimeMs": 1780639678843
+    },
+    "wiki/sources/迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924.md": {
+      "hash": "81f9cb56e53a8c74ef59f21e74fcbc71",
+      "size": 3025,
+      "mtimeMs": 1790219500214
     },
     "wiki/sources/近2亿美元！vast完成新一轮融资，正式披露世界模型路线.md": {
       "hash": "f5aef3a86dcbea8a6357dcf1dd89e4de",

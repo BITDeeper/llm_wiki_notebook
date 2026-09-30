@@ -25,8 +25,9 @@
       }
     ],
     "id": "review-1",
-    "resolved": false,
-    "createdAt": 1781174518657
+    "resolved": true,
+    "createdAt": 1781174518657,
+    "resolvedAction": "auto-resolved"
   },
   {
     "type": "suggestion",
@@ -9209,5 +9210,63 @@
     "id": "review-319",
     "resolved": false,
     "createdAt": 1781633610789
+  },
+  {
+    "type": "missing-page",
+    "title": "COMFYCLAW与OpenClaw生态关系待确认",
+    "description": "综述中L4代表系统COMFYCLAW将验证过的工作流构建方法沉淀到技能库，命名暗示与Wiki已收录的[[openclaw]]生态可能同源（CLAW后缀、技能库机制与[[sensenova-skills]]、[[skillhub]]的技能沉淀思路同构）。是否需要为COMFYCLAW建立独立实体页并厘清其与OpenClaw生态的关系？",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924.md",
+    "affectedPages": [
+      "wiki/entities/openclaw.md",
+      "wiki/concepts/agentic-visual-generation综述.md"
+    ],
+    "searchQueries": [
+      "ComfyClaw agentic visual generation skill library",
+      "OpenClaw ComfyUI workflow agent skill",
+      "agentic visual generation L4 experience reuse COMFYCLAW"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-1",
+    "resolved": true,
+    "createdAt": 1790219510064,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "Generator-as-Controller可否成为L5方向",
+    "description": "综述展望的generator-as-controller（生成器直接依据视觉状态决策、缩短反馈链路）可能成为L4之后的下一级方向，与Wiki中[[递归式自我改进]]、[[agentic-engineering]]主题深度关联，值得追踪后续论文是否将其形式化为L5。",
+    "sourcePath": "E:/zhangpengyi/LMM/WIKI/AI-Info-Management/raw/sources/迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924.md",
+    "affectedPages": [
+      "wiki/concepts/l0-l4控制级别分类.md",
+      "wiki/concepts/递归式自我改进.md"
+    ],
+    "searchQueries": [
+      "generator as controller visual generation feedback loop",
+      "unified generation decision model agentic diffusion",
+      "visual generation model self-reflection feedback",
+      "visual generation model self-reflection iterative refinement"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-2",
+    "resolved": false,
+    "createdAt": 1790219510064
   }
 ]

@@ -4,7 +4,7 @@ title: Wiki Index
 tags: []
 related: []
 created: 2021-01-01
-updated: 2026-06-13
+updated: 2026-09-24
 sources: []
 ---
 # Wiki Index
@@ -88,7 +88,7 @@ sources: []
 - [[delta-mem]] — 为冻结Transformer骨干添加长期记忆能力的参数化记忆方法，核心为8×8在线关联记忆状态矩阵，参数开销仅0.12%。
 - [[mind-lab]] — 中国第一家Neo Lab，隶属于心洲科技（Mindverse），由粤港澳大湾区国家技术创新中心国际总部孵化，长期深耕参数化记忆与体验智能方向，发布749B Agent-native模型Macaron-V1-Preview。
 - [[南洋理工大学]] — 新加坡顶尖研究型大学，δ-mem联合研究单位，通讯作者Soujanya Poria所属机构。
-- [[复旦大学]] — 中国顶尖综合性研究型大学，δ-mem联合研究单位，共同第一作者张迪所属机构。
+- [[复旦大学]] — 中国顶尖综合性研究型大学，δ-mem联合研究单位，共同第一作者张迪所属机构，2026年9月联合发布首篇Agentic视觉生成综述。
 - [[pid-pixel-diffusion-decoder]] — 英伟达提出的生成式像素扩散解码器，将VAE解码器改造为主动高分辨率生成模块，2K解码210ms，4K显存仅22.5GB。
 - [[英伟达空间智能实验室]] — 英伟达旗下研究实验室（Spatial Intelligence Lab），专注生成模型、3D视觉和空间智能。
 - [[yifan-lu]] — 多伦多大学博士生，NVIDIA研究员，PiD论文第一作者，研究方向为生成模型和3D视觉。
@@ -213,6 +213,7 @@ sources: []
 - [[清华大学全球产业研究院]] — 清华大学下属产业研究机构，主办AIEC 2026人工智能+生态大会，侧重产业协同与生态构建。
 - [[qwen]] — 阿里巴巴旗下AI大模型及产品系列（千问），2026年世界杯首日精准预测两场比赛比分、走势及红牌引发关注。
 - [[shane-legg]] — Google DeepMind联合创始人，自2009年起坚持预测AGI在2028年到来的概率为50%。
+- [[wan团队]] — 阿里旗下视频生成研究团队，2026年9月与复旦、港中文MMLab联合发布首篇Agentic视觉生成综述。
 
 ## Concepts
 
@@ -420,6 +421,8 @@ sources: []
 - [[asi-超级人工智能]] — 在几乎所有领域超越数以万计人类专家集体智慧的AI系统，DeepMind报告系统梳理了从AGI迈向ASI的四条路径和六大减速关卡。
 - [[抽象壁垒]] — 当前AI受限于人类既有抽象框架，无法从原始感知数据中发明新概念的根本性认知障碍。
 - [[模型坍塌]] — 合成数据不加甄别地反复训练导致模型性能退化、输出趋于单一和退步的现象。
+- [[agentic-visual-generation综述]] — 复旦、Wan团队与港中文MMLab联合发布的首篇Agentic视觉生成综述，提出L0-L4分类框架与对齐条件评估方法，收录300+工作。
+- [[l0-l4控制级别分类]] — 按控制器能影响的最远决策将视觉生成系统分为L0固定支撑→L1条件控制→L2执行控制→L3结果自适应→L4经验自适应五级，L3占202条而L4仅25条。
 
 ## Sources
 
@@ -461,13 +464,13 @@ sources: []
 - [[有人靠cpu把ai算力密度卷到了新高度]] — 量子位2026年6月报道，标题暗示CPU在AI算力密度优化方面的突破，但正文内容因RSS抓取异常缺失。
 - [[3-rss--290-claude-code%E4%B9%8B%E7%88%B6%EF%BC%9A%E3%80%8C%E5%93%81%E5%91%B3%E3%80%8D%E4%B8%8D%E6%98%AF%E4--1236m0j]] — Boris Cherny深度访谈：品味不是人类护城河，通才黄金时代，Coding作为AI安全实验场，少招人多发Token。
 - [[3-rss--288-一个8x8矩阵让大模型记住长对话mind-lab联合ntu复旦推出δ-mem参数仅0.12]] — 关于δ-mem研究的深度报道：8×8在线关联记忆状态为冻结Transformer赋予长期记忆，参数开销仅0.12%。
-- [[3-rss--281-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E6%96%87%E7%94%9F%E5%9B%BE%E6%9C--1bdjp2h]] — 英伟达PiD生成式像素扩散解码器报道：将VAE解码器改造为生成模块，2K解码210ms，4K显存仅22.5GB。
+- [[3-rss--281-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E6%96%87%E7%94%9F%E5%9B%BE%E6%8--1bdjp2h]] — 英伟达PiD生成式像素扩散解码器报道：将VAE解码器改造为生成模块，2K解码210ms，4K显存仅22.5GB。
 - [[3-rss--189-%E5%88%9A%E5%88%9A%EF%BC%8Cmind-lab%E5%BC%80%E6%BA%90v1%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8Bpreview--1mhh3jh]] — Mind Lab开源749B参数Agent-native模型Macaron-V1-Preview的深度报道，涵盖Mixture-of-LoRA架构、Agent Harness后训练及PEFT规模定律。
-- [[3-rss--183-%E8%A7%A3%E9%94%81agent-swarm%E6%96%B0%E6%BD%9C%E5%8A%9B%EF%BC%8Copenjiuwen%E5%8F%88%E4%B8--uyfg85]] — openJiuwen提出MANGO多智能体流网络梯度优化框架，通过强化学习+文本梯度实现端到端协作优化。
+- [[3-rss--183-%E8%A7%A3%E9%94%81agent-swarm%E6%96%B0%E6%BD%9C%E5%8A%9B%EF%BC%8Copenjiuwen%E5%8F%88%E4%B--uyfg85]] — openJiuwen提出MANGO多智能体流网络梯度优化框架，通过强化学习+文本梯度实现端到端协作优化。
 - [[3-rss--211-%E9%98%BF%E9%87%8Crtpurbov2%EF%BC%9A%E5%8E%9F%E7%94%9Ftransformer%E5%86%8D%E6%AC%A1%E5%B4%9B%E8%B5--11rrhsc]] — 阿里RTPurboV2报道：原生Transformer通过释放内生稀疏性实现16~32倍计算压缩，仅需600步训练。
 - [[3-rss--227-%E8%B0%B7%E6%AD%8Cagi%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%80%BB%E7%9B%91%E6%9C%80%E6%96%B0%E8%AE%BF%E8%B0--1m4hdcv]] — 谷歌DeepMind AGI经济学总监Alex Imas与Epoch AI经济学主管Phil Trammell深度对谈，探讨AGI时代的稀缺性、劳动份额与价值分配终局。
-- [[3-rss--105-%E9%AB%98%E4%B8%AD%E8%BE%8D%E5%AD%A6%E5%A4%A9%E6%89%8D%EF%BC%8C%E4%BB%8Eopenai%E8%B5%B0%E4%BA%86%EF--l7pzk2]] — 新智元报道Sora核心成员Gabriel Petersson离开OpenAI创业，宣称要在AGI前夜打造"最后一个产品"。
-- [[3-rss--223-%E5%BA%9F%E7%89%87%E4%B9%9F%E8%83%BD%E5%8F%98%E5%A4%A7%E7%89%87%EF%BC%81%E5%8C%97%E5%A4%A7%E5%BC%80--su6ifa]] — 新智元关于北京大学彭宇新团队提出美学照片重构任务、AesFormer模型及AesRecon数据集的深度报道。
+- [[3-rss--105-%E9%AB%98%E4%B8%AD%E8%BE%8D%E5%AD%A6%E5%A4%A9%E6%89%8D%EF%BC%8C%E4%BB%8Eopenai%E8%B5%B0%E4%BA%86%E--l7pzk2]] — 新智元报道Sora核心成员Gabriel Petersson离开OpenAI创业，宣称要在AGI前夜打造"最后一个产品"。
+- [[3-rss--223-%E5%BA%9F%E7%89%87%E4%B9%9F%E8%83%BD%E5%8F%98%E5%A4%A7%E7%89%87%EF%BC%81%E5%8C%97%E5%A4%A7%E5%BC--su6ifa]] — 新智元关于北京大学彭宇新团队提出美学照片重构任务、AesFormer模型及AesRecon数据集的深度报道。
 - [[3-rss--255-%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB%EF%BC%81%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%86%A8%E7%A7%83--l5ges8]] — 新智元关于AxiomProver结合LLM与Lean形式化验证实现AI数学证明突破的报道，涵盖8篇arXiv论文及数学工业化趋势。
 - [[3-rss--133-chat%E5%B7%B2%E6%AD%BB%EF%BC%81gpt%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E6%94%B9%E7%89%88%EF%BC%8C%E4--wnnyts]] — 新智元关于OpenAI宣判"Chat is Dead"、ChatGPT史上最大改版、Codex上位及双万亿IPO赛跑的深度报道。
 - [[3-rss--255-%E9%A6%96%E6%AC%A1%EF%BC%81%E7%BA%AF%E4%BA%BA%E7%B1%BB%E8%A7%86%E9%A2%91%E9%A2%84%E8%AE%AD%E7%BB%83v--1dc5j9g]] — 量子位关于微软亚洲研究院与清华大学合作提出VITRA框架的报道，首次实现纯人类视频预训练VLA灵巧操作。
@@ -478,7 +481,7 @@ sources: []
 - [[3-rss--252-%E8%AE%A9%E7%9F%A9%E9%98%B5%E5%BD%92%E6%A8%A1%E6%8B%9F%EF%BC%8C%E8%AE%A9%E9%80%BB%E8%BE%91%E5%BD%92--1og25tt]] — 量子位关于安纳智芯模拟计算芯片的深度报道，涵盖矩阵求逆、非冯诺依曼架构及模拟计算赛道融资动态。
 - [[3-rss--170-%E6%88%91%E4%BB%AC%E6%8A%8Aacl-2026%E6%9C%80%E5%85%B7%E5%90%AF%E5%8F%91%E6%80%A7%E7%9A%84%E8%AE%BA--1wevhxx]] — 机器之心ACL 2026论文分享会邀请，总结2026年上半年AI四大技术方向，公布ACL 2026投稿数据。
 - [[3-rss--151-%E3%80%8Ctoken%E6%9C%AB%E6%97%A5%E3%80%8D%E6%9D%A5%E4%BA%86%EF%BC%81ai%E6%AD%A3%E8%BF%8E--1u2j0zp]] — 机器之心关于Token末日、微软Copilot按量计费、Uber超支及企业AI成本治理的深度报道。
-- [[3-rss--205-%E8%85%BE%E8%AE%AF%E6%89%93%E5%87%BA%E4%BC%81%E4%B8%9Aagent%E6%96%B0%E5%BA%95%E7%89%8C%EF%BC%9Aworkbu--llnl6d]] — 机器之心关于腾讯发布WorkBuddy企业版、抢占AI办公统一入口的深度报道。
+- [[3-rss--205-%E8%85%BE%E8%AE%AF%E6%89%93%E5%87%BA%E4%BC%81%E4%B8%9Aagent%E6%96%B0%E5%BA%95%E7%89%8C%EF%BC%8Cworkbu--llnl6d]] — 机器之心关于腾讯发布WorkBuddy企业版、抢占AI办公统一入口的深度报道。
 - [[3-rss--200-%E4%B8%80%E5%BC%A0%E5%8D%A1%EF%BC%8C10%E5%88%86%E9%92%9F%EF%BC%8C%E8%BF%99%E5%AE%B6%E5%85%AC%E5%8F--1t0l1zv]] — 新智元关于高德发布全球首个3D原生城市世界模型ABot-Earth0.5的深度报道，涵盖压缩-生成框架、原生LOD解码器及空间智能产业落地。
 - [[3-rss--181-mythos-5%E9%A2%A0%E8%A6%86%E6%80%A7%E8%83%BD%E6%9B%9D%E5%85%89%EF%BC%9A%E8%AE%AD%E7%BB%83%E4%BB%A3%E7--zciti9]] — 新智元关于Mythos 5性能泄露的综合报道：52倍训练代码加速、高精细SVG生成、跨界能力、10万亿参数传闻及IPO前泄露背景。
 - [[3-rss--152-anthropic-80%25%E4%BB%A3%E7%A0%81ai%E8%87%AA%E5%B7%B1%E5%86%99%EF%BC%8C%E4%BA%BA%E7%B1%BB%E5%88%B9--1jsnque]] — 新智元关于Anthropic 80%代码AI自写、递归自我改进从理论走向实证、Jack Clark呼吁暂停AI研发的深度报道。
@@ -486,7 +489,7 @@ sources: []
 - [[3-rss--137-%E8%85%BE%E8%AE%AF%E6%83%B3%E8%AE%A9%E4%BC%81%E4%B8%9A%E6%89%93%E5%BC%80ai%E7%9A%84%E6%96%B9%E5%BC%8F--3djban]] — 量子位关于腾讯发布WorkBuddy企业版、定义企业AI办公统一入口、专家-助理-团队三层模型的深度报道。
 - [[3-rss--141-%E4%BD%A0%E5%A4%A9%E5%A4%A9%E5%88%B7%E7%9A%84%E5%B0%8F%E7%BA%A2%E4%B9%A6%EF%BC%8C%E6%AD%A3%E5%9C%A8--5wkqc8]] — 量子位关于小红书上线RED Skill功能的实测报道，记录AI Skill通过内容平台分发的新模式。
 - [[3-rss--209-%E6%B0%B8%E8%BF%9C%E5%8F%AF%E4%BB%A5%E6%9C%9F%E5%BE%85%E7%9A%84meta%EF%BC%81cvpr-2026-%E6%9C--12y6524]] — 我爱计算机视觉关于Meta SAM 3D获CVPR 2026最佳论文提名奖的深度解读，涵盖单图3D重建、半合成数据生成、人机协同标注及多阶段训练范式。
-- [[3-rss--172-csig-2026-%E2%80%9C%E9%87%91%E7%9D%9B%E6%9D%AF%E2%80%9D%E5%85%89%E5%AD%A6%E6%97%B6%E6%95%8F%E5%BC%B1--7ift6v]] — CSIG 2026「金睛杯」光学时敏弱小目标探测挑战赛官方公告，设置红外视频卫星目标检测和事件相机小目标检测两个赛道。
+- [[3-rss--172-csig-2026-%E2%80%9C%E9%87%91%E7%9D%9B%E6%9D%AF%E2%80%9D%E5%85%89%E5%AD%A6%E6%97%B6%E6%95%8F%E5%BC%B9--7ift6v]] — CSIG 2026「金睛杯」光学时敏弱小目标探测挑战赛官方公告，设置红外视频卫星目标检测和事件相机小目标检测两个赛道。
 - [[3-rss--119-%E5%BE%AE%E4%BF%A1ai%E5%AE%98%E5%AE%A3%EF%BC%9A%E5%BC%80%E5%8F%91%E8%80%85%E5%86%85%E6%B5%8B%E5%90%AF--u7b5z3]] — 新智元关于微信AI官宣开发者内测启动的报道，涵盖小程序Agent化、两条Agent落地路径、需求-意图-执行-支付闭环。
 - [[3-rss--113-%E8%85%BE%E8%AE%AF%E7%9A%84agent%E5%BA%95%E7%89%8C%EF%BC%8C%E8%BF%99%E6%AC%A1%E5%85%A8%E6%91%8A%E5--14eprbu]] — 新智元关于腾讯WorkBuddy企业版发布的深度报道，涵盖专家-助理-团队三层模型、全栈智能体矩阵、WorkBuddy Inside策略及生活场景扩张预告。
 - [[3-rss--200-%E4%BD%9C%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%8B%9B%E8%9A%8A%E4%BD%93%E8%B4%A8%EF%BC%8C%E8%BF%99%E6%98%AF--f23o6n]] — 机器之心关于Steven Cheng自制AI激光灭蚊系统的报道，展示AI+机器人技术平民化趋势。
@@ -498,6 +501,7 @@ sources: []
 - [[3-rss--155-%E6%B8%85%E5%8D%8E%E6%8B%92%E7%9A%84%E8%BF%99%E4%B8%AA%E5%B1%80%EF%BC%8C%E4%B8%AD%E5%9B%BDai%E5%8D%8A--sc8515]] — 新智元关于AIEC 2026人工智能+生态大会的会前预告，清华大学全球产业研究院主办，近60场报告覆盖智能体时代核心落地命题。
 - [[3-rss--216-%E5%87%86%E5%88%B0%E5%B0%81%E7%A5%9E%EF%BC%81%E4%B8%96%E7%95%8C%E6%9D%AF%E9%A6%96%E6%97%A5%EF%BC%8C--2apzim]] — 新智元关于千问在2026年世界杯首日精准预测两场比赛比分、走势及红牌的报道，展示AI体育预测能力。
 - [[3-rss--161-deepmind%E9%9C%87%E6%92%BC%E6%8A%A5%E5%91%8A%EF%BC%9A%E5%9B%9B%E6%9D%A1%E9%80%9A%E5%BE%80%E8%B6%85--1d53fwr]] — 机器之心关于DeepMind发布《从AGI到ASI》57页报告的深度报道，系统梳理四条通往超级人工智能的路径及六大减速关卡。
+- [[迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924]] — 机器之心关于复旦、Wan团队、港中文MMLab联合发布首篇Agentic视觉生成综述的报道，提出L0-L4控制级别分类框架。
 
 ## Events
 
@@ -537,6 +541,7 @@ sources: []
 - [[vlm3发布]] — 2026年6月Meta发布VLM³研究，首次揭示三维视觉的Bitter Lesson，证明标准VLM+规模化数据即可超越所有任务特定设计，论文和代码已公开。
 - [[openai-s1秘密提交-20260609]] — 2026年6月9日OpenAI向SEC秘密递交S-1文件冲刺万亿IPO，同日奥特曼与Jakub Pachocki发表使命宣言提出三大目标。
 - [[aiec-2026]] — 2026年6月16日清华大学全球产业研究院主办人工智能+生态大会，近60场报告覆盖智能体时代核心落地命题，集结中国AI主要企业和研究机构。
+- [[agentic视觉生成综述发布-202609]] — 2026年9月复旦、Wan团队与港中文MMLab联合发布首篇Agentic视觉生成综述，提出L0-L4控制级别分类，标志视觉生成Agent化进入系统化分类阶段。
 
 ## Queries
 

@@ -39435,6 +39435,20 @@
       "filesWritten": [
         "wiki/sources/3-rss--203-spacex%E4%B8%80%E5%88%86%E7%8E%B0%E9%87%91%E6%B2%A1%E8%8A%B1%E6%94%B6%E8%B4%ADcursor%EF%BC%8C%E9%A9--189bhd4.md"
       ]
+    },
+    "迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924.md": {
+      "hash": "c076769b6f4ad1aed555b7e7d3be61fd6c2d882f7cb958f04d43e48bf023cccf",
+      "timestamp": 1790219510330,
+      "filesWritten": [
+        "wiki/sources/迎接生成范式革命-复旦和wan团队发布首篇agentic视觉生成综述-20260924.md",
+        "wiki/concepts/agentic-visual-generation综述.md",
+        "wiki/concepts/l0-l4控制级别分类.md",
+        "wiki/entities/wan团队.md",
+        "wiki/events/agentic视觉生成综述发布-202609.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/overview.md"
+      ]
     }
   }
 }
